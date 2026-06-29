@@ -4,7 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0E1116",
-    "theme_color": "#0E1116",
+    "theme_color": "#1E88E5",
     "description": "Allenamento esame teorico PPL(A) con feedback istantaneo.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
