@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'models.dart';
 import 'builder.dart';
 import 'results_screen.dart';
+import 'stats_service.dart';
 
 class QuizScreen extends StatefulWidget {
   final List<Question> questions;
@@ -65,6 +66,9 @@ class _QuizScreenState extends State<QuizScreen> {
     _timer?.cancel();
     _answers.add(AnsweredQuestion(_q, _selected ?? -1));
     if (_index >= widget.questions.length - 1) {
+      StatsService.record(
+        QuizAttempt.fromAnswers(_answers, widget.title, widget.isExam),
+      );
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
           builder: (_) => ResultsScreen(

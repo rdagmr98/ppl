@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'models.dart';
 import 'builder.dart';
 import 'quiz_screen.dart';
+import 'stats_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -121,6 +122,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 title: 'Studio per materia',
                 subtitle: 'Scegli una materia e quante domande',
                 onTap: () => _openSubjects(db),
+              ),
+              _ModeCard(
+                icon: Icons.query_stats,
+                color: const Color(0xFF00ACC1),
+                title: 'Statistiche',
+                subtitle: 'Sei pronto per l\'esame? Riepilogo e grafici',
+                onTap: () => Navigator.of(context).push(
+                  MaterialPageRoute(builder: (_) => const StatsScreen()),
+                ),
               ),
               const SizedBox(height: 16),
               Center(
