@@ -132,22 +132,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   MaterialPageRoute(builder: (_) => const StatsScreen()),
                 ),
               ),
-              const SizedBox(height: 16),
-              Center(
-                child: Text(
-                  '${db.total} quesiti nel database',
-                  style: theme.textTheme.bodySmall
-                      ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
-                ),
-              ),
-              const SizedBox(height: 4),
-              Center(
-                child: Text(
-                  'Tocca la risposta: verde = giusta, rossa = sbagliata',
-                  style: theme.textTheme.bodySmall
-                      ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
-                ),
-              ),
             ]),
           ),
         ),
