@@ -9,6 +9,8 @@ class Question {
   final List<String> options;
   final int correct; // indice 0-based della risposta corretta
   final int parte; // materia di appartenenza
+  final String? fig; // riferimento figura (assets/figures/<fig>.webp), se presente
+  final String? explanation; // spiegazione della risposta, se disponibile
 
   const Question({
     required this.gid,
@@ -17,6 +19,8 @@ class Question {
     required this.options,
     required this.correct,
     required this.parte,
+    this.fig,
+    this.explanation,
   });
 
   factory Question.fromJson(Map<String, dynamic> j, int parte) => Question(
@@ -26,6 +30,8 @@ class Question {
         options: (j['options'] as List).map((e) => e.toString()).toList(),
         correct: (j['correct'] as num).toInt(),
         parte: parte,
+        fig: j['fig'] as String?,
+        explanation: j['explanation'] as String?,
       );
 }
 

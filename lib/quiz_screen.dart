@@ -184,6 +184,18 @@ class _QuizScreenState extends State<QuizScreen> {
                             fontWeight: FontWeight.w600,
                           ),
                         ),
+                        if (_q.fig != null) ...[
+                          const SizedBox(height: 16),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(12),
+                            child: Container(
+                              width: double.infinity,
+                              color: Colors.white,
+                              padding: const EdgeInsets.all(8),
+                              child: Image.asset('assets/figures/${_q.fig}.webp'),
+                            ),
+                          ),
+                        ],
                         const SizedBox(height: 24),
                         for (int i = 0; i < _q.options.length; i++)
                           _OptionCard(
@@ -192,6 +204,10 @@ class _QuizScreenState extends State<QuizScreen> {
                             state: _stateFor(i),
                             onTap: () => _onTap(i),
                           ),
+                        if (wrongShown && _q.explanation != null) ...[
+                          const SizedBox(height: 4),
+                          _ExplanationBox(text: _q.explanation!),
+                        ],
                       ],
                     ),
                   ),
@@ -234,6 +250,42 @@ class _QuizScreenState extends State<QuizScreen> {
                 style: TextStyle(fontWeight: FontWeight.bold, letterSpacing: 1)),
           ),
         ),
+      ),
+    );
+  }
+}
+
+class _ExplanationBox extends StatelessWidget {
+  final String text;
+  const _ExplanationBox({required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Container(
+      margin: const EdgeInsets.only(top: 8),
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: theme.colorScheme.secondaryContainer.withValues(alpha: 0.5),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: theme.colorScheme.outlineVariant),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(Icons.lightbulb_outline, size: 20, color: theme.colorScheme.onSecondaryContainer),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Text(
+              text,
+              style: TextStyle(
+                fontSize: 14.5,
+                height: 1.35,
+                color: theme.colorScheme.onSecondaryContainer,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
