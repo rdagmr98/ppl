@@ -78,6 +78,47 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _buildHome(BuildContext context, QuizDb db) {
     final theme = Theme.of(context);
+    final modes = [
+      _ModeCard(
+        icon: Icons.flight_takeoff,
+        color: const Color(0xFF1E88E5),
+        title: 'Esame completo',
+        subtitle: '132 quesiti',
+        onTap: () => _start(buildExam(db), 'Esame completo', isExam: true),
+      ),
+      _ModeCard(
+        icon: Icons.record_voice_over,
+        color: const Color(0xFF26A69A),
+        title: 'Esame + fonia EN',
+        subtitle: '152 quesiti',
+        onTap: () => _start(
+            buildExam(db, withEnglish: true), 'Esame + inglese',
+            isExam: true),
+      ),
+      _ModeCard(
+        icon: Icons.bolt,
+        color: const Color(0xFFFFB300),
+        title: 'Allenamento rapido',
+        subtitle: '30 quesiti',
+        onTap: () => _start(buildMixed(db, 30), 'Allenamento rapido'),
+      ),
+      _ModeCard(
+        icon: Icons.menu_book,
+        color: const Color(0xFF7E57C2),
+        title: 'Studio per materia',
+        subtitle: 'Scegli materia',
+        onTap: () => _openSubjects(db),
+      ),
+      _ModeCard(
+        icon: Icons.query_stats,
+        color: const Color(0xFF00ACC1),
+        title: 'Statistiche',
+        subtitle: 'Sei pronto?',
+        onTap: () => Navigator.of(context).push(
+          MaterialPageRoute(builder: (_) => const StatsScreen()),
+        ),
+      ),
+    ];
     return CustomScrollView(
       slivers: [
         SliverAppBar.large(
@@ -89,50 +130,14 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         SliverPadding(
           padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
-          sliver: SliverList(
-            delegate: SliverChildListDelegate([
-              _ModeCard(
-                icon: Icons.flight_takeoff,
-                color: const Color(0xFF1E88E5),
-                title: 'Esame completo',
-                subtitle: '132 quesiti, distribuzione ufficiale ENAC',
-                onTap: () =>
-                    _start(buildExam(db), 'Esame completo', isExam: true),
-              ),
-              _ModeCard(
-                icon: Icons.record_voice_over,
-                color: const Color(0xFF26A69A),
-                title: 'Esame + fonia inglese',
-                subtitle: '152 quesiti (132 + 20 di comunicazioni EN)',
-                onTap: () => _start(buildExam(db, withEnglish: true),
-                    'Esame + inglese',
-                    isExam: true),
-              ),
-              _ModeCard(
-                icon: Icons.bolt,
-                color: const Color(0xFFFFB300),
-                title: 'Allenamento rapido',
-                subtitle: '30 quesiti casuali da tutte le materie',
-                onTap: () =>
-                    _start(buildMixed(db, 30), 'Allenamento rapido'),
-              ),
-              _ModeCard(
-                icon: Icons.menu_book,
-                color: const Color(0xFF7E57C2),
-                title: 'Studio per materia',
-                subtitle: 'Scegli una materia e quante domande',
-                onTap: () => _openSubjects(db),
-              ),
-              _ModeCard(
-                icon: Icons.query_stats,
-                color: const Color(0xFF00ACC1),
-                title: 'Statistiche',
-                subtitle: 'Sei pronto per l\'esame? Riepilogo e grafici',
-                onTap: () => Navigator.of(context).push(
-                  MaterialPageRoute(builder: (_) => const StatsScreen()),
-                ),
-              ),
-            ]),
+          sliver: SliverGrid(
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              mainAxisSpacing: 12,
+              crossAxisSpacing: 12,
+              childAspectRatio: 0.95,
+            ),
+            delegate: SliverChildListDelegate(modes),
           ),
         ),
       ],
@@ -194,47 +199,45 @@ class _ModeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 12),
-      child: Material(
-        color: theme.colorScheme.surfaceContainerHigh,
+    return Material(
+      color: theme.colorScheme.surfaceContainerHigh,
+      borderRadius: BorderRadius.circular(16),
+      child: InkWell(
         borderRadius: BorderRadius.circular(16),
-        child: InkWell(
-          borderRadius: BorderRadius.circular(16),
-          onTap: onTap,
-          child: Padding(
-            padding: const EdgeInsets.all(16),
-            child: Row(
-              children: [
-                Container(
-                  width: 52,
-                  height: 52,
-                  decoration: BoxDecoration(
-                    color: color.withValues(alpha: 0.18),
-                    borderRadius: BorderRadius.circular(14),
-                  ),
-                  child: Icon(icon, color: color, size: 28),
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.all(14),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                width: 46,
+                height: 46,
+                decoration: BoxDecoration(
+                  color: color.withValues(alpha: 0.18),
+                  borderRadius: BorderRadius.circular(13),
                 ),
-                const SizedBox(width: 16),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(title,
-                          style: const TextStyle(
-                              fontSize: 17, fontWeight: FontWeight.bold)),
-                      const SizedBox(height: 3),
-                      Text(subtitle,
-                          style: TextStyle(
-                              fontSize: 13,
-                              color: theme.colorScheme.onSurfaceVariant)),
-                    ],
-                  ),
-                ),
-                Icon(Icons.chevron_right,
-                    color: theme.colorScheme.onSurfaceVariant),
-              ],
-            ),
+                child: Icon(icon, color: color, size: 24),
+              ),
+              const SizedBox(height: 10),
+              Text(
+                title,
+                textAlign: TextAlign.center,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+                style: const TextStyle(
+                    fontSize: 14.5, fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(height: 4),
+              Text(
+                subtitle,
+                textAlign: TextAlign.center,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: TextStyle(
+                    fontSize: 11.5, color: theme.colorScheme.onSurfaceVariant),
+              ),
+            ],
           ),
         ),
       ),
