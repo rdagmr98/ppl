@@ -171,11 +171,15 @@ class _HeaderArt extends StatelessWidget {
           colors: [Color(0xFF0E1116), Color(0xFF13294B)],
         ),
       ),
-      child: const Align(
-        alignment: Alignment.bottomRight,
-        child: Padding(
-          padding: EdgeInsets.only(right: 16, bottom: 56),
-          child: Icon(Icons.flight, size: 64, color: Colors.white12),
+      child: Align(
+        alignment: const Alignment(0.7, -0.5),
+        child: Opacity(
+          opacity: 0.55,
+          child: Image.asset(
+            'assets/icon/icon_foreground.png',
+            width: 130,
+            height: 130,
+          ),
         ),
       ),
     );

@@ -135,13 +135,22 @@ class _StatsScreenState extends State<StatsScreen> {
     );
   }
 
+  static const _recentWindow = Duration(days: 30);
+
   Widget _content(BuildContext context, List<QuizAttempt> attempts) {
     final theme = Theme.of(context);
+
+    final now = DateTime.now();
+    final recentAttempts = attempts
+        .where((a) => now.difference(a.timestamp) <= _recentWindow)
+        .toList();
+    final usedFullHistory = recentAttempts.isEmpty;
+    final windowed = usedFullHistory ? attempts : recentAttempts;
 
     final Map<int, _SubjectAgg> byParte = {};
     var totalCorrect = 0;
     var totalQuestions = 0;
-    for (final a in attempts) {
+    for (final a in windowed) {
       totalCorrect += a.correctCount;
       totalQuestions += a.totalQuestions;
       for (final entry in a.perSubject.entries) {
@@ -153,6 +162,8 @@ class _StatsScreenState extends State<StatsScreen> {
     }
     final subs = byParte.values.toList()
       ..sort((a, b) => a.parte.compareTo(b.parte));
+    final totalCorrectAll = attempts.fold<int>(0, (sum, a) => sum + a.correctCount);
+    final totalQuestionsAll = attempts.fold<int>(0, (sum, a) => sum + a.totalQuestions);
     final overallPct = totalQuestions == 0 ? 0.0 : totalCorrect / totalQuestions;
     final allPassed = subs.isNotEmpty && subs.every((s) => s.passed);
 
@@ -168,15 +179,17 @@ class _StatsScreenState extends State<StatsScreen> {
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
-        _readinessCard(
-            theme, readiness, overallPct, totalCorrect, totalQuestions, attempts.length),
+        _readinessCard(theme, readiness, overallPct, totalCorrect,
+            totalQuestions, windowed.length, usedFullHistory),
         const SizedBox(height: 28),
         Text('Andamento per materia',
             style:
                 theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold)),
         const SizedBox(height: 4),
         Text(
-          'Percentuale di risposte corrette cumulata su tutti i tentativi',
+          usedFullHistory
+              ? 'Percentuale di risposte corrette cumulata su tutti i tentativi'
+              : 'Percentuale di risposte corrette negli ultimi 30 giorni',
           style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurfaceVariant),
         ),
         const SizedBox(height: 16),
@@ -201,7 +214,7 @@ class _StatsScreenState extends State<StatsScreen> {
             style:
                 theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold)),
         const SizedBox(height: 16),
-        SizedBox(height: 160, child: _overallSection(theme, totalCorrect, totalQuestions)),
+        SizedBox(height: 160, child: _overallSection(theme, totalCorrectAll, totalQuestionsAll)),
         const SizedBox(height: 16),
         Center(
           child: Text(
@@ -215,7 +228,7 @@ class _StatsScreenState extends State<StatsScreen> {
   }
 
   Widget _readinessCard(ThemeData theme, _Readiness r, double overallPct,
-      int correct, int total, int attemptsCount) {
+      int correct, int total, int attemptsCount, bool usedFullHistory) {
     final Color bg;
     final IconData icon;
     final String title;
@@ -268,7 +281,10 @@ class _StatsScreenState extends State<StatsScreen> {
               textAlign: TextAlign.center,
               style: const TextStyle(color: Colors.white70, fontSize: 12)),
           const SizedBox(height: 4),
-          Text('basato su $attemptsCount tentativi completati',
+          Text(
+              usedFullHistory
+                  ? 'basato su $attemptsCount tentativi completati'
+                  : 'basato su $attemptsCount tentativi degli ultimi 30 giorni',
               textAlign: TextAlign.center,
               style: const TextStyle(color: Colors.white54, fontSize: 11)),
         ],
