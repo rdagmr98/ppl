@@ -5,6 +5,7 @@ import 'models.dart';
 import 'builder.dart';
 import 'results_screen.dart';
 import 'stats_service.dart';
+import 'settings_service.dart';
 
 class QuizScreen extends StatefulWidget {
   final List<Question> questions;
@@ -43,6 +44,21 @@ class _QuizScreenState extends State<QuizScreen> {
     super.dispose();
   }
 
+  /// Se in base alla modalita' selezionata (sempre / solo se sbagliata /
+  /// flash) e alla presenza di una spiegazione, la domanda corrente deve
+  /// mostrarla e fermarsi in attesa di un tap dell'utente.
+  bool _showExplanationFor(bool correct) {
+    if (_q.explanation == null) return false;
+    switch (SettingsService.mode.value) {
+      case ExplanationMode.always:
+        return true;
+      case ExplanationMode.wrongOnly:
+        return !correct;
+      case ExplanationMode.flash:
+        return false;
+    }
+  }
+
   void _onTap(int i) {
     if (_locked) return;
     final correct = i == _q.correct;
@@ -53,11 +69,14 @@ class _QuizScreenState extends State<QuizScreen> {
     });
     if (correct) {
       HapticFeedback.lightImpact();
-      _timer = Timer(const Duration(milliseconds: 480), _next);
     } else {
       HapticFeedback.heavyImpact();
-      // resta sulla domanda: l'utente vede la corretta in verde e tocca per continuare
     }
+    if (!_showExplanationFor(correct)) {
+      // flash, o nessuna spiegazione da mostrare: avanza da solo
+      _timer = Timer(const Duration(milliseconds: 480), _next);
+    }
+    // altrimenti resta sulla domanda: l'utente legge e tocca per continuare
   }
 
   void _next() {
@@ -109,11 +128,22 @@ class _QuizScreenState extends State<QuizScreen> {
     if (ok == true && mounted) Navigator.of(context).pop();
   }
 
+  void _openFigureZoom(BuildContext context, String fig) {
+    Navigator.of(context).push(
+      PageRouteBuilder(
+        opaque: false,
+        barrierColor: Colors.black87,
+        pageBuilder: (_, __, ___) => _FigureZoomView(fig: fig),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final total = widget.questions.length;
-    final wrongShown = _locked && _selected != _q.correct;
+    final showExplanation =
+        _locked && _showExplanationFor(_selected == _q.correct);
 
     return PopScope(
       canPop: false,
@@ -163,8 +193,8 @@ class _QuizScreenState extends State<QuizScreen> {
           ),
         ),
         body: GestureDetector(
-          // su risposta sbagliata: tocca ovunque per continuare
-          onTap: wrongShown ? _next : null,
+          // con la spiegazione visibile: tocca ovunque per continuare
+          onTap: showExplanation ? _next : null,
           behavior: HitTestBehavior.opaque,
           child: SafeArea(
             child: Column(
@@ -186,13 +216,16 @@ class _QuizScreenState extends State<QuizScreen> {
                         ),
                         if (_q.fig != null) ...[
                           const SizedBox(height: 16),
-                          ClipRRect(
-                            borderRadius: BorderRadius.circular(12),
-                            child: Container(
-                              width: double.infinity,
-                              color: Colors.white,
-                              padding: const EdgeInsets.all(8),
-                              child: Image.asset('assets/figures/${_q.fig}.webp'),
+                          GestureDetector(
+                            onTap: () => _openFigureZoom(context, _q.fig!),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(12),
+                              child: Container(
+                                width: double.infinity,
+                                color: Colors.white,
+                                padding: const EdgeInsets.all(8),
+                                child: Image.asset('assets/figures/${_q.fig}.webp'),
+                              ),
                             ),
                           ),
                         ],
@@ -204,7 +237,7 @@ class _QuizScreenState extends State<QuizScreen> {
                             state: _stateFor(i),
                             onTap: () => _onTap(i),
                           ),
-                        if (wrongShown && _q.explanation != null) ...[
+                        if (showExplanation && _q.explanation != null) ...[
                           const SizedBox(height: 4),
                           _ExplanationBox(text: _q.explanation!),
                         ],
@@ -212,7 +245,7 @@ class _QuizScreenState extends State<QuizScreen> {
                     ),
                   ),
                 ),
-                _bottomBar(wrongShown, theme),
+                _bottomBar(showExplanation, theme),
               ],
             ),
           ),
@@ -228,8 +261,8 @@ class _QuizScreenState extends State<QuizScreen> {
     return _OptState.muted;
   }
 
-  Widget _bottomBar(bool wrongShown, ThemeData theme) {
-    if (!wrongShown) {
+  Widget _bottomBar(bool showExplanation, ThemeData theme) {
+    if (!showExplanation) {
       // spazio neutro per stabilità layout
       return const SizedBox(height: 64);
     }
@@ -248,6 +281,51 @@ class _QuizScreenState extends State<QuizScreen> {
             icon: const Icon(Icons.arrow_forward),
             label: const Text('CONTINUA',
                 style: TextStyle(fontWeight: FontWeight.bold, letterSpacing: 1)),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Vista a schermo intero per zoomare la figura (pinch/doppio tap), tap
+/// fuori dall'immagine o sulla X per chiudere.
+class _FigureZoomView extends StatelessWidget {
+  final String fig;
+  const _FigureZoomView({required this.fig});
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () => Navigator.of(context).pop(),
+      child: Scaffold(
+        backgroundColor: Colors.transparent,
+        body: SafeArea(
+          child: Stack(
+            children: [
+              Center(
+                child: InteractiveViewer(
+                  minScale: 1,
+                  maxScale: 6,
+                  child: GestureDetector(
+                    onTap: () {}, // assorbe il tap per non chiudere sull'immagine
+                    child: Container(
+                      color: Colors.white,
+                      padding: const EdgeInsets.all(8),
+                      child: Image.asset('assets/figures/$fig.webp'),
+                    ),
+                  ),
+                ),
+              ),
+              Positioned(
+                top: 8,
+                right: 8,
+                child: IconButton(
+                  icon: const Icon(Icons.close, color: Colors.white, size: 30),
+                  onPressed: () => Navigator.of(context).pop(),
+                ),
+              ),
+            ],
           ),
         ),
       ),

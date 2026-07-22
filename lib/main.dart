@@ -3,9 +3,11 @@ import 'models.dart';
 import 'builder.dart';
 import 'quiz_screen.dart';
 import 'stats_screen.dart';
+import 'settings_service.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await SettingsService.load();
   runApp(const PplApp());
 }
 
@@ -124,6 +126,14 @@ class _HomeScreenState extends State<HomeScreen> {
         SliverAppBar.large(
           title: const Text('Quiz PPL(A)'),
           backgroundColor: theme.colorScheme.surface,
+          leadingWidth: 130,
+          leading: const Padding(
+            padding: EdgeInsets.only(left: 8),
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: _ExplanationModeSelector(),
+            ),
+          ),
           flexibleSpace: const FlexibleSpaceBar(
             background: _HeaderArt(),
           ),
@@ -153,6 +163,69 @@ class _HomeScreenState extends State<HomeScreen> {
             Navigator.of(context).pop();
             _start(questions, title);
           },
+        ),
+      ),
+    );
+  }
+}
+
+/// Selettore a 3 posizioni (in alto a sinistra nella home) per decidere
+/// quando mostrare la spiegazione durante il quiz: sempre, solo se
+/// sbagliata, oppure mai ("flash", avanza subito anche su errore).
+class _ExplanationModeSelector extends StatelessWidget {
+  const _ExplanationModeSelector();
+
+  static const _icons = {
+    ExplanationMode.always: Icons.menu_book,
+    ExplanationMode.wrongOnly: Icons.error_outline,
+    ExplanationMode.flash: Icons.bolt,
+  };
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return ValueListenableBuilder<ExplanationMode>(
+      valueListenable: SettingsService.mode,
+      builder: (context, mode, _) {
+        return Container(
+          padding: const EdgeInsets.all(3),
+          decoration: BoxDecoration(
+            color: theme.colorScheme.surfaceContainerHigh,
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              for (final m in ExplanationMode.values)
+                _segment(context, theme, m, mode),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _segment(BuildContext context, ThemeData theme, ExplanationMode m,
+      ExplanationMode current) {
+    final selected = m == current;
+    return Tooltip(
+      message: m.label,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(17),
+        onTap: () => SettingsService.setMode(m),
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 150),
+          width: 32,
+          height: 32,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            color: selected ? theme.colorScheme.primary : Colors.transparent,
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: Icon(_icons[m], size: 17,
+              color: selected
+                  ? theme.colorScheme.onPrimary
+                  : theme.colorScheme.onSurfaceVariant),
         ),
       ),
     );
