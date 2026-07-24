@@ -1,5 +1,19 @@
 import 'dart:math';
 import 'models.dart';
+import 'seen_service.dart';
+
+/// Mescola [pool] ma porta in cima le domande mai comparse in un quiz
+/// completato, cosi' l'intero database viene esplorato prima di ripetere.
+List<Question> _prioritizeUnseen(List<Question> pool, Random rnd) {
+  final unseen = <Question>[];
+  final seen = <Question>[];
+  for (final q in pool) {
+    (SeenService.hasSeen(q.gid) ? seen : unseen).add(q);
+  }
+  unseen.shuffle(rnd);
+  seen.shuffle(rnd);
+  return [...unseen, ...seen];
+}
 
 /// Costruisce la lista di domande per una prova d'esame realistica,
 /// pescando da ogni materia il numero ufficiale di quesiti (in ordine di materia).
@@ -13,7 +27,7 @@ List<Question> buildExam(QuizDb db, {bool withEnglish = false}) {
   for (final parte in partes) {
     final subject = db.byParte(parte);
     if (subject == null || subject.questions.isEmpty) continue;
-    final pool = List<Question>.from(subject.questions)..shuffle(rnd);
+    final pool = _prioritizeUnseen(subject.questions, rnd);
     final take = min(dist[parte]!, pool.length);
     result.addAll(pool.take(take));
   }
@@ -23,7 +37,7 @@ List<Question> buildExam(QuizDb db, {bool withEnglish = false}) {
 /// Costruisce una sessione di studio su una singola materia.
 List<Question> buildStudy(Subject subject, {int? limit}) {
   final rnd = Random();
-  final pool = List<Question>.from(subject.questions)..shuffle(rnd);
+  final pool = _prioritizeUnseen(subject.questions, rnd);
   if (limit != null && limit < pool.length) {
     return pool.take(limit).toList();
   }
@@ -37,8 +51,8 @@ List<Question> buildMixed(QuizDb db, int count) {
   for (final s in db.subjects) {
     all.addAll(s.questions);
   }
-  all.shuffle(rnd);
-  return all.take(min(count, all.length)).toList();
+  final pool = _prioritizeUnseen(all, rnd);
+  return pool.take(min(count, pool.length)).toList();
 }
 
 /// Esito di una domanda risposta.

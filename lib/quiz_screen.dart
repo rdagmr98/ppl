@@ -6,6 +6,7 @@ import 'builder.dart';
 import 'results_screen.dart';
 import 'stats_service.dart';
 import 'settings_service.dart';
+import 'seen_service.dart';
 
 class QuizScreen extends StatefulWidget {
   final List<Question> questions;
@@ -88,6 +89,7 @@ class _QuizScreenState extends State<QuizScreen> {
       StatsService.record(
         QuizAttempt.fromAnswers(_answers, widget.title, widget.isExam),
       );
+      SeenService.markSeen(_answers.map((a) => a.question.gid));
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
           builder: (_) => ResultsScreen(

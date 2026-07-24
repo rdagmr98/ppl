@@ -4,10 +4,12 @@ import 'builder.dart';
 import 'quiz_screen.dart';
 import 'stats_screen.dart';
 import 'settings_service.dart';
+import 'seen_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await SettingsService.load();
+  await SeenService.load();
   runApp(const PplApp());
 }
 
@@ -117,7 +119,9 @@ class _HomeScreenState extends State<HomeScreen> {
         title: 'Statistiche',
         subtitle: 'Sei pronto?',
         onTap: () => Navigator.of(context).push(
-          MaterialPageRoute(builder: (_) => const StatsScreen()),
+          MaterialPageRoute(
+            builder: (_) => StatsScreen(totalDbQuestions: db.total),
+          ),
         ),
       ),
     ];
@@ -128,12 +132,9 @@ class _HomeScreenState extends State<HomeScreen> {
           backgroundColor: theme.colorScheme.surface,
           toolbarHeight: 84,
           leadingWidth: 160,
-          leading: const Padding(
-            padding: EdgeInsets.only(left: 8),
-            child: Align(
-              alignment: Alignment.centerLeft,
-              child: _ExplanationModeSelector(),
-            ),
+          leading: const Align(
+            alignment: Alignment.center,
+            child: _ExplanationModeSelector(),
           ),
           flexibleSpace: const FlexibleSpaceBar(
             background: _HeaderArt(),

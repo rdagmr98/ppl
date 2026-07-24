@@ -15,7 +15,8 @@ class _SubjectAgg {
 enum _Readiness { ready, close, notReady }
 
 class StatsScreen extends StatefulWidget {
-  const StatsScreen({super.key});
+  final int totalDbQuestions;
+  const StatsScreen({super.key, required this.totalDbQuestions});
 
   @override
   State<StatsScreen> createState() => _StatsScreenState();
@@ -135,17 +136,29 @@ class _StatsScreenState extends State<StatsScreen> {
     );
   }
 
-  static const _recentWindow = Duration(days: 30);
+  // Finestra "recente" per il giudizio di preparazione: non un tempo fisso,
+  // ma un numero di tentativi (dal piu' recente indietro) che copra almeno
+  // il 15% del database di domande — un campione ampio e rappresentativo
+  // del syllabus, non solo le ultimissime sessioni.
+  static const _recentCoverageTarget = 0.15;
 
   Widget _content(BuildContext context, List<QuizAttempt> attempts) {
     final theme = Theme.of(context);
 
-    final now = DateTime.now();
-    final recentAttempts = attempts
-        .where((a) => now.difference(a.timestamp) <= _recentWindow)
-        .toList();
-    final usedFullHistory = recentAttempts.isEmpty;
-    final windowed = usedFullHistory ? attempts : recentAttempts;
+    final targetQuestions =
+        (widget.totalDbQuestions * _recentCoverageTarget).round();
+    final windowed = <QuizAttempt>[];
+    var coveredQuestions = 0;
+    for (var i = attempts.length - 1;
+        i >= 0 && coveredQuestions < targetQuestions;
+        i--) {
+      windowed.add(attempts[i]);
+      coveredQuestions += attempts[i].totalQuestions;
+    }
+    final usedFullHistory = windowed.length == attempts.length;
+    final coveragePct = widget.totalDbQuestions == 0
+        ? 0
+        : (coveredQuestions / widget.totalDbQuestions * 100).round();
 
     final Map<int, _SubjectAgg> byParte = {};
     var totalCorrect = 0;
@@ -180,7 +193,7 @@ class _StatsScreenState extends State<StatsScreen> {
       padding: const EdgeInsets.all(16),
       children: [
         _readinessCard(theme, readiness, overallPct, totalCorrect,
-            totalQuestions, windowed.length, usedFullHistory),
+            totalQuestions, windowed.length, usedFullHistory, coveragePct),
         const SizedBox(height: 28),
         Text('Andamento per materia',
             style:
@@ -189,7 +202,8 @@ class _StatsScreenState extends State<StatsScreen> {
         Text(
           usedFullHistory
               ? 'Percentuale di risposte corrette cumulata su tutti i tentativi'
-              : 'Percentuale di risposte corrette negli ultimi 30 giorni',
+              : 'Percentuale di risposte corrette negli ultimi ${windowed.length} '
+                  'tentativi (~$coveragePct% del database)',
           style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurfaceVariant),
         ),
         const SizedBox(height: 16),
@@ -227,8 +241,15 @@ class _StatsScreenState extends State<StatsScreen> {
     );
   }
 
-  Widget _readinessCard(ThemeData theme, _Readiness r, double overallPct,
-      int correct, int total, int attemptsCount, bool usedFullHistory) {
+  Widget _readinessCard(
+      ThemeData theme,
+      _Readiness r,
+      double overallPct,
+      int correct,
+      int total,
+      int attemptsCount,
+      bool usedFullHistory,
+      int coveragePct) {
     final Color bg;
     final IconData icon;
     final String title;
@@ -284,7 +305,8 @@ class _StatsScreenState extends State<StatsScreen> {
           Text(
               usedFullHistory
                   ? 'basato su $attemptsCount tentativi completati'
-                  : 'basato su $attemptsCount tentativi degli ultimi 30 giorni',
+                  : 'basato su $attemptsCount tentativi recenti '
+                      '(~$coveragePct% del database)',
               textAlign: TextAlign.center,
               style: const TextStyle(color: Colors.white54, fontSize: 11)),
         ],
