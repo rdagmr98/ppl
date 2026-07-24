@@ -128,14 +128,21 @@ class _HomeScreenState extends State<HomeScreen> {
     return CustomScrollView(
       slivers: [
         SliverAppBar.large(
-          title: const Text('Quiz PPL(A)'),
+          title: const Stack(
+            children: [
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Text('Quiz PPL(A)'),
+              ),
+              Align(
+                alignment: Alignment(_logoAlignX, 0),
+                child: _ExplanationModeSelector(),
+              ),
+            ],
+          ),
+          titleSpacing: 0,
           backgroundColor: theme.colorScheme.surface,
           toolbarHeight: 84,
-          leadingWidth: 160,
-          leading: const Align(
-            alignment: Alignment.center,
-            child: _ExplanationModeSelector(),
-          ),
           flexibleSpace: const FlexibleSpaceBar(
             background: _HeaderArt(),
           ),
@@ -249,6 +256,11 @@ class _ExplanationModeSelector extends StatelessWidget {
   }
 }
 
+// X condiviso con il selettore in SliverAppBar.large: i due Align vivono in
+// sottoalberi diversi (title vs flexibleSpace) ma stessa larghezza, quindi
+// stessa X li mantiene allineati sullo schermo.
+const _logoAlignX = 0.7;
+
 class _HeaderArt extends StatelessWidget {
   const _HeaderArt();
   @override
@@ -262,7 +274,7 @@ class _HeaderArt extends StatelessWidget {
         ),
       ),
       child: Align(
-        alignment: const Alignment(0.7, -0.5),
+        alignment: const Alignment(_logoAlignX, -0.5),
         child: Opacity(
           opacity: 0.55,
           child: Image.asset(
