@@ -12,6 +12,12 @@ enum ExplanationMode {
         ExplanationMode.wrongOnly => 'Se sbagliata',
         ExplanationMode.flash => 'Flash',
       };
+
+  String get description => switch (this) {
+        ExplanationMode.always => 'Sempre visibile',
+        ExplanationMode.wrongOnly => 'Solo se sbagli',
+        ExplanationMode.flash => 'Avanza subito',
+      };
 }
 
 /// Preferenza persistita (shared_preferences) su quando mostrare le

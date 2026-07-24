@@ -126,7 +126,8 @@ class _HomeScreenState extends State<HomeScreen> {
         SliverAppBar.large(
           title: const Text('Quiz PPL(A)'),
           backgroundColor: theme.colorScheme.surface,
-          leadingWidth: 130,
+          toolbarHeight: 84,
+          leadingWidth: 160,
           leading: const Padding(
             padding: EdgeInsets.only(left: 8),
             child: Align(
@@ -187,19 +188,32 @@ class _ExplanationModeSelector extends StatelessWidget {
     return ValueListenableBuilder<ExplanationMode>(
       valueListenable: SettingsService.mode,
       builder: (context, mode, _) {
-        return Container(
-          padding: const EdgeInsets.all(3),
-          decoration: BoxDecoration(
-            color: theme.colorScheme.surfaceContainerHigh,
-            borderRadius: BorderRadius.circular(20),
-          ),
-          child: Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              for (final m in ExplanationMode.values)
-                _segment(context, theme, m, mode),
-            ],
-          ),
+        return Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Container(
+              padding: const EdgeInsets.all(4),
+              decoration: BoxDecoration(
+                color: theme.colorScheme.surfaceContainerHigh,
+                borderRadius: BorderRadius.circular(25),
+              ),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  for (final m in ExplanationMode.values)
+                    _segment(context, theme, m, mode),
+                ],
+              ),
+            ),
+            const SizedBox(height: 4),
+            Text(
+              mode.description,
+              textAlign: TextAlign.center,
+              style: theme.textTheme.labelSmall
+                  ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
+            ),
+          ],
         );
       },
     );
@@ -211,18 +225,18 @@ class _ExplanationModeSelector extends StatelessWidget {
     return Tooltip(
       message: m.label,
       child: InkWell(
-        borderRadius: BorderRadius.circular(17),
+        borderRadius: BorderRadius.circular(21),
         onTap: () => SettingsService.setMode(m),
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 150),
-          width: 32,
-          height: 32,
+          width: 42,
+          height: 42,
           alignment: Alignment.center,
           decoration: BoxDecoration(
             color: selected ? theme.colorScheme.primary : Colors.transparent,
-            borderRadius: BorderRadius.circular(16),
+            borderRadius: BorderRadius.circular(19),
           ),
-          child: Icon(_icons[m], size: 17,
+          child: Icon(_icons[m], size: 22,
               color: selected
                   ? theme.colorScheme.onPrimary
                   : theme.colorScheme.onSurfaceVariant),
