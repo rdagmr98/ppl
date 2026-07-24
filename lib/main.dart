@@ -128,19 +128,6 @@ class _HomeScreenState extends State<HomeScreen> {
     return CustomScrollView(
       slivers: [
         SliverAppBar.large(
-          title: const Stack(
-            children: [
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text('Quiz PPL(A)'),
-              ),
-              Align(
-                alignment: Alignment(_logoAlignX, 0),
-                child: _ExplanationModeSelector(),
-              ),
-            ],
-          ),
-          titleSpacing: 0,
           backgroundColor: theme.colorScheme.surface,
           toolbarHeight: 84,
           flexibleSpace: const FlexibleSpaceBar(
@@ -178,8 +165,8 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-/// Selettore a 3 posizioni (in alto a sinistra nella home) per decidere
-/// quando mostrare la spiegazione durante il quiz: sempre, solo se
+/// Selettore a 3 posizioni (nel banner in alto, allineato al logo) per
+/// decidere quando mostrare la spiegazione durante il quiz: sempre, solo se
 /// sbagliata, oppure mai ("flash", avanza subito anche su errore).
 class _ExplanationModeSelector extends StatelessWidget {
   const _ExplanationModeSelector();
@@ -256,9 +243,7 @@ class _ExplanationModeSelector extends StatelessWidget {
   }
 }
 
-// X condiviso con il selettore in SliverAppBar.large: i due Align vivono in
-// sottoalberi diversi (title vs flexibleSpace) ma stessa larghezza, quindi
-// stessa X li mantiene allineati sullo schermo.
+// X condivisa tra logo, titolo e selettore dentro lo Stack di _HeaderArt.
 const _logoAlignX = 0.7;
 
 class _HeaderArt extends StatelessWidget {
@@ -273,16 +258,35 @@ class _HeaderArt extends StatelessWidget {
           colors: [Color(0xFF0E1116), Color(0xFF13294B)],
         ),
       ),
-      child: Align(
-        alignment: const Alignment(_logoAlignX, -0.5),
-        child: Opacity(
-          opacity: 0.55,
-          child: Image.asset(
-            'assets/icon/icon_foreground.png',
-            width: 130,
-            height: 130,
+      child: Stack(
+        children: [
+          Align(
+            alignment: const Alignment(_logoAlignX, -0.5),
+            child: Opacity(
+              opacity: 0.55,
+              child: Image.asset(
+                'assets/icon/icon_foreground.png',
+                width: 130,
+                height: 130,
+              ),
+            ),
           ),
-        ),
+          Align(
+            alignment: Alignment.centerLeft,
+            child: Padding(
+              padding: const EdgeInsets.only(left: 16),
+              child: Text(
+                'Quiz PPL(A)',
+                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                    color: Colors.white, fontWeight: FontWeight.bold),
+              ),
+            ),
+          ),
+          const Align(
+            alignment: Alignment(_logoAlignX, 0),
+            child: _ExplanationModeSelector(),
+          ),
+        ],
       ),
     );
   }
