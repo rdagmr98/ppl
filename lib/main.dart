@@ -210,6 +210,8 @@ class _ExplanationModeSelector extends StatelessWidget {
             Text(
               mode.description,
               textAlign: TextAlign.center,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
               style: theme.textTheme.labelSmall
                   ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
             ),

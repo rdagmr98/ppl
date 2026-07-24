@@ -8,15 +8,15 @@ enum ExplanationMode {
   flash; // mai: avanza subito, anche su risposta sbagliata
 
   String get label => switch (this) {
-        ExplanationMode.always => 'Sempre',
-        ExplanationMode.wrongOnly => 'Se sbagliata',
-        ExplanationMode.flash => 'Flash',
+        ExplanationMode.always => 'Spiegazioni sempre visibili',
+        ExplanationMode.wrongOnly => 'Spiegazioni solo se sbagli',
+        ExplanationMode.flash => 'Spiegazioni disattivate (avanza subito)',
       };
 
   String get description => switch (this) {
-        ExplanationMode.always => 'Sempre visibile',
-        ExplanationMode.wrongOnly => 'Solo se sbagli',
-        ExplanationMode.flash => 'Avanza subito',
+        ExplanationMode.always => 'Spiegazioni: sempre',
+        ExplanationMode.wrongOnly => 'Spiegazioni: se sbagli',
+        ExplanationMode.flash => 'Spiegazioni: mai',
       };
 }
 
