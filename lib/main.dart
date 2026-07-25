@@ -124,6 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
+      const _ExplanationModeCard(),
     ];
     return CustomScrollView(
       slivers: [
@@ -165,9 +166,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-/// Selettore a 3 posizioni (nel banner in alto, allineato al logo) per
-/// decidere quando mostrare la spiegazione durante il quiz: sempre, solo se
-/// sbagliata, oppure mai ("flash", avanza subito anche su errore).
+/// Selettore a 3 posizioni (sesta cella della griglia home, sotto
+/// _ExplanationModeCard) per decidere quando mostrare la spiegazione durante
+/// il quiz: sempre, solo se sbagliata, oppure mai ("flash", avanza subito
+/// anche su errore).
 class _ExplanationModeSelector extends StatelessWidget {
   const _ExplanationModeSelector();
 
@@ -187,18 +189,21 @@ class _ExplanationModeSelector extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Container(
-              padding: const EdgeInsets.all(4),
-              decoration: BoxDecoration(
-                color: theme.colorScheme.surfaceContainerHigh,
-                borderRadius: BorderRadius.circular(25),
-              ),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  for (final m in ExplanationMode.values)
-                    _segment(context, theme, m, mode),
-                ],
+            FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Container(
+                padding: const EdgeInsets.all(4),
+                decoration: BoxDecoration(
+                  color: theme.colorScheme.surfaceContainerHighest,
+                  borderRadius: BorderRadius.circular(25),
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    for (final m in ExplanationMode.values)
+                      _segment(context, theme, m, mode),
+                  ],
+                ),
               ),
             ),
             const SizedBox(height: 4),
@@ -243,9 +248,6 @@ class _ExplanationModeSelector extends StatelessWidget {
   }
 }
 
-// X condivisa tra logo, titolo e selettore dentro lo Stack di _HeaderArt.
-const _logoAlignX = 0.7;
-
 class _HeaderArt extends StatelessWidget {
   const _HeaderArt();
   @override
@@ -261,7 +263,7 @@ class _HeaderArt extends StatelessWidget {
       child: Stack(
         children: [
           Align(
-            alignment: const Alignment(_logoAlignX, -0.5),
+            alignment: const Alignment(0.7, -0.5),
             child: Opacity(
               opacity: 0.55,
               child: Image.asset(
@@ -281,10 +283,6 @@ class _HeaderArt extends StatelessWidget {
                     color: Colors.white, fontWeight: FontWeight.bold),
               ),
             ),
-          ),
-          const Align(
-            alignment: Alignment(_logoAlignX, 0),
-            child: _ExplanationModeSelector(),
           ),
         ],
       ),
@@ -350,6 +348,26 @@ class _ModeCard extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// Sesta cella della griglia home (5 modalità = 5 celle, ne resta 1 libera
+/// in una griglia 2 colonne x 3 righe): ospita il selettore spiegazioni
+/// invece di lasciarla vuota, stesso stile card delle altre 5.
+class _ExplanationModeCard extends StatelessWidget {
+  const _ExplanationModeCard();
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Material(
+      color: theme.colorScheme.surfaceContainerHigh,
+      borderRadius: BorderRadius.circular(16),
+      child: const Padding(
+        padding: EdgeInsets.all(14),
+        child: Center(child: _ExplanationModeSelector()),
       ),
     );
   }
