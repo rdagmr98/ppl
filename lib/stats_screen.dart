@@ -1,6 +1,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'models.dart';
+import 'seen_service.dart';
 import 'stats_service.dart';
 
 class _SubjectAgg {
@@ -194,6 +195,8 @@ class _StatsScreenState extends State<StatsScreen> {
       children: [
         _readinessCard(theme, readiness, overallPct, totalCorrect,
             totalQuestions, windowed.length, usedFullHistory, coveragePct),
+        const SizedBox(height: 16),
+        _dbCoverageCard(theme),
         const SizedBox(height: 28),
         Text('Andamento per materia',
             style:
@@ -201,8 +204,8 @@ class _StatsScreenState extends State<StatsScreen> {
         const SizedBox(height: 4),
         Text(
           usedFullHistory
-              ? 'Percentuale di risposte corrette cumulata su tutti i tentativi'
-              : 'Percentuale di risposte corrette negli ultimi ${windowed.length} '
+              ? 'Prontezza per materia su tutti i tentativi disponibili'
+              : 'Prontezza per materia negli ultimi ${windowed.length} '
                   'tentativi (~$coveragePct% del database)',
           style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurfaceVariant),
         ),
@@ -309,6 +312,61 @@ class _StatsScreenState extends State<StatsScreen> {
                       '(~$coveragePct% del database)',
               textAlign: TextAlign.center,
               style: const TextStyle(color: Colors.white54, fontSize: 11)),
+        ],
+      ),
+    );
+  }
+
+  Widget _dbCoverageCard(ThemeData theme) {
+    final seen = SeenService.seenCount;
+    final total = widget.totalDbQuestions;
+    final pct = total == 0 ? 0.0 : (seen / total).clamp(0.0, 1.0);
+    final remaining = (total - seen).clamp(0, total);
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: theme.colorScheme.surfaceContainerHighest,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: theme.colorScheme.outlineVariant),
+      ),
+      child: Row(
+        children: [
+          Icon(Icons.library_books_outlined,
+              size: 28, color: theme.colorScheme.primary),
+          const SizedBox(width: 14),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('Copertura database',
+                    style: theme.textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w600)),
+                const SizedBox(height: 4),
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(4),
+                  child: LinearProgressIndicator(
+                    value: pct,
+                    minHeight: 8,
+                    color: theme.colorScheme.primary,
+                    backgroundColor: theme.colorScheme.surfaceContainerLow,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  remaining > 0
+                      ? '$seen / $total domande ($remaining da fare)'
+                      : '$seen / $total domande (completato!)',
+                  style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurfaceVariant),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(width: 14),
+          Text('${(pct * 100).round()}%',
+              style: TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                  color: theme.colorScheme.primary)),
         ],
       ),
     );

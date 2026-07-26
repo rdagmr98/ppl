@@ -16,6 +16,8 @@ class SeenService {
 
   static bool hasSeen(int gid) => _seen.contains(gid);
 
+  static int get seenCount => _seen.length;
+
   static Future<void> markSeen(Iterable<int> gids) async {
     _seen.addAll(gids);
     final prefs = await SharedPreferences.getInstance();
