@@ -66,7 +66,11 @@ class _QuizScreenState extends State<QuizScreen> {
     setState(() {
       _selected = i;
       _locked = true;
-      if (correct) _correctCount++;
+      if (correct) {
+        _correctCount++;
+      } else {
+        SeenService.markWrong(_q.gid);
+      }
     });
     if (correct) {
       HapticFeedback.lightImpact();

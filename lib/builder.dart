@@ -55,6 +55,18 @@ List<Question> buildMixed(QuizDb db, int count) {
   return pool.take(min(count, pool.length)).toList();
 }
 
+/// Ripassa solo le domande gia' sbagliate in quiz precedenti.
+List<Question> buildErrors(QuizDb db) {
+  final result = <Question>[];
+  for (final s in db.subjects) {
+    for (final q in s.questions) {
+      if (SeenService.hasWrong(q.gid)) result.add(q);
+    }
+  }
+  result.shuffle(Random());
+  return result;
+}
+
 /// Esito di una domanda risposta.
 class AnsweredQuestion {
   final Question question;

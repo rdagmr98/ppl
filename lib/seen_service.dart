@@ -5,13 +5,17 @@ import 'package:shared_preferences/shared_preferences.dart';
 /// all'avvio in [load] e tenuto in cache in memoria: le letture successive
 /// sono sincrone e sempre aggiornate anche dopo [markSeen].
 class SeenService {
-  static const _key = 'seen_gids_v1';
+  static const _seenKey = 'seen_gids_v1';
+  static const _wrongKey = 'wrong_gids_v1';
   static Set<int> _seen = {};
+  static Set<int> _wrong = {};
 
   static Future<void> load() async {
     final prefs = await SharedPreferences.getInstance();
-    final raw = prefs.getStringList(_key) ?? const [];
-    _seen = raw.map(int.parse).toSet();
+    final rawSeen = prefs.getStringList(_seenKey) ?? const [];
+    final rawWrong = prefs.getStringList(_wrongKey) ?? const [];
+    _seen = rawSeen.map(int.parse).toSet();
+    _wrong = rawWrong.map(int.parse).toSet();
   }
 
   static bool hasSeen(int gid) => _seen.contains(gid);
@@ -21,12 +25,24 @@ class SeenService {
   static Future<void> markSeen(Iterable<int> gids) async {
     _seen.addAll(gids);
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setStringList(_key, _seen.map((e) => e.toString()).toList());
+    await prefs.setStringList(_seenKey, _seen.map((e) => e.toString()).toList());
+  }
+
+  static bool hasWrong(int gid) => _wrong.contains(gid);
+
+  static int get wrongCount => _wrong.length;
+
+  static Future<void> markWrong(int gid) async {
+    _wrong.add(gid);
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setStringList(_wrongKey, _wrong.map((e) => e.toString()).toList());
   }
 
   static Future<void> clearAll() async {
     _seen = {};
+    _wrong = {};
     final prefs = await SharedPreferences.getInstance();
-    await prefs.remove(_key);
+    await prefs.remove(_seenKey);
+    await prefs.remove(_wrongKey);
   }
 }

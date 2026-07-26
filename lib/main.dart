@@ -124,7 +124,9 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
-      const _ExplanationModeCard(),
+      _ErrorsCard(
+        onTap: () => _start(buildErrors(db), 'Ripasso errori'),
+      ),
     ];
     return CustomScrollView(
       slivers: [
@@ -135,8 +137,17 @@ class _HomeScreenState extends State<HomeScreen> {
             background: _HeaderArt(),
           ),
         ),
+        SliverToBoxAdapter(
+          child: _SubjectPickerRow(db: db, onSubject: (s) => _openSubject(db, s)),
+        ),
+        SliverToBoxAdapter(
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+            child: Center(child: _ExplanationModeSelector()),
+          ),
+        ),
         SliverPadding(
-          padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
+          padding: const EdgeInsets.fromLTRB(16, 0, 16, 24),
           sliver: SliverGrid(
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
@@ -160,6 +171,115 @@ class _HomeScreenState extends State<HomeScreen> {
             Navigator.of(context).pop();
             _start(questions, title);
           },
+        ),
+      ),
+    );
+  }
+
+  void _openSubject(QuizDb db, Subject s) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => _SubjectQuickSheet(
+          subject: s,
+          onStart: (questions, title) {
+            Navigator.of(context).pop();
+            _start(questions, title);
+          },
+        ),
+      ),
+    );
+  }
+}
+
+/// Row di chip per ogni materia, centrata tra header e griglia.
+class _SubjectPickerRow extends StatelessWidget {
+  final QuizDb db;
+  final void Function(Subject) onSubject;
+  const _SubjectPickerRow({required this.db, required this.onSubject});
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      scrollDirection: Axis.horizontal,
+      padding: const EdgeInsets.symmetric(horizontal: 16),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          for (final s in db.subjects)
+            Padding(
+              padding: const EdgeInsets.only(right: 8),
+              child: ChoiceChip(
+                label: Text(s.name),
+                selected: false,
+                onSelected: (_) => onSubject(s),
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Card per il ripasso degli errori: mostra il conteggio e lancia buildErrors.
+class _ErrorsCard extends StatelessWidget {
+  final VoidCallback onTap;
+  const _ErrorsCard({required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return _ModeCard(
+      icon: Icons.error_outline,
+      color: const Color(0xFFD32F2F),
+      title: 'Ripassa errori',
+      subtitle: '${SeenService.wrongCount} domande sbagliate',
+      onTap: onTap,
+    );
+  }
+}
+
+/// Bottom sheet rapido per scegliere il conteggio domande di una singola materia.
+class _SubjectQuickSheet extends StatelessWidget {
+  final Subject subject;
+  final void Function(List<Question>, String) onStart;
+  const _SubjectQuickSheet({required this.subject, required this.onStart});
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final counts = [10, 20, 40].where((c) => c < subject.questions.length).toList();
+    return Scaffold(
+      backgroundColor: theme.colorScheme.surfaceContainerHigh,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        title: Text(subject.name),
+      ),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('${subject.questions.length} domande disponibili',
+                  style: TextStyle(color: theme.colorScheme.onSurfaceVariant)),
+              const SizedBox(height: 20),
+              Wrap(
+                spacing: 10,
+                runSpacing: 10,
+                children: [
+                  for (final c in counts)
+                    FilledButton.tonal(
+                      onPressed: () => onStart(buildStudy(subject, limit: c), subject.name),
+                      child: Text('$c domande'),
+                    ),
+                  FilledButton(
+                    onPressed: () => onStart(buildStudy(subject), subject.name),
+                    child: Text('Tutte (${subject.questions.length})'),
+                  ),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
@@ -348,26 +468,6 @@ class _ModeCard extends StatelessWidget {
             ],
           ),
         ),
-      ),
-    );
-  }
-}
-
-/// Sesta cella della griglia home (5 modalità = 5 celle, ne resta 1 libera
-/// in una griglia 2 colonne x 3 righe): ospita il selettore spiegazioni
-/// invece di lasciarla vuota, stesso stile card delle altre 5.
-class _ExplanationModeCard extends StatelessWidget {
-  const _ExplanationModeCard();
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    return Material(
-      color: theme.colorScheme.surfaceContainerHigh,
-      borderRadius: BorderRadius.circular(16),
-      child: const Padding(
-        padding: EdgeInsets.all(14),
-        child: Center(child: _ExplanationModeSelector()),
       ),
     );
   }
