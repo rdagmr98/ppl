@@ -138,9 +138,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
         SliverToBoxAdapter(
-          child: _SubjectPickerRow(db: db, onSubject: (s) => _openSubject(db, s)),
-        ),
-        SliverToBoxAdapter(
           child: Padding(
             padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
             child: Center(child: _ExplanationModeSelector()),
@@ -176,49 +173,8 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  void _openSubject(QuizDb db, Subject s) {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => _SubjectQuickSheet(
-          subject: s,
-          onStart: (questions, title) {
-            Navigator.of(context).pop();
-            _start(questions, title);
-          },
-        ),
-      ),
-    );
-  }
 }
 
-/// Row di chip per ogni materia, centrata tra header e griglia.
-class _SubjectPickerRow extends StatelessWidget {
-  final QuizDb db;
-  final void Function(Subject) onSubject;
-  const _SubjectPickerRow({required this.db, required this.onSubject});
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-      padding: const EdgeInsets.symmetric(horizontal: 16),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          for (final s in db.subjects)
-            Padding(
-              padding: const EdgeInsets.only(right: 8),
-              child: ChoiceChip(
-                label: Text(s.name),
-                selected: false,
-                onSelected: (_) => onSubject(s),
-              ),
-            ),
-        ],
-      ),
-    );
-  }
-}
 
 /// Card per il ripasso degli errori: mostra il conteggio e lancia buildErrors.
 class _ErrorsCard extends StatelessWidget {
@@ -233,55 +189,6 @@ class _ErrorsCard extends StatelessWidget {
       title: 'Ripassa errori',
       subtitle: '${SeenService.wrongCount} domande sbagliate',
       onTap: onTap,
-    );
-  }
-}
-
-/// Bottom sheet rapido per scegliere il conteggio domande di una singola materia.
-class _SubjectQuickSheet extends StatelessWidget {
-  final Subject subject;
-  final void Function(List<Question>, String) onStart;
-  const _SubjectQuickSheet({required this.subject, required this.onStart});
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final counts = [10, 20, 40].where((c) => c < subject.questions.length).toList();
-    return Scaffold(
-      backgroundColor: theme.colorScheme.surfaceContainerHigh,
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        title: Text(subject.name),
-      ),
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(20),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text('${subject.questions.length} domande disponibili',
-                  style: TextStyle(color: theme.colorScheme.onSurfaceVariant)),
-              const SizedBox(height: 20),
-              Wrap(
-                spacing: 10,
-                runSpacing: 10,
-                children: [
-                  for (final c in counts)
-                    FilledButton.tonal(
-                      onPressed: () => onStart(buildStudy(subject, limit: c), subject.name),
-                      child: Text('$c domande'),
-                    ),
-                  FilledButton(
-                    onPressed: () => onStart(buildStudy(subject), subject.name),
-                    child: Text('Tutte (${subject.questions.length})'),
-                  ),
-                ],
-              ),
-            ],
-          ),
-        ),
-      ),
     );
   }
 }
@@ -538,7 +445,7 @@ class SubjectPickerScreen extends StatelessWidget {
       body: ListView.separated(
         padding: const EdgeInsets.all(16),
         itemCount: db.subjects.length,
-        separatorBuilder: (_, __) => const SizedBox(height: 8),
+        separatorBuilder: (context, index) => const SizedBox(height: 8),
         itemBuilder: (context, i) {
           final s = db.subjects[i];
           return Material(
