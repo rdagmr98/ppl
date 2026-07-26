@@ -67,6 +67,32 @@ List<Question> buildErrors(QuizDb db) {
   return result;
 }
 
+/// Domande sbagliate E mai rifatte (non ancora in seen).
+List<Question> buildErrorsUnseen(QuizDb db, {int? limit}) {
+  final result = <Question>[];
+  for (final s in db.subjects) {
+    for (final q in s.questions) {
+      if (SeenService.hasWrong(q.gid) && !SeenService.hasSeen(q.gid)) {
+        result.add(q);
+      }
+    }
+  }
+  result.shuffle(Random());
+  if (limit != null && limit < result.length) return result.take(limit).toList();
+  return result;
+}
+
+/// Domande sbagliate di una singola materia.
+List<Question> buildErrorsBySubject(Subject s, {int? limit}) {
+  final result = <Question>[];
+  for (final q in s.questions) {
+    if (SeenService.hasWrong(q.gid)) result.add(q);
+  }
+  result.shuffle(Random());
+  if (limit != null && limit < result.length) return result.take(limit).toList();
+  return result;
+}
+
 /// Esito di una domanda risposta.
 class AnsweredQuestion {
   final Question question;

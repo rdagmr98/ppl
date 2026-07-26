@@ -125,7 +125,14 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
       _ErrorsCard(
-        onTap: () => _start(buildErrors(db), 'Ripasso errori'),
+        onTap: () => showModalBottomSheet(
+          context: context,
+          backgroundColor: Theme.of(context).colorScheme.surfaceContainerHigh,
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+          ),
+          builder: (_) => _ErrorPickerSheet(db: db),
+        ),
       ),
     ];
     return CustomScrollView(
@@ -176,7 +183,7 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 
 
-/// Card per il ripasso degli errori: mostra il conteggio e lancia buildErrors.
+/// Card per il ripasso degli errori: apre un bottom sheet con tre opzioni.
 class _ErrorsCard extends StatelessWidget {
   final VoidCallback onTap;
   const _ErrorsCard({required this.onTap});
@@ -189,6 +196,285 @@ class _ErrorsCard extends StatelessWidget {
       title: 'Ripassa errori',
       subtitle: '${SeenService.wrongCount} domande sbagliate',
       onTap: onTap,
+    );
+  }
+}
+
+/// Bottom sheet con tre opzioni per il ripasso errori.
+class _ErrorPickerSheet extends StatelessWidget {
+  final QuizDb db;
+  const _ErrorPickerSheet({required this.db});
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final neverRetried = SeenService.wrongNeverRetriedCount;
+    final bySubject = <_SubjectEntry>[];
+    for (final s in db.subjects) {
+      int count = 0;
+      for (final q in s.questions) {
+        if (SeenService.hasWrong(q.gid)) count++;
+      }
+      if (count > 0) bySubject.add(_SubjectEntry(s, count));
+    }
+
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Ripasso errori',
+                style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 20),
+            // Mai rifatte
+            _buildTile(
+              context, theme,
+              icon: Icons.replay,
+              color: const Color(0xFFFF8F00),
+              title: 'Solo mai rifatte',
+              subtitle: '$neverRetried domande',
+              onTap: neverRetried == 0
+                  ? null
+                  : () => _startNeverRetried(context),
+            ),
+            const SizedBox(height: 12),
+            // Per materie
+            _buildTile(
+              context, theme,
+              icon: Icons.category,
+              color: const Color(0xFF7E57C2),
+              title: 'Per materie',
+              subtitle: '${bySubject.length} materie',
+              onTap: bySubject.isEmpty
+                  ? null
+                  : () => _showBySubject(context, bySubject),
+            ),
+            const SizedBox(height: 12),
+            // Random
+            _buildTile(
+              context, theme,
+              icon: Icons.shuffle,
+              color: const Color(0xFFD32F2F),
+              title: 'Random',
+              subtitle: '${SeenService.wrongCount} domande',
+              onTap: SeenService.wrongCount == 0
+                  ? null
+                  : () => _startRandom(context),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildTile(BuildContext context, ThemeData theme,
+      {required IconData icon,
+      required Color color,
+      required String title,
+      required String subtitle,
+      VoidCallback? onTap}) {
+    final enabled = onTap != null;
+    return Material(
+      color: theme.colorScheme.surfaceContainerHigh,
+      borderRadius: BorderRadius.circular(14),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(14),
+        onTap: onTap,
+        child: Opacity(
+          opacity: enabled ? 1.0 : 0.4,
+          child: Padding(
+            padding: const EdgeInsets.all(14),
+            child: Row(children: [
+              Container(
+                width: 40, height: 40,
+                decoration: BoxDecoration(
+                  color: color.withValues(alpha: 0.18),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Icon(icon, color: color, size: 20),
+              ),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(title, style: const TextStyle(fontWeight: FontWeight.bold)),
+                    Text(subtitle,
+                        style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurfaceVariant)),
+                  ],
+                ),
+              ),
+              Icon(Icons.chevron_right, color: theme.colorScheme.onSurfaceVariant),
+            ]),
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _startNeverRetried(BuildContext context) {
+    Navigator.pop(context);
+    final questions = buildErrorsUnseen(db);
+    if (questions.isEmpty) return;
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => QuizScreen(questions: questions, title: 'Errori: mai rifatte'),
+      ),
+    );
+  }
+
+  void _showBySubject(BuildContext context, List<_SubjectEntry> entries) {
+    Navigator.pop(context);
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Theme.of(context).colorScheme.surfaceContainerHigh,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (ctx) => _ErrorSubjectSheet(entries: entries),
+    );
+  }
+
+  void _startRandom(BuildContext context) {
+    Navigator.pop(context);
+    final questions = buildErrors(db);
+    if (questions.isEmpty) return;
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => QuizScreen(questions: questions, title: 'Errori: random'),
+      ),
+    );
+  }
+}
+
+class _SubjectEntry {
+  final Subject subject;
+  final int count;
+  const _SubjectEntry(this.subject, this.count);
+}
+
+/// Bottom sheet per scegliere materia nel ripasso errori.
+class _ErrorSubjectSheet extends StatelessWidget {
+  final List<_SubjectEntry> entries;
+  const _ErrorSubjectSheet({required this.entries});
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text('Scegli materia',
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 16),
+            for (final e in entries)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: _buildSubjectTile(context, e),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildSubjectTile(BuildContext context, _SubjectEntry e) {
+    final theme = Theme.of(context);
+    return Material(
+      color: theme.colorScheme.surfaceContainerHigh,
+      borderRadius: BorderRadius.circular(12),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(12),
+        onTap: () => _choose(context, e),
+        child: Padding(
+          padding: const EdgeInsets.all(14),
+          child: Row(children: [
+            CircleAvatar(
+              radius: 16,
+              backgroundColor: theme.colorScheme.primaryContainer,
+              child: Text('${e.subject.parte}',
+                  style: TextStyle(fontWeight: FontWeight.bold,
+                      color: theme.colorScheme.onPrimaryContainer, fontSize: 12)),
+            ),
+            const SizedBox(width: 12),
+            Expanded(child: Text(e.subject.name, style: const TextStyle(fontWeight: FontWeight.w600))),
+            Text('${e.count}', style: TextStyle(color: theme.colorScheme.onSurfaceVariant, fontWeight: FontWeight.bold)),
+            const SizedBox(width: 4),
+            Icon(Icons.chevron_right, color: theme.colorScheme.onSurfaceVariant),
+          ]),
+        ),
+      ),
+    );
+  }
+
+  void _choose(BuildContext context, _SubjectEntry e) {
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Theme.of(context).colorScheme.surfaceContainerHigh,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (ctx) => _ErrorSubjectCountSheet(subject: e.subject),
+    );
+  }
+}
+
+/// Bottom sheet per scegliere il numero di domande in una materia dal ripasso errori.
+class _ErrorSubjectCountSheet extends StatelessWidget {
+  final Subject subject;
+  const _ErrorSubjectCountSheet({required this.subject});
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(subject.name,
+                style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 4),
+            Text('${subject.questions.length} domande disponibili',
+                style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant)),
+            const SizedBox(height: 20),
+            Wrap(
+              spacing: 10,
+              runSpacing: 10,
+              children: [
+                for (final c in [10, 20, 40].where((x) => x < subject.questions.length))
+                  FilledButton.tonal(
+                    onPressed: () => _start(context, c),
+                    child: Text('$c domande'),
+                  ),
+                FilledButton(
+                  onPressed: () => _start(context, null),
+                  child: Text('Tutte (${subject.questions.length})'),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _start(BuildContext context, int? limit) {
+    Navigator.pop(context); // count sheet
+    Navigator.pop(context); // subject sheet
+    Navigator.pop(context); // main sheet
+    final questions = buildErrorsBySubject(subject, limit: limit);
+    if (questions.isEmpty) return;
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => QuizScreen(questions: questions, title: 'Errori: ${subject.name}'),
+      ),
     );
   }
 }
