@@ -74,8 +74,13 @@ class _StatsScreenState extends State<StatsScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, result) {
+        if (!didPop) Navigator.of(context).pop();
+      },
+      child: Scaffold(
+        appBar: AppBar(
         title: const Text('Statistiche'),
         actions: [
           FutureBuilder<List<QuizAttempt>>(
@@ -104,7 +109,7 @@ class _StatsScreenState extends State<StatsScreen> {
           return _content(context, attempts);
         },
       ),
-    );
+    ));
   }
 
   Widget _emptyState(BuildContext context) {
