@@ -104,7 +104,7 @@ class _StatsScreenState extends State<StatsScreen> {
           if (!snap.hasData) {
             return const Center(child: CircularProgressIndicator());
           }
-          final attempts = snap.data!;
+          final attempts = snap.data!.where((a) => !a.isErrorReview).toList();
           if (attempts.isEmpty) return _emptyState(context);
           return _content(context, attempts);
         },
@@ -181,6 +181,8 @@ class _StatsScreenState extends State<StatsScreen> {
     }
     final subs = byParte.values.toList()
       ..sort((a, b) => a.parte.compareTo(b.parte));
+    final recentAttempts =
+        attempts.length > 10 ? attempts.sublist(attempts.length - 10) : attempts;
     final totalCorrectAll = attempts.fold<int>(0, (sum, a) => sum + a.correctCount);
     final totalQuestionsAll = attempts.fold<int>(0, (sum, a) => sum + a.totalQuestions);
     final overallPct = totalQuestions == 0 ? 0.0 : totalCorrect / totalQuestions;
@@ -225,11 +227,11 @@ class _StatsScreenState extends State<StatsScreen> {
                   ?.copyWith(fontWeight: FontWeight.bold)),
           const SizedBox(height: 4),
           Text(
-            'Percentuale corrette per ogni tentativo completato, in ordine cronologico',
+            'Percentuale corrette negli ultimi ${recentAttempts.length} tentativi, in ordine cronologico',
             style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurfaceVariant),
           ),
           const SizedBox(height: 16),
-          SizedBox(height: 200, child: _trendChart(theme, attempts)),
+          SizedBox(height: 200, child: _trendChart(theme, recentAttempts)),
           const SizedBox(height: 28),
         ],
         Text('Totale risposte',

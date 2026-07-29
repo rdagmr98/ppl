@@ -7,6 +7,7 @@ class QuizAttempt {
   final DateTime timestamp;
   final String title;
   final bool isExam;
+  final bool isErrorReview;
   final int totalQuestions;
   final int correctCount;
   final Map<int, Map<String, int>> perSubject; // parte -> {correct, total}
@@ -15,6 +16,7 @@ class QuizAttempt {
     required this.timestamp,
     required this.title,
     required this.isExam,
+    this.isErrorReview = false,
     required this.totalQuestions,
     required this.correctCount,
     required this.perSubject,
@@ -23,7 +25,8 @@ class QuizAttempt {
   double get pct => totalQuestions == 0 ? 0 : correctCount / totalQuestions;
 
   factory QuizAttempt.fromAnswers(
-      List<AnsweredQuestion> answers, String title, bool isExam) {
+      List<AnsweredQuestion> answers, String title, bool isExam,
+      {bool isErrorReview = false}) {
     final perSubject = <int, Map<String, int>>{};
     var correct = 0;
     for (final a in answers) {
@@ -40,6 +43,7 @@ class QuizAttempt {
       timestamp: DateTime.now(),
       title: title,
       isExam: isExam,
+      isErrorReview: isErrorReview,
       totalQuestions: answers.length,
       correctCount: correct,
       perSubject: perSubject,
@@ -50,6 +54,7 @@ class QuizAttempt {
         'timestamp': timestamp.toIso8601String(),
         'title': title,
         'isExam': isExam,
+        'isErrorReview': isErrorReview,
         'totalQuestions': totalQuestions,
         'correctCount': correctCount,
         'perSubject': perSubject
@@ -62,6 +67,7 @@ class QuizAttempt {
       timestamp: DateTime.parse(j['timestamp'] as String),
       title: j['title'] as String,
       isExam: j['isExam'] as bool,
+      isErrorReview: j['isErrorReview'] as bool? ?? false,
       totalQuestions: j['totalQuestions'] as int,
       correctCount: j['correctCount'] as int,
       perSubject: rawSubj.map((k, v) {

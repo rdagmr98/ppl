@@ -320,7 +320,10 @@ class _ErrorPickerSheet extends StatelessWidget {
     if (questions.isEmpty) return;
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (_) => QuizScreen(questions: questions, title: 'Errori: mai rifatte'),
+        builder: (_) => QuizScreen(
+            questions: questions,
+            title: 'Errori: mai rifatte',
+            isErrorReview: true),
       ),
     );
   }
@@ -343,7 +346,10 @@ class _ErrorPickerSheet extends StatelessWidget {
     if (questions.isEmpty) return;
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (_) => QuizScreen(questions: questions, title: 'Errori: random'),
+        builder: (_) => QuizScreen(
+            questions: questions,
+            title: 'Errori: random',
+            isErrorReview: true),
       ),
     );
   }
@@ -419,7 +425,7 @@ class _ErrorSubjectSheet extends StatelessWidget {
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
       ),
-      builder: (ctx) => _ErrorSubjectCountSheet(subject: e.subject),
+      builder: (ctx) => _ErrorSubjectCountSheet(subject: e.subject, wrongCount: e.count),
     );
   }
 }
@@ -427,7 +433,8 @@ class _ErrorSubjectSheet extends StatelessWidget {
 /// Bottom sheet per scegliere il numero di domande in una materia dal ripasso errori.
 class _ErrorSubjectCountSheet extends StatelessWidget {
   final Subject subject;
-  const _ErrorSubjectCountSheet({required this.subject});
+  final int wrongCount;
+  const _ErrorSubjectCountSheet({required this.subject, required this.wrongCount});
 
   @override
   Widget build(BuildContext context) {
@@ -441,21 +448,21 @@ class _ErrorSubjectCountSheet extends StatelessWidget {
             Text(subject.name,
                 style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             const SizedBox(height: 4),
-            Text('${subject.questions.length} domande disponibili',
+            Text('$wrongCount domande sbagliate',
                 style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant)),
             const SizedBox(height: 20),
             Wrap(
               spacing: 10,
               runSpacing: 10,
               children: [
-                for (final c in [10, 20, 40].where((x) => x < subject.questions.length))
+                for (final c in [10, 20, 40].where((x) => x < wrongCount))
                   FilledButton.tonal(
                     onPressed: () => _start(context, c),
                     child: Text('$c domande'),
                   ),
                 FilledButton(
                   onPressed: () => _start(context, null),
-                  child: Text('Tutte (${subject.questions.length})'),
+                  child: Text('Tutte ($wrongCount)'),
                 ),
               ],
             ),
@@ -468,12 +475,12 @@ class _ErrorSubjectCountSheet extends StatelessWidget {
   void _start(BuildContext context, int? limit) {
     Navigator.pop(context); // count sheet
     Navigator.pop(context); // subject sheet
-    Navigator.pop(context); // main sheet
     final questions = buildErrorsBySubject(subject, limit: limit);
     if (questions.isEmpty) return;
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (_) => QuizScreen(questions: questions, title: 'Errori: ${subject.name}'),
+        builder: (_) => QuizScreen(
+            questions: questions, title: 'Errori: ${subject.name}', isErrorReview: true),
       ),
     );
   }

@@ -72,7 +72,7 @@ List<Question> buildErrorsUnseen(QuizDb db, {int? limit}) {
   final result = <Question>[];
   for (final s in db.subjects) {
     for (final q in s.questions) {
-      if (SeenService.hasWrong(q.gid) && !SeenService.hasSeen(q.gid)) {
+      if (SeenService.hasWrong(q.gid) && !SeenService.hasBeenRetried(q.gid)) {
         result.add(q);
       }
     }

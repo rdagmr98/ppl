@@ -12,11 +12,13 @@ class QuizScreen extends StatefulWidget {
   final List<Question> questions;
   final String title;
   final bool isExam;
+  final bool isErrorReview;
   const QuizScreen({
     super.key,
     required this.questions,
     required this.title,
     this.isExam = false,
+    this.isErrorReview = false,
   });
 
   @override
@@ -36,6 +38,13 @@ class _QuizScreenState extends State<QuizScreen> {
   int _correctCount = 0;
   final List<AnsweredQuestion> _answers = [];
   Timer? _timer;
+  // Gid gia' sbagliati PRIMA di questo tentativo: solo questi contano per il
+  // tracciamento "ritentata" a fine quiz, cosi' un errore appena commesso in
+  // questo stesso tentativo non si marca da solo come "gia' ritentato".
+  late final Set<int> _preExistingWrong = widget.questions
+      .map((q) => q.gid)
+      .where(SeenService.hasWrong)
+      .toSet();
 
   Question get _q => widget.questions[_index];
 
@@ -91,9 +100,19 @@ class _QuizScreenState extends State<QuizScreen> {
     _answers.add(AnsweredQuestion(_q, _selected ?? -1));
     if (_index >= widget.questions.length - 1) {
       StatsService.record(
-        QuizAttempt.fromAnswers(_answers, widget.title, widget.isExam),
+        QuizAttempt.fromAnswers(_answers, widget.title, widget.isExam,
+            isErrorReview: widget.isErrorReview),
       );
       SeenService.markSeen(_answers.map((a) => a.question.gid));
+      for (final a in _answers) {
+        if (_preExistingWrong.contains(a.question.gid)) {
+          if (a.isCorrect) {
+            SeenService.markWrongSeen(a.question.gid);
+          } else {
+            SeenService.markRetried(a.question.gid);
+          }
+        }
+      }
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
           builder: (_) => ResultsScreen(
