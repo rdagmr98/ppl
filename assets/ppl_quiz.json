@@ -11,7 +11,7 @@
         {
           "n": 1,
           "gid": 1,
-          "q": "E' consentito pilotare un aeromobile facendo uso, da parte del pilota, di medicinali, narcotici o altre sostanze comunque intossicanti?",
+          "q": "È consentito pilotare un aeromobile facendo uso, da parte del pilota, di medicinali, narcotici o altre sostanze comunque intossicanti?",
           "options": [
             "I medicinali o le droghe che possano ridurre le capacità di capire ed agire, sono proibite",
             "I medicinali o le droghe che possano ridurre le capacità di capire ed agire sono permesse in dose moderata",
@@ -25,7 +25,7 @@
         {
           "n": 2,
           "gid": 2,
-          "q": "E' consentito gettare oggetti o liquidi fuori bordo?",
+          "q": "È consentito gettare oggetti o liquidi fuori bordo?",
           "options": [
             "SI, purché in zone deserte",
             "NO, per nessun motivo.",
@@ -53,7 +53,7 @@
         {
           "n": 4,
           "gid": 4,
-          "q": "E' consentito il volo in formazione?",
+          "q": "È consentito il volo in formazione?",
           "options": [
             "Si, purché non costituisca pericolo per le cose e le persone.",
             "Sì, a discrezione dei piloti.",
@@ -1376,7 +1376,7 @@
         {
           "n": 101,
           "gid": 101,
-          "q": "E' obbligatoria la presentazione del piano di volo per un aeromobile che attraversi il confine tra la FIR di Milano e la FIR di Roma?",
+          "q": "È obbligatoria la presentazione del piano di volo per un aeromobile che attraversi il confine tra la FIR di Milano e la FIR di Roma?",
           "options": [
             "Si",
             "Si, qualora si presuma che l'aeromobile possa dirottare verso un aeroporto diverso da quello di destinazione",
@@ -1634,7 +1634,7 @@
         {
           "n": 120,
           "gid": 120,
-          "q": "E' possibile condurre voli all'interno di \"zone regolamentate\" (R)?",
+          "q": "È possibile condurre voli all'interno di \"zone regolamentate\" (R)?",
           "options": [
             "No",
             "Si, a condizione che sia stato comunque presentato un regolare piano di volo",
@@ -2377,10 +2377,10 @@
           "gid": 175,
           "q": "Che cosa è il R.A.N.?",
           "options": [
-            "E' l'ente che rilascia il certificato di Navigabilità",
+            "È l'ente che rilascia il certificato di Navigabilità",
             "E un Ufficio della Motorizzazione Civile anche con compiti di Registro Aeronautico.",
-            "E' l'ente che rilascia la licenza di Stazione Radio.",
-            "E' un ufficio di ENAC con compiti di Pubblico Registro Aeronautico"
+            "È l'ente che rilascia la licenza di Stazione Radio.",
+            "È un ufficio di ENAC con compiti di Pubblico Registro Aeronautico"
           ],
           "correct": 3,
           "explanation": "Il RAN è un ufficio di ENAC con compiti di Pubblico Registro Aeronautico. Non è l'ente che rilascia il Certificato di Navigabilità (falsa l'opzione 0): quel compito è del R.A.I./ENAC per la navigabilità tecnica, funzione distinta dal RAN. Non è un ufficio della Motorizzazione Civile (falsa l'opzione 1): il RAN è interno a ENAC. Non rilascia la Licenza di Stazione Radio (falsa l'opzione 2): il RAN ha compiti di Pubblico Registro Aeronautico, non di licenze radio."
@@ -4973,7 +4973,7 @@
         {
           "n": 94,
           "gid": 286,
-          "q": "L'unica benzina avio in vendita oggi è la 96/100 ottani normalmente usata nel settore dell'aviazione generale. E' benzina meno o più volatile di quella per automobili",
+          "q": "L'unica benzina avio in vendita oggi è la 96/100 ottani normalmente usata nel settore dell'aviazione generale. È benzina meno o più volatile di quella per automobili",
           "options": [
             "Meno volatile",
             "Più volatile",
@@ -5059,10 +5059,10 @@
           "gid": 292,
           "q": "Che cos'è il titolo di miglior rendimento (best power)?",
           "options": [
-            "E' un titolo leggermente ricco per il quale la temperatura si abbassa di un poco rispetto al massimo e la potenza aumenta di una piccola quantità rispetto al titolo stechiometrico",
+            "È un titolo leggermente ricco per il quale la temperatura si abbassa di un poco rispetto al massimo e la potenza aumenta di una piccola quantità rispetto al titolo stechiometrico",
             "è un titolo leggermente povero per il quale la temperatura si alza di un poco rispetto al massimo e la potenza aumenta di una piccola quantità rispetto al titolo stechiometrico",
-            "E' un titolo molto ricco per il quale la temperatura si abbassa di un poco rispetto al massimo e la potenza aumenta di molto rispetto al titolo stechiometrico",
-            "E' un titolo riservato alla prova al banco del motori, da evitare assolutamente in volo"
+            "È un titolo molto ricco per il quale la temperatura si abbassa di un poco rispetto al massimo e la potenza aumenta di molto rispetto al titolo stechiometrico",
+            "È un titolo riservato alla prova al banco del motori, da evitare assolutamente in volo"
           ],
           "correct": 0,
           "src": "quizvds",
@@ -5099,7 +5099,7 @@
         {
           "n": 103,
           "gid": 295,
-          "q": "Salendo in quota con la potenza di salita prevista ed il correttore di miscela posizionato su ricco si nota una graduale irregolarità di funzionamento del motore. E' richiesta di conseguenza una opportuna regolazione della miscela tramite il correttore. Quale è il motivo principale di tale correzione?",
+          "q": "Salendo in quota con la potenza di salita prevista ed il correttore di miscela posizionato su ricco si nota una graduale irregolarità di funzionamento del motore. È richiesta di conseguenza una opportuna regolazione della miscela tramite il correttore. Quale è il motivo principale di tale correzione?",
           "options": [
             "Aumentare il rapporto o carburante/aria per il volo in quota",
             "Diminuire la quantità di carburante nella miscela per compensare la diminuzione di densità dell'aria",
@@ -6781,7 +6781,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La distanza di decollo somma alla corsa di decollo anche la fase di salita fino a 50 piedi di altezza, sempre a piena potenza: è il valore da confrontare con la TODA disponibile in pista."
+          "explanation": "La distanza di decollo (Takeoff Distance) è la lunghezza di pista necessaria per accelerare da fermo, staccarsi (liftoff) e salire fino a 50 piedi di altezza sull'ostacolo, sempre a piena potenza, nella configurazione e condizioni di superficie tabulate. (opzione 1) è sbagliata perché parla di \"senza benzina\" e \"potenza al minimo\", condizioni prive di senso per un decollo reale. (opzione 2) inventa una potenza limitata all'80% con margine di sicurezza, concetto che non esiste nella definizione ufficiale (si vola sempre a piena potenza in questa prova). (opzione 4) si ferma al distacco delle ruote da terra a pieno carico e piena potenza, senza includere la salita fino a 50 piedi: descrive la corsa di decollo (ground roll), non la distanza di decollo totale."
         },
         {
           "n": 3,
@@ -6795,7 +6795,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La corsa di atterraggio è la distanza dal tocco ruote all'arresto completo con uso normale dei freni e potenza al minimo, senza margini di sicurezza aggiuntivi: è il dato grezzo di prestazione riportato in tabella."
+          "explanation": "La corsa d'atterraggio è la distanza dal tocco ruote all'arresto completo con uso normale dei freni e potenza al minimo, senza margini di sicurezza aggiuntivi: è il dato grezzo di prestazione riportato in tabella. (opzione 2) aggiunge un margine di sicurezza del 66% che non fa parte della definizione: la corsa d'atterraggio non prevede riserve incorporate. (opzione 3) include anche il tratto di sorvolo soglia a 50 piedi, che è invece la definizione di distanza di atterraggio, non di corsa. (opzione 4) inventa una riduzione del 10% per la presenza di ABS, dispositivo che non compare nella definizione regolamentare."
         },
         {
           "n": 4,
@@ -6809,7 +6809,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La distanza di atterraggio parte dal sorvolo della soglia pista a 50 piedi (screen height) fino all'arresto completo: include quindi anche l'ultimo tratto di avvicinamento, non solo il rollout a terra."
+          "explanation": "La distanza di atterraggio parte dal sorvolo della soglia pista a 50 piedi (screen height) fino all'arresto completo: include quindi anche l'ultimo tratto di avvicinamento, non solo il rollout a terra. (opzione 1) descrive in realtà la corsa di atterraggio (dal tocco ruote all'arresto), non la distanza di atterraggio che invece parte dal sorvolo soglia a 50 piedi. (opzione 2) aggiunge lo stesso dato con un margine del 66% inventato. (opzione 4) applica una riduzione del 10% per ABS, non prevista dalla definizione."
         },
         {
           "n": 5,
@@ -6823,7 +6823,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il vento in coda aumenta la velocità al suolo (la IAS necessaria resta la stessa, ma rispetto al terreno si arriva più veloci): questo allunga la corsa di atterraggio e fa tendere l'aereo a superare il punto di contatto programmato."
+          "explanation": "Con vento in coda la IAS di avvicinamento richiesta resta la stessa ma la velocità al suolo aumenta, quindi la corsa di atterraggio si allunga e si tende a superare il punto di tocco previsto. (opzione 2) sbaglia parlando di velocità all'aria maggiore in soglia (l'IAS non cambia per il vento) e di corsa più breve con tendenza opposta ad anticipare il tocco. (opzione 3) è internamente contraddittoria: descrive una corsa più lunga ma la dice \"compensata\" da spazi di arresto più brevi, il che non ha senso fisico. (opzione 4) attribuisce correttamente l'aumento di velocità al suolo ma sbaglia sull'effetto sulla corsa (dice più breve) e sulla tendenza (dice di anticipare il tocco), entrambi opposti alla realtà."
         },
         {
           "n": 6,
@@ -6837,7 +6837,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Alta temperatura, alta umidità e alta quota aeroportuale riducono insieme la densità dell'aria: meno portanza generata dall'ala e meno potenza da motore ed elica, quindi decollo e salita penalizzati. È la combinazione classica di elevata Density Altitude."
+          "explanation": "Alta temperatura, alta umidità e alta quota aeroportuale riducono insieme la densità dell'aria: meno portanza generata dall'ala e meno potenza da motore ed elica, quindi decollo e salita penalizzati (elevata Density Altitude). (opzione 1) descrive condizioni che migliorano le prestazioni (aria fredda, secca, bassa quota è la combinazione più densa possibile), l'opposto di quanto chiesto. (opzione 2) coglie temperatura e quota elevate ma abbina un'umidità bassa, mentre la combinazione peggiore prevede anche l'umidità elevata. (opzione 4) è incoerente: la bassa temperatura aumenterebbe la densità dell'aria, contrastando l'effetto dell'alta quota, quindi non rappresenta la combinazione più penalizzante."
         },
         {
           "n": 7,
@@ -6851,7 +6851,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "A parità di IAS, l'aria più rada in quota richiede una velocità reale (TAS) maggiore per generare la stessa pressione dinamica. Con vento nullo GS=TAS, quindi in soglia pista di un aeroporto elevato la velocità al suolo è maggiore che al livello del mare."
+          "explanation": "A parità di IAS, l'aria più rada in quota richiede una velocità reale (TAS) maggiore per generare la stessa pressione dinamica. Con vento nullo GS=TAS, quindi in soglia pista di un aeroporto elevato la velocità al suolo è maggiore che al livello del mare. (opzione 1) ignora che a parità di IAS la TAS aumenta con la quota per la minore densità dell'aria, quindi la velocità al suolo non può restare uguale. (opzione 2) inverte l'effetto: sarebbe vero solo se l'aria in quota fosse più densa, mentre è il contrario. (opzione 4) è vera solo nel caso particolare di vento nullo e non risponde al confronto chiesto tra i due aeroporti a parità di IAS."
         },
         {
           "n": 8,
@@ -6865,7 +6865,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'altitudine di pressione è la quota letta sull'altimetro quando nella finestrella di Kollsman si inserisce il valore standard QNE (1013,25 hPa), indipendentemente dalla pressione locale reale."
+          "explanation": "L'altitudine di pressione è la quota letta sull'altimetro quando nella finestrella di Kollsman si inserisce il valore standard QNE (1013,25 hPa), indipendentemente dalla pressione locale reale. (opzione 1) è generica: la lettura diretta sull'altimetro dipende dal valore inserito nella finestrella, e senza specificare QNE non definisce la pressure altitude. (opzione 3) descrive invece l'Altitudine vera, ottenuta inserendo il QNH locale. (opzione 4) descrive l'altezza sul campo (Height), ottenuta inserendo il QFE, non l'altitudine di pressione."
         },
         {
           "n": 9,
@@ -6879,7 +6879,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Da fermo al parcheggio, inserendo il QNH locale nella finestrella l'altimetro legge direttamente l'Altitudine, cioè la quota reale sul livello del mare (che deve corrispondere all'elevazione nota dell'aeroporto)."
+          "explanation": "Da fermo al parcheggio, inserendo il QNH locale nella finestrella l'altimetro legge direttamente l'Altitudine, cioè la quota reale sul livello del mare (che deve corrispondere all'elevazione nota dell'aeroporto). (opzione 1) è circolare: inserire la quota nota del campo presuppone di conoscerla già, non è il modo per \"ottenerla\" dall'altimetro. (opzione 2) descrive una procedura per ricavare la pressione di campo azzerando l'indicazione, non il modo standard per leggere l'Altitudine da fermi. (opzione 4) inverte la procedura: selezionare la quota del campo per poi leggere la PA nella finestrella non è il metodo corretto, che prevede invece di inserire il QNH e leggere l'Altitudine sul quadrante."
         },
         {
           "n": 10,
@@ -6893,7 +6893,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La pista critica è la lunghezza minima di pista necessaria per decollare o atterrare nelle condizioni tabulate, senza alcun margine aggiuntivo: è il valore limite secco, non un valore con riserva incorporata."
+          "explanation": "La pista critica è la lunghezza minima di pista necessaria per decollare o atterrare nelle condizioni tabulate, senza alcun margine aggiuntivo: è il valore limite secco, non un valore con riserva incorporata. (opzione 1), (opzione 2) e (opzione 3) aggiungono rispettivamente il 30%, il 20% e il 10% di margine alla lunghezza minima: nessuno di questi margini fa parte della definizione di pista critica."
         },
         {
           "n": 11,
@@ -6907,7 +6907,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La Density Altitude è l'altitudine di pressione corretta per lo scostamento tra la temperatura reale (OAT) e i valori standard ISA previsti per quella quota: più la temperatura reale è alta rispetto allo standard, più la Density Altitude cresce."
+          "explanation": "La Density Altitude è l'altitudine di pressione corretta per lo scostamento tra la temperatura reale (OAT) e i valori standard ISA previsti per quella quota: più la temperatura reale è alta rispetto allo standard, più la Density Altitude cresce. (opzione 1) descrive genericamente un'altitudine di riferimento rispetto a un piano standard, il che si avvicina piuttosto alla definizione di altitudine di pressione (che non tiene conto della temperatura), non a quella di Density Altitude. (opzione 3) è sbagliata perché la Density Altitude non è mai una lettura diretta dell'altimetro, ma un valore calcolato. (opzione 4) la confonde con la semplice elevazione del campo pubblicata in cartina, un dato fisso indipendente dalle condizioni atmosferiche del momento."
         },
         {
           "n": 12,
@@ -6921,7 +6921,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "I fattori che pesano di più sulla distanza di decollo da pista pavimentata e asciutta sono il vento (intensità e direzione), la densità dell'aria (quota, temperatura, umidità) e la pendenza della pista."
+          "explanation": "I fattori che pesano di più sulla distanza di decollo da pista pavimentata e asciutta sono il vento (intensità e direzione), la densità dell'aria (quota, temperatura, umidità) e la pendenza della pista. (opzione 2) sostituisce la densità dell'aria con il centraggio del velivolo: il centraggio incide sulle prestazioni ma non è tra i tre fattori classici indicati dai manuali per questa condizione. (opzione 3) include le condizioni di traffico, un fattore operativo che non influisce fisicamente sulla distanza di decollo. (opzione 4) cita il peso a vuoto (che non è il peso al decollo effettivo) e \"l'assenza di vento\" come se fosse un fattore, oltre a un'umidità dell'aria il cui effetto è comunque secondario rispetto ai tre fattori principali."
         },
         {
           "n": 13,
@@ -6935,7 +6935,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La Vy (velocità di miglior rateo di salita) massimizza i piedi al minuto guadagnati: è quindi la velocità che porta in quota nel minor tempo possibile."
+          "explanation": "La Vy (velocità di miglior rateo di salita) massimizza i piedi al minuto guadagnati: è quindi la velocità che porta in quota nel minor tempo possibile. (opzione 1) è la Vx, velocità di miglior angolo di salita: minimizza la distanza orizzontale per superare ostacoli, non il tempo per raggiungere quota. (opzione 3) è una velocità di crociera in salita, pensata per comfort ed efficienza, non per il minor tempo di salita. (opzione 4) fa riferimento a una \"Vz\" che non è una velocità caratteristica standard nei manuali di volo."
         },
         {
           "n": 14,
@@ -6949,7 +6949,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La Vx (velocità di miglior angolo di salita) massimizza il rapporto tra quota guadagnata e distanza orizzontale percorsa: utile per superare ostacoli vicini, non per il tempo di salita."
+          "explanation": "La Vx (velocità di miglior angolo di salita) massimizza il rapporto tra quota guadagnata e distanza orizzontale percorsa: utile per superare ostacoli vicini, non per il tempo di salita. (opzione 2) è la Vy, che minimizza il tempo di salita ma non la distanza orizzontale percorsa. (opzione 3) è pensata per l'efficienza e il comfort in crociera, non per superare ostacoli nella minima distanza. (opzione 4) fa riferimento a una \"Vz\" che non è una velocità caratteristica standard nei manuali di volo."
         },
         {
           "n": 15,
@@ -6963,7 +6963,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'efficienza aerodinamica di un'ala (E, o L/D) è il rapporto tra portanza e resistenza generate: più è alto, meno resistenza si paga per una data portanza."
+          "explanation": "L'efficienza aerodinamica di un'ala (E, o L/D) è il rapporto tra portanza e resistenza generate: più è alto, meno resistenza si paga per una data portanza. (opzione 1) propone un rapporto tra velocità e portanza, grandezze non omogenee che non definiscono l'efficienza aerodinamica. (opzione 3) la descrive genericamente come indice della capacità di salita, confondendola con un parametro di prestazione diverso. (opzione 4) la confonde con l'angolo di incidenza critico (prossimo allo stallo), un concetto distinto dall'efficienza L/D."
         },
         {
           "n": 16,
@@ -6977,7 +6977,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La velocità di massima efficienza (miglior L/D, coincidente con la Vbg in planata) è quella che massimizza la distanza percorribile in discesa a parità di quota persa."
+          "explanation": "La velocità di massima efficienza (miglior L/D, coincidente con la Vbg in planata) è quella che massimizza la distanza percorribile in discesa a parità di quota persa. (opzione 1) è la velocità di minor rateo di discesa, che massimizza il tempo di planata, non la distanza percorsa. (opzione 3) è una velocità di comodità operativa, non ottimizzata per la distanza. (opzione 4) è sbagliata perché la risposta corretta è comunque tra le opzioni proposte."
         },
         {
           "n": 17,
@@ -6991,7 +6991,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Vero: il baricentro è per definizione il punto geometrico in cui si può considerare concentrata l'intera massa del velivolo ai fini dei calcoli di equilibrio e centraggio."
+          "explanation": "Vero: il baricentro è per definizione il punto geometrico in cui si può considerare concentrata l'intera massa del velivolo ai fini dei calcoli di equilibrio e centraggio. (opzione 2) nega semplicemente la definizione, che è invece corretta. (opzione 3) confonde il baricentro (punto di concentrazione del peso) con il centro di pressione aerodinamica (punto di applicazione delle forze aerodinamiche), due concetti distinti. (opzione 4) restringe erroneamente la validità della definizione ai soli plurimotori, mentre vale per qualunque velivolo."
         },
         {
           "n": 18,
@@ -7019,7 +7019,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il peso al decollo somma tutto: PBO più passeggeri ed equipaggio con eventuale bagaglio o merce, più il carburante imbarcato."
+          "explanation": "Il peso al decollo somma tutto: PBO più passeggeri ed equipaggio con eventuale bagaglio o merce, più il carburante imbarcato. (opzione 1) descrive in realtà il Peso Base Operativo (PBO), non il peso al decollo, perché si ferma agli optional e non include passeggeri, equipaggio o carburante. (opzione 2) considera solo il carico pagante e il carburante usabile, omettendo il peso a vuoto del velivolo con i suoi optional. (opzione 3) somma correttamente PBO e carico pagante ma dimentica il carburante, componente essenziale del peso al decollo."
         },
         {
           "n": 20,
@@ -7033,7 +7033,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il peso a zero carburante è il PBO più il carico pagante (passeggeri, equipaggio, bagaglio, merce), escluso il carburante: è il limite strutturale oltre il quale non si può caricare senza bilanciare con carburante nelle ali."
+          "explanation": "Il peso a zero carburante è il PBO più il carico pagante (passeggeri, equipaggio, bagaglio, merce), escluso il carburante: è il limite strutturale oltre il quale non si può caricare senza bilanciare con carburante nelle ali. (opzione 1) omette il peso dell'equipaggio dalla somma, considerando solo PBO e passeggeri con bagaglio/merce. (opzione 2) include il carburante usabile, in contraddizione diretta con la definizione di peso \"a zero carburante\". (opzione 4) somma anche il carburante, ottenendo di fatto il peso al decollo e non il peso a zero carburante."
         },
         {
           "n": 21,
@@ -7047,7 +7047,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il carico utile è quanto resta disponibile per persone, merci e carburante: si ottiene sottraendo dal peso massimo al decollo il peso a vuoto con le sue modifiche, optional, olio e carburante non usabile."
+          "explanation": "Il carico utile è quanto resta disponibile per persone, merci e carburante: si ottiene sottraendo dal peso massimo al decollo il peso a vuoto con le sue modifiche, optional, olio e carburante non usabile. (opzione 2) descrive il carico pagante più il carburante di navigazione già imbarcato, non la capacità di carico residua rispetto al peso massimo. (opzione 3) è formulata in modo incoerente: sottrae il PBO dal peso massimo ma poi vi risomma passeggeri ed equipaggio, il che non corrisponde alla definizione di carico utile. (opzione 4) somma semplicemente tutte le componenti di peso, ottenendo il peso al decollo e non la capacità di carico disponibile."
         },
         {
           "n": 22,
@@ -7075,7 +7075,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il Datum (linea di riferimento) è un piano o linea convenzionale stabilito dal costruttore in fase di certificazione, da cui si misurano tutti i bracci per i calcoli di centraggio."
+          "explanation": "Il Datum (linea di riferimento) è un piano o linea convenzionale stabilito dal costruttore in fase di certificazione, da cui si misurano tutti i bracci per i calcoli di centraggio. (opzione 1) attribuisce la scelta del Datum al pilota, mentre è un riferimento fissato in fase di certificazione, non modificabile in volo. (opzione 2) e (opzione 4) attribuiscono la definizione rispettivamente alla DCA o a un Decreto del Presidente della Repubblica, enti/atti normativi che non stabiliscono il Datum di un singolo velivolo: questo compito spetta al costruttore."
         },
         {
           "n": 24,
@@ -7089,7 +7089,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il baricentro si individua dividendo la somma di tutti i momenti (peso per braccio di ciascun elemento caricato) per la somma dei pesi: CG = Momento totale / Peso totale."
+          "explanation": "Il baricentro si individua dividendo la somma di tutti i momenti (peso per braccio di ciascun elemento caricato) per la somma dei pesi: CG = Momento totale / Peso totale. (opzione 2) propone di moltiplicare anziché dividere le due somme, operazione priva di senso fisico e dimensionale. (opzione 3) propone di sommarle, mescolando grandezze con unità di misura diverse (momento e peso). (opzione 4) propone una sottrazione tra grandezze non omogenee, anch'essa priva di senso dimensionale: solo la divisione Momento totale/Peso totale restituisce un braccio (distanza), coerente con la posizione del baricentro."
         },
         {
           "n": 25,
@@ -7103,7 +7103,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Vero: l'aereo è certificato stabile e controllabile solo con il CG entro i limiti anteriore e posteriore pubblicati a manuale; oltre quei limiti stabilità e controllabilità non sono più garantite."
+          "explanation": "Vero: l'aereo è certificato stabile e controllabile solo con il CG entro i limiti anteriore e posteriore pubblicati a manuale; oltre quei limiti stabilità e controllabilità non sono più garantite. (opzione 2) nega semplicemente l'affermazione corretta. (opzione 3) è sbagliata perché sia il limite anteriore sia quello posteriore sono vincolanti: uscire da uno qualsiasi dei due compromette la stabilità certificata. (opzione 4) restringe la validità ai soli voli IFR, mentre il principio vale per qualunque volo, VFR incluso."
         },
         {
           "n": 26,
@@ -7117,7 +7117,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un CG troppo avanzato sposta il peso davanti al centro di pressione, generando un momento a picchiare che, in certe condizioni (bassa velocità, atterraggio), il timone di profondità potrebbe non avere autorità sufficiente a contrastare."
+          "explanation": "Un CG troppo avanzato sposta il peso davanti al centro di pressione, generando un momento a picchiare che, in certe condizioni (bassa velocità, atterraggio), il timone di profondità potrebbe non avere autorità sufficiente a contrastare. (opzione 1) nega qualunque effetto sulla manovrabilità, mentre un CG troppo avanzato ha un impatto diretto e ben documentato sul controllo in beccheggio. (opzione 3) attribuisce l'effetto opposto (momento a cabrare), che è invece la conseguenza di un CG troppo arretrato. (opzione 4) parla di coppia torcente sul timone di direzione, un asse (imbardata) non pertinente all'effetto di un CG spostato longitudinalmente."
         },
         {
           "n": 27,
@@ -7131,7 +7131,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Un CG troppo arretrato produce l'effetto opposto: un momento a cabrare che il timone di profondità potrebbe non riuscire a bilanciare, con rischio di stallo o vite di difficile recupero."
+          "explanation": "Un CG troppo arretrato produce l'effetto opposto: un momento a cabrare che il timone di profondità potrebbe non riuscire a bilanciare, con rischio di stallo o vite di difficile recupero. (opzione 1) nega qualunque effetto, mentre un CG troppo arretrato riduce la stabilità longitudinale in modo significativo. (opzione 2) attribuisce l'effetto opposto (momento a picchiare), tipico invece di un CG troppo avanzato. (opzione 4) chiama in causa il timone di direzione (asse di imbardata), non pertinente a uno spostamento longitudinale del baricentro."
         },
         {
           "n": 28,
@@ -7159,7 +7159,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il Contingency Fuel è tipicamente calcolato come una percentuale (spesso il 5%) del trip fuel, proprio per coprire imprevisti lungo la rotta come un vento frontale più forte del previsto."
+          "explanation": "Il Contingency Fuel è tipicamente calcolato come una percentuale (spesso il 5%) del trip fuel, proprio per coprire imprevisti lungo la rotta come un vento frontale più forte del previsto. (opzione 2) descrive la Final Reserve Fuel (attesa di 30 minuti sulla destinazione), una voce distinta dal Contingency. (opzione 3) descrive il Taxi Fuel, il carburante per il rullaggio pre-decollo. (opzione 4) fa riferimento a perdite per evaporazione, un fenomeno che non è la voce ufficiale coperta dal Contingency Fuel."
         },
         {
           "n": 30,
@@ -7173,7 +7173,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "A QNH costante, se l'OAT aumenta l'aria diventa meno densa: la Density Altitude sale, con conseguente degrado delle prestazioni di motore, elica e ala."
+          "explanation": "A QNH costante, se l'OAT aumenta l'aria diventa meno densa: la Density Altitude sale, con conseguente degrado delle prestazioni di motore, elica e ala. (opzione 2) inverte l'effetto: un aumento di temperatura rende l'aria meno densa, quindi la Density Altitude aumenta, non diminuisce. (opzione 3) ignora che la Density Altitude dipende proprio dalla correzione per la temperatura rispetto allo standard, quindi non può restare invariata. (opzione 4) inventa un effetto sull'anemometro (che misura pressione dinamica, non densità assoluta) del tutto estraneo al concetto di Density Altitude."
         },
         {
           "n": 31,
@@ -7187,7 +7187,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "32 litri/ora per 45 minuti (cioè 45/60 di ora) = 32 x 0,75 = 24 litri."
+          "explanation": "Consumo orario 32 l/h; 45 minuti = 45/60 = 0,75 ore; 32 x 0,75 = 24 litri. (opzione 1) corrisponde al consumo dell'intera ora, come se non si fosse convertito il tempo di volo di 45 minuti in frazione di ora. (opzione 2) corrisponde a 32 x 0,5 = 16 litri, il risultato che si otterrebbe usando erroneamente 30 minuti al posto dei 45 effettivi. (opzione 4) non deriva da alcuna proporzione corretta con questi dati: è un valore intermedio plausibile ma numericamente incoerente con il calcolo 32 x 0,75."
         },
         {
           "n": 32,
@@ -7215,7 +7215,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Con vento contrario lungo tutta la rotta, il tratto di ritorno beneficerebbe dello stesso vento in coda: il PET si sposta quindi oltre la metà fisica del percorso, verso l'aeroporto di destinazione."
+          "explanation": "Con vento contrario lungo tutta la rotta, il tratto di ritorno beneficerebbe dello stesso vento in coda: il PET si sposta quindi oltre la metà fisica del percorso, verso l'aeroporto di destinazione. (opzione 1) ignora che il vento contrario modifica le velocità effettive sui due tratti, quindi il PET non coincide più con la metà geografica. (opzione 2) inverte la direzione dello spostamento: è il tratto di ritorno ad essere avvantaggiato, spingendo il PET verso la destinazione, non verso la partenza. (opzione 4) è sbagliata perché il PET è sempre calcolabile note le velocità vere e le componenti di vento sui due tratti."
         },
         {
           "n": 34,
@@ -7229,7 +7229,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La base dell'arco bianco sull'anemometro è la Vso, velocità di stallo in configurazione di atterraggio (flap estesi) al peso massimo."
+          "explanation": "La base dell'arco bianco sull'anemometro è la Vso, velocità di stallo in configurazione di atterraggio (flap estesi) al peso massimo. (opzione 1) è la Vs1, velocità di stallo in configurazione pulita, che segna invece la base dell'arco verde. (opzione 3) fa riferimento a una velocità minima di rullaggio, concetto che non esiste come dato certificato sull'anemometro. (opzione 4) è la Vr, velocità di rotazione al decollo, un dato procedurale che non compare come limite d'arco sull'anemometro."
         },
         {
           "n": 35,
@@ -7243,7 +7243,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Regola pratica: la TAS si ottiene aggiungendo alla IAS circa il 2% per ogni 1000 piedi di quota, per compensare la minore densità dell'aria in quota."
+          "explanation": "Regola pratica: la TAS si ottiene aggiungendo alla IAS circa il 2% per ogni 1000 piedi di quota, per compensare la minore densità dell'aria in quota. (opzione 1) sovrastima enormemente la correzione, indicando un 10% per 1000 piedi anziché il 2% realistico. (opzione 2) applica la stessa percentuale corretta ma a un intervallo di quota dieci volte più ampio (10.000 anziché 1.000 piedi), sottostimando la correzione di un fattore 10. (opzione 4) inverte il segno: in quota la TAS è maggiore della IAS (aria meno densa), quindi il valore va sommato, non sottratto."
         },
         {
           "n": 36,
@@ -7257,7 +7257,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Spostando un carico da dietro a davanti diminuisce il braccio (distanza dal Datum posto sul muso); poiché Momento = Peso x Braccio, il momento totale diminuisce."
+          "explanation": "Spostando un carico da dietro a davanti diminuisce il braccio (distanza dal Datum posto sul muso); poiché Momento = Peso x Braccio, il momento totale diminuisce. (opzione 1) afferma che il braccio aumenta, mentre spostare il peso verso il muso lo avvicina al riferimento, riducendo il braccio. (opzione 3) ignora che il momento dipende dal braccio oltre che dal peso: cambiando la posizione del carico il momento cambia comunque. (opzione 4) è irrealistica: un semplice spostamento di carico non azzera il momento, lo riduce soltanto in proporzione alla variazione di braccio."
         },
         {
           "n": 37,
@@ -7271,7 +7271,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La Vy dà il massimo guadagno di quota per unità di tempo (miglior rateo, in fpm): è una misura temporale, non di distanza orizzontale."
+          "explanation": "La Vy dà il massimo guadagno di quota per unità di tempo (miglior rateo, in fpm): è una misura temporale, non di distanza orizzontale. (opzione 2) descrive in realtà la Vx, ottimizzata per la distanza orizzontale e non per il tempo. (opzione 3) introduce un criterio di efficienza di consumo che non è quello ottimizzato dalla Vy. (opzione 4) descrive ancora l'angolo di rampa più ripido, caratteristica della Vx, non della Vy."
         },
         {
           "n": 38,
@@ -7285,7 +7285,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con ostacoli alti vicino alla pista conviene mantenere la Vx dopo la rotazione, perché massimizza la quota guadagnata per unità di distanza orizzontale percorsa."
+          "explanation": "Con ostacoli alti vicino alla pista conviene mantenere la Vx dopo la rotazione, perché massimizza la quota guadagnata per unità di distanza orizzontale percorsa. (opzione 1) è la Vy, ottimale per guadagnare quota nel minor tempo ma non per la minima distanza orizzontale necessaria a superare un ostacolo vicino. (opzione 3) è la Vne, velocità da non superare mai: proporla come velocità di salita è pericolosa e priva di senso operativo. (opzione 4) è una velocità di crociera, del tutto inadatta subito dopo il distacco con un ostacolo imminente da superare."
         },
         {
           "n": 39,
@@ -7299,7 +7299,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La Stopway è l'area oltre la fine pista predisposta per sopportare strutturalmente il peso dell'aereo durante una frenata in caso di decollo interrotto."
+          "explanation": "La Stopway è l'area oltre la fine pista predisposta per sopportare strutturalmente il peso dell'aereo durante una frenata in caso di decollo interrotto. (opzione 1) è la Clearway, un'area oltre la pista libera da ostacoli utile per il calcolo della salita dopo il decollo, ma non necessariamente strutturata per sopportare il peso di un aereo in frenata. (opzione 2) è la Taxiway, la via di rullaggio usata per gli spostamenti a terra. (opzione 4) è la Threshold, la soglia pista, punto di inizio della pista utilizzabile, concetto del tutto diverso."
         },
         {
           "n": 40,
@@ -7313,7 +7313,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Erba alta e asciutta aumenta molto l'attrito di rotolamento delle ruote rispetto all'asfalto: le tabelle aggiungono prudenzialmente circa il 20-25% alla corsa di decollo."
+          "explanation": "Erba alta e asciutta aumenta molto l'attrito di rotolamento delle ruote rispetto all'asfalto: le tabelle aggiungono prudenzialmente circa il 20-25% alla corsa di decollo. (opzione 1) indica addirittura una riduzione della corsa, mentre l'erba alta allunga, non accorcia, la corsa di decollo. (opzione 3) ignora del tutto l'effetto dell'attrito aggiuntivo dell'erba rispetto all'asfalto. (opzione 4) introduce un presunto divieto sui flap che non ha alcuna relazione con il tipo di superficie di pista."
         },
         {
           "n": 41,
@@ -7327,7 +7327,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La IAS di stallo aumenta con il peso: un aereo più pesante richiede più portanza e quindi più velocità per raggiungere il coefficiente di portanza massimo allo stallo."
+          "explanation": "La IAS di stallo aumenta con il peso: un aereo più pesante richiede più portanza e quindi più velocità per raggiungere il coefficiente di portanza massimo allo stallo. (opzione 1) inverte la relazione fisica: più peso richiede più velocità, non meno. (opzione 3) ignora la dipendenza diretta della velocità di stallo dal peso, prevista dalla formula della portanza. (opzione 4) restringe erroneamente un principio aerodinamico universale ai soli velivoli plurimotori."
         },
         {
           "n": 42,
@@ -7341,7 +7341,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Secondo SERA/EASA, la riserva finale minima per un volo VFR diurno su aereo a pistoni è di 30 minuti di volo alla velocità di crociera normale."
+          "explanation": "Secondo SERA/EASA, la riserva finale minima per un volo VFR diurno su aereo a pistoni è di 30 minuti di volo alla velocità di crociera normale. (opzione 1) indica 45 minuti, valore che non corrisponde a questa riserva. (opzione 3) parla di 15 minuti alla velocità di attesa, un criterio diverso e non applicabile qui. (opzione 4) descrive piuttosto la logica del carburante alternato, non la riserva finale, che è un tempo di volo fisso indipendente dalla presenza di un aeroporto alternato."
         },
         {
           "n": 43,
@@ -7355,7 +7355,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "1 libbra (lb) equivale a circa 0,45 kg (più precisamente 0,4536 kg)."
+          "explanation": "1 libbra (lb) equivale a circa 0,45 kg (più precisamente 0,4536 kg). (opzione 1) confonde erroneamente libbra e chilogrammo come se fossero equivalenti 1:1. (opzione 2) è il valore invertito: 2,20 kg corrisponde a 1 kg espresso in libbre, non a 1 libbra espressa in kg. (opzione 4) è un valore numerico plausibile ma non corrisponde al fattore di conversione reale."
         },
         {
           "n": 44,
@@ -7369,7 +7369,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Flap parziali in aeroporto caldo ed elevato: la portanza extra generata aiuta l'aereo a staccarsi prima che le ruote raggiungano velocità eccessive o finisca la pista, compensando in parte la scarsa densità dell'aria (a costo di un angolo di salita meno ripido dopo il distacco)."
+          "explanation": "Flap parziali in aeroporto caldo ed elevato: la portanza extra generata aiuta l'aereo a staccarsi prima che le ruote raggiungano velocità eccessive o finisca la pista, compensando in parte la scarsa densità dell'aria. (opzione 1) attribuisce ai flap un ruolo di raffreddamento motore che non hanno alcuna relazione aerodinamica con l'impianto di raffreddamento. (opzione 2) è priva di senso operativo: ridurre la visibilità non è mai un obiettivo della configurazione flap. (opzione 4) è fisicamente sbagliata: i flap aumentano la resistenza rispetto alla configurazione pulita, non la annullano."
         },
         {
           "n": 45,
@@ -7383,7 +7383,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La velocità di stallo in configurazione pulita (flap e carrello retratti) è indicata come Vs1."
+          "explanation": "La velocità di stallo in configurazione pulita (flap e carrello retratti) è indicata come Vs1. (opzione 1) è la Vso, velocità di stallo in configurazione di atterraggio (flap estesi), non in configurazione pulita. (opzione 3) è la Vfe, velocità massima per l'estensione dei flap, un limite strutturale distinto dalla velocità di stallo. (opzione 4) è la Vx, velocità di miglior angolo di salita, categoria del tutto diversa dalle velocità di stallo."
         },
         {
           "n": 46,
@@ -7411,7 +7411,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un velivolo sovraccarico in crociera vola con angolo d'attacco maggiore (più cabrato) per generare la portanza extra necessaria a sostenerlo, pagandola in maggiore resistenza indotta."
+          "explanation": "Un velivolo sovraccarico in crociera vola con angolo d'attacco maggiore (più cabrato) per generare la portanza extra necessaria a sostenerlo, pagandola in maggiore resistenza indotta. (opzione 1) inverte l'effetto: un velivolo più pesante richiede un angolo d'attacco maggiore, non più picchiato. (opzione 3) è irrealistica: un assetto esattamente orizzontale non garantirebbe la portanza extra necessaria a sostenere il sovraccarico. (opzione 4) confonde causa ed effetto: è l'angolo d'attacco richiesto dal peso a determinare l'assetto, non il trim in sé."
         },
         {
           "n": 48,
@@ -7425,7 +7425,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Station indica una posizione specifica a bordo, misurata come distanza longitudinale (in pollici o mm) dal Datum, usata per calcolare il braccio di ciascun peso caricato."
+          "explanation": "Station indica una posizione specifica a bordo, misurata come distanza longitudinale (in pollici o mm) dal Datum, usata per calcolare il braccio di ciascun peso caricato. (opzione 2) confonde la Station con un limite di peso, mentre è una misura di posizione, non di massa. (opzione 3) è priva di senso: la Station non ha nulla a che vedere con il consumo di carburante. (opzione 4) la restringe erroneamente a un singolo punto (il sedile del pilota), mentre è un concetto generale applicabile a qualunque elemento di peso a bordo."
         },
         {
           "n": 49,
@@ -7439,7 +7439,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il Service Ceiling è la quota massima alla quale l'aereo mantiene ancora un rateo di salita di 100 fpm (diversamente dalla Tangenza Assoluta, dove il rateo scende a zero)."
+          "explanation": "Il Service Ceiling è la quota massima alla quale l'aereo mantiene ancora un rateo di salita di 100 fpm (diversamente dalla Tangenza Assoluta, dove il rateo scende a zero). (opzione 1) è una definizione troppo generica e non corrisponde al criterio tecnico specifico dei 100 fpm. (opzione 2) confonde la tangenza operativa con un limite di pressurizzazione cabina, concetto estraneo agli aeroplani a pistoni non pressurizzati. (opzione 4) descrive piuttosto la tangenza assoluta (dove Vx e Vy coincidono), non la tangenza operativa."
         },
         {
           "n": 50,
@@ -7453,7 +7453,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La Vno è la velocità massima strutturale di crociera, limite superiore dell'arco verde: superandola si entra nell'arco giallo, zona di cautela riservata all'aria calma."
+          "explanation": "La Vno è la velocità massima strutturale di crociera, limite superiore dell'arco verde: superandola si entra nell'arco giallo, zona di cautela riservata all'aria calma. (opzione 1) descrive la Vne, velocità da non superare mai (limite dell'arco giallo), non la Vno. (opzione 2) descrive la Vfe, velocità massima per l'estensione dei flap, un limite diverso. (opzione 4) descrive la Vs1, velocità di stallo in configurazione pulita, categoria completamente diversa dai limiti strutturali di velocità."
         },
         {
           "n": 51,
@@ -7467,7 +7467,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In planata con motore inattivo, la Vbg (best glide) è la velocità di massima efficienza L/D, quella che massimizza la distanza orizzontale percorribile."
+          "explanation": "In planata con motore inattivo, la Vbg (best glide) è la velocità di massima efficienza L/D, quella che massimizza la distanza orizzontale percorribile. (opzione 2) è la Vne, un limite strutturale di velocità massima, non una velocità operativa per la planata. (opzione 3) è la Vso, velocità di stallo in configurazione sporca: volare a quella velocità in planata sarebbe pericoloso. (opzione 4) è la Vy, ottimizzata per il rateo di salita con motore funzionante, un criterio non applicabile a una planata senza motore."
         },
         {
           "n": 52,
@@ -7481,7 +7481,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Pista 09 = prua 090°, vento 120°/20kt: differenza angolare 30°. La componente frontale (headwind) si ottiene con il coseno: 20 x cos(30°) ≈ 17 nodi."
+          "explanation": "Pista 09 -> prua/pista 090 gradi; vento 120 gradi/20 kt: angolo tra vento e pista = 120-090 = 30 gradi. Componente frontale (headwind) = velocità del vento x cos(angolo) = 20 x cos(30) = 20 x 0,866 = circa 17,3 nodi, arrotondato a circa 17 nodi. (opzione 1) corrisponde in realtà alla componente laterale (crosswind) = 20 x sin(30) = 10 nodi, scambiata per errore con la componente frontale. (opzione 2) sarebbe corretta solo se l'angolo tra vento e pista fosse di 90 gradi (vento puramente al traverso), mentre qui è di soli 30 gradi. (opzione 4) corrisponderebbe a un vento perfettamente allineato con la pista (angolo 0 gradi), trattando l'intera intensità del vento come componente frontale e ignorando l'angolo di 30 gradi."
         },
         {
           "n": 53,
@@ -7495,7 +7495,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il Datum per i calcoli di centraggio è un piano verticale di riferimento immaginario, arbitrario ma fissato dal costruttore, da cui si misurano orizzontalmente tutti i bracci."
+          "explanation": "Il Datum per i calcoli di centraggio è un piano verticale di riferimento immaginario, arbitrario ma fissato dal costruttore, da cui si misurano orizzontalmente tutti i bracci. (opzione 1) lo confonde con il centro geometrico dell'ala, un punto fisico specifico, mentre il Datum è un piano di riferimento arbitrario che può trovarsi ovunque. (opzione 2) descrive in realtà il baricentro (il punto di equilibrio se il velivolo fosse sospeso), non il Datum. (opzione 4) lo identifica con il firewall del motore: in alcuni velivoli il Datum può trovarsi lì per convenzione, ma non è la definizione generale del concetto."
         },
         {
           "n": 54,
@@ -7509,7 +7509,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "OAT è l'acronimo di Outside Air Temperature, la temperatura dell'aria esterna: dato indispensabile per calcolare la Density Altitude."
+          "explanation": "OAT è l'acronimo di Outside Air Temperature, la temperatura dell'aria esterna: dato indispensabile per calcolare la Density Altitude. (opzione 1), (opzione 3) e (opzione 4) sono acronimi inventati che non corrispondono a nessuna sigla standard usata nei manuali di volo."
         },
         {
           "n": 55,
@@ -7523,7 +7523,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Su pista in discesa (downslope), la componente di gravità lungo la pista aiuta l'accelerazione, riducendo tempo e spazio necessari al ground roll in decollo (ma peggiora la frenata in atterraggio)."
+          "explanation": "Su pista in discesa (downslope), la componente di gravità lungo la pista aiuta l'accelerazione, riducendo tempo e spazio necessari al ground roll in decollo (ma peggiora la frenata in atterraggio). (opzione 2) inverte l'effetto: la pendenza in discesa aiuta l'accelerazione, riducendo, non aumentando, la distanza di decollo. (opzione 3) è priva di fondamento fisico: la pendenza della pista non riduce la portanza generata dall'ala. (opzione 4) introduce un presunto divieto sui flap che non ha alcuna relazione con la pendenza della pista."
         },
         {
           "n": 56,
@@ -7551,7 +7551,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'angolo di salita dipende dalla spinta in eccesso (spinta disponibile meno resistenza) rispetto al peso: è un bilancio di forze orizzontali, non semplicemente di potenza."
+          "explanation": "L'angolo di salita dipende dalla spinta in eccesso (spinta disponibile meno resistenza) rispetto al peso: è un bilancio di forze orizzontali, non semplicemente di potenza. (opzione 1) parla di portanza in eccesso rispetto al peso, un bilancio verticale che non è il criterio usato per l'angolo di salita. (opzione 3) descrive il criterio corretto per il rateo di salita (potenza in eccesso), non per l'angolo di salita. (opzione 4) è priva di fondamento: la direzione del vento in quota non determina l'angolo di salita del velivolo rispetto all'aria."
         },
         {
           "n": 58,
@@ -7565,7 +7565,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La combinazione peggiore per la distanza di decollo somma più fattori penalizzanti insieme: erba bagnata (più attrito), alta quota e alta temperatura (Density Altitude elevata) e vento in coda (componente utile ridotta o negativa)."
+          "explanation": "La combinazione peggiore per la distanza di decollo somma più fattori penalizzanti insieme: erba bagnata (più attrito), alta quota e alta temperatura (Density Altitude elevata) e vento in coda (componente utile ridotta o negativa). (opzione 1) elenca condizioni tutte favorevoli (vento frontale, bassa quota, bassa temperatura), che ridurrebbero la distanza di decollo. (opzione 2) combina aria fredda, pista in discesa e asfalto liscio, fattori tutti favorevoli alle prestazioni. (opzione 4) descrive condizioni standard/neutre (vento calmo, livello del mare, asfalto), ben lontane dallo scenario peggiore."
         },
         {
           "n": 59,
@@ -7579,7 +7579,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Valore letto dal grafico di prestazione (tabella C) alle condizioni indicate: si entra con l'altitudine di pressione e la temperatura, si segue la curva fino alla linea del peso, si applica la correzione per il vento in prua e si legge il risultato finale sull'asse della distanza.",
+          "explanation": "Il valore si legge dal grafico di prestazione (tabella C del manuale, fig. 3-3) per le condizioni indicate: si entra con la temperatura e l'altitudine di pressione (6000 ft, ISA) fino alla curva del peso (600 kg), si applica la correzione per il vento in prua (20 kt) e per il tipo di superficie (erba compatta e asciutta, flap 38 gradi, freni al massimo), ottenendo 268 m. (opzione 1), pari a 143 m, è troppo corto per queste condizioni: un valore così basso è verosimile solo a livello del mare o con un vento in prua molto più forte di 20 kt. (opzione 3), pari a 301 m, è coerente con il tipo di errore che si ottiene leggendo il grafico senza applicare (o applicando solo in parte) la correzione per il vento in prua, che riduce la distanza rispetto al valore \"no wind\". (opzione 4), pari a 469 m, è coerente con l'errore di utilizzare la curva per pista bagnata o comunque con un fattore di frenata meno efficace di quello previsto per erba compatta e asciutta.",
           "fig": "3-3"
         },
         {
@@ -7594,7 +7594,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Un CG più arretrato riduce la deportanza che il piano di coda deve generare per bilanciare il momento picchiante dell'ala: meno deportanza in coda significa meno portanza totale richiesta all'ala, quindi meno resistenza indotta e un leggero aumento della TAS a parità di potenza."
+          "explanation": "Un CG più arretrato riduce la deportanza che il piano di coda deve generare per bilanciare il momento picchiante dell'ala: meno deportanza in coda significa meno portanza totale richiesta all'ala, quindi meno resistenza indotta e un leggero aumento della TAS a parità di potenza. (opzione 1) è drammaticamente sbagliata: un CG arretrato entro i limiti non causa uno stallo imminente né una forte perdita di velocità, anzi tende leggermente ad aumentarla. (opzione 2) ignora l'effetto aerodinamico reale sulla resistenza indotta complessiva. (opzione 4) è priva di fondamento: la posizione del CG entro i limiti non impone in alcun modo l'uso dei flap in crociera."
         },
         {
           "n": 61,
@@ -7608,7 +7608,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In un motore aspirato (non sovralimentato) la pressione di ammissione disponibile diminuisce con la quota, per la minore densità dell'aria in ingresso: la potenza disponibile cala quindi costantemente all'aumentare dell'altitudine."
+          "explanation": "In un motore aspirato (non sovralimentato) la pressione di ammissione disponibile diminuisce con la quota, per la minore densità dell'aria in ingresso: la potenza disponibile cala quindi costantemente all'aumentare dell'altitudine. (opzione 2) descrive il comportamento di un motore turbocompresso, che mantiene la pressione di ammissione fino alla quota critica: un motore aspirato non ha questa capacità. (opzione 3) descrive anch'essa il comportamento tipico di un motore sovralimentato entro la sua quota critica, non di un aspirato. (opzione 4) isola solo l'effetto della temperatura più fredda in quota, ignorando che la riduzione di densità dell'aria prevale nettamente, causando comunque un calo netto di potenza disponibile."
         },
         {
           "n": 62,
@@ -7622,7 +7622,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La Deriva è l'angolo tra la Prora (Heading, dove punta il muso) e la Rotta effettiva sul terreno (Track), causato dalla componente di vento al traverso."
+          "explanation": "La Deriva è l'angolo tra la Prora (Heading, dove punta il muso) e la Rotta effettiva sul terreno (Track), causato dalla componente di vento al traverso. (opzione 2) confonde la deriva (una differenza angolare) con la differenza tra due velocità (TAS e GS), grandezza di natura diversa. (opzione 3) fa riferimento alla declinazione magnetica (differenza tra Nord Vero e Magnetico), un concetto distinto dalla deriva. (opzione 4) cita due limiti di velocità strutturali (Vno, Vne), del tutto estranei al concetto di deriva."
         },
         {
           "n": 63,
@@ -7636,7 +7636,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il Maximum Taxi/Ramp Mass è il peso massimo consentito per iniziare le operazioni a terra, leggermente superiore all'MTOM per compensare il carburante che verrà bruciato durante rullaggio e prove motore prima del decollo."
+          "explanation": "Il Maximum Taxi/Ramp Mass è il peso massimo consentito per iniziare le operazioni a terra, leggermente superiore all'MTOM per compensare il carburante che verrà bruciato durante rullaggio e prove motore prima del decollo. (opzione 2) lo confonde con un limite di trainabilità del mezzo di rimorchio, un dato che riguarda l'attrezzatura di terra, non le prestazioni certificate del velivolo. (opzione 3) descrive un concetto di massa che esclude l'equipaggio, diverso dal Maximum Taxi Mass. (opzione 4) confonde il limite di massa del velivolo con la capacità portante della pavimentazione della rampa aeroportuale, un vincolo infrastrutturale indipendente."
         },
         {
           "n": 64,
@@ -7650,7 +7650,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "I flap di decollo riducono la corsa (più portanza a bassa velocità) ma penalizzano il rateo e l'angolo di salita successivi, per la maggiore resistenza indotta a parità di velocità."
+          "explanation": "I flap di decollo riducono la corsa (più portanza a bassa velocità) ma penalizzano il rateo e l'angolo di salita successivi, per la maggiore resistenza indotta a parità di velocità. (opzione 1) inverte la relazione: i flap di decollo accorciano la corsa ma peggiorano, non migliorano, l'angolo di salita successivo. (opzione 3) ignora l'effetto ben documentato dei flap sia sulla corsa sia sul rateo/angolo di salita. (opzione 4) è fisicamente sbagliata: i flap estesi aumentano la resistenza aerodinamica rispetto alla configurazione pulita."
         },
         {
           "n": 65,
@@ -7664,7 +7664,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La base dell'arco verde sull'anemometro è la Vs1, velocità di stallo in configurazione pulita (flap e carrello retratti) al peso massimo certificato."
+          "explanation": "La base dell'arco verde sull'anemometro è la Vs1, velocità di stallo in configurazione pulita (flap e carrello retratti) al peso massimo certificato. (opzione 1) è la Vso, velocità di stallo in configurazione di atterraggio, che segna invece la base dell'arco bianco. (opzione 2) fa riferimento a una generica \"velocità minima di decollo\", concetto procedurale che non corrisponde a nessun limite marcato sull'anemometro. (opzione 4) è la velocità di massima efficienza (L/D max), un dato di prestazione che non è indicato dagli archi colorati dello strumento."
         },
         {
           "n": 66,
@@ -7678,7 +7678,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il Braccio (Arm) è la distanza orizzontale di un peso dal Datum, usata insieme al peso stesso per calcolare il momento (peso x braccio)."
+          "explanation": "Il Braccio (Arm) è la distanza orizzontale di un peso dal Datum, usata insieme al peso stesso per calcolare il momento (peso x braccio). (opzione 1) descrive in realtà il Momento (peso moltiplicato per la distanza), non il Braccio, che è invece la sola distanza, senza il peso. (opzione 3) confonde il Braccio con un limite di centraggio, concetto distinto. (opzione 4) lo confonde con la Corda Media Aerodinamica (MAC), un altro riferimento geometrico usato per esprimere la posizione del baricentro in percentuale, ma concettualmente diverso dal Braccio."
         },
         {
           "n": 67,
@@ -7692,7 +7692,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'Avgas 100LL (circa 0,72 kg/l) è più leggero dell'acqua (1,0 kg/l): un'eventuale contaminazione d'acqua nei serbatoi si deposita quindi sul fondo, dove viene rilevata durante l'ispezione prevolo (drenaggio campione)."
+          "explanation": "L'Avgas 100LL (circa 0,72 kg/l) è più leggero dell'acqua (1,0 kg/l): un'eventuale contaminazione d'acqua nei serbatoi si deposita quindi sul fondo, dove viene rilevata durante l'ispezione prevolo (drenaggio campione). (opzione 1) inverte il rapporto di peso specifico: è la benzina ad essere più leggera dell'acqua, non viceversa. (opzione 3) ignora la differenza reale tra i due pesi specifici. (opzione 4) non solo inverte il rapporto ma lo esagera, affermando che la benzina pesa il doppio dell'acqua, quando è vero il contrario e in proporzione minore."
         },
         {
           "n": 68,
@@ -7706,7 +7706,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "MAC (Mean Aerodynamic Chord) è la corda media aerodinamica, usata per esprimere la posizione del baricentro in percentuale della corda anziché come distanza assoluta dal Datum."
+          "explanation": "MAC (Mean Aerodynamic Chord) è la corda media aerodinamica, usata per esprimere la posizione del baricentro in percentuale della corda anziché come distanza assoluta dal Datum. (opzione 1), (opzione 2) e (opzione 4) sono acronimi inventati che non corrispondono a nessuna sigla standard nei manuali di volo."
         },
         {
           "n": 69,
@@ -7720,7 +7720,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "TOW/ATOW indica l'Actual Take-Off Weight, cioè il peso effettivo dell'aeromobile al momento del decollo."
+          "explanation": "TOW/ATOW indica l'Actual Take-Off Weight, cioè il peso effettivo dell'aeromobile al momento del decollo. (opzione 1), (opzione 3) e (opzione 4) sono espansioni inventate della sigla che non trovano riscontro nella terminologia aeronautica standard."
         },
         {
           "n": 70,
@@ -7734,7 +7734,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La Density Altitude si ottiene correggendo l'Altitudine di Pressione per lo scostamento della temperatura reale rispetto ai valori standard ISA previsti per quella quota."
+          "explanation": "La Density Altitude si ottiene correggendo l'Altitudine di Pressione per lo scostamento della temperatura reale rispetto ai valori standard ISA previsti per quella quota. (opzione 1) fa riferimento al settaggio dell'altimetro in hPa, un dato già incorporato nel calcolo della Pressure Altitude, non la correzione aggiuntiva. (opzione 3) introduce il gradiente di vento, un fattore che non ha alcuna relazione con la densità dell'aria. (opzione 4) fa riferimento all'elevazione del terreno, un dato fisso geografico, mentre la correzione riguarda lo scostamento termico rispetto allo standard ISA."
         },
         {
           "n": 71,
@@ -7748,7 +7748,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Volando a Vbg, l'angolo di planata (quindi la distanza massima percorribile) dipende solo dal rapporto L/D e non dal peso; un aereo più pesante percorre la stessa distanza ma deve mantenere una IAS più alta e scende con un rateo maggiore."
+          "explanation": "Volando a Vbg, l'angolo di planata (quindi la distanza massima percorribile) dipende solo dal rapporto L/D e non dal peso; un aereo più pesante percorre la stessa distanza ma deve mantenere una IAS più alta e scende con un rateo maggiore. (opzione 2) afferma che la distanza percorribile diminuisce con il peso, ignorando che il rapporto L/D alla Vbg dipende solo dall'aerodinamica del velivolo. (opzione 3) attribuisce erroneamente a una generica \"inerzia\" un aumento di distanza percorribile, effetto che non esiste in planata stazionaria. (opzione 4) coglie correttamente che la distanza non cambia, ma sbaglia affermando che non serve variare la IAS: un aereo più pesante deve invece volare a una IAS più alta."
         },
         {
           "n": 72,
@@ -7762,7 +7762,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le direzioni di vento fornite dalla torre di controllo sono sempre riferite al Nord Magnetico, per essere direttamente confrontabili con l'orientamento magnetico della pista."
+          "explanation": "Le direzioni di vento fornite dalla torre di controllo sono sempre riferite al Nord Magnetico, per essere direttamente confrontabili con l'orientamento magnetico della pista. (opzione 1) indica il Nord Vero, riferimento usato invece per le rotte di navigazione su carta, non per le comunicazioni vento della torre. (opzione 3) fa riferimento al Nord Bussola, una lettura strumentale soggetta a deviazione, non lo standard usato dalla torre. (opzione 4) usa una terminologia impropria che non corrisponde a nessuno dei riferimenti direzionali standard in uso."
         },
         {
           "n": 73,
@@ -7790,7 +7790,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Non trimmare correttamente l'aereo costringe il pilota a mantenere costantemente una pressione sui comandi: ne derivano affaticamento e il rischio di una perdita di assetto se i comandi vengono lasciati anche solo per un istante."
+          "explanation": "Non trimmare correttamente l'aereo costringe il pilota a mantenere costantemente una pressione sui comandi: ne derivano affaticamento e il rischio di una perdita di assetto se i comandi vengono lasciati anche solo per un istante. (opzione 1) inventa un guasto istantaneo del pilota automatico che non ha alcuna relazione fisica con un trim non compensato manualmente. (opzione 2) esagera l'effetto fino a un cedimento strutturale dei cavi comandi, conseguenza non plausibile di un semplice mancato trim. (opzione 3) sottovaluta il problema: anche con forza sufficiente a mantenere l'assetto, resta il rischio concreto di perdita di controllo se il pilota lascia i comandi anche solo per un istante."
         },
         {
           "n": 75,
@@ -7804,7 +7804,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il carburante bruciato prima della partenza (messa in moto, rullaggio, prove motore) prende il nome di Taxi Fuel."
+          "explanation": "Il carburante bruciato prima della partenza (messa in moto, rullaggio, prove motore) prende il nome di Taxi Fuel. (opzione 2) è il Trip Fuel, il carburante necessario per la tratta di volo effettiva, non per le operazioni a terra pre-partenza. (opzione 3) è il Contingency Fuel, la riserva per imprevisti lungo la rotta. (opzione 4) è la Final Reserve Fuel, la riserva finale di 30 minuti, anch'essa non correlata al consumo prima della partenza."
         },
         {
           "n": 76,
@@ -7818,7 +7818,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Sfruttare l'effetto suolo con un aereo sovraccarico permette di staccarsi a bassa velocità, ma appena si esce dall'effetto suolo la resistenza indotta aumenta bruscamente: l'aereo può non avere portanza sufficiente per continuare a salire, con rischio di stallo o impatto contro ostacoli a fine pista."
+          "explanation": "Sfruttare l'effetto suolo con un aereo sovraccarico permette di staccarsi a bassa velocità, ma appena si esce dall'effetto suolo la resistenza indotta aumenta bruscamente: l'aereo può non avere portanza sufficiente per continuare a salire, con rischio di stallo o impatto contro ostacoli a fine pista. (opzione 2) è sbagliata perché l'effetto suolo è un fenomeno limitato alle vicinanze del terreno: non produce alcun miglioramento permanente delle prestazioni fino a quota di crociera. (opzione 3) inventa un rateo di salita specifico (1000 fpm) del tutto scollegato dalla realtà di un velivolo sovraccarico. (opzione 4) attribuisce all'effetto suolo un ruolo di raffreddamento motore privo di qualunque relazione aerodinamica."
         },
         {
           "n": 77,
@@ -7832,7 +7832,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'Effetto Suolo si annulla praticamente a un'altezza dal terreno pari a circa un'apertura alare dell'aeromobile."
+          "explanation": "L'Effetto Suolo si annulla praticamente a un'altezza dal terreno pari a circa un'apertura alare dell'aeromobile. (opzione 1) propone un valore fisso in piedi (10 ft) che non tiene conto della reale dipendenza dell'effetto suolo dall'apertura alare specifica del velivolo. (opzione 3) è assurda: l'effetto suolo è un fenomeno che si esaurisce a pochissima distanza dal terreno, non oltre i 10.000 piedi. (opzione 4) sottostima l'altezza a cui l'effetto si esaurisce, indicando metà apertura alare anziché circa un'intera apertura alare."
         },
         {
           "n": 78,
@@ -7846,7 +7846,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Se il CG supera i limiti di progetto, il pilota deve rifiutarsi di volare e riorganizzare il carico (spostare bagagli o passeggeri, scaricare peso) finché non rientra nell'inviluppo consentito: non esistono scorciatoie operative."
+          "explanation": "Se il CG supera i limiti di progetto, il pilota deve rifiutarsi di volare e riorganizzare il carico (spostare bagagli o passeggeri, scaricare peso) finché non rientra nell'inviluppo consentito: non esistono scorciatoie operative. (opzione 1) propone di decollare comunque confidando nel trim, il che è una violazione diretta della procedura di sicurezza: un CG fuori limiti compromette la controllabilità certificata. (opzione 2) inventa un rimedio (aumentare la velocità di decollo) che non risolve il problema di stabilità/controllo. (opzione 3) è potenzialmente controproducente: aggiungere carburante in un serbatoio qualsiasi, senza considerarne la posizione rispetto al Datum, potrebbe peggiorare lo sbilanciamento."
         },
         {
           "n": 79,
@@ -7860,7 +7860,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La turbolenza di scia è massima quando il generante è pesante, pulito (flap su) e lento: condizione tipica della salita iniziale subito dopo il decollo."
+          "explanation": "La turbolenza di scia è massima quando il generante è pesante, pulito (flap su) e lento: condizione tipica della salita iniziale subito dopo il decollo. (opzione 2) descrive condizioni opposte (leggero, veloce, flap estesi), che in realtà riducono l'intensità della turbolenza di scia generata. (opzione 3) è sbagliata perché la turbolenza di scia significativa è legata alla generazione di portanza in volo, non al rullaggio a terra. (opzione 4) fa riferimento al volo supersonico, condizione non pertinente al traffico aereo tipico interessato da questo fenomeno."
         },
         {
           "n": 80,
@@ -10265,7 +10265,7 @@
         {
           "n": 21,
           "gid": 378,
-          "q": "La molla che spinge l'uomo all'azione è la motivazione. E' corretto affermare che una motivazione (necessità, lavoro, sport, divertimento, sfida, passione) troppo forte può provocare anche distorsioni della percezione?",
+          "q": "La molla che spinge l'uomo all'azione è la motivazione. È corretto affermare che una motivazione (necessità, lavoro, sport, divertimento, sfida, passione) troppo forte può provocare anche distorsioni della percezione?",
           "options": [
             "Si",
             "No",
@@ -11884,10 +11884,10 @@
           "gid": 406,
           "q": "Che cos'è il gradiente di pressione dell'atmosfera standard?",
           "options": [
-            "E' la variazione media diurna della pressione all'equatore",
-            "E' la variazione della pressione per effetto della della condensazione",
+            "È la variazione media diurna della pressione all'equatore",
+            "È la variazione della pressione per effetto della della condensazione",
             "Nulla che interessi il pilota",
-            "E' la legge con la quale il valore d pressione varia con la quota"
+            "È la legge con la quale il valore d pressione varia con la quota"
           ],
           "correct": 3,
           "src": "quizvds",
@@ -11926,10 +11926,10 @@
           "gid": 409,
           "q": "Che cos'è il gradiente di temperatura dell'atmosfera standard ?",
           "options": [
-            "E' la variazione media diurna della temperatura all'equatore",
-            "E' la legge con la quale il valore della temperatura varia con la quota",
-            "E' la variazione della temperatura per effetto della condensazione",
-            "E' la diminuzione della pressione per ogni 1000 piedi."
+            "È la variazione media diurna della temperatura all'equatore",
+            "È la legge con la quale il valore della temperatura varia con la quota",
+            "È la variazione della temperatura per effetto della condensazione",
+            "È la diminuzione della pressione per ogni 1000 piedi."
           ],
           "correct": 1,
           "src": "quizvds",
@@ -12500,10 +12500,10 @@
           "gid": 450,
           "q": "Che cosa è una \"saccatura\"?",
           "options": [
-            "E' l'estensione di una zona di bassa pressione, generalmente luogo di perturbazioni atmosferiche",
+            "È l'estensione di una zona di bassa pressione, generalmente luogo di perturbazioni atmosferiche",
             "E l'estensione di una zona di alta pressione dove il tempo è generalmente buono",
-            "E' la zona d'unione di due basse pressioni dove generalmente si verificano forti cambi di direzione e forza del vento e, manifestazioni temporalesche",
-            "E' una zona di alta pressione stabile"
+            "È la zona d'unione di due basse pressioni dove generalmente si verificano forti cambi di direzione e forza del vento e, manifestazioni temporalesche",
+            "È una zona di alta pressione stabile"
           ],
           "correct": 0,
           "src": "quizvds",
@@ -12515,9 +12515,9 @@
           "q": "Che cosa è un \"promontorio\"?",
           "options": [
             "E l'estensione di una zona di bassa pressione, generalmente luogo di perturbazioni atmosferiche",
-            "E' l'estensione di una zona di alta pressione, dove il tempo è generalmente buono",
-            "E' la zona d'unione di due basse pressioni dove generalmente si verificano forti cambi di direzione e forza del vento e, manifestazioni temporalesche",
-            "E' una zona di alta pressione stabile"
+            "È l'estensione di una zona di alta pressione, dove il tempo è generalmente buono",
+            "È la zona d'unione di due basse pressioni dove generalmente si verificano forti cambi di direzione e forza del vento e, manifestazioni temporalesche",
+            "È una zona di alta pressione stabile"
           ],
           "correct": 1,
           "src": "quizvds",
@@ -12528,10 +12528,10 @@
           "gid": 452,
           "q": "Che cosa é una sella?",
           "options": [
-            "E' l'estensione di una zona di bassa pressione, generalmente luogo di perturbazioni atmosferiche",
-            "E' l'estensione di una zona di alta pressione, dove il tempo è generalmente buono",
-            "E' la zona d'unione di due basse pressioni e due alte pressioni incrociate, dove generalmente i venti sono deboli e di direzione variabile",
-            "E' la zona d'unione di due basse pressioni dove si verificano forti manifestazioni temporalesche"
+            "È l'estensione di una zona di bassa pressione, generalmente luogo di perturbazioni atmosferiche",
+            "È l'estensione di una zona di alta pressione, dove il tempo è generalmente buono",
+            "È la zona d'unione di due basse pressioni e due alte pressioni incrociate, dove generalmente i venti sono deboli e di direzione variabile",
+            "È la zona d'unione di due basse pressioni dove si verificano forti manifestazioni temporalesche"
           ],
           "correct": 2,
           "src": "quizvds",
@@ -13097,10 +13097,10 @@
           "gid": 492,
           "q": "La nebbia di avvezione:",
           "options": [
-            "E' prodotta dalla dispersione di calore degli strati bassi di aria",
-            "E' prodotta da aria calda ed umida proveniente da altri luoghi",
-            "E' prodotta da innalzamento di aria lungo i declivi montani",
-            "E' prodotta dalla sublimazione dei vapore acqueo"
+            "È prodotta dalla dispersione di calore degli strati bassi di aria",
+            "È prodotta da aria calda ed umida proveniente da altri luoghi",
+            "È prodotta da innalzamento di aria lungo i declivi montani",
+            "È prodotta dalla sublimazione dei vapore acqueo"
           ],
           "correct": 1,
           "src": "quizvds",
@@ -16118,10 +16118,10 @@
           "gid": 556,
           "q": "Cosa è l'asse di rotazione terrestre ?",
           "options": [
-            "E' un asse immaginario attorno al quale la Terra compie il movimento di rivoluzione",
-            "E' un asse immaginario attorno al quale la Terra compie il movimento di rotazione",
-            "E' un asse immaginario perpendicolare all' Eclittica attorno al quale la Terra compie movimento di Rivoluzione",
-            "E' un asse immaginario perpendicolare all' Eclittica attorno al quale la Terra compie il movimento di Rotazione."
+            "È un asse immaginario attorno al quale la Terra compie il movimento di rivoluzione",
+            "È un asse immaginario attorno al quale la Terra compie il movimento di rotazione",
+            "È un asse immaginario perpendicolare all' Eclittica attorno al quale la Terra compie movimento di Rivoluzione",
+            "È un asse immaginario perpendicolare all' Eclittica attorno al quale la Terra compie il movimento di Rotazione."
           ],
           "correct": 1,
           "src": "quizvds",
@@ -16189,9 +16189,9 @@
           "q": "Cosa è l'equatore?",
           "options": [
             "Una circonferenza massima ottenuta sulla superficie terrestre facendo passare su quest'ultima un piano ideale perpendicolare all'asse congiungente i punti Zenit-Nadir e passante per il centro stesso della Terra",
-            "E' una circonferenza massima ottenuta sulla superficie terrestre da un piano secante perpendicolare all'asse terrestre e contenente il centro della terra",
-            "E' un luogo di punti della superficie terrestre su cui si riscontra la stessa declinazione magnetica di valore0°.",
-            "E' una circonferenza massima ottenuta sulla superficie terrestre facendo passare su quest'ultima un piano ideale che contiene l'eclittica e che passa per il centro della Terra."
+            "È una circonferenza massima ottenuta sulla superficie terrestre da un piano secante perpendicolare all'asse terrestre e contenente il centro della terra",
+            "È un luogo di punti della superficie terrestre su cui si riscontra la stessa declinazione magnetica di valore0°.",
+            "È una circonferenza massima ottenuta sulla superficie terrestre facendo passare su quest'ultima un piano ideale che contiene l'eclittica e che passa per il centro della Terra."
           ],
           "correct": 1,
           "src": "quizvds",
@@ -16244,10 +16244,10 @@
           "gid": 565,
           "q": "Cosa è il meridiano di riferimento di Greenwich?",
           "options": [
-            "E' il meridiano che sulla terra passa in una zona Declinazione \"nulla\"",
-            "E' il meridiano avente valore \"zero\" dal quale si iniziano a contare le Latitudini e che passa per l'omonima località",
-            "E' il meridiano avente valore \"zero\" dal quale si iniziano a misurare le Longitudini Est o Ovest. Il suo Antimeridiano é quello del cambiamento di data",
-            "E' il meridiano che convenzionalmente passa su zone della terra che sono disabitate e che meglio si presta per il cambiamento di data."
+            "È il meridiano che sulla terra passa in una zona Declinazione \"nulla\"",
+            "È il meridiano avente valore \"zero\" dal quale si iniziano a contare le Latitudini e che passa per l'omonima località",
+            "È il meridiano avente valore \"zero\" dal quale si iniziano a misurare le Longitudini Est o Ovest. Il suo Antimeridiano é quello del cambiamento di data",
+            "È il meridiano che convenzionalmente passa su zone della terra che sono disabitate e che meglio si presta per il cambiamento di data."
           ],
           "correct": 2,
           "src": "quizvds",
@@ -16258,9 +16258,9 @@
           "gid": 566,
           "q": "Quale è la definizione di longitudine?",
           "options": [
-            "E' un arco di Equatore misurato in gradi, primi e secondi di arco ed avente una massima ampiezza di 180°, 90° verso Nord e 90° verso Sud a partire dal meridiano di riferimento.",
-            "E' un arco di Equatore avente una massima ampiezza di 180° verso Nord e verso Sud a partire dal meridiano di riferimento",
-            "E' un arco di meridiano, misurato in gradi, primi e secondi di arco avente una massima ampiezza di 180°, 90° verso Nord e 90° verso Sud a partire dall'Equatore.",
+            "È un arco di Equatore misurato in gradi, primi e secondi di arco ed avente una massima ampiezza di 180°, 90° verso Nord e 90° verso Sud a partire dal meridiano di riferimento.",
+            "È un arco di Equatore avente una massima ampiezza di 180° verso Nord e verso Sud a partire dal meridiano di riferimento",
+            "È un arco di meridiano, misurato in gradi, primi e secondi di arco avente una massima ampiezza di 180°, 90° verso Nord e 90° verso Sud a partire dall'Equatore.",
             "Un arco di Equatore misurato in gradi, primi e secondi di arco ed avente una massima ampiezza di 180° verso Est o 180° verso Ovest a partire dal meridiano di riferimento che ha valore 0°."
           ],
           "correct": 3,
@@ -16300,10 +16300,10 @@
           "gid": 569,
           "q": "Cosa è la differenza di latitudine?",
           "options": [
-            "E' un arco di meridiano compreso tra i paralleli passanti per il punto di partenza e di arrivo ed avente una massima ampiezza di 180° verso Est o verso Ovest dell'Equatore.",
-            "E' un arco di meridiano compreso tra i paralleli passanti per il punto di partenza e di arrivo ed avente una ampiezza massima di 90°. Essa prende segno Nord o Sud a seconda della direzione di spostamento ed a prescindere dall'emisfero in cui detto spostamento si verifica.",
-            "E' un numero adimensionale avente un valore massimo di 180° ed il cui andamento è in diretta relazione con la declinazione magnetica della zona considerata.",
-            "E' un arco di Equatore determinato dai Meridiani che passano per il punto di partenza e di arrivo ed avente una ampiezza massima di 180°. Essa prende segno Est o Ovest a seconda del senso in cui avviene lo spostamento ed a prescindere dall'emisfero in cui esso si verifica."
+            "È un arco di meridiano compreso tra i paralleli passanti per il punto di partenza e di arrivo ed avente una massima ampiezza di 180° verso Est o verso Ovest dell'Equatore.",
+            "È un arco di meridiano compreso tra i paralleli passanti per il punto di partenza e di arrivo ed avente una ampiezza massima di 90°. Essa prende segno Nord o Sud a seconda della direzione di spostamento ed a prescindere dall'emisfero in cui detto spostamento si verifica.",
+            "È un numero adimensionale avente un valore massimo di 180° ed il cui andamento è in diretta relazione con la declinazione magnetica della zona considerata.",
+            "È un arco di Equatore determinato dai Meridiani che passano per il punto di partenza e di arrivo ed avente una ampiezza massima di 180°. Essa prende segno Est o Ovest a seconda del senso in cui avviene lo spostamento ed a prescindere dall'emisfero in cui esso si verifica."
           ],
           "correct": 1,
           "src": "quizvds",
@@ -16900,7 +16900,7 @@
           "gid": 612,
           "q": "Si sta pianificando una navigazione e dal bollettino meteorologico si rileva un accentuato valore di bassa pressione. Quale criterio si adotterà sulla scelta delle altitudini o del livelli di volo?",
           "options": [
-            "E' consigliato di eccedere, cioè di scegliere un livello di volo o una altitudine più elevata in quanto in tali condizioni l'altimetro indica più della quota reale e quindi ci troveremmo ad essere più bassi di quanto esso indichi",
+            "È consigliato di eccedere, cioè di scegliere un livello di volo o una altitudine più elevata in quanto in tali condizioni l'altimetro indica più della quota reale e quindi ci troveremmo ad essere più bassi di quanto esso indichi",
             "Si può trascurare completamente il dato rilevato sui bollettino meteorologico perché non è attinente con la scelta delle attitudini o dei livelli di volo",
             "Si può tranquillamente scegliere una altitudine o un livello di volo più bassi di quelli minimi raccomandati in quanto in tali condizioni meteorologiche l'altimetro indica meno della quota reale e quindi ci troveremmo comunque più alti della quota reale.",
             "In tali condizioni meteorologiche l'altimetro non è attendibile"
@@ -17375,9 +17375,9 @@
           "gid": 645,
           "q": "Cosa è la scala di una carta?",
           "options": [
-            "E' la proprietà di una carta aeronautica per cui le distanze misurate su di essa sono equivalenti secondo un certo rapporto a quelle corrispondenti sulla terra",
-            "E' un numero adimensionale che esprime la deformazione che subisce una certa zona della superfici terrestre nel processo di proiezione su una carta aeronautica.",
-            "E' il reticolo che viene a formarsi su una carta aeronautica dall'incrocio dei paralleli e dei meridiani che serve alla individuazione di un punto",
+            "È la proprietà di una carta aeronautica per cui le distanze misurate su di essa sono equivalenti secondo un certo rapporto a quelle corrispondenti sulla terra",
+            "È un numero adimensionale che esprime la deformazione che subisce una certa zona della superfici terrestre nel processo di proiezione su una carta aeronautica.",
+            "È il reticolo che viene a formarsi su una carta aeronautica dall'incrocio dei paralleli e dei meridiani che serve alla individuazione di un punto",
             "Rappresenta la differenza magnetica tra due punti sulla carta."
           ],
           "correct": 0,
@@ -17641,10 +17641,10 @@
           "gid": 664,
           "q": "Cosa è l'UTC o Tempo Universale Coordinato?",
           "options": [
-            "E' l'ora attribuita ai territori compresi in uno stesso fuso orario",
-            "E' l'ora attribuita a tutti i territori compresi in uno stesso stato sovrano",
-            "E' l'ora diversa dalla standard ed adottata da alcuni stati per dei motivi socio-economici.",
-            "E' l'ora dei meridiano di Greenwich corretta degli errori introdotti dal moto di rotazione e dalle oscillazioni dell'asse terrestre"
+            "È l'ora attribuita ai territori compresi in uno stesso fuso orario",
+            "È l'ora attribuita a tutti i territori compresi in uno stesso stato sovrano",
+            "È l'ora diversa dalla standard ed adottata da alcuni stati per dei motivi socio-economici.",
+            "È l'ora dei meridiano di Greenwich corretta degli errori introdotti dal moto di rotazione e dalle oscillazioni dell'asse terrestre"
           ],
           "correct": 3,
           "src": "quizvds",
@@ -18258,7 +18258,7 @@
             "Solo entro 100 NM dalla stazione",
             "Solo in particolari condizioni meteorologiche",
             "Non è possibile",
-            "E' possibile eseguendo un rilevamento simultaneo di due o più stazioni"
+            "È possibile eseguendo un rilevamento simultaneo di due o più stazioni"
           ],
           "correct": 3,
           "src": "quizvds",
@@ -20164,7 +20164,7 @@
           "gid": 200688,
           "q": "Si sta pianificando una navigazione e dal bollettino meteorologico si rileva un accentuato valore di bassa pressione. Quale criterio si adotterà sulla scelta delle altitudini o dei livelli di volo?",
           "options": [
-            "E' consigliato di eccedere, cioè di scegliere un livello di volo o una altitudine più elevata in quanto in tali condizioni l'altimetro indica più della quota reale e quindi ci troveremmo ad essere più bassi di quanto esso indichi",
+            "È consigliato di eccedere, cioè di scegliere un livello di volo o una altitudine più elevata in quanto in tali condizioni l'altimetro indica più della quota reale e quindi ci troveremmo ad essere più bassi di quanto esso indichi",
             "Si può trascurare completamente il dato rilevato sul bollettino meteorologico perché non è attinente con la scelta delle altitudini o dei livelli di volo",
             "Si può tranquillamente scegliere una altitudine o un livello di volo più bassi di quelli minimi raccomandati in quanto in tali condizioni meteorologiche l'altimetro indica meno della quota reale e quindi ci troveremmo comunque più alti della quota reale.",
             "In tali condizioni meteorologiche l'altimetro non è attendibile"
@@ -20225,7 +20225,7 @@
         {
           "n": 4,
           "gid": 761,
-          "q": "E' possibile variare la distribuzione della portanza su un'ala in volo?",
+          "q": "È possibile variare la distribuzione della portanza su un'ala in volo?",
           "options": [
             "Si, ad esempio azionando gli alettoni",
             "Si. ma solo con l'estensione dei flap",
@@ -20465,10 +20465,10 @@
           "gid": 778,
           "q": "Scegliere la migliore definizione di \"assetto di volo\".",
           "options": [
-            "E' l'angolo che la corda alare forma con la direzione dei flusso relativo",
-            "E' l'angolo che la direzione della portanza forma con il piano orizzontale",
-            "E' l'angolo che la corda alare forma con il piano orizzontale",
-            "E' l'angolo che l'asse longitudinale dei velivolo forma con la corda alare"
+            "È l'angolo che la corda alare forma con la direzione dei flusso relativo",
+            "È l'angolo che la direzione della portanza forma con il piano orizzontale",
+            "È l'angolo che la corda alare forma con il piano orizzontale",
+            "È l'angolo che l'asse longitudinale dei velivolo forma con la corda alare"
           ],
           "correct": 2,
           "src": "quizvds",
@@ -21933,7 +21933,7 @@
         {
           "n": 126,
           "gid": 883,
-          "q": "La seguente affermazione \"Un primo avviso dell'eventuale irregolare funzionamento del motore è dato dal rumore, particolarmente quando viene applicata l'80% della potenza in vista del decollo. Il rumore deve essere regolare, non rivelare ruvidità e rispondere docilmente al comando\". E' vera o falsa?",
+          "q": "La seguente affermazione \"Un primo avviso dell'eventuale irregolare funzionamento del motore è dato dal rumore, particolarmente quando viene applicata l'80% della potenza in vista del decollo. Il rumore deve essere regolare, non rivelare ruvidità e rispondere docilmente al comando\". È vera o falsa?",
           "options": [
             "Vera",
             "Falsa",
@@ -21947,7 +21947,7 @@
         {
           "n": 127,
           "gid": 884,
-          "q": "La seguente affermazione \"Un avviso dell'eventuale irregolare funzionamento del motore è dato dal fatto che quando viene applicata piena potenza al punto fermo il numero di giri (RPM) non raggiunge il limite superiore dell'arco verde\". E' vera o falsa?",
+          "q": "La seguente affermazione \"Un avviso dell'eventuale irregolare funzionamento del motore è dato dal fatto che quando viene applicata piena potenza al punto fermo il numero di giri (RPM) non raggiunge il limite superiore dell'arco verde\". È vera o falsa?",
           "options": [
             "Vera",
             "Falsa",
@@ -22003,7 +22003,7 @@
         {
           "n": 131,
           "gid": 888,
-          "q": "E' consentito l'uso dell'aria calda in rullaggio?",
+          "q": "È consentito l'uso dell'aria calda in rullaggio?",
           "options": [
             "Può essere applicata tranquillamente anche a terra",
             "Sì, ma solo per la prova motori",
@@ -23507,10 +23507,10 @@
           "gid": 995,
           "q": "L' intensità dei vortici generati da un aereo pesante:",
           "options": [
-            "E' maggiore di quella dei vortici generati da un aereo leggero",
-            "E' minore di quella dei vortici generati da un aereo leggero",
-            "E' uguale a quella dei vortici generati da un aereoleggero",
-            "E' trascurabile, specie nella fase di decollo."
+            "È maggiore di quella dei vortici generati da un aereo leggero",
+            "È minore di quella dei vortici generati da un aereo leggero",
+            "È uguale a quella dei vortici generati da un aereoleggero",
+            "È trascurabile, specie nella fase di decollo."
           ],
           "correct": 0,
           "src": "quizvds",
