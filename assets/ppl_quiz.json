@@ -1233,7 +1233,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Sorvolando un aeroporto sopra il limite superiore dell'ATZ non è richiesta alcuna azione specifica."
+          "explanation": "Sorvolando un aeroporto sopra il limite superiore dell'ATZ non è richiesta alcuna azione specifica. Non è vero che non sia prescritta alcuna azione in generale (falsa l'opzione 0): sotto il limite dell'ATZ è comunque richiesta attenzione al traffico locale. Non basta la sola prudenza generica (falsa l'opzione 1): la regola specifica dipende dalla quota rispetto al limite dell'ATZ. Non è necessario avvisare la torre o l'AFIS (falsa l'opzione 2): l'obbligo di comunicazione riguarda chi sorvola sotto quel limite, non sopra."
         },
         {
           "n": 91,
@@ -1247,7 +1247,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Arrivando da sopravvento ci si conforma al circuito standard degli altri aeromobili, inserendosi nel tratto di sottovento."
+          "explanation": "Arrivando da sopravvento ci si conforma al circuito standard degli altri aeromobili, inserendosi nel tratto di sottovento. Non ci si porta direttamente in finale (falsa l'opzione 0): bisogna prima conformarsi al circuito. Non è vietato l'ingresso da sopravvento in assoluto (falsa l'opzione 1): è ammesso, purché ci si conformi al circuito standard. Non è vero che non ci sia alcuna regola da rispettare (falsa l'opzione 2): vale l'obbligo di conformarsi al circuito standard."
         },
         {
           "n": 92,
@@ -1261,7 +1261,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Di giorno, in radio avaria, si conferma la ricezione dei segnali luminosi della torre facendo oscillare le ali."
+          "explanation": "Di giorno, in radio avaria, si conferma la ricezione dei segnali luminosi della torre facendo oscillare le ali. Accendere e spegnere le luci di navigazione (falsa l'opzione 0) è la segnalazione usata di notte, non di giorno. Abbassare e retrarre il carrello (falsa l'opzione 2) non è un segnale codificato per questo scopo. Effettuare un'orbita in sottovento (falsa l'opzione 3) è una manovra di attesa, non il segnale di conferma ricezione."
         },
         {
           "n": 93,
@@ -1275,7 +1275,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In classe C la separazione tra VFR e IFR è responsabilità dell'ente di controllo, non dei piloti."
+          "explanation": "In classe C la separazione tra VFR e IFR è responsabilità dell'ente di controllo, non dei piloti. Non è responsabilità del solo pilota VFR (falsa l'opzione 0): in classe C la separazione è un servizio fornito dall'ATC. Non è condivisa tra entrambi i piloti (falsa l'opzione 2): è l'ente di controllo a garantirla. Non dipende dal fatto che l'IFR sia in VMC (falsa l'opzione 3): la responsabilità resta dell'ente di controllo indipendentemente dalle condizioni meteo dell'IFR."
         },
         {
           "n": 94,
@@ -1289,7 +1289,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "ATS indica i Servizi del Traffico Aereo."
+          "explanation": "ATS indica i Servizi del Traffico Aereo. AIS, non ATS, indica il Servizio delle Informazioni Aeronautiche (falsa l'opzione 1). FIS è il Servizio Informazioni Volo, sigla diversa da ATS (falsa l'opzione 2). Non esiste un 'Servizio Amministrativo' abbreviato ATS (falsa l'opzione 3)."
         },
         {
           "n": 95,
@@ -1302,7 +1302,7 @@
             "Presso la Torre di Controllo a mezzo, telefono o via radio."
           ],
           "correct": 0,
-          "explanation": "Le informazioni per preparare e compilare il piano di volo si reperiscono presso l'ARO."
+          "explanation": "Le informazioni per preparare e compilare il piano di volo si reperiscono presso l'ARO. Gli uffici dell'Aero Club (falsa l'opzione 1), la Direzione Civile di Aeroporto (falsa l'opzione 2) e la Torre di Controllo (falsa l'opzione 3) non sono gli enti preposti a fornire queste informazioni: quel compito spetta specificamente all'ARO (Air Traffic Services Reporting Office)."
         },
         {
           "n": 96,
@@ -1316,7 +1316,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La torre trasmette normalmente vento al suolo, pista in uso, visibilità, QNH (e QFE a richiesta) ed eventuali ostacoli su pista e vie di rullaggio."
+          "explanation": "La torre trasmette normalmente vento al suolo, pista in uso, visibilità, QNH (e QFE a richiesta) ed eventuali ostacoli su pista e vie di rullaggio. Non include normalmente informazioni meteo di rotta (falsa l'opzione 1): quelle competono ai servizi meteo, non alla torre. Non include lunghezza e resistenza della pista come dato trasmesso di routine (falsa l'opzione 2 e l'opzione 3): quei dati sono pubblicati in AIP, non trasmessi sistematicamente dalla torre insieme al resto."
         },
         {
           "n": 97,
@@ -1330,7 +1330,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le istruzioni della torre sono vincolanti, salvo che il pilota non possa eseguirle per circostanze contingenti, nel qual caso richiede istruzioni alternative."
+          "explanation": "Le istruzioni della torre sono vincolanti, salvo che il pilota non possa eseguirle per circostanze contingenti, nel qual caso richiede istruzioni alternative. Non è vero che non siano ammesse eccezioni (falsa l'opzione 0): l'eccezione esiste per impossibilità contingente. Non è vero che non abbiano carattere vincolante (falsa l'opzione 2): sono vincolanti come regola generale. Non riguardano solo i voli IFR (falsa l'opzione 3): valgono anche per i VFR."
         },
         {
           "n": 98,
@@ -1344,7 +1344,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La frequenza ground gestisce il movimento a terra degli aeromobili sugli aeroporti ad alta densità, lasciando alla torre le sole fasi di decollo/atterraggio."
+          "explanation": "La frequenza ground gestisce il movimento a terra degli aeromobili sugli aeroporti ad alta densità, lasciando alla torre le sole fasi di decollo/atterraggio. Non riguarda solo le aree di parcheggio (falsa l'opzione 0): copre l'intera area di manovra. Non serve al controllo dei soli veicoli (falsa l'opzione 1): gestisce anche gli aeromobili. Non serve al collegamento con i mezzi antincendio (falsa l'opzione 2): quello non è lo scopo della frequenza ground."
         },
         {
           "n": 99,
@@ -1358,7 +1358,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il VDF consente alla torre di fornire un rilevamento (QDR) o una prua di avvicinamento (QDM) sfruttando le trasmissioni VHF dell'aeromobile."
+          "explanation": "Il VDF consente alla torre di fornire un rilevamento (QDR) o una prua di avvicinamento (QDM) sfruttando le trasmissioni VHF dell'aeromobile. Non serve a verificare il funzionamento degli apparati radio (falsa l'opzione 0), né dell'impianto di illuminazione di pista (falsa l'opzione 1), né a rilevare la presenza di volatili (falsa l'opzione 3): tutte funzioni estranee al VDF, che è uno strumento di radiogoniometria."
         },
         {
           "n": 100,
@@ -1371,7 +1371,7 @@
             "Un servizio istituito per fornire informazioni necessarie per la preparazione e la pianificazione dei voli."
           ],
           "correct": 0,
-          "explanation": "L'AFIS è un servizio informazioni volo aeroportuale che fornisce dati utili per decollo/atterraggio e su altro traffico, senza impartire autorizzazioni di controllo."
+          "explanation": "L'AFIS è un servizio informazioni volo aeroportuale che fornisce dati utili per decollo/atterraggio e su altro traffico, senza impartire autorizzazioni di controllo. Non è erogato da personale dell'Aero Club (falsa l'opzione 1): è assicurato da personale ENAV/enti competenti. Non è un servizio di radiodiffusione automatica tipo ATIS, identificato da una lettera (falsa l'opzione 2): quella è una funzione diversa. Non è finalizzato alla sola pianificazione dei voli (falsa l'opzione 3): fornisce informazioni operative in tempo reale."
         },
         {
           "n": 101,
@@ -1385,7 +1385,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il piano di volo non è obbligatorio per il solo attraversamento del confine tra due FIR dello stesso Stato."
+          "explanation": "Il piano di volo non è obbligatorio per il solo attraversamento del confine tra due FIR dello stesso Stato. Non è sempre obbligatorio in questo caso (falsa l'opzione 0). Non basta il sospetto di un dirottamento verso un aeroporto diverso per renderlo obbligatorio in questo contesto (falsa l'opzione 1). Non dipende dall'autonomia del velivolo monomotore (falsa l'opzione 3): l'attraversamento di FIR interne allo stesso Stato non richiede di per sé il piano di volo."
         },
         {
           "n": 102,
@@ -1398,7 +1398,7 @@
             "effettuato in spazi aerei di classe E"
           ],
           "correct": 0,
-          "explanation": "Il piano di volo ridotto si usa per un volo che parte da un aeroporto sede di ente ATS e diretto verso un aeroporto che non lo è."
+          "explanation": "Il piano di volo ridotto si usa per un volo che parte da un aeroporto sede di ente ATS e diretto verso un aeroporto che non lo è. Non dipende dall'altitudine di crociera (falsa l'opzione 1), dall'assenza di passeggeri paganti (falsa l'opzione 2) o dalla classe di spazio aereo attraversata (falsa l'opzione 3): il criterio che definisce il piano di volo ridotto è la combinazione aeroporto-ATS/aeroporto-non-ATS."
         },
         {
           "n": 103,
@@ -1411,7 +1411,7 @@
             "il volo sia condotto all'interno di un CTR con atterraggio sullo stesso aeroporto di partenza."
           ],
           "correct": 0,
-          "explanation": "Il piano di volo può essere inoltrato via radio solo quando risulti impossibile o estremamente difficoltoso farlo pervenire all'ARO con altri mezzi."
+          "explanation": "Il piano di volo può essere inoltrato via radio solo quando risulti impossibile o estremamente difficoltoso farlo pervenire all'ARO con altri mezzi. Non basta che l'aeroporto sia ubicato in CTR (falsa l'opzione 1), né che si operi in spazi di classe F o G (falsa l'opzione 2), né che il volo resti interno a un CTR con atterraggio sullo stesso aeroporto (falsa l'opzione 3): l'unica condizione è l'impossibilità o estrema difficoltà di trasmetterlo con i mezzi ordinari."
         },
         {
           "n": 104,
@@ -1424,7 +1424,7 @@
             "60 minuti prima dell' EOBT"
           ],
           "correct": 2,
-          "explanation": "Il piano di volo VFR va presentato almeno 30 minuti prima della partenza."
+          "explanation": "Il piano di volo VFR va presentato almeno 30 minuti prima della partenza. Non è né 60 minuti (falsa l'opzione 0 e l'opzione 3, che lo riferisce all'EOBT) né 15 minuti (falsa l'opzione 1): il termine regolamentare è di 30 minuti prima della partenza."
         },
         {
           "n": 105,
@@ -1438,7 +1438,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'autorizzazione ATC preventiva è richiesta quando si passa da spazio non controllato (E/F/G) verso spazio controllato di classe C o D."
+          "explanation": "L'autorizzazione ATC preventiva è richiesta quando si passa da spazio non controllato (E/F/G) verso spazio controllato di classe C o D. Non dipende dalla sola quota di 3.000/1.000 piedi (falsa l'opzione 0): quel criterio riguarda altre regole (es. servizio di allarme), non l'autorizzazione d'ingresso. Non dipende dall'assenza di transponder (falsa l'opzione 2): è un requisito diverso. Non dipende dall'essere sopra FL100 (falsa l'opzione 3): il criterio è il passaggio di classe di spazio aereo, non la quota assoluta."
         },
         {
           "n": 106,
@@ -1452,7 +1452,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il volo non deve seguire in modo rigido il piano depositato, purché eventuali cambiamenti vengano comunicati all'ente ATS."
+          "explanation": "Il volo non deve seguire in modo rigido il piano depositato, purché eventuali cambiamenti vengano comunicati all'ente ATS. Non è vero che debba essere seguito in modo assoluto (falsa l'opzione 0), né limitatamente alle sole classi C, D ed E (falsa l'opzione 1): la regola vale in generale. Non serve un preavviso minimo di 30 minuti per comunicare le variazioni (falsa l'opzione 3): basta comunicarle tempestivamente, senza un termine fisso di preavviso."
         },
         {
           "n": 107,
@@ -1465,7 +1465,7 @@
             "ad intervalli di 60 minuti."
           ],
           "correct": 1,
-          "explanation": "I voli VFR effettuano i riporti di posizione ad intervalli di 30 minuti."
+          "explanation": "I voli VFR effettuano i riporti di posizione ad intervalli di 30 minuti. Non sono 20 minuti (falsa l'opzione 0) né 60 minuti (falsa l'opzione 3): l'intervallo standard è di 30 minuti. Non è lasciato alla sola discrezione delle procedure locali (falsa l'opzione 2): esiste un intervallo di riferimento definito."
         },
         {
           "n": 108,
@@ -1478,7 +1478,7 @@
             "se in eccesso di 10 minuti dall' ultimo orario notificato, a meno che la competente autorità ATS non abbia prescritto un orario diverso"
           ],
           "correct": 1,
-          "explanation": "Una revisione dello stimato sul punto di riporto va comunicata se l'errore supera i 3 minuti rispetto all'ultimo orario notificato."
+          "explanation": "Una revisione dello stimato sul punto di riporto va comunicata se l'errore supera i 3 minuti rispetto all'ultimo orario notificato. Non sono 2 minuti (falsa l'opzione 0), né 5 (falsa l'opzione 2), né 10 (falsa l'opzione 3): la soglia standard è 3 minuti."
         },
         {
           "n": 109,
@@ -1491,7 +1491,7 @@
             "2%"
           ],
           "correct": 1,
-          "explanation": "La variazione di TAS rispetto al piano di volo va comunicata quando supera il 5%."
+          "explanation": "La variazione di TAS rispetto al piano di volo va comunicata quando supera il 5%. Non sono il 3% (falsa l'opzione 0), il 10% (falsa l'opzione 2) o il 2% (falsa l'opzione 3): la soglia regolamentare è il 5%."
         },
         {
           "n": 110,
@@ -1505,7 +1505,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In radio avaria con VMC, il pilota dirotta verso l'aeroporto idoneo più vicino, informa l'ATS dopo l'atterraggio e attiva, se disponibile, il transponder sul codice 7600."
+          "explanation": "In radio avaria con VMC, il pilota dirotta verso l'aeroporto idoneo più vicino, informa l'ATS dopo l'atterraggio e attiva, se disponibile, il transponder sul codice 7600. Non prosegue verso la destinazione originaria (falsa l'opzione 1 e l'opzione 3): la procedura prevede di dirottare sull'aeroporto idoneo più vicino, non di insistere sulla destinazione pianificata. L'opzione 2 è comunque errata: la regola è dirigersi verso l'aeroporto idoneo più vicino, non necessariamente ritornare verso la destinazione."
         },
         {
           "n": 111,
@@ -1517,7 +1517,7 @@
             "Portarsi ad una altitudine inferiore a 3.000 piedi o ad un'altezza di 1.000 piedi quale fra le due è più alta, ritornando verso l'aeroporto di partenza. Se disponibile, attivare il transponder sul codice 7000."
           ],
           "correct": 1,
-          "explanation": "Se il meteo peggiora in radio avaria, il pilota mantiene la VMC dirottando sull'aeroporto idoneo più vicino, informando l'ATS ad atterraggio avvenuto e attivando il transponder sul 7600."
+          "explanation": "Se il meteo peggiora in radio avaria, il pilota mantiene la VMC dirottando sull'aeroporto idoneo più vicino, informando l'ATS ad atterraggio avvenuto e attivando il transponder sul 7600. Non ritorna necessariamente all'aeroporto di partenza (falsa l'opzione 0): l'obiettivo è l'aeroporto idoneo più vicino, non per forza quello di partenza. Non scende sotto i 3.000/1.000 piedi né usa il codice 7000 (falsa l'opzione 2): la quota non è vincolata a quel limite e il codice corretto resta 7600, non 7000."
         },
         {
           "n": 112,
@@ -1531,7 +1531,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La chiusura del piano di volo evita che il Servizio di Ricerca e Soccorso venga attivato inutilmente per un aeromobile già atterrato."
+          "explanation": "La chiusura del piano di volo evita che il Servizio di Ricerca e Soccorso venga attivato inutilmente per un aeromobile già atterrato. Non serve per calcoli statistici (falsa l'opzione 0), né per esigenze dei servizi aeroportuali (falsa l'opzione 1), né per esigenze della Difesa Aerea (falsa l'opzione 3): lo scopo specifico è evitare l'allarme ingiustificato del SAR."
         },
         {
           "n": 113,
@@ -1545,7 +1545,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il compito primario del FIS è fornire informazioni e avvisi utili alla sicura ed efficiente condotta dei voli."
+          "explanation": "Il compito primario del FIS è fornire informazioni e avvisi utili alla sicura ed efficiente condotta dei voli. Non fornisce separazione al traffico IFR/VFR (falsa l'opzione 0): quello è compito dell'ATC, non del FIS. Non si limita alle sole previsioni meteorologiche (falsa l'opzione 2): il FIS copre un ambito più ampio. Non è limitato alla notifica agli RCC (falsa l'opzione 3): quella è una funzione del servizio di allarme, non il compito primario del FIS."
         },
         {
           "n": 114,
@@ -1559,7 +1559,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il servizio ATC ha il compito primario di prevenire le collisioni e di mantenere ordinato e fluido il traffico."
+          "explanation": "Il servizio ATC ha il compito primario di prevenire le collisioni e di mantenere ordinato e fluido il traffico. Non si ferma a fornire solo informazioni, avvisi e suggerimenti (falsa l'opzione 1): l'ATC impartisce autorizzazioni e istruzioni vincolanti, un compito diverso e più ampio. Non ha come terzo compito primario l'assistenza a velivoli in emergenza (falsa l'opzione 2): il terzo compito ICAO è accelerare e mantenere ordinato il flusso del traffico, non l'assistenza in emergenza. Non è la notifica agli RCC (falsa l'opzione 3): quello è compito del servizio di allarme, non dell'ATC."
         },
         {
           "n": 115,
@@ -1573,7 +1573,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il MAYDAY precede i messaggi quando l'aeromobile è minacciato da un pericolo grave o imminente e necessita di assistenza immediata."
+          "explanation": "Il MAYDAY precede i messaggi quando l'aeromobile è minacciato da un pericolo grave o imminente e necessita di assistenza immediata. Una generica situazione di urgenza (falsa l'opzione 0) richiede invece il segnale PAN PAN, non MAYDAY. Una difficoltà che non richiede assistenza immediata (falsa l'opzione 2) non giustifica il MAYDAY. La sola richiesta di priorità all'atterraggio (falsa l'opzione 3) non configura di per sé una situazione di pericolo grave e imminente."
         },
         {
           "n": 116,
@@ -1587,7 +1587,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il PAN PAN precede i messaggi che segnalano una situazione riguardante la sicurezza, senza necessità di assistenza immediata."
+          "explanation": "Il PAN PAN precede i messaggi che segnalano una situazione riguardante la sicurezza, senza necessità di assistenza immediata. Il pericolo grave e imminente (falsa l'opzione 0) richiede MAYDAY, non PAN PAN. Il solo eccessivo carico di comunicazioni (falsa l'opzione 1) non è motivo per usare PAN PAN. Turbolenza o ghiaccio severo in rotta si segnalano con un normale riporto AIREP, non necessariamente con PAN PAN (falsa l'opzione 2)."
         },
         {
           "n": 117,
@@ -1601,7 +1601,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'ordine di priorità dei messaggi del servizio mobile aeronautico è: soccorso, urgenza, radiogoniometria, sicurezza del volo, meteorologici, regolarità del volo."
+          "explanation": "L'ordine di priorità dei messaggi del servizio mobile aeronautico è: soccorso, urgenza, radiogoniometria, sicurezza del volo, meteorologici, regolarità del volo. L'opzione 0 omette la sicurezza del volo dall'ordine di priorità (falsa l'opzione 0). L'opzione 1 si ferma a quattro categorie omettendo radiogoniometria e meteo (falsa l'opzione 1). L'opzione 3 inverte radiogoniometria e sicurezza del volo e sposta la meteorologia in coda (falsa l'opzione 3): l'ordine corretto è soccorso, urgenza, radiogoniometria, sicurezza del volo, meteorologici, regolarità del volo."
         },
         {
           "n": 118,
@@ -1615,7 +1615,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La zona regolamentata (R) è uno spazio in cui il volo è ammesso solo in conformità alle disposizioni della competente autorità."
+          "explanation": "La zona regolamentata (R) è uno spazio in cui il volo è ammesso solo in conformità alle disposizioni della competente autorità. Non vieta ogni attività di volo (falsa l'opzione 0): quella è la definizione di zona proibita (P), non regolamentata. Non è riservata ad attività esclusivamente militari (falsa l'opzione 1) né limitata a quello scopo dentro o fuori il territorio nazionale (falsa l'opzione 2): la zona regolamentata ammette il volo secondo le disposizioni dell'autorità competente, non lo vieta né lo riserva ai soli militari."
         },
         {
           "n": 119,
@@ -1629,7 +1629,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La zona proibita (P) vieta qualsiasi attività di volo al suo interno."
+          "explanation": "La zona proibita (P) vieta qualsiasi attività di volo al suo interno. Non si tratta solo di rischio elevato per attività militare intensa (falsa l'opzione 0): il divieto è assoluto, non una valutazione di rischio. Non è la zona in cui il volo è ammesso secondo disposizioni dell'autorità (falsa l'opzione 2): quella è la zona regolamentata (R). Non è definita dal rischio di intercettazione (falsa l'opzione 3): quella caratteristica riguarda altre zone, non la definizione di zona proibita."
         },
         {
           "n": 120,
@@ -1643,7 +1643,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Si può volare in zona regolamentata (R) rispettando le disposizioni emanate dalla competente autorità."
+          "explanation": "Si può volare in zona regolamentata (R) rispettando le disposizioni emanate dalla competente autorità. Non è vietato in assoluto (falsa l'opzione 0). Non basta la sola presentazione di un piano di volo (falsa l'opzione 1): serve rispettare le specifiche disposizioni dell'autorità competente. Non è lasciato alla discrezionalità del pilota (falsa l'opzione 3): le condizioni sono fissate dall'autorità, non decise liberamente in volo."
         },
         {
           "n": 121,
@@ -1657,7 +1657,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La zona pericolosa (D) è un'area in cui, in determinati periodi, si svolgono attività pericolose per il volo, senza un divieto assoluto."
+          "explanation": "La zona pericolosa (D) è un'area in cui, in determinati periodi, si svolgono attività pericolose per il volo, senza un divieto assoluto. Non comporta un divieto assoluto di volo (falsa l'opzione 0): quella è la zona proibita (P). Non è definita da condizioni di attraversamento come livelli di volo o VMC/orario (falsa l'opzione 2): quella descrizione non corrisponde alla zona pericolosa. Non è definita dal rischio di intercettazione militare (falsa l'opzione 3): la caratteristica della zona D è la presenza di attività pericolose in determinati periodi, non il rischio di intercettazione."
         },
         {
           "n": 122,
@@ -1670,7 +1670,7 @@
             "Un'altezza di 1.000 piedi al di sopra dell'ostacolo più alto entro un raggio di 8 Km o, se il volo viene condotto su zone montagnose, 2.000 piedi al di sopra dell'ostacolo più alto entro un raggio di 8 Km."
           ],
           "correct": 2,
-          "explanation": "La separazione verticale minima in rotta VFR dall'ostacolo più alto è 1.000 ft, entro un raggio di 600 m attorno all'ostacolo."
+          "explanation": "La separazione verticale minima in rotta VFR dall'ostacolo più alto è 1.000 ft, entro un raggio di 600 m attorno all'ostacolo. Non è 1.000 ft entro un raggio di 8 km (falsa l'opzione 0): il raggio corretto è 600 m, non 8 km. Non sono 2.000 ft entro 600 m (falsa l'opzione 1): l'altezza corretta è 1.000 ft. Non prevede la distinzione 8 km/2.000 ft per zone montagnose (falsa l'opzione 3): quella regola riguarda altri contesti, non la separazione verticale VFR standard dall'ostacolo."
         },
         {
           "n": 123,
@@ -1684,7 +1684,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Sorvolando aree abitate l'altezza deve permettere un atterraggio di emergenza senza danni, comunque mai meno di 1.000 ft sopra l'ostacolo più alto entro 600 m."
+          "explanation": "Sorvolando aree abitate l'altezza deve permettere un atterraggio di emergenza senza danni, comunque mai meno di 1.000 ft sopra l'ostacolo più alto entro 600 m. Non basta genericamente 1.000 ft entro un raggio di 2.000 m (falsa l'opzione 0): il raggio di riferimento è 600 m, e manca il criterio dell'atterraggio di emergenza sicuro. Non è lasciata alla discrezionalità del pilota (falsa l'opzione 2): esiste un vincolo minimo preciso. Non sono 2.000 ft entro 600 m (falsa l'opzione 3): il minimo regolamentare è 1.000 ft."
         },
         {
           "n": 124,
@@ -1698,7 +1698,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il servizio di allarme è assicurato a tutti gli aeromobili sotto controllo, a quelli con piano di volo presentato, e a quelli comunque noti agli ATS o soggetti a interferenza illecita."
+          "explanation": "Il servizio di allarme è assicurato a tutti gli aeromobili sotto controllo, a quelli con piano di volo presentato, e a quelli comunque noti agli ATS o soggetti a interferenza illecita. Non si limita ai soli aeromobili che hanno già trasmesso un messaggio di pericolo (falsa l'opzione 0): il servizio scatta anche prima, in base alla notorietà del volo agli ATS. Non si limita ai soli aeromobili con piano di volo presentato (falsa l'opzione 1): copre una platea più ampia. Non si limita ai soli voli IFR o VFR controllato (falsa l'opzione 3): riguarda anche altri aeromobili noti agli ATS."
         },
         {
           "n": 125,
@@ -1712,7 +1712,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Le fasi dello stato di emergenza sono, in ordine crescente: incertezza, allarme, pericolo."
+          "explanation": "Le fasi dello stato di emergenza sono, in ordine crescente: incertezza, allarme, pericolo. Non è 'urgenza' la prima fase (falsa l'opzione 1 e l'opzione 3): la fase iniziale è denominata 'incertezza'. Non è 'interesse' (falsa l'opzione 2): la terminologia corretta è 'incertezza'. La sequenza dell'opzione 3 termina inoltre con 'soccorso' anziché 'pericolo' (falsa l'opzione 3)."
         },
         {
           "n": 126,
@@ -1725,7 +1725,7 @@
             "Aero Clubs"
           ],
           "correct": 1,
-          "explanation": "Il modello ATIRF per la notificazione di mancato incidente si reperisce presso l'ARO."
+          "explanation": "Il modello ATIRF per la notificazione di mancato incidente si reperisce presso l'ARO. Non è la DCA (falsa l'opzione 0), né la RAI (falsa l'opzione 2, ente diverso dai servizi del traffico aereo), né gli Aero Club (falsa l'opzione 3): il modello ATIRF si trova specificamente presso l'ARO."
         },
         {
           "n": 127,
@@ -1739,7 +1739,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il servizio informazioni volo in una FIR è fornito dal FIC (Flight Information Centre)."
+          "explanation": "Il servizio informazioni volo in una FIR è fornito dal FIC (Flight Information Centre). APP (falsa l'opzione 0) è l'ente di avvicinamento, ATC (falsa l'opzione 1) è la sigla generale del controllo del traffico aereo, ACC (falsa l'opzione 2) è il centro di controllo d'area: nessuna delle tre identifica specificamente il servizio informazioni volo di una FIR, funzione propria del FIC."
         },
         {
           "n": 128,
@@ -1752,7 +1752,7 @@
             "3"
           ],
           "correct": 3,
-          "explanation": "Il formato ICAO dell'AIP prevede 3 sezioni principali: GEN, ENR, AD."
+          "explanation": "Il formato ICAO dell'AIP prevede 3 sezioni principali: GEN, ENR, AD. Non sono 8 (falsa l'opzione 0), 7 (falsa l'opzione 1) o 5 (falsa l'opzione 2): il nuovo formato ICAO struttura l'AIP in sole 3 sezioni."
         },
         {
           "n": 129,
@@ -1765,7 +1765,7 @@
             "GEN"
           ],
           "correct": 3,
-          "explanation": "Le informazioni generali sono nella sezione GEN dell'AIP."
+          "explanation": "Le informazioni generali sono nella sezione GEN dell'AIP. FNR (falsa l'opzione 0) non è una sigla di sezione AIP esistente. AD (falsa l'opzione 1) contiene i dati sugli aeroporti, non le informazioni generali. FAL (falsa l'opzione 2) è una sottosezione dentro GEN, non una sezione autonoma per le informazioni generali."
         },
         {
           "n": 130,
@@ -1779,7 +1779,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le informazioni sul servizio doganale sono nella sezione GEN dell'AIP."
+          "explanation": "Le informazioni sul servizio doganale sono nella sezione GEN dell'AIP. AD (falsa l'opzione 1) contiene i dati sugli aeroporti, non il servizio doganale. ENR (falsa l'opzione 3) contiene le informazioni di rotta. FAL (falsa l'opzione 0) è la sottosezione specifica dentro GEN, non una sezione principale autonoma: la sezione che la contiene è GEN."
         },
         {
           "n": 131,
@@ -1793,7 +1793,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Le emissioni VOLMET sono descritte nella sezione GEN dell'AIP."
+          "explanation": "Le emissioni VOLMET sono descritte nella sezione GEN dell'AIP. MET (falsa l'opzione 0) non è una sezione principale dell'AIP nel nuovo formato. AD (falsa l'opzione 1) riguarda i dati aeroportuali, non le emissioni meteo di rotta. ENR (falsa l'opzione 2) riguarda le informazioni di rotta, non la descrizione del servizio VOLMET: quella è in GEN."
         },
         {
           "n": 132,
@@ -1807,7 +1807,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'organizzazione del servizio di soccorso (SAR) è descritta nella sezione GEN dell'AIP."
+          "explanation": "L'organizzazione del servizio di soccorso (SAR) è descritta nella sezione GEN dell'AIP. AD (falsa l'opzione 0) riguarda i dati aeroportuali. ENR (falsa l'opzione 2) riguarda le informazioni di rotta. SAR (falsa l'opzione 3) non è una sezione dell'AIP ma l'argomento trattato: la sezione che lo contiene è GEN."
         },
         {
           "n": 133,
@@ -1821,7 +1821,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un NOTAM può essere comunicato a un aeromobile in volo se il suo contenuto ha un impatto diretto sul piano operativo del volo."
+          "explanation": "Un NOTAM può essere comunicato a un aeromobile in volo se il suo contenuto ha un impatto diretto sul piano operativo del volo. Non è vero che non sia mai possibile (falsa l'opzione 0). Non è vero che si diffondano solo a mezzo telescrivente (falsa l'opzione 2): possono essere comunicati anche in volo quando rilevanti. Non è limitato al solo caso di chiusura aeroporto (falsa l'opzione 3): vale per qualsiasi contenuto con impatto diretto sul piano operativo."
         },
         {
           "n": 134,
@@ -1835,7 +1835,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In area aeroportuale, un ostacolo con superficie continua va segnalato a scacchi o bande se la sua elevazione supera i 4,5 m (15 piedi)."
+          "explanation": "In area aeroportuale, un ostacolo con superficie continua va segnalato a scacchi o bande se la sua elevazione supera i 4,5 m (15 piedi). Non sono 10 m (falsa l'opzione 0), 6,5 m (falsa l'opzione 1) o 15 m (falsa l'opzione 2): la soglia regolamentare è 4,5 m."
         },
         {
           "n": 135,
@@ -1848,7 +1848,7 @@
             "Alla Direzione civile di aeroporto (DCA)."
           ],
           "correct": 2,
-          "explanation": "La valutazione delle minime meteo VFR (visibilità e distanza dalle nubi) spetta al pilota."
+          "explanation": "La valutazione delle minime meteo VFR (visibilità e distanza dalle nubi) spetta al pilota. Non è compito dell'Ente ATC (falsa l'opzione 0), del servizio meteorologico (falsa l'opzione 1) o della DCA (falsa l'opzione 3): è il pilota a valutare in volo se le condizioni rispettano le minime VFR."
         },
         {
           "n": 136,
@@ -1861,7 +1861,7 @@
             "Continuo contatto radio, velocità (IAS) non superiore a 250 nodi ed autorizzazione ATC, se il volo viene effettuato al di sopra FL100, transponder Modo A e C."
           ],
           "correct": 1,
-          "explanation": "In classe C occorrono contatto radio continuo, autorizzazione ATC, velocità non superiore a 250 kt sotto FL100 e transponder in modo A e C."
+          "explanation": "In classe C occorrono contatto radio continuo, autorizzazione ATC, velocità non superiore a 250 kt sotto FL100 e transponder in modo A e C. Il limite di velocità si applica sotto FL100, non sopra (falsa l'opzione 0 e l'opzione 3, che lo riferiscono al di sopra di FL100). Non è vero che il limite valga senza riferimento alla quota (falsa l'opzione 2): la soglia dei 250 kt si applica specificamente sotto FL100."
         },
         {
           "n": 137,
@@ -1875,7 +1875,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Nessuna circostanza esime il pilota VFR dal mantenere vigilanza per vedere ed evitare altro traffico, anche con il servizio di traffic avoidance attivo."
+          "explanation": "Nessuna circostanza esime il pilota VFR dal mantenere vigilanza per vedere ed evitare altro traffico, anche con il servizio di traffic avoidance attivo. Il servizio di informazioni per evitare le collisioni in classe C e D non esime dalla vigilanza (falsa l'opzione 0): resta un supporto, non una sostituzione. La disponibilità del controllo radar non esime il pilota (falsa l'opzione 2): il principio 'vedere ed evitare' resta un obbligo del pilota. Operare in classe C, D, E o F non cambia questo obbligo (falsa l'opzione 3): vale in ogni spazio aereo."
         },
         {
           "n": 138,
@@ -1889,7 +1889,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In radio avaria diurna, per ottenere istruzioni dalla torre ci si porta in posizione ben visibile e si oscillano le ali."
+          "explanation": "In radio avaria diurna, per ottenere istruzioni dalla torre ci si porta in posizione ben visibile e si oscillano le ali. Abbassare e retrarre il carrello (falsa l'opzione 1) è il segnale di conferma ricezione, non la manovra per ottenere istruzioni. Variare il regime motore (falsa l'opzione 2) non è un segnale codificato per richiamare l'attenzione della torre. Le triangolazioni in sottovento (falsa l'opzione 3) non sono la procedura prevista per questo scopo."
         },
         {
           "n": 139,
@@ -1903,7 +1903,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le istruzioni ATC per evitare collisioni fornite su richiesta a un VFR sono considerate suggerimenti, non vincolanti come per l'IFR."
+          "explanation": "Le istruzioni ATC per evitare collisioni fornite su richiesta a un VFR sono considerate suggerimenti, non vincolanti come per l'IFR. Non sono vincolanti in senso stretto (falsa l'opzione 0), ma non sono nemmeno semplicemente ignorabili come implicherebbe il 'No' secco (falsa l'opzione 1): restano un'indicazione da tenere in considerazione, pur non vincolante come per l'IFR. Non dipende dal fatto che provengano da un ente di controllo radar (falsa l'opzione 3): la natura di suggerimento vale a prescindere dalla fonte."
         },
         {
           "n": 140,
@@ -1916,7 +1916,7 @@
             "Un delegato all'istruzione di volo riconosciuto dalla D.G.A.C."
           ],
           "correct": 0,
-          "explanation": "L'esperienza recente di volo (es. i 3 decolli/atterraggi in 90 giorni) è autocertificata dallo stesso titolare della licenza."
+          "explanation": "L'esperienza recente di volo (es. i 3 decolli/atterraggi in 90 giorni) è autocertificata dallo stesso titolare della licenza. Non è compito di un istruttore di volo (falsa l'opzione 1), del direttore di una scuola o della Direzione di Circoscrizione Aeroportuale (falsa l'opzione 2), né di un delegato all'istruzione riconosciuto dalla D.G.A.C. (falsa l'opzione 3): l'attestazione dell'esperienza recente è responsabilità diretta del titolare della licenza."
         },
         {
           "n": 141,
@@ -1928,7 +1928,7 @@
             "Se il velivolo non ha riportato danni, il C.N. non scade"
           ],
           "correct": 0,
-          "explanation": "Impiegare un velivolo oltre i limiti specificati sul Certificato di Navigabilità ne comporta la decadenza di validità."
+          "explanation": "Impiegare un velivolo oltre i limiti specificati sul Certificato di Navigabilità ne comporta la decadenza di validità. Non è falso (falsa l'opzione 1): l'affermazione dell'enunciato è vera. Non conta l'assenza di danni riportati per evitare la decadenza (falsa l'opzione 2): l'uscita dai limiti prescritti fa comunque decadere il CofN, indipendentemente da eventuali danni."
         },
         {
           "n": 142,
@@ -1942,7 +1942,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "I limiti di impiego dell'aeromobile sono indicati sul Manuale di Volo (AFM)."
+          "explanation": "I limiti di impiego dell'aeromobile sono indicati sul Manuale di Volo (AFM). Non sul Certificato di Navigabilità (falsa l'opzione 0), che attesta l'aeronavigabilità ma non elenca i limiti operativi dettagliati. Non sul Certificato di Immatricolazione (falsa l'opzione 1), che riguarda la proprietà e la nazionalità. Non sul Certificato Acustico (falsa l'opzione 2), che riguarda le emissioni sonore: i limiti di impiego sono nel Manuale di Volo."
         },
         {
           "n": 143,
@@ -1955,7 +1955,7 @@
             "Si, ma solo se accompagnati da istruttore acrobatico."
           ],
           "correct": 0,
-          "explanation": "Su un velivolo classificato solo 'Sp scuola' non è possibile effettuare manovre acrobatiche."
+          "explanation": "Su un velivolo classificato solo 'Sp scuola' non è possibile effettuare manovre acrobatiche. Non è consentito in nessun caso (falsa l'opzione 1), nemmeno con l'abilitazione del pilota (falsa l'opzione 2) o con un istruttore acrobatico a bordo (falsa l'opzione 3): la limitazione dipende dalla classificazione del velivolo, non dalla qualifica di chi lo pilota."
         },
         {
           "n": 144,
@@ -1968,7 +1968,7 @@
             "Si, ma solo se in possesso della relativa abilitazione."
           ],
           "correct": 1,
-          "explanation": "Sul semi-acrobatico (sA) sono consentite solo le manovre specificamente autorizzate e indicate nelle specifiche di navigabilità."
+          "explanation": "Sul semi-acrobatico (sA) sono consentite solo le manovre specificamente autorizzate e indicate nelle specifiche di navigabilità. Non tutte le manovre acrobatiche sono ammesse indistintamente (falsa l'opzione 0). La presenza di un istruttore acrobatico a bordo (falsa l'opzione 2) o l'abilitazione del pilota (falsa l'opzione 3) non estendono le manovre oltre quelle previste dalle specifiche di navigabilità del velivolo: il limite è definito dal velivolo, non da chi lo pilota."
         },
         {
           "n": 145,
@@ -1981,7 +1981,7 @@
             "Libretto dell'aeromobile - Libretto del motore - Libretto dell'elica - Nota di assicurazione - Giornale di rotta."
           ],
           "correct": 2,
-          "explanation": "I documenti sempre a bordo sono: Certificato di Navigabilità, Certificato di Immatricolazione, Nota di Assicurazione, Licenza di Stazione Radio e Manuale di Volo."
+          "explanation": "I documenti sempre a bordo sono: Certificato di Navigabilità, Certificato di Immatricolazione, Nota di Assicurazione, Licenza di Stazione Radio e Manuale di Volo. La lista dell'opzione 0 include erroneamente la lista passeggeri e il libretto dell'aeromobile al posto della Nota di Assicurazione e del Manuale di Volo (falsa l'opzione 0). L'opzione 1 include il foglio di bilanciamento e il libretto motore al posto della Licenza di Stazione Radio e del Manuale di Volo (falsa l'opzione 1). L'opzione 3 elenca libretti tecnici e giornale di rotta, non i documenti di bordo obbligatori richiesti dalla norma (falsa l'opzione 3)."
         },
         {
           "n": 146,
@@ -1994,7 +1994,7 @@
             "Pubblico Registro Aeronautico."
           ],
           "correct": 1,
-          "explanation": "Il Certificato di Navigabilità è rilasciato dal Registro Aeronautico Italiano (oggi funzione ENAC)."
+          "explanation": "Il Certificato di Navigabilità è rilasciato dal Registro Aeronautico Italiano (oggi funzione ENAC). Non è il Ministero dei Trasporti e della Navigazione (falsa l'opzione 0), né il Ministero per la Navigazione (falsa l'opzione 2), né genericamente il 'Pubblico Registro Aeronautico' inteso come ente distinto (falsa l'opzione 3): l'ente competente è il Registro Aeronautico Italiano."
         },
         {
           "n": 147,
@@ -2008,7 +2008,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il Certificato di Navigabilità attesta la condizione di aeronavigabilità dell'aeromobile."
+          "explanation": "Il Certificato di Navigabilità attesta la condizione di aeronavigabilità dell'aeromobile. Non riguarda l'attitudine al traino (falsa l'opzione 0), né il tipo di carburante utilizzabile (falsa l'opzione 1), né la nazionalità del velivolo (falsa l'opzione 3, attestata invece dal Certificato di Immatricolazione): il CofN attesta specificamente l'aeronavigabilità."
         },
         {
           "n": 148,
@@ -2022,7 +2022,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La categoria di impiego dell'aeromobile è indicata sul Certificato di Navigabilità."
+          "explanation": "La categoria di impiego dell'aeromobile è indicata sul Certificato di Navigabilità. Non sul Certificato di Immatricolazione (falsa l'opzione 0), che riguarda proprietà e nazionalità. Non sulla Nota di Assicurazione (falsa l'opzione 2), che riguarda la copertura per danni a terzi. Non sulla Licenza di Stazione Radio (falsa l'opzione 3), che riguarda le comunicazioni: la categoria di impiego è sul Certificato di Navigabilità."
         },
         {
           "n": 149,
@@ -2035,7 +2035,7 @@
             "quando si è sorvolata una zona vietata."
           ],
           "correct": 2,
-          "explanation": "Un atterraggio fuori pista, anche senza danni apparenti, comporta la decadenza automatica del Certificato di Navigabilità in attesa di verifica tecnica."
+          "explanation": "Un atterraggio fuori pista, anche senza danni apparenti, comporta la decadenza automatica del Certificato di Navigabilità in attesa di verifica tecnica. Non basta lo svolgimento di lavoro aereo non autorizzato (falsa l'opzione 0): quella è un'infrazione diversa, non causa di decadenza automatica del CofN. La sostituzione dell'impianto motopropulsore (falsa l'opzione 1) non fa decadere automaticamente il certificato se effettuata correttamente. Il sorvolo di una zona vietata (falsa l'opzione 3) è un'infrazione di circolazione aerea, non una causa di decadenza del CofN."
         },
         {
           "n": 150,
@@ -2049,7 +2049,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Effettuare manovre acrobatiche con un velivolo non classificato acrobatico sospende la validità del Certificato di Navigabilità."
+          "explanation": "Effettuare manovre acrobatiche con un velivolo non classificato acrobatico sospende la validità del Certificato di Navigabilità. L'opzione 0 non è una conseguenza pertinente al quesito (falsa l'opzione 0): riguarda un documento diverso, non l'effetto sul CofN. Non comporta la confisca del velivolo (falsa l'opzione 2): la conseguenza normativa è la sospensione del CofN. Non resta valido anche in assenza di cedimenti strutturali (falsa l'opzione 3): la sospensione scatta per l'uso improprio in sé, indipendentemente da eventuali danni strutturali."
         },
         {
           "n": 151,
@@ -2062,7 +2062,7 @@
             "il Certificato di Navigabilità è rinnovato dall'organo tecnico italiano attraverso il normale servizio postale."
           ],
           "correct": 0,
-          "explanation": "Se il CofA scade con l'aeromobile all'estero, questo va sottoposto a ispezione presso organi tecnici locali convenzionati."
+          "explanation": "Se il CofA scade con l'aeromobile all'estero, questo va sottoposto a ispezione presso organi tecnici locali convenzionati. Non è rinnovato direttamente dall'Autorità Consolare (falsa l'opzione 1): serve l'ispezione tecnica presso organi locali convenzionati. Non è richiesto il rientro immediato in Italia (falsa l'opzione 2): la convenzione con organi tecnici locali evita proprio questa necessità. Non basta il rinnovo per posta da parte dell'organo tecnico italiano (falsa l'opzione 3): serve un'ispezione fisica, non solo una pratica postale."
         },
         {
           "n": 152,
@@ -2076,7 +2076,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Se l'aeromobile perde i requisiti di nazionalità, il Certificato di Navigabilità scade contestualmente."
+          "explanation": "Se l'aeromobile perde i requisiti di nazionalità, il Certificato di Navigabilità scade contestualmente. Non è vero che il CofN resti valido (falsa l'opzione 0): la nazionalità è un presupposto della navigabilità. Non scade dopo un termine differito di tre mesi (falsa l'opzione 2) né di sei mesi (falsa l'opzione 3): la decadenza è contestuale alla perdita dei requisiti di nazionalità."
         },
         {
           "n": 153,
@@ -2090,7 +2090,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il Certificato di Immatricolazione è rilasciato dal Registro Aeronautico Nazionale, oggi in capo a ENAC."
+          "explanation": "Il Certificato di Immatricolazione è rilasciato dal Registro Aeronautico Nazionale, oggi in capo a ENAC. Non dal Pubblico Registro Automobilistico (falsa l'opzione 0), ente per i veicoli stradali. Non dalla Motorizzazione Civile (falsa l'opzione 1). Non dal 'Registro Aeronavale Italiano' (falsa l'opzione 3), denominazione non corretta: l'ente competente è il Registro Aeronautico Nazionale/ENAC."
         },
         {
           "n": 154,
@@ -2104,7 +2104,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il Certificato di Immatricolazione perde validità automaticamente in caso di vendita dell'aeromobile all'estero."
+          "explanation": "Il Certificato di Immatricolazione perde validità automaticamente in caso di vendita dell'aeromobile all'estero. Un atterraggio fuori campo (falsa l'opzione 0) non incide sull'immatricolazione, ma casomai sulla navigabilità. Il pignoramento (falsa l'opzione 2) non fa decadere automaticamente l'immatricolazione. Il sorvolo di una zona regolamentata (falsa l'opzione 3) è un'infrazione di circolazione, non una causa di decadenza dell'immatricolazione."
         },
         {
           "n": 155,
@@ -2118,7 +2118,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il Certificato di Immatricolazione ha validità illimitata nel tempo, finché l'aeromobile mantiene le marche di una nazione."
+          "explanation": "Il Certificato di Immatricolazione ha validità illimitata nel tempo, finché l'aeromobile mantiene le marche di una nazione. Non ha validità di un anno (falsa l'opzione 0) né di 6 mesi (falsa l'opzione 1): non è soggetto a scadenza periodica fissa. Non è genericamente 'illimitata' senza condizione (falsa l'opzione 2): resta legata al mantenimento delle marche nazionali, non è incondizionata."
         },
         {
           "n": 156,
@@ -2132,7 +2132,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il nome del proprietario è riportato sul Certificato di Immatricolazione."
+          "explanation": "Il nome del proprietario è riportato sul Certificato di Immatricolazione. Non sul Certificato di Navigabilità (falsa l'opzione 0), che attesta l'aeronavigabilità. Non sul Certificato di Stazione Radio (falsa l'opzione 1), che riguarda le comunicazioni. Non sulla Nota di Assicurazione (falsa l'opzione 3), che riguarda la copertura danni a terzi: il proprietario è indicato sul Certificato di Immatricolazione."
         },
         {
           "n": 157,
@@ -2146,7 +2146,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le esercenze (servitù) sull'aeromobile sono riportate sul Certificato di Immatricolazione."
+          "explanation": "Le esercenze (servitù) sull'aeromobile sono riportate sul Certificato di Immatricolazione. Non sul Certificato di Navigabilità (falsa l'opzione 0). Non sul Certificato Acustico (falsa l'opzione 1), che riguarda le emissioni sonore. Non sul Manuale di Volo (falsa l'opzione 3), che riguarda dati tecnico-operativi: le esercenze sono sul Certificato di Immatricolazione."
         },
         {
           "n": 158,
@@ -2159,7 +2159,7 @@
             "La Motorizzazione Civile."
           ],
           "correct": 2,
-          "explanation": "Le marche di immatricolazione sono assegnate da ENAC (Registro Aeronautico Nazionale)."
+          "explanation": "Le marche di immatricolazione sono assegnate da ENAC (Registro Aeronautico Nazionale). Non dal R.A.I. inteso come ente separato (falsa l'opzione 0): oggi quella funzione è in capo a ENAC. Non dall'Aero Club d'Italia (falsa l'opzione 1). Non dalla Motorizzazione Civile (falsa l'opzione 3), competente per i veicoli stradali: l'assegnazione delle marche spetta a ENAC."
         },
         {
           "n": 159,
@@ -2173,7 +2173,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'uso a cui è destinato l'aeromobile è indicato sia sul Certificato di Navigabilità sia su quello di Immatricolazione."
+          "explanation": "L'uso a cui è destinato l'aeromobile è indicato sia sul Certificato di Navigabilità sia su quello di Immatricolazione. Non sul Certificato Acustico (falsa l'opzione 0), che riguarda le emissioni sonore. Non sulla Licenza di Stazione Radio (falsa l'opzione 1), che riguarda le comunicazioni. Non solo sul Manuale di Volo (falsa l'opzione 2): l'uso destinato è indicato sui due certificati citati, non sul Manuale di Volo."
         },
         {
           "n": 160,
@@ -2187,7 +2187,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La nota di assicurazione obbligatoria a bordo copre i danni causati a terzi (persone o cose) sulla superficie."
+          "explanation": "La nota di assicurazione obbligatoria a bordo copre i danni causati a terzi (persone o cose) sulla superficie. Non copre i danni causati all'aeromobile stesso da urto contro ostacoli (falsa l'opzione 0): quella è un'assicurazione facoltativa di tipo casco. Non copre i danni al pilota (falsa l'opzione 1) né alle persone a bordo (falsa l'opzione 3): quella è una diversa responsabilità civile verso i passeggeri, non la nota obbligatoria, che riguarda i terzi in superficie."
         },
         {
           "n": 161,
@@ -2199,7 +2199,7 @@
             "nessuna delle precedenti risposte è corretta"
           ],
           "correct": 1,
-          "explanation": "Per portare passeggeri il pilota deve aver effettuato almeno 3 decolli e 3 atterraggi negli ultimi 90 giorni su un velivolo della stessa classe/tipo."
+          "explanation": "Per portare passeggeri il pilota deve aver effettuato almeno 3 decolli e 3 atterraggi negli ultimi 90 giorni su un velivolo della stessa classe/tipo. Non basta un generico 'check tecnico' non meglio specificato (falsa l'opzione 0): il requisito concreto previsto dalla norma è quello dei 3 decolli/atterraggi in 90 giorni. Non è vero che nessuna delle risposte sia corretta (falsa l'opzione 2): il requisito descritto è quello effettivamente previsto."
         },
         {
           "n": 162,
@@ -2212,7 +2212,7 @@
             "dalla natura del carico trasportato (passeggeri o merci)."
           ],
           "correct": 1,
-          "explanation": "Il massimale minimo dell'assicurazione obbligatoria per danni a terzi dipende dal peso massimo al decollo dell'aeromobile."
+          "explanation": "Il massimale minimo dell'assicurazione obbligatoria per danni a terzi dipende dal peso massimo al decollo dell'aeromobile. Non dipende dal numero di persone trasportate (falsa l'opzione 0). Non è un valore unico fisso in ogni caso (falsa l'opzione 2). Non dipende dalla natura del carico, passeggeri o merci (falsa l'opzione 3): il parametro di riferimento è il peso massimo al decollo (MTOW)."
         },
         {
           "n": 163,
@@ -2225,7 +2225,7 @@
             "Ufficio Legale della D.G.A.C."
           ],
           "correct": 1,
-          "explanation": "La nota di assicurazione per danni a terzi va vidimata dal Direttore di Aeroporto competente sulla residenza dell'aeromobile."
+          "explanation": "La nota di assicurazione per danni a terzi va vidimata dal Direttore di Aeroporto competente sulla residenza dell'aeromobile. Non è la Compagnia di Assicurazione a vidimarla (falsa l'opzione 0): la compagnia la emette, ma la vidimazione spetta a un'autorità aeronautica. Non il Comando di aerodromo (falsa l'opzione 2). Non l'Ufficio Legale della D.G.A.C. (falsa l'opzione 3): la competenza è del Direttore di Aeroporto di residenza dell'aeromobile."
         },
         {
           "n": 164,
@@ -2237,7 +2237,7 @@
             "non dimostra la stipula della polizza."
           ],
           "correct": 0,
-          "explanation": "La nota di assicurazione certifica che la polizza per danni a terzi è stata stipulata."
+          "explanation": "La nota di assicurazione certifica che la polizza per danni a terzi è stata stipulata. Non comprende essa stessa la polizza (falsa l'opzione 1): è un documento distinto che ne attesta la stipula, non la polizza integrale. Non è vero che non ne dimostri la stipula (falsa l'opzione 2): è proprio la sua funzione."
         },
         {
           "n": 165,
@@ -2250,7 +2250,7 @@
             "dal Ministero delle Poste e Telecomunicazioni."
           ],
           "correct": 3,
-          "explanation": "La Licenza di Stazione Radio era rilasciata dal Ministero delle Poste e Telecomunicazioni (oggi MIMIT)."
+          "explanation": "La Licenza di Stazione Radio era rilasciata dal Ministero delle Poste e Telecomunicazioni (oggi MIMIT). Non dal Ministero dei Trasporti (falsa l'opzione 0), competente per altri ambiti. Non da un qualsiasi Ufficio Postale (falsa l'opzione 1), che al più poteva gestire pratiche amministrative accessorie, non il rilascio. Non dalla D.G.A.C. (falsa l'opzione 2): l'ente competente per il rilascio era il Ministero delle Poste e Telecomunicazioni."
         },
         {
           "n": 166,
@@ -2261,7 +2261,7 @@
             "NO"
           ],
           "correct": 0,
-          "explanation": "Storicamente la Licenza di Stazione Radio è soggetta a un rinnovo periodico legato al pagamento del canone annuo."
+          "explanation": "Storicamente la Licenza di Stazione Radio è soggetta a un rinnovo periodico legato al pagamento del canone annuo. Non è vero che non scada mai (falsa l'opzione 1): è prevista una scadenza periodica legata al rinnovo/canone."
         },
         {
           "n": 167,
@@ -2275,7 +2275,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La Licenza di Stazione Radio abilita alle comunicazioni previste dal Servizio Mobile di Telecomunicazioni Aeronautiche."
+          "explanation": "La Licenza di Stazione Radio abilita alle comunicazioni previste dal Servizio Mobile di Telecomunicazioni Aeronautiche. Non abilita a comunicazioni 'di ogni tipo' senza limitazione (falsa l'opzione 0): resta circoscritta all'ambito aeronautico. Non si limita alle sole comunicazioni di soccorso (falsa l'opzione 1). Non si limita alle sole comunicazioni telegrafiche (falsa l'opzione 3): l'ambito è quello, più ampio, del Servizio Mobile di Telecomunicazioni Aeronautiche."
         },
         {
           "n": 168,
@@ -2288,7 +2288,7 @@
             "è rinnovata presso un qualsiasi Ufficio Postale tramite apposito modulo di c/c."
           ],
           "correct": 1,
-          "explanation": "La Licenza di Stazione Radio viene rinnovata su richiesta dell'interessato, tramite ENAC."
+          "explanation": "La Licenza di Stazione Radio viene rinnovata su richiesta dell'interessato, tramite ENAC. Non è rinnovata automaticamente alla scadenza senza richiesta (falsa l'opzione 0). Non è vero che non venga rinnovata perché non scade (falsa l'opzione 2): è soggetta a scadenza periodica. Non si rinnova presso un qualsiasi Ufficio Postale con modulo di c/c (falsa l'opzione 3): il rinnovo passa per ENAC su richiesta dell'interessato."
         },
         {
           "n": 169,
@@ -2302,7 +2302,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Per esercire la stazione radio di bordo occorre il Certificato di Radiotelefonista (abilitazione limitata), associato a una licenza aeronautica."
+          "explanation": "Per esercire la stazione radio di bordo occorre il Certificato di Radiotelefonista (abilitazione limitata), associato a una licenza aeronautica. Non basta la licenza di radioamatore (falsa l'opzione 0), che è un titolo diverso e non aeronautico. Non è richiesta necessariamente la licenza di pilota professionista (falsa l'opzione 1): può bastare una licenza aeronautica di livello inferiore. Non serve la licenza di Ufficiale di Rotta di 1a classe (falsa l'opzione 3), titolo non pertinente a questo scopo."
         },
         {
           "n": 170,
@@ -2316,7 +2316,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il Manuale di Volo è un documento tecnico/operativo, non amministrativo."
+          "explanation": "Il Manuale di Volo è un documento tecnico/operativo, non amministrativo. Non è un documento amministrativo (falsa l'opzione 0), giuridico (falsa l'opzione 1) o fiscale (falsa l'opzione 2): la sua natura è tecnico-operativa."
         },
         {
           "n": 171,
@@ -2330,7 +2330,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "I dati tecnico-operativi del velivolo sono riportati sul Manuale di Volo."
+          "explanation": "I dati tecnico-operativi del velivolo sono riportati sul Manuale di Volo. Non sulla Nota di Assicurazione (falsa l'opzione 1), che riguarda la copertura danni. Non sul Giornale di Rotta (falsa l'opzione 2), che registra i voli effettuati. Non sul Certificato di Immatricolazione (falsa l'opzione 3), che riguarda proprietà e nazionalità: i dati tecnico-operativi sono nel Manuale di Volo."
         },
         {
           "n": 172,
@@ -2344,7 +2344,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le norme di centraggio sono riportate sul Manuale di Volo."
+          "explanation": "Le norme di centraggio sono riportate sul Manuale di Volo. Non sul Certificato di Navigabilità (falsa l'opzione 0), che attesta l'aeronavigabilità in generale. Non sul Certificato di Immatricolazione (falsa l'opzione 2), che riguarda proprietà e nazionalità. Non sulla Nota di Assicurazione (falsa l'opzione 3), che riguarda la copertura danni: le norme di centraggio sono nel Manuale di Volo."
         },
         {
           "n": 173,
@@ -2357,7 +2357,7 @@
             "dipende dalla Direzione Generale dell'Aviazione Civile"
           ],
           "correct": 1,
-          "explanation": "Il RAN/RAI è un ente sottoposto alla vigilanza della Direzione Centrale Operazioni di ENAC."
+          "explanation": "Il RAN/RAI è un ente sottoposto alla vigilanza della Direzione Centrale Operazioni di ENAC. Non dipende dalla Presidenza del Consiglio dei Ministri (falsa l'opzione 0). Non dipende dal Ministero delle Poste e Telecomunicazioni (falsa l'opzione 2), competente per altri ambiti. Non dipende dalla Direzione Generale dell'Aviazione Civile come ente distinto (falsa l'opzione 3): la vigilanza è esercitata dalla Direzione Centrale Operazioni di ENAC."
         },
         {
           "n": 174,
@@ -2370,7 +2370,7 @@
             "Registro Aeronautico Nazionale (R.A.N.)."
           ],
           "correct": 2,
-          "explanation": "Un aereo in costruzione è sotto il controllo del Registro Aeronautico Italiano."
+          "explanation": "Un aereo in costruzione è sotto il controllo del Registro Aeronautico Italiano. Non della Direzione Generale Aviazione Civile (falsa l'opzione 0). Non della Questura (falsa l'opzione 1), autorità di pubblica sicurezza estranea al controllo tecnico. Non del R.A.N. come ente distinto dal R.A.I. in questo contesto (falsa l'opzione 3): il controllo tecnico in fase di costruzione spetta al Registro Aeronautico Italiano."
         },
         {
           "n": 175,
@@ -2383,7 +2383,7 @@
             "E' un ufficio di ENAC con compiti di Pubblico Registro Aeronautico"
           ],
           "correct": 3,
-          "explanation": "Il RAN è un ufficio di ENAC con compiti di Pubblico Registro Aeronautico."
+          "explanation": "Il RAN è un ufficio di ENAC con compiti di Pubblico Registro Aeronautico. Non è l'ente che rilascia il Certificato di Navigabilità (falsa l'opzione 0): quel compito è del R.A.I./ENAC per la navigabilità tecnica, funzione distinta dal RAN. Non è un ufficio della Motorizzazione Civile (falsa l'opzione 1): il RAN è interno a ENAC. Non rilascia la Licenza di Stazione Radio (falsa l'opzione 2): il RAN ha compiti di Pubblico Registro Aeronautico, non di licenze radio."
         },
         {
           "n": 176,
@@ -2396,7 +2396,7 @@
             "Di controllare la costruzione degli aeromobili."
           ],
           "correct": 1,
-          "explanation": "Il compito specifico del RAN è rilasciare il Certificato di Immatricolazione."
+          "explanation": "Il compito specifico del RAN è rilasciare il Certificato di Immatricolazione. Non rilascia la Licenza di Stazione Radio (falsa l'opzione 0). Non rilascia le licenze di pilotaggio (falsa l'opzione 2), compito di altri enti/scuole abilitate. Non controlla la costruzione degli aeromobili come compito specifico (falsa l'opzione 3, funzione distinta): il compito specifico del RAN è il rilascio del Certificato di Immatricolazione."
         },
         {
           "n": 177,
@@ -2410,7 +2410,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Solo l'Autorità Giudiziaria (il giudice) può disporre il sequestro di un aeromobile."
+          "explanation": "Solo l'Autorità Giudiziaria (il giudice) può disporre il sequestro di un aeromobile. Non il Direttore di Aeroporto (falsa l'opzione 0), che ha compiti amministrativi, non giudiziari. Non un ispettore ENAC (falsa l'opzione 2), che ha compiti tecnici di vigilanza. Non il direttore di una compagnia di navigazione aerea (falsa l'opzione 3), soggetto privato senza tale potere: il sequestro è prerogativa esclusiva dell'Autorità Giudiziaria."
         },
         {
           "n": 178,
@@ -2424,7 +2424,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "I passaggi di proprietà si trascrivono nelle pagine interne del Certificato di Immatricolazione."
+          "explanation": "I passaggi di proprietà si trascrivono nelle pagine interne del Certificato di Immatricolazione. Non sul Certificato di Navigabilità (falsa l'opzione 0), che attesta l'aeronavigabilità, non la proprietà. Non sulla Licenza di Pilotaggio del proprietario (falsa l'opzione 1), documento personale del pilota, non del velivolo. Non sul Manuale di Volo (falsa l'opzione 3), documento tecnico-operativo: i passaggi di proprietà si trascrivono sul Certificato di Immatricolazione."
         },
         {
           "n": 179,
