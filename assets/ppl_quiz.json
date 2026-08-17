@@ -7874,7 +7874,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La forte pioggia penalizza soprattutto la distanza di atterraggio, per la drastica riduzione dell'attrito dei freni e il rischio concreto di aquaplaning."
+          "explanation": "La pioggia forte penalizza soprattutto la distanza di atterraggio (opzione corretta), perché riduce drasticamente l'attrito ruota-pista attraverso il fenomeno dell'aquaplaning, allungando la corsa di frenata. (opzione 1) è errata perché il rateo di salita dopo il decollo dipende da potenza motore e portanza alare, non dall'attrito col terreno già lasciato. (opzione 2) è errata perché l'efficacia degli ipersostentatori (flap) non viene alterata dall'acqua sulla pista, essendo un fenomeno aerodinamico e non di contatto ruota-asfalto. (opzione 3) è errata perché la velocità di avvicinamento (in genere 1,3 Vso) resta invariata dalle condizioni della pista, essendo definita in funzione della velocità di stallo."
         },
         {
           "n": 81,
@@ -7888,7 +7888,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il QNH 1003 hPa è 10 hPa sotto lo standard 1013: 10 x 30 ft = 300 ft da aggiungere all'elevazione. PA = 1000 + 300 = 1300 ft."
+          "explanation": "Il QNH 1003 hPa è inferiore allo standard 1013,25 hPa di 1013-1003=10 hPa; essendo il QNH più basso dello standard, l'Altitudine di Pressione è maggiore dell'elevazione del campo: 10 hPa x 30 ft/hPa = 300 ft da aggiungere. PA = 1000 ft (elevazione) + 300 ft = 1300 ft (opzione corretta). (opzione 1), 700 ft, corrisponderebbe a sottrarre erroneamente i 300 ft invece di sommarli, come se un QNH più basso dello standard producesse una PA inferiore all'elevazione. (opzione 3), 1000 ft, ignora del tutto la correzione per il QNH, confondendo la Pressure Altitude con la semplice elevazione del campo. (opzione 4), 10.000 ft, non deriva da alcun calcolo coerente con i dati forniti."
         },
         {
           "n": 82,
@@ -7902,7 +7902,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La riserva finale minima per un volo VFR notturno su aereo a pistoni è di 45 minuti, superiore al diurno per il maggior rischio di dover dirottare senza riferimenti visivi."
+          "explanation": "La riserva finale minima per il VFR notturno su velivolo a pistoni è di 45 minuti di volo alla velocità di crociera normale (opzione corretta), superiore a quella diurna per il maggior rischio di non poter individuare rapidamente un campo alternativo senza riferimenti visivi notturni. (opzione 2), 30 minuti a crociera normale, è il valore corretto per il VFR diurno, non per quello notturno. (opzione 3), 60 minuti a crociera economica, non corrisponde alla regola SERA/EASA, che specifica sempre la velocità di crociera normale come riferimento, non quella economica. (opzione 4) è errata perché il regolamento prevede esplicitamente una riserva maggiore per il volo notturno rispetto a quello diurno, proprio per il rischio aggiuntivo di dirottamento senza visibilità del terreno."
         },
         {
           "n": 83,
@@ -7916,7 +7916,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La Vso di manuale è determinata alle condizioni più penalizzanti: peso massimo, motore al minimo (idle) e CG al limite anteriore estremo, che danno la velocità di stallo più alta possibile."
+          "explanation": "La Vso di manuale è determinata nelle condizioni più penalizzanti per la velocità di stallo: peso massimo certificato, motore al minimo (idle, quindi senza l'effetto favorevole della trazione elicoidale che ritarderebbe lo stallo) e baricentro al limite anteriore estremo, che massimizza il carico sull'ala e quindi la velocità di stallo (opzione corretta). (opzione 1) è errata perché un peso medio, motore al 50% e baricentro neutro non rappresentano le condizioni limite usate per certificare la Vso, che deve essere la velocità di stallo più alta possibile. (opzione 2) è errata perché un peso minimo produce una velocità di stallo più bassa, non la condizione più cautelativa richiesta. (opzione 4) è errata perché una potenza di crociera (anziché idle) ridurrebbe la velocità di stallo effettiva grazie al flusso d'elica sull'ala, non rappresentando quindi il caso peggiore."
         },
         {
           "n": 84,
@@ -7930,7 +7930,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il tempo di volo lungo la rotta (ETE) dipende dalla velocità reale rispetto al terreno, quindi si calcola con la Ground Speed (la TAS corretta per il vento)."
+          "explanation": "Il tempo in rotta (ETE) si calcola sempre con la Ground Speed (opzione corretta), perché è la velocità realmente percorsa sul terreno, già corretta per l'effetto del vento. (opzione 2), la IAS, è la velocità letta sullo strumento non corretta né per errori di strumento/posizione né per il vento, quindi inutilizzabile per il tempo sul terreno. (opzione 3), la TAS, è la velocità reale rispetto alla massa d'aria ma non tiene conto del vento, quindi userebbe la velocità sbagliata rispetto al suolo. (opzione 4), la CAS, è solo una IAS corretta per gli errori dello strumento, ma resta comunque una velocità rispetto all'aria, non al suolo."
         },
         {
           "n": 85,
@@ -7944,7 +7944,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La TORA è la lunghezza di pista dichiarata idonea e disponibile per la sola corsa al suolo in decollo, senza clearway o stopway aggiuntive."
+          "explanation": "La TORA (Take-Off Run Available) è per definizione la lunghezza di pista dichiarata disponibile e idonea alla sola corsa al suolo in decollo (opzione corretta). (opzione 2) descrive invece la TODA (Take-Off Distance Available), che aggiunge la clearway alla TORA. (opzione 3) descrive la ASDA (Accelerate-Stop Distance Available), che aggiunge lo stopway alla TORA per la distanza di arresto in caso di decollo abortito. (opzione 4) descrive un concetto diverso, la distanza necessaria per raggiungere l'altezza convenzionale di 50 piedi (screen height), non la TORA."
         },
         {
           "n": 86,
@@ -7958,7 +7958,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "CG = Momento Totale diviso Peso Totale (e non il contrario)."
+          "explanation": "La posizione del baricentro si calcola dividendo il Momento Totale per il Peso Totale: CG = Momento Totale / Peso Totale (opzione corretta). (opzione 1) inverte la formula (Peso/Momento), un errore che darebbe un risultato numericamente e dimensionalmente sbagliato. (opzione 3) descrive invece il calcolo del Momento (Braccio × Peso), non del CG. (opzione 4) descrive una somma di masse (peso a vuoto + carico utile), che dà il peso totale, non la posizione del baricentro."
         },
         {
           "n": 87,
@@ -7972,7 +7972,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Sorvolando l'acqua, oltre all'equipaggiamento di sopravvivenza la pianificazione del carburante deve tenere ampi margini per venti marini imprevisti e per le riserve legali, gestendo eventuali Punti di Non Ritorno lungo la tratta."
+          "explanation": "Sorvolando l'acqua per un tratto esteso, oltre all'equipaggiamento di sopravvivenza la pianificazione del carburante deve tenere ampi margini per venti marini imprevisti e rispettare le riserve legali maggiorate previste per i sorvoli marittimi, gestendo anche eventuali Punti di Non Ritorno lungo la rotta (opzione corretta). (opzione 1) è pericolosamente errata: ridurre il carburante per alleggerire l'aereo peggiora proprio il margine di sicurezza necessario su un tratto senza possibilità di atterraggio di emergenza. (opzione 2) è errata perché il Taxi Fuel copre solo le manovre a terra prima del decollo, non i margini necessari per un lungo tratto sull'acqua. (opzione 4) è errata perché pianificare senza alcun margine di errore è in diretto contrasto con il principio di riserva di sicurezza richiesto proprio quando mancano superfici di atterraggio alternative."
         },
         {
           "n": 88,
@@ -7986,7 +7986,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La Safety/Minimum Safe Altitude è la quota calcolata per garantire un margine di separazione verticale sicuro dall'ostacolo o dal rilievo più alto presente nell'area o lungo la rotta."
+          "explanation": "La Safety/Minimum Safe Altitude è l'altitudine calcolata per garantire un margine di separazione verticale sicuro dal rilievo o dall'ostacolo più alto presente nell'area o lungo la rotta (opzione corretta). (opzione 1) è errata perché la quota di crociera ottimale è una scelta operativa legata a efficienza e vento, non un margine di sicurezza dagli ostacoli. (opzione 3) è errata perché non esiste un'\"altitudine di stallo\" come concetto (esiste una velocità di stallo, non un'altitudine), ed è comunque estranea alla definizione di MSA. (opzione 4) è errata perché l'ingresso in spazio aereo controllato dipende dai limiti verticali delle classi di spazio, non dal rilievo del terreno."
         },
         {
           "n": 89,
@@ -8000,7 +8000,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'arco giallo indica il campo di velocità di cautela, utilizzabile solo in aria calma, compreso tra la Vno e la Vne."
+          "explanation": "L'arco giallo sull'anemometro indica il campo di velocità di cautela, utilizzabile solo in aria completamente calma, compreso tra la Vno (limite superiore dell'arco verde) e la Vne (opzione corretta). (opzione 1) è errata perché non esiste un arco dedicato alle velocità di decollo: quelle si trovano nei manuali di volo, non sull'anemometro. (opzione 3) è errata perché le velocità operative col carrello esteso, se applicabili, sono indicate da simboli/archi diversi, non dall'arco giallo. (opzione 4) è errata perché le velocità sotto lo stallo non sono un campo operativo utilizzabile e non hanno un arco dedicato."
         },
         {
           "n": 90,
@@ -8014,7 +8014,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il WCA (angolo di correzione deriva) si applica puntando il muso controvento di un certo angolo, per compensare la deriva e mantenere la rotta (Track) desiderata sul terreno."
+          "explanation": "Il Wind Correction Angle si applica puntando il muso dell'aereo controvento di un'angolazione specifica, in modo da compensare la deriva dovuta al vento e mantenere l'aereo esattamente sulla rotta desiderata sul terreno (Track) (opzione corretta). (opzione 1) è errata perché il WCA non ha alcun effetto sulla velocità al suolo, che dipende dalla componente di vento lungo la rotta, non dall'angolo di prua. (opzione 3) è errata perché il bilanciamento del peso è una questione di caricamento e centraggio, del tutto estranea alla correzione della deriva. (opzione 4) è errata perché l'evitamento dei temporali è una decisione tattica di rotta, non una tecnica di correzione dell'angolo di prua per il vento."
         },
         {
           "n": 91,
@@ -8028,7 +8028,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un CG fuori dal limite laterale costringe il pilota a mantenere costantemente alettone e timone per livellare l'aereo: le superfici deflesse aumentano la resistenza e riducono le prestazioni."
+          "explanation": "Un CG fuori dal limite laterale (ad esempio troppo carburante in un'unica ala) costringe il pilota a tenere costantemente alettone e timone deflessi per mantenere l'aereo livellato: le superfici di comando deflesse aumentano la resistenza parassita e riducono sensibilmente le prestazioni (opzione corretta). (opzione 2) è errata perché uno sbilanciamento laterale non provoca automaticamente una vite al decollo, anche se peggiora la controllabilità; la vite richiede condizioni di stallo asimmetrico ben più specifiche. (opzione 3) è errata perché lo sbilanciamento peggiora, non migliora, la manovrabilità in qualsiasi direzione, incluse le virate a destra. (opzione 4) è errata perché uno sbilanciamento laterale del carico non ha alcun effetto diretto sulla potenza erogata dal motore."
         },
         {
           "n": 92,
@@ -8042,7 +8042,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Con vento a 60° dalla direzione pista, la componente al traverso si calcola con il seno: 20 x sin(60°) ≈ 20 x 0,87 ≈ 87% dell'intensità totale."
+          "explanation": "La componente al traverso si calcola moltiplicando l'intensità del vento per il seno dell'angolo tra vento e pista: sin(60°) ≈ 0,87, quindi circa l'87% dell'intensità totale del vento (opzione corretta). (opzione 1), 50%, corrisponderebbe invece a sin(30°) = 0,5, un angolo diverso da quello dato. (opzione 2), 30%, non corrisponde a nessun seno o coseno standard per angoli notevoli ed è troppo basso per un angolo così vicino ai 90°. (opzione 4), 100%, si otterrebbe solo con vento esattamente perpendicolare alla pista (angolo di 90°), non a 60°."
         },
         {
           "n": 93,
@@ -8056,7 +8056,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Per evitare la scia di un aereo grande appena decollato davanti, conviene ruotare prima del suo punto di rotazione e salire sopra la sua traiettoria, oppure rispettare i tempi di separazione regolamentari (tipicamente 2-3 minuti)."
+          "explanation": "Per evitare la turbolenza di scia di un aereo grande decollato davanti, conviene ruotare prima del suo punto di rotazione e salire sopra la sua traiettoria di volo (i vortici di scia tendono a scendere e allargarsi sotto la traiettoria), oppure rispettare i tempi di separazione regolamentari, tipicamente 2-3 minuti (opzione corretta). (opzione 1) è pericolosamente errata: volare sotto la traiettoria di salita di un aereo pesante espone proprio alla zona dove i vortici di scia scendono e si concentrano. (opzione 2) è errata perché 30 secondi sono largamente insufficienti per la separazione da scia di un aereo grande, che richiede tempi di minuti, non secondi. (opzione 4) è errata per lo stesso motivo dell'opzione 1: la zona sotto la scia è la più pericolosa, non quella più sicura."
         },
         {
           "n": 94,
@@ -8070,7 +8070,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La Basic Empty Mass comprende l'aereo con equipaggiamento standard e optional fissi, fluido idraulico, olio motore a livello e carburante non utilizzabile: non include equipaggio, passeggeri né carburante usabile."
+          "explanation": "La Basic Empty Mass comprende l'aereo con equipaggiamento standard e gli optional fissi installati, il fluido idraulico, l'olio motore a livello pieno e il carburante non utilizzabile intrappolato nei serbatoi; non include invece equipaggio, passeggeri né carburante usabile (opzione corretta). (opzione 1) è errata perché la BEM include l'olio motore a livello, non lo esclude. (opzione 3) è errata perché piloti e bagagli fanno parte del carico pagante/operativo, non della massa a vuoto base. (opzione 4) è errata perché limitarsi alla sola cellula esclude equipaggiamento, fluidi e olio che invece la BEM comprende per definizione."
         },
         {
           "n": 95,
@@ -8098,7 +8098,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Con forte vento in coda, per massimizzare il range conviene ridurre leggermente la IAS rispetto alla velocità di massima efficienza standard, sfruttando il vento favorevole per farsi trasportare più a lungo."
+          "explanation": "Con un forte vento in coda, per massimizzare l'autonomia chilometrica conviene ridurre leggermente la IAS rispetto alla velocità di massima efficienza in aria calma, perché il vento favorevole trasporta comunque l'aereo e permette di volare più lentamente rispetto all'aria pur mantenendo una buona velocità al suolo, risparmiando carburante (opzione corretta). (opzione 2) è errata perché aumentare al massimo la IAS aumenta il consumo orario più di quanto guadagni in velocità al suolo, penalizzando il range. (opzione 3) è errata perché il rateo di discesa non ha alcuna relazione diretta con l'ottimizzazione del range in crociera livellata. (opzione 4) è errata perché mantenere invariata la potenza normale non sfrutta il vantaggio offerto dal vento in coda per ridurre il consumo a parità di distanza."
         },
         {
           "n": 97,
@@ -8112,7 +8112,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La GS è la TAS corretta per la componente e la direzione del vento: rappresenta la velocità reale dell'aereo rispetto al terreno sottostante."
+          "explanation": "La Ground Speed è la True Airspeed corretta per la componente e la direzione del vento: rappresenta la velocità reale dell'aereo rispetto al terreno sottostante (opzione corretta). (opzione 2) è errata perché la velocità letta sull'anemometro è la IAS, una velocità rispetto all'aria non corretta per errori né per il vento. (opzione 3) è errata perché la velocità delle ruote a terra prima del decollo non ha alcun legame con la Ground Speed in volo, che è un concetto di navigazione in volo. (opzione 4) è errata perché descrive invece la CAS (Calibrated Airspeed), non la Ground Speed."
         },
         {
           "n": 98,
@@ -8126,7 +8126,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con la Vy si raggiunge la quota desiderata nel minor tempo cronologico possibile, essendo la velocità di massimo rateo di salita in fpm."
+          "explanation": "Mantenendo la Vy (velocità di miglior rateo di salita) si raggiunge la quota desiderata nel minor tempo cronologico possibile, essendo la velocità che massimizza i piedi al minuto guadagnati (opzione corretta). (opzione 1) è errata perché la Vy non ha relazione con il rateo di virata, un parametro legato all'inclinazione in virata, non alla salita rettilinea. (opzione 3) descrive invece la Vx (velocità di miglior angolo di salita), che minimizza la distanza orizzontale per superare un ostacolo, non la Vy. (opzione 4) è errata perché la Vy è ben al di sopra della velocità di stallo, essendo la velocità ottimale per il rateo di salita, non il limite minimo di sostentazione."
         },
         {
           "n": 99,
@@ -8140,7 +8140,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Brina, ghiaccio o neve sulle ali distruggono il flusso laminare, aumentano la resistenza e alzano sensibilmente la velocità di stallo: anche spessori minimi sono pericolosi."
+          "explanation": "Brina, ghiaccio o neve sulle ali distruggono il flusso laminare sul dorso alare, aumentano drasticamente la resistenza aerodinamica e innalzano sensibilmente la velocità di stallo, anche con spessori minimi (opzione corretta). (opzione 1) è pericolosamente errata: la rugosità della superficie contaminata peggiora, non migliora, la portanza generata a parità di velocità. (opzione 3) è errata perché anche spessori sottili, ben inferiori al centimetro, alterano significativamente il flusso d'aria e la sicurezza del decollo: non esiste una soglia di sicurezza sotto 1 cm. (opzione 4) è errata perché il ghiaccio/neve aggiungono peso all'aereo, non lo riducono, e comunque il peso specifico non è il meccanismo con cui i contaminanti influenzano le prestazioni."
         },
         {
           "n": 100,
@@ -8154,7 +8154,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il consumo specifico di un motore a pistoni si ottimizza con un corretto smagrimento (leaning) della miscela, necessario in quota per compensare la minore densità dell'aria in ingresso ai cilindri."
+          "explanation": "Il consumo specifico di un motore a pistoni si ottimizza attraverso un corretto smagrimento (leaning) della miscela aria-carburante, procedura necessaria soprattutto in quota per compensare la minore densità dell'aria in ingresso ai cilindri (opzione corretta). (opzione 1) è errata perché senza un adeguato leaning il motore tenderebbe a ingolfarsi (miscela troppo ricca) in quota, non a consumare proporzionalmente di più in modo efficiente. (opzione 2) è errata perché il consumo specifico varia sensibilmente con la quota e la miscelazione, non resta affatto identico. (opzione 4) è errata perché la temperatura dell'olio influisce sulla lubrificazione e sull'usura, non è il fattore che determina il consumo specifico di carburante."
         },
         {
           "n": 101,
@@ -8168,7 +8168,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La corsa di decollo è approssimativamente proporzionale al quadrato del peso: un aumento del 10% del peso comporta circa un 21% di corsa in più, valore arrotondato all'opzione del 20% tra quelle proposte."
+          "explanation": "Come regola pratica di pianificazione, la corsa di decollo è approssimativamente proporzionale al quadrato del peso (la velocità di distacco cresce con la radice del peso, e lo spazio percorso cresce col quadrato della velocità): un aumento del peso del 10% comporta un incremento della corsa al suolo di circa il 21%, valore che tra le opzioni proposte si avvicina di più al 20% (opzione corretta). (opzione 1), 5%, sottostima fortemente l'effetto, come se la corsa di decollo variasse in proporzione diretta e ridotta rispetto al peso. (opzione 2), 10%, corrisponderebbe a un aumento lineare 1:1 tra peso e corsa di decollo, che ignora la relazione quadratica reale. (opzione 3), 50%, sovrastima notevolmente l'effetto per un aumento di peso così contenuto."
         },
         {
           "n": 102,
@@ -8182,7 +8182,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "A 45° di inclinazione in virata livellata coordinata, il fattore di carico è 1/cos(45°) ≈ 1,41 G."
+          "explanation": "In virata livellata coordinata, il fattore di carico è dato da 1/cos(angolo di bank): 1/cos(45°) = 1/0,7071 ≈ 1,41 G (opzione corretta). (opzione 1), 2,0 G, corrisponderebbe a un'inclinazione di 60° (1/cos(60°)=1/0,5=2), non 45°. (opzione 2), 1,0 G, è il valore del volo livellato senza inclinazione (bank 0°), non a 45°. (opzione 4), 0,5 G, non corrisponde ad alcuna virata livellata coordinata reale: il fattore di carico in virata coordinata è sempre maggiore o uguale a 1 G, mai inferiore."
         },
         {
           "n": 103,
@@ -8196,7 +8196,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Se il vento contrario è più forte del previsto, il tratto di ritorno diventa relativamente più favorevole (vento in coda): il PET si sposta quindi più vicino alla destinazione rispetto al calcolo iniziale."
+          "explanation": "Se il vento contrario reale è più forte di quanto pianificato, il tratto di ritorno verso la partenza diventa relativamente più favorevole (equivale a un vento in coda maggiore su quel tratto): il Punto di Ugual Tempo si sposta quindi più vicino alla destinazione rispetto al calcolo iniziale, perché serve meno tempo per tornare indietro rispetto a proseguire (opzione corretta). (opzione 1) è errata perché il PET coincide con il centro esatto del percorso solo in assenza di vento; con vento (specie se diverso dal previsto) si sposta sempre da un lato. (opzione 2) è l'esatto opposto della realtà: un vento contrario più forte del previsto sposta il PET verso la destinazione, non verso la partenza. (opzione 4) è errata perché il PET (basato sul tempo di volo) e il PNR (Punto di Non Ritorno, basato sull'autonomia di carburante) sono concetti distinti che in generale non coincidono nello stesso punto della rotta."
         },
         {
           "n": 104,
@@ -8210,7 +8210,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le tabelle di decollo considerano l'OAT perché una temperatura più alta riduce la densità dell'aria, penalizzando portanza alare, potenza motore ed efficienza dell'elica, e quindi allungando la distanza di decollo."
+          "explanation": "Le tabelle di decollo considerano l'OAT perché all'aumentare della temperatura la densità dell'aria diminuisce, riducendo l'efficienza dell'ala (meno portanza a parità di velocità), del motore (meno potenza per ciclo) e dell'elica, e quindi allungando la distanza di decollo (opzione corretta). (opzione 1) è errata perché l'abbigliamento dell'equipaggio non ha alcuna relazione con le prestazioni dell'aeromobile riportate in tabella. (opzione 3) è errata perché l'uso dell'aria condizionata di cabina non è il motivo per cui l'OAT compare nelle tabelle prestazionali, che riguardano la fisica della densità dell'aria, non i sistemi di comfort. (opzione 4) è errata perché la temperatura dell'asfalto e l'aderenza delle gomme non sono il fattore fisico modellato dalle tabelle di decollo basate sull'OAT, che riguardano invece la densità dell'aria."
         },
         {
           "n": 105,
@@ -8238,7 +8238,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In aria calma, la massima distanza percorribile con un pieno di carburante si ottiene volando alla velocità di massima efficienza (Vmd), che garantisce la massima autonomia chilometrica."
+          "explanation": "In aria calma, la massima distanza percorribile con un pieno di carburante si ottiene volando alla velocità di massima efficienza (Vmd), che garantisce il miglior rapporto tra distanza percorsa e carburante consumato (opzione corretta). (opzione 1), la Vmp (velocità di minima potenza), massimizza invece l'autonomia oraria (endurance), non quella chilometrica (range): sono due velocità diverse per due obiettivi diversi. (opzione 3), il 75% di potenza, è una tipica impostazione di crociera veloce ma non corrisponde necessariamente alla velocità di massima efficienza aerodinamica. (opzione 4), volare a un nodo sopra lo stallo, è una condizione vicina al limite di controllabilità con altissima resistenza indotta, tutt'altro che efficiente per la massima distanza."
         },
         {
           "n": 107,
@@ -8252,7 +8252,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Valore letto dal grafico di prestazione (tabella C) alle condizioni indicate: si entra con l'altitudine di pressione e la temperatura, si segue la curva fino alla linea del peso e si legge la ground roll risultante, qui senza componente di vento da applicare.",
+          "explanation": "Il valore si legge dal grafico di prestazione (tabella C) per le condizioni indicate: si entra con la temperatura e l'altitudine di pressione (3000 ft, ISA), si segue la curva fino alla linea del peso (600 kg) e, non essendoci vento da applicare (vento zero), si legge direttamente la ground roll di 131 m su erba compatta e asciutta con flap 38° (opzione corretta). (opzione 2), 317 m, è coerente con l'errore di leggere la curva a un'altitudine di pressione più elevata di quella richiesta, dove l'aria più rada allungherebbe la corsa. (opzione 3), 264 m, è coerente con l'errore di confondere la ground roll di decollo con la landing distance riportata nella stessa tabella, due valori distinti per le stesse condizioni. (opzione 4), 109 m, è troppo corto per queste condizioni: un valore così basso sarebbe plausibile solo applicando un vento in prua che qui non è presente (vento zero).",
           "fig": "3-3"
         },
         {
@@ -8267,7 +8267,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Un forte vento frontale non cambia il rateo di salita in fpm rispetto alla massa d'aria (dipende solo dall'eccesso di spinta/potenza), ma rende più ripido l'angolo di salita rispetto al suolo, perché la stessa quota si guadagna percorrendo meno distanza orizzontale sul terreno."
+          "explanation": "Un forte vento frontale non modifica il rateo di salita in piedi al minuto rispetto alla massa d'aria, perché questo dipende solo dall'eccesso di potenza/spinta disponibile rispetto a quella necessaria al volo livellato; rende però più ripido l'angolo di salita rispetto al suolo, perché la stessa quota si guadagna percorrendo una distanza orizzontale minore sul terreno (opzione corretta). (opzione 1) è errata perché il vento frontale non altera la Vy, che resta la stessa IAS indipendentemente dal vento (il vento cambia solo la traiettoria rispetto al suolo, non la velocità aria ottimale). (opzione 2) è errata perché il rateo di salita in fpm dipende dalla fisica del velivolo rispetto alla massa d'aria, non dal vento: un vento frontale non lo diminuisce. (opzione 4) è errata perché un vento frontale costante e regolare non genera di per sé turbolenza distruttiva."
         },
         {
           "n": 109,
@@ -8281,7 +8281,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'altezza convenzionale di riferimento (screen height) per le distanze di decollo e atterraggio è 50 piedi (15 metri), salvo diversa indicazione del manuale."
+          "explanation": "L'altezza convenzionale di riferimento (screen height) utilizzata nei grafici di decollo e atterraggio è di 50 piedi (15 metri), salvo diversa indicazione specifica del manuale di volo (opzione corretta). (opzione 1), 100 ft, è il doppio del valore standard e non corrisponde alla convenzione utilizzata nei manuali di volo PPL. (opzione 2), 33 ft (10 metri), è un valore che non corrisponde alla screen height standard, anche se vicino per ordine di grandezza. (opzione 4), 10 ft (3 metri), è troppo basso rispetto alla screen height convenzionale di 50 piedi."
         },
         {
           "n": 110,
@@ -8295,7 +8295,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In planata, riducendo il peso l'angolo di planata resta invariato (dipende solo dal rapporto L/D), ma la IAS ottimale di Vbg diminuisce, perché serve meno velocità per sostenere una massa minore al miglior angolo di attacco."
+          "explanation": "In planata, riducendo il peso l'angolo di planata resta invariato, perché dipende solo dal rapporto Portanza/Resistenza (L/D) massimo del profilo alare, non dal peso; cambia però la velocità ottima di planata (IAS), che diminuisce, perché serve meno velocità per generare la portanza necessaria a sostenere una massa minore al miglior angolo di attacco (opzione corretta). (opzione 1) è errata perché un peso inferiore non rende l'angolo di planata meno ripido né estende la distanza percorribile: la distanza massima di planata dipende dal rapporto L/D, non dal peso. (opzione 2) è errata per lo stesso motivo: l'angolo di planata non diventa più ripido riducendo il peso, resta lo stesso. (opzione 4) è errata perché non c'è alcuna relazione tra la riduzione del peso in planata e l'annullamento dell'angolo o lo stallo: anzi, un peso minore riduce la velocità di stallo."
         },
         {
           "n": 111,
@@ -8309,7 +8309,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'arco bianco indica il range di velocità approvato per l'estensione e l'uso dei flap, dalla Vso alla Vfe."
+          "explanation": "L'arco bianco sull'anemometro indica il range operativo di velocità approvato per l'estensione e l'utilizzo dei flap, dalla Vso (estremo inferiore) alla Vfe (estremo superiore) (opzione corretta). (opzione 1) è errata perché non esiste un arco dedicato alla velocità nel traffico aeroportuale, un concetto operativo non standardizzato sull'anemometro. (opzione 2) è errata perché il carrello, quando retrattile, ha eventualmente un proprio riferimento di velocità indicato nel manuale, non l'arco bianco che riguarda i flap. (opzione 4) è errata perché la fascia di crociera ideale è indicata, se presente, dall'arco verde, non da quello bianco riservato ai flap."
         },
         {
           "n": 112,
@@ -8323,7 +8323,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In molti aeroplani l'inviluppo di centraggio si restringe progressivamente avvicinandosi al MTOM, per le maggiori sollecitazioni strutturali e di stabilità che si verificano a pieno carico."
+          "explanation": "In molti aeroplani l'inviluppo di centraggio (CG envelope) si restringe progressivamente avvicinandosi al Maximum Take-Off Mass, con i margini anteriore e posteriore che si avvicinano tra loro, per le maggiori sollecitazioni strutturali e i requisiti di stabilità/controllabilità più stringenti a pieno carico (opzione corretta). (opzione 2) è l'esatto opposto della realtà tipica: l'inviluppo non si allarga ma tende a restringersi con l'aumentare del peso. (opzione 3) è errata perché il CG envelope ha tipicamente una forma irregolare (spesso trapezoidale o a diamante), non un quadrato perfetto indipendente dal peso. (opzione 4) è errata perché ogni aeroplano certificato, anche leggero, ha un grafico o una tabella di inviluppo di centraggio nel proprio manuale di volo."
         },
         {
           "n": 113,
@@ -8337,7 +8337,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Aggiungere peso esattamente nel punto in cui si trova già il CG non ne sposta la posizione (il braccio medio non cambia), ma aumenta il peso totale e quindi tutti i momenti in proporzione."
+          "explanation": "Aggiungere un peso esattamente nel punto in cui si trova già il baricentro non ne sposta la posizione, perché il braccio medio complessivo non cambia; il peso totale dell'aereo aumenta però di 50 kg, e con esso aumentano proporzionalmente tutti i momenti (opzione corretta). (opzione 2) è errata perché non c'è alcuno spostamento del CG in avanti: aggiungere peso nel punto del CG attuale lo lascia esattamente dove si trovava. (opzione 3) è errata per lo stesso motivo: nessuno spostamento all'indietro avviene se il peso è aggiunto proprio nel punto del CG. (opzione 4) è errata perché il momento totale non si azzera, anzi aumenta (di peso aggiunto × braccio del CG), dato che si sta aggiungendo peso, non rimuovendolo."
         },
         {
           "n": 114,
@@ -8351,7 +8351,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Rapporto di planata 30:1 da 2000 piedi di quota: distanza massima = 2000 x 30 = 60.000 piedi."
+          "explanation": "Con un rapporto di planata di 30:1, per ogni piede di quota persa l'aliante percorre 30 piedi in orizzontale: distanza massima = 2.000 ft (quota) × 30 = 60.000 piedi (opzione corretta). (opzione 1), 30.000 piedi, corrisponderebbe a un rapporto di planata di 15:1 (2000×15), non di 30:1 come dato nel quesito. (opzione 2), 2.000 piedi, è semplicemente la quota di partenza, come se il rapporto di planata fosse 1:1 e non 30:1. (opzione 4), 15.000 piedi, corrisponderebbe a un rapporto di planata di 7,5:1, un valore molto inferiore a quello indicato."
         },
         {
           "n": 115,
@@ -8379,7 +8379,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'aquaplaning rende inefficace o nulla l'azione frenante, perché un velo d'acqua si interpone tra pneumatico e asfalto eliminando l'attrito."
+          "explanation": "L'idroplanata (aquaplaning) rende inefficace o del tutto nulla l'azione dei freni, perché un velo d'acqua si interpone tra pneumatico e asfalto eliminando l'attrito di contatto necessario alla frenata (opzione corretta). (opzione 2) è errata perché l'aquaplaning riguarda la fase di frenata/rotolamento, non l'accelerazione in decollo, e comunque non la rende più rapida. (opzione 3) è errata perché l'aquaplaning non ha alcuna relazione con il raffreddamento dei freni a disco: anzi, impedendo l'azione frenante, ne compromette l'uso. (opzione 4) è errata perché l'aquaplaning riguarda specificamente il contatto ruota-pista e la frenata, non l'efficacia degli alettoni, che restano operativi come superfici aerodinamiche."
         },
         {
           "n": 117,
@@ -8393,7 +8393,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Attraversando l'Altitudine di Transizione in salita, si passa dal QNH allo standard 1013,25 hPa per volare a Livelli di Volo, garantendo una separazione verticale uniforme tra tutto il traffico in quota."
+          "explanation": "Attraversando l'Altitudine di Transizione in salita, il pilota deve passare dal QNH al settaggio Standard (1013,25 hPa), per volare a Livelli di Volo e garantire una separazione verticale uniforme rispetto a tutto il traffico che vola in quota con lo stesso riferimento (opzione corretta). (opzione 1) è errata perché il QFE riferisce l'altezza al livello del campo, non è il settaggio usato per volare a Livelli di Volo standard. (opzione 2) è errata perché il QNH dell'aeroporto alternato non ha alcuna relazione con il passaggio all'altitudine di transizione, che richiede lo standard 1013,25 hPa, non un QNH di un altro campo. (opzione 4) è errata perché la quota GPS non è mai usata come riferimento per il settaggio dell'altimetro barometrico, che si basa esclusivamente sulla pressione."
         },
         {
           "n": 118,
@@ -8407,7 +8407,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'ASDA si calcola come TORA + Stopway: è lo spazio disponibile per accelerare e poi fermarsi in sicurezza in caso di decollo abortito."
+          "explanation": "L'Accelerate-Stop Distance Available si calcola come TORA + Stopway: è lo spazio disponibile per accelerare e poi fermarsi in sicurezza in caso di decollo abortito (opzione corretta). (opzione 1), TORA + Clearway, descrive invece la TODA (Take-Off Distance Available), usata per il decollo continuato, non per l'arresto. (opzione 2), TODA + Stopway, non corrisponde a nessuna distanza dichiarata standard: sommerebbe due margini diversi in modo scorretto. (opzione 4) descrive una misura geometrica generica tra soglia e raccordo, senza alcun legame con la definizione normativa di ASDA."
         },
         {
           "n": 119,
@@ -8421,7 +8421,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un CG troppo avanzato in atterraggio rende difficile o impossibile sollevare il muso per il flare prima del contatto, con rischio di un tocco duro sul carrello anteriore."
+          "explanation": "Un CG oltre il limite estremo anteriore rende difficile o impossibile sollevare il muso per il flare prima del contatto con la pista, per la ridotta autorità dell'equilibratore nel generare il momento a cabrare necessario, con rischio concreto di un tocco duro sul carrello anteriore (opzione corretta). (opzione 1) è l'opposto della realtà: con CG troppo avanzato è la coda che fatica a rimanere alta, non a toccare prima; il rischio riguarda il carrello anteriore, non quello di coda. (opzione 3) è errata perché il floating eccessivo (eccesso di portanza residua che ritarda il contatto) è tipicamente associato a un CG troppo arretrato o a una velocità di avvicinamento eccessiva, non a un CG troppo avanzato. (opzione 4) è errata perché un CG fuori limite anteriore non ha alcuna relazione diretta con il blocco dei freni principali."
         },
         {
           "n": 120,
@@ -8435,7 +8435,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il carburante usabile è quello effettivamente pescabile dalle pompe o per gravità e utilizzabile dal motore in tutti gli assetti normali di volo; esclude quindi il non usabile intrappolato nei serbatoi."
+          "explanation": "Il carburante usabile è la quantità effettivamente pescabile dalle pompe o per gravità e fornita al motore in tutti gli assetti normali di volo (opzione corretta). (opzione 1) è errata perché non tutto il carburante pompato nei serbatoi è effettivamente utilizzabile: una piccola quantità resta sempre intrappolata come carburante non usabile. (opzione 3) è errata perché la riserva finale è comunque parte del carburante usabile totale (è la porzione minima che deve restare a bordo all'atterraggio), non un carburante escluso dalla definizione di usabile. (opzione 4) è errata perché il carburante usabile comprende tutti i serbatoi effettivamente pescabili dell'aereo (alari e non), non solo quelli alari."
         },
         {
           "n": 121,
@@ -8449,7 +8449,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Con CG oltre il limite posteriore, il pericolo maggiore è l'incapacità di abbassare il muso per uscire da uno stallo o da una vite, perché l'equilibratore perde autorità nel generare un momento a picchiare."
+          "explanation": "Con CG oltre il limite posteriore, il pericolo maggiore è l'incapacità di abbassare il muso per uscire da uno stallo o da una vite, perché l'equilibratore perde autorità nel generare il momento a picchiare necessario (opzione corretta). (opzione 2) è errata perché con CG arretrato l'aereo richiede in realtà meno sforzo, non di più, per tirare la barra (l'equilibratore deve generare meno deportanza), il che aggrava proprio il problema descritto nell'opzione corretta. (opzione 3) è l'opposto della realtà: un CG arretrato tende semmai a rendere l'aereo più instabile e propenso a cabrare, non a picchiare. (opzione 4) è errata perché uno sbilanciamento longitudinale del CG non ha una relazione diretta e primaria con il consumo di carburante, che dipende da potenza e regime motore."
         },
         {
           "n": 122,
@@ -8463,7 +8463,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'Effetto Suolo diventa sensibile e influente quando l'aereo si trova a un'altezza dal terreno inferiore a circa un'apertura alare."
+          "explanation": "L'Effetto Suolo diventa sensibile e influente quando l'aereo si trova a un'altezza dal terreno inferiore a circa un'apertura alare (opzione corretta). (opzione 1) è errata perché 1.000 piedi è un valore enormemente superiore alla distanza a cui l'effetto suolo diventa apprezzabile, che si misura in decine di piedi per un aereo leggero. (opzione 3) è errata perché il riferimento corretto per la soglia dell'effetto suolo è l'apertura alare, non la lunghezza della fusoliera. (opzione 4) è errata perché l'effetto suolo è già presente e influente prima del contatto delle ruote, durante l'avvicinamento finale e il flare, non solo al momento del tocco."
         },
         {
           "n": 123,
@@ -8477,7 +8477,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La massima autonomia chilometrica (range) in aria calma si ottiene volando alla velocità di massima efficienza, cioè al miglior rapporto portanza/resistenza."
+          "explanation": "La massima autonomia chilometrica in aria calma si ottiene volando alla velocità di massima efficienza, cioè al miglior rapporto Portanza/Resistenza (opzione corretta). (opzione 1) descrive invece la velocità che massimizza l'autonomia oraria (endurance), un obiettivo diverso dalla distanza massima percorribile. (opzione 2) è pericolosamente errata: volare alla velocità di stallo comporta un'altissima resistenza indotta e nessuna efficienza, oltre al rischio di perdita di controllo. (opzione 4) è errata perché il regime di massima potenza continuativa massimizza la velocità, non l'efficienza, aumentando il consumo per unità di distanza percorsa."
         },
         {
           "n": 124,
@@ -8491,7 +8491,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il Rateo di salita è la quota guadagnata nel tempo, espressa in piedi al minuto; il Gradiente è la quota guadagnata rispetto alla distanza orizzontale percorsa, espresso in percentuale."
+          "explanation": "Il Rateo di salita è la quota guadagnata nel tempo, espressa tipicamente in piedi al minuto; il Gradiente di salita è invece la quota guadagnata rispetto alla distanza orizzontale percorsa, espresso in percentuale (opzione corretta). (opzione 1) è errata perché i due parametri misurano cose diverse (tempo vs distanza orizzontale) e non sono affatto sinonimi, anche se collegati dalla velocità al suolo. (opzione 3) è errata perché sia il rateo sia il gradiente si applicano sia alla salita sia alla discesa: non sono termini riservati a fasi diverse del volo. (opzione 4) è errata perché il rateo si misura tipicamente in piedi al minuto e il gradiente in percentuale, non in nodi e piedi come indicato."
         },
         {
           "n": 125,
@@ -8505,7 +8505,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "I flap in avvicinamento permettono un rateo e un angolo di discesa più ripidi mantenendo la stessa IAS, grazie all'aumento combinato di portanza e resistenza a bassa velocità: utili per approcci ripidi su ostacoli."
+          "explanation": "I flap in avvicinamento permettono di ottenere un rateo e un angolo di discesa più ripidi mantenendo la stessa velocità indicata (IAS), grazie all'aumento combinato di portanza (a bassa velocità) e soprattutto di resistenza, utile per approcci ripidi su ostacoli (opzione corretta). (opzione 1) è errata perché i flap, estendendo la superficie alare effettiva e aumentando la curvatura del profilo, riducono la velocità di stallo, non la aumentano. (opzione 3) è errata perché i flap non annullano l'effetto suolo, che resta presente e anzi può essere accentuato dalla maggiore superficie alare esposta vicino al terreno. (opzione 4) è errata perché l'estensione dei flap non altera il braccio di leva geometrico dell'equilibratore, anche se ne cambia la richiesta di deflessione per il trim."
         },
         {
           "n": 126,
@@ -8519,7 +8519,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "GS = TAS meno vento frontale allineato alla rotta = 110 - 15 = 95 nodi."
+          "explanation": "La Ground Speed si ottiene sottraendo la componente di vento frontale dalla TAS quando il vento è allineato con la rotta: GS = 110 kt (TAS) - 15 kt (vento frontale) = 95 kt (opzione corretta). (opzione 2), 125 kt, corrisponderebbe a sommare il vento invece di sottrarlo, come se si trattasse di un vento in coda anziché frontale. (opzione 3), 110 kt, ignora del tutto l'effetto del vento, come se il volo avvenisse in aria completamente calma. (opzione 4), 15 kt, corrisponde solo all'intensità del vento, non alla Ground Speed risultante dalla combinazione con la TAS."
         },
         {
           "n": 127,
@@ -8533,7 +8533,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Momento = Peso x spostamento del braccio = 20 kg x (4,0 - 2,0) m = 40 kg*m, in aumento perché il peso si allontana dal Datum posto in avanti."
+          "explanation": "Il Momento generato da un peso è dato da Peso × Braccio (distanza dal Datum): spostando 20 kg dalla stazione 2,0 m alla stazione 4,0 m, la variazione di momento è 20 kg × (4,0 - 2,0) m = 40 kg·m, in aumento perché il peso si allontana dal Datum posto in avanti (opzione corretta). (opzione 2), +80 kg·m, corrisponderebbe a usare l'intera nuova posizione (4,0 m) come variazione anziché la differenza tra le due posizioni: 20 × 4,0 = 80, un errore di calcolo. (opzione 3), -20 kg·m, avrebbe senso solo se il peso si fosse spostato in avanti anziché indietro, riducendo il braccio anziché aumentarlo. (opzione 4) è errata perché il momento dipende dal prodotto peso×braccio: se il braccio cambia (come in questo caso, da 2,0 a 4,0 m), il momento cambia anch'esso, anche se il peso resta a bordo e il peso totale dell'aereo non cambia."
         },
         {
           "n": 128,
@@ -8547,7 +8547,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'estremo superiore dell'arco bianco sull'anemometro è la Vfe, velocità massima consentita con i flap estesi."
+          "explanation": "L'estremo superiore dell'arco bianco sull'anemometro è la Vfe, la velocità massima consentita con i flap estesi (opzione corretta). (opzione 1), la Vs1 (velocità di stallo in configurazione pulita), è indicata invece dall'estremo inferiore dell'arco verde, non dall'estremo superiore dell'arco bianco. (opzione 2), la Vne (velocità da non superare mai), è indicata dalla linea radiale rossa a fine arco giallo, un riferimento completamente diverso. (opzione 3), la Vno (velocità massima strutturale di crociera), è l'estremo superiore dell'arco verde, non di quello bianco."
         },
         {
           "n": 129,
@@ -8561,7 +8561,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il decollo con vento in coda aumenta molto la corsa al suolo, perché serve una velocità maggiore rispetto al terreno per raggiungere la stessa velocità relativa all'aria, e riduce il gradiente di salita iniziale rispetto al suolo."
+          "explanation": "Un decollo con vento in coda è sconsigliato perché aumenta notevolmente la corsa di decollo al suolo, dato che serve una velocità maggiore rispetto al terreno per raggiungere la velocità relativa all'aria necessaria al distacco, e riduce inoltre il gradiente di salita iniziale rispetto al suolo (opzione corretta). (opzione 2) è l'opposto della realtà: con vento in coda la Ground Speed alla rotazione aumenta, non diminuisce, rispetto a un decollo controvento. (opzione 3) è errata perché il vento in coda, riducendo il flusso d'aria relativo sulle superfici di comando nelle prime fasi della corsa, tende semmai a ridurre l'efficacia del timone, non ad aumentarla. (opzione 4) è errata perché il vento in coda peggiora, non migliora, l'angolo e il gradiente di salita iniziale rispetto al suolo."
         },
         {
           "n": 130,
@@ -8589,7 +8589,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Neve fresca o fanghiglia aumentano notevolmente la resistenza al rotolamento delle ruote, allungando in modo significativo la corsa di decollo."
+          "explanation": "Neve fresca o fanghiglia (slush) su pista aumentano notevolmente la resistenza al rotolamento delle ruote, allungando in modo significativo la corsa di decollo necessaria per raggiungere la velocità di distacco (opzione corretta). (opzione 1) è l'opposto della realtà: la maggiore resistenza al rotolamento allunga, non riduce, la distanza di decollo; il raffreddamento dei pneumatici non è un fattore prestazionale rilevante in questo contesto. (opzione 3) è errata perché la resistenza aggiuntiva riguarda il contatto ruota-pista, senza alcun beneficio per l'efficacia aerodinamica dell'elica. (opzione 4) è errata perché l'effetto negativo su resistenza al rotolamento e rischio di slush drag è presente già con neve o fanghiglia non ghiacciata, non solo dopo il congelamento."
         },
         {
           "n": 132,
@@ -8603,7 +8603,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un flap parzialmente esteso abbassa la velocità di stallo, permettendo il distacco a una velocità inferiore e accorciando la corsa al suolo, a scapito però dell'angolo di salita successivo."
+          "explanation": "Un flap parzialmente esteso in decollo abbassa la velocità di stallo e permette il distacco a una velocità inferiore rispetto alla configurazione pulita, accorciando la corsa al suolo (Ground Roll), anche se a scapito dell'angolo di salita successivo per la maggiore resistenza indotta (opzione corretta). (opzione 1) è l'opposto della realtà: i flap abbassano, non aumentano, la velocità di stallo, accorciando quindi il decollo invece di allungarlo. (opzione 3) è errata perché i flap, aumentando l'angolo di attacco effettivo del profilo, aumentano la resistenza indotta, non la annullano. (opzione 4) è errata perché l'uso dei flap non rende affatto inutile il trim, che resta necessario per bilanciare il momento picchiante/cabrante indotto dalla loro estensione."
         },
         {
           "n": 133,
@@ -8617,7 +8617,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il peso massimo all'atterraggio è spesso inferiore al peso massimo al decollo per i limiti strutturali del carrello nell'assorbire l'energia dell'impatto col suolo: dopo un decollo pesante può essere necessario consumare o scaricare carburante prima di poter atterrare in sicurezza."
+          "explanation": "Il peso massimo all'atterraggio è spesso inferiore al peso massimo al decollo, per i limiti strutturali del carrello nell'assorbire l'energia dell'impatto col suolo: dopo un decollo a pieno carico può essere necessario consumare o scaricare carburante prima di poter atterrare in sicurezza entro l'MLM (opzione corretta). (opzione 1) è l'opposto della realtà: l'MLM è tipicamente uguale o inferiore all'MTOM, mai sistematicamente superiore. (opzione 2) è errata perché non esiste un obbligo generale di identità tra i due limiti: dipende dal progetto strutturale specifico di ogni aeromobile. (opzione 4) è errata perché ogni aeromobile certificato ha un limite di peso massimo all'atterraggio definito nel manuale di volo, anche quando numericamente coincide con l'MTOM."
         },
         {
           "n": 134,
@@ -8631,7 +8631,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Un CG più avanzato aumenta la stabilità longitudinale e la velocità di stallo (serve più portanza dall'ala, compensata da più deportanza di coda) e riduce leggermente la velocità di crociera per la maggiore resistenza complessiva."
+          "explanation": "Un CG più avanzato aumenta la stabilità longitudinale (il baricentro più avanti rispetto al centro di pressione aumenta il momento di richiamo naturale) e aumenta la velocità di stallo, perché serve più portanza dall'ala per bilanciare il maggiore momento picchiante, compensata da maggiore deportanza di coda; riduce inoltre leggermente la velocità di crociera per la resistenza aggiuntiva generata da questa deportanza di coda maggiorata (opzione corretta). (opzione 1) è l'opposto della realtà su entrambi i punti: un CG avanzato aumenta, non diminuisce, la stabilità, e aumenta, non riduce, la velocità di stallo. (opzione 2) è errata perché un CG avanzato peggiora, non migliora, l'efficienza di crociera per la maggiore resistenza indotta dalla deportanza di coda necessaria. (opzione 4) è errata perché un CG avanzato ha un effetto diretto e ben noto sulla velocità di stallo (la aumenta), oltre che sull'efficacia richiesta all'equilibratore."
         },
         {
           "n": 135,
@@ -8645,7 +8645,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Lo slip aumenta la resistenza aerodinamica esponendo la fusoliera al vento relativo: questo aumenta il rateo di discesa a parità di IAS, utile per perdere quota rapidamente in corto finale."
+          "explanation": "Lo slip (derapata) aumenta la resistenza aerodinamica esponendo la fusoliera al vento relativo: questo aumenta il rateo di discesa a parità di IAS, una tecnica utile per perdere quota rapidamente in corto finale senza aumentare la velocità (opzione corretta). (opzione 1) è l'opposto della realtà: lo slip peggiora, non migliora, l'efficienza aerodinamica, essendo di fatto una manovra che introduce resistenza extra deliberatamente. (opzione 3) è errata perché lo slip non ha un effetto diretto significativo sulla velocità di stallo, che dipende principalmente dalla configurazione flap e dal peso, non dalla derapata. (opzione 4) è errata perché lo slip non annulla l'effetto suolo, un fenomeno legato alla vicinanza al terreno, indipendente dalla tecnica di derapata."
         },
         {
           "n": 136,
@@ -8659,7 +8659,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "A motore spento, l'apertura completa dei flap aumenta drasticamente la resistenza, facendo decadere il rapporto di planata e costringendo a una traiettoria più ripida."
+          "explanation": "A motore spento, l'apertura completa dei flap aumenta drasticamente la resistenza aerodinamica, facendo decadere il rapporto di planata (Glide Ratio) e costringendo l'aereo a una traiettoria di discesa molto più ripida (opzione corretta). (opzione 1) è l'opposto della realtà: i flap pieni riducono, non aumentano, l'efficienza e quindi accorciano, non prolungano, la planata. (opzione 2) è errata perché i flap pieni aumentano, non abbassano, il rateo di discesa, per la maggiore resistenza generata. (opzione 4) è errata perché i flap abbassano la velocità di stallo, non la innalzano, anche se in questo contesto l'effetto principale rilevante è sulla resistenza e sul rateo di discesa."
         },
         {
           "n": 137,
@@ -8673,7 +8673,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La massima autonomia oraria (endurance) si ottiene alla velocità di minima potenza necessaria, dove il consumo orario di carburante è minimo: è diversa dalla velocità di massima efficienza usata per il range."
+          "explanation": "La massima autonomia oraria (endurance) si ottiene volando alla velocità di minima potenza necessaria, dove il consumo orario di carburante è al minimo: è un obiettivo diverso dalla massima distanza (range), che invece usa la velocità di massima efficienza (opzione corretta). (opzione 2) è errata perché la crociera veloce al 75% di potenza massimizza la velocità, non l'autonomia oraria, aumentando anzi il consumo orario. (opzione 3), la Vbg (velocità di massima efficienza), è quella usata per massimizzare il range (autonomia chilometrica), non l'endurance (autonomia oraria): sono obiettivi distinti con velocità diverse. (opzione 4) è errata perché la Vne è la velocità massima strutturale da non superare mai, non ha alcuna relazione con l'ottimizzazione del consumo orario."
         },
         {
           "n": 138,
@@ -8687,7 +8687,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il Balanced Field Length è la condizione in cui la distanza di accelerazione-arresto disponibile (ASDA) è uguale alla distanza di decollo disponibile (TODA), bilanciando il rischio tra decollo continuato e abortito."
+          "explanation": "Per Balanced Field Length si intende la condizione in cui la Distanza Accelerazione-Arresto disponibile (ASDA) è uguale alla Distanza di Decollo disponibile (TODA), bilanciando così il rischio tra un decollo continuato e un decollo abortito alla velocità critica V1 (opzione corretta). (opzione 1) è errata perché il concetto di Balanced Field Length riguarda le distanze di pista disponibili, non il centraggio del peso (CG) dell'aeromobile. (opzione 3) è errata perché la pendenza della pista (slope) è un parametro indipendente che influenza le prestazioni, ma non è ciò che definisce il bilanciamento tra ASDA e TODA. (opzione 4) è errata perché il concetto non riguarda il bilanciamento tra componenti di vento, ma l'uguaglianza tra due distanze di pista dichiarate."
         },
         {
           "n": 139,
@@ -8701,7 +8701,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con vento a 30° dalla direzione pista, la componente al traverso si calcola con il seno: sin(30°) = 0,5, cioè circa il 50% dell'intensità totale del vento."
+          "explanation": "Con vento a 30° dalla direzione pista, la componente al traverso si calcola con il seno dell'angolo: sin(30°) = 0,5, cioè circa il 50% dell'intensità totale del vento (opzione corretta). (opzione 1) corrisponderebbe a un vento perfettamente perpendicolare alla pista (angolo di 90°), non a 30°. (opzione 3), il 90%, non corrisponde a sin(30°) e sovrastima notevolmente la componente al traverso per un angolo così ridotto. (opzione 4), zero, corrisponderebbe invece a un vento perfettamente allineato con la pista (angolo di 0°), non a 30°."
         },
         {
           "n": 140,
@@ -8715,7 +8715,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Riducendo il peso totale, la Vbg (velocità di massima efficienza) diminuisce, perché serve meno portanza, quindi meno velocità, per sostenere una massa minore al miglior angolo di attacco."
+          "explanation": "Riducendo il peso totale dell'aereo, la Vbg (velocità di massima efficienza/miglior planata) diminuisce, perché serve meno portanza, quindi meno velocità, per sostenere una massa minore mantenendo il migliore angolo di attacco (opzione corretta). (opzione 2) è l'opposto della realtà: la Vbg diminuisce, non aumenta, al diminuire del peso. (opzione 3) è errata perché la Vbg non è una velocità fissa del profilo alare in assoluto, ma varia con il peso (in particolare con la radice quadrata del peso). (opzione 4) è errata perché la Vbg resta sempre ben al di sopra della velocità di stallo, essendo la velocità di massima efficienza, non il limite minimo di sostentazione."
         },
         {
           "n": 141,
@@ -8729,7 +8729,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'Operating/Basic Empty Mass include l'aereo standard con equipaggiamento fisso, fluido idraulico, olio a livello e carburante non usabile: non comprende passeggeri né carburante usabile."
+          "explanation": "L'Operating/Basic Empty Mass comprende l'aeromobile standard con l'equipaggiamento fisso installato, il fluido idraulico, il carburante non utilizzabile e l'olio motore a livello completo; non comprende invece equipaggio, passeggeri né carburante usabile (opzione corretta). (opzione 1) è errata perché esclude erroneamente i liquidi (idraulico, olio), che invece fanno parte della definizione. (opzione 2) è errata perché piloti, bagagli e carburante usabile sono carico variabile (payload e fuel), non parte della massa a vuoto base. (opzione 3) è errata perché include erroneamente i passeggeri, che sono carico pagante variabile, non parte della massa a vuoto dell'aeromobile."
         },
         {
           "n": 142,
@@ -8743,7 +8743,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Flap di decollo parziali riducono la corsa al suolo ma peggiorano l'angolo di salita iniziale, per la maggiore resistenza indotta generata a bassa velocità."
+          "explanation": "Un'impostazione di flap di decollo parziale (ad esempio 10°) rispetto alla configurazione pulita diminuisce la corsa di decollo al suolo, perché abbassa la velocità di stallo e quindi quella di distacco, ma peggiora l'angolo di salita iniziale per la maggiore resistenza indotta generata a bassa velocità (opzione corretta). (opzione 2) è l'opposto della realtà sulla corsa di decollo: i flap parziali la diminuiscono, non la aumentano, anche se è vero che possono peggiorare (non migliorare) il rateo di salita successivo per l'aumento di resistenza. (opzione 3) è errata perché, pur diminuendo la corsa di decollo, i flap parziali aumentano, non diminuiscono, la resistenza aerodinamica complessiva. (opzione 4) è errata perché l'effetto dei flap sulla corsa di decollo e sull'angolo di salita si manifesta fin dai primissimi metri e piedi di quota, non solo sopra i 2000 ft."
         },
         {
           "n": 143,
@@ -8757,7 +8757,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Valore letto dal grafico allegato alle condizioni indicate (flap 25°, vento in prua 10 kt, PA 8000 ft, OAT +20°C, peso 2500 lb): si segue il procedimento standard di lettura del grafico entrando con OAT e PA, seguendo la curva del peso e applicando la correzione vento.",
+          "explanation": "Il valore si legge dal grafico allegato alle condizioni indicate: si entra con l'OAT (+20°C) e l'altitudine di pressione (8000 ft), si segue la curva fino alla linea del peso (2500 lb) e si applica la correzione per il vento in prua di 10 kt, ottenendo una distanza di decollo (TOD) di 2120 ft (opzione corretta). (opzione 1), 1800 ft, è troppo corto per queste condizioni: un valore così basso sarebbe plausibile solo a un'altitudine di pressione più bassa o con un vento in prua più forte di 10 kt. (opzione 3), 2000 mt, è espresso nell'unità di misura sbagliata (metri anziché piedi): anche numericamente non corrisponde alla distanza richiesta in piedi. (opzione 4), 2500 ft, è coerente con il tipo di errore che si ottiene leggendo il grafico senza applicare (o applicando solo in parte) la correzione per il vento in prua, che riduce la distanza rispetto al valore no wind.",
           "fig": "3-1"
         },
         {
@@ -8772,7 +8772,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "From High to Low, look out below: volando da una zona di alta pressione verso una di bassa pressione senza aggiornare il QNH, l'altimetro (ancora tarato sulla pressione più alta) sovrastima la quota: l'aereo è realmente più basso di quanto indicato, con rischio di collisione col terreno."
+          "explanation": "From High to Low, look out below significa che volando da una zona di alta pressione verso una di bassa pressione senza aggiornare il QNH, l'altimetro (ancora tarato sulla pressione più alta) sovrastima la quota indicata: l'aereo si trova realmente più basso di quanto mostrato, con pericolo di collisione col suolo (opzione corretta). (opzione 1) è l'opposto della realtà: l'aereo si trova a una quota reale più bassa, non più alta, di quella indicata. (opzione 3) è errata perché la regola riguarda un errore di altimetria/quota, non la velocità indicata, che non è influenzata da questo fenomeno. (opzione 4) è errata perché non c'è alcuna relazione tra un errore di pressione barometrica non corretto e la potenza erogata dal motore."
         },
         {
           "n": 145,
@@ -8786,7 +8786,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Gli aerei leggeri PPL in Europa e USA sono certificati secondo gli standard costruttivi CS-23 (EASA) o il suo equivalente storico FAR-23 (FAA)."
+          "explanation": "Gli aerei leggeri per uso PPL in Europa e negli Stati Uniti sono certificati secondo gli standard costruttivi CS-23 (normativa EASA) o il suo equivalente storico FAR-23 (normativa FAA) (opzione corretta). (opzione 1) è errata perché l'ICAO Annex 1 riguarda il rilascio delle licenze al personale, non gli standard di certificazione costruttiva degli aeromobili. (opzione 2) è errata perché il Part-145 disciplina le organizzazioni di manutenzione approvate, non gli standard di progettazione e certificazione degli aeromobili. (opzione 4) è errata perché il Part-MED riguarda i requisiti medici per il personale navigante, un ambito del tutto estraneo alla certificazione costruttiva."
         },
         {
           "n": 146,
@@ -8800,7 +8800,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con vento a 45° dalla direzione pista, la componente al traverso si calcola con il seno: sin(45°) ≈ 0,71, cioè circa il 70% dell'intensità totale del vento."
+          "explanation": "Con vento a 45° dalla direzione pista, la componente al traverso si calcola con il seno dell'angolo: sin(45°) ≈ 0,71, cioè circa il 70% dell'intensità totale del vento (opzione corretta). (opzione 1), il 100%, corrisponderebbe a un vento perfettamente perpendicolare alla pista (angolo di 90°), non a 45°. (opzione 3), il 50%, corrisponderebbe a sin(30°) = 0,5, un angolo diverso da quello dato. (opzione 4), il 30%, non corrisponde ad alcun seno o coseno standard per l'angolo di 45° ed è troppo basso per un angolo così vicino ai 45°."
         },
         {
           "n": 147,
@@ -8814,7 +8814,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Una maggiore Density Altitude degrada sensibilmente le prestazioni di decollo e salita, poiché l'aria più rada genera meno portanza e meno potenza, indipendentemente dal tipo di elica installata."
+          "explanation": "Una maggiore altitudine di densità degrada significativamente le prestazioni di decollo e di salita, perché l'aria più rada genera meno portanza a parità di velocità e meno potenza dal motore (opzione corretta). (opzione 2) è errata perché l'aria più rada penalizza anche le eliche a passo fisso, riducendone la spinta generata a parità di regime motore. (opzione 3) è l'opposto della realtà: una maggiore Density Altitude allunga, non accorcia, le distanze di decollo. (opzione 4) è errata perché la Density Altitude aumenta, non diminuisce, all'aumentare della temperatura esterna, essendo l'altitudine di pressione corretta proprio per la temperatura."
         },
         {
           "n": 148,
@@ -8828,7 +8828,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Pista 09 (090°), vento 120°/20kt: differenza angolare 30°. La componente al traverso si calcola con il seno: 20 x sin(30°) = 10 nodi."
+          "explanation": "Pista 09 corrisponde a una prua pista di 090°; con vento 120°/20 kt, la differenza angolare tra vento e pista è 120-090 = 30°. La componente al traverso si calcola con il seno: 20 kt × sin(30°) = 20 × 0,5 = 10 nodi (opzione corretta). (opzione 2), 20 nodi, corrisponderebbe a trattare l'intera intensità del vento come componente al traverso, come se l'angolo fosse di 90° anziché 30°. (opzione 3), 17 nodi, corrisponde invece alla componente frontale (headwind) di questo stesso vento, calcolata con il coseno (20×cos30°≈17,3), non alla componente al traverso richiesta. (opzione 4), 5 nodi, è la metà del valore corretto e non deriva da alcuna formula trigonometrica coerente con i dati forniti."
         },
         {
           "n": 149,
@@ -8842,7 +8842,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La Clearway è un'area oltre la fine della TORA, libera da ostacoli, su cui l'aeroplano può effettuare la prima parte della salita iniziale: viene usata per calcolare la TODA."
+          "explanation": "La Clearway è un'area definita oltre la fine della TORA, libera da ostacoli, sulla quale l'aeroplano può effettuare la prima parte della salita iniziale dopo il distacco; viene sommata alla TORA per calcolare la TODA (opzione corretta). (opzione 1) è errata perché una via di rullaggio rapida (rapid exit taxiway) è un'infrastruttura per lasciare la pista dopo l'atterraggio, concetto estraneo alla Clearway. (opzione 2) descrive invece la Stopway, un'area per l'arresto in caso di decollo abortito, diversa e con funzione opposta rispetto alla Clearway (che serve per la salita, non per fermarsi). (opzione 4) è errata perché la distanza tra piste parallele è un parametro di layout aeroportuale del tutto estraneo alla definizione di Clearway."
         },
         {
           "n": 150,
@@ -8856,7 +8856,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In assenza di dati specifici per pista bagnata, si applica prudenzialmente un incremento di circa il 15-20% alla distanza di atterraggio, secondo quanto indicato dal manuale di volo."
+          "explanation": "In assenza di dati specifici per pista bagnata nelle tabelle di performance, si applica prudenzialmente un incremento di circa il 15% o il 20% (secondo quanto indicato dal manuale di volo specifico) alla distanza di atterraggio calcolata per pista asciutta (opzione corretta). (opzione 1), il 100%, raddoppierebbe la distanza, un margine eccessivo rispetto alla pratica standard raccomandata dai manuali di volo. (opzione 2) è errata perché ignorare del tutto la penalizzazione per pista bagnata sarebbe pericoloso, dato che l'attrito ridotto allunga realmente la corsa di frenata. (opzione 3), il 2%, è un margine troppo esiguo per compensare la reale riduzione di attrito su pista bagnata rispetto a pista asciutta."
         },
         {
           "n": 151,
@@ -8870,7 +8870,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il Trip Fuel copre l'intero volo operativo dal decollo all'atterraggio a destinazione, includendo salita, crociera, discesa e avvicinamento: non comprende riserve né carburante di rullaggio."
+          "explanation": "Il Trip Fuel rappresenta il carburante necessario per volare dal decollo all'atterraggio a destinazione, includendo tutte le fasi operative: salita, crociera, discesa e avvicinamento (opzione corretta). (opzione 1) è errata perché il carburante totale a bordo alla messa in moto comprende anche il Taxi Fuel e tutte le riserve, non solo il Trip Fuel della tratta operativa. (opzione 3) è errata perché la riserva di carburante è una componente separata e aggiuntiva rispetto al Trip Fuel, non equivalente ad esso. (opzione 4) è errata perché il Trip Fuel copre l'intero profilo di volo operativo, comprese salita e discesa, non solo le fasi di volo livellato."
         },
         {
           "n": 152,
@@ -8884,7 +8884,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per convertire i kg in libbre si moltiplica per 2,204 (1 kg ≈ 2,204 lb)."
+          "explanation": "Per convertire un peso da chilogrammi a libbre si moltiplica per 2,204 (1 kg ≈ 2,204 lb): ad esempio 100 kg × 2,204 = 220,4 lb (opzione corretta). (opzione 1), dividere per 2,204, è l'operazione inversa: darebbe le libbre convertite in kg, non il contrario. (opzione 3), moltiplicare per 3,78, corrisponde al fattore di conversione tra galloni USA e litri, un'unità di volume completamente diversa dal peso. (opzione 4), dividere per 0,45, è concettualmente vicino alla conversione corretta (poiché 1 lb ≈ 0,4536 kg), ma usa un fattore arrotondato meno preciso rispetto al moltiplicatore standard 2,204 indicato nel metodo corretto, introducendo un piccolo errore di arrotondamento."
         },
         {
           "n": 153,
@@ -8898,7 +8898,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Con aria più fredda dello standard, l'altimetro (tarato sempre sull'atmosfera ISA) sovrastima la quota reale: l'aereo vola effettivamente più basso di quanto indicato, un errore pericoloso specie in avvicinamento su terreno montuoso."
+          "explanation": "Con aria significativamente più fredda dello standard ISA, l'altimetro (tarato sempre sull'atmosfera standard) sovrastima la quota reale: l'aereo indica una quota maggiore di quella a cui sta realmente volando, essendo in realtà più basso di quanto indicato, un errore pericoloso specialmente in avvicinamento su terreno montuoso (opzione corretta). (opzione 2) è l'opposto della realtà: con aria fredda l'errore va nel senso di sovrastima della quota (aereo più basso), non di sottostima. (opzione 3) è errata perché l'altimetro barometrico non corretto per la temperatura è sensibile anche alle variazioni di temperatura dell'aria, non solo alla pressione locale. (opzione 4) è errata perché l'altimetro continua a funzionare regolarmente, semplicemente con un errore sistematico di lettura, non si blocca."
         },
         {
           "n": 154,
@@ -8912,7 +8912,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'elica a passo fisso è progettata per rendere con la miglior efficienza propulsiva a un regime intermedio di crociera; ai regimi di decollo o al minimo il rendimento propulsivo è inferiore."
+          "explanation": "Un'elica a passo fisso è progettata per offrire la miglior efficienza propulsiva a un regime intermedio di crociera, il punto di progetto per cui l'angolo di calettamento delle pale è stato ottimizzato (opzione corretta). (opzione 1) è errata perché al regime minimo l'elica genera scarsa spinta e lavora lontano dal suo punto di progetto ottimale. (opzione 3) è errata perché al massimo dei giri l'elica non lavora necessariamente al suo miglior rendimento propulsivo, che dipende dalla combinazione di velocità di rotazione e velocità di avanzamento per cui è stata calettata. (opzione 4) è errata perché al decollo il rapporto tra velocità di rotazione e velocità di avanzamento è ben lontano da quello di progetto per la crociera, con conseguente rendimento propulsivo inferiore."
         },
         {
           "n": 155,
