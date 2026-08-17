@@ -17116,7 +17116,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: GS=119 Kts; Dr = +12°. L'opzione A è errata perché una GS di 100 Kts implicherebbe un forte vento in coda, mentre il vento da 215°/25 Kts rispetto a TC=320° ha una componente trasversale significativa ma anche una componente di coda moderata. L'opzione B è errata. L'opzione C è errata per calcolo non corretto."
+          "explanation": "Il dato TAS è espresso in Mph mentre il vento è dato in Kt: prima di applicare il triangolo del vento occorre convertire la TAS in Kt (132 Mph × 0,869 ≈ 114,7 Kt), altrimenti si sommano grandezze in unità diverse ottenendo un risultato scorretto. Con TC=320°, TAS=114,7 Kt e vento 215°/25 Kt l'angolo tra rotta e direzione del vento è di 105°: la componente trasversale produce una deriva di circa 12° verso sinistra (il vento spira da una direzione a sinistra della rotta), mentre la componente longitudinale, in prevalenza di coda dato che 215° è una direzione arretrata rispetto a 320°, porta la GS a circa 119 Kt, poco sopra la TAS convertita: questo conferma il valore di GS e deriva riportato nella risposta corretta. Le opzioni 1 (GS=100 Kts; Dr=+18°) e 2 (GS=95 Kts; Dr=+15°) sottostimano nettamente sia la GS sia la deriva, coerentemente con l'errore di non convertire la TAS da Mph a Kt e di trattare il vento come prevalentemente contrario anziché in coda. L'opzione 3 (GS=98 Kts; Dr=+10°) sottostima la GS per lo stesso motivo, pur avvicinandosi di più al valore corretto di deriva."
         },
         {
           "n": 74,
@@ -17130,7 +17130,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: GS = 102 Kts; Tempo di volo = 1 h 40m.. L'opzione A è errata perché con TC=320° e vento da 270°/20 Kts (vento da sinistra), la deriva positiva abbassa la GS rispetto alla TAS. L'opzione B è errata per calcolo non corretto della componente longitudinale del vento. L'opzione C è errata."
+          "explanation": "Anche qui la TAS è espressa in Mph (132 Mph) mentre il vento è in Kt: convertendo la TAS in Kt (132 × 0,869 ≈ 114,7 Kt) e applicando il triangolo del vento con TC=320° e vento 270°/20 Kt, l'angolo tra rotta e vento è di 50°: la deriva risulta di circa 8° verso sinistra e la GS di circa 101 Kt, valore in linea con i 102 Kt della risposta corretta (la piccola differenza residua è la normale tolleranza di arrotondamento di un calcolo manuale col computer di volo/CR-3, dove gli angoli si arrotondano al grado intero). Con GS=102 Kt su una distanza di 170 NM il tempo di volo è 170/102 ≈ 1,667 h, cioè 1 h 40 m esatti, coerente con la risposta corretta. Le opzioni 1 (GS=120 Kts; 1h25m) e 2 (GS=110 Kts; 1h33m) sovrastimano la GS, come se la componente longitudinale del vento fosse stata considerata in coda con un peso eccessivo o la conversione Mph→Kt non fosse stata applicata; l'opzione 3 (GS=108 Kts; 1h45m) sovrastima ugualmente la GS mentre il tempo indicato non è nemmeno coerente con quella GS (170/108 ≈ 1h34m, non 1h45m), segno di un doppio errore nella catena di calcolo."
         },
         {
           "n": 75,
@@ -18288,9 +18288,9 @@
             "7 minuti",
             "9 minuti"
           ],
-          "correct": 0,
+          "correct": 1,
           "src": "quizvds",
-          "explanation": "Alterando la prua di 10° a destra e osservando dopo 5 minuti che il RILPO è diminuito di 10° (cioè esattamente compensato dalla virata, segno che la stazione è ancora relativamente vicina e sensibile a piccole variazioni di prua), per poi controvirare di 20° a sinistra: applicando la relazione tra variazione di prua, variazione di RILPO e tempo trascorso in questo doppio passaggio, la distanza dalla stazione risulta di circa 3 minuti di volo. Le altre opzioni proposte non corrispondono al valore di distanza ricavabile da questa sequenza di virate e variazioni di RILPO osservate."
+          "explanation": "È un'applicazione della tecnica classica di verifica tempo/distanza da una stazione NDB per 'raddoppio dell'angolo'. Partendo con l'ago ADF a zero (RILPO=0°, stazione dritta di prua), il pilota altera la prua di 10° a destra: subito dopo la virata il RILPO passa a −10° (la stazione, che non si è spostata, appare ora a sinistra della nuova prua di un angolo pari alla virata appena eseguita). Proseguendo con prua invariata, dopo 5 minuti il RILPO è ulteriormente diminuito di altri 10°, portandosi a −20° rispetto alla prua: la controvirata di 20° a sinistra che riporta l'ago sullo zero conferma che da questo punto la rotta diretta alla stazione forma, dalla parte opposta, lo stesso angolo di 10° tenuto nei 5 minuti precedenti. Questa simmetria (percorso rettilineo con angolo di virata iniziale uguale alla variazione di RILPO nello stesso intervallo) è la condizione classica per cui il tempo restante alla stazione è sempre esattamente uguale al tempo già trascorso tra le due osservazioni, indipendentemente dal valore dell'angolo scelto: qui 5 minuti trascorsi implicano quindi 5 minuti restanti alla stazione, il valore corretto. Le opzioni 1 (3 minuti), 3 (7 minuti) e 4 (9 minuti) non sono compatibili con questa relazione geometrica: in particolare 3 minuti corrisponderebbe a una variazione di RILPO nell'intervallo diversa da quella osservata (10°), mentre 7 e 9 minuti sono superiori al tempo effettivamente trascorso tra le due osservazioni, incompatibili con la simmetria dimostrata dal teorema del raddoppio dell'angolo."
         },
         {
           "n": 157,
