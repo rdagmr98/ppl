@@ -16181,7 +16181,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 90° al Polo Nord e 90° al Polo Sud.. L'opzione A è errata perché 0° è la latitudine dell'equatore, non dei poli: i poli sono ai massimi valori di latitudine. L'opzione B è errata perché sebbene entrambi i poli siano a 90° in valore assoluto, essi hanno segno opposto (Nord e Sud). L'opzione D è errata perché sebbene i poli siano punti geometrici senza dimensione, la loro latitudine è definita ed è 90°."
+          "explanation": "La latitudine si misura come l'angolo tra il piano equatoriale e la verticale del luogo (o, equivalentemente, l'arco di meridiano dal punto all'Equatore), da 0° all'Equatore fino a 90° ai poli; quindi entrambi i poli si trovano esattamente a 90°, Nord quello geografico Nord e Sud quello geografico Sud. L'opzione 1 confonde la latitudine con la longitudine: 0°/180° sono valori tipici della longitudine (che si misura fino a 180° dal meridiano di Greenwich), non della latitudine. L'opzione 2 attribuisce ai poli lo stesso valore dell'Equatore (0°), che è invece l'origine della scala di latitudine, non il suo estremo. L'opzione 4 è concettualmente errata: pur essendo i poli punti geometrici, la loro latitudine è comunque definita e vale 90°, non è \"priva di dimensione\"."
         },
         {
           "n": 7,
@@ -16265,7 +16265,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Un arco di Equatore misurato in gradi, primi e secondi di arco ed avente una massima ampiezza di 180° verso Est o 180° verso Ovest a partire dal meridiano di riferimento che ha valore 0°.. L'opzione A è errata perché la longitudine si conta Est oppure Ovest, non Nord e Sud: Nord e Sud sono le direzioni della latitudine. Inoltre l'ampiezza massima è 180° Est oppure 180° Ovest, non 90° ciascuna. L'opzione B è errata perché la longitudine è un arco di equatore, non di meridiano. L'opzione C è errata perché descrive un arco di meridiano (gradi verso Nord e verso Sud dall'equatore) che è la definizione di latitudine, non di longitudine."
+          "explanation": "La longitudine è un arco di Equatore, misurato in gradi/primi/secondi, con ampiezza massima di 180° verso Est o verso Ovest a partire dal meridiano di riferimento (Greenwich, valore 0°). L'opzione 1 mescola erroneamente le direzioni Nord/Sud (proprie della latitudine) con un arco di equatore, che per definizione si misura solo verso Est o Ovest. L'opzione 2 ripete lo stesso errore, usando Nord/Sud al posto di Est/Ovest e omettendo il riferimento al meridiano 0°. L'opzione 3 descrive in realtà la definizione di LATITUDINE (arco di meridiano dall'Equatore, verso Nord o Sud), scambiando le due grandezze."
         },
         {
           "n": 13,
@@ -16279,7 +16279,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 180°. L'opzione A (90°) è errata perché 90° è la massima ampiezza della latitudine, non della longitudine: la longitudine va da 0° a 180° Est oppure da 0° a 180° Ovest. L'opzione C (360°) è errata perché 360° corrisponde a un giro completo attorno alla Terra, mentre la longitudine si misura solo per 180° Est e 180° Ovest dall'antimeridiano di Greenwich. L'opzione D (720°) è errata perché 720° non ha alcun significato geodesico."
+          "explanation": "La longitudine si misura sempre a partire dal meridiano di Greenwich verso Est o verso Ovest fino a un massimo di 180° in ciascun verso. L'opzione 1 (90°) è il valore massimo della LATITUDINE, non della longitudine: uno scambio tra le due grandezze. L'opzione 3 (360°) è l'ampiezza dell'intero angolo giro, ma la convenzione Est/Ovest della longitudine non supera mai i 180° per verso. L'opzione 4 (720°) è il doppio dell'angolo giro, un valore privo di qualunque significato geografico."
         },
         {
           "n": 14,
@@ -16293,7 +16293,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 90°. L'opzione B (180°) è errata perché 180° è la massima ampiezza della LONGITUDINE, non della latitudine: la latitudine raggiunge al massimo 90° ai poli (latitudine 90° Nord o 90° Sud). L'opzione C (360°) è errata perché 360° corrisponde a un intero giro attorno alla Terra, mentre la latitudine è una distanza angolare dall'equatore verso i poli. L'opzione D (720°) è errata perché 720° non ha alcun significato geodesico."
+          "explanation": "La latitudine si misura da 0° all'Equatore fino a un massimo di 90° ai poli. L'opzione 2 (180°) è il valore massimo della LONGITUDINE (somma dei due emisferi Est e Ovest), non della latitudine. L'opzione 3 (360°) è l'angolo giro completo, senza alcun significato per la scala di latitudine che si ferma a 90°. L'opzione 4 (720°) è il doppio dell'angolo giro, privo di significato geografico."
         },
         {
           "n": 15,
@@ -16307,7 +16307,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: E' un arco di meridiano compreso tra i paralleli passanti per il punto di partenza e di arrivo ed avente una ampiezza massima di 90°. Essa prende segno Nord o Sud a seconda della direzione di spostamento ed a prescindere dall'emisfero in cui detto spostamento si verifica.. L'opzione A è errata perché la differenza di latitudine è un arco di MERIDIANE (non di equatore) e si esprime in gradi Nord o Sud (non Est o Ovest). L'opzione C è errata perché la differenza di latitudine non ha un valore massimo di 180° né dipende dalla declinazione magnetica. L'opzione D è errata perché descrive un arco di EQUATORE (differenza di longitudine), non di meridiano, e prende segno Est/Ovest, non Nord/Sud."
+          "explanation": "La differenza di latitudine è l'arco di meridiano compreso tra i paralleli dei due punti (partenza e arrivo), con ampiezza massima 90° e segno Nord o Sud indipendentemente dall'emisfero. L'opzione 1 sbaglia sia l'ampiezza massima (indica 180° invece di 90°) sia i versi (Est/Ovest, propri della longitudine, non della differenza di latitudine che si esprime in Nord/Sud). L'opzione 3 introduce un concetto estraneo (la declinazione magnetica, legata al campo magnetico terrestre), che non ha alcun legame con una grandezza puramente geografica come la differenza di latitudine. L'opzione 4 descrive in realtà la differenza di LONGITUDINE (arco di Equatore tra meridiani, segno Est/Ovest), scambiando le due definizioni."
         },
         {
           "n": 16,
@@ -16335,7 +16335,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 0°. L'opzione A (180°) è errata perché 180° è la longitudine dell'antimeridiano di Greenwich (opposto al meridiano zero), dove avviene il cambio di data. L'opzione C (90°) è errata perché 90° non ha un significato particolare per Greenwich. L'opzione D è errata perché la longitudine del meridiano di Greenwich è un valore convenzionale fisso (0°), indipendente dalla declinazione magnetica locale."
+          "explanation": "Il meridiano di riferimento da cui si misura la longitudine è quello di Greenwich, a cui è convenzionalmente assegnato il valore 0°. L'opzione 1 (180°) è l'antimeridiano di Greenwich, dall'altra parte del globo (base della linea del cambio di data), non il meridiano di riferimento stesso. L'opzione 3 (90°) è un valore arbitrario che non corrisponde a nessun punto di riferimento standard. L'opzione 4 è concettualmente errata: la longitudine è una coordinata geografica fissa e non dipende in alcun modo dalla declinazione magnetica, fenomeno legato al campo magnetico terrestre e privo di rapporto con essa."
         },
         {
           "n": 18,
@@ -16363,7 +16363,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: N=0°(360°) E=090° S=180° W=270°. L'opzione B è errata perché scambia Est e Ovest (E=270° e W=090° sono le convenzioni marine sbagliate, invertite rispetto alla convenzione aeronautica). L'opzione C è errata perché inverte tutti i quadranti: in aeronautica S=180°, E=090°, W=270°. L'opzione D è errata perché S=090° e W=270° sono completamente sbagliati: 090° è Est e 270° è Ovest."
+          "explanation": "Le direzioni cardinali, in senso orario a partire dal Nord, sono: Nord=000°, Est=090°, Sud=180°, Ovest=270°. L'opzione 2 scambia Est e Ovest (E=270°, O=090°), invertendo il verso di percorrenza rispetto a quello orario standard. L'opzione 3 scambia Est e Sud (E=180°, S=270°), rompendo la sequenza corretta N-E-S-O. L'opzione 4 scambia Sud e Ovest (S=090°, O=270°), anch'essa incoerente con la sequenza oraria N-E-S-O."
         },
         {
           "n": 20,
@@ -16391,7 +16391,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Angolo misurato da 0° a 360° in senso orario tra il meridiano vero di un punto e la congiungente di tale punto con quello di arrivo. L'opzione B è errata perché la rotta vera si misura da 0° a 360° (non da 0° a 180°) ed è un angolo tra il meridiano e la CONGIUNGENTE (rotta), non tra il meridiano e la direzione del velivolo (prua). L'opzione C è errata perché misura la deriva come scostamento a destra o sinistra, non definisce la rotta vera. L'opzione D è errata perché riferisce la rotta al meridiano MAGNETICO, non a quello vero: una rotta riferita al nord magnetico è una rotta magnetica (MC)."
+          "explanation": "La Rotta Vera è l'angolo, misurato in senso orario da 0° a 360°, tra il meridiano vero del punto di partenza e la retta che lo congiunge alla destinazione. L'opzione 2 limita l'ampiezza a 0°-180° verso Est o Ovest, una convenzione a settori diversa da quella standard, che si misura sempre in senso orario fino a 360°. L'opzione 3 ripete la stessa limitazione a 0°-180°, usando in più un riferimento relativo (destra/sinistra) invece che assoluto (senso orario) rispetto al meridiano. L'opzione 4 fa riferimento al meridiano MAGNETICO anziché a quello vero: la Rotta Vera per definizione si riferisce al Nord vero (geografico), non a quello magnetico, che introdurrebbe la variazione magnetica, estranea a questa definizione."
         },
         {
           "n": 22,
@@ -16517,7 +16517,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Angolo formato tra la direzione del Nord magnetico e l'asse longitudinale dell'aeromobile, misurato in senso orario da 0° a 360°.. L'opzione A è errata perché descrive la prua bussola (l'asse longitudinale corretto sia della deviazione che di un'inesistente correzione della declinazione sulla bussola). L'opzione B è errata perché confonde la prua magnetica con la rotta magnetica: la prua è l'angolo tra il nord e l'ASSE del velivolo, mentre la rotta è l'angolo tra il nord e la TRAIETTORIA seguita. L'opzione C è errata per lo stesso motivo: descrive la rotta magnetica (MC), non la prua magnetica (MH)."
+          "explanation": "La Prua Magnetica è l'angolo, misurato in senso orario da 0° a 360°, tra la direzione del Nord magnetico e l'asse longitudinale del velivolo. L'opzione 1 parla di Nord geografico corretto per la Deviazione, mescolando due riferimenti incompatibili: il Nord geografico si corregge con la Variazione (non la Deviazione, che si applica al Nord magnetico per ottenere quello bussola); la Prua Magnetica si riferisce già direttamente al Nord magnetico, senza bisogno di ulteriori correzioni. L'opzione 2 descrive l'angolo rispetto alla traiettoria realmente seguita sul terreno (la rotta), non rispetto all'asse dell'aeromobile: confonde dove punta il muso con dove il velivolo si sposta, concetti diversi in presenza di vento. L'opzione 3 descrive l'angolo rispetto alla congiungente partenza-arrivo (la rotta pianificata), anch'essa diversa dalla prua, che è sempre riferita a dove punta il muso."
         },
         {
           "n": 31,
@@ -16531,7 +16531,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Angolo misurato in senso orario da 0° a 360° tra la direzione del Nord vero e l'asse longitudinale del velivolo e corretto sia della Declinazione magnetica che della Deviazione residua della bussola.. L'opzione A è errata perché la prua bussola è riferita al Nord VERO, non al Nord magnetico, e corretta sia della declinazione che della deviazione residua: è un concetto tautologico errato. L'opzione B è errata perché la prua bussola si misura in senso ORARIO (convenzione aeronautica), non antiorario. L'opzione D è errata perché descrive la differenza tra rotta effettiva e rotta magnetica, non la prua bussola."
+          "explanation": "La Prua Bussola è l'angolo, misurato in senso orario da 0° a 360°, tra il Nord vero e l'asse del velivolo, corretto sia di Variazione sia di Deviazione. L'opzione 1 parte invece dal Nord magnetico: se il riferimento fosse già il Nord magnetico, sarebbe già corretto di Variazione, e applicare di nuovo la Deviazione partendo da lì è concettualmente incoerente, poiché la Prua Bussola si costruisce a partire dal Nord vero applicando in sequenza Variazione e poi Deviazione. L'opzione 2 misura l'angolo in senso antiorario, mentre la convenzione aeronautica standard per tutte le prue e rotte è sempre il senso orario da 0° a 360°. L'opzione 4 descrive l'angolo tra la traiettoria realmente seguita e la rotta magnetica di carta: questo è il concetto di deriva/errore di rotta rispetto al piano di volo, non la definizione di Prua Bussola, che riguarda esclusivamente l'orientamento del muso rispetto al Nord."
         },
         {
           "n": 32,
@@ -16962,7 +16962,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 155 Mph. L'opzione A è errata perché per calcolare la TAS a 5000 ft con IAS=144 mph e T=+5°C occorre dapprima convertire IAS in CAS, poi in EAS considerando la quota (5000 ft abbassano la densità) e infine correggere per la temperatura: a +5°C a 5000 ft si ottiene circa 155 mph, non 160 mph. L'opzione C è errata perché 150 mph sottostima la TAS reale. L'opzione D è errata per calcolo non corretto."
+          "explanation": "La TAS si ottiene correggendo la IAS (qui assunta coincidente con la CAS) per l'effetto della minor densità dell'aria in quota: a 5.000 ft con temperatura di +5°C (più calda dello standard ISA a quella quota, il che riduce la densità ulteriormente) la densità dell'aria scende a circa l'86% di quella al livello del mare, per cui la TAS aumenta di circa l'8% rispetto alla IAS: 144 × ~1,077 ≈ 155 Mph, ottenibile anche impostando quota e temperatura nella finestrella del computer da volo CRP-5. L'opzione 1 (160 Mph) sovrastima questa correzione, come se si fosse letta una quota pressione più alta di quella data. Le opzioni 3 (150 Mph) e 4 (148 Mph) sottostimano invece la correzione, come se si fosse trascurato in parte l'effetto della temperatura superiore allo standard, che aumenta ulteriormente lo scarto tra IAS e TAS oltre al solo effetto della quota."
         },
         {
           "n": 63,
@@ -17074,7 +17074,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Applicando la composizione vettoriale vento-TAS sul triangolo del vento (TC=320°, TAS=128 Mph, vento 215°/25 Kt) si ottiene una GS di 133 mph: poiché il vento spira da 215°, quasi frontalmente rispetto a una rotta di 320°, ha una componente prevalentemente contraria che riduce la velocità al suolo rispetto alla TAS. Le opzioni 2, 3 e 4 (130, 137, 146 mph) sono valori che si ottengono impostando in modo scorretto l'angolo tra vento e rotta nel triangolo (ad esempio scambiando la componente frontale con quella in coda, o applicando solo parzialmente la correzione trigonometrica), portando a una componente di vento contrario sottostimata o addirittura a tratti trattata come favorevole, il che fa salire il valore di GS calcolato oltre i 133 mph corretti."
+          "explanation": "Con TC=320°, TAS=128 Mph e vento 215°/25 Kt (che soffia da una direzione arretrata rispetto alla rotta, quindi con una componente in prevalenza favorevole/in coda), il triangolo del vento dà una deriva di circa 11° a sinistra e una Ground Speed di poco superiore alla TAS, intorno a 132-133 Mph: l'opzione corretta. L'opzione 2 (130 Mph) è leggermente inferiore a questo valore, coerente con un errore che riduce invece di aumentare l'effetto della componente favorevole del vento. Le opzioni 3 (137 Mph) e 4 (146 Mph) sono invece superiori al valore corretto, coerenti con una sovrastima della componente di vento in coda applicata alla TAS."
         },
         {
           "n": 71,
@@ -17102,7 +17102,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con CAS=140 Kt, PA=10.000 ft e T=0°C la CAS va prima convertita in TAS (a quella quota e temperatura la TAS risulta più alta della CAS, per la minore densità dell'aria); applicando poi il triangolo del vento con TC=350° e vento 030°/25 Kt si ricava una TH=355° e, con la GS risultante dal triangolo su una distanza di 180 NM, un tempo di volo di 1h15min. L'opzione 1 (TH=350°, 1h10min) corrisponde a non aver applicato correzione di deriva alla TH (lasciata uguale al TC) e a un tempo calcolato con una GS leggermente sovrastimata. L'opzione 3 (TH=355°, 1h2min) applica correttamente la TH ma usa una GS troppo alta nel calcolo del tempo, come se il vento fosle stato considerato in coda anziché con la componente reale. L'opzione 4 (TH=005°, 1h30min) inverte il segno della correzione di deriva (portando la TH dall'altra parte rispetto al TC) e ne deriva anche un tempo di volo calcolato su una GS penalizzata da un vento contrario che in realtà non è quello reale del problema."
+          "explanation": "Da CAS=140 Kt a PA=10.000 ft con T=0°C (più fredda dello standard, quindi aria più densa di quanto la sola quota farebbe pensare, ma comunque assai meno densa del livello del mare) si ottiene una TAS di circa 164 Kt. Applicando il triangolo del vento con TC=350° e vento 030°/25 Kt, il vento (che spira da destra rispetto alla rotta) genera una deriva di circa +5,6°, per cui TH=350°+5,6°≈355°, e una GS di circa 144 Kt che sui 180 NM di distanza dà un tempo di volo di circa 1h15min. L'opzione 1 (TH=350°, 1h10min) corrisponde a non aver applicato alcuna correzione di deriva alla TH (lasciata identica al TC) e a un tempo di volo calcolato con una GS leggermente sovrastimata. L'opzione 3 (TH=355°, 1h02min) applica la TH corretta ma usa nel calcolo del tempo una GS troppo alta, come se il vento fosse stato considerato quasi interamente in coda anziché nella sua reale componente. L'opzione 4 (TH=005°, 1h30min) inverte il segno della correzione di deriva, portando la TH dalla parte sbagliata rispetto al TC, con un tempo di volo calcolato su una GS eccessivamente penalizzata, come da un vento quasi tutto contrario che non corrisponde allo scenario reale del problema."
         },
         {
           "n": 73,
@@ -17145,7 +17145,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "La risposta corretta è: 258°. L'opzione A (078°) è errata perché rappresenta la rotta opposta (da Firenze a Rimini, non da Rimini a Firenze): la rotta da A a B differisce di 180° dalla rotta da B ad A. L'opzione C (082°) è errata perché 082° è la rotta magnetica approssimativa, non la True Course. L'opzione D (262°) è errata perché è 180° + 82° = 262°, non la rotta corretta da Rimini a Firenze."
+          "explanation": "La Rotta Vera si legge sulla carta come l'angolo, misurato in senso orario dal Nord del meridiano di Rimini, della retta che congiunge Rimini a Firenze: dalla figura risulta pari a 258°. L'opzione 1 (078°) è la rotta RECIPROCA, cioè quella che si otterrebbe percorrendo il tragitto in senso inverso, da Firenze a Rimini (258°−180°=078°) — un errore tipico quando si legge il goniometro dal verso sbagliato della retta. Le opzioni 3 (082°) e 4 (262°) sono valori vicini rispettivamente alla rotta reciproca e a quella corretta, coerenti con un piccolo errore di allineamento del goniometro o della riga di Cras sulla carta durante la lettura dell'angolo."
         },
         {
           "n": 76,
@@ -17160,7 +17160,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "La risposta corretta è: 078°. L'opzione B (258°) è errata perché è la rotta opposta (da Rimini a Firenze): le rotte opposte differiscono di 180°. L'opzione C (058°) è errata perché è la rotta verso nord-est, non la direzione corretta. L'opzione D (238°) è errata perché è una rotta verso sud-ovest, non la direzione Firenze-Rimini."
+          "explanation": "Percorrendo il tragitto in senso inverso rispetto alla domanda precedente, la Rotta Vera Firenze-Rimini è la reciproca di quella Rimini-Firenze (258°): 258°−180°=078°. L'opzione 2 (258°) è proprio la rotta nel verso opposto (Rimini-Firenze), errore tipico di chi non inverte l'angolo di 180° cambiando il senso di percorrenza. Le opzioni 3 (058°) e 4 (238°) sono vicine rispettivamente al valore corretto e alla sua reciproca, coerenti con un piccolo errore di lettura del goniometro sulla carta."
         },
         {
           "n": 77,
@@ -17175,7 +17175,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "La risposta corretta è: 25,5 Nm. L'opzione A (83 Nm) è errata perché è una distanza troppo grande per due città così vicine nella stessa regione. L'opzione C (63 Nm) è errata perché sovrastima la distanza reale. L'opzione D (93 Nm) è errata perché sovrastima ulteriormente."
+          "explanation": "La distanza si misura sulla carta riportando il segmento Rimini-Forlì sulla scala grafica o sul righello graduato della carta aeronautica, ottenendo circa 25,5 NM: un tratto relativamente breve tra le due località. Le opzioni 1 (83 NM), 3 (63 NM) e 4 (93 NM) sono tutte nettamente superiori al valore corretto, coerenti con la lunghezza di tratte diverse presenti nella stessa figura (ad esempio Rimini-Firenze o Firenze-Forlì) misurate per errore al posto di quella richiesta, oppure con un errore di lettura della scala grafica della carta."
         },
         {
           "n": 78,
@@ -17190,7 +17190,7 @@
           "correct": 3,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "La risposta corretta è: 059°. L'opzione A (065°) è errata perché è una rotta verso nord-est, mentre Forlì si trova a nord-ovest di Firenze, richiedendo una rotta intorno ai 059°. L'opzione B (245°) è errata perché è la rotta opposta (Forlì-Firenze). L'opzione C (239°) è errata perché non è la direzione corretta per un volo Firenze-Forlì."
+          "explanation": "La Rotta Vera Firenze-Forlì, letta sulla carta come angolo orario dal Nord del meridiano di Firenze verso Forlì, è pari a 059°. L'opzione 2 (245°) è vicina alla rotta reciproca (059°+180°=239°) ma non coincide esattamente, coerente con un piccolo errore di lettura sommato all'inversione di verso. L'opzione 3 (239°) è esattamente la rotta reciproca Forlì-Firenze, errore tipico di chi legge la direzione nel verso di percorrenza sbagliato. L'opzione 1 (065°) è vicina al valore corretto, coerente con un piccolo errore di allineamento del goniometro sulla carta."
         },
         {
           "n": 79,
@@ -17205,7 +17205,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "La risposta corretta è: 239°. L'opzione A (059°) è errata perché è la rotta opposta (Firenze-Forlì). L'opzione C (245°) è errata perché sovrastima la rotta corretta. L'opzione D (065°) è errata perché non è la direzione corretta per Forlì-Firenze."
+          "explanation": "Percorrendo il tragitto inverso rispetto alla domanda precedente, la Rotta Vera Forlì-Firenze è la reciproca di quella Firenze-Forlì (059°): 059°+180°=239°. L'opzione 1 (059°) è proprio la rotta nel verso opposto (Firenze-Forlì), errore tipico di chi non inverte l'angolo di 180° cambiando il senso di percorrenza. L'opzione 3 (245°) è vicina al valore corretto, coerente con un piccolo errore di lettura del goniometro. L'opzione 4 (065°) è vicina alla rotta reciproca (059°), stesso tipo di errore dell'opzione 1 con in più una piccola imprecisione di lettura."
         },
         {
           "n": 80,
@@ -17220,7 +17220,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "La risposta corretta è: 44,5 Nm. L'opzione A (64.5 Nm) è errata perché sovrastima la distanza reale. L'opzione C (54.5 Nm) è errata perché sovrastima. L'opzione D (40.5 Nm) è errata perché sottostima."
+          "explanation": "La distanza Firenze-Forlì, misurata sulla carta riportando il segmento sulla scala grafica, risulta di circa 44,5 NM. Le opzioni 1 (64,5 NM) e 3 (54,5 NM) sono superiori al valore corretto, coerenti con la lunghezza di altre tratte della stessa figura misurate per errore al posto di quella richiesta oppure con un errore di lettura della scala. L'opzione 4 (40,5 NM) è vicina al valore corretto ma leggermente inferiore, coerente con un piccolo errore di posizionamento del compasso o del righello sulla scala grafica."
         },
         {
           "n": 81,
@@ -17295,7 +17295,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "Dal triangolo del vento di figura 1 (rotta Rimini-Firenze TC=258°, vento 320°/16 Kt, VAR=1°W, DEV=0°, TAS=101 Kt) si ricava una GS=93 Kt e una CH=267°: il vento, proveniente da destra rispetto alla rotta, richiede una correzione di deriva verso destra che, sommata alla Variazione Ovest (che si aggiunge per convenzione 'West is Best'), porta la prua compasso a 267°. L'opzione 2 (CH=260°, GS=89 Kt) applica una correzione di deriva insufficiente e una componente di vento contrario leggermente sovrastimata. L'opzione 3 (CH=250°, GS=98 Kt) corregge la deriva nella direzione sbagliata (verso sinistra anziché destra) oltre a una GS calcolata con componente di vento meno contraria del reale. L'opzione 4 (CH=259°, GS=108 Kt) applica correttamente solo la Variazione ma trascura quasi del tutto il WCA, e usa una GS calcolata come se il vento fosse quasi in coda anziché con la reale componente al triangolo."
+          "explanation": "Con TC=258°, vento 320°/16 Kt e TAS=101 Kt, il vento (che soffia da destra rispetto alla rotta) genera una deriva di circa +8° (TH≈266°); applicando la VAR di 1°W (che si somma, Ovest aggiunge) si ottiene MH≈267°, e poiché la DEV è 0° la CH resta 267°; la GS risultante è di circa 93 Kt. L'opzione 2 (CH260°, GS89) sottostima sia la deriva applicata sia la GS risultante. L'opzione 3 (CH250°, GS98) si allontana molto di più dalla rotta corretta, come se fosse stata applicata una deriva quasi nulla o addirittura di segno opposto, risultato incoerente con un vento proveniente da destra; la GS più alta indicata è inoltre incompatibile con una componente di vento che qui è in parte contraria. L'opzione 4 (CH259°, GS108) applica una CH vicina a quella corretta ma con una GS eccessiva, come se la componente di vento fosse stata considerata favorevole anziché contraria alla rotta."
         },
         {
           "n": 86,
@@ -17310,7 +17310,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "Sulla tratta di ritorno Firenze-Rimini (vento 310°/18 Kt, TAS=101 Kt) il triangolo del vento dà CH=071° e GS=112 Kt: essendo la rotta opposta alla precedente, il vento che prima soffiava di traverso-contrario ora ha una componente di coda maggiore, da cui la GS più alta rispetto al volo di andata. L'opzione 1 (CH=060°, GS=112 Kt) ha la GS corretta ma applica una correzione di deriva eccessiva, spostando troppo la prua. L'opzione 2 (CH=085°, GS=92 Kt) corregge la deriva nel verso sbagliato e calcola una GS come se il vento fosse ancora contrario anziché favorevole. L'opzione 4 (CH=259°, GS=98 Kt) riporta addirittura una prua opposta di quasi 180° rispetto a quella corretta (un refuso riconducibile alla rotta del volo di andata) insieme a una GS sottostimata."
+          "explanation": "Con TC=078° (rotta Firenze-Rimini, reciproca della rotta Rimini-Firenze vista nella domanda precedente), vento 310°/18 Kt e TAS=101 Kt, il vento (che soffia da sinistra rispetto alla rotta) genera una deriva di circa −8° (TH≈070°); con la VAR di 1°W che si somma si ottiene MH≈071°, e con DEV 0° la CH resta 071° — la GS risultante è di circa 111-112 Kt, poco sopra la TAS per una leggera componente favorevole. L'opzione 1 (CH060°, GS112) applica una GS corretta ma una CH troppo bassa, come se la deriva fosse stata quasi raddoppiata rispetto al valore reale. L'opzione 2 (CH085°, GS92) applica una correzione di segno opposto (verso destra anziché sinistra) e una GS eccessivamente ridotta, incoerente con la componente di vento in questo caso favorevole. L'opzione 4 (CH259°, GS98) riporta una prua sostanzialmente opposta alla rotta corretta, come se fosse stata calcolata sulla rotta reciproca anziché su quella richiesta."
         },
         {
           "n": 87,
@@ -17325,7 +17325,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "Sulla rotta Firenze-Forlì (090°/21 Kt di vento, VAR=1°W, DEV=1°E, TAS=105 Kt) il triangolo del vento dà CH=065° e GS=86 Kt: il vento pressoché al traverso da destra impone una correzione di deriva sensibile, e la sua componente contraria fa scendere la GS sotto la TAS. L'opzione 1 (CH=051°, GS=95 Kt) applica una correzione di deriva insufficiente e sottostima la componente di vento contrario. L'opzione 3 (CH=051°, GS=124 Kt) unisce la stessa deriva insufficiente a un errore di segno sulla componente di vento, trattata come favorevole anziché contraria. L'opzione 4 (CH=065°, GS=124 Kt) ha la prua corretta ma una GS calcolata come se il vento avesse componente in coda anziché contraria."
+          "explanation": "Con TC=059° (rotta Firenze-Forlì), vento 090°/21 Kt e TAS=105 Kt, il vento (quasi al traverso, leggermente da davanti a destra) genera una deriva di circa +6° (TH≈065°); la VAR 1°W si somma (MH≈066°) e la DEV 1°E si sottrae, riportando la CH a circa 065°; la GS risultante è di circa 86 Kt, sensibilmente ridotta rispetto alla TAS per la componente di vento in parte contraria. L'opzione 1 (CH051°, GS95) applica una deriva di segno opposto (verso sinistra anziché destra) e una GS meno penalizzata di quella reale. L'opzione 3 (CH051°, GS124) combina lo stesso errore di segno sulla deriva con una GS che tratta la componente di vento come favorevole invece che contraria. L'opzione 4 (CH065°, GS124) applica la CH corretta ma una GS coerente con un vento in coda anziché contrario, quindi con il segno della componente lungo rotta invertito."
         },
         {
           "n": 88,
@@ -17340,7 +17340,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "Da Forlì a Firenze (vento 020°/20 Kt, VAR=1°W, DEV=1°E, TAS=108 Kt) il triangolo del vento dà CH=246° e GS=123 Kt: su questa rotta il vento ha una componente prevalentemente in coda, da cui una GS superiore alla TAS. L'opzione 1 (CH=232°, GS=95 Kt) corregge la deriva nel verso sbagliato e tratta erroneamente la componente di vento come contraria anziché favorevole. L'opzione 3 (CH=246°, GS=132 Kt) ha la prua corretta ma sovrastima la componente di vento in coda nel calcolo della GS. L'opzione 4 (CH=232°, GS=123 Kt) ha la GS corretta ma la prua deviata nel verso sbagliato, esattamente come l'opzione 1."
+          "explanation": "Con TC=239° (rotta Forlì-Firenze, reciproca della precedente), vento 020°/20 Kt e TAS=108 Kt, il vento genera una deriva di circa +7° (TH≈246°); con VAR 1°W che si somma e DEV 1°E che si sottrae, la CH si attesta di nuovo intorno a 246°, e la GS risultante è di circa 123 Kt, superiore alla TAS per una componente di vento in prevalenza favorevole. L'opzione 1 (CH232°, GS95) applica una deriva di segno opposto (a sinistra anziché a destra) e tratta erroneamente la componente di vento come contraria anziché favorevole, penalizzando la GS invece di aumentarla. L'opzione 3 (CH246°, GS132) applica la CH corretta ma sovrastima la GS, come se l'intera velocità del vento fosse stata sommata alla TAS senza scomporla nella reale componente lungo la rotta. L'opzione 4 (CH232°, GS123) applica la GS corretta ma con la stessa CH errata (deriva di segno invertito) dell'opzione 1."
         },
         {
           "n": 89,
@@ -17354,7 +17354,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Se in fase di pianificazione si scopre un vento contrario pari al 10% della TAS rispetto a quanto preventivato, la GS effettiva sarà inferiore a quella calcolata: per mantenere gli stessi margini di sicurezza (carburante per la destinazione, l'alternato e i 30 minuti di riserva) occorre aumentare del 10% il carburante imbarcato, perché il tempo di volo reale sarà più lungo del previsto e il consumo complessivo salirà in proporzione. L'opzione 2 è pericolosa: rinunciare a carico utile senza aumentare il carburante lascerebbe l'aeromobile con riserve insufficienti per l'imprevisto già noto. L'opzione 3 non ha senso operativo: variare la quota non compensa un vento contrario più forte del previsto né riduce il consumo necessario. L'opzione 4 è la più rischiosa delle quattro: un vento contrario del 10% sulla TAS è un dato meteo noto e quantificabile prima della partenza, ignorarlo in un volo VFR con riserve minime è esattamente il tipo di errore di pianificazione che porta all'emergenza da carburante."
+          "explanation": "Se il bollettino meteo indica un vento contrario pari al 10% della TAS, la Ground Speed si riduce proporzionalmente, allungando il tempo di volo necessario a coprire la stessa distanza (destinazione + alternato) e quindi il carburante consumato per quella tratta: la prassi prudenziale è aumentare l'autonomia pianificata di circa il 10% per compensare. L'opzione 2 è pericolosa: rinunciare a carico utile non compensa in alcun modo un tempo di volo più lungo, anzi non fornisce carburante aggiuntivo dove serve. L'opzione 3 è altrettanto errata: variare la quota non annulla l'effetto di un vento contrario già accertato al bollettino, e non sostituisce il carburante necessario in più. L'opzione 4 è sbagliata perché anche in VFR un vento contrario significativo comporta un maggior consumo che va comunque compensato in fase di pianificazione, indipendentemente dal tipo di volo."
         },
         {
           "n": 90,
@@ -17466,7 +17466,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per contenere gli errori di misura in scala dovuti alla leggera non linearità della proiezione di Lambert, la distanza massima consigliata tra due Reporting Point consecutivi è di 200 NM: oltre questa soglia l'accumulo degli scarti di scala e di convergenza dei meridiani può introdurre errori di rotta e di tempo di volo non più trascurabili. L'opzione 1 (100 NM) è più conservativa del necessario e non corrisponde al valore standard di riferimento. Le opzioni 3 e 4 (500 e 700 NM) sono eccessive: a quelle distanze gli errori di lettura e di scala diventerebbero significativi, vanificando la precisione richiesta alla navigazione a stima."
+          "explanation": "Su una carta di Lambert, per contenere gli errori di misura in scala (dovuti alla proiezione, che non è perfettamente conforme su lunghe distanze) è buona pratica non superare circa 200 NM tra due punti di riporto consecutivi lungo la rotta. L'opzione 1 (100 NM) è eccessivamente prudenziale e comporterebbe un numero di punti di riporto superiore al necessario per la maggior parte delle rotte di pianificazione. Le opzioni 3 (500 NM) e 4 (700 NM) sono invece troppo estese: su tratte così lunghe l'accumulo degli errori di proiezione e di tracciamento della retta sulla carta diventa apprezzabile, vanificando la precisione della pianificazione."
         },
         {
           "n": 98,
@@ -17592,7 +17592,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Statisticamente, lo spostamento massimo probabile rispetto al punto pianificato dopo una posizione stimata (Dead Reckoning) rientra in un cerchio di raggio pari al 10% della distanza percorsa dall'ultimo Reporting Point riconosciuto con certezza: è il margine di incertezza che il pilota deve tenere presente quando pianifica il raggio di ricerca visivo attorno al punto stimato. L'opzione 1 (5%) è troppo ottimistica e sottostima il reale margine di errore accumulabile. Le opzioni 3 e 4 (30% e 50%) sono eccessivamente prudenziali rispetto al valore standard di riferimento, e porterebbero a considerare inutilmente incerta anche una stima calcolata correttamente."
+          "explanation": "Il metodo della posizione stimata (Dead Reckoning) accumula piccoli errori di prua, velocità e vento lungo la rotta; statisticamente, lo spostamento massimo probabile rispetto al punto pianificato rientra in un cerchio di raggio pari a circa il 10% della distanza percorsa dall'ultimo punto di riporto riconosciuto con certezza. L'opzione 1 (5%) è troppo ottimistica rispetto alla precisione realisticamente ottenibile con la sola stima. Le opzioni 3 (30%) e 4 (50%) sono invece eccessivamente prudenziali, corrispondenti a un errore di stima molto più ampio di quello statisticamente atteso in condizioni normali di navigazione."
         },
         {
           "n": 107,
@@ -17675,7 +17675,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un fuso orario è una regione ampia 15° di longitudine entro la quale si applica convenzionalmente la stessa ora, corrispondente al tempo che il sole medio impiega a percorrere apparentemente quell'ampiezza angolare in un'ora di rotazione terrestre (360° in 24 ore = 15°/ora): è una suddivisione praticamente utile che evita di dover usare l'ora locale esatta (LMT) di ogni singola longitudine. Le altre opzioni non corrispondono a questa definizione geometrica basata sul moto apparente del sole e sulla rotazione terrestre in 24 ore."
+          "explanation": "Un fuso orario è una regione geografica ampia 15° di longitudine, corrispondente all'arco che il Sole percorre apparentemente in un'ora (360°/24h=15°/h). L'opzione 2 raddoppia sia l'ampiezza (30°) sia il tempo corrispondente (due ore), un valore che non corrisponde alla suddivisione standard in 24 fusi. L'opzione 3 usa correttamente l'ampiezza di 15° ma la riferisce erroneamente alla LATITUDINE invece che alla longitudine: i fusi orari sono fasce longitudinali (da polo a polo), non latitudinali. L'opzione 4 riporta un'ampiezza di 12°, che non deriva dalla suddivisione geometrica di 360° in 24 parti uguali, e ne descrive l'origine come puramente convenzionale anziché legata al moto apparente del Sole."
         },
         {
           "n": 113,
@@ -17689,7 +17689,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La Terra è suddivisa in 24 fusi orari, un numero che deriva direttamente dalla rotazione completa di 360° in 24 ore: dividendo 360° per 24 si ottengono i 15° di ampiezza di ciascun fuso. Le altre opzioni proposte non sono coerenti con questa suddivisione standard universalmente adottata, che è alla base di tutta la conversione oraria in navigazione."
+          "explanation": "La superficie terrestre è convenzionalmente suddivisa in 24 fusi orari, tanti quante sono le ore del giorno, ciascuno ampio 15° di longitudine (360°/24=15°). L'opzione 2 (12) corrisponde solo alla metà dei fusi effettivi. L'opzione 3 (36) e l'opzione 4 (15) non derivano da alcuna suddivisione coerente di 360° in fasce orarie: 36 fusi darebbero fasce da 10° (40 minuti ciascuna, non un'ora), mentre 15 fusi darebbero fasce da 24° (96 minuti, anch'esse incoerenti con l'ora esatta)."
         },
         {
           "n": 114,
@@ -17703,7 +17703,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Ogni fuso orario ha un'ampiezza di 15° di longitudine, valore che deriva dalla divisione dei 360° dell'intero globo per le 24 ore del giorno (360°/24h = 15°/h): è l'ampiezza angolare che il sole medio percorre apparentemente in un'ora di rotazione terrestre. Le altre opzioni proposte non corrispondono a questo valore standard su cui si basa l'intera suddivisione in 24 fusi."
+          "explanation": "Ogni fuso orario è ampio 15° di longitudine, valore che deriva dalla suddivisione dei 360° dell'angolo giro in 24 fusi (uno per ogni ora del giorno): 360°/24=15°. L'opzione 1 (10°) darebbe una suddivisione in 36 fusi, incoerente con le 24 ore del giorno. Le opzioni 3 (24°) e 4 (30°) darebbero rispettivamente 15 e 12 fusi, anch'esse suddivisioni che non corrispondono alle 24 ore effettive."
         },
         {
           "n": 115,
@@ -17717,7 +17717,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Tra due fusi orari contigui la differenza è sempre di 60 minuti (un'ora esatta), poiché ogni fuso rappresenta convenzionalmente un'ora intera di differenza rispetto al vicino: è proprio questa regolarità che rende semplice convertire un orario da un fuso all'altro sommando o sottraendo ore intere. Le altre opzioni proposte non rispettano questa differenza oraria standard di un'ora piena tra fusi adiacenti."
+          "explanation": "Poiché ogni fuso corrisponde a un'ora di rotazione terrestre (15° di longitudine percorsi dal Sole in un'ora), la differenza oraria tra due fusi adiacenti è di 60 minuti, cioè un'ora esatta. Le opzioni 1 (30 minuti) e 4 (24 minuti) sono valori che si applicano in casi particolari a differenze di mezzo fuso o a convenzioni locali di alcuni paesi, ma non alla differenza standard tra due fusi interi adiacenti. L'opzione 2 (15 minuti) corrisponde al tempo che il Sole impiega a percorrere meno di 4° di longitudine (in base al rapporto 60min/15°=4min per grado), una frazione minore dell'intero fuso di 15°, non alla differenza tra due fusi interi."
         },
         {
           "n": 116,
@@ -17731,7 +17731,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Ciascun fuso orario si estende per 7°30' a destra e 7°30' a sinistra del proprio meridiano centrale, per un totale di 15° di ampiezza: questa suddivisione simmetrica attorno al meridiano di riferimento è ciò che garantisce che l'ora convenzionale del fuso si discosti il meno possibile, in entrambe le direzioni, dall'ora solare media reale di ciascun punto al suo interno. Le altre opzioni proposte non rispettano questa suddivisione simmetrica di 7°30' per lato."
+          "explanation": "Il meridiano centrale di ogni fuso (ampio 15° complessivi) lo divide in due metà uguali, ciascuna di 7°30' (metà di 15°) a destra e a sinistra del meridiano centrale. L'opzione 1 (10°) e l'opzione 3 (15°) sono superiori alla metà effettiva: 15° corrisponde anzi all'intera ampiezza del fuso, non a una sola metà. L'opzione 4 (12°) è anch'essa superiore al valore corretto e non deriva da alcuna suddivisione coerente di un fuso di 15°."
         },
         {
           "n": 117,
@@ -17913,7 +17913,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un rilevamento di classe 'A' ha un'approssimazione (precisione) di ±2°: è la classe di precisione più elevata tra quelle standard con cui vengono classificati i rilevamenti radiogoniometrici, a seconda dell'affidabilità tecnica della stazione e delle condizioni di propagazione. Le altre opzioni proposte non corrispondono a questo valore standard di tolleranza associato alla classe A."
+          "explanation": "La classe di accuratezza di un rilevamento radiogoniometrico indica l'ampiezza dell'errore statisticamente atteso nella misura del rilevamento: la classe \"A\", la più precisa tra quelle standard, garantisce un'approssimazione entro ±2°. L'opzione 2 (±5°) corrisponde tipicamente alla classe \"B\", meno precisa della \"A\". L'opzione 3 (±10°) corrisponde a una classe di accuratezza ancora inferiore (classe \"C\"), con un margine di errore quintuplo rispetto alla classe \"A\". L'opzione 4 (oltre 10°) descrive un rilevamento di qualità insufficiente per essere classificato nelle categorie standard, ben al di fuori della precisione richiesta alla classe \"A\"."
         },
         {
           "n": 130,
@@ -17927,7 +17927,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Con MH=090° e un QDM di 210° ricevuto dalla stazione, il RILPO (differenza tra QDM e MH) risulta di 120°: mantenendo questa stessa prua costante, la stazione resta relativamente al velivolo nel 1° quadrante (a proravia, tra dritta prora e traverso destro) solo temporaneamente, ma nel processo di avvicinamento con prua fissa e QDM che cambia progressivamente, l'aereo attraversa esclusivamente il 1° quadrante rispetto alla stazione lungo tutto il tragitto descritto in questo scenario specifico. Le altre opzioni includono quadranti che, con la geometria descritta da questi valori di MH e QDM, il velivolo non attraversa affatto secondo il calcolo del RILPO risultante."
+          "explanation": "Il QDM 210° ricevuto (rilevamento magnetico dal velivolo alla stazione) equivale a un QDR (rilevamento dalla stazione al velivolo) di 210°−180°=030°: il velivolo si trova quindi nel 1° quadrante rispetto alla stazione (bearing tra 0° e 90°). Mantenendo la prua MH 090° invariata (rotta rettilinea), il QDR cresce col tempo avvicinandosi sempre più al valore asintotico coincidente con la direzione di volo stessa (090°), ma senza mai raggiungerlo né superarlo: il velivolo resta quindi sempre e solo nel 1° quadrante. Le opzioni 1 e 2 includono erroneamente un secondo quadrante (2° o 3°) che verrebbe interessato solo se il QDR superasse i 090°, cosa che non accade proseguendo dritto con questa prua. L'opzione 3 è ancora più lontana dalla realtà, indicando un quadrante (3°, bearing 180°-270°) diametralmente opposto a quello in cui si trova davvero il velivolo."
         },
         {
           "n": 131,
@@ -17941,7 +17941,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Ricevuto un QDM=300° e volendo un QDM=310° (occorre quindi spostarsi di 10° in senso orario rispetto alla direzione attuale verso la stazione), la prua di intercettamento corretta è 270°: puntando una prua che taglia nettamente la linea desiderata si converge rapidamente sul QDM target senza descrivere una 'curva del cane'. Le altre opzioni proposte non producono una traiettoria di intercettamento efficace verso il QDM 310° desiderato, o lo intercetterebbero con un angolo di taglio inadeguato o nella direzione sbagliata."
+          "explanation": "Un QDM 300° corrisponde a un QDR (posizione del velivolo rispetto alla stazione) di 120°; per intercettare il QDM 310° (QDR 130°, leggermente più in senso orario rispetto alla posizione attuale) il pilota deve dirigersi con una prua che tagli quella radiale convergendo verso la stazione da quel lato: la prua 270° realizza questa intercettazione. Le opzioni 1 (330°), 3 (030°) e 4 (060°) sono tutte prue che, partendo dalla posizione attuale (QDR 120°), non convergono affatto verso la radiale QDR 130° desiderata ma se ne allontanano, per cui il pilota non riuscirebbe mai a raggiungere il QDM 310° mantenendole."
         },
         {
           "n": 132,
@@ -17955,7 +17955,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Ricevuto un QDR=145° e volendo intercettare un QDR=160° (allontanamento), la prua di intercettamento corretta è 190°: questa prua taglia la linea di QDR desiderata con un angolo efficace, portando il velivolo a convergere sulla rotta di allontanamento voluta. Le altre opzioni proposte non realizzano un intercettamento efficace del QDR 160° nella configurazione di allontanamento descritta."
+          "explanation": "Per allontanarsi dalla stazione lungo il QDR 160° partendo dalla posizione attuale (QDR 145°), il pilota deve assumere una prua che intercetti quella radiale in uscita: la prua 190° realizza questa intercettazione, tagliando il QDR 160° con un angolo utile. L'opzione 2 (115°) è una prua che si allontana dalla radiale 160° anziché convergervi. L'opzione 3 (160°) equivale a volare parallelamente alla radiale desiderata (stessa direzione del QDR bersaglio): mantenendo questa prua il velivolo non taglierà mai quella radiale, restandone sempre alla stessa distanza laterale. L'opzione 4 (090°) è anch'essa una prua che diverge dalla radiale 160° anziché intercettarla."
         },
         {
           "n": 133,
@@ -17969,7 +17969,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con un QDM=120° ricevuto e MH=090° mantenuta, il velivolo si trova con la stazione sulla propria destra; il QDM raggiunge il valore di 180° (cioè la stazione si porta esattamente al traverso, a 90° rispetto alla prua) quando la geometria del volo con prua costante porta la linea di rilevamento a formare un angolo retto con la rotta seguita. Le altre opzioni proposte non corrispondono al preciso valore di QDM al traverso calcolabile da questa combinazione di MH e QDM iniziale."
+          "explanation": "Con QDM attuale 120° e prua MH 090°, la stazione si trova a soli 30° a destra della prua (120°−090°=30°), cioè avanti-a-dritta: proseguendo dritti con questa prua, il rilevamento cresce progressivamente fino a portare la stazione esattamente al traverso, a 90° dalla prua. Il QDM al traverso si ottiene sommando 90° alla prua mantenuta: 090°+090°=180°. L'opzione 1 (240°) si allontana sensibilmente sia dal traverso destro corretto sia da un singolo errore di segno, coerente con un errore combinato nella stima dell'angolo di rilevamento. L'opzione 3 (360°) corrisponde al traverso calcolato dal lato sbagliato (MH−90°=090°−90°=360°, il traverso a sinistra), mentre la stazione, trovandosi a destra della prua, va raggiunta al traverso destro (MH+90°=180°). L'opzione 4 (210°) nasce dal sommare 90° al QDM iniziale (120°+90°=210°) anziché alla prua mantenuta, confondendo il rilevamento verso la stazione con la prua di volo."
         },
         {
           "n": 134,
@@ -17983,7 +17983,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Con un QDM=138° ricevuto, per stabilire in quale quadrante rispetto alla prua si trova il velivolo occorre confrontare QDM e MH: con questi valori la stazione risulta nel 4° quadrante rispetto al velivolo (dietro e a sinistra della prua). Le altre opzioni proposte collocano la stazione in quadranti diversi da quello che risulta dal calcolo dell'angolo relativo tra QDM e MH in questo scenario."
+          "explanation": "Un QDM di 138° equivale a un QDR (bearing dalla stazione al velivolo) di 138°−180°=−42°, cioè 318° (sommando 360° per riportarlo nell'intervallo 0°-360°): un bearing di 318° ricade nel 4° quadrante (270°-360°). L'opzione 1 (1° quadrante, 0°-90°) corrisponde a un QDR completamente diverso da quello reale. L'opzione 2 (2° quadrante, 90°-180°) e l'opzione 3 (3° quadrante, 180°-270°) sono ugualmente incompatibili con il QDR di 318° calcolato: un punto si trova in un solo quadrante alla volta, quindi una volta individuato correttamente il 4°, gli altri tre sono automaticamente esclusi."
         },
         {
           "n": 135,
@@ -17997,7 +17997,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Con un QDR=210° ricevuto, il velivolo si trova rispetto alla stazione nel 3° quadrante: il QDR indica infatti la direzione di allontanamento, per cui un valore di 210° colloca il velivolo in una posizione sud-ovest rispetto alla stazione, corrispondente geometricamente a questo quadrante. Le altre opzioni proposte non corrispondono alla posizione angolare risultante da un QDR di 210°."
+          "explanation": "Il QDR è per definizione già il rilevamento dalla stazione al velivolo: un valore di 210° ricade direttamente nel 3° quadrante (compreso tra 180° e 270°), senza bisogno di ulteriori conversioni da QDM. Le opzioni 1, 2 e 4 (rispettivamente 1°, 2° e 4° quadrante) sono incompatibili con il valore di 210°, che essendo compreso tra 180° e 270° appartiene per definizione a un solo quadrante, il 3°, escludendo automaticamente gli altri tre."
         },
         {
           "n": 136,
@@ -18011,7 +18011,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con un QDR=138° ricevuto e volendo allontanarsi lungo il QDR=150° (spostamento di 12° in senso orario rispetto alla direzione attuale di allontanamento), la prua di intercettamento corretta è 180°: questa prua converge efficacemente sulla linea di QDR desiderata. Le altre opzioni proposte non realizzano un intercettamento efficace del QDR 150° partendo dalla situazione descritta."
+          "explanation": "Per allontanarsi dalla stazione lungo il QDR 150° partendo dalla posizione attuale (QDR 138°), il pilota deve assumere una prua che intercetti quella radiale in uscita con un angolo di taglio ragionevole: la prua 180° realizza questa intercettazione. L'opzione 3 (360°) e l'opzione 4 (090°) sono prue che si allontanano dalla radiale 150° anziché convergervi, per cui non porterebbero mai il velivolo su quel QDR. L'opzione 2 (270°) converge sì geometricamente sul QDR 150°, ma con un angolo di intercettamento molto più stretto e indiretto rispetto alla prua 180°, un percorso inefficiente e non standard per allontanarsi lungo la radiale richiesta, rispetto alla soluzione corretta."
         },
         {
           "n": 137,
@@ -18025,7 +18025,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Con MH=120° e un QDM=240° ricevuto, volendo un QDM=220° (spostamento di 20° in senso antiorario rispetto alla direzione attuale verso la stazione), la prua di intercettamento corretta è 270°: questa prua consente di tagliare la linea del QDM desiderato con un angolo efficace di avvicinamento. Le altre opzioni proposte non realizzano un intercettamento efficace del QDM 220° nella configurazione descritta."
+          "explanation": "Il QDM attuale 240° corrisponde a un QDR (posizione del velivolo rispetto alla stazione) di 060°; per intercettare il QDM 220° (QDR 040°, leggermente in senso antiorario rispetto alla posizione attuale) il pilota deve assumere una prua che tagli quella radiale convergendo verso la stazione: la prua 270° realizza questa intercettazione. L'opzione 1 (120°) e l'opzione 2 (180°) sono prue che si allontanano dalla radiale 040° anziché convergervi, per cui mantenendole il pilota non intercetterebbe mai il QDM 220° desiderato. L'opzione 4 (360°) converge sì geometricamente su quella radiale, ma con un angolo di intercettamento molto più stretto e indiretto rispetto alla prua 270°, una soluzione meno diretta ed efficiente rispetto a quella corretta."
         },
         {
           "n": 138,
@@ -18178,7 +18178,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "È vero che l'ADF è soggetto a errori causati da scariche elettrostatiche durante i temporali: i fulmini generano forti impulsi elettromagnetici che possono attirare l'ago dell'ADF verso la direzione della scarica anziché verso la stazione NDB sintonizzata, rendendo l'indicazione temporaneamente inaffidabile in prossimità di attività temporalesca. Questo è uno dei limiti noti di questa tecnologia di radionavigazione, di cui il pilota deve essere consapevole in presenza di meteo convettivo."
+          "explanation": "Le scariche elettrostatiche generate dai temporali (precipitation static e fulmini) inducono segnali spuri captati dall'antenna dell'ADF, che tende a deviare l'ago verso la cella temporalesca invece che verso la stazione NDB sintonizzata: è un'interferenza nota e documentata, quindi l'affermazione è vera. L'opzione 2 nega semplicemente questo effetto, contraddicendo un limite operativo ben noto dell'ADF. L'opzione 3 è errata perché la fusoliera non scherma efficacemente l'antenna ADF da questo tipo di disturbo elettromagnetico. L'opzione 4 introduce una soglia di quota (10.000 piedi) priva di fondamento: l'effetto delle scariche elettrostatiche dipende dalla vicinanza e intensità del temporale, non da una quota di volo specifica."
         },
         {
           "n": 149,
@@ -18192,7 +18192,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il RILPO (Relative Bearing) è l'angolo misurato in senso orario da 0° a 360° tra l'asse longitudinale del velivolo (la prua) e la linea che lo congiunge alla stazione NDB sintonizzata: è esattamente il valore che l'ago dell'ADF indica direttamente sulla rosa graduata relativa alla prua. Le altre opzioni proposte non corrispondono a questa definizione, che è specificamente riferita alla prua del velivolo e non ad altri riferimenti come il Nord vero o magnetico."
+          "explanation": "Il RILPO (rilevamento polare) è l'angolo, misurato in senso orario da 0° a 360°, tra l'asse longitudinale del velivolo (la direzione della prua) e la congiungente aeromobile-stazione: è quindi un rilevamento relativo alla prua, letto direttamente sull'indicatore ADF di bordo. L'opzione 1 lo definisce invece rispetto al Nord magnetico anziché alla prua del velivolo: questa è la definizione di QDM, non di RILPO. L'opzione 2 usa il Nord vero come riferimento, un ulteriore riferimento assoluto estraneo al RILPO, che è per definizione un angolo relativo alla prua. L'opzione 4 descrive correttamente il riferimento (asse longitudinale del velivolo) ma limita erroneamente l'ampiezza a un massimo di 180° verso destra o sinistra, mentre il RILPO letto sull'indicatore ADF si esprime sempre su una scala continua da 0° a 360° in senso orario."
         },
         {
           "n": 150,
@@ -18220,7 +18220,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Con MH=030° e RILPO=030° (stazione esattamente a proravia a destra della prua, dato che RILPO è misurato dalla prua), il QDM verso la stazione risulta 060° (MH+RILPO), da cui il QDR (opposto di 180°) risulta 240°: è la rotta magnetica lungo cui il velivolo si allontanerebbe dalla stazione se proseguisse dritto. Le altre opzioni proposte non corrispondono al QDR risultante da questa combinazione di MH e RILPO secondo la relazione MH+RILPO=QDM e QDR=QDM±180°."
+          "explanation": "Il QDM si ottiene sommando il RILPO alla MH: 030°+030°=060°; il QDR, reciproco del QDM, è quindi 060°+180°=240°. L'opzione 1 (060°) è il QDM (la prua verso la stazione), spesso confuso con il suo reciproco QDR, che è invece il valore richiesto. L'opzione 2 (030°) coincide con il solo RILPO fornito, senza la somma alla MH né la conversione in QDR. L'opzione 3 (360°) non deriva da alcuna combinazione coerente di MH e RILPO con questi valori."
         },
         {
           "n": 152,
@@ -18234,7 +18234,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con MH=030° e RILPO=310° (stazione leggermente a sinistra della prua), sommando MH+RILPO si ottiene un QDM di 340° (dopo aver sottratto 360° dal totale): questo colloca il velivolo, rispetto alla stazione, nel 2° quadrante. Le altre opzioni proposte non corrispondono al quadrante risultante dal calcolo geometrico di questa combinazione di MH e RILPO."
+          "explanation": "Sommando il RILPO alla MH si ottiene il QDM: 030°+310°=340° (già nell'intervallo 0°-360°). Il QDR, reciproco del QDM, è 340°−180°=160°, un bearing che ricade nel 2° quadrante (90°-180°). Le opzioni 1, 3 e 4 (rispettivamente 1°, 3° e 4° quadrante) sono incompatibili con il QDR di 160° calcolato: un punto si trova in un solo quadrante, quindi individuato correttamente il 2°, gli altri tre restano automaticamente esclusi."
         },
         {
           "n": 153,
@@ -18248,7 +18248,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Con MH=120° e RILPO=090° (stazione esattamente al traverso destro della prua), sommando MH+RILPO si ottiene un QDM di 210°: questo colloca il velivolo, rispetto alla stazione, nel 1° quadrante. Le altre opzioni proposte non corrispondono al quadrante risultante dal calcolo geometrico di questa combinazione di MH e RILPO."
+          "explanation": "Sommando il RILPO alla MH si ottiene il QDM: 120°+090°=210°. Il QDR, reciproco del QDM, è 210°−180°=030°, un bearing che ricade nel 1° quadrante (0°-90°). Le opzioni 2, 3 e 4 (rispettivamente 2°, 3° e 4° quadrante) sono incompatibili con il QDR di 030° calcolato: un punto si trova in un solo quadrante, quindi individuato correttamente il 1°, gli altri tre restano automaticamente esclusi."
         },
         {
           "n": 154,
@@ -18276,7 +18276,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Se in 50 secondi il RILPO si sposta da 080° a 090° (variazione di 10°) mentre si vira per mantenerlo costante, la regola pratica associata a questo tasso di variazione angolare rispetto al tempo trascorso indica una distanza dalla stazione stimabile in circa 5 minuti di volo al ritmo mantenuto: è una delle applicazioni pratiche del principio per cui la velocità angolare di variazione del RILPO è inversamente proporzionale alla distanza dalla stazione. Le altre opzioni proposte non corrispondono al tempo/distanza risultante da questo specifico tasso di variazione osservato."
+          "explanation": "La variazione del RILPO nel tempo permette di stimare il tempo residuo alla verticale della stazione con una regola pratica: tempo alla stazione (in minuti) = secondi trascorsi ÷ variazione del RILPO in gradi. Qui il RILPO è variato di 10° (da 080° a 090°) in 50 secondi, quindi 50÷10=5 minuti. L'opzione 1 (3 minuti) corrisponde a una variazione del RILPO più rapida di quella osservata, come se lo scarto misurato fosse stato maggiore di 10° nello stesso tempo. Le opzioni 3 (7 minuti) e 4 (9 minuti) corrispondono invece a una variazione del RILPO più lenta di quella reale, come se lo scarto fosse stato inferiore ai 10° effettivamente osservati nei 50 secondi."
         },
         {
           "n": 156,
@@ -18304,7 +18304,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Partendo da un QDR=060° e volendo intercettare il QDR=030° mantenendo MH=360°, l'intercettamento avviene nel momento in cui il RILPO raggiunge il valore di 210°: è il valore che segnala geometricamente che la linea di rilevamento dalla stazione coincide ora con il QDR 030° desiderato, dato l'angolo tra la prua mantenuta e la direzione della stazione. Le altre opzioni proposte non corrispondono al valore di RILPO al momento dell'intercettamento effettivo del QDR 030° con la prua costante indicata."
+          "explanation": "Il pilota vuole intercettare il QDR 030°, cioè il punto in cui il bearing dalla stazione al velivolo vale 030°: in quel punto il QDM (bearing dal velivolo alla stazione) è il reciproco, 030°+180°=210°. Con MH=360° (equivalente a 000°), il RILPO letto sull'ADF in quell'istante è RILPO=QDM−MH=210°−000°=210°. L'opzione 1 (RILPO=150°) corrisponde a un calcolo scorretto del QDM come 180°−030°=150° anziché come 030°+180°=210°, un errore nella costruzione della rotta reciproca. L'opzione 3 (RILPO=030°) corrisponde a usare direttamente il QDR desiderato (030°) come se fosse già il QDM, omettendo del tutto la conversione nella rotta reciproca. L'opzione 4 (RILPO=330°) corrisponde a calcolare il complemento a 360° del QDR (360°−030°=330°) anziché passare correttamente dal QDM."
         },
         {
           "n": 158,
@@ -18334,7 +18334,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "6-2",
-          "explanation": "Il QDM di un punto è il rilevamento magnetico lungo la linea che, dal punto, punta verso la stazione: per il punto R indicato in figura 2 questa linea corrisponde a 075°. Le opzioni 1, 2 e 4 (040°, 050°, 270°) sono valori che si leggono per altri punti della stessa figura o che si ottengono confondendo il QDM di R con il suo QDR (il rilevamento opposto, di allontanamento), che è invece 255° come chiarito nella domanda successiva."
+          "explanation": "Il QDM di un punto letto su una figura con rosa dei venti centrata sulla stazione si ottiene leggendo direttamente l'angolo, in senso orario dal Nord, della retta che congiunge la stazione al punto: per il punto R tale lettura dà 075°. Le opzioni 1 (040°) e 2 (050°) sono valori vicini tra loro e nettamente inferiori a quello corretto, coerenti con la lettura del QDM di un punto diverso della stessa figura o con un errore di allineamento del goniometro sulla rosa dei venti. L'opzione 4 (270°) è molto distante dal valore corretto, non riconducibile nemmeno al QDR reciproco (che sarebbe 255°), ma piuttosto a un errore di lettura su un quadrante completamente diverso della rosa dei venti."
         },
         {
           "n": 160,
@@ -18364,7 +18364,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "6-2",
-          "explanation": "Per il punto S di figura 2, la linea di rilevamento magnetico verso la stazione (QDM) corrisponde a 140°. Le opzioni 1, 2 e 4 (050°, 090°, 270°) sono valori letti per altri punti della figura, oppure corrispondono al QDR di S (320°, si veda la domanda successiva) applicato con un segno o un riferimento sbagliato."
+          "explanation": "Per il punto S, la lettura del QDM sulla rosa dei venti centrata sulla stazione dà 140°. L'opzione 1 (050°) è vicina al QDM letto per un punto diverso della stessa figura, coerente con uno scambio tra i punti rappresentati. L'opzione 2 (090°) corrisponde a un angolo retto esatto, valore tipico di un errore di lettura su una delle direzioni cardinali della rosa anziché sulla retta effettiva verso S. L'opzione 4 (270°) è distante dal valore corretto e dal suo reciproco (QDR=320°), coerente con la lettura di un quadrante sbagliato della figura."
         },
         {
           "n": 162,
@@ -18394,7 +18394,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "6-2",
-          "explanation": "Per il punto T di figura 2, il QDM (rilevamento magnetico verso la stazione) corrisponde a 230°. Le opzioni 1, 3 e 4 (150°, 280°, 360°) sono valori letti per altri punti della figura, oppure corrispondono al QDR di T (050°, si veda la domanda successiva) o a una sua approssimazione errata."
+          "explanation": "Per il punto T, la lettura del QDM sulla rosa dei venti centrata sulla stazione dà 230°. L'opzione 1 (150°) è un valore nettamente inferiore, coerente con la lettura del QDM di un punto diverso della stessa figura. L'opzione 3 (280°) è più vicina al valore corretto ma comunque non coincidente, coerente con un piccolo errore di allineamento del goniometro. L'opzione 4 (360°) coincide con il Nord esatto, valore tipico di un errore che porta a leggere una direzione cardinale anziché la retta effettiva verso T."
         },
         {
           "n": 164,
@@ -18424,7 +18424,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "6-2",
-          "explanation": "Per il punto U di figura 2, il QDM (rilevamento magnetico verso la stazione) corrisponde a 320°. Le opzioni 1, 2 e 4 (150°, 240°, 270°) sono valori letti per altri punti della figura, oppure corrispondono al QDR di U (140°, si veda la domanda successiva) o a una sua approssimazione errata."
+          "explanation": "Per il punto U, la lettura del QDM sulla rosa dei venti centrata sulla stazione dà 320°. L'opzione 1 (150°) è vicina al reciproco del valore corretto (320°−180°=140°, non troppo lontano da 150°), coerente con una confusione tra QDM e QDR di questo punto. L'opzione 2 (240°) è un valore intermedio, coerente con un errore di lettura su un quadrante adiacente della rosa dei venti. L'opzione 4 (270°) coincide con la direzione cardinale Ovest, valore tipico di un errore che porta a leggere una direzione cardinale anziché la retta effettiva verso U."
         },
         {
           "n": 166,
@@ -18454,7 +18454,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "6-2",
-          "explanation": "Per il punto V di figura 2, il QDM (rilevamento magnetico verso la stazione) corrisponde a 350°. Le opzioni 1, 2 e 4 (250°, 300°, 170°) sono valori letti per altri punti della figura, oppure corrispondono al QDR di V (170°, si veda la domanda successiva) confuso col QDM."
+          "explanation": "Per il punto V, la lettura del QDM sulla rosa dei venti centrata sulla stazione dà 350°. L'opzione 4 (170°) è esattamente il QDR reciproco del valore corretto (350°−180°=170°): un errore classico di chi legge sulla rosa dei venti il rilevamento nel verso opposto a quello richiesto. Le opzioni 1 (250°) e 2 (300°) sono valori intermedi, coerenti con un errore di allineamento del goniometro o con la lettura del QDM di un punto diverso della stessa figura."
         },
         {
           "n": 168,
@@ -18484,7 +18484,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "6-2",
-          "explanation": "Per il punto Z di figura 2, il QDM (rilevamento magnetico verso la stazione) corrisponde a 020°. Le opzioni 2, 3 e 4 (330°, 150°, 200°) sono valori letti per altri punti della figura, oppure corrispondono al QDR di Z (200°, si veda la domanda successiva) confuso col QDM."
+          "explanation": "Per il punto Z, la lettura del QDM sulla rosa dei venti centrata sulla stazione dà 020°. L'opzione 4 (200°) è esattamente il QDR reciproco del valore corretto (020°+180°=200°): un errore classico di chi legge il rilevamento nel verso opposto a quello richiesto. L'opzione 2 (330°) è vicina al valore corretto ma dal lato opposto dello zero (equivalente a −30°), coerente con un piccolo errore di lettura a cavallo del Nord. L'opzione 3 (150°) è un valore intermedio, coerente con la lettura del QDM di un punto diverso della stessa figura."
         },
         {
           "n": 170,
@@ -18529,7 +18529,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "6-3",
-          "explanation": "Nella figura 3, il punto S si trova nel 1° quadrante rispetto alla prua/direzione di riferimento del velivolo. Le altre opzioni proposte collocano il punto S in quadranti diversi da quello geometricamente corretto secondo la posizione mostrata in figura."
+          "explanation": "Il quadrante in cui si trova un punto rispetto alla stazione si individua leggendo il QDR (il rilevamento dalla stazione al punto) e verificando in quale intervallo di 90° ricade: 1° quadrante 0°-090°, 2° quadrante 090°-180°, 3° quadrante 180°-270°, 4° quadrante 270°-360°. Dalla figura, il punto S ricade nel 1° quadrante. Le opzioni 2, 3 e 4 sono escluse per definizione: un punto occupa sempre e solo un quadrante alla volta, quindi individuato correttamente il 1°, gli altri tre non possono essere corretti."
         },
         {
           "n": 173,
@@ -18544,7 +18544,7 @@
           "correct": 3,
           "src": "quizvds",
           "fig": "6-3",
-          "explanation": "Nella figura 3, il punto T si trova nel 4° quadrante rispetto alla prua/direzione di riferimento del velivolo. Le altre opzioni proposte collocano il punto T in quadranti diversi da quello geometricamente corretto secondo la posizione mostrata in figura."
+          "explanation": "Il quadrante si individua leggendo il QDR del punto rispetto alla stazione: dalla figura, il punto T ricade nel 4° quadrante (bearing tra 270° e 360°). Le opzioni 1, 2 e 3 sono escluse per definizione: un punto occupa un solo quadrante alla volta, quindi individuato correttamente il 4°, gli altri tre restano automaticamente esclusi."
         },
         {
           "n": 174,
@@ -18559,7 +18559,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "6-3",
-          "explanation": "Nella figura 3, il punto U si trova nel 2° quadrante rispetto alla prua/direzione di riferimento del velivolo. Le altre opzioni proposte collocano il punto U in quadranti diversi da quello geometricamente corretto secondo la posizione mostrata in figura."
+          "explanation": "Il quadrante si individua leggendo il QDR del punto rispetto alla stazione: dalla figura, il punto U ricade nel 2° quadrante (bearing tra 090° e 180°). Le opzioni 1, 3 e 4 sono escluse per definizione: un punto occupa un solo quadrante alla volta, quindi individuato correttamente il 2°, gli altri tre restano automaticamente esclusi."
         },
         {
           "n": 175,
@@ -18574,7 +18574,7 @@
           "correct": 3,
           "src": "quizvds",
           "fig": "6-3",
-          "explanation": "Nella figura 3, il punto V si trova nel 4° quadrante rispetto alla prua/direzione di riferimento del velivolo, esattamente come il punto T di cui condivide il settore angolare. Le altre opzioni proposte collocano il punto V in quadranti diversi da quello geometricamente corretto secondo la posizione mostrata in figura."
+          "explanation": "Il quadrante si individua leggendo il QDR del punto rispetto alla stazione: dalla figura, il punto V ricade nel 4° quadrante (bearing tra 270° e 360°). Le opzioni 1, 2 e 3 sono escluse per definizione: un punto occupa un solo quadrante alla volta, quindi individuato correttamente il 4°, gli altri tre restano automaticamente esclusi."
         },
         {
           "n": 176,
@@ -18589,7 +18589,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "6-3",
-          "explanation": "Nella figura 3, il punto Z si trova nel 3° quadrante rispetto alla prua/direzione di riferimento del velivolo, esattamente come il punto R di cui condivide il settore angolare. Le altre opzioni proposte collocano il punto Z in quadranti diversi da quello geometricamente corretto secondo la posizione mostrata in figura."
+          "explanation": "Il quadrante si individua leggendo il QDR del punto rispetto alla stazione: dalla figura, il punto Z ricade nel 3° quadrante (bearing tra 180° e 270°). Le opzioni 1, 2 e 4 sono escluse per definizione: un punto occupa un solo quadrante alla volta, quindi individuato correttamente il 3°, gli altri tre restano automaticamente esclusi."
         },
         {
           "n": 177,
@@ -18843,7 +18843,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "6-7",
-          "explanation": "Con MH=360° e l'OBS predisposto come mostrato in figura 7, la sequenza di indicazioni nei punti X, Y, Z lungo la rotta seguita è X=1, Y=2, Z=3: è la progressione coerente con l'avvicinamento, l'attraversamento e l'allontanamento dalla radiale selezionata via via che il velivolo avanza con questa prua costante. Le altre opzioni propongono permutazioni diverse (X=2 Y=3 Z=1, oppure X=1 Y=3 Z=2, oppure X=3 Y=2 Z=1) che non rispettano questa sequenza logica di avvicinamento progressivo mostrata in figura."
+          "explanation": "Con l'OBS impostato come indicato in figura e MH 360°, la lettura delle indicazioni nei punti X, Y e Z dipende dalla posizione di ciascun punto rispetto alla radiale selezionata e dal relativo verso (TO o FROM) indicato dalla bandierina dello strumento, oltre che dallo scostamento del CDI a destra o sinistra della radiale: applicando questo principio ai tre punti della figura si ottiene la sequenza X=1, Y=2, Z=3. Le altre opzioni propongono la stessa terna di indicazioni ma abbinate ai punti in un ordine diverso: essendo la lettura di ciascun punto univocamente determinata dalla sua posizione geometrica rispetto alla radiale e alla stazione, una sola delle quattro sequenze proposte può essere corretta, e le restanti tre derivano da uno scambio dell'indicazione tra due o più dei punti X, Y, Z."
         },
         {
           "n": 195,
@@ -18885,7 +18885,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La costellazione GPS nominale è composta da 24 satelliti, disposti su 6 piani orbitali inclinati, un numero pensato per garantire copertura globale continua con più satelliti sempre visibili sopra l'orizzonte da qualsiasi punto della Terra. Le opzioni 1 e 2 (6, 12) sono numeri troppo bassi per garantire questa copertura globale continua, mentre l'opzione 4 nega inutilmente un dato numerico che è invece uno standard consolidato e ben noto del sistema GPS."
+          "explanation": "La costellazione GPS operativa è composta da 24 satelliti (numero nominale, distribuiti su 6 piani orbitali), sufficienti a garantire una copertura globale continua. Le opzioni 1 (6) e 2 (12) indicano numeri troppo bassi per garantire la copertura globale richiesta. L'opzione 4 nega l'esistenza di un valore definito, mentre 24 è invece il numero nominale standard e consolidato della costellazione."
         },
         {
           "n": 198,
@@ -18899,7 +18899,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Grazie alla disposizione della costellazione GPS su 6 piani orbitali, da qualunque punto della Terra e in qualunque momento sono mediamente visibili e ricevibili 6 satelliti sopra l'orizzonte: è questa ridondanza che garantisce continuità di copertura e una precisione di posizionamento superiore al minimo tecnico richiesto. Le opzioni 2, 3 e 4 (8, 4, 12) non corrispondono al numero medio di satelliti costantemente in vista garantito dalla geometria di questa costellazione."
+          "explanation": "Per la geometria della costellazione GPS (24 satelliti su 6 piani orbitali), da qualunque punto della Terra sono costantemente visibili almeno 6 satelliti, un numero che garantisce sempre una copertura sufficiente per il posizionamento. L'opzione 2 (8) e l'opzione 4 (12) sovrastimano il numero minimo costantemente garantito in ogni condizione. L'opzione 3 (4) corrisponde invece al numero minimo necessario per calcolare una posizione, non al numero di satelliti effettivamente visibili, che è normalmente superiore."
         },
         {
           "n": 199,
@@ -18913,7 +18913,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per calcolare una posizione tridimensionale (latitudine, longitudine, altitudine) servono in linea di principio 3 satelliti, ma poiché l'orologio del ricevitore GPS non è sincronizzato con la precisione atomica dei satelliti, ne serve un quarto per risolvere anche questo errore di tempo: il numero minimo complessivo è quindi 4. Le opzioni 2, 3 e 4 (6, 8, 12) sono quantità superiori al minimo tecnico necessario, utili semmai a migliorare la precisione ridondante del calcolo ma non richieste come soglia minima di funzionamento."
+          "explanation": "Per determinare la propria posizione (latitudine, longitudine e quota) il ricevitore GPS deve risolvere quattro incognite (le tre coordinate spaziali più l'errore di sincronizzazione del proprio orologio rispetto al tempo GPS), il che richiede il segnale di almeno 4 satelliti. Le opzioni 2 (6), 3 (8) e 4 (12) sono numeri superiori al minimo strettamente necessario: satelliti aggiuntivi migliorano la precisione e la ridondanza del fix, ma non sono indispensabili per ottenere una posizione."
         },
         {
           "n": 200,
@@ -18980,7 +18980,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Per un fix tridimensionale (latitudine, longitudine e altitudine) servono almeno 4 satelliti: 3 per la posizione nello spazio più un quarto per correggere l'errore dell'orologio del ricevitore, che non è sincronizzato con la precisione atomica dei satelliti. Le opzioni 1 e 2 (2, 3 satelliti) sono insufficienti perché non permettono di risolvere anche l'errore di tempo del ricevitore. L'opzione 4 (6 satelliti) è un numero superiore al minimo tecnico necessario."
+          "explanation": "Un fix tridimensionale accurato richiede la soluzione di quattro incognite (le tre coordinate di posizione più l'errore dell'orologio del ricevitore rispetto al tempo GPS): servono quindi almeno 4 satelliti agganciati contemporaneamente. Le opzioni 1 (2) e 2 (3 satelliti) sono insufficienti: con solo 3 satelliti si può al più ottenere un fix bidimensionale, assumendo nota l'altitudine, non un fix 3D completo. L'opzione 4 (6 satelliti) è superiore al minimo strettamente necessario: più satelliti migliorano precisione e ridondanza, ma 4 restano il numero minimo indispensabile."
         },
         {
           "n": 205,
@@ -19036,7 +19036,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Poiché 1 Miglio Nautico equivale per definizione a 1 minuto d'arco di meridiano e un grado contiene 60 minuti, un grado di latitudine corrisponde sempre a 60 NM, indipendentemente dalla posizione sul globo. L'opzione 1 (1 NM) confonde il grado con il minuto d'arco. Le opzioni 3 e 4 (360, 90 NM) non corrispondono al valore fisso derivato dalla definizione del miglio nautico."
+          "explanation": "Il Miglio Nautico è storicamente definito come la lunghezza di un arco di un primo (1') di latitudine sulla superficie terrestre; poiché un grado equivale a 60 primi, un grado di latitudine corrisponde esattamente a 60 NM. L'opzione 1 (1 NM) confonde il grado con il primo d'arco. L'opzione 3 (360 NM) corrisponde all'intera circonferenza divisa per 1° anziché al solo arco di un grado. L'opzione 4 (90 NM) non deriva da alcuna relazione coerente tra grado e miglio nautico."
         },
         {
           "n": 209,
@@ -19190,7 +19190,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Il 2% della IAS ogni 1.000 piedi di quota.. L'opzione A è errata perché la velocità all'aria del velivolo non ha senso come definizione: l'IAS è specificamente la velocità letta sullo strumento senza correzioni. L'opzione C è errata perché l'IAS corretta dell'errore strumentale è la CAS (Calibrated Air Speed), non la IAS. L'opzione D è errata perché l'IAS corretta dell'errore di temperatura è un concetto che non appartiene alla catena di correzione dell'IAS."
+          "explanation": "La regola pratica (rule of thumb) più diffusa per stimare la TAS dalla IAS in volo è un incremento di circa il 2% della IAS per ogni 1.000 piedi di quota, dovuto alla progressiva diminuzione della densità dell'aria. L'opzione 1 (10% ogni 1.000 piedi) sovrastima enormemente questo incremento: applicata a quote di crociera comuni porterebbe a correzioni irrealisticamente elevate. L'opzione 3 (5% ogni 10.000 piedi) sottostima l'incremento di un fattore 4 rispetto alla regola standard (equivarrebbe a solo 0,5% ogni 1.000 piedi). L'opzione 4 nega qualunque differenza tra IAS e TAS, contraddicendo l'intero principio su cui si basa la domanda."
         },
         {
           "n": 220,
@@ -19218,7 +19218,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 270°. L'opzione A è errata perché descrive la prua bussola (l'asse longitudinale corretto sia della deviazione che di un'inesistente correzione della declinazione sulla bussola). L'opzione B è errata perché confonde la prua magnetica con la rotta magnetica: la prua è l'angolo tra il nord e l'ASSE del velivolo, mentre la rotta è l'angolo tra il nord e la TRAIETTORIA seguita. L'opzione C è errata per lo stesso motivo: descrive la rotta magnetica (MC), non la prua magnetica (MH)."
+          "explanation": "Il QDM (prua da assumere per dirigersi direttamente sulla stazione in assenza di vento) si ottiene sommando il RILPO alla MH attuale: 360°+270°=630°, che riportato nell'intervallo 0°-360° sottraendo 360° dà 270°. Poiché la stazione è rilevata esattamente a sinistra (RILPO 270°), è coerente che la nuova prua da assumere per puntare dritti su di essa sia proprio 270°, un quarto di giro a sinistra rispetto alla prua attuale. L'opzione 1 (090°) è il valore diametralmente opposto, come se si fosse virato nel verso sbagliato (a destra anziché a sinistra) o come se si fosse usato il QDR anziché il QDM. L'opzione 2 (360°) lascia la prua invariata, ignorando completamente l'indicazione del RILPO. L'opzione 3 (180°) corrisponde a un'inversione di rotta di 180°, coerente con l'idea (errata in questo caso) di virare per allontanarsi anziché dirigersi sulla stazione lungo il percorso più breve indicato dal RILPO."
         },
         {
           "n": 222,
@@ -19274,7 +19274,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Sullo strumento VOR standard, la deflessione a fondo scala del CDI rappresenta uno scostamento di 10° dalla radiale selezionata (ogni puntino della scala corrisponde tipicamente a 2°, per 5 puntini per lato): è questo valore standard che permette al pilota di stimare quanto sia fuori rotta. Le opzioni 1 e 2 (2°, 5°) sono valori inferiori al reale fondo scala. L'opzione 4 (20°) è un valore superiore a quello standard."
+          "explanation": "Sullo strumento VOR standard, ogni puntino (dot) del CDI rappresenta 2° di scostamento dalla radiale selezionata, e la scala mostra un massimo di 5 puntini per lato: la deflessione a fondo scala corrisponde quindi a 5×2°=10° di scostamento. L'opzione 1 (2°) corrisponde al valore di un singolo puntino, non alla deflessione massima. L'opzione 2 (5°) corrisponde a metà scala (circa 2 puntini e mezzo), non al fondo scala. L'opzione 4 (20°) sovrastima la deflessione massima standard del CDI di un fattore due."
         },
         {
           "n": 226,
@@ -19414,7 +19414,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il Block Fuel minimo è la somma di tutte le componenti pianificate: Trip Fuel (50) + Alternato (10) + Riserva Finale (15) + Taxi Fuel (5) = 80 litri. L'opzione 1 (50) considera solo il Trip Fuel, ignorando le riserve obbligatorie. Le opzioni 3 e 4 (75, 65) risultano da somme incomplete che omettono una o più componenti richieste."
+          "explanation": "Il Block Fuel (carburante minimo da imbarcare prima della messa in moto) è la somma di tutte le componenti pianificate: 50 litri di Trip Fuel + 10 litri per l'Alternato + 15 litri di Riserva Finale + 5 litri di Taxi Fuel = 80 litri. L'opzione 1 (50 litri) corrisponde al solo Trip Fuel, omettendo tutte le altre voci obbligatorie. L'opzione 3 (75 litri) omette una delle voci minori (ad esempio il Taxi Fuel da 5 litri). L'opzione 4 (65 litri) omette una voce più consistente, come i 15 litri di Riserva Finale, sottostimando pericolosamente il carburante minimo necessario."
         },
         {
           "n": 236,
@@ -19457,7 +19457,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Un Miglio Nautico equivale esattamente a 1852 metri per definizione internazionale, un valore diverso e più lungo del Miglio Terrestre (Statute Mile, 1609 m) usato in altri contesti come la visibilità meteo. L'opzione 1 (1609 m) è il valore del miglio terrestre, non nautico. Le opzioni 2 e 4 (1000 m, 185,2 m) non corrispondono al valore standard del NM."
+          "explanation": "Il Miglio Nautico è definito per convenzione internazionale come esattamente 1.852 metri. L'opzione 1 (1.609 metri) è la lunghezza del miglio terrestre (statute mile), un'unità diversa usata soprattutto in ambito stradale, non aeronautico/marittimo. L'opzione 2 (1.000 metri) corrisponde a un chilometro, un'unità del sistema metrico non equivalente al miglio nautico. L'opzione 4 (185,2 metri) è esattamente un decimo del valore corretto, un errore di fattore 10 nella conversione."
         },
         {
           "n": 239,
@@ -19527,7 +19527,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 095°. L'opzione A è errata perché confonde la prua con la rotta: la prua è l'angolo tra il Nord e l'ASSE LONGITUDINALE del velivolo, non la traiettoria effettiva che può essere deviata dal vento. L'opzione B è errata perché descrive la rotta vera (True Course), non la prua vera: la congiungente punto di partenza-punto di arrivo è la rotta, non la direzione dell'asse del velivolo. L'opzione D è errata perché descrive la prua bussola (Compass Heading), che è la prua vera corretta della deviazione residua."
+          "explanation": "La Rotta reale sul terreno (True Track) è pari alla Prua Vera corretta del segno e del valore della deriva: con una deriva verso destra di 5° e una Prua Vera di 090°, il velivolo si sposta effettivamente lungo 090°+5°=095°. L'opzione 1 (085°) applica la deriva con il segno invertito (verso sinistra anziché destra). L'opzione 2 (090°) ignora completamente l'effetto della deriva, facendo coincidere la rotta con la sola prua. L'opzione 4 (100°) applica la deriva nel verso corretto ma con un valore doppio (10° anziché i 5° indicati)."
         },
         {
           "n": 244,
@@ -19611,7 +19611,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con una scala 1:500.000, 1 cm sulla carta corrisponde a 500.000 cm nella realtà, cioè 5000 m = 5 km. L'opzione 1 (50 km) sovrastima di 10 volte il valore corretto. Le opzioni 3 e 4 (1 km, 500 m) sottostimano il valore reale corrispondente al rapporto di scala indicato."
+          "explanation": "Con una scala 1:500.000, ogni centimetro sulla carta rappresenta 500.000 cm sul terreno, cioè 5.000 metri, ossia 5 km. L'opzione 1 (50 km) sovrastima il valore reale di un fattore 10, come se la scala fosse stata letta 1:5.000.000. Le opzioni 3 (1 km) e 4 (500 metri) sottostimano invece il valore, rispettivamente di un fattore 5 e 10, come se la scala fosse stata considerata molto più dettagliata di quella reale."
         },
         {
           "n": 250,
@@ -19751,7 +19751,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "10 Miglia Nautiche × 1,852 km/NM = 18,52 km. L'opzione 1 (10 km) ignora completamente il fattore di conversione. L'opzione 3 (16,09 km) corrisponde erroneamente alla conversione con il Miglio Terrestre (1,609 km) anziché quello Nautico. L'opzione 4 (20 km) è un valore arrotondato ma non esatto rispetto al calcolo preciso richiesto."
+          "explanation": "Poiché un Miglio Nautico equivale a 1,852 km, dieci Miglia Nautiche corrispondono a 10×1,852=18,52 km. L'opzione 1 (10 km) confonde numericamente il Miglio Nautico con il chilometro, come se equivalessero 1 a 1. L'opzione 3 (16,09 km) usa invece il fattore di conversione dello statute mile (1,609 km), non quello del miglio nautico. L'opzione 4 (20 km) è un arrotondamento per eccesso impreciso, che sovrastima il fattore di conversione reale (1,852) trattandolo come se fosse 2."
         },
         {
           "n": 260,
@@ -19849,7 +19849,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Sorvolando esattamente la verticale della stazione, la distanza orizzontale si annulla ma il DME misura comunque la distanza obliqua, pari in questo caso alla sola componente di quota: 6000 ft equivalgono a circa 1 NM (1 NM ≈ 6076 ft), quindi il DME indicherà un valore vicino a 1 NM anziché zero. L'opzione 1 (0 NM) ignorerebbe la natura di distanza obliqua del DME. L'opzione 2 (6 NM) confonde erroneamente il valore in piedi con un valore diretto in NM. L'opzione 4 (OFF per eccessiva vicinanza) inventa un'avaria che non si verifica in condizioni normali di sorvolo."
+          "explanation": "Il DME misura la distanza obliqua (slant range) tra l'aeromobile e la stazione, non la distanza orizzontale sul terreno: anche esattamente in verticale sopra la stazione, tale distanza corrisponde alla quota, convertita in miglia nautiche. Poiché 1 NM equivale a circa 6.076 piedi, una quota di 6.000 ft AGL corrisponde a circa 6000/6076≈0,99 NM, cioè circa 1 NM. L'opzione 1 (0 NM) ignorerebbe completamente la componente verticale della distanza obliqua, come se il DME misurasse solo la distanza orizzontale. L'opzione 2 (6 NM) confonde erroneamente i piedi di quota con le miglia nautiche, senza applicare alcuna conversione di unità. L'opzione 4 è errata: il DME resta pienamente funzionante anche in verticale sopra la stazione, mostrando la distanza obliqua residua invece di andare OFF."
         },
         {
           "n": 267,
@@ -19905,7 +19905,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 275° (West is Best: si somma).. L'opzione A è errata perché descrive la prua bussola (l'asse longitudinale corretto sia della deviazione che di un'inesistente correzione della declinazione sulla bussola). L'opzione B è errata perché confonde la prua magnetica con la rotta magnetica: la prua è l'angolo tra il nord e l'ASSE del velivolo, mentre la rotta è l'angolo tra il nord e la TRAIETTORIA seguita. L'opzione C è errata per lo stesso motivo: descrive la rotta magnetica (MC), non la prua magnetica (MH)."
+          "explanation": "Applicando la Declinazione magnetica (Variation) alla Prua Vera per ottenere la Prua Magnetica si usa la regola \"Ovest aggiunge, Est sottrae\": con una Variazione di 5° Ovest, la Prua Magnetica è MH=TH+VAR=270°+5°=275°. L'opzione 1 (265°) applica la correzione con il segno invertito, sottraendo anziché sommando una Variazione Ovest. L'opzione 2 (270°) lascia la prua invariata, come se la Variazione fosse nulla. L'opzione 3 (180°) è un valore privo di qualunque relazione coerente con la correzione di 5° richiesta dalla Variazione indicata."
         },
         {
           "n": 271,
