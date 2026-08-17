@@ -2450,7 +2450,7 @@
             "seguono la validità della visita medica."
           ],
           "correct": 0,
-          "explanation": "Le licenze di pilotaggio hanno validità di 5 anni."
+          "explanation": "Nel sistema di licenze in vigore all'epoca di questo quesito (previgente alla piena armonizzazione EASA, coerente con i quesiti seguenti sul reintegro entro 5 anni), la licenza di pilotaggio aveva validità quinquennale fissa. È falsa l'opzione 2 (3 anni): tale durata non corrisponde alla licenza di pilotaggio, ma può confondersi con periodi di validità di altre abilitazioni. È falsa l'opzione 3 (1 anno): periodo troppo breve, semmai tipico di alcune abilitazioni operative, non della licenza base. È falsa l'opzione 4 (seguono la validità della visita medica): la licenza ha una propria scadenza indipendente da quella del certificato medico, requisito distinto da mantenere in parallelo."
         },
         {
           "n": 181,
@@ -2463,7 +2463,7 @@
             "dipende dalle ore di volo effettuate"
           ],
           "correct": 0,
-          "explanation": "Secondo JAR-FCL 3, il certificato medico di 2a classe per piloti tra 31 e 50 anni è valido 2 anni."
+          "explanation": "Secondo JAR-FCL 3 (norma medica poi confluita in EASA Part-MED), per i piloti tra 31 e 50 anni il certificato medico di 2a classe ha validità di 2 anni. È falsa l'opzione 2 (1 anno): tale durata più breve si applica alle fasce di età più avanzate, non alla fascia 31-50. È falsa l'opzione 3 (6 mesi): periodo troppo breve, non previsto per nessuna fascia d'età del certificato di 2a classe. È falsa l'opzione 4 (dipende dalle ore di volo): la validità del certificato medico dipende esclusivamente dall'età del titolare, non dall'attività di volo svolta."
         },
         {
           "n": 182,
@@ -2476,7 +2476,7 @@
             "dipende dalle ore di volo effettuate"
           ],
           "correct": 1,
-          "explanation": "Secondo JAR-FCL 3, il certificato medico di 2a classe per piloti sotto i 30 anni è valido 5 anni."
+          "explanation": "Per i piloti di età inferiore ai 30 anni, JAR-FCL 3 prevede per il certificato medico di 2a classe una validità estesa a 5 anni. È falsa l'opzione 1 (2 anni): tale durata si applica invece alla fascia d'età intermedia 31-50 anni, non ai piloti più giovani. È falsa l'opzione 3 (6 mesi): periodo non previsto per nessuna fascia d'età di questo certificato. È falsa l'opzione 4 (dipende dalle ore di volo): la validità dipende solo dall'età anagrafica, non dall'attività di volo."
         },
         {
           "n": 183,
@@ -2489,7 +2489,7 @@
             "Non c'è limite di tempo"
           ],
           "correct": 0,
-          "explanation": "Le licenze scadute possono essere reintegrate entro 5 anni dalla scadenza."
+          "explanation": "Le licenze scadute possono essere reintegrate (ripristinate senza dover ripetere l'intero iter di formazione) entro 5 anni dalla data di scadenza. È falsa l'opzione 2 (1 anno): termine troppo restrittivo rispetto al periodo effettivamente concesso per il reintegro. È falsa l'opzione 3 (3 anni): valore intermedio plausibile ma comunque inferiore al termine reale. È falsa l'opzione 4 (nessun limite di tempo): esiste invece un limite preciso, superato il quale la licenza perde definitivamente valore."
         },
         {
           "n": 184,
@@ -2502,7 +2502,7 @@
             "sono reintegrabili effettuando un esame pratico con un istruttore di volo."
           ],
           "correct": 0,
-          "explanation": "Le licenze scadute da più di 5 anni non sono più reintegrabili e perdono ogni valore."
+          "explanation": "Coerentemente con il limite di 5 anni per il reintegro, una licenza scaduta da più di 5 anni non è più reintegrabile e perde definitivamente ogni valore: il titolare deve conseguire una nuova licenza ripetendo l'iter completo. È falsa l'opzione 2 (reintegrabili con corso specifico): oltre i 5 anni non è previsto alcun percorso di reintegro, nemmeno un corso dedicato. È falsa l'opzione 3 (reintegrabili d'ufficio): non esiste alcuna procedura automatica che rimetta in vigore una licenza scaduta da così tanto tempo. È falsa l'opzione 4 (esame pratico con istruttore): un semplice esame pratico non è sufficiente a ripristinare una licenza ormai decaduta oltre il termine massimo."
         },
         {
           "n": 185,
@@ -2516,7 +2516,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Si vola con l'altimetro sul QNH quando serve una corretta separazione dal terreno/ostacoli o da altro traffico regolato sullo stesso riferimento."
+          "explanation": "Si vola con l'altimetro regolato sul QNH quando è necessario mantenere una conveniente separazione dal terreno, dagli ostacoli o da altro traffico che utilizza lo stesso riferimento altimetrico, tipicamente in prossimità del suolo o dell'aeroporto. È falsa l'opzione 2 (quando si vola per livelli di volo): i livelli di volo si riferiscono invece al QNE (1013 hPa), non al QNH. È falsa l'opzione 3 (quando si vola nell'ATZ): la ragione determinante non è la semplice presenza in ATZ ma l'esigenza di separazione da ostacoli/traffico, criterio più generale espresso dall'opzione corretta. È falsa l'opzione 4 (sopra i 3.000 ft di altezza): oltre tale quota si tende semmai verso l'uso del QNE per i livelli di volo, l'opposto di quanto affermato."
         },
         {
           "n": 186,
@@ -2530,7 +2530,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Si vola con l'altimetro sul QNE (1013 hPa) quando si vola per livelli di volo, sopra la quota di transizione."
+          "explanation": "Si vola con l'altimetro regolato sul QNE (valore standard 1013 hPa) quando si opera per livelli di volo, cioè al di sopra della quota di transizione. È falsa l'opzione 1 (quando si vola sul mare): la posizione geografica sul mare non è il criterio che determina l'uso del QNE. È falsa l'opzione 3 (quando si vola per altezze): il volo per altezze si riferisce invece al QFE, non al QNE. È falsa l'opzione 4 (sotto 1.000 ft AGL o 3.000 ft di altitudine): tale condizione descrive semmai l'ambito tipico d'uso del QNH, non del QNE, che si applica alle quote più elevate sopra la transizione."
         },
         {
           "n": 187,
@@ -2543,7 +2543,7 @@
             "Sempre"
           ],
           "correct": 1,
-          "explanation": "Secondo JAR-FCL 1.245, l'abilitazione di classe SEP è valida 2 anni dal rilascio."
+          "explanation": "Secondo JAR-FCL 1.245, l'abilitazione di classe per monomotori (SEP) è valida 2 anni dalla data del rilascio. È falsa l'opzione 1 (1 anno): tale durata più breve è invece quella prevista per l'abilitazione plurimotori (MEP), non per la SEP. È falsa l'opzione 3 (5 anni): periodo troppo lungo, non previsto per nessuna abilitazione di classe. È falsa l'opzione 4 (sempre): l'abilitazione di classe, a differenza della licenza, ha sempre una scadenza periodica e richiede una revalidation."
         },
         {
           "n": 188,
@@ -2556,7 +2556,7 @@
             "sempre"
           ],
           "correct": 0,
-          "explanation": "Secondo JAR-FCL 1.245, l'abilitazione di classe MEP è valida 1 anno dal rilascio."
+          "explanation": "Secondo JAR-FCL 1.245, l'abilitazione di classe per plurimotori (MEP) è valida solo 1 anno dalla data del rilascio, un periodo più breve rispetto alla monomotore. È falsa l'opzione 2 (2 anni): tale durata è invece quella prevista per l'abilitazione SEP, non per la MEP. È falsa l'opzione 3 (5 anni): periodo eccessivo, non previsto per nessuna abilitazione di classe. È falsa l'opzione 4 (sempre): anche l'abilitazione MEP, come tutte le abilitazioni di classe, ha una scadenza periodica da rinnovare."
         },
         {
           "n": 189,
@@ -2569,7 +2569,7 @@
             "superare un check tecnico"
           ],
           "correct": 1,
-          "explanation": "Prima della scadenza dell'abilitazione SEP occorre un volo di addestramento di almeno 1 ora con un istruttore."
+          "explanation": "Prima della scadenza dell'abilitazione SEP, il titolare deve effettuare un volo di addestramento (revalidation training flight) della durata minima di 1 ora con un istruttore di volo. È falsa l'opzione 1 (nulla): un'azione specifica è invece richiesta per mantenere in corso di validità l'abilitazione. È falsa l'opzione 3 (tre decolli e tre atterraggi a solo pilota): tale requisito riguarda semmai il mantenimento dell'esperienza recente per il trasporto passeggeri, non il rinnovo dell'abilitazione di classe. È falsa l'opzione 4 (superare un check tecnico): non è richiesto un vero e proprio esame con esaminatore per la revalidation per esperienza, bensì il volo di addestramento con istruttore."
         },
         {
           "n": 190,
@@ -2583,7 +2583,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'attività minima per mantenere l'abilitazione SEP è 12 ore di volo nei 12 mesi precedenti la scadenza."
+          "explanation": "L'attività minima per il mantenimento (revalidation per esperienza) dell'abilitazione SEP è di 12 ore di volo totalizzate nei 12 mesi precedenti la data di scadenza dell'abilitazione: la cifra oraria da sola non basta, conta il vincolo temporale. È falsa l'opzione 1 (12 ore): pur indicando il numero corretto di ore, l'opzione è incompleta perché omette il vincolo dei 12 mesi precedenti la scadenza, condizione essenziale del requisito. È falsa l'opzione 2 (6 ore): valore insufficiente rispetto al minimo realmente richiesto. È falsa l'opzione 3 (20 ore): valore superiore a quanto effettivamente richiesto per il mantenimento."
         },
         {
           "n": 191,
@@ -2596,7 +2596,7 @@
             "nessuna delle precedenti risposte è corretta"
           ],
           "correct": 2,
-          "explanation": "Le JAR-FCL sono 4 (Aeroplani, Elicotteri, Medica, licenze non-EU)."
+          "explanation": "Le JAR-FCL (Joint Aviation Requirements - Flight Crew Licensing), il corpus normativo europeo pre-EASA sulle licenze di volo, erano articolate in 4 parti: JAR-FCL 1 (aeroplani), JAR-FCL 2 (elicotteri), JAR-FCL 3 (requisiti medici) e JAR-FCL 4 (licenze rilasciate da Stati non-JAA). È falsa l'opzione 1 (2): numero insufficiente, non copre tutte le categorie disciplinate. È falsa l'opzione 2 (3): manca la quarta parte dedicata alle licenze non-JAA. È falsa l'opzione 4 (nessuna delle precedenti risposte è corretta): un valore esatto (4) è invece presente tra le alternative proposte."
         },
         {
           "n": 192,
@@ -2609,7 +2609,7 @@
             "nessuna delle precedenti risposte è corretta."
           ],
           "correct": 0,
-          "explanation": "Le disposizioni per gli aeroplani sono contenute nella JAR-FCL 1."
+          "explanation": "Le disposizioni relative agli aeroplani sono contenute nella JAR-FCL 1, la prima delle quattro parti del corpus normativo (le altre riguardano elicotteri, requisiti medici e licenze non-JAA). È falsa l'opzione 2 (JAR-FCL 2): tale parte disciplina gli elicotteri, non gli aeroplani. È falsa l'opzione 3 (JAR-FCL 3): tale parte riguarda i requisiti medici, non le disposizioni sugli aeroplani. È falsa l'opzione 4 (nessuna delle precedenti risposte è corretta): la risposta esatta (JAR-FCL 1) è invece presente tra le alternative."
         },
         {
           "n": 193,
@@ -2623,7 +2623,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il Regolamento UE 376/2014 richiede le segnalazioni di occurrence tramite i portali elettronici e-MOR (ENAC) o ECCAIRS, non più con modello cartaceo."
+          "explanation": "Il Regolamento UE 376/2014 sulla segnalazione di inconvenienti (Occurrence Reporting) prevede che le segnalazioni, obbligatorie o volontarie, avvengano in formato elettronico attraverso gli appositi portali (in Italia e-MOR di ENAC, a livello europeo ECCAIRS), superando la vecchia modulistica cartacea. È falsa l'opzione 1 (vecchio modello cartaceo ATIRF per posta raccomandata): tale procedura, storicamente in uso, è stata sostituita dai portali digitali. È falsa l'opzione 3 (a voce senza nulla di scritto): il regolamento richiede una segnalazione formale e tracciabile, non una semplice comunicazione verbale. È falsa l'opzione 4 (solo se danni visibili alla struttura): l'obbligo di segnalazione riguarda una gamma ampia di inconvenienti di sicurezza, indipendentemente dalla presenza di danni visibili."
         },
         {
           "n": 194,
@@ -2637,7 +2637,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il RAN è oggi il pubblico registro tenuto da ENAC dove si iscrivono gli aeromobili civili e si annotano diritti e passaggi di proprietà."
+          "explanation": "Il R.A.N. (Registro Aeronautico Nazionale) è il pubblico registro, oggi tenuto da ENAC, dove vengono iscritti gli aeromobili civili e annotati i diritti reali e i passaggi di proprietà, analogamente a un registro immobiliare per gli aeromobili. È falsa l'opzione 1 (l'ente che rilascia le licenze mediche ai piloti): tale compito spetta ai Medici Esaminatori Aeronautici o ai Centri Aeromedici, non al RAN. È falsa l'opzione 2 (un ufficio della Motorizzazione Civile dedicato agli aerei leggeri): il RAN non è un ufficio della Motorizzazione Civile né è limitato a una categoria di aeromobili. È falsa l'opzione 3 (l'elenco degli istruttori di volo italiani): tale elenco riguarda l'abilitazione all'istruzione di volo, materia distinta dal registro di immatricolazione e proprietà."
         },
         {
           "n": 195,
@@ -2651,7 +2651,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Secondo Part-FCL, per portare passeggeri servono almeno 3 decolli e 3 atterraggi negli ultimi 90 giorni sulla stessa classe o tipo di velivolo."
+          "explanation": "Secondo Part-FCL, per operare un aeroplano con passeggeri a bordo il pilota deve aver effettuato almeno 3 decolli e 3 atterraggi negli ultimi 90 giorni con un velivolo della stessa classe o tipo (requisito di esperienza recente). È falsa l'opzione 1 (proficiency check con esaminatore negli ultimi 30 giorni): tale verifica formale non è richiesta per il semplice trasporto di passeggeri. È falsa l'opzione 3 (50 ore di volo da solista nell'ultimo anno solare): non esiste un simile requisito annuale di ore da solista per portare passeggeri. È falsa l'opzione 4 (assicurazione speciale per ogni passeggero): la copertura RC è unica per il velivolo/operazione, non richiede una polizza dedicata per ciascun passeggero."
         },
         {
           "n": 196,
@@ -2665,7 +2665,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Per il ripristino (renewal) di un'abilitazione SEP scaduta serve un addestramento presso un'organizzazione ATO/DTO e il superamento di un Proficiency Check con un esaminatore."
+          "explanation": "Per il ripristino (renewal) di un'abilitazione SEP scaduta (expired) occorre effettuare un addestramento di aggiornamento presso un'organizzazione approvata (ATO/DTO) e superare un Proficiency Check con un esaminatore, procedura più impegnativa della semplice revalidation per esperienza. È falsa l'opzione 1 (autocertificazione all'ENAC): un'abilitazione scaduta non può essere ripristinata con una semplice dichiarazione, serve addestramento e verifica pratica. È falsa l'opzione 2 (3 decolli e 3 atterraggi con altro pilota): tale requisito riguarda l'esperienza recente per passeggeri, non il rinnovo di un'abilitazione scaduta. È falsa l'opzione 3 (licenza revocata, corso PPL da zero): è l'abilitazione di classe a essere scaduta, non la licenza, che resta valida; non serve rifare l'intero corso PPL."
         },
         {
           "n": 197,
@@ -2679,7 +2679,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La comunicazione AFIL prima di entrare in spazio controllato va fatta con almeno 10 minuti di anticipo, per consentire identificazione e autorizzazione."
+          "explanation": "La comunicazione AFIL (piano di volo in volo) prima di entrare in uno spazio aereo controllato deve essere effettuata con un preavviso sufficiente, di almeno 10 minuti, per consentire all'ente ATS l'identificazione del volo e l'emissione dell'autorizzazione prima dell'ingresso. È falsa l'opzione 2 (esattamente al momento dell'attraversamento del confine): un preavviso a ridosso del confine non lascerebbe tempo all'ente per identificare e autorizzare il volo. È falsa l'opzione 3 (almeno 30 minuti prima dell'avvio dei motori): tale anticipo è eccessivo e non corrisponde al requisito specifico dell'AFIL in prossimità dello spazio controllato. È falsa l'opzione 4 (esclusivamente per telefono all'ARO prima del decollo): l'AFIL è per definizione una comunicazione via radio effettuata in volo, non una procedura telefonica pre-decollo."
         },
         {
           "n": 198,
@@ -2693,7 +2693,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il segnale che significa 'ritorna per l'atterraggio, clearance a seguire' è una serie di lampeggiamenti a luce verde."
+          "explanation": "Il segnale luminoso 'ritorna per l'atterraggio, autorizzazione a seguire' consiste in una serie di lampeggiamenti a luce verde. È falsa l'opzione 1 (lampeggiamenti a luce rossa): tale segnale significa invece 'aeroporto non sicuro, non atterrare'. È falsa l'opzione 2 (luce rossa fissa): tale segnale significa 'dai la precedenza ad altro traffico e resta in attesa'. È falsa l'opzione 4 (lampeggiamenti a luce gialla): un simile segnale non è previsto nel codice standard dei segnali luminosi ICAO per la torre di controllo."
         },
         {
           "n": 199,
@@ -2707,7 +2707,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il regolamento UE 1178/2011 definisce i requisiti tecnici e le procedure amministrative per gli equipaggi dell'aviazione civile (Part-FCL/Part-MED)."
+          "explanation": "Il Regolamento UE 1178/2011 definisce i requisiti tecnici e le procedure amministrative relativamente agli equipaggi dell'aviazione civile (Part-FCL, Part-MED, Part-CC). È falsa l'opzione 1 (216/2008): tale regolamento istituisce l'EASA stessa e ne definisce le competenze generali, non i requisiti sugli equipaggi. È falsa l'opzione 2 (965/2012): tale regolamento (Air OPS) disciplina le operazioni di volo, non le licenze degli equipaggi. È falsa l'opzione 3 (261/2008): tale regolamento riguarda i diritti dei passeggeri in caso di negato imbarco/cancellazione/ritardo, materia estranea alle licenze."
         },
         {
           "n": 200,
@@ -2721,7 +2721,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La variazione di TAS rispetto al piano di volo va comunicata quando supera il 5%."
+          "explanation": "Se la TAS risulta o si prevede variata rispetto a quella indicata nel piano di volo, va data comunicazione all'ente ATS quando la variazione è di almeno il 5%. È falsa l'opzione 1 (3%): soglia troppo bassa, non corrisponde al valore normativo previsto per la variazione di TAS. È falsa l'opzione 3 (10%): soglia troppo alta, ritarderebbe una comunicazione dovuta già a variazioni minori. È falsa l'opzione 4 (2%): soglia eccessivamente restrittiva, non compatibile con il valore reale del 5%."
         },
         {
           "n": 201,
@@ -2735,7 +2735,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La valutazione delle minime VFR spetta al pilota in comando."
+          "explanation": "La responsabilità primaria di valutare se le condizioni meteorologiche in atto o previste rientrino nelle minime VFR prescritte spetta al pilota in comando, che decide se intraprendere o proseguire il volo. È falsa l'opzione 1 (ente ATC): il controllo del traffico aereo fornisce servizi di separazione e informazioni, ma non si sostituisce alla valutazione operativa del pilota sulle minime meteo. È falsa l'opzione 2 (ente meteorologico): tale ente fornisce dati e previsioni, ma non decide se il volo può essere intrapreso. È falsa l'opzione 4 (ENAC): l'autorità regolamenta le minime applicabili, ma non valuta caso per caso le condizioni per il singolo volo, compito del pilota."
         },
         {
           "n": 202,
@@ -2749,7 +2749,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Part-NCO richiede a bordo: Manuale di Volo, Certificato di Immatricolazione, CofN con ARC valido, Certificato Acustico se applicabile, Licenza Radio, assicurazione RC, licenza e certificato medico del pilota."
+          "explanation": "Secondo Part-NCO, a bordo devono trovarsi: Manuale di Volo (AFM), Certificato di Immatricolazione, Certificato di Navigabilità con ARC in corso di validità, Certificato Acustico (se applicabile), Licenza di Stazione Radio, assicurazione RC, licenza del pilota e certificato medico. È falsa l'opzione 1 (solo libretto di volo personale e certificato di immatricolazione): elenco fortemente incompleto rispetto ai documenti effettivamente richiesti. È falsa l'opzione 3 (solo polizza, manuale di volo e giornale di rotta tecnico): omette documenti essenziali come immatricolazione, CofN/ARC e licenza radio. È falsa l'opzione 4 (foglio di bilanciamento a mano, lista passeggeri, estratto conto): nessuno di questi è tra i documenti di bordo obbligatori previsti da Part-NCO."
         },
         {
           "n": 203,
@@ -2763,7 +2763,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'età minima Part-FCL per il rilascio del PPL è 17 anni."
+          "explanation": "L'età minima prevista da EASA Part-FCL per il rilascio della licenza di pilota privato di aeroplano (PPL) è 17 anni. È falsa l'opzione 1 (16 anni): tale età è invece quella minima per effettuare voli da solista come allievo pilota, non per il rilascio della licenza. È falsa l'opzione 3 (18 anni): età superiore a quella effettivamente richiesta per il PPL. È falsa l'opzione 4 (21 anni): età corrispondente semmai a requisiti di licenze commerciali/professionali superiori, non al PPL."
         },
         {
           "n": 204,
@@ -2777,7 +2777,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Sopra aree congestionate il VFR richiede almeno 1.000 ft (300 m) sopra l'ostacolo più alto entro un raggio di 600 m."
+          "explanation": "Secondo SERA, in volo VFR sopra città, insediamenti urbani o aree congestionate la separazione minima è di 1.000 piedi (300 metri) al di sopra dell'ostacolo più alto entro un raggio di 600 metri. È falsa l'opzione 1 (1.000 ft entro un raggio di 8 Km): il raggio corretto è di 600 m, non 8 Km, valore che appartiene semmai alla regola generale sugli ostacoli fuori dalle aree congestionate. È falsa l'opzione 2 (2.000 ft entro 600 m): l'altezza minima richiesta è 1.000 ft, non 2.000 ft. È falsa l'opzione 4 (1.000 ft entro 8 Km o 2.000 ft su zone montagnose): tale combinazione di valori non corrisponde alla regola SERA per le aree congestionate."
         },
         {
           "n": 205,
@@ -2791,7 +2791,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In classe C ai voli VFR viene garantita la separazione dai voli IFR e forniti avvisi di traffico rispetto ad altri VFR."
+          "explanation": "In spazio aereo di Classe C ai voli VFR viene garantita la separazione dai voli IFR e vengono fornite informazioni di traffico, con avvisi di elusione delle collisioni su richiesta, rispetto ad altri voli VFR. È falsa l'opzione 1 (separazione garantita da tutti gli altri voli, inclusi i VFR): in classe C non è garantita la separazione tra due voli VFR, solo tra VFR e IFR. È falsa l'opzione 3 (accesso non consentito ai VFR salvo emergenza): l'accesso ai VFR è invece regolarmente consentito, previa autorizzazione ATC. È falsa l'opzione 4 (solo Servizio Informazioni di Volo FIS): in classe C viene fornito un servizio di controllo con separazione dagli IFR, non il solo FIS tipico degli spazi non controllati."
         },
         {
           "n": 206,
@@ -2805,7 +2805,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Per il TW (ruotino di coda) la normativa EASA attuale non fissa un minimo di ore: decide l'istruttore o l'ATO in base alla competenza raggiunta."
+          "explanation": "Per l'addestramento per differenze SEP relativo a velivoli con ruotino di coda (Tailwheel), la normativa EASA attuale non fissa un minimo legale di ore: l'addestramento prosegue a discrezione dell'istruttore fino a quando il pilota non è ritenuto idoneo. È falsa l'opzione 1 (4 ore minime): non esiste un simile minimo legale fisso per il TW. È falsa l'opzione 2 (2 ore minime): anche questo valore non corrisponde a un minimo effettivamente imposto dalla norma. È falsa l'opzione 3 (5 ore minime): parimenti non previsto come minimo legale, la norma lascia la valutazione all'istruttore."
         },
         {
           "n": 207,
@@ -2819,7 +2819,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Sopra FL100 la visibilità minima VFR richiesta da SERA è 8 km."
+          "explanation": "Secondo SERA, la visibilità minima in volo VFR al di sopra di FL100 (10.000 ft) è di 8 km. È falsa l'opzione 1 (5 km): tale valore è quello previsto per le quote inferiori, non sopra FL100 dove il requisito è più stringente. È falsa l'opzione 2 (10 km): valore superiore a quanto effettivamente richiesto. È falsa l'opzione 4 (illimitata): sopra FL100 esiste comunque un valore numerico definito (8 km), non un requisito di visibilità illimitata."
         },
         {
           "n": 208,
@@ -2833,7 +2833,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La Part-FCL (Flight Crew Licensing) disciplina rilascio, mantenimento e rinnovo delle licenze piloti EASA."
+          "explanation": "La Part-FCL (Flight Crew Licensing) dell'EASA disciplina specificamente i requisiti per il rilascio, il mantenimento e il rinnovo delle licenze dell'equipaggio di condotta. È falsa l'opzione 2 (Part-MED): tale annesso riguarda i requisiti medici, non le licenze di volo in generale. È falsa l'opzione 3 (Part-OPS): tale annesso disciplina le operazioni di volo, non il rilascio delle licenze. È falsa l'opzione 4 (ICAO Annex 1): tale annesso ICAO fornisce lo standard internazionale di riferimento sul licensing, ma la normativa europea specifica applicabile è la Part-FCL, non direttamente l'Annex 1."
         },
         {
           "n": 209,
@@ -2847,7 +2847,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Con rotta 030° (semicerchio 000°-179°) sopra i 3.000 ft si usano i livelli dispari +500 ft: nella fascia indicata corrisponde a FL 95."
+          "explanation": "Con rotta magnetica 030° (semicerchio 000°-179°) sopra i 3.000 ft, la regola dei livelli semicircolari impone i livelli dispari +500 ft: nella fascia indicata ciò corrisponde a FL 95. È falsa l'opzione 1 (FL 80): livello pari, appartenente alla serie prevista per il semicerchio opposto 180°-359°. È falsa l'opzione 2 (FL 85): parimenti un livello della serie 'pari +500' del semicerchio opposto, non applicabile alla rotta 030°. È falsa l'opzione 3 (FL 90): livello pari puro, non corrisponde né alla serie dispari né allo scaglione +500 ft richiesto."
         },
         {
           "n": 210,
@@ -2861,7 +2861,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il massimale minimo assicurativo dipende da più fattori insieme: persone trasportate, peso massimo al decollo e uso dell'aeromobile."
+          "explanation": "Il massimale minimo previsto dall'assicurazione obbligatoria aeronautica per danni a terzi e/o passeggeri dipende congiuntamente dal numero di persone trasportate, dal peso massimo al decollo e dall'uso dell'aeromobile, tutti fattori considerati insieme dai regolamenti di riferimento. È falsa l'opzione 1 (solo dal numero delle persone trasportate): tale fattore da solo non determina il massimale, che dipende anche da peso e uso. È falsa l'opzione 2 (solo dal peso massimo al decollo): anche questo fattore isolato è insufficiente a definire il massimale minimo. È falsa l'opzione 3 (solo dall'uso dell'aeromobile): parimenti, l'uso da solo non è l'unico criterio applicato."
         },
         {
           "n": 211,
@@ -2875,7 +2875,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In classe G sotto i 3.000 ft (o 1.000 ft AGL) la regola generale SERA è 5 km di visibilità, liberi dalle nubi e in vista della superficie, con eccezione di 1.500 m sotto i 140 kt."
+          "explanation": "Secondo SERA, in Classe G al di sotto di 3.000 ft AMSL o 1.000 ft AGL (il più alto dei due) la regola generale richiede 5 km di visibilità, condizioni di volo libere dalle nubi e in costante vista della superficie, con l'eccezione della riduzione a 1.500 m per velocità inferiori a 140 kt. È falsa l'opzione 1 (8 km e fuori dalle nuvole): valore di visibilità superiore a quello richiesto in questa fascia di quota, che si applica invece a quote più elevate. È falsa l'opzione 2 (5 km, 1.500 m laterali e 300 m verticali dalle nuvole): tali distanze dalle nubi si applicano alle quote intermedie (sopra 3.000/1.000 ft), non alla regola generale sotto tale limite, dove si richiede il contatto visivo col suolo. È falsa l'opzione 3 (visibilità illimitata sotto 140 nodi): non esiste una condizione di visibilità illimitata legata alla sola velocità."
         },
         {
           "n": 212,
@@ -2889,7 +2889,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il CofA è rilasciato da ENAC nell'ambito delle normative EASA."
+          "explanation": "Il Certificato di Navigabilità (CofA) per un aeromobile civile in Italia viene rilasciato da ENAC, nell'ambito delle normative EASA. È falsa l'opzione 1 (Ministero delle Infrastrutture e dei Trasporti): il Ministero definisce indirizzi generali, ma il rilascio tecnico del CofA è compito di ENAC. È falsa l'opzione 3 (Aero Club d'Italia): l'AeCI è un ente federativo per l'attività sportiva, senza competenza sulla certificazione di navigabilità. È falsa l'opzione 4 (Pubblico Registro Automobilistico): il PRA riguarda i veicoli terrestri, non ha alcuna competenza aeronautica."
         },
         {
           "n": 213,
@@ -2903,7 +2903,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il VFR diurno è consentito dall'inizio del crepuscolo civile mattutino alla fine di quello serale, circa 30 minuti prima dell'alba e 30 dopo il tramonto."
+          "explanation": "Le operazioni VFR diurno sono di norma consentite dall'inizio del crepuscolo civile mattutino alla fine del crepuscolo civile serale, indicativamente da 30 minuti prima del sorgere del sole a 30 minuti dopo il tramonto. È falsa l'opzione 1 (esclusivamente dall'alba al tramonto): tale definizione più restrittiva esclude i margini di crepuscolo civile effettivamente concessi. È falsa l'opzione 3 (periodi eccezionali stabiliti dal Ministero dei Trasporti): non si tratta di deroghe eccezionali ma di una regola generale fissata dalla normativa. È falsa l'opzione 4 (periodi stabiliti autonomamente da ogni ente ATC per il proprio aeroporto): il criterio del crepuscolo civile è uniforme e non lasciato alla discrezione dei singoli enti ATC."
         },
         {
           "n": 214,
@@ -2917,7 +2917,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In classe G tra 3.000/1.000 ft e FL100, SERA richiede 5 km di visibilità, 1.500 m di distanza orizzontale e 1.000 ft verticale dalle nubi."
+          "explanation": "Secondo SERA, in Classe G sopra 3.000 ft AMSL (o 1.000 ft AGL, il più alto) ma sotto FL100 sono richiesti 5 km di visibilità orizzontale, 1.500 m di separazione laterale e 1.000 ft (300 m) di separazione verticale dalle nubi. È falsa l'opzione 1 (8 km e fuori dalle nuvole): valore di visibilità superiore a quello effettivamente richiesto in questa fascia. È falsa l'opzione 2 (5 km, liberi dalle nuvole e in vista del suolo): questa condizione, priva delle distanze specifiche dalle nubi, corrisponde semmai alla regola sotto i 3.000/1.000 ft, non a questa fascia intermedia. È falsa l'opzione 4 (1.500 m di visibilità, a contatto visivo col suolo): valore di visibilità troppo basso per questa fascia di quota, applicabile semmai a condizioni particolari a quote più basse."
         },
         {
           "n": 215,
@@ -2931,7 +2931,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La Licenza di Stazione Radio non riporta una scadenza fissa: resta valida finché non cambiano apparati o proprietario e si paga regolarmente il canone."
+          "explanation": "La Licenza di Esercizio di Stazione Radioelettrica di bordo non riporta una scadenza fissa impressa sul documento: la sua validità permane finché non mutano gli apparati installati, non cambia il proprietario dell'aeromobile e viene regolarmente pagato il canone annuo al MIMIT. È falsa l'opzione 1 (ristampata ogni anno dall'ENAC su domanda): non è prevista una ristampa annuale, la licenza resta valida senza rinnovo periodico automatico. È falsa l'opzione 3 (validità limitata a 5 anni con nuovo esame di fonia): non esiste un simile termine quinquennale con obbligo di riesame. È falsa l'opzione 4 (rinnovo automatico tramite bollettino postale ogni 6 mesi): non è prevista alcuna procedura di rinnovo semestrale in ufficio postale."
         },
         {
           "n": 216,
@@ -2945,7 +2945,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'abilitazione di classe SEP è valida 2 anni dalla data del rilascio."
+          "explanation": "L'abilitazione di classe per monomotori (SEP) è valida 2 anni dalla data del rilascio. È falsa l'opzione 1 (1 anno): tale durata più breve corrisponde invece all'abilitazione plurimotori (MEP). È falsa l'opzione 3 (5 anni): periodo troppo lungo, non previsto per nessuna abilitazione di classe. È falsa l'opzione 4 (sempre): l'abilitazione di classe, a differenza della licenza, ha sempre una scadenza periodica."
         },
         {
           "n": 217,
@@ -2959,7 +2959,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "EASA sta per European Aviation Safety Agency."
+          "explanation": "EASA è l'acronimo di European Aviation Safety Agency, l'agenzia europea per la sicurezza aerea. È falsa l'opzione 1 (European Aircraft System Agency): denominazione inventata, non corrisponde all'acronimo reale. È falsa l'opzione 3 (External Aviation System Aircraft): sequenza priva di senso normativo, non è l'acronimo ufficiale. È falsa l'opzione 4 (European Aviation Security Agency): confonde 'Safety' (sicurezza operativa) con 'Security' (sicurezza da atti illeciti), termine che appartiene ad altri ambiti regolatori."
         },
         {
           "n": 218,
@@ -2973,7 +2973,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In classe C occorrono contatto radio continuo, autorizzazione ATC, IAS max 250 kt sotto FL100 e transponder in modo A e C."
+          "explanation": "Per il volo VFR in spazio aereo di Classe C sono richiesti, oltre alle minime meteorologiche, contatto radio continuo, autorizzazione ATC, velocità IAS non superiore a 250 nodi se al di sotto di FL100, e transponder in modo A e C. È falsa l'opzione 1 (limite di velocità applicato solo sopra FL100): il limite dei 250 kt si applica invece sotto FL100, non sopra, e l'opzione omette inoltre il modo C del transponder. È falsa l'opzione 3 (limite di velocità sempre applicato, senza riferimento a FL100): la soglia dei 250 kt è specificamente legata alla quota sotto FL100, non è un limite assoluto in ogni condizione. È falsa l'opzione 4 (autorizzazione ATC richiesta solo sopra FL100): l'autorizzazione ATC in classe C è sempre richiesta, indipendentemente dalla quota."
         },
         {
           "n": 219,
@@ -2987,7 +2987,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il certificato medico di 2a classe è rilasciato o rinnovato da un Medico Esaminatore Aeronautico (AME) o da un Centro Aeromedico (AeMC)."
+          "explanation": "Il certificato medico aeronautico di 2a classe per un PPL è rilasciato o rinnovato da un Medico Esaminatore Aeronautico (AME) autorizzato o da un Centro Aeromedico (AeMC). È falsa l'opzione 1 (proprio medico di base): un medico generico non ha la qualifica aeronautica specifica richiesta per questo tipo di certificazione. È falsa l'opzione 3 (medico specializzato in medicina sportiva): tale specializzazione non equivale alla qualifica di AME richiesta in ambito aeronautico. È falsa l'opzione 4 (esclusivamente ospedali militari IML): gli IML operano nel contesto specifico militare, non sono il canale ordinario per il certificato medico civile di 2a classe."
         },
         {
           "n": 220,
@@ -3001,7 +3001,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per il VP (elica a passo variabile) la normativa EASA non fissa ore minime: decide l'istruttore o l'ATO in base alla competenza raggiunta."
+          "explanation": "Per velivoli con elica a passo variabile (VP), l'addestramento per differenze EASA Part-FCL richiede un numero di ore a discrezione dell'istruttore o della scuola (ATO/DTO), fino al raggiungimento della competenza necessaria, senza un minimo legale fisso. È falsa l'opzione 2 (rigorosamente 1 ora): non è previsto un minimo legale rigido di 1 ora per il VP. È falsa l'opzione 3 (rigorosamente 2 ore): parimenti non corrisponde a un minimo fisso imposto dalla norma. È falsa l'opzione 4 (rigorosamente 3 ore): anche questo valore non è un minimo legale fissato, la norma lascia la valutazione alla competenza raggiunta."
         },
         {
           "n": 221,
@@ -3015,7 +3015,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'AFIS fornisce informazioni utili per decolli, atterraggi e traffico locale, ma non emette autorizzazioni di controllo."
+          "explanation": "L'AFIS (Aerodrome Flight Information Service) è un servizio informazioni volo aeroportuale che fornisce ai piloti informazioni utili per decolli, atterraggi e traffico locale, senza tuttavia emettere autorizzazioni di controllo tipiche di un ATC. È falsa l'opzione 2 (informazioni via radio solo dall'Aero Club locale): l'AFIS è un servizio istituzionale fornito da personale abilitato, non un'iniziativa dell'Aero Club. È falsa l'opzione 3 (radiodiffusione continua tipo ATIS): l'AFIS fornisce assistenza attiva su richiesta/contatto, non una trasmissione automatica ripetitiva come l'ATIS. È falsa l'opzione 4 (servizio solo per la preparazione dei piani di volo a terra): l'AFIS opera durante le fasi di decollo, atterraggio e traffico locale, non si limita alla preparazione a terra dei piani di volo."
         },
         {
           "n": 222,
@@ -3029,7 +3029,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il formato ICAO standard dell'AIP prevede 3 sezioni principali: GEN, ENR, AD."
+          "explanation": "Il formato standard ICAO per l'AIP prevede 3 sezioni principali: GEN (generalità), ENR (en-route) e AD (aerodromi). È falsa l'opzione 1 (8): numero di sezioni non corrispondente alla struttura standard ICAO. È falsa l'opzione 2 (7): parimenti non corrisponde alla suddivisione reale in tre parti. È falsa l'opzione 3 (5): anche questo valore eccede il numero effettivo di sezioni principali previste."
         },
         {
           "n": 223,
@@ -3043,7 +3043,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Salvo diversa pubblicazione in AIP, i limiti standard di un'ATZ sono un cilindro di 5 NM di raggio fino a 2.000 ft AGL."
+          "explanation": "Quando non diversamente pubblicato in AIP, i limiti standard di un'ATZ controllata sono un cilindro centrato sull'aeroporto con raggio di 5 NM ed estensione verticale fino a 2.000 ft AGL. È falsa l'opzione 2 (cilindro di 10 NM fino a FL100): dimensioni eccessive rispetto allo standard previsto per l'ATZ. È falsa l'opzione 3 (solo il perimetro dell'aeroporto, senza estensione verticale): l'ATZ ha invece una precisa estensione sia orizzontale sia verticale definita. È falsa l'opzione 4 (cilindro di 5 NM fino a 1.500 ft AGL): il raggio orizzontale è corretto, ma l'estensione verticale standard è 2.000 ft, non 1.500 ft."
         },
         {
           "n": 224,
@@ -3057,7 +3057,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In classe G è raccomandato ai VFR di effettuare riporti di posizione ogni 30 minuti."
+          "explanation": "In Italia, per gli spazi aerei di Classe G, è raccomandato ai voli VFR di effettuare chiamate radio per riportare la posizione a intervalli di 30 minuti. È falsa l'opzione 1 (20 minuti): intervallo più breve di quello effettivamente raccomandato. È falsa l'opzione 3 (60 minuti): intervallo più lungo di quello raccomandato, che ridurrebbe l'efficacia del riporto di posizione. È falsa l'opzione 4 (nessun riporto è mai raccomandato): un riporto periodico è invece esplicitamente raccomandato dalle procedure AIP."
         },
         {
           "n": 225,
@@ -3071,7 +3071,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Su un aeromobile certificato solo nella categoria 'Normal' le manovre acrobatiche intenzionali non sono consentite."
+          "explanation": "Su un aeromobile certificato esclusivamente nella categoria 'Normal' le manovre acrobatiche intenzionali non sono consentite, essendo il velivolo progettato e certificato per un inviluppo di volo non acrobatico. È falsa l'opzione 2 (sì, senza alcuna limitazione): affermazione opposta alla realtà, la certificazione Normal esclude proprio le manovre acrobatiche. È falsa l'opzione 3 (sì, con abilitazione acrobatica): l'abilitazione del pilota non può estendere l'inviluppo di volo oltre i limiti strutturali certificati del velivolo. È falsa l'opzione 4 (sì, con istruttore a bordo): la presenza di un istruttore non supera il vincolo di certificazione del velivolo stesso."
         },
         {
           "n": 226,
@@ -3085,7 +3085,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Se il meteo peggiora in radio avaria, si atterra all'aeroporto idoneo più vicino mantenendo la VMC, si informa l'ATS appena possibile e si attiva il transponder sul 7600."
+          "explanation": "Se in radio avaria le condizioni meteorologiche peggiorano rendendo impossibile mantenere la VMC, il pilota deve atterrare all'aeroporto idoneo più vicino mantenendo la VMC, informare l'ente ATS appena possibile e attivare il transponder sul codice 7600 (avaria radio). È falsa l'opzione 1 (ritornare all'aeroporto di partenza con transponder 7000): il codice 7000 è quello generico VFR, non quello specifico per l'avaria radio (7600), e non è detto che l'aeroporto di partenza sia il più idoneo/vicino. È falsa l'opzione 3 (salire al primo livello IFR e continuare senza visibilità): un pilota VFR in avaria radio non deve trasformare il volo in un IFR di fatto senza visibilità, azione pericolosa e non prevista. È falsa l'opzione 4 (spegnere il transponder e scendere sotto 500 ft): spegnere il transponder priverebbe l'ATC di ogni informazione sul volo, esattamente l'opposto della procedura corretta."
         },
         {
           "n": 227,
@@ -3099,7 +3099,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La licenza PPL come documento non scade mai; l'esercizio dei privilegi dipende dal mantenimento in corso di validità di abilitazioni (es. SEP) e certificato medico."
+          "explanation": "La licenza di Pilota Privato (PPL), come documento, non ha scadenza (è valida a vita), ma l'esercizio dei relativi privilegi è subordinato al mantenimento in corso di validità delle abilitazioni (es. SEP) e del certificato medico. È falsa l'opzione 2 (scade ogni 5 anni e va ristampata dall'ENAC): la licenza in sé non ha una scadenza quinquennale sotto EASA. È falsa l'opzione 3 (validità limitata a 3 anni): valore non corrispondente alla realtà normativa attuale della licenza PPL. È falsa l'opzione 4 (non scade mai a patto di 12 ore/anno su qualsiasi mezzo): non esiste un simile requisito generico di ore annue su 'qualsiasi mezzo aereo' collegato alla validità della licenza; ciò che va mantenuto sono le specifiche abilitazioni."
         },
         {
           "n": 228,
@@ -3113,7 +3113,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La visibilità ridotta in classe G è ammessa sotto i 3.000 ft (o 1.000 ft AGL), liberi dalle nubi, in vista del suolo, con velocità tale da evitare collisioni (fino a 140 kt)."
+          "explanation": "Secondo SERA, in Classe G la visibilità ridotta (fino a 1.500 m per aerei) è ammessa a condizione di volare al di sotto di 3.000 ft AMSL o 1.000 ft AGL, liberi dalle nubi e in vista del suolo, con velocità tale da poter evitare collisioni, tipicamente IAS non superiore a 140 kt per gli aerei. È falsa l'opzione 1 (sopra la quota di transizione e IAS>150 kt): condizione opposta a quella reale, che si applica invece sotto i 3.000/1.000 ft e a velocità ridotte. È falsa l'opzione 3 (supervisione radar di un ente ATC militare): non è richiesta alcuna supervisione radar militare per questa condizione. È falsa l'opzione 4 (TCAS funzionante a bordo): il TCAS non è un requisito previsto per operare con visibilità ridotta in classe G."
         },
         {
           "n": 229,
@@ -3141,7 +3141,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Secondo Part-MED, il certificato medico di 2a classe per PPL sotto i 40 anni è valido 60 mesi (5 anni)."
+          "explanation": "Secondo Part-MED, il certificato medico di 2a classe per un PPL di età inferiore ai 40 anni è valido 60 mesi (5 anni). È falsa l'opzione 2 (24 mesi): tale durata più breve si applica a fasce di età più avanzate. È falsa l'opzione 3 (12 mesi): periodo ancora più breve, non applicabile a questa fascia d'età. È falsa l'opzione 4 (6 mesi): periodo troppo breve, non previsto per nessuna fascia d'età di questo certificato."
         },
         {
           "n": 231,
@@ -3155,7 +3155,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il piano di volo VFR, quando obbligatorio, va inoltrato all'ARO con almeno 60 minuti di anticipo sull'EOBT."
+          "explanation": "Secondo SERA, un piano di volo VFR che deve obbligatoriamente essere presentato prima della partenza va inoltrato all'ARO con almeno 60 minuti di anticipo sull'EOBT (Estimated Off-Block Time). È falsa l'opzione 1 (15 minuti prima dell'avviamento motori): anticipo insufficiente rispetto al requisito reale. È falsa l'opzione 2 (30 minuti prima del decollo stimato): valore anch'esso inferiore al margine richiesto e riferito erroneamente al decollo anziché all'EOBT. È falsa l'opzione 3 (2 ore prima della partenza): anticipo superiore a quello effettivamente richiesto dalla norma."
         },
         {
           "n": 232,
@@ -3169,7 +3169,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Attraversando il campo da sopravvento per inserirsi in circuito si passa in corrispondenza del centro o della fine pista."
+          "explanation": "Provenendo da zona sopravvento e volendo inserirsi in circuito, occorre attraversare il campo in corrispondenza del centro o della fine pista. È falsa l'opzione 1 (testata pista in uso): attraversare in testata pista comporterebbe interferenza diretta con le operazioni di decollo/atterraggio. È falsa l'opzione 3 (normale base destra): tale tratto del circuito è destinato al volo in circuito, non all'attraversamento diretto del campo da sopravvento. È falsa l'opzione 4 (normale virata in finale): analogamente, la finale è una fase di avvicinamento all'atterraggio, non il punto previsto per l'attraversamento del campo."
         },
         {
           "n": 233,
@@ -3183,7 +3183,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Gli ostacoli con elevazione oltre 15 piedi (circa 4,5 m) vanno segnalati con verniciatura a scacchi o bande."
+          "explanation": "Gli ostacoli con superficie essenzialmente ininterrotta e elevazione dal suolo superiore a 15 piedi (circa 4,5 metri) vengono di norma segnalati con verniciatura a scacchi o a bande nella zona aeroportuale. È falsa l'opzione 1 (5 metri): valore vicino ma non corrispondente alla soglia reale di circa 4,5 metri (15 piedi). È falsa l'opzione 3 (1.500 piedi): valore enormemente superiore, non compatibile con una soglia di segnalazione per ostacoli in prossimità del suolo aeroportuale. È falsa l'opzione 4 (3.000 piedi): valore ancora più incoerente con la soglia reale, che è dell'ordine di pochi metri."
         },
         {
           "n": 234,
@@ -3197,7 +3197,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il volo in formazione è ammesso previo accordo tra i piloti in comando, con autorizzazione ATC se in spazio controllato."
+          "explanation": "Secondo SERA, il volo in formazione tra aeromobili civili è consentito previo accordo tra i piloti in comando coinvolti, con la necessità di un'autorizzazione ATC se il volo avviene in spazio aereo controllato. È falsa l'opzione 1 (sì, a patto che non vi siano passeggeri paganti): la presenza di passeggeri paganti non è il criterio che regola l'ammissibilità del volo in formazione. È falsa l'opzione 2 (sì, a discrezione assoluta senza alcun preavviso): è invece richiesto un preventivo accordo tra i piloti, non una discrezione assoluta senza coordinamento. È falsa l'opzione 3 (mai consentito in ambito civile, solo militare): il volo in formazione è consentito anche in ambito civile, alle condizioni indicate."
         },
         {
           "n": 235,
@@ -3211,7 +3211,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In classe G la responsabilità della separazione da traffico e ostacoli è esclusivamente del pilota in comando."
+          "explanation": "Negli spazi aerei non controllati (Classe G), la responsabilità primaria di mantenere la separazione da altro traffico e dagli ostacoli al suolo in un volo VFR spetta esclusivamente al pilota in comando (principio del 'see and avoid'). È falsa l'opzione 2 (Servizio Informazioni di Volo FIS): il FIS fornisce informazioni utili ma non assume la responsabilità della separazione, che resta del pilota. È falsa l'opzione 3 (controllore d'area ACC): in spazio non controllato non viene fornito un servizio di controllo con separazione attiva. È falsa l'opzione 4 (ENAC attraverso gli enti aeroportuali): ENAC regolamenta il sistema, ma non assume operativamente la responsabilità di separazione del singolo volo."
         },
         {
           "n": 236,
@@ -3225,7 +3225,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il certificato RC aeronautico è emesso dalla compagnia assicurativa, senza necessità di vidimazione aeroportuale o ministeriale."
+          "explanation": "Il certificato di assicurazione RC obbligatorio a bordo è emesso regolarmente dalla compagnia di assicurazione, senza necessità di alcuna vidimazione aeroportuale o ministeriale aggiuntiva. È falsa l'opzione 1 (vidimato ogni anno dal Direttore dell'Aeroporto): non è prevista una simile vidimazione annuale da parte della direzione aeroportuale. È falsa l'opzione 3 (vidimato in Questura): la Questura non ha competenza sulla validazione dei certificati assicurativi aeronautici. È falsa l'opzione 4 (approvato dall'Ufficio Legale ENAC tramite bollo): non è richiesta un'approvazione formale di ENAC per la validità del certificato assicurativo, che è atto della sola compagnia."
         },
         {
           "n": 237,
@@ -3239,7 +3239,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per l'SVFR in CTR servono almeno 1.500 m di visibilità, restando fuori dalle nubi e in vista del suolo."
+          "explanation": "Per ottenere e mantenere un'autorizzazione al volo VFR Speciale (SVFR) in un CTR, SERA richiede una visibilità in volo non inferiore a 1.500 m, mantenendosi liberi dalle nubi e in continuo contatto visivo con il suolo. È falsa l'opzione 2 (visibilità non inferiore a 5 Km e ceiling non inferiore a 1.500 ft): tali valori, più stringenti sulla visibilità e riferiti a un ceiling minimo, non corrispondono ai requisiti specifici dell'SVFR. È falsa l'opzione 3 (visibilità illimitata e assenza totale di precipitazioni): requisito eccessivamente restrittivo e non previsto per l'SVFR. È falsa l'opzione 4 (visibilità non inferiore a 3 Km e 1.000 ft verticali dalle nubi): valori differenti da quelli specificamente richiesti per l'autorizzazione SVFR."
         },
         {
           "n": 238,
@@ -3253,7 +3253,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il regolamento 1178/2011 stabilisce i requisiti tecnici e le procedure amministrative per gli equipaggi dell'aviazione civile."
+          "explanation": "Il Regolamento UE 1178/2011, nell'ambito EASA, stabilisce i requisiti tecnici e le procedure amministrative relativamente agli equipaggi dell'aviazione civile (licenze, abilitazioni, certificati medici). È falsa l'opzione 2 (requisiti tecnici delle organizzazioni di addestramento): tale materia è disciplinata da altre parti del regolamento (es. requisiti ATO), non è l'oggetto principale del 1178/2011 nel suo complesso. È falsa l'opzione 3 (requisiti amministrativi dell'autorità): il regolamento riguarda gli equipaggi, non l'organizzazione interna delle autorità competenti. È falsa l'opzione 4 (nessuna delle precedenti risposte è corretta): la prima opzione descrive correttamente l'oggetto del regolamento."
         },
         {
           "n": 239,
@@ -3267,7 +3267,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "I livelli semicircolari sono livelli di crociera standard basati sulla rotta magnetica, obbligatori per il VFR in rotta sopra i 3.000 ft AGL salvo diverse istruzioni."
+          "explanation": "I livelli di volo semicircolari sono livelli di crociera standardizzati basati sulla rotta magnetica dell'aeromobile, obbligatori per i voli VFR in rotta sopra i 3.000 ft AGL se non diversamente istruiti dall'ATC. È falsa l'opzione 2 (quote suggerite per il VFR sotto i 3.000 ft): la regola semicircolare si applica sopra tale quota, non al di sotto, dove si vola tipicamente per altezze/QNH. È falsa l'opzione 3 (usati esclusivamente per aerei di linea in Classe A): la regola semicircolare (con lo scaglione +500 ft) si applica al traffico VFR in generale, non solo agli aerei di linea in spazio di Classe A. È falsa l'opzione 4 (basati sulla pressione QFE dell'aeroporto di partenza): i livelli di volo si basano sul QNE standard (1013 hPa), non sul QFE di un particolare aeroporto."
         },
         {
           "n": 240,
@@ -3281,7 +3281,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nel quesito la revisione dello stimato va notificata se l'errore è di almeno 2 minuti rispetto all'ultimo orario comunicato."
+          "explanation": "Nel quesito, l'errore massimo tollerato sull'ETA prima di dover comunicare una revisione all'ente ATS è fissato a 2 minuti. È falsa l'opzione 2 (3 minuti): valore comunemente associato alla soglia di revisione ETA in spazio aereo controllato secondo la regolamentazione SERA/ICAO, ma diverso dal valore indicato come corretto in questo specifico quesito. È falsa l'opzione 3 (5 minuti): soglia associata invece al volo in spazio non controllato, valore maggiore non applicabile qui. È falsa l'opzione 4 (10 minuti): margine troppo ampio, non compatibile con nessuna soglia di revisione ETA prevista dalla normativa."
         },
         {
           "n": 241,
@@ -3295,7 +3295,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La Licenza di Stazione Radio non ha una scadenza fissa periodica: resta valida col regolare pagamento dei canoni, decadendo se cambia l'impianto o il proprietario."
+          "explanation": "La Licenza di Stazione Radioelettrica di bordo non ha una scadenza fissa periodica: resta valida a condizione che sia regolarmente pagato il canone e decade solo se cambiano gli apparati installati o il proprietario dell'aeromobile. È falsa l'opzione 1 (rinnovo ogni 3 anni con esame tecnico): non è prevista una scadenza triennale con nuovo esame. È falsa l'opzione 3 (stessa durata del certificato medico del pilota): la licenza radio è un documento riferito all'aeromobile e ai suoi apparati, indipendente dalla scadenza del certificato medico del pilota. È falsa l'opzione 4 (scade il 31 dicembre di ogni anno solare): non esiste una scadenza calendariale fissa di questo tipo."
         },
         {
           "n": 242,
@@ -3309,7 +3309,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Impiegare l'aeromobile oltre i limiti operativi del CofA/Manuale di Volo ne sospende temporaneamente la validità."
+          "explanation": "Se un aeromobile viene impiegato al di fuori dei limiti operativi specificati sul Certificato di Navigabilità e nel Manuale di Volo, il Certificato di Navigabilità perde temporaneamente di validità (sospensione), fino al ripristino delle condizioni previste. È falsa l'opzione 2 (non accade nulla se il volo si conclude senza incidenti): la sospensione della validità del CofA è automatica per il superamento dei limiti operativi, indipendentemente dall'esito del volo. È falsa l'opzione 3 (il certificato scade solo con riscontro radar dell'infrazione): la validità non dipende dal fatto che l'infrazione venga rilevata da un ente esterno. È falsa l'opzione 4 (basta una multa e l'aereo può volare subito dopo): l'aeromobile non può riprendere a volare finché non viene ripristinata la condizione di conformità ai limiti operativi."
         },
         {
           "n": 243,
@@ -3323,7 +3323,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "ENAC è l'unica autorità italiana di regolamentazione tecnica, certificazione e vigilanza nel settore dell'aviazione civile."
+          "explanation": "ENAC è l'unica Autorità in Italia di regolamentazione tecnica, certificazione e vigilanza nel settore dell'aviazione civile. È falsa l'opzione 1 (ente militare che controlla lo spazio aereo superiore): ENAC è un'autorità civile, non militare, e la sua competenza non si limita al solo spazio aereo superiore. È falsa l'opzione 3 (società privata che gestisce i servizi radar): ENAC è un ente pubblico regolatore, non un fornitore privato di servizi radar (ruolo che in Italia svolge ENAV). È falsa l'opzione 4 (dipartimento del Ministero dell'Interno per la sicurezza aeroportuale): ENAC non è un dipartimento del Ministero dell'Interno, ma un ente autonomo dedicato all'aviazione civile."
         },
         {
           "n": 244,
@@ -3337,7 +3337,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per Stati extra-Schengen occorre usare un aeroporto doganale ed espletare le formalità di polizia e sanitarie."
+          "explanation": "Per aeromobili immatricolati in Stati non aderenti al trattato di Schengen, per uscire ed entrare nel territorio nazionale occorre usare un aeroporto doganale e adempiere alle formalità di polizia e sanitarie. È falsa l'opzione 2 (aeroporto qualsiasi, purché formalità di polizia e sanitarie): senza il transito da un aeroporto doganale, i controlli di frontiera necessari non possono essere effettuati correttamente. È falsa l'opzione 3 (basta pagare le tasse di sorvolo): il pagamento delle tasse non sostituisce gli adempimenti doganali, di polizia e sanitari richiesti. È falsa l'opzione 4 (aeroporto doganale e pagare le tasse): omette le formalità di polizia e sanitarie, comunque necessarie oltre al transito doganale."
         },
         {
           "n": 245,
@@ -3351,7 +3351,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'estensione dell'abilitazione SEP alle varianti viene validata dall'istruttore con annotazione e firma sul libretto di volo personale."
+          "explanation": "L'estensione dell'abilitazione SEP alle possibili varianti (addestramento per differenze, es. passo variabile, carrello retrattile) viene validata dall'istruttore che ha condotto l'addestramento, tramite annotazione e firma sul libretto di volo personale del pilota. È falsa l'opzione 1 (direttamente dall'ENAC sulla licenza tramite modulo): non è ENAC a validare direttamente ogni singola variante addestrativa sulla licenza. È falsa l'opzione 2 (dal medico aeronautico durante il rinnovo della visita): il medico si occupa dell'idoneità psicofisica, non della validazione delle competenze di volo per le varianti. È falsa l'opzione 4 (dall'Aero Club d'Italia su un registro nazionale): l'AeCI non ha questa funzione di validazione tecnica delle differenze addestrative."
         },
         {
           "n": 246,
@@ -3365,7 +3365,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il possesso dell'esperienza recente richiesta per portare passeggeri è accertato dallo stesso pilota in comando, sotto la sua responsabilità."
+          "explanation": "Il possesso dell'esperienza recente richiesta per il trasporto di passeggeri (es. 3 decolli e atterraggi negli ultimi 90 giorni) è accertato dallo stesso pilota in comando, titolare della licenza, sotto la propria responsabilità. È falsa l'opzione 2 (un istruttore di volo prima di autorizzare la partenza): non è previsto un controllo sistematico da parte di un istruttore prima di ogni volo con passeggeri. È falsa l'opzione 3 (il gestore aeroportuale prima dell'imbarco): il gestore aeroportuale non ha questa funzione di verifica dei requisiti del pilota. È falsa l'opzione 4 (ENAC tramite controlli a campione in rampa): eventuali controlli ENAC sono ispettivi ed eventuali, non la modalità primaria di accertamento del requisito."
         },
         {
           "n": 247,
@@ -3379,7 +3379,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'assicurazione RC per danni a terzi è obbligatoria per legge, con coperture minime fissate da regolamenti come il CE 785/2004."
+          "explanation": "L'assicurazione per i danni ai terzi in superficie (RC) è obbligatoria per legge per tutti gli aeromobili, e le coperture minime sono fissate da specifici regolamenti, come il Regolamento CE 785/2004. È falsa l'opzione 1 (facoltativa sotto i 2000 kg): non esiste un'esenzione dall'obbligo assicurativo basata sul peso dell'aeromobile. È falsa l'opzione 3 (copre unicamente i danni al pilota in comando): l'assicurazione RC copre i danni a terzi (persone/beni estranei al volo), non è pensata per coprire il pilota stesso. È falsa l'opzione 4 (richiesta solo per lavoro aereo remunerato): l'obbligo assicurativo si applica in generale, indipendentemente dalla natura commerciale o privata del volo."
         },
         {
           "n": 248,
@@ -3393,7 +3393,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La sorveglianza tecnica su certificazione e aeronavigabilità in Italia è competenza di ENAC."
+          "explanation": "La sorveglianza tecnica sulla certificazione e sul mantenimento dell'aeronavigabilità degli aerei in Italia è competenza di ENAC. È falsa l'opzione 1 (Aero Club d'Italia): l'AeCI si occupa di attività sportiva e associativa, non di sorveglianza tecnica sull'aeronavigabilità. È falsa l'opzione 2 (Questura o Prefettura): tali enti si occupano di ordine pubblico e sicurezza, non di certificazione tecnica aeronautica. È falsa l'opzione 4 (Ministero dell'Ambiente): tale ministero non ha competenze in materia di aeronavigabilità degli aeromobili."
         },
         {
           "n": 249,
@@ -3407,7 +3407,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La 'Revalidation' è la procedura per prolungare un'abilitazione SEP non ancora scaduta, ad esempio dimostrando esperienza recente e un volo con istruttore."
+          "explanation": "La 'Revalidation' (rinnovo) di un'abilitazione di classe SEP è la procedura amministrativa per prolungare la validità di un'abilitazione non ancora scaduta, ad esempio dimostrando l'esperienza recente e un volo con istruttore. È falsa l'opzione 1 (esame pratico per riottenere un'abilitazione già scaduta): questa descrizione corrisponde piuttosto al 'renewal' di un'abilitazione scaduta, non alla revalidation di una abilitazione ancora valida. È falsa l'opzione 3 (visita medica obbligatoria periodica): la revalidation riguarda l'abilitazione di classe, non è la visita medica, procedura distinta e parallela. È falsa l'opzione 4 (rinnovo dell'iscrizione all'Aero Club): tale iscrizione è materia associativa, estranea alla revalidation dell'abilitazione SEP."
         },
         {
           "n": 250,
@@ -3421,7 +3421,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Per il RU (carrello retrattile) EASA non fissa ore minime: il numero di ore dipende dalla competenza raggiunta, a discrezione dell'istruttore/ATO."
+          "explanation": "L'addestramento per differenze SEP per velivoli con carrello retrattile (RU) richiede un numero di ore basato sulla competenza raggiunta, a discrezione dell'istruttore o dell'ATO, senza un minimo legale fisso. È falsa l'opzione 1 (addestramento obbligatorio di 3 ore): non è previsto un minimo legale rigido di 3 ore per il RU. È falsa l'opzione 2 (addestramento obbligatorio di 2 ore): parimenti non corrisponde a un minimo legale fissato dalla norma. È falsa l'opzione 3 (esclusivamente un briefing a terra di 5 ore): un solo briefing teorico a terra non è sufficiente né corrisponde a quanto previsto, essendo richiesta anche pratica di volo secondo competenza."
         },
         {
           "n": 251,
@@ -3435,7 +3435,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La visibilità ridotta a 1.500 m in classe G sotto i 3.000/1.000 ft è ammessa solo con IAS non superiore a 140 kt, restando liberi dalle nubi e in vista della superficie."
+          "explanation": "In Classe G sotto i 3.000 ft AMSL o 1.000 ft AGL, la visibilità ridotta a 1.500 m per gli aeroplani è ammessa solo con IAS pari o inferiore a 140 nodi, restando liberi dalle nubi e in vista della superficie. È falsa l'opzione 1 (solo se l'aeromobile opera di notte NVFR): la condizione determinante è la velocità, non l'orario notturno. È falsa l'opzione 3 (pilota automatico inserito): l'uso del pilota automatico non è un criterio previsto dalla norma per la riduzione della visibilità minima. È falsa l'opzione 4 (volo IFR in corso): la regola in questione riguarda specificamente il volo VFR, non un volo condotto secondo le regole IFR."
         },
         {
           "n": 252,
@@ -3449,7 +3449,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il regolamento UE 965/2012 (Air OPS) definisce i requisiti tecnici e le procedure amministrative per le operazioni di volo dell'aviazione civile."
+          "explanation": "Il Regolamento UE 965/2012 (Air OPS) definisce i requisiti tecnici e le procedure amministrative relativamente alle operazioni di volo dell'aviazione civile. È falsa l'opzione 1 (216/2008): tale regolamento istituisce l'EASA e ne definisce le competenze generali, non le operazioni di volo nel dettaglio. È falsa l'opzione 3 (261/2008): tale regolamento riguarda i diritti dei passeggeri, materia estranea alle procedure operative di volo. È falsa l'opzione 4 (1178/2011): tale regolamento disciplina le licenze degli equipaggi, non le operazioni di volo."
         },
         {
           "n": 253,
@@ -3463,7 +3463,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le marche di immatricolazione civile in Italia sono assegnate da ENAC."
+          "explanation": "Le marche di immatricolazione (I-XXXX) di un velivolo civile in Italia sono assegnate da ENAC. È falsa l'opzione 1 (Agenzia delle Entrate): tale ente si occupa di fiscalità, non ha competenza sull'immatricolazione aeronautica. È falsa l'opzione 2 (Aero Club d'Italia): l'AeCI non ha il potere di assegnare marche di immatricolazione, funzione riservata all'autorità aeronautica civile. È falsa l'opzione 4 (Motorizzazione Civile): tale ente si occupa di veicoli terrestri, non ha competenza sull'immatricolazione degli aeromobili."
         },
         {
           "n": 254,
@@ -3477,7 +3477,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Difetti, malfunzionamenti e dati tecnici di ogni volo vanno annotati sul Quaderno Tecnico di Bordo (Aircraft Technical Logbook)."
+          "explanation": "I difetti, i malfunzionamenti e i dati tecnici relativi a ogni volo devono essere regolarmente annotati dal pilota sull'Aircraft Technical Logbook (Quaderno Tecnico di Bordo), documento specifico dell'aeromobile. È falsa l'opzione 2 (esclusivamente nel proprio logbook personale): il libretto di volo personale registra l'attività di volo del pilota, non i dati tecnici e i malfunzionamenti dell'aeromobile. È falsa l'opzione 3 (sulla licenza di stazione radio): tale documento riguarda gli apparati radio, non è la sede per annotare difetti tecnici generali del velivolo. È falsa l'opzione 4 (sul retro della ricevuta del carburante): non è un documento ufficiale destinato alla registrazione di dati tecnici e malfunzionamenti."
         },
         {
           "n": 255,
@@ -3491,7 +3491,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il RAN tiene traccia dell'immatricolazione e annota proprietà e diritti reali (es. ipoteche) sugli aeromobili civili."
+          "explanation": "Il compito specifico del Registro Aeronautico Nazionale (RAN) è tenere traccia dell'immatricolazione e annotare la proprietà e i diritti reali (es. ipoteche) sugli aeromobili civili. È falsa l'opzione 1 (rilasciare l'abilitazione alla fonia aeronautica): tale compito appartiene ad altri enti/procedure, non al registro di immatricolazione. È falsa l'opzione 3 (rilasciare le licenze di pilotaggio EASA): il rilascio delle licenze è compito di ENAC tramite le procedure Part-FCL, non del RAN. È falsa l'opzione 4 (supervisionare l'addestramento pratico nelle scuole di volo): tale supervisione spetta ad ENAC/ATO, non al registro di immatricolazione."
         },
         {
           "n": 256,
@@ -3505,7 +3505,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Nella categoria 'Utility' sono consentite solo alcune manovre acrobatiche limitate, specificamente indicate nel Manuale di Volo."
+          "explanation": "Su un aeromobile certificato nella categoria 'Utility', sono consentite solo alcune specifiche manovre acrobatiche limitate (es. viti approvate), rigorosamente indicate nel Manuale di Volo del velivolo. È falsa l'opzione 1 (tutte le manovre acrobatiche senza eccezioni): la categoria Utility non equivale a una piena certificazione acrobatica, che comporta limiti strutturali più permissivi (categoria Aerobatic). È falsa l'opzione 3 (nessuna, equiparato in tutto alla categoria Normal): a differenza della categoria Normal, la Utility consente comunque alcune manovre limitate specificamente indicate. È falsa l'opzione 4 (solo looping con istruttore a bordo): non è il looping in generale a essere ammesso, ma le specifiche manovre elencate nel Manuale di Volo, che variano da velivolo a velivolo."
         },
         {
           "n": 257,
@@ -3519,7 +3519,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In classe G tra 3.000/1.000 ft e FL100 servono 5 km di visibilità, 1.500 m orizzontali e 1.000 ft verticali dalle nubi."
+          "explanation": "In Classe G sopra 3.000 ft AMSL (o 1.000 ft AGL) e sotto FL100, il volo VFR richiede 5 km di visibilità, 1.500 m di distanza orizzontale e 1.000 ft (300 m) di distanza verticale dalle nubi. È falsa l'opzione 2 (8 km e libero dalle nubi): valore di visibilità superiore a quello richiesto e privo delle distanze specifiche dalle nubi previste in questa fascia. È falsa l'opzione 3 (1,5 km, in vista del suolo e libero dalle nubi): tali valori corrispondono semmai a condizioni particolari sotto i 3.000/1.000 ft con velocità ridotta, non a questa fascia di quota. È falsa l'opzione 4 (nessun limite di visibilità sotto i 140 nodi): non esiste un'esenzione totale dal requisito di visibilità legata alla sola velocità in questa fascia."
         },
         {
           "n": 258,
@@ -3533,7 +3533,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il mantenimento della validità del CofA è oggi attestato dall'ARC, rilasciato o rinnovato da un'organizzazione approvata come una CAMO o CAO."
+          "explanation": "Sotto la normativa EASA, il mantenimento della validità del Certificato di Navigabilità è attestato tramite l'emissione o il rinnovo di un ARC (Airworthiness Review Certificate) da parte di un'organizzazione approvata, come una CAMO o una CAO. È falsa l'opzione 1 (rinnovo annuale presso l'Autorità Consolare in caso di volo all'estero): non è prevista una simile procedura consolare per il mantenimento del CofA. È falsa l'opzione 3 (revisione trimestrale presso la Motorizzazione Civile): tale ente non ha competenza sull'aeronavigabilità e non è prevista una revisione trimestrale. È falsa l'opzione 4 (pagamento di una tassa postale): il mantenimento della navigabilità richiede una verifica tecnica formale (ARC), non un semplice pagamento."
         },
         {
           "n": 259,
@@ -3547,7 +3547,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le informazioni per il piano di volo si reperiscono oggi tramite i sistemi digitali di self-briefing (es. ENAV) o interpellando gli ARO."
+          "explanation": "Oggi le informazioni aeronautiche necessarie (AIP, NOTAM, PIB) per la preparazione del piano di volo si reperiscono primariamente tramite i sistemi digitali di self-briefing (ad esempio quelli di ENAV) oppure interpellando gli ARO (Aerodrome Reporting Office). È falsa l'opzione 1 (esclusivamente presso la segreteria tecnica dell'Aero Club locale): l'Aero Club non è la fonte primaria e ufficiale delle informazioni aeronautiche ufficiali. È falsa l'opzione 3 (chiamando via radio la Torre prima di accendere i motori): la torre fornisce assistenza operativa al volo, non è il canale primario per la preparazione documentale del piano di volo. È falsa l'opzione 4 (leggendo bollettini esposti in Questura): la Questura non pubblica le informazioni aeronautiche necessarie alla pianificazione del volo."
         },
         {
           "n": 260,
@@ -3561,7 +3561,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'abilitazione di classe MEP è valida 1 anno dal rilascio."
+          "explanation": "L'abilitazione di classe per plurimotori (MEP) è valida 1 anno dalla data del rilascio. È falsa l'opzione 2 (2 anni): tale durata più lunga corrisponde invece all'abilitazione monomotori (SEP). È falsa l'opzione 3 (5 anni): periodo eccessivo, non previsto per nessuna abilitazione di classe. È falsa l'opzione 4 (sempre): l'abilitazione di classe ha sempre una scadenza periodica, a differenza della licenza."
         },
         {
           "n": 261,
@@ -3575,7 +3575,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In classi C/D/E sotto FL100 il VFR richiede almeno 5 km di visibilità."
+          "explanation": "Un volo VFR in spazi aerei controllati (Classi C, D, E) condotto sotto FL100 richiede una visibilità in volo minima di 5 km. È falsa l'opzione 2 (1,5 km): valore troppo basso, applicabile semmai a condizioni particolari di visibilità ridotta in Classe G, non alla regola generale in spazio controllato. È falsa l'opzione 3 (3 km): valore comunque inferiore al minimo effettivamente richiesto in questi spazi controllati. È falsa l'opzione 4 (8 km): valore superiore a quello richiesto sotto FL100, che si applica invece alle quote più elevate."
         },
         {
           "n": 262,
@@ -3589,7 +3589,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per voli da solista come allievo pilota servono 16 anni compiuti e un certificato medico aeronautico in corso di validità."
+          "explanation": "Secondo EASA Part-FCL, per effettuare voli da solista come allievo pilota di aeroplano occorrono 16 anni compiuti e il possesso di un certificato medico aeronautico in corso di validità. È falsa l'opzione 2 (17 anni e prenotazione dell'esame pratico): 17 anni è invece l'età minima per il rilascio della licenza PPL, non per il volo da solista, che è consentito prima. È falsa l'opzione 3 (18 anni senza obbligo di visita medica se autorizzati dall'istruttore): il certificato medico è sempre un requisito obbligatorio per il volo da solista, indipendentemente dall'autorizzazione dell'istruttore. È falsa l'opzione 4 (nessun limite di età con test attitudinale): esiste invece un'età minima precisa (16 anni) fissata dalla normativa."
         },
         {
           "n": 263,
@@ -3603,7 +3603,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un piano di volo presentato quando l'aeromobile è già in volo è detto AFIL (Air-Filed Flight Plan)."
+          "explanation": "Un Piano di Volo presentato mentre l'aeromobile è già in volo è definito AFIL (Air-Filed Flight Plan, Piano di volo in volo). È falsa l'opzione 2 (FPL Operativo): denominazione non standard, non corrisponde alla terminologia ufficiale per un piano di volo presentato in volo. È falsa l'opzione 3 (RPL, Repetitive Flight Plan): l'RPL è un piano di volo ripetitivo presentato a terra per voli regolari ricorrenti, concetto diverso dall'AFIL. È falsa l'opzione 4 (VFR Ridotto): tale espressione non è la denominazione corretta di un piano di volo presentato in volo."
         },
         {
           "n": 264,
@@ -3617,7 +3617,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Le informazioni generali (normative, tasse, servizi) sono nella sezione GEN dell'AIP."
+          "explanation": "Nel formato standard dell'AIP, le informazioni di carattere generale (normative, tasse, servizi) sono contenute nella sezione GEN. È falsa l'opzione 1 (ENR): tale sezione riguarda le informazioni relative alla rotta (en-route), non le informazioni generali. È falsa l'opzione 2 (AD): tale sezione riguarda gli aerodromi, non le informazioni generali sul sistema aeronautico. È falsa l'opzione 3 (FAL): tale sigla non corrisponde a una delle tre sezioni standard dell'AIP (GEN, ENR, AD)."
         },
         {
           "n": 265,
@@ -3631,7 +3631,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La Licenza di Stazione Radio è oggi di competenza del MIMIT (ex Ministero delle Poste/Sviluppo Economico)."
+          "explanation": "La Licenza di Esercizio di Stazione Radioelettrica a bordo degli aeromobili civili italiani è oggi di competenza del MIMIT (Ministero delle Imprese e del Made in Italy, ex Ministero dello Sviluppo Economico/Poste e Telecomunicazioni). È falsa l'opzione 1 (Ministero delle Infrastrutture e dei Trasporti): tale ministero si occupa di altri aspetti dei trasporti, non della licenza di stazione radio. È falsa l'opzione 2 (qualsiasi Ufficio Postale): gli uffici postali non hanno competenza sul rilascio di questa licenza, sono al più canali di pagamento del canone. È falsa l'opzione 3 (Dipartimento per la Protezione Civile): tale dipartimento si occupa di emergenze e protezione civile, non ha competenza sulle licenze radio aeronautiche."
         },
         {
           "n": 266,
@@ -3645,7 +3645,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il certificato medico di 2a classe per PPL tra 40 e 50 anni è valido 24 mesi (2 anni)."
+          "explanation": "Secondo Part-MED, il certificato medico di 2a classe per un PPL di età compresa tra i 40 e i 50 anni è valido 24 mesi (2 anni). È falsa l'opzione 1 (60 mesi, 5 anni): tale durata più lunga si applica invece ai piloti più giovani, sotto i 40 anni. È falsa l'opzione 3 (12 mesi, 1 anno): periodo più breve, applicabile semmai a fasce di età più avanzate. È falsa l'opzione 4 (dipende dalle prescrizioni del medico curante di base): la validità è fissata dalla normativa in base all'età, non lasciata alla discrezione di un medico di base, peraltro non abilitato a certificazioni aeronautiche."
         },
         {
           "n": 267,
@@ -3659,7 +3659,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per rivalidare per esperienza l'abilitazione SEP nei 12 mesi precedenti servono 12 ore di volo (almeno 6 da PIC, 12 decolli/atterraggi) incluso un addestramento di almeno 1 ora con un istruttore."
+          "explanation": "Per rivalidare (Revalidation) per esperienza un'abilitazione SEP, nei 12 mesi precedenti la scadenza il titolare deve effettuare 12 ore di volo (di cui almeno 6 come PIC e 12 decolli/atterraggi), incluso un volo di addestramento di almeno 1 ora con un istruttore (FI/CRI). È falsa l'opzione 1 (semplice autocertificazione medica all'ENAC): la revalidation per esperienza richiede il soddisfacimento di requisiti di attività di volo concreti, non una mera autocertificazione medica. È falsa l'opzione 3 (3 decolli e 3 atterraggi come pilota solista): tale requisito, più limitato, riguarda l'esperienza recente per il trasporto passeggeri, non la revalidation completa dell'abilitazione SEP. È falsa l'opzione 4 (esame teorico obbligatorio): la revalidation per esperienza si basa sull'attività di volo svolta, non su un esame teorico formale."
         }
       ]
     },
