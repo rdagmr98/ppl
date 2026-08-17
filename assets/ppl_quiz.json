@@ -20,7 +20,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "I farmaci o le droghe che riducono la capacità di intendere e di agire sono sempre vietati in volo: non esiste una soglia di dose 'moderata' tollerata."
+          "explanation": "I farmaci o le droghe che riducono la capacità di intendere e di agire sono sempre vietati in volo: non esiste una soglia di dose ‘moderata’ tollerata (falsa l'opzione 1), né l'assunzione diventa lecita se supervisionata da un medico (falsa l'opzione 2), né la valutazione è lasciata alla discrezione del pilota (falsa l'opzione 3): il divieto è assoluto e non derogabile."
         },
         {
           "n": 2,
@@ -34,7 +34,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Gettare oggetti o liquidi fuori bordo è vietato, salvo attività di lavoro aereo espressamente autorizzate dalla competente autorità."
+          "explanation": "Gettare oggetti o liquidi fuori bordo è vietato, salvo attività di lavoro aereo espressamente autorizzate dalla competente autorità. Non basta che la zona sia deserta (falsa l'opzione 0): serve comunque l'autorizzazione per lavoro aereo. Non è vietato \"per nessun motivo\" (falsa l'opzione 1), perché quell'eccezione esiste. Non è a discrezione del pilota (falsa l'opzione 3): senza autorizzazione resta vietato."
         },
         {
           "n": 3,
@@ -48,7 +48,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il volo acrobatico è consentito solo nelle zone acrobatiche pubblicate in AIP e solo a piloti titolari della relativa abilitazione."
+          "explanation": "Il volo acrobatico è consentito solo nelle zone acrobatiche pubblicate in AIP e solo a piloti titolari della relativa abilitazione. Non basta che la zona sorvolata sia disabitata (falsa l'opzione 0): serve una zona acrobatica dedicata. Non è a discrezione del pilota (falsa l'opzione 1): serve l'abilitazione specifica. Non è privo di limitazioni (falsa l'opzione 2): valgono entrambi i vincoli, zona e abilitazione."
         },
         {
           "n": 4,
@@ -61,7 +61,7 @@
             "No, salvo che nei casi e nei modi autorizzati."
           ],
           "correct": 3,
-          "explanation": "Il volo in formazione è vietato, salvo nei casi e con le modalità preventivamente autorizzate."
+          "explanation": "Il volo in formazione è vietato, salvo nei casi e con le modalità preventivamente autorizzate. Non basta l'assenza di pericolo per cose e persone (falsa l'opzione 0): serve comunque l'autorizzazione. Non è a discrezione dei piloti (falsa l'opzione 1): la decisione non è loro. Non è privo di limitazioni (falsa l'opzione 2): resta subordinato all'autorizzazione."
         },
         {
           "n": 5,
@@ -75,7 +75,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Chi ha diritto di precedenza deve mantenere prua, velocità e quota per restare prevedibile, senza però esimersi dal manovrare se necessario per evitare la collisione."
+          "explanation": "Chi ha diritto di precedenza deve mantenere prua, velocità e quota per restare prevedibile, senza però esimersi dal manovrare se necessario per evitare la collisione. Non è vero che la responsabilità ricada solo su chi cede (falsa l'opzione 0): resta comunque l'obbligo di evitare la collisione. Non deve \"pretendere la precedenza ad ogni costo\" (falsa l'opzione 1): sarebbe contrario alla regola generale anticollisione. Non deve cedere mettendosi in coda (falsa l'opzione 3): chi ha la precedenza non cede, altrimenti la regola perderebbe senso."
         },
         {
           "n": 6,
@@ -89,7 +89,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In rotta di collisione frontale entrambi i velivoli devono virare sulla propria destra, indipendentemente da prua o potenza."
+          "explanation": "In rotta di collisione frontale entrambi i velivoli devono virare sulla propria destra, indipendentemente da prua o potenza. La regola non dipende dalla potenza del velivolo (falsa l'opzione 0) né dalla prua (falsa l'opzione 1): è universale e simmetrica. Non è corretto che entrambi virino a sinistra (falsa l'opzione 3): la convenzione codificata è la destra, per evitare ambiguità e possibili nuove collisioni tra le virate."
         },
         {
           "n": 7,
@@ -103,7 +103,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il numero sulla testata pista è l'orientamento magnetico arrotondato alla decina di gradi più vicina (pista 27 = circa 270°)."
+          "explanation": "Il numero sulla testata pista è l'orientamento magnetico della pista arrotondato alla decina di gradi più vicina (pista 27 = circa 270°). Non è l'orientamento vero (falsa l'opzione 0): è riferito al nord magnetico, non geografico. Non indica una lunghezza, né in centinaia di piedi (falsa l'opzione 1) né in centinaia di metri (falsa l'opzione 3): il numero codifica sempre e solo l'orientamento."
         },
         {
           "n": 8,
@@ -117,7 +117,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il rosso intermittente dalla torre a un aeromobile in volo significa 'aeroporto insicuro, non atterrare'."
+          "explanation": "Il rosso intermittente dalla torre a un aeromobile in volo significa ‘aeroporto insicuro, non atterrare’. Non significa atterrare immediatamente (falsa l'opzione 1): è l'esatto opposto. Non significa ingresso in zona proibita/regolamentata (falsa l'opzione 2): quel significato è codificato per i razzi rossi e verdi lanciati da terra, non per la luce da torre. Non significa cambiare quota (falsa l'opzione 3): non è un segnale codificato con questo significato."
         },
         {
           "n": 9,
@@ -131,7 +131,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Razzi rossi e verdi lanciati da terra segnalano che l'aeromobile sta entrando in una zona proibita o regolamentata."
+          "explanation": "Razzi rossi e verdi lanciati da terra segnalano che l'aeromobile sta entrando in una zona proibita o regolamentata. Non ha nulla a che vedere con festività (falsa l'opzione 0). Non significa atterrare immediatamente (falsa l'opzione 1): quel comando è codificato con altri segnali. Non significa cambiare quota (falsa l'opzione 3): non è il significato attribuito a questo segnale pirotecnico."
         },
         {
           "n": 10,
@@ -144,7 +144,7 @@
             "Una serie di lampeggiamenti a luce gialla"
           ],
           "correct": 2,
-          "explanation": "La serie di lampeggiamenti a luce bianca impone di rientrare per l'atterraggio; l'autorizzazione resta comunque subordinata alla successiva luce verde fissa."
+          "explanation": "La serie di lampeggiamenti a luce bianca impone di rientrare per l'atterraggio; l'autorizzazione resta comunque subordinata alla successiva luce verde fissa. Non è una serie di lampeggiamenti rossi (falsa l'opzione 0): il rosso ha un significato di pericolo/diniego, non di richiamo all'atterraggio. Non è una luce rossa fissa (falsa l'opzione 1): significa dare precedenza e continuare a circuitare. Non è una serie gialla (falsa l'opzione 3): il codice dei segnali luminosi non prevede questo significato per il giallo."
         },
         {
           "n": 11,
@@ -158,7 +158,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Di notte, senza radio, si conferma la ricezione di un segnale luminoso accendendo e spegnendo due volte le luci di atterraggio o di navigazione."
+          "explanation": "Di notte, senza radio, si conferma la ricezione di un segnale luminoso accendendo e spegnendo due volte le luci di atterraggio o di navigazione. Oscillare le ali (falsa l'opzione 0) è il segnale diurno, non utilizzabile o visibile di notte. Sporgere una mano dal finestrino (falsa l'opzione 2) non è un segnale codificato e non sarebbe visibile alla torre. \"Smanettare\" il motore (falsa l'opzione 3) produce un segnale acustico non previsto dal codice, che è esclusivamente luminoso."
         },
         {
           "n": 12,
@@ -171,7 +171,7 @@
             "1500 metri, a contatto visivo con il suolo e liberi dalle nuvole, con limite di velocità di 140 kts."
           ],
           "correct": 1,
-          "explanation": "Tra 3.000 e 10.000 ft in classe F/G la regola qui prevista è 5 km di visibilità in volo con limite di velocità 250 kt IAS."
+          "explanation": "Tra 3.000 e 10.000 ft in classe F/G la regola prevede 5 km di visibilità in volo con limite di velocità 250 kt IAS. 8 km fuori dalle nuvole (falsa l'opzione 0) è il valore richiesto sopra i 10.000 ft, non in questa fascia. 8 km con 1.500 m/300 m di separazione dalle nubi (falsa l'opzione 2) mescola valori di fasce diverse. 1.500 m con limite 140 kt (falsa l'opzione 3) è il valore per la quota sotto i 3.000 ft."
         },
         {
           "n": 13,
@@ -184,7 +184,7 @@
             "1500 metri, a contatto visivo con il suolo e liberi dalle nuvole, con limite di velocità di 140 kts"
           ],
           "correct": 3,
-          "explanation": "Sotto i 3.000 ft (o 1.000 ft sul terreno) in classe F/G, con visibilità ridotta a 1.500 m, si resta in vista del suolo e fuori dalle nubi con velocità non superiore a 140 kt."
+          "explanation": "Sotto i 3.000 ft (o 1.000 ft sul terreno) in classe F/G, con visibilità ridotta a 1.500 m, si resta in vista del suolo e fuori dalle nubi con velocità non superiore a 140 kt. 8 km fuori dalle nuvole (falsa l'opzione 0) è il valore per quote più alte. 5 km con 250 kt (falsa l'opzione 1) e 8 km con separazioni 1.500 m/300 m (falsa l'opzione 2) sono entrambi valori delle fasce di quota superiori, non applicabili qui."
         },
         {
           "n": 14,
@@ -197,7 +197,7 @@
             "nessuna delle precedenti risposte è corretta"
           ],
           "correct": 1,
-          "explanation": "L'attestato di allievo pilota ha validità di 2 anni dalla data di rilascio."
+          "explanation": "L'attestato di allievo pilota ha validità di 2 anni dalla data di rilascio. Non è di 1 anno (falsa l'opzione 0): la validità normata è più lunga. Non è senza scadenza (falsa l'opzione 2): l'attestato scade e va rinnovato/aggiornato. L'opzione 3 (\"nessuna delle precedenti è corretta\") è falsa perché la risposta esatta, 2 anni, è effettivamente tra le opzioni proposte."
         },
         {
           "n": 15,
@@ -210,7 +210,7 @@
             "8 Km di visibilità orizzontale, 1500 metri di separazione laterale dalle nuvole e 300 metri di separazione verticale."
           ],
           "correct": 2,
-          "explanation": "Per il VFR speciale servono 1.500 m di visibilità, in vista del suolo o dell'acqua e fuori dalle nubi, rispettando le quote minime di sicurezza."
+          "explanation": "Per il VFR speciale servono 1.500 m di visibilità, in vista del suolo o dell'acqua e fuori dalle nubi, rispettando le quote minime di sicurezza. 5 km con 1.500 m/300 m di separazione dalle nubi (falsa l'opzione 0) è il valore del VFR ordinario, più permissivo del VFR speciale. 8 km in vista del terreno (falsa l'opzione 1) e 8 km con separazioni dalle nubi (falsa l'opzione 3) sono entrambi valori troppo alti per l'autorizzazione VFR speciale, pensata proprio per condizioni meteo sotto i minimi ordinari."
         },
         {
           "n": 16,
@@ -224,7 +224,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La quota minima di sorvolo sul mare o su zone disabitate è 500 piedi."
+          "explanation": "La quota minima di sorvolo sul mare o su zone disabitate è 500 piedi. Non è 1.000 piedi (falsa l'opzione 1): quel valore riguarda il sorvolo di zone abitate. Non è 3.000 piedi (falsa l'opzione 2): valore ingiustificatamente alto. Non è a discrezione del pilota (falsa l'opzione 3): è un limite fisso normato, non opzionale."
         },
         {
           "n": 17,
@@ -237,7 +237,7 @@
             "21 anni"
           ],
           "correct": 0,
-          "explanation": "L'età minima per l'attestato di allievo pilota è 16 anni."
+          "explanation": "L'età minima per l'attestato di allievo pilota è 16 anni. Non è 17 anni (falsa l'opzione 1): quella è l'età minima per la licenza PPL. Non è 18 anni (falsa l'opzione 2): quella è l'età minima per la licenza CPL. Non è 21 anni (falsa l'opzione 3): nessun requisito aeronautico italiano fissa questa soglia per l'allievo pilota."
         },
         {
           "n": 18,
@@ -249,7 +249,7 @@
             "Sono livelli di crociera prefissate ed obbligatorie per il traffico VFR quando la navigazione si svolge al disopra dei 3000 piedi dal suolo o dall'acqua e riferite al valore di 1013,2 hectopascal."
           ],
           "correct": 2,
-          "explanation": "I livelli semicircolari sono quote di crociera prefissate e obbligatorie per il VFR sopra i 3.000 ft dal suolo/acqua, riferite alla pressione standard 1013,2 hPa."
+          "explanation": "I livelli semicircolari sono quote di crociera prefissate e OBBLIGATORIE per il traffico VFR sopra i 3.000 ft dal suolo/acqua, riferite alla pressione standard 1013,2 hPa. L'opzione 0 è falsa perché li definisce solo \"suggerite\" invece che obbligatorie. L'opzione 1 è falsa perché li colloca sotto i 3.000 ft (fascia in cui non si applica il sistema semicircolare) e li definisce ugualmente come solo suggerite anziché vincolanti."
         },
         {
           "n": 19,
@@ -263,7 +263,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'età minima per il conseguimento della licenza CPL è 18 anni."
+          "explanation": "L'età minima per il conseguimento della licenza CPL è 18 anni. Non è 16 anni (falsa l'opzione 0): quella è l'età minima per l'attestato di allievo pilota. Non è 17 anni (falsa l'opzione 1): quella è l'età minima per la PPL. Non è 21 anni (falsa l'opzione 3): nessun requisito lo prevede per la CPL."
         },
         {
           "n": 20,
@@ -276,7 +276,7 @@
             "La DGAC."
           ],
           "correct": 0,
-          "explanation": "Negli spazi aerei non controllati la responsabilità della separazione da altro traffico e dagli ostacoli è interamente del pilota."
+          "explanation": "Negli spazi aerei non controllati la responsabilità della separazione da altro traffico e dagli ostacoli è interamente del pilota responsabile. Non è del copilota (falsa l'opzione 1): la responsabilità del comandante non si trasferisce. Non è del controllore (falsa l'opzione 2): in spazio non controllato non viene fornito servizio di controllo. Non è della DGAC (falsa l'opzione 3): è un'autorità regolatoria, non un soggetto operativo in volo."
         },
         {
           "n": 21,
@@ -290,7 +290,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "ATS (Air Traffic Services) è il termine generico che indica i servizi del traffico aereo."
+          "explanation": "ATS (Air Traffic Services) è il termine generico che indica i servizi del traffico aereo. \"Air Transit System\" (falsa l'opzione 0) e \"Aerodrome Transfer Space\" (falsa l'opzione 1) non sono acronimi aeronautici riconosciuti. L'opzione 3 (\"nessuna delle risposte è vera\") è falsa perché Air Traffic Services è l'espansione corretta della sigla."
         },
         {
           "n": 22,
@@ -304,7 +304,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "I Servizi del Traffico Aereo comprendono il Servizio di Controllo, il Servizio Informazioni Volo e il Servizio di Allarme."
+          "explanation": "I Servizi del Traffico Aereo comprendono il Servizio di Controllo, il Servizio Informazioni Volo e il Servizio di Allarme. L'opzione 0 (disciplina del traffico, interpretazione di leggi, Allarme e Soccorso) è falsa perché mescola compiti regolatori estranei alla definizione ICAO. L'opzione 1 (controllo validità licenze, Informazioni di Volo, Allarme e Soccorso) è falsa perché la verifica delle licenze non è un servizio ATS. L'opzione 3 (disciplina aeroportuale, viabilità) è falsa perché non corrisponde ai tre servizi codificati."
         },
         {
           "n": 23,
@@ -318,7 +318,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il servizio di controllo di aerodromo fornisce il Servizio di Controllo, Informativo e di Allarme al traffico dell'aerodromo."
+          "explanation": "Il servizio di controllo di aerodromo fornisce il Servizio di Controllo, Informativo e di Allarme al traffico dell'aerodromo. Non fornisce servizi riferiti ai TMA (falsa l'opzione 0), né ai CTR (falsa l'opzione 1), né alle AWS (falsa l'opzione 2): questi sono ambiti spaziali diversi da quello di competenza della torre di aerodromo."
         },
         {
           "n": 24,
@@ -332,7 +332,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'età minima per il conseguimento della licenza PPL è 17 anni."
+          "explanation": "L'età minima per il conseguimento della licenza PPL è 17 anni. Non è 16 anni (falsa l'opzione 0): quella è l'età minima per l'attestato di allievo pilota. Non è 18 anni (falsa l'opzione 2): quella è l'età minima per la CPL. Non è 21 anni (falsa l'opzione 3): nessun requisito lo prevede."
         },
         {
           "n": 25,
@@ -345,7 +345,7 @@
             "nessuna delle precedenti risposte è corretta"
           ],
           "correct": 2,
-          "explanation": "L'estensione dell'abilitazione SEP alle varianti viene annotata dall'istruttore che ha condotto l'addestramento, sul libretto di volo."
+          "explanation": "L'estensione dell'abilitazione SEP alle varianti (addestramento per differenze) viene annotata dall'istruttore che ha condotto l'addestramento, sul libretto di volo. Non è la DCA (falsa l'opzione 0) né un funzionario ENAC (falsa l'opzione 1) a farla: nessuno dei due è l'autorità competente per questa annotazione, e comunque non va sulla licenza ma sul libretto. L'opzione 3 (\"nessuna corretta\") è falsa perché la risposta esatta è tra quelle proposte."
         },
         {
           "n": 26,
@@ -358,7 +358,7 @@
             "3 ore di volo con istruttore"
           ],
           "correct": 3,
-          "explanation": "L'addestramento per differenze SEP per elica a passo variabile (VP) richiede un minimo di 3 ore di volo con istruttore."
+          "explanation": "L'addestramento per differenze SEP per elica a passo variabile (VP) richiede un minimo di 3 ore di volo con istruttore. Non è a discrezione dell'istruttore (falsa l'opzione 0): è un minimo fisso normato. 1 ora (falsa l'opzione 1) e 2 ore (falsa l'opzione 2) sono entrambe insufficienti rispetto al minimo richiesto."
         },
         {
           "n": 27,
@@ -371,7 +371,7 @@
             "le ore di volo sono a discrezione dell'istruttore"
           ],
           "correct": 0,
-          "explanation": "L'addestramento per differenze SEP per ruotino di coda (TW) richiede un minimo di 4 ore di volo con istruttore."
+          "explanation": "L'addestramento per differenze SEP per ruotino di coda (TW) richiede un minimo di 4 ore di volo con istruttore. 2 ore (falsa l'opzione 1) sono insufficienti. 5 ore (falsa l'opzione 2) superano il minimo effettivamente richiesto. Non è a discrezione dell'istruttore (falsa l'opzione 3): è un valore fisso normato."
         },
         {
           "n": 28,
@@ -385,7 +385,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In Italia sono ammessi piani di volo VFR, IFR e misti VFR-IFR."
+          "explanation": "In Italia sono ammessi piani di volo VFR, IFR e misti VFR-IFR. Non è vero che il VFR non preveda un piano di volo ma solo la notifica (falsa l'opzione 1): il VFR ha un proprio piano di volo ammesso. Non è ammesso solo il VFR (falsa l'opzione 2): è ammesso anche l'IFR. Non è ammesso solo l'IFR (falsa l'opzione 3): è ammesso anche il VFR."
         },
         {
           "n": 29,
@@ -399,7 +399,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "VFR indica un volo condotto secondo le regole del volo a vista."
+          "explanation": "VFR indica un volo condotto in conformità alle regole stabilite per il volo a vista. L'opzione 0 descrive invece una condizione meteorologica sotto i minimi VFR (concetto distinto, legato a IMC), non la sigla VFR stessa. L'opzione 1 descrive il volo strumentale, cioè l'IFR, l'opposto del VFR. L'opzione 3 è falsa perché VFR indica specificamente le regole a vista, non un volo condotto indifferentemente secondo l'una o l'altra regola."
         },
         {
           "n": 30,
@@ -413,7 +413,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "VMC indica condizioni meteorologiche pari o superiori ai valori minimi richiesti per il volo a vista."
+          "explanation": "VMC indica condizioni meteorologiche pari o superiori ai valori minimi richiesti per il volo a vista. L'opzione 0 descrive l'esatto opposto (condizioni inferiori ai minimi, cioè IMC). L'opzione 1 descrive le regole del volo strumentale (IFR), non una condizione meteorologica. L'opzione 2 descrive il VFR (una procedura di volo), che è concetto distinto dalla condizione meteorologica VMC."
         },
         {
           "n": 31,
@@ -427,7 +427,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'autorizzazione ad entrare in uno spazio aereo controllato va richiesta ed ottenuta prima di attraversarne i confini."
+          "explanation": "L'autorizzazione ad entrare in uno spazio aereo controllato va richiesta ed ottenuta prima di attraversarne i confini, senza un anticipo minimo in minuti fissato dalla norma. Le opzioni 0, 1 e 2 (30, 10 e 20 minuti prima) sono false perché introducono un margine temporale predeterminato che la regola non prevede: ciò che conta è che l'autorizzazione sia ottenuta prima dell'attraversamento, qualunque sia il tempo impiegato per riceverla."
         },
         {
           "n": 32,
@@ -441,7 +441,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il piano di volo depositato può essere modificato in volo, a condizione che le variazioni vengano tempestivamente comunicate agli enti ATS."
+          "explanation": "Il piano di volo depositato può essere modificato in volo, a condizione che le variazioni vengano tempestivamente comunicate agli enti ATS. Non è vero che vada seguito obbligatoriamente in ogni caso (falsa l'opzione 0). Non è limitato alla sola parte in spazio controllato (falsa l'opzione 1): la regola vale in generale, purché si informi l'ATS. Non è richiesto un preavviso fisso di almeno 30 minuti (falsa l'opzione 3): basta la comunicazione tempestiva, non un termine minimo predeterminato."
         },
         {
           "n": 33,
@@ -454,7 +454,7 @@
             "95"
           ],
           "correct": 1,
-          "explanation": "Con rotta magnetica 030° (semicerchio 000°-179°) il VFR sopra i 3.000 ft usa i livelli dispari +500 ft: nella fascia indicata il livello corretto è 8.500 ft (85)."
+          "explanation": "Con rotta magnetica 030° (semicerchio 000°-179°) il VFR sopra i 3.000 ft usa i livelli dispari +500 ft: nella fascia indicata il livello corretto è 8.500 ft (85). 80 e 90 (false le opzioni 0 e 2) sono livelli pari, riservati al semicerchio opposto (180°-359°) e comunque non conformi alla progressione dispari+500 richiesta per rotte come questa. 95 (falsa l'opzione 3) è un livello dispari ma non corrisponde alla quota corretta per la fascia considerata."
         },
         {
           "n": 34,
@@ -468,7 +468,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "I confini nazionali ai fini aeronautici comprendono il territorio dello Stato più le 12 miglia nautiche di acque territoriali."
+          "explanation": "I confini nazionali ai fini aeronautici comprendono il territorio dello Stato più le 12 miglia nautiche di acque territoriali. Non sono solo quelli topografici (falsa l'opzione 0): manca la fascia di mare territoriale. Non sono 60 miglia (falsa l'opzione 2) né 30 miglia (falsa l'opzione 3): entrambi i valori sono superiori a quello effettivamente normato, 12 miglia."
         },
         {
           "n": 35,
@@ -482,7 +482,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "A bordo di un velivolo in volo sul territorio di uno Stato si applica la legge dello Stato sorvolato."
+          "explanation": "A bordo di un velivolo in volo sul territorio di uno Stato si applica la legge dello Stato sorvolato. Non si applica la legge dello Stato di immatricolazione (falsa l'opzione 0): quella vale invece sulle acque internazionali. Non si applica la legge della nazionalità del comandante (falsa l'opzione 2): non è un criterio giuridico riconosciuto per questo caso. Non si applica una \"legge internazionale ICAO\" (falsa l'opzione 3): l'ICAO non emana un corpo di norme penali/civili applicabile direttamente a bordo."
         },
         {
           "n": 36,
@@ -496,7 +496,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Sulle acque internazionali si applica la legge dello Stato di immatricolazione del velivolo."
+          "explanation": "Sulle acque internazionali si applica la legge dello Stato di immatricolazione del velivolo. Non si applica la legge dello Stato sorvolato (falsa l'opzione 1): sulle acque internazionali non esiste uno \"Stato sorvolato\" cui riferirsi. Non si applica la legge della nazionalità del comandante (falsa l'opzione 2): non è il criterio giuridico rilevante. Non esiste una \"legge internazionale ICAO\" applicabile direttamente (falsa l'opzione 3)."
         },
         {
           "n": 37,
@@ -509,7 +509,7 @@
             "Usare un aeroporto doganale e pagare le tasse."
           ],
           "correct": 0,
-          "explanation": "Per aeromobili di Stati extra-Schengen è obbligatorio l'uso di un aeroporto doganale e l'espletamento delle formalità di polizia e sanitarie."
+          "explanation": "Per aeromobili di Stati extra-Schengen è obbligatorio l'uso di un aeroporto doganale e l'espletamento delle formalità di polizia e sanitarie. Non basta un aeroporto qualsiasi (falsa l'opzione 1): serve specificamente un aeroporto doganale abilitato. Non basta pagare le tasse (falsa l'opzione 2): servono anche le formalità di polizia e sanitarie. L'opzione 3 (aeroporto doganale e pagamento tasse) è falsa perché omette le formalità di polizia e sanitarie, effettivamente richieste oltre alle tasse."
         },
         {
           "n": 38,
@@ -523,7 +523,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Volando in valle si mantiene una distanza laterale minima di 2.000 piedi dal fianco della montagna per evitare conflitti con il traffico di ultraleggeri."
+          "explanation": "Volando in valle si mantiene una distanza laterale minima di 2.000 piedi dal fianco della montagna per evitare conflitti con il traffico di ultraleggeri. 1.000 piedi (falsa l'opzione 0) e 500 piedi (falsa l'opzione 2) sono entrambi insufficienti rispetto al minimo richiesto. \"Liberi da ostacoli\" (falsa l'opzione 3) non è un criterio quantitativo e non corrisponde al valore normato."
         },
         {
           "n": 39,
@@ -537,7 +537,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "I giubbotti salvagente sono obbligatori quando ci si allontana dalla costa oltre la distanza raggiungibile in planata senza motore, e comunque sempre oltre 90 km."
+          "explanation": "I giubbotti salvagente sono obbligatori quando ci si allontana dalla costa oltre la distanza raggiungibile in planata senza motore, e comunque sempre oltre 90 km. Non è vero che per i voli VFR non sia richiesta alcuna dotazione (falsa l'opzione 1): l'obbligo vale indipendentemente dalla regola di volo, VFR o IFR. Non è 100 km (falsa l'opzione 2): il valore normato è 90 km. Non dipende da fronti caldi o instabilità dell'aria (falsa l'opzione 3): il criterio è la distanza dalla costa, non le condizioni meteo."
         },
         {
           "n": 40,
@@ -551,7 +551,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'ICAO distingue, tra gli 'incident', gli incidenti gravi (serious incident) e gli incidenti minori."
+          "explanation": "L'ICAO distingue, tra gli ‘incident’, gli incidenti gravi (serious incident) e gli incidenti minori. L'opzione 0 (\"incidenti gravi e malfunzionamenti\") è falsa perché il malfunzionamento tecnico non è una categoria di incident nella classificazione ICAO. L'opzione 2 aggiunge erroneamente il malfunzionamento come terza categoria, che non esiste. L'opzione 3 è falsa perché la suddivisione grave/minore esiste eccome."
         },
         {
           "n": 41,
@@ -564,7 +564,7 @@
             "incidenti gravi."
           ],
           "correct": 0,
-          "explanation": "I malfunzionamenti tecnici riportati sul QTB (quaderno tecnico di bordo) rientrano nella categoria degli incidenti minori."
+          "explanation": "I malfunzionamenti tecnici riportati sul QTB (quaderno tecnico di bordo) rientrano nella categoria degli incidenti minori. Non sono incidenti gravi, né con né senza feriti (false le opzioni 1 e 3): un semplice malfunzionamento tecnico annotato di routine non raggiunge la soglia di gravità. Non comportano di per sé feriti (falsa l'opzione 2): la categoria \"minore\" non presuppone lesioni a persone."
         },
         {
           "n": 42,
@@ -578,7 +578,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'AIS diffonde le informazioni aeronautiche tramite AIP, circolari AIC e NOTAM."
+          "explanation": "L'AIS diffonde le informazioni aeronautiche tramite AIP, circolari AIC e NOTAM. Non tramite i METAR (falsa l'opzione 1): sono osservazioni meteorologiche prodotte da un servizio diverso, non pubblicazioni AIS. Non tramite la Gazzetta Ufficiale (falsa l'opzione 2): non è un canale di diffusione aeronautica. Non tramite radiocomunicazioni o piani di volo ATC (falsa l'opzione 3): questi sono strumenti operativi, non canali di pubblicazione AIS."
         },
         {
           "n": 43,
@@ -592,7 +592,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Le regole generali VFR sono riportate nella sezione ENR dell'AIP."
+          "explanation": "Le regole generali VFR sono riportate nella sezione ENR (En-Route) dell'AIP, in particolare tra le regole dell'aria e dei servizi del traffico aereo relativi alle rotte. Non nella sezione AD (falsa l'opzione 0), che riguarda i singoli aeroporti. Non nella sezione GEN (falsa l'opzione 1), che raccoglie le informazioni amministrative generali dello Stato, non le regole di volo dettagliate. Non nella sezione COM (falsa l'opzione 2), dedicata alle comunicazioni."
         },
         {
           "n": 44,
@@ -606,7 +606,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le informazioni su aeroporti e relative attrezzature sono nella sezione AD dell'AIP."
+          "explanation": "Le informazioni su aeroporti e relative attrezzature sono nella sezione AD (Aerodromes) dell'AIP. Non nella sezione ENR (falsa l'opzione 0), dedicata alle rotte. Non nella sezione COM (falsa l'opzione 2), dedicata alle comunicazioni. Non nella sezione GEN (falsa l'opzione 3), che raccoglie informazioni generali non specifiche di aeroporto."
         },
         {
           "n": 45,
@@ -620,7 +620,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Le aree e rotte coperte dal servizio meteorologico sono descritte nella sezione GEN dell'AIP."
+          "explanation": "Le aree e rotte coperte dal servizio meteorologico sono descritte nella sezione GEN dell'AIP, che ne definisce l'organizzazione generale. \"MAR\" (falsa l'opzione 0) non è una sezione standard dell'AIP. Non nella sezione ENR (falsa l'opzione 1), dedicata alle rotte operative, non all'organizzazione del servizio meteo. Non nella sezione AD (falsa l'opzione 2), che riguarda i singoli aeroporti."
         },
         {
           "n": 46,
@@ -634,7 +634,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Ubicazione e limiti al sorvolo delle aree regolamentate sono riportati nella sezione ENR dell'AIP."
+          "explanation": "Ubicazione e limiti al sorvolo delle aree regolamentate sono riportati nella sezione ENR dell'AIP. Non nella sezione GEN (falsa l'opzione 0), dedicata alle informazioni generali dello Stato. \"AGA\" (falsa l'opzione 1) è una categoria ICAO ma non una sezione standard dell'AIP in questo contesto. Non nella sezione AD (falsa l'opzione 3), che riguarda i singoli aeroporti, non le aree lungo le rotte."
         },
         {
           "n": 47,
@@ -648,7 +648,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le variazioni AIP con impatto immediato sul piano operativo vengono notificate tramite NOTAM."
+          "explanation": "Le variazioni AIP con impatto immediato sul piano operativo vengono notificate tramite NOTAM. Non tramite comunicazioni telefoniche (falsa l'opzione 0): non è il canale codificato per questo scopo. Non tramite il servizio postale (falsa l'opzione 2): troppo lento per informazioni con impatto immediato. Non esclusivamente tramite comunicazioni T/B/T (falsa l'opzione 3): il canale primario per queste variazioni è il NOTAM."
         },
         {
           "n": 48,
@@ -661,7 +661,7 @@
             "3000 piedi."
           ],
           "correct": 1,
-          "explanation": "Nell'area aeroportuale si segnalano con verniciatura a scacchi gli ostacoli che superano i 15 piedi di elevazione dal campo."
+          "explanation": "Nell'area aeroportuale si segnalano con verniciatura a scacchi gli ostacoli che superano i 15 piedi di elevazione dal campo. 5 piedi (falsa l'opzione 0) è una soglia troppo bassa. 1.500 piedi (falsa l'opzione 2) e 3.000 piedi (falsa l'opzione 3) sono valori eccessivamente alti, incompatibili con ostacoli di area aeroportuale."
         },
         {
           "n": 49,
@@ -675,7 +675,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il traffico VFR non è ammesso in spazio aereo di classe A, riservato all'IFR."
+          "explanation": "Il traffico VFR non è ammesso in spazio aereo di classe A, riservato esclusivamente all'IFR. In classe B (falsa l'opzione 1) il VFR è ammesso, previa autorizzazione. In classe C/D (falsa l'opzione 2) è ammesso con separazione dal traffico IFR. In classe F/G (falsa l'opzione 3) è ammesso ed è anzi la condizione tipica del VFR non controllato."
         },
         {
           "n": 50,
@@ -689,7 +689,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Sopra i 10.000 ft il VFR non ha un limite numerico fisso di velocità, ma resta il vincolo di restare in regime subsonico/non transonico."
+          "explanation": "Sopra i 10.000 ft il VFR non ha un limite numerico fisso di velocità, ma resta il vincolo di restare in regime subsonico/non transonico. 250 kt (falsa l'opzione 0) è il limite applicabile sotto i 10.000 ft, non sopra. 140 kt (falsa l'opzione 1) è il valore associato a quote basse con visibilità ridotta. 200 kt (falsa l'opzione 3) non corrisponde a nessun limite normato per questa fascia."
         },
         {
           "n": 51,
@@ -703,7 +703,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Tra 3.000/1.000 ft e 10.000 ft il limite di velocità IAS per il VFR è 250 kt."
+          "explanation": "Tra 3.000/1.000 ft e 10.000 ft il limite di velocità IAS per il VFR è 250 kt. 140 kt (falsa l'opzione 1) è il valore per quote più basse o condizioni di visibilità ridotta. Il criterio subsonico/non transonico (falsa l'opzione 2) si applica sopra i 10.000 ft, non in questa fascia. 200 kt (falsa l'opzione 3) non è un valore normato."
         },
         {
           "n": 52,
@@ -717,7 +717,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Sotto i 3.000/1.000 ft, con visibilità almeno 5 km, il limite di velocità resta 250 kt IAS."
+          "explanation": "Sotto i 3.000/1.000 ft, con visibilità almeno 5 km, il limite di velocità resta 250 kt IAS. 140 kt (falsa l'opzione 1) è il valore applicabile solo in condizioni di visibilità ridotta (1,5 km), non con visibilità ≥5 km. \"Nessun limite\" (falsa l'opzione 2) è falso: il limite di 250 kt resta comunque valido. 200 kt (falsa l'opzione 3) non è un valore normato in questo contesto."
         },
         {
           "n": 53,
@@ -728,7 +728,7 @@
             "Falso"
           ],
           "correct": 0,
-          "explanation": "Il servizio di informazioni per evitare collisioni (traffic avoidance advice) è fornito a richiesta solo negli spazi di classe C e D."
+          "explanation": "Il servizio di informazioni per evitare collisioni (traffic avoidance advice) è fornito a richiesta solo negli spazi di classe C e D, dove il controllo ha piena consapevolezza del traffico. Non è offerto automaticamente né esteso ad altre classi come F o G, dove il traffico VFR non è generalmente noto all'ente ATS: per questo l'affermazione è Vero."
         },
         {
           "n": 54,
@@ -740,7 +740,7 @@
             "la visibilità in volo è almeno 8 Km."
           ],
           "correct": 0,
-          "explanation": "In classe C/D fino a 10.000 ft il VFR richiede almeno 5 km di visibilità in volo."
+          "explanation": "In classe C/D fino a 10.000 ft il VFR richiede almeno 5 km di visibilità in volo. Non 1,5 km (falsa l'opzione 1): quel valore ridotto è ammesso solo a quote più basse per velivoli lenti. Non 8 km (falsa l'opzione 2): quel valore più severo si applica sopra FL100."
         },
         {
           "n": 55,
@@ -752,7 +752,7 @@
             "la visibilità in volo è almeno 8 Km."
           ],
           "correct": 0,
-          "explanation": "In classe F/G tra 3.000/1.000 ft e 10.000 ft il VFR richiede almeno 5 km di visibilità."
+          "explanation": "In classe F/G tra 3.000/1.000 ft e 10.000 ft il VFR richiede almeno 5 km di visibilità. Non 1,5 km (falsa l'opzione 1): quel valore ridotto è ammesso solo sotto i 3.000/1.000 ft per velivoli fino a 140 KIAS. Non 8 km (falsa l'opzione 2): valore richiesto solo per quote più alte."
         },
         {
           "n": 56,
@@ -764,7 +764,7 @@
             "la visibilità in volo è almeno 8 Km."
           ],
           "correct": 1,
-          "explanation": "Sotto i 3.000/1.000 ft in classe F/G, per velivoli fino a 140 KIAS, la visibilità minima ridotta ammessa è 1,5 km."
+          "explanation": "Sotto i 3.000/1.000 ft in classe F/G, per velivoli fino a 140 KIAS, la visibilità minima ridotta ammessa è 1,5 km. Non 5 km (falsa l'opzione 0): quello è il valore ordinario, qui si ammette proprio la riduzione per velivoli lenti a bassa quota. Non 8 km (falsa l'opzione 2): valore richiesto solo per quote più alte."
         },
         {
           "n": 57,
@@ -776,7 +776,7 @@
             "almeno 8 Km."
           ],
           "correct": 2,
-          "explanation": "Sopra i 10.000 ft, dove è ammesso il VFR, la visibilità minima richiesta è 8 km."
+          "explanation": "Sopra i 10.000 ft, dove è ammesso il VFR, la visibilità minima richiesta è 8 km. Non 5 km (falsa l'opzione 0): valore ammesso solo a quote intermedie. Non 1,5 km (falsa l'opzione 1): valore minimo assoluto ammesso solo a quote basse per velivoli lenti, non applicabile sopra 10.000 ft."
         },
         {
           "n": 58,
@@ -790,7 +790,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Per operare in VFR in classe C e D è richiesto il transponder in modo A e C."
+          "explanation": "Per operare in VFR in classe C e D è richiesto il transponder in modo A e C. Non basta mantenersi a 1.000 ft costanti (falsa l'opzione 0): non è questo il requisito in oggetto. Non è consentito sorvolare città o assembramenti a qualsiasi quota (falsa l'opzione 1): resta comunque vincolato dalle altre norme di sorvolo. Non serve un velivolo certificato IFR (falsa l'opzione 2): basta la dotazione transponder."
         },
         {
           "n": 59,
@@ -804,7 +804,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Per entrare o attraversare spazio classe C o D occorre richiedere l'autorizzazione con almeno 10 minuti di anticipo."
+          "explanation": "Per entrare o attraversare spazio classe C o D occorre richiedere l'autorizzazione con almeno 10 minuti di anticipo. \"Prima dell'ingresso\" senza indicazione di tempo (falsa l'opzione 0) è impreciso rispetto al termine specifico richiesto per queste classi. 5 minuti (falsa l'opzione 1) sono insufficienti. 20 minuti (falsa l'opzione 3) superano il minimo effettivamente richiesto."
         },
         {
           "n": 60,
@@ -817,7 +817,7 @@
             "in corrispondenza della normale virata in finale."
           ],
           "correct": 1,
-          "explanation": "Provenendo da sopravvento, ci si inserisce in circuito attraversando il campo in corrispondenza del centro o della fine pista."
+          "explanation": "Provenendo da sopravvento, ci si inserisce in circuito attraversando il campo in corrispondenza del centro o della fine pista. Non alla testata pista in uso (falsa l'opzione 0): non è il punto di attraversamento previsto. Non in corrispondenza della base destra (falsa l'opzione 2) né della virata in finale (falsa l'opzione 3): sono tratti del circuito di traffico, non il punto di attraversamento del campo da sopravvento."
         },
         {
           "n": 61,
@@ -830,7 +830,7 @@
             "Sono corrispondenti, di massima, ad un cilindro con base e centro sull'aeroporto, raggio 5 miglia e 1.500 piedi di altezza."
           ],
           "correct": 0,
-          "explanation": "I limiti standard di un'ATZ controllata sono un cilindro di 5 NM di raggio centrato sull'aeroporto, esteso fino a 2.000 ft di altezza."
+          "explanation": "I limiti standard di un'ATZ controllata sono un cilindro di 5 miglia nautiche di raggio centrato sull'aeroporto, esteso fino a 2.000 piedi di altezza. Non sono limiti variabili stabiliti dalla Direzione di aeroporto (falsa l'opzione 1) né dalla competente autorità ATS caso per caso (falsa l'opzione 2): sono valori standard prefissati. Non è 1.500 piedi di altezza (falsa l'opzione 3): il valore standard è 2.000 piedi."
         },
         {
           "n": 62,
@@ -844,7 +844,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La CTR è uno spazio aereo controllato che si estende verticalmente dalla superficie fino a un limite superiore stabilito dalla competente autorità."
+          "explanation": "La CTR è uno spazio aereo controllato che si estende in senso verticale dalla superficie terrestre sino ad un determinato limite superiore stabilito dalla competente autorità. Non è riservata al solo traffico IFR (falsa l'opzione 0): può ospitare anche traffico VFR. L'opzione 2 descrive un servizio operativo (quello della torre), non la definizione dimensionale della CTR. Non parte da un'altezza sopra il suolo (falsa l'opzione 3): quella caratteristica descrive piuttosto una TMA/CTA, non la CTR che parte dalla superficie."
         },
         {
           "n": 63,
@@ -858,7 +858,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La TMA è un'area di controllo istituita tipicamente alla confluenza di rotte ATS in prossimità di aeroporti ad alta densità di traffico."
+          "explanation": "La TMA è un'area di controllo (CTA) istituita normalmente alla confluenza di rotte ATS nelle vicinanze di uno o più aeroporti ad alta densità di traffico. L'opzione 0, estendendosi dalla superficie o da un'altitudine specificata, descrive più propriamente una CTR/CTA generica, non la definizione caratteristica della TMA. L'opzione 2 (spazio con radioassistenze per l'IFR) e l'opzione 3 (protezione del traffico fuori dai CTR) non corrispondono alla definizione ICAO della TMA basata sulla confluenza di rotte."
         },
         {
           "n": 64,
@@ -872,7 +872,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'aerovia (AWY) è una CTA, o parte di essa, a forma di corridoio dotata di radioassistenze per la navigazione."
+          "explanation": "L'aerovia (AWY) è una CTA, o parte di essa, a forma di corridoio dotata di radioassistenze per la navigazione. L'opzione 1 (rotta ATS a beneficio del traffico IFR entro una FIR) omette l'elemento caratterizzante, cioè la forma a corridoio con radioassistenze. L'opzione 2 descrive piuttosto un raccordo verso TMA/CTR per canalizzare il traffico, non un'aerovia. L'opzione 3 è troppo generica (soggezione al controllo del traffico aereo) e non definisce la forma né la dotazione di radioassistenze."
         },
         {
           "n": 65,
@@ -886,7 +886,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Sorvolando aree abitate occorre mantenere una quota che consenta, in emergenza, un atterraggio senza danni, comunque mai inferiore a 1.000 piedi."
+          "explanation": "Sorvolando aree abitate occorre mantenere una quota che consenta, in emergenza, un atterraggio senza recare danno a persone e cose, comunque mai inferiore a 1.000 piedi. L'opzione 0 è incompleta: omette il vincolo esplicito del minimo di 1.000 piedi. L'opzione 1, riferendosi all'ostacolo più alto al centro dell'area, non è la formulazione normata e omette il criterio dell'atterraggio in emergenza. L'opzione 3 (2.000 ft o 1.000 ft il più alto) non corrisponde al criterio corretto per questa domanda."
         },
         {
           "n": 66,
@@ -900,7 +900,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il traino di aeromobili o oggetti è consentito solo previa autorizzazione della competente autorità."
+          "explanation": "Il traino di aeromobili o oggetti è consentito solo previa autorizzazione della competente autorità. Non è vietato in ogni circostanza (falsa l'opzione 1): l'eccezione con autorizzazione esiste. Non dipende da un vincolo di quota minima di 3.000/1.000 ft (falsa l'opzione 2): il criterio determinante è l'autorizzazione, non la quota. L'opzione 3, che parla di autorizzazione ATC e vincolo di quota, è falsa perché l'autorizzazione richiesta è quella della competente autorità in generale, non solo dell'ATC, e non è vincolata alla quota."
         },
         {
           "n": 67,
@@ -914,7 +914,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nelle rotte convergenti, chi vede l'altro aeromobile alla propria destra deve cedere il passo: ha quindi la precedenza chi lo vede alla propria sinistra."
+          "explanation": "Nelle rotte convergenti, chi vede l'altro aeromobile alla propria destra deve cedere il passo: ha quindi la precedenza chi lo vede alla propria sinistra. L'opzione 1 (precedenza a chi ha l'altro a destra) è l'esatto opposto della regola. L'opzione 2 (chi ha l'altro a destra deve scendere di quota) è falsa: deve cedere il passo, non necessariamente scendere. L'opzione 3, che introduce manovre di salita/discesa, è falsa perché il criterio è la precedenza laterale, non una variazione di quota."
         },
         {
           "n": 68,
@@ -928,7 +928,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un aeromobile è in fase di sorpasso quando si avvicina da dietro con un angolo inferiore a 70° rispetto all'asse di simmetria del velivolo che precede."
+          "explanation": "Un aeromobile è in fase di sorpasso quando si avvicina da dietro con un angolo inferiore a 70° rispetto all'asse di simmetria del velivolo che precede. Non quando si approssima alla sinistra (falsa l'opzione 1): non è questo il criterio angolare definito. Non con angolo inferiore a 90° (falsa l'opzione 2): la soglia normata è 70°, non 90°. Non è vietato (falsa l'opzione 3): il sorpasso è regolamentato, non proibito."
         },
         {
           "n": 69,
@@ -942,7 +942,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Chi sorpassa deve virare e portarsi alla destra del velivolo sorpassato."
+          "explanation": "Chi sorpassa deve virare e portarsi alla destra del velivolo sorpassato. Non deve scendere di quota per superare (falsa l'opzione 0) né salire per superare dall'alto (falsa l'opzione 1): nessuna delle due è la manovra prescritta. Non deve sorpassare sulla sinistra (falsa l'opzione 3): la regola impone specificamente la destra."
         },
         {
           "n": 70,
@@ -956,7 +956,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un aeromobile che ne osserva un altro in fase di atterraggio deve dargli precedenza."
+          "explanation": "Un aeromobile che ne osserva un altro in fase di atterraggio deve dargli precedenza. Non deve scendere sotto di lui il più presto possibile (falsa l'opzione 1): manovra pericolosa e non prevista. Non deve limitarsi a mantenerlo in vista fino al completamento dell'atterraggio (falsa l'opzione 2): l'azione richiesta è dare precedenza, non solo osservare. Non deve salire sopra di lui (falsa l'opzione 3): non è la manovra prevista."
         },
         {
           "n": 71,
@@ -970,7 +970,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Tra due aeromobili che si avvicinano entrambi all'atterraggio, quello a quota più alta deve cedere la precedenza a quello più basso."
+          "explanation": "Tra due aeromobili che si avvicinano entrambi all'atterraggio, quello a quota più alta deve cedere la precedenza a quello più basso. Non è la posizione laterale (chi ha l'altro a sinistra, falsa l'opzione 1) il criterio determinante. Non è il carrello abbassato (falsa l'opzione 2): non è un criterio normato. Non è la velocità relativa (falsa l'opzione 3): il criterio è esclusivamente la quota."
         },
         {
           "n": 72,
@@ -984,7 +984,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Due aeromobili che si incrociano in direzione opposta su una via di rullaggio si arrestano o accostano entrambi a destra, se c'è spazio sufficiente."
+          "explanation": "Due aeromobili che si incrociano in direzione opposta su una via di rullaggio si arrestano o accostano entrambi a destra, se c'è spazio sufficiente. Non è previsto che chi va verso il parcheggio ceda a chi va verso la pista (falsa l'opzione 1): la regola è simmetrica, non basata sulla direzione di destinazione. Non serve richiedere istruzioni alla torre come procedura standard (falsa l'opzione 2): la manovra è codificata autonomamente. Non è previsto invertire la direzione di rullaggio (falsa l'opzione 3): la manovra prevista è l'accostamento a destra."
         },
         {
           "n": 73,
@@ -998,7 +998,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La luce verde fissa dalla torre, in radio avaria, autorizza l'atterraggio."
+          "explanation": "La luce verde fissa dalla torre, in radio avaria, autorizza l'atterraggio. Non significa riattaccare (falsa l'opzione 0): è il significato opposto, associato alla mancata autorizzazione. Non significa dare precedenza (falsa l'opzione 2): quello è il significato del rosso fisso. Non significa continuare a circuitare (falsa l'opzione 3): stesso motivo, è associato al rosso fisso."
         },
         {
           "n": 74,
@@ -1012,7 +1012,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La luce rossa fissa dalla torre, in radio avaria nel circuito, significa di dare precedenza e continuare a circuitare senza atterrare."
+          "explanation": "La luce rossa fissa dalla torre, in radio avaria nel circuito, significa dare precedenza e continuare a circuitare senza atterrare. Non significa riattaccare (falsa l'opzione 0): non è il significato codificato per questa luce. Non significa aeroporto insicuro (falsa l'opzione 1): quel significato è associato al rosso intermittente, non al rosso fisso. Non significa atterrare con precauzione per lavori in corso (falsa l'opzione 2): non è il significato di questo segnale."
         },
         {
           "n": 75,
@@ -1026,7 +1026,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il razzo rosso dalla torre annulla ogni precedente autorizzazione: non si deve atterrare finché non arrivano nuove istruzioni."
+          "explanation": "Il razzo rosso dalla torre annulla ogni precedente autorizzazione: non si deve atterrare finché non arrivano nuove istruzioni. Non significa aeroporto insicuro (falsa l'opzione 1): quel significato è associato ad altri segnali. Non significa aeromobile in emergenza/dare precedenza (falsa l'opzione 2): non è il significato codificato per il razzo rosso. Non significa atterrare con precauzione per contaminanti in pista (falsa l'opzione 3): non è il significato di questo segnale pirotecnico."
         },
         {
           "n": 76,
@@ -1039,7 +1039,7 @@
             "le ore di volo sono a discrezione dell'istruttore"
           ],
           "correct": 0,
-          "explanation": "L'addestramento per differenze SEP per carrello retrattile (RU) richiede un minimo di 3 ore di volo con istruttore."
+          "explanation": "L'addestramento per differenze SEP per carrello retrattile (RU) richiede un minimo di 3 ore di volo con istruttore. 2 ore (falsa l'opzione 1) sono insufficienti. 5 ore (falsa l'opzione 2) superano il minimo effettivamente richiesto. Non è a discrezione dell'istruttore (falsa l'opzione 3): è un valore fisso normato."
         },
         {
           "n": 77,
@@ -1053,7 +1053,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il pannello rosso con diagonali gialle nel quadrato segnali indica atterraggio proibito."
+          "explanation": "Il pannello rosso con diagonali gialle nel quadrato segnali indica atterraggio proibito. Non significa che l'atterraggio sia consentito solo in emergenza per avvallamenti (falsa l'opzione 1): è un divieto assoluto. Non significa che le operazioni siano limitate a piste e vie di rullaggio (falsa l'opzione 2): non è il significato di questo pannello. Non significa atterrare con precauzione per lavori in corso (falsa l'opzione 3): è un segnale diverso da quello di semplice cautela."
         },
         {
           "n": 78,
@@ -1067,7 +1067,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La croce bianca posta all'inizio di pista o via di rullaggio indica che quel tratto non è utilizzabile."
+          "explanation": "La croce bianca posta all'inizio di pista o via di rullaggio indica che quel tratto non è utilizzabile. Non segnala precauzione per la presenza di elicotteri (falsa l'opzione 0): non è il suo significato. Non significa decollo e rullaggio con precauzione per lavori in corso (falsa l'opzione 2): il segnale indica inagibilità del tratto, non semplice cautela. Non significa arrestarsi e chiedere autorizzazione alla torre (falsa l'opzione 3): non è il significato codificato per questo segnale."
         },
         {
           "n": 79,
@@ -1081,7 +1081,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il pannello giallo con la lettera C nera su un edificio aeroportuale segnala la presenza di un ARO."
+          "explanation": "Il pannello giallo con la lettera C nera su un edificio aeroportuale segnala la presenza di un ARO (Air-Report Office/ufficio resoconti volo). Non significa aeroporto temporaneamente chiuso (falsa l'opzione 1): non è il significato di questo pannello. Non significa assenza di servizio antincendio (falsa l'opzione 2): non è il significato codificato. Non significa che le manovre siano autorizzate solo con segnali luminosi (falsa l'opzione 3): non è il significato di questo pannello."
         },
         {
           "n": 80,
@@ -1094,7 +1094,7 @@
             "Nei periodi stabiliti dagli enti dei servizi del traffico aereo per ogni singolo aeroporto."
           ],
           "correct": 1,
-          "explanation": "Il VFR diurno è consentito da 30 minuti prima del sorgere del sole a 30 minuti dopo il tramonto, secondo le effemeridi locali."
+          "explanation": "Il VFR diurno è consentito da 30 minuti prima del sorgere del sole a 30 minuti dopo il tramonto, secondo le effemeridi locali. L'opzione 0 (\"dall'alba al tramonto\") è imprecisa: manca il margine di 30 minuti su entrambi i lati. Non sono periodi stabiliti discrezionalmente dalla DGAC per singolo aeroporto (falsa l'opzione 2) né dagli enti ATS per singolo aeroporto (falsa l'opzione 3): il criterio è uniforme e basato sulle effemeridi locali, non su decisioni locali caso per caso."
         },
         {
           "n": 81,
@@ -1108,7 +1108,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In Italia il livello massimo consentito per il VFR è FL 195, sopra il quale lo spazio è riservato all'IFR."
+          "explanation": "In Italia il livello massimo consentito per il VFR è FL 195, sopra il quale lo spazio è riservato all'IFR. Non è FL 245 (falsa l'opzione 1) né FL 205 (falsa l'opzione 2): entrambi i valori sono superiori a quello effettivamente normato. Non varia in funzione della FIR (falsa l'opzione 3): il limite FL 195 è uniforme su tutto il territorio nazionale."
         },
         {
           "n": 82,
@@ -1122,7 +1122,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In classe E sotto FL100 il VFR richiede 5 km di visibilità, 1.500 m di distanza orizzontale e 300 m di distanza verticale dalle nubi."
+          "explanation": "In classe E sotto FL100 il VFR richiede 5 km di visibilità, 1.500 m di distanza orizzontale e 300 m di distanza verticale dalle nubi. L'opzione 0 (8 km, 1.500 m, 300 ft) è falsa perché la visibilità richiesta a questa quota è 5 km, non 8, e mescola unità di misura diverse per la distanza verticale. L'opzione 2 (5 km fuori dalle nubi, a contatto col suolo) è falsa perché omette le distanze quantitative dalle nubi effettivamente richieste in questa fascia."
         },
         {
           "n": 83,
@@ -1136,7 +1136,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Sopra FL100, nelle classi B/C/D/F/G, il VFR richiede visibilità di almeno 8 km."
+          "explanation": "Sopra FL100, nelle classi B/C/D/F/G, il VFR richiede visibilità di almeno 8 km. Non FL 50 (falsa l'opzione 0): valore troppo basso rispetto al riferimento corretto. Non il livello di transizione TL (falsa l'opzione 2): non è il riferimento usato per questa regola, che è espressa in livelli di volo fissi. Non FL 90 (falsa l'opzione 3): valore errato rispetto a FL100."
         },
         {
           "n": 84,
@@ -1149,7 +1149,7 @@
             "che il volo venga effettuato non al di sopra di una altitudine di 1500 ft, che venga mantenuto il continuo contatto visivo con il suolo od acqua, che la velocità (IAS) risulti non superiore a 150 nodi, che operi all'interno di spazi aerei di classe \"E\" \"F\" o \"G\"."
           ],
           "correct": 1,
-          "explanation": "La visibilità ridotta (fino a 1.500 m) è ammessa solo sotto i 3.000 ft (o 1.000 ft sul terreno), con IAS non superiore a 140 nodi, in classe F o G."
+          "explanation": "La visibilità ridotta, fino a 1.500 m, è ammessa solo sotto i 3.000 ft (o 1.000 ft sul terreno, quale delle due più alta), con IAS non superiore a 140 nodi, in spazio di classe F o G. L'opzione 0 è falsa: fa riferimento all'altitudine di transizione (TA) e a un limite di 150 nodi, entrambi non corrispondenti ai criteri reali. L'opzione 2 è falsa: colloca il limite a FL100 con classe E inclusa e velocità 150 nodi, valori diversi da quelli normati. L'opzione 3 è falsa: indica 1.500 ft come limite di quota e 150 nodi come velocità, anch'essi non corrispondenti ai valori corretti (3.000/1.000 ft e 140 nodi)."
         },
         {
           "n": 85,
@@ -1163,7 +1163,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Sopra FL100 in classe B il VFR richiede 8 km di visibilità, 1.500 m orizzontali e 300 m verticali dalle nubi."
+          "explanation": "Sopra FL100 in classe B il VFR richiede 8 km di visibilità, 1.500 m di distanza orizzontale e 300 m di distanza verticale dalle nubi. L'opzione 1 (8 km, fuori dalle nubi, a contatto col suolo) è falsa perché omette i valori quantitativi di distanza dalle nubi. L'opzione 2 (solo 8 km fuori dalle nubi) è ancora più incompleta. L'opzione 3 (5 km) è falsa perché la visibilità minima richiesta in questa fascia è 8 km, non 5."
         },
         {
           "n": 86,
@@ -1177,7 +1177,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Le autorizzazioni VFR speciale permettono di entrare o uscire da aeroporti in CTR quando il meteo è sotto i minimi VFR ordinari."
+          "explanation": "Le autorizzazioni VFR speciale permettono a un aeromobile in VFR di entrare o uscire da aeroporti ubicati in CTR quando il meteo è sotto i minimi VFR ordinari. Non servono a ridurre le separazioni tra aeromobili VFR (falsa l'opzione 1): non è questo il loro scopo. Non servono per la separazione del traffico IFR (falsa l'opzione 2): riguardano il traffico VFR, non l'IFR. Non servono a gestire un maggior numero di VFR in caso di meteo cattivo (falsa l'opzione 3): lo scopo è consentire specifici movimenti in condizioni sotto i minimi, non aumentare la capacità."
         },
         {
           "n": 87,
@@ -1191,7 +1191,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'altezza minima di sorvolo su zone disabitate o sul mare è 500 piedi."
+          "explanation": "L'altezza minima di sorvolo su zone disabitate o sul mare è 500 piedi. Non 1.000 piedi (falsa l'opzione 1): quel valore riguarda il sorvolo di zone abitate. Non 1.500 piedi (falsa l'opzione 2): valore eccessivo rispetto al minimo normato. Non è priva di limitazioni a discrezione del pilota (falsa l'opzione 3): esiste un minimo fisso normato, 500 piedi."
         },
         {
           "n": 88,
@@ -1205,7 +1205,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il livello di volo è una superficie a pressione costante, riferita al valore standard 1013 hPa, distanziata da altre superfici da intervalli di pressione prestabiliti."
+          "explanation": "Il livello di volo è una superficie di pressione atmosferica costante, riferita al valore standard 1013 hPa, distanziata da altre superfici da intervalli di pressione prestabiliti. L'opzione 0 descrive invece l'altitudine (distanza verticale dal livello medio del mare), non il livello di volo. L'opzione 2 introduce una condizione sulla pressione al suolo (>1013 hPa) che non fa parte della definizione. L'opzione 3 confonde il concetto di altezza sopra un punto della superficie con quello di livello di volo, che è invece riferito a una superficie isobarica standard."
         },
         {
           "n": 89,
@@ -1219,7 +1219,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Per sorvolare un aeroporto senza TWR occorre restare almeno 500 ft sopra il limite superiore pubblicato dell'ATZ."
+          "explanation": "Per sorvolare un aeroporto senza servizio TWR occorre restare almeno 500 piedi sopra il limite superiore pubblicato dell'ATZ. Non è la quota di circuito (falsa l'opzione 0): quel valore riguarda chi opera nel circuito di traffico, non chi sorvola. Non è a discrezione del pilota (falsa l'opzione 1): è un margine fisso normato. Non è vero che sia vietato sorvolare l'aeroporto (falsa l'opzione 2): è consentito, rispettando il margine sopra l'ATZ."
         },
         {
           "n": 90,
