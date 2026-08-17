@@ -8926,7 +8926,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un CG arretrato riduce la stabilità longitudinale, abbassa leggermente la velocità di stallo (meno deportanza di coda richiesta, quindi meno portanza totale necessaria dall'ala) e aumenta leggermente la velocità di crociera."
+          "explanation": "Uno spostamento del CG verso il limite posteriore riduce la stabilità longitudinale (meno braccio di leva del piano di coda nel contrastare le perturbazioni), diminuisce leggermente la velocità di stallo (serve meno portanza negativa di coda, quindi meno portanza totale dall'ala) e aumenta leggermente la velocità di crociera (minore resistenza indotta di trim). (opzione 1) descrive l'effetto opposto, tipico invece di un CG spostato in avanti, che aumenta la stabilità longitudinale. (opzione 3) è errata su entrambi i punti: un CG arretrato riduce, non aumenta, la velocità di stallo, e rende il recupero da vite più difficile (non più facile), perché il minor braccio di coda riduce l'efficacia del timone anti-vite. (opzione 4) è anch'essa invertita: un CG arretrato riduce lo sforzo sui comandi per cabrare, non lo aumenta, proprio perché c'è meno peso davanti al fulcro da bilanciare."
         },
         {
           "n": 156,
@@ -8940,7 +8940,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il Carico Alare (Wing Loading) si ottiene dividendo il peso totale dell'aeromobile per la superficie alare."
+          "explanation": "Il Carico Alare si definisce come il rapporto tra il peso totale dell'aeromobile e l'area della superficie alare, un parametro che influenza direttamente la velocità di stallo e la manovrabilità. (opzione 1) confonde l'operazione (moltiplicazione anziché divisione) e la grandezza geometrica (apertura alare, cioè l'estensione lineare delle ali, non la loro superficie). (opzione 2) descrive invece il rapporto spinta/peso, un parametro di prestazione propulsiva distinto dal carico alare. (opzione 3) descrive l'efficienza aerodinamica (portanza su resistenza indotta), un rapporto adimensionale legato alla planata, non al carico alare."
         },
         {
           "n": 157,
@@ -8954,7 +8954,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La Vx si usa per superare un ostacolo vicino, percorrendo la minor distanza orizzontale possibile per guadagnare la quota necessaria a liberarlo."
+          "explanation": "La Vx (velocità di miglior angolo di salita) massimizza il guadagno di quota per unità di distanza percorsa al suolo, quindi si usa per superare un ostacolo vicino con la minor distanza orizzontale possibile. (opzione 1), raggiungere la quota di crociera nel minor tempo possibile, descrive invece lo scopo della Vy (velocità di miglior rateo di salita), che massimizza i piedi guadagnati al minuto, non per metro percorso. (opzione 3) è errata anche nel merito tecnico: volare a Vx, con angolo di attacco elevato e bassa velocità relativa dell'aria sul motore, tende a peggiorare il raffreddamento, non a migliorarlo. (opzione 4) descrive lo scopo della velocità di massima efficienza (Vmd) usata per la planata a motore spento, un regime di volo diverso dalla salita a Vx."
         },
         {
           "n": 158,
@@ -8968,7 +8968,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In atterraggio, l'effetto suolo si avverte come una notevole riduzione della resistenza indotta, che fa galleggiare l'aereo prolungandone il volo a pochi piedi dalla pista."
+          "explanation": "L'effetto suolo, dovuto all'interferenza del terreno con i vortici di estremità alare a pochi piedi di quota, riduce notevolmente la resistenza indotta e fa \"galleggiare\" l'aereo, prolungandone il volo prima del contatto. (opzione 1) descrive un sintomo da manovra scorretta (flare tardivo o assente), non l'effetto suolo in sé. (opzione 2) non ha alcun nesso causale con l'effetto suolo, che è un fenomeno simmetrico legato alla vicinanza del terreno, non uno stallo asimmetrico di una singola ala. (opzione 4) descrive l'esatto opposto: l'effetto suolo riduce, non aumenta, la tendenza a scendere rapidamente, proprio per la minore resistenza indotta."
         },
         {
           "n": 159,
@@ -8982,7 +8982,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Per ottenere l'Altitudine di Pressione in volo si imposta sull'altimetro, nella finestrella di Kollsman, la pressione standard di 1013,25 hPa (29,92 inHg)."
+          "explanation": "Per ottenere l'Altitudine di Pressione occorre impostare nella finestrella di Kollsman dell'altimetro la pressione atmosferica standard di 1013,25 hPa (29,92 inHg), indipendentemente dalla pressione locale reale. (opzione 1), regolare sul QNH, fa invece leggere l'altitudine reale sul livello del mare, non la Pressure Altitude. (opzione 2), regolare sul QFE, fa leggere l'altezza sopra il livello del campo (0 ft in pista), un riferimento diverso sia dalla PA sia dall'altitudine QNH. (opzione 4), azzerare le lancette indipendentemente dalla pressione, non corrisponde a nessuna procedura reale di regolazione dell'altimetro."
         },
         {
           "n": 160,
@@ -9024,7 +9024,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La Vno (limite superiore dell'arco verde) non va mai superata intenzionalmente se non in aria calmissima e con estrema cautela: oltre si entra nell'arco giallo, la zona di cautela verso la Vne."
+          "explanation": "La Vno (limite superiore dell'arco verde, Maximum Structural Cruising Speed) non deve mai essere superata intenzionalmente se non in aria calmissima e con la massima cautela, perché oltre si entra nell'arco giallo (caution range), dove raffiche potrebbero causare sovraccarichi strutturali. (opzione 2), la Vfe, è un limite assoluto legato alla configurazione flap estesi: non è definita in relazione alla calma dell'aria, ma alla posizione dei flap. (opzione 3), la Va, è la velocità di manovra strutturale, un limite diverso legato alle escursioni brusche dei comandi, non alla possibilità condizionata di superarla in aria calma. (opzione 4), la Vne, è l'esatto opposto del concetto descritto: non va mai superata in nessuna condizione, nemmeno in aria calmissima, essendo il limite strutturale assoluto."
         },
         {
           "n": 163,
@@ -9038,7 +9038,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il rateo di salita si esprime tipicamente in piedi al minuto (fpm)."
+          "explanation": "Il rateo di salita (Rate of Climb) esprime la componente verticale della traiettoria di volo e si misura convenzionalmente in piedi al minuto, fpm. (opzione 2), i gradi angolari, misurano invece l'angolo di rampa (flight path angle), un parametro geometrico distinto dal rateo verticale. (opzione 3), i nodi, sono l'unità della velocità orizzontale (IAS/TAS/GS), non della componente verticale. (opzione 4), i chilometri orari, sono anch'essi un'unità di velocità orizzontale, non applicabile al rateo di salita."
         },
         {
           "n": 164,
@@ -9052,7 +9052,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Atterrare su pista in salita (upslope) riduce la corsa di atterraggio al suolo, perché la componente di gravità lungo la pista aiuta la frenata: l'effetto opposto si ha su una pista in discesa."
+          "explanation": "Atterrare su una pista in salita (upslope) riduce la corsa di atterraggio al suolo, perché la componente di gravità lungo il piano della pista si oppone al moto in avanti dell'aereo, aiutando la frenata. (opzione 1) descrive l'effetto opposto: la pendenza in salita diminuisce, non aumenta, la corsa di atterraggio. (opzione 2) introduce un rischio (stallo in virata base) del tutto scollegato dalla pendenza della pista, che ha effetto solo nella fase di corsa al suolo, non in virata. (opzione 4) è errata perché la pendenza produce un effetto misurabile e rilevante sulla distanza di atterraggio, non nullo."
         },
         {
           "n": 165,
@@ -9066,7 +9066,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'Indice di centraggio è un numero proporzionale al momento (spesso il momento diviso per una costante), usato per semplificare graficamente i calcoli di peso e bilanciamento."
+          "explanation": "Nei manuali di volo, l'Indice (Index) di centraggio è un numero proporzionale al momento, spesso ottenuto dividendo il momento per una costante di scala, per semplificare graficamente i calcoli di peso e bilanciamento. (opzione 1) confonde l'Indice con una misura di velocità, un concetto del tutto estraneo al centraggio. (opzione 2) attribuisce all'Indice un significato di consumo di carburante, mentre l'Indice riguarda esclusivamente il momento peso-braccio, non i consumi. (opzione 4) è priva di fondamento tecnico: l'Indice non ha nulla a che vedere con un elenco di passeggeri."
         },
         {
           "n": 166,
@@ -9094,7 +9094,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "ASDA = TORA + Stopway = 1200 + 200 = 1400 metri; la Clearway non entra nel calcolo dell'ASDA, ma solo in quello della TODA."
+          "explanation": "L'ASDA (Accelerate-Stop Distance Available) si calcola come TORA + Stopway = 1200 + 200 = 1400 metri; la Clearway non entra nel calcolo dell'ASDA, ma solo in quello della TODA. (opzione 1), 1500 m, corrisponde all'errore di sommare la Clearway al posto della Stopway (1200+300), invertendo le due distanze. (opzione 3), 1200 m, coincide con la sola TORA, ignorando del tutto il contributo della Stopway. (opzione 4), 1700 m, corrisponde all'errore di sommare sia la Stopway sia la Clearway alla TORA (1200+200+300), includendo per errore anche la Clearway che non fa parte dell'ASDA."
         },
         {
           "n": 168,
@@ -9108,7 +9108,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La velocità minima di innesco dell'aquaplaning dipende principalmente dalla pressione di gonfiaggio degli pneumatici, secondo la formula empirica 9 x radice quadrata della pressione in PSI."
+          "explanation": "La velocità minima di innesco dell'idroplanata dipende principalmente dalla pressione di gonfiaggio degli pneumatici, secondo la formula empirica 9 x radice quadrata della pressione in PSI. (opzione 1) attribuisce il fattore principale al peso dell'aeromobile, che influenza la pressione al suolo solo indirettamente tramite il dimensionamento degli pneumatici: non è il fattore diretto della formula. (opzione 2), la quantità di carburante residuo, non ha alcuna relazione diretta con la velocità di innesco dell'aquaplaning. (opzione 4), l'estensione dei flap, agisce sulla portanza e sulla velocità di stallo, non sulla pressione di contatto pneumatico-pista."
         },
         {
           "n": 169,
@@ -9136,7 +9136,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il Momento di un oggetto caricato a bordo si ottiene moltiplicando il suo Peso per il suo Braccio (distanza dal Datum)."
+          "explanation": "Il Momento di un oggetto caricato a bordo si ottiene moltiplicando il suo Peso per il suo Braccio, cioè la distanza dal Datum di riferimento. (opzione 2) usa l'operazione inversa (divisione anziché moltiplicazione), che non ha significato fisico per il calcolo del momento. (opzione 3) propone una sottrazione tra due grandezze eterogenee (braccio e peso totale), un'operazione priva di senso dimensionale. (opzione 4) coinvolge grandezze estranee al calcolo del momento di un singolo oggetto: il Carico Utile e la Corda Aerodinamica non sono i termini della formula Peso x Braccio."
         },
         {
           "n": 171,
@@ -9150,7 +9150,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il Taxi Fuel va consumato prima del decollo, durante le operazioni di messa in moto, rullaggio e prove motore."
+          "explanation": "Il carburante di rullaggio (Taxi Fuel) è per definizione quello consumato prima del decollo, durante le operazioni di messa in moto, rullaggio verso la pista e prove motore. (opzione 1) colloca il consumo durante la fase di salita in crociera, una fase successiva al decollo, non corrispondente alla definizione di Taxi Fuel. (opzione 2) lo confonde con il carburante di riserva per l'alternato, una voce di pianificazione completamente diversa. (opzione 4) lo colloca addirittura dopo l'atterraggio, mentre il Taxi Fuel per definizione riguarda solo le operazioni a terra prima del decollo."
         },
         {
           "n": 172,
@@ -9164,7 +9164,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In atmosfera standard ISA, con 15°C al livello del mare e un gradiente di -2°C ogni 1000 ft, a 8000 ft si ha: 15 - (8 x 2) = 15 - 16 = -1°C."
+          "explanation": "In atmosfera standard ISA, con 15°C al livello del mare e un gradiente di raffreddamento di circa -2°C ogni 1000 ft, a 8000 ft si ha: 15 - (8 x 2) = 15 - 16 = -1°C. (opzione 1), 0°C, e (opzione 2), +5°C, non derivano da una corretta applicazione del gradiente ISA di -2°C/1000ft ai dati indicati, essendo entrambi troppo alti rispetto al calo termico reale di 16°C previsto per 8000 ft di quota. (opzione 3), -8°C, è coerente con l'errore di applicare un gradiente dimezzato di -1°C/1000ft anziché quello corretto di -2°C/1000ft, partendo da un valore già negativo anziché sottrarre da 15°C."
         },
         {
           "n": 173,
@@ -9178,7 +9178,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'aria calda al carburatore riduce la densità della miscela immessa nei cilindri, degradando la potenza del motore: va evitata prima di un decollo a pieno carico (salvo prescrizioni specifiche per rischio ghiaccio), perché allunga la corsa di decollo."
+          "explanation": "L'aria calda al carburatore va evitata prima di un decollo a pieno carico (salvo prescrizioni specifiche per rischio di formazione di ghiaccio), perché riduce la densità dell'aria immessa nei cilindri, degradando la potenza erogata dal motore e allungando la corsa di decollo. (opzione 1) descrive l'effetto opposto: l'aria calda riduce, non aumenta, la spinta disponibile, indipendentemente dalla temperatura esterna. (opzione 3) è errata perché la riduzione di densità e potenza si verifica comunque, indipendentemente dall'umidità dell'aria esterna: la causa è la temperatura, non l'umidità. (opzione 4) attribuisce all'aria calda al carburatore un effetto sulle vibrazioni dell'elica, un fenomeno meccanico non collegato alla funzione di questo comando, che serve a prevenire/rimuovere il ghiaccio nel carburatore."
         },
         {
           "n": 174,
@@ -9192,7 +9192,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La Va (velocità di manovra) è la velocità massima oltre la quale un'escursione completa e brusca dei comandi può causare danni strutturali prima che l'aereo stalli, assorbendo così l'energia in eccesso con lo stallo anziché con una rottura."
+          "explanation": "La Va (velocità di manovra) è la velocità massima al di sopra della quale un'escursione completa dei comandi può provocare danni strutturali prima che l'aereo raggiunga lo stallo, che assorbe così l'energia in eccesso al posto della struttura. (opzione 1) descrive invece la velocità di avvicinamento finale, un parametro operativo di pianificazione dell'atterraggio, non un limite strutturale. (opzione 2) corrisponde alla definizione della Vno (Maximum Structural Cruising Speed), un limite diverso legato al volo in aria turbolenta a raffiche moderate, non alle escursioni brusche dei comandi. (opzione 4) descrive la velocità minima di controllo a terra, un parametro legato al controllo direzionale in caso di avaria motore in fase di decollo, concettualmente estraneo alla Va."
         },
         {
           "n": 175,
@@ -9206,7 +9206,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La TAS è la CAS corretta per la densità dell'aria e per l'altitudine: rappresenta la reale velocità dell'aereo attraverso la massa d'aria."
+          "explanation": "La TAS (True Airspeed) è la Calibrated Airspeed corretta per la densità dell'aria e per l'altitudine: rappresenta la reale velocità fisica dell'aereo attraverso la massa d'aria che lo circonda. (opzione 1) descrive invece l'Indicated Airspeed (IAS), la lettura diretta e non corretta sul quadrante. (opzione 2) descrive la Ground Speed, la velocità rispetto al suolo che tiene conto anche del vento, un concetto diverso dalla velocità rispetto alla massa d'aria. (opzione 4) descrive la velocità verticale (misurata dal variometro), una componente completamente diversa dalla velocità orizzontale rappresentata dalla TAS."
         },
         {
           "n": 176,
@@ -9220,7 +9220,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Valore letto dal grafico allegato alle condizioni indicate (65% di potenza, PA 12000 ft, OAT -20°C, peso 2900 lb): si segue il procedimento standard di lettura del grafico di crociera per ricavare la TAS.",
+          "explanation": "Il valore si legge dal grafico di crociera allegato per le condizioni indicate (65% di potenza, gear/flap up, peso 2900 lb, PA 12.000 ft, OAT -20°C): si entra con la temperatura e l'altitudine di pressione, si segue la curva di potenza fino alla linea del peso lordo, ottenendo una TAS di 144 kt. (opzione 2), 128 kt, è coerente con l'errore di leggere la curva a una percentuale di potenza inferiore (es. 55% anziché 65%). (opzione 3), 100 kt, è un valore troppo basso per queste condizioni di crociera con motore ancora a potenza sostenuta, più vicino a una velocità di avvicinamento che di crociera. (opzione 4), 136 kt, è coerente con il tipo di errore che si ottiene leggendo il grafico a un'altitudine di pressione diversa da quella richiesta (12.000 ft).",
           "fig": "3-2"
         },
         {
@@ -9235,7 +9235,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'MTOM è un limite strutturale e prestazionale assoluto stabilito in fase di certificazione: non va mai superato all'inizio della corsa di decollo, senza eccezioni nemmeno in emergenza."
+          "explanation": "Il MTOM è un limite strutturale e prestazionale assoluto, stabilito in sede di certificazione, che non deve mai essere superato all'inizio della corsa di decollo, senza eccezioni. (opzione 1) suggerisce erroneamente che il limite sia opzionale e superabile del 15% in emergenza: nessuna normativa consente di superare il MTOM strutturale, nemmeno in emergenza. (opzione 3) confonde il MTOM con il peso a vuoto (Empty Mass), che è invece il peso dell'aeromobile senza carico utile né carburante. (opzione 4) restringe erroneamente il MTOM al solo carico di passeggeri e bagagli, mentre il limite riguarda la massa totale dell'aeromobile pronto al decollo, comprensiva di carburante ed equipaggio."
         },
         {
           "n": 178,
@@ -9249,7 +9249,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un CG vicino al limite anteriore consentito rende l'aereo molto stabile, ma con velocità di stallo leggermente superiore e crociera più lenta, richiedendo un maggiore sforzo o trim sull'equilibratore."
+          "explanation": "Un CG vicino al limite anteriore consentito rende l'aereo molto stabile longitudinalmente, ma con una velocità di stallo leggermente superiore e una crociera più lenta, richiedendo un maggiore sforzo (o trim) sull'equilibratore per mantenere l'assetto. (opzione 2) descrive l'esatto opposto, cioè gli effetti di un CG spostato verso il limite posteriore (instabilità, difficoltà di recupero da stallo/vite), non quelli di un CG anteriore. (opzione 3) non ha fondamento tecnico: un CG anteriore comporta maggiore resistenza di trim e quindi tendenzialmente un consumo leggermente superiore, non inferiore. (opzione 4) è priva di nesso causale: la posizione del CG entro i limiti operativi non compromette la capacità di frenata a terra."
         },
         {
           "n": 179,
@@ -9263,7 +9263,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il Carburante Utilizzabile è quello effettivamente fruibile dai sistemi del motore in tutte le normali condizioni e assetti di volo, escludendo quindi il non usabile intrappolato per geometria dei serbatoi."
+          "explanation": "Il Carburante Utilizzabile è, per definizione, quello effettivamente fruibile dai sistemi del motore in tutte le normali condizioni di volo e di assetto dell'aeromobile. (opzione 2) lo confonde con il totale dei galloni versati durante il rifornimento, che può includere anche quota di carburante non utilizzabile per geometria dei serbatoi. (opzione 3) descrive proprio il carburante non usabile (Unusable Fuel), intrappolato nelle tubazioni o nei punti più bassi dei serbatoi, cioè l'opposto del carburante utilizzabile. (opzione 4) confonde il concetto con il carburante legale per l'aeroporto alternato, una voce di pianificazione della rotta, non una categoria fisica del carburante a bordo."
         },
         {
           "n": 180,
@@ -9277,7 +9277,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per massimizzare l'autonomia oraria (restare in volo il più a lungo possibile, ad esempio in attesa) si vola alla velocità di minima potenza necessaria, diversa dalla velocità di massima efficienza usata per il range."
+          "explanation": "Per massimizzare l'autonomia oraria, cioè restare in volo il maggior tempo possibile a parità di carburante, si vola alla velocità di minima potenza necessaria (Vmp), che minimizza il consumo orario. (opzione 2), la Vmd (velocità di massima efficienza aerodinamica), massimizza invece l'autonomia chilometrica (range), non quella oraria: le due velocità sono concettualmente diverse. (opzione 3), la Vno, è un limite strutturale di velocità massima di crociera, non una velocità ottimizzata per l'autonomia. (opzione 4), la Vy, è la velocità di miglior rateo di salita, usata per guadagnare quota nel minor tempo, non per massimizzare la permanenza in volo in crociera/attesa."
         },
         {
           "n": 181,
@@ -9291,7 +9291,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il Punto di Ugual Tempo è il punto lungo la rotta dal quale il tempo necessario per proseguire fino a destinazione eguaglia il tempo necessario per tornare all'aeroporto di partenza."
+          "explanation": "Il Punto di Ugual Tempo è, per definizione, il punto lungo la rotta dal quale il tempo necessario per proseguire fino a destinazione è uguale al tempo necessario per tornare all'aeroporto di partenza. (opzione 2) lo confonde con un punto legato al consumo di carburante (metà serbatoio), un criterio diverso da quello temporale che definisce il PET. (opzione 3) lo associa erroneamente a un'operazione tecnica di gestione dei serbatoi, priva di relazione con il calcolo del PET. (opzione 4) lo collega al passaggio giorno/notte, un evento astronomico indipendente dalla pianificazione di rotta e carburante."
         },
         {
           "n": 182,
@@ -9305,7 +9305,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La Vfe è la velocità massima alla quale è consentito volare con i flap estesi in una specifica configurazione."
+          "explanation": "La Vfe è la velocità massima alla quale è consentito volare con i flap estesi in una determinata configurazione, oltre la quale il carico aerodinamico sui flap può causare danni strutturali. (opzione 1) descrive un concetto diverso, quello della velocità massima in aria turbolenta, più vicino alla Va, non legato specificamente alla posizione dei flap. (opzione 3) confonde la Vfe con la Vso, la velocità di stallo in configurazione di atterraggio (flap estesi), che è un limite minimo, non massimo. (opzione 4) descrive la velocità di massima efficienza (Vmd), un parametro di prestazione in crociera/planata, non un limite strutturale legato ai flap."
         },
         {
           "n": 183,
@@ -9319,7 +9319,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per evitare la scia di un aereo pesante in atterraggio, occorre restare sopra il suo sentiero di discesa e toccare terra oltre il suo punto di contatto, poiché la turbolenza di scia tende a scendere e a depositarsi vicino al suolo dietro la sua traiettoria."
+          "explanation": "Per evitare la turbolenza di scia generata da un aereo pesante in atterraggio, un aereo leggero dovrebbe restare sopra il sentiero di discesa dell'aereo pesante e toccare terra oltre il suo punto di contatto, poiché i vortici di scia tendono a scendere e depositarsi vicino al suolo lungo la sua traiettoria. (opzione 1) propone una soluzione (pista parallela) non sempre disponibile e comunque non equivalente alla tecnica standard di posizionamento verticale/orizzontale rispetto alla scia. (opzione 3) descrive l'esatto comportamento da evitare: toccare terra prima del punto di contatto dell'aereo pesante espone proprio alla zona di scia più densa. (opzione 4) è pericolosa e priva di relazione con l'evitamento della scia: atterrare con vento in coda comporta rischi propri (velocità al suolo elevata, distanza di atterraggio maggiore) indipendenti dalla turbolenza di scia."
         },
         {
           "n": 184,
@@ -9333,7 +9333,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Una pista bagnata aumenta l'attrito delle ruote nell'acqua (water drag) rispetto a una pista asciutta, allungando la corsa di decollo."
+          "explanation": "Decollare da una pista bagnata comporta una diminuzione dell'accelerazione a causa del maggiore attrito viscoso dell'acqua sulle ruote (water drag), che allunga la corsa di decollo rispetto a una pista asciutta. (opzione 2) descrive l'effetto opposto: lo slittamento delle gomme su pista bagnata non accorcia la corsa, ma la allunga, riducendo l'efficacia dell'accelerazione. (opzione 3) non ha relazione causale diretta: la condizione della pista incide sulla corsa a terra, non direttamente sul rateo di salita una volta in volo. (opzione 4) è errata perché l'effetto della pista bagnata sulla corsa di decollo è misurabile e rilevante, non nullo."
         },
         {
           "n": 185,
@@ -9347,7 +9347,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "LDA è l'acronimo di Landing Distance Available, la distanza di atterraggio dichiarata disponibile su una pista."
+          "explanation": "LDA è l'acronimo di Landing Distance Available, la distanza di atterraggio dichiarata disponibile su una determinata pista. (opzione 2), (opzione 3) e (opzione 4) sono espansioni inventate dell'acronimo LDA, che nel contesto delle distanze dichiarate di pista si riferisce esclusivamente alla distanza di atterraggio disponibile, non a concetti di radioassistenza (Localizer), di altitudine di densità o di angolo di deviazione laterale."
         },
         {
           "n": 186,
@@ -9361,7 +9361,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il Punto di Non Ritorno è il punto più lontano lungo la rotta oltre il quale l'aereo non avrebbe più carburante sufficiente, incluse le riserve, per tornare all'aeroporto di partenza."
+          "explanation": "Il Punto di Non Ritorno è il punto più lontano lungo la rotta a cui l'aereo può spingersi avendo ancora carburante sufficiente, incluse le riserve, per tornare all'aeroporto di partenza. (opzione 1) lo confonde con un limite di copertura radio, un fenomeno di comunicazione senza alcuna relazione con il bilancio del carburante. (opzione 3) lo colloca erroneamente al momento del distacco delle ruote in decollo, un evento temporale fisso, non un punto calcolato lungo la rotta in funzione dell'autonomia. (opzione 4) descrive una condizione priva di senso fisico (velocità al suolo nulla), estranea alla definizione di PNR."
         },
         {
           "n": 187,
@@ -9375,7 +9375,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il Block Fuel è il carburante totale a bordo al momento del blocco porte, cioè all'inizio del movimento a terra: comprende taxi, trip, riserve e contingency."
+          "explanation": "Il Block Fuel è il carburante totale a bordo al momento del blocco porte, cioè all'inizio del movimento a terra: comprende taxi, trip, riserve e contingency, l'intero carburante imbarcato per la missione. (opzione 1) lo restringe erroneamente al solo carburante bruciato a terra (taxi e prove motore), che è invece solo una delle componenti del Block Fuel, non la sua totalità. (opzione 3) lo confonde con il carburante non pescabile dai serbatoi (Unusable Fuel), una categoria fisica diversa legata alla geometria dei serbatoi. (opzione 4) lo restringe alla sola riserva, mentre il Block Fuel comprende anche il carburante di rullaggio e di rotta, non solo la riserva."
         },
         {
           "n": 188,
@@ -9389,7 +9389,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'MZFM è il peso massimo strutturale consentito dell'aeromobile senza il carburante usabile, per limitare le sollecitazioni flettenti alla radice alare, che il carburante nelle ali normalmente contribuisce a scaricare in volo."
+          "explanation": "Il Maximum Zero Fuel Mass è il peso massimo strutturale consentito dell'aeromobile senza il carburante usabile, un limite che previene eccessive sollecitazioni flettenti alla radice alare, normalmente scaricate in volo dal peso del carburante nelle ali. (opzione 1) lo confonde con un limite di peso riferito al momento precedente l'avviamento dei motori, un concetto di pianificazione operativa diverso dal limite strutturale del MZFM. (opzione 3) è una definizione parziale ed errata: il MZFM comprende il peso a vuoto più equipaggio, passeggeri E bagagli, non solo i passeggeri senza bagagli. (opzione 4) descrive un aeromobile con serbatoi vuoti e senza equipaggio, una condizione fisica diversa dal MZFM, che è invece un limite strutturale calcolato con il carico pagante completo ma senza carburante usabile."
         },
         {
           "n": 189,
@@ -9403,7 +9403,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La Vx indicata aumenta leggermente con la quota, avvicinandosi progressivamente alla Vy fino a coincidere con essa alla tangenza assoluta."
+          "explanation": "La Vx indicata aumenta gradualmente con la quota, avvicinandosi progressivamente alla Vy fino a coincidere con essa alla tangenza assoluta, dove l'unica velocità di salita possibile è quella comune alle due curve. (opzione 1) descrive l'effetto opposto: la Vx non diminuisce con la quota, ma aumenta. (opzione 3) è errata perché la Vx varia effettivamente con la quota, non rimane fissa: le curve di potenza disponibile e necessaria cambiano con l'altitudine. (opzione 4) non ha significato operativo: la Vx resta un parametro rilevante per la pianificazione della salita a ogni quota, fino alla tangenza assoluta."
         },
         {
           "n": 190,
@@ -9417,7 +9417,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Con vento al traverso da destra, si inclina leggermente l'aereo verso destra (controvento) e si applica timone opposto verso sinistra, per mantenere il muso allineato all'asse pista (tecnica del wing-low o slip)."
+          "explanation": "Con vento al traverso proveniente da destra, la tecnica dello slip prevede di inclinare leggermente le ali (bank) controvento verso DESTRA e di applicare timone opposto verso SINISTRA, per allineare il muso all'asse pista mantenendo la traiettoria rettilinea. (opzione 1) inverte completamente il lato di applicazione di alettone e timone rispetto al vento reale, descrivendo la tecnica corretta per un vento da sinistra, non da destra. (opzione 2) descrive un'azione (tirare il volantino con ali livellate) che non corrisponde a nessuna tecnica di correzione per vento al traverso. (opzione 3) descrive una manovra di emergenza (chiudere motore e picchiare) priva di qualsiasi relazione con la gestione del vento al traverso in corto finale."
         },
         {
           "n": 191,
@@ -9431,7 +9431,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le masse standard per i calcoli di peso e centraggio tengono conto del tipo di volo e dell'età dei passeggeri (ed eventualmente del sesso, se il regolamento lo prevede), ma non del colore dei bagagli, del tutto irrilevante ai fini del peso."
+          "explanation": "I regolamenti sulle masse standard per peso e centraggio tengono conto del tipo di volo (turistico o d'affari), dell'età dei passeggeri (adulti, bambini, infanti) e, dove il regolamento lo prevede, del sesso, ma non del colore dei bagagli, del tutto irrilevante ai fini del peso trasportato. (opzione 1) è invece un fattore reale considerato dalle masse standard, poiché charter turistici e voli d'affari hanno tipicamente masse medie passeggeri diverse. (opzione 2) è anch'essa un fattore reale: le masse standard differenziano tra adulti, bambini e infanti proprio perché il peso medio varia sensibilmente con l'età. (opzione 4) è un fattore effettivamente previsto da alcuni regolamenti, che ammettono masse standard separate per uomini e donne quando la normativa applicabile lo consente."
         },
         {
           "n": 192,
@@ -9445,7 +9445,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il carburante non usabile è considerato parte del peso a vuoto base (Basic Empty Mass), non del carico utile né delle riserve di carburante."
+          "explanation": "Il carburante non usabile è considerato parte del Peso a Vuoto Base (Basic Empty Mass), perché è fisicamente intrappolato nei serbatoi per geometria e non può essere gestito come carburante di missione. (opzione 1) lo confonde con il Carico Utile, che comprende invece passeggeri, bagagli e merci trasportate, categorie di peso variabile per ogni volo. (opzione 2) lo colloca erroneamente tra le riserve di carburante, che sono invece carburante usabile pianificato per l'atterraggio all'alternato o l'attesa. (opzione 4) lo confonde con il Taxi Fuel, carburante usabile consumato durante le operazioni di rullaggio, categoria concettualmente opposta al carburante non usabile."
         },
         {
           "n": 193,
@@ -9459,7 +9459,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le prestazioni dichiarate a manuale valgono per un aereo aerodinamicamente pulito, senza ghiaccio, insetti o fango sulle superfici, e con il motore perfettamente a punto: condizioni reali peggiori degradano le prestazioni rispetto ai valori tabulati."
+          "explanation": "Le prestazioni dichiarate sui manuali di volo (decollo, crociera) valgono per un aeromobile in condizioni aerodinamicamente pulite, senza ghiaccio, insetti o fango sulle superfici, e con il motore perfettamente a punto: condizioni reali peggiori degradano le prestazioni rispetto ai valori tabulati. (opzione 1) descrive l'esatto opposto della condizione di riferimento: un aereo coperto di ghiaccio ha prestazioni fortemente degradate, non ottimali. (opzione 3) descrive una configurazione anomala (carrelli parzialmente estratti) che comporta resistenza aggiuntiva non prevista nelle prestazioni dichiarate a manuale. (opzione 4) descrive una condizione operativa (traino a verricello) del tutto estranea alle prestazioni standard di decollo o crociera a motore."
         },
         {
           "n": 194,
@@ -9473,7 +9473,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "1 US Gallon di Avgas equivale a circa 3,785 litri."
+          "explanation": "1 US Gallon equivale a 3,785 litri, il fattore di conversione standard usato per il carburante Avgas nella pianificazione in unità imperiali. (opzione 2), 4,54 litri, corrisponde invece al gallone imperiale britannico (Imperial Gallon), un'unità diversa dal gallone americano usato nei manuali di volo statunitensi. (opzione 3) e (opzione 4) non corrispondono a nessun fattore di conversione standard riconosciuto per il gallone, americano o imperiale."
         },
         {
           "n": 195,
@@ -9487,7 +9487,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La Ground Speed è la velocità dell'aereo rispetto al terreno, ottenuta correggendo la TAS per la direzione e l'intensità del vento."
+          "explanation": "La Ground Speed è la velocità dell'aeromobile rispetto al terreno, ottenuta correggendo la TAS per la direzione e l'intensità del vento incontrato. (opzione 2) la confonde con la velocità di toccata delle ruote in atterraggio, un evento puntuale e non un parametro di velocità continuo come la GS. (opzione 3) la confonde con un limite operativo di velocità in rullaggio, un vincolo procedurale distinto dal concetto fisico di Ground Speed. (opzione 4) la confonde con la velocità minima di controllo a terra, un parametro legato al controllo direzionale in caso di avaria motore, concettualmente estraneo alla GS."
         },
         {
           "n": 196,
@@ -9501,7 +9501,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Consumando carburante da serbatoi posizionati davanti al CG attuale, si toglie peso dalla parte anteriore dell'aereo: il baricentro si sposta quindi verso la parte posteriore (Aft)."
+          "explanation": "Consumando carburante da serbatoi posizionati geometricamente davanti al CG attuale, si rimuove peso dalla parte anteriore dell'aereo: per bilanciamento dei momenti, il baricentro si sposta quindi verso la parte posteriore, Aft. (opzione 1) è errata perché il CG non resta invariato quando cambia la distribuzione del peso a bordo durante il consumo di carburante. (opzione 2) descrive l'effetto opposto: rimuovere peso dalla parte anteriore sposta il CG all'indietro, non ulteriormente in avanti. (opzione 4) descrive uno spostamento verticale privo di senso fisico: il consumo di carburante altera la posizione longitudinale del CG, non la sua quota rispetto al carrello."
         },
         {
           "n": 197,
@@ -9515,7 +9515,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Alta quota unita a caldo e umidità produce una Density Altitude molto elevata: accelerazione lenta, corsa di decollo lunga e salita marginale, una combinazione critica da calcolare sempre con attenzione."
+          "explanation": "L'alta quota unita a calore e umidità elevata produce una Altitudine di Densità (Density Altitude) molto elevata: l'accelerazione risulterà letargica, la corsa di decollo lunghissima e la salita marginale, una combinazione critica da calcolare sempre con attenzione. (opzione 1) descrive l'esatto opposto della fisica dell'aria: caldo e umidità riducono la densità dell'aria, non la aumentano, e questo peggiora, non migliora, le prestazioni di salita. (opzione 2) è anch'essa invertita: un'aria meno densa riduce, non aumenta, la potenza erogata dal motore aspirato. (opzione 4) attribuisce un guasto meccanico (flap bloccati per surriscaldamento idraulico) privo di relazione causale con la Density Altitude, che è un fenomeno aerodinamico/motoristico, non un guasto ai sistemi idraulici."
         },
         {
           "n": 198,
@@ -9529,7 +9529,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il Momento si calcola moltiplicando il Peso (Mass) per la distanza dal Datum (Arm)."
+          "explanation": "Nei calcoli di Weight & Balance, il Momento di un oggetto si calcola moltiplicando il peso (Mass) per la distanza dal Datum (Arm). (opzione 1) usa l'operazione inversa, la divisione, che non corrisponde alla definizione fisica del momento. (opzione 3) propone una sottrazione tra grandezze eterogenee (braccio e peso massimo al decollo), priva di senso dimensionale per il calcolo di un momento specifico. (opzione 4) descrive invece il calcolo del peso totale dell'aeromobile (somma di tutti i pesi a bordo), un'operazione diversa dal calcolo del momento di un singolo oggetto."
         },
         {
           "n": 199,
@@ -9557,7 +9557,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'Avgas 100LL ha un peso specifico medio di circa 0,72 kg per litro, pari a circa 6 libbre per US Gallon."
+          "explanation": "L'Avgas 100LL ha un peso specifico medio di circa 0,72 kg per litro, equivalente a circa 6 libbre per gallone americano, il valore standard usato nei calcoli di peso del carburante. (opzione 2), circa 1,00 kg/litro, corrisponde al peso specifico dell'acqua, non del carburante avio. (opzione 3), circa 0,80 kg/litro, è il valore tipico del Jet A1 (cherosene per turbina), un carburante diverso dall'Avgas per motori a pistoni. (opzione 4), circa 0,50 kg/litro, non corrisponde al peso specifico reale di nessun carburante avio comunemente utilizzato."
         },
         {
           "n": 201,
@@ -9571,7 +9571,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il punto in cui Vx e Vy si incrociano è la Tangenza Assoluta (Absolute Ceiling), oltre la quale l'aereo non può più salire perché il rateo massimo disponibile è zero."
+          "explanation": "Il punto in cui le curve di Vx e Vy si incrociano definisce la Tangenza Assoluta (Absolute Ceiling), la quota alla quale l'aereo non può più salire perché il rateo massimo disponibile è zero. (opzione 1), la Tangenza Operativa (Service Ceiling), è invece definita come la quota alla quale il rateo di salita residuo scende sotto una soglia convenzionale (tipicamente 100 fpm), non come l'incrocio delle due curve di velocità. (opzione 2), il Punto di Non Ritorno, è un concetto di pianificazione della rotta e del carburante, senza alcuna relazione con le velocità caratteristiche di salita. (opzione 4), la velocità di crociera, è un regime di volo orizzontale a quota costante, non un punto sulle curve di prestazione in salita."
         },
         {
           "n": 202,
@@ -9585,7 +9585,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "I flap al bordo d'uscita aumentano il coefficiente di portanza massimo e la curvatura del profilo alare, permettendo di volare a velocità inferiori senza stallare."
+          "explanation": "Lo scopo principale dei flap al bordo d'uscita è aumentare il coefficiente di portanza massimo (Cl max) e la curvatura del profilo alare, permettendo di volare a velocità inferiori senza raggiungere lo stallo, utile in decollo e atterraggio. (opzione 1) descrive l'effetto opposto: i flap estesi aumentano la resistenza e riducono, non aumentano, la velocità massima ottenibile. (opzione 3) attribuisce ai flap un beneficio di consumo che non è il loro scopo primario: anzi, i flap estesi aumentano la resistenza e quindi tendenzialmente il consumo nella fase in cui sono utilizzati. (opzione 4) è priva di fondamento tecnico: i flap non sono progettati per sostituire gli alettoni nel controllo laterale in emergenza."
         },
         {
           "n": 203,
@@ -9599,7 +9599,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il Payload è la somma del peso di passeggeri, bagagli e merci trasportate: il carburante è una voce di peso separata, non compresa nel payload."
+          "explanation": "Il Payload è la somma del peso di passeggeri, bagagli e merci trasportate: il carburante è una voce di peso separata nella pianificazione, non compresa nel payload. (opzione 1) include erroneamente anche il carburante nel Payload, mentre il carburante è sempre contabilizzato come voce distinta nel bilancio dei pesi. (opzione 3) confonde il Payload con l'equipaggio e la riserva di carburante, entrambe categorie di peso diverse dal carico pagante commerciale. (opzione 4) propone una definizione (peso a vuoto meno il peso dell'olio) priva di qualsiasi relazione con il concetto di carico pagante."
         },
         {
           "n": 204,
@@ -9613,7 +9613,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Neve fresca o fanghiglia riducono drasticamente il coefficiente di attrito dei freni, aumentando in modo significativo la distanza di atterraggio."
+          "explanation": "Atterrare su pista contaminata da neve fresca o fanghiglia (slush) riduce drasticamente il coefficiente di attrito dei freni, aumentando in modo significativo la distanza di atterraggio rispetto a una pista asciutta. (opzione 1) descrive l'effetto opposto: la contaminazione della pista allunga, non riduce, la distanza di atterraggio. (opzione 3) è priva di fondamento: la contaminazione della pista non migliora, semmai peggiora, l'efficacia del controllo direzionale, timone incluso. (opzione 4) è errata perché la contaminazione della pista non impedisce l'uso dei flap, un sistema aerodinamico indipendente dalle condizioni della superficie di pista."
         },
         {
           "n": 205,
@@ -9627,7 +9627,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Una pista in discesa (downslope) dell'1% riduce la corsa e la distanza di decollo, perché la gravità aiuta l'accelerazione, ma peggiora la frenata in atterraggio."
+          "explanation": "Una pista in discesa (downslope) dell'1% riduce la corsa e la distanza di decollo, perché la componente di gravità lungo il piano della pista aiuta l'accelerazione dell'aereo (l'effetto opposto si ha invece in atterraggio, dove la stessa pendenza peggiora la frenata). (opzione 1) descrive l'effetto contrario a quello reale: la pendenza in discesa riduce, non aumenta, la distanza di decollo. (opzione 3) attribuisce alla pendenza un effetto sul rateo di salita iniziale, mentre l'influenza della pendenza di pista si esercita sulla corsa a terra, non sul rateo di salita una volta che l'aereo è già in volo. (opzione 4) è errata perché una pendenza dell'1%, per quanto piccola, produce un effetto misurabile sulla distanza di decollo, non nullo."
         },
         {
           "n": 206,
@@ -9655,7 +9655,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "CG è l'acronimo di Center of Gravity, cioè baricentro."
+          "explanation": "CG è l'acronimo di Center of Gravity, cioè baricentro, il punto di applicazione della forza peso risultante dell'aeromobile. (opzione 1), Clearance Given, è una locuzione radiotelefonica di autorizzazione ATC, senza relazione con il centraggio. (opzione 3), Cruise Gradient, non è un acronimo standard riconosciuto in aviazione generale. (opzione 4), Central Gyroscope, descrive un componente strumentale (giroscopio), concettualmente estraneo al baricentro."
         },
         {
           "n": 208,
@@ -9669,7 +9669,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Con un QNH molto basso, l'Altitudine di Pressione dell'aeroporto risulta più alta della quota reale: la Density Altitude sarà quindi elevata, peggiorando in modo marcato le prestazioni di decollo e salita."
+          "explanation": "Con un QNH eccezionalmente basso, l'Altitudine di Pressione dell'aeroporto risulta significativamente più alta della quota reale: la Density Altitude sarà quindi elevata, peggiorando in modo marcato le prestazioni di decollo e salita. (opzione 1) descrive l'effetto opposto: un QNH basso peggiora, non migliora, le prestazioni di decollo, allungando gli spazi necessari. (opzione 2) è anch'essa invertita: un QNH basso non aumenta la potenza motore, semmai la riduce, essendo legata a un'aria meno densa. (opzione 3) è errata perché un QNH molto più basso dello standard produce un effetto rilevante e misurabile sulle prestazioni, non nullo."
         },
         {
           "n": 209,
@@ -9683,7 +9683,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "A parità di potenza applicata, l'aumento della temperatura esterna riduce la densità dell'aria: la distanza di decollo si allunga e il rateo di salita peggiora."
+          "explanation": "A parità di potenza applicata, l'aumento della temperatura esterna riduce la densità dell'aria: questo si traduce in un allungamento della corsa di decollo e in un peggioramento del rateo di salita, perché ali ed elica generano meno portanza e spinta a parità di velocità indicata. (opzione 1) non è l'effetto primario descritto dalla domanda: la TAS necessaria per generare la stessa portanza aumenta con la quota/densità altitude, non diminuisce. (opzione 3) è errata perché un'aria più calda ed espansa è meno densa, quindi genera meno portanza a parità di velocità indicata, non di più. (opzione 4) è priva di fondamento: l'uso dei flap non annulla l'effetto negativo della minore densità dell'aria sulla potenza e sulla portanza disponibili."
         },
         {
           "n": 210,
@@ -9697,7 +9697,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Una pista in erba, anche asciutta, aumenta l'attrito di rotolamento delle ruote rispetto all'asfalto, allungando la corsa di decollo."
+          "explanation": "Una pista in erba, anche asciutta, aumenta l'attrito di rotolamento (rolling friction) delle ruote rispetto all'asfalto, allungando la corsa di decollo. (opzione 1) descrive l'effetto opposto: l'erba, anche tagliata corta, non riduce ma aumenta la corsa di decollo rispetto all'asfalto. (opzione 2) è errata perché l'effetto persiste indipendentemente dalla cura del manto erboso: anche erba corta e ben tenuta offre più attrito di rotolamento dell'asfalto liscio. (opzione 4) è anch'essa invertita: il maggiore attrito al volvente riduce, non aumenta, l'accelerazione iniziale dell'aereo."
         },
         {
           "n": 211,
@@ -9711,7 +9711,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nel secondo regime di volo (dietro la curva di potenza), a velocità molto basse la resistenza indotta è molto alta: per volare ancora più piano mantenendo la quota serve più potenza, non meno, un comportamento controintuitivo tipico degli avvicinamenti troppo lenti."
+          "explanation": "Nel \"secondo regime\" (dietro la curva di potenza), a velocità molto basse la resistenza indotta diventa predominante e cresce al diminuire della velocità: per volare ancora più piano mantenendo la quota è necessario aumentare la potenza motore, non diminuirla, un comportamento controintuitivo tipico degli avvicinamenti troppo lenti. (opzione 2) descrive un funzionamento meccanico del motore (giri invertiti) che non esiste nei normali motori a elica ad ala fissa e non è il meccanismo del secondo regime. (opzione 3) attribuisce ai flap un ruolo propulsivo (generare spinta) privo di fondamento aerodinamico: i flap generano portanza e resistenza aggiuntiva, non spinta. (opzione 4) è errata perché nel secondo regime l'azione corretta per contrastare il calo di quota è aumentare la potenza, non spingere la barra in avanti, cosa che ridurrebbe ulteriormente la velocità e la quota in questo regime."
         },
         {
           "n": 212,
@@ -9725,7 +9725,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La Vlo è la velocità massima per azionare il carrello (estrarlo o ritrarlo); la Vle è la velocità massima per volare con il carrello già esteso, ed è di norma pari o superiore alla Vlo."
+          "explanation": "La Vlo è la velocità massima per azionare il carrello (estrarlo o ritrarlo), mentre la Vle è la velocità massima per volare con il carrello già esteso, ed è di norma pari o superiore alla Vlo. (opzione 2) nega l'esistenza di una differenza reale e le associa entrambe erroneamente alla velocità di stallo con carrello estratto, un concetto diverso da entrambe. (opzione 3) attribuisce alle due velocità significati (blocco freni, atterraggio) che non corrispondono alle loro definizioni reali, entrambe legate esclusivamente al carrello retrattile. (opzione 4) limita la Vle all'uso in emergenza del carrello, mentre la Vle si applica in generale al volo con carrello esteso, non solo in condizioni di emergenza."
         },
         {
           "n": 213,
@@ -9739,7 +9739,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il carburante extra per emergenze o imprevisti diurni, tipicamente 45 o 30 minuti, è la Final Reserve Fuel, riserva legale da non intaccare in condizioni normali di volo."
+          "explanation": "Il carburante extra per emergenze diurne o imprevisti meteorologici, tipicamente 45 o 30 minuti di crociera aggiuntivi, è la Final Reserve Fuel, una riserva legale da non intaccare in condizioni normali di volo. (opzione 2) lo confonde con il Trip Fuel, il carburante calcolato per la tratta pianificata dal decollo all'atterraggio, una voce distinta dalla riserva. (opzione 3) lo confonde con il Taxi Fuel, il carburante consumato a terra prima del decollo, concettualmente diverso dalla riserva per emergenze in volo. (opzione 4) lo confonde con l'Unusable Fuel, il carburante fisicamente non pescabile dai serbatoi, una categoria strutturale e non una riserva operativa pianificata."
         },
         {
           "n": 214,
@@ -9753,7 +9753,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Una pista si definisce contaminata con forte rischio di aquaplaning dinamico quando lo strato d'acqua supera circa 3 millimetri di spessore."
+          "explanation": "Una pista si definisce contaminata con forte rischio di aquaplaning dinamico quando lo strato d'acqua (o neve/fanghiglia equivalente) supera circa 3 millimetri di spessore, la soglia di riferimento usata nelle valutazioni operative. (opzione 2), 15 mm, e (opzione 4), 25 mm, sono valori nettamente superiori alla soglia reale di 3 mm: uno strato d'acqua così spesso configurerebbe una situazione di rischio già ben oltre la soglia minima di contaminazione. (opzione 3), 1 mm, è invece inferiore alla soglia reale: uno strato così sottile non è generalmente sufficiente a configurare condizioni di pista contaminata ai fini dell'aquaplaning dinamico."
         },
         {
           "n": 215,
@@ -9767,7 +9767,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il Momento nei calcoli di centraggio si ottiene moltiplicando il Peso per la Distanza dal Datum (Braccio)."
+          "explanation": "Il Momento nei calcoli di centraggio si ottiene moltiplicando il Peso per la Distanza dal Datum, cioè il Braccio. (opzione 1) usa l'operazione inversa, la divisione, priva di significato fisico per il calcolo del momento. (opzione 2) coinvolge la Portanza, una grandezza aerodinamica non pertinente al calcolo del momento peso-braccio nei bilanci di peso e centraggio. (opzione 4) propone un'operazione (Indice meno Peso a vuoto) che non corrisponde alla definizione di Momento, mescolando grandezze e unità di misura eterogenee."
         },
         {
           "n": 216,
@@ -9781,7 +9781,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il vento contrario riduce la distanza di decollo, aumenta il gradiente di salita rispetto al suolo (angolo più ripido) e riduce la Ground Speed in crociera."
+          "explanation": "Il vento contrario (headwind) riduce la distanza di decollo, aumenta l'angolo di rampa in salita rispetto al suolo (l'aereo guadagna quota percorrendo meno distanza orizzontale) e riduce la Ground Speed in crociera. (opzione 1) inverte entrambi gli effetti: il vento contrario riduce, non aumenta, la distanza di decollo, e riduce, non aumenta, la Ground Speed in crociera. (opzione 3) è errata perché il rateo di salita in piedi al minuto (fpm), letto dal variometro, dipende dalla componente verticale rispetto alla massa d'aria e non peggiora per effetto del solo vento contrario, che agisce sulla componente orizzontale rispetto al suolo. (opzione 4) non ha fondamento tecnico: la velocità di avvicinamento (IAS/TAS) è determinata dalla configurazione e dal peso dell'aereo, non dal vento, che incide sulla Ground Speed e sull'angolo di traiettoria rispetto al suolo, non sulla TAS di riferimento."
         },
         {
           "n": 217,
@@ -9795,7 +9795,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il carburante consumato durante il rullaggio riduce il Take-Off Mass rispetto al Ramp Mass, il peso registrato alla messa in moto."
+          "explanation": "Il carburante consumato durante il rullaggio prolungato riduce il Take-Off Mass rispetto al Ramp Mass (il peso registrato al momento della messa in moto): la massa al decollo sarà quindi leggermente inferiore a quella di rampa. (opzione 2) è errata perché il Basic Empty Mass è un valore strutturale fisso dell'aeromobile, indipendente dal carburante consumato durante il rullaggio. (opzione 3) non ha alcuna relazione con il consumo di carburante: la Vne è un limite di velocità strutturale, non una grandezza di peso. (opzione 4) è priva di fondamento: l'apertura alare è una dimensione geometrica fissa dell'aeromobile, non influenzata dal consumo di carburante."
         },
         {
           "n": 218,
@@ -9809,7 +9809,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La Clearway è un'area rettangolare oltre la fine della TORA, libera da ostacoli, utilizzata per calcolare la Distanza di Decollo Disponibile (TODA)."
+          "explanation": "La Clearway è un'area rettangolare definita al di là del termine della TORA, libera da ostacoli, utilizzabile per calcolare la Distanza di Decollo Disponibile (TODA). (opzione 1) descrive invece la Stopway, un'area pavimentata o preparata pensata per l'arresto dell'aereo in caso di decollo abortito, concettualmente diversa dalla Clearway. (opzione 2) confonde la Clearway con la larghezza della pista comprensiva delle bande erbose laterali, un parametro dimensionale trasversale non legato alle distanze dichiarate longitudinali. (opzione 4) attribuisce alla Clearway una funzione di parcheggio, priva di qualsiasi relazione con la sua reale funzione nelle distanze dichiarate di pista."
         },
         {
           "n": 219,
@@ -9823,7 +9823,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Contro un forte vento frontale, per massimizzare il range rispetto al suolo conviene aumentare leggermente la IAS oltre la velocità di massima efficienza standard, riducendo così il tempo di esposizione al vento contrario."
+          "explanation": "Contro un forte vento frontale, per massimizzare l'autonomia chilometrica (range) rispetto al suolo conviene aumentare leggermente la IAS oltre la velocità di massima efficienza standard, riducendo il tempo di esposizione al vento contrario e ottimizzando la distanza percorsa per unità di carburante nelle condizioni di vento reali. (opzione 1) descrive l'azione opposta a quella corretta: ridurre la IAS in presenza di forte vento contrario peggiorerebbe ulteriormente il range, aumentando il tempo di esposizione al vento. (opzione 3) descrive invece la tecnica per massimizzare l'autonomia oraria (endurance), un obiettivo diverso dal massimizzare la distanza percorsa al suolo. (opzione 4) è controproducente: estendere i flap aumenta la resistenza aerodinamica, peggiorando ulteriormente l'efficienza e quindi il range in condizioni di forte vento contrario."
         },
         {
           "n": 220,
@@ -9837,7 +9837,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con un windshear che fa calare bruscamente l'headwind o lo trasforma in tailwind, l'aereo perde improvvisamente IAS e portanza, tendendo a sprofondare sotto il sentiero di discesa: una situazione pericolosa in avvicinamento finale."
+          "explanation": "Quando un windshear fa calare bruscamente l'headwind o lo trasforma in tailwind durante l'avvicinamento, l'aereo subisce una perdita improvvisa di IAS e di portanza (per l'inerzia della massa dell'aereo che non si adegua istantaneamente al nuovo vento), tendendo a sprofondare bruscamente sotto il sentiero di discesa. (opzione 1) descrive l'effetto opposto, tipico invece di uno shear da vento in coda verso vento in prua (o di un aumento improvviso dell'headwind), non della situazione descritta nella domanda. (opzione 3) è errata perché è proprio l'IAS, non solo la GS, a variare bruscamente in un windshear: la massa dell'aereo non si adatta istantaneamente al nuovo vento, causando la variazione transitoria di velocità indicata. (opzione 4) è una conseguenza estrema e non necessaria della situazione descritta: il pericolo primario del windshear è la perdita di quota per calo di portanza, non l'ingresso automatico in vite."
         },
         {
           "n": 221,
@@ -9851,7 +9851,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La Zero Fuel Mass è il peso dell'aereo completamente caricato di equipaggio, passeggeri e bagagli, ma escluso il carburante usabile."
+          "explanation": "La Zero Fuel Mass è il peso dell'aereo completamente caricato di equipaggio, passeggeri e bagagli, ma escluso il carburante usabile. (opzione 2) la confonde con il peso a vuoto di fabbrica (Manufacturer's Empty Weight), che esclude anche equipaggio e dotazioni operative, non solo il carburante. (opzione 3) la confonde con un limite di peso riferito al momento precedente il rullaggio (Ramp Mass), un concetto operativo diverso dalla ZFM strutturale. (opzione 4) la confonde con il peso all'atterraggio dopo aver consumato tutto il carburante disponibile, una condizione di fine volo diversa dalla ZFM, che è un limite strutturale di pianificazione, non un peso realmente raggiunto a fine carburante."
         },
         {
           "n": 222,
@@ -9865,7 +9865,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Valore letto dal grafico allegato alle condizioni indicate (vento in coda 5 kt, PA 2000 ft, OAT 0°C, peso 2100 lb, flap 25°): il vento in coda penalizza il risultato rispetto a un vento in prua, allungando la distanza di decollo letta sul grafico.",
+          "explanation": "Il valore si legge dal grafico allegato alle condizioni indicate (vento in coda 5 kt, PA 2000 ft, OAT 0°C, peso 2100 lb, flap 25°): si entra con la temperatura e l'altitudine di pressione, si segue la curva fino al peso, si applica la correzione per il vento in coda (che penalizza, allungando, la distanza rispetto a un vento in prua) ottenendo 1400 ft. (opzione 2), 1400 mt, riporta lo stesso valore numerico ma nell'unità di misura sbagliata (metri anziché piedi): un valore in metri numericamente identico non è la risposta corretta espressa nell'unità richiesta dal grafico. (opzione 3), 2000 ft, è coerente con l'errore di leggere la curva applicando una correzione insufficiente per il vento in coda, sottostimando la penalizzazione che il tailwind introduce sulla distanza di decollo. (opzione 4), 2000 mt, combina l'errore di lettura del valore con quello dell'unità di misura sbagliata.",
           "fig": "3-1"
         },
         {
@@ -9880,7 +9880,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La TODA (Take-Off Distance Available) è definita come la TORA più l'eventuale Clearway, se presente."
+          "explanation": "La TODA (Take-Off Distance Available) è definita come la TORA più l'eventuale prolungamento libero da ostacoli (Clearway), se previsto. (opzione 1) descrive invece la definizione dell'ASDA (Accelerate-Stop Distance Available), che si ottiene sommando la Stopway alla TORA, non la Clearway. (opzione 3) restringe erroneamente la TODA alla sola lunghezza fisica della superficie asfaltata, ignorando il contributo della Clearway che può estendere la distanza disponibile oltre l'asfalto. (opzione 4) descrive la funzione dell'ASDA, pensata per l'arresto in caso di decollo abortito, non la funzione della TODA, pensata per il decollo portato a termine."
         },
         {
           "n": 224,
@@ -9894,7 +9894,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Mantenendo la Vx dopo il decollo si raggiunge la quota desiderata percorrendo la minor distanza orizzontale possibile, utile per superare ostacoli a fine pista."
+          "explanation": "Mantenendo la Vx dopo il decollo si raggiunge la quota desiderata percorrendo la minor distanza orizzontale possibile, una tecnica utile per superare ostacoli vicini a fine pista. (opzione 1) descrive invece lo scopo della Vy (miglior rateo di salita), che minimizza il tempo per raggiungere una quota, non la distanza orizzontale percorsa. (opzione 2) non è lo scopo primario della Vx: volare a bassa velocità con alto angolo di attacco non garantisce il minimo consumo di carburante, obiettivo più legato alla velocità di massima efficienza. (opzione 3) attribuisce alla Vx un beneficio di raffreddamento motore che, anzi, tende a essere penalizzato dalla bassa velocità relativa dell'aria a Vx, non migliorato."
         },
         {
           "n": 225,
@@ -9908,7 +9908,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La formula empirica per la velocità di innesco dell'aquaplaning dinamico è 9 moltiplicato per la radice quadrata della pressione dei pneumatici espressa in PSI."
+          "explanation": "La formula empirica per la velocità di innesco dell'aquaplaning dinamico è 9 moltiplicato per la radice quadrata della pressione dei pneumatici espressa in PSI. (opzione 2) propone una formula (peso diviso 10) priva di fondamento fisico e non collegata alla pressione degli pneumatici, il vero fattore determinante. (opzione 3) confonde la formula dell'aquaplaning con quella della velocità di avvicinamento di riferimento (Vref), tipicamente 1,3 volte la Vso, un concetto operativo completamente diverso. (opzione 4) propone un valore fisso uguale per tutti i velivoli leggeri, mentre la velocità di innesco dipende dalla pressione specifica degli pneumatici di ciascun aeromobile, non è una costante universale."
         },
         {
           "n": 226,
@@ -9922,7 +9922,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Un forte vento frontale riduce la Ground Speed, aumentando il tempo di volo e riducendo la massima distanza percorribile al suolo (range), pur senza modificare la TAS."
+          "explanation": "Un forte vento frontale riduce la Ground Speed, aumentando il tempo di volo necessario per coprire la stessa rotta e diminuendo la massima distanza percorribile al suolo (range), pur senza modificare la TAS, che dipende solo dalla velocità dell'aereo nella massa d'aria. (opzione 1) è errata su entrambi i punti: il vento frontale non modifica la TAS (che è indipendente dal vento) e non riduce i consumi, che restano legati alla potenza/regime motore impostato. (opzione 2) inverte l'effetto sulla Ground Speed: un forte vento frontale peggiora (riduce), non migliora, la Ground Speed. (opzione 4) non ha fondamento fisico: il vento frontale non riduce la portanza generata dall'ala, che dipende dalla velocità relativa dell'aria (TAS/IAS), non dalla componente di vento rispetto al suolo."
         },
         {
           "n": 227,
@@ -9936,7 +9936,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'aria umida è meno densa dell'aria secca, perché il vapore acqueo ha una massa molecolare inferiore rispetto all'azoto e all'ossigeno che sostituisce: prestazioni aerodinamiche e motoristiche ne risultano quindi peggiorate."
+          "explanation": "L'aria umida è meno densa dell'aria secca, perché il vapore acqueo ha una massa molecolare inferiore rispetto all'azoto e all'ossigeno che sostituisce nella miscela: le prestazioni aerodinamiche e motoristiche ne risultano quindi peggiorate rispetto ad aria secca nelle stesse condizioni di temperatura e pressione. (opzione 2) descrive l'effetto opposto: l'aria umida è meno, non più, densa dell'aria secca, quindi non migliora ma peggiora la portanza generata a parità di velocità. (opzione 3) è errata perché l'umidità elevata ha un effetto misurabile, seppure minore di temperatura e pressione, sulla densità dell'aria e quindi sulle prestazioni. (opzione 4) non ha fondamento tecnico: la maggiore umidità nella miscela aria-carburante tende a peggiorare, non migliorare, l'efficienza di combustione del motore a combustione interna."
         },
         {
           "n": 228,
@@ -9950,7 +9950,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La Vso è normalmente minore della Vs1, perché in configurazione di atterraggio (flap estesi, spesso anche carrello) il coefficiente di portanza massimo è più alto, quindi la velocità di stallo è più bassa."
+          "explanation": "La Vso è normalmente minore della Vs1, perché in configurazione di atterraggio (flap estesi e spesso anche carrello esteso) il coefficiente di portanza massimo dell'ala è più alto, consentendo di volare, e quindi di stallare, a una velocità più bassa. (opzione 1) descrive l'effetto opposto: la Vso, essendo relativa alla configurazione più portante, è tipicamente minore, non maggiore, della Vs1. (opzione 2) è errata perché Vso e Vs1 corrispondono a due configurazioni aerodinamiche diverse (flap estesi vs. configurazione pulita), non sono uguali in tutti i casi. (opzione 3) confonde la Vso con la velocità di manovra in turbolenza, un parametro completamente diverso, non legato alla configurazione flap/carrello."
         },
         {
           "n": 229,
@@ -9964,7 +9964,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "8 galloni/ora per 2 ore e 15 minuti (2,25 ore) = 8 x 2,25 = 18 galloni."
+          "explanation": "Il consumo si calcola moltiplicando il consumo orario per il tempo di volo espresso in ore: 8 galloni/ora x 2 ore e 15 minuti (2,25 ore) = 8 x 2,25 = 18 galloni. (opzione 2), 16 galloni, corrisponde all'errore di considerare solo 2 ore di volo, ignorando i 15 minuti aggiuntivi (8x2=16). (opzione 3), 20 galloni, è coerente con l'errore di arrotondare il tempo di volo a 2 ore e 30 minuti anziché 2 ore e 15 (8x2,5=20). (opzione 4), 19,5 galloni, non deriva da un'applicazione corretta del consumo orario dichiarato al tempo di volo indicato nella domanda."
         },
         {
           "n": 230,
@@ -9978,7 +9978,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La combinazione di Manifold Pressure e RPM permette di impostare con precisione una percentuale di potenza (ad esempio 65% o 75%) sui motori a passo variabile, utile per pianificare consumo e TAS di crociera."
+          "explanation": "La combinazione di Manifold Pressure e RPM, sui motori a passo variabile, permette di impostare con precisione una percentuale di potenza (ad esempio 65% o 75%), un dato usato nelle tabelle di crociera per pianificare consumo di carburante e TAS attesa. (opzione 1) attribuisce a questi parametri motoristici un legame con la velocità di stallo, che dipende invece dal peso e dalla configurazione aerodinamica dell'aereo, non dalla combinazione MP/RPM. (opzione 2) è priva di fondamento: MP e RPM sono parametri motoristici meccanici, senza relazione con la misura elettrica del voltaggio dell'alternatore. (opzione 4) confonde la funzione di MP/RPM (impostare la potenza) con il calcolo della Density Altitude, che dipende invece da pressione, temperatura e quota, non dai parametri del motore impostati dal pilota."
         }
       ]
     },
