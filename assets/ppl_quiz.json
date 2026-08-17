@@ -4394,7 +4394,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il girodirezionale segna la prua corretta a condizione che venga allineato alla bussola magnetica subito dopo l'avviamento e poi periodicamente, circa ogni 20 minuti, per compensare la deriva del giroscopio. Le altre risposte sono errate: allinearlo una volta sola (opzione 1) non basta, data la deriva progressiva nel tempo; un intervallo di 30 minuti (opzione 3) è troppo lungo rispetto alla deriva tipica dello strumento; un intervallo di 10 minuti (opzione 4) è inutilmente più frequente di quanto richiesto dalla normale procedura."
+          "explanation": "Il girodirezionale segna la prua corretta a condizione che venga allineato alla bussola magnetica subito dopo l'avviamento e poi periodicamente, circa ogni 20 minuti, per compensare la deriva del giroscopio dovuta all'attrito interno e alla rotazione terrestre. Le altre risposte sono errate: allinearlo una sola volta subito dopo l'avviamento, senza riallineamenti successivi (opzione 2), non basta perché la deriva è progressiva nel tempo; un intervallo di 30 minuti (opzione 3) è troppo lungo rispetto alla deriva tipica dello strumento; un intervallo di 10 minuti (opzione 4) è inutilmente più frequente di quanto richiesto dalla normale procedura."
         },
         {
           "n": 53,
@@ -6088,7 +6088,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In un impianto nominale a 24V la batteria ha effettivamente circa 24V, ma l'alternatore lavora a una tensione leggermente superiore, circa 28V, per poter sempre spingere corrente di carica verso la batteria (opzione 3). Le altre risposte sono errate: 12V (opzione 1) è il valore tipico di un impianto a tensione inferiore, non di quello a 24V nominali qui descritto; 28V (opzione 2) è la tensione erogata dall'alternatore per la ricarica, non quella nominale della batteria stessa, che è appunto di circa 24V; 110V (opzione 4) è un valore da impianto elettrico civile in corrente alternata, del tutto estraneo agli impianti elettrici aeronautici in continua."
+          "explanation": "In un impianto nominale a 24V la batteria ha effettivamente circa 24V, ma l'alternatore lavora a una tensione leggermente superiore, circa 28V, per poter sempre spingere corrente di carica verso la batteria. Le altre risposte sono errate: 12V (opzione 1) è il valore tipico di un impianto a tensione inferiore, non di quello a 24V nominali qui descritto; 28V (opzione 2) è la tensione erogata dall'alternatore per la ricarica, non quella nominale della batteria stessa, che è appunto di circa 24V; 110V (opzione 4) è un valore da impianto elettrico civile in corrente alternata, del tutto estraneo agli impianti elettrici aeronautici in continua."
         },
         {
           "n": 174,
@@ -10095,7 +10095,7 @@
             "10000 feet"
           ],
           "correct": 2,
-          "explanation": "Il fumo di 30 sigarette riduce l'apporto di ossigeno a un valore equivalente a quello che si ha a una quota di circa 8000 piedi, per l'accumulo di monossido di carbonio nel sangue, che si lega all'emoglobina al posto dell'ossigeno. Le altre risposte (3000, 5000, 10000 piedi) sono valori numerici alternativi non corrispondenti al dato di riferimento didattico per questa domanda."
+          "explanation": "Il monossido di carbonio inalato con il fumo si lega all'emoglobina al posto dell'ossigeno formando carbossiemoglobina, riducendo così la capacità del sangue di trasportare ossigeno ai tessuti: il fumo di circa 30 sigarette produce una concentrazione di carbossiemoglobina tale da equivalere, in termini di apporto di ossigeno disponibile, a quella che si avrebbe respirando aria a circa 8000 piedi di quota. Le altre risposte sono errate: 3000 piedi (opzione 1) e 5000 piedi (opzione 2) sottostimano l'effetto di una dose così alta di monossido di carbonio; 10000 piedi (opzione 4) sovrastima l'equivalente ipossico rispetto al dato di riferimento per 30 sigarette."
         },
         {
           "n": 9,
@@ -10680,7 +10680,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Anche il fumo di sole 3 sigarette riduce l'apporto di ossigeno a un valore equivalente a quello che si ha a una quota di circa 8000 piedi, per l'effetto del monossido di carbonio sul sangue, che si lega all'emoglobina al posto dell'ossigeno. Le altre risposte (3000, 5000, 10000 piedi) sono valori numerici alternativi non corrispondenti al dato di riferimento didattico per questa domanda."
+          "explanation": "Anche una dose ridotta di monossido di carbonio, come quella da 3 sigarette, si lega all'emoglobina riducendo la capacità del sangue di trasportare ossigeno: secondo il riferimento usato in questa domanda, l'effetto equivale a quello che si avrebbe respirando aria alla quota di circa 8000 piedi. Le altre risposte sono errate: 3000 piedi (opzione 1) e 5000 piedi (opzione 2) sono quote equivalenti inferiori a quella indicata come riferimento per questa domanda; 10000 piedi (opzione 4) è una quota equivalente superiore al valore di riferimento."
         },
         {
           "n": 51,
@@ -10988,7 +10988,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Su una pista con pendenza in discesa, il pilota è soggetto all'illusione di essere troppo alto, tendendo a picchiare e a volare pericolosamente più basso del dovuto."
+          "explanation": "Su una pista con pendenza in discesa (downsloping runway), l'immagine visiva della pista genera l'illusione ottica di trovarsi più in alto sul sentiero di planata di quanto si sia realmente: il pilota, per correggere questa percezione, tende a picchiare e a volare pericolosamente più basso del dovuto, con il rischio di un atterraggio corto. Le altre risposte sono errate: l'illusione di essere troppo bassi, che porta a volare più alti e ad atterrare lungo (opzione 2), è invece l'effetto tipico di una pista in salita (upsloping runway), non di una in discesa; la percezione di volare troppo velocemente (opzione 3) non è l'illusione associata alla pendenza della pista; un'apertura alare percepita come più ampia del normale (opzione 4) non ha alcuna base percettiva reale legata alla pendenza della pista."
         },
         {
           "n": 73,
@@ -11114,7 +11114,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Dopo un'immersione subacquea profonda senza soste di decompressione, l'attesa minima prima di volare è di 12 ore, che salgono a 24 ore se l'immersione richiedeva soste di decompressione. Le altre risposte sono errate: \"4 ore\" è un tempo insufficiente a permettere lo smaltimento dell'azoto in eccesso; \"48 ore in tutti i casi\" è un'indicazione più restrittiva del reale minimo raccomandato per immersioni senza soste di decompressione; \"nessuna attesa è necessaria in VFR a bassa quota\" è pericolosamente errata, il rischio di malattia da decompressione esiste anche a quote relativamente moderate se l'azoto residuo nei tessuti è elevato."
+          "explanation": "Dopo un'immersione subacquea profonda senza soste di decompressione, l'attesa minima prima di volare è di 12 ore, che salgono a 24 ore se l'immersione richiedeva soste di decompressione: il tempo serve a smaltire l'azoto in eccesso disciolto nei tessuti prima di esporsi alla pressione cabina ridotta in quota. Le altre risposte sono errate: 4 ore (opzione 1) sono un tempo insufficiente a permettere lo smaltimento dell'azoto in eccesso; 48 ore in tutti i casi (opzione 3) è un'indicazione più restrittiva del reale minimo raccomandato per immersioni senza soste di decompressione; l'idea che non serva alcuna attesa in VFR a bassa quota (opzione 4) è pericolosamente errata, perché il rischio di malattia da decompressione esiste anche a quote relativamente moderate se l'azoto residuo nei tessuti è elevato."
         },
         {
           "n": 82,
@@ -11310,7 +11310,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Dopo una donazione di sangue, i manuali aeromedici raccomandano di non volare per almeno 24 ore. Le altre risposte (12, 48, 72 ore) sono valori numerici alternativi non corrispondenti al riferimento standard di 24 ore raccomandato dopo una donazione di sangue."
+          "explanation": "Una donazione di sangue riduce temporaneamente la massa dei globuli rossi circolanti e il volume plasmatico, abbassando la capacità di trasporto di ossigeno dell'organismo: per questo i manuali aeromedici raccomandano di non volare per almeno 24 ore, tempo necessario a un primo parziale ristabilimento dell'equilibrio circolatorio prima di esporsi alla pressione cabina ridotta in quota. Le altre risposte sono errate: 12 ore (opzione 1) sono un tempo insufficiente per il minimo ristabilimento richiesto; 48 ore (opzione 3) e 72 ore (opzione 4) sono soglie più prudenti ma superiori al minimo effettivamente raccomandato di 24 ore."
         },
         {
           "n": 96,
@@ -11632,7 +11632,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'ossigeno rappresenta circa il 21% dell'atmosfera terrestre, mentre l'azoto ne costituisce circa il 78%. Le altre risposte sono errate: \"78%\" è il valore corretto per l'azoto, non per l'ossigeno, uno scambio comune tra i due gas principali; \"1%\" e \"12%\" sono valori numerici troppo bassi rispetto alla percentuale reale di ossigeno nell'atmosfera."
+          "explanation": "L'ossigeno rappresenta circa il 21% dell'atmosfera terrestre, mentre l'azoto ne costituisce circa il 78%, con il restante circa 1% occupato da altri gas come argon e anidride carbonica. Le altre risposte sono errate: 78% (opzione 1) è il valore corretto per l'azoto, non per l'ossigeno, uno scambio comune tra i due gas principali; 1% (opzione 3) e 12% (opzione 4) sono valori numerici troppo bassi rispetto alla percentuale reale di ossigeno nell'atmosfera."
         },
         {
           "n": 119,
@@ -24315,7 +24315,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il piede (foot), unità anglosassone usata in aeronautica soprattutto per le quote, equivale esattamente a 30,48 cm (12 pollici da 2,54 cm ciascuno). Le altre risposte sono errate: \"33 cm\" e \"36 cm\" sono valori arrotondati che non corrispondono ad alcuna unità standard; \"2,5 cm\" è invece il valore di un solo pollice, non di un piede che ne contiene 12."
+          "explanation": "Il piede (foot), unità anglosassone usata in aeronautica soprattutto per le quote, equivale esattamente a 30,48 cm (12 pollici da 2,54 cm ciascuno). Le altre risposte sono errate: 33 cm (opzione 1) e 36 cm (opzione 2) sono valori arrotondati che non corrispondono ad alcuna unità standard; 2,5 cm (opzione 4) è invece il valore di un solo pollice, non di un piede che ne contiene 12."
         },
         {
           "n": 2,
@@ -24329,7 +24329,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il miglio nautico (NM), unità di riferimento per le distanze in navigazione aerea, equivale esattamente a 1852 metri. Le altre risposte sono errate: \"1500 m\" e \"1620 m\" non corrispondono a nessuna unità reale; \"1609 m\" è il valore del miglio terrestre/statutario (statute mile), spesso confuso con il miglio nautico ma numericamente diverso."
+          "explanation": "Il miglio nautico (NM), unità di riferimento per le distanze in navigazione aerea, equivale esattamente a 1852 metri. Le altre risposte sono errate: 1500 m (opzione 2) e 1620 m (opzione 3) non corrispondono a nessuna unità reale; 1609 m (opzione 4) è il valore del miglio terrestre/statutario (statute mile), spesso confuso con il miglio nautico ma numericamente diverso."
         },
         {
           "n": 3,
@@ -24982,7 +24982,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nel volo rettilineo orizzontale a velocità costante la portanza eguaglia esattamente il peso, quindi il fattore di carico vale 1. Le altre risposte sono errate: \"2\" e \"3\" sono valori che si raggiungono solo con manovre che generano accelerazioni aggiuntive, come virate o richiamate, non nel volo rettilineo uniforme dove portanza e peso sono in equilibrio esatto."
+          "explanation": "Nel volo rettilineo orizzontale a velocità costante la portanza eguaglia esattamente il peso, quindi il fattore di carico vale 1. Le altre risposte sono errate: 2 (opzione 2) e 3 (opzione 3) sono valori che si raggiungono solo con manovre che generano accelerazioni aggiuntive, come virate o richiamate, non nel volo rettilineo uniforme dove portanza e peso sono in equilibrio esatto."
         },
         {
           "n": 50,
@@ -25595,7 +25595,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La rosa dei venti, per convenzione internazionale, è suddivisa nei 360 gradi dell'intera circonferenza. Le altre risposte sono errate: \"180\", \"90\" e \"270\" sono frazioni della rosa dei venti completa, non l'intera suddivisione angolare standard."
+          "explanation": "La rosa dei venti, per convenzione internazionale, è suddivisa nei 360 gradi dell'intera circonferenza. Le altre risposte sono errate: 180 (opzione 1), 90 (opzione 2) e 270 (opzione 4) sono frazioni della rosa dei venti completa, non l'intera suddivisione angolare standard."
         },
         {
           "n": 94,
@@ -26134,7 +26134,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il valore massimo teorico della declinazione magnetica è 180°, corrispondente al caso limite in cui Nord vero e Nord magnetico indicano direzioni opposte. Le altre risposte sono errate: \"90°\", \"30°\" e \"120°\" sono valori arbitrari inferiori al massimo teorico, che essendo l'angolo fra due direzioni può arrivare fino a 180°."
+          "explanation": "Il valore massimo teorico della declinazione magnetica è 180°, corrispondente al caso limite in cui Nord vero e Nord magnetico indicano direzioni opposte. Le altre risposte sono errate: 90° (opzione 2), 30° (opzione 3) e 120° (opzione 4) sono valori arbitrari inferiori al massimo teorico, che essendo l'angolo fra due direzioni può arrivare fino a 180°."
         },
         {
           "n": 133,
@@ -26461,7 +26461,7 @@
             "non è possibile stabilire l'affermazione corretta, in quanto la velocità indicata di stallo dipende dalla densità dell'aria a quella quota"
           ],
           "correct": 2,
-          "explanation": "La velocità indicata di stallo al livello del mare è uguale a quella a 5000 ft, poiché lo strumento anemometrico, basato sulla pressione dinamica, rende la IAS indipendente dalla densità reale dell'aria a quella quota. Le altre risposte sono errate: \"al livello del mare è maggiore/inferiore rispetto a 5000 ft\" introducono entrambe una variazione con la quota che, per la IAS, non esiste in pratica; \"non è possibile stabilirlo, dipende dalla densità\" è fuorviante perché è proprio la logica dello strumento a rendere la IAS indipendente dalla densità reale a parità di comportamento aerodinamico."
+          "explanation": "La velocità indicata di stallo al livello del mare è uguale a quella a 5000 ft, poiché lo strumento anemometrico, basato sulla pressione dinamica, rende la IAS indipendente dalla densità reale dell'aria a quella quota. Le altre risposte sono errate: l'affermazione che al livello del mare sia maggiore rispetto a 5000 ft (opzione 1) e quella che sia inferiore (opzione 2) introducono entrambe una variazione con la quota che, per la IAS, non esiste in pratica; l'idea che non sia possibile stabilirlo perché dipende dalla densità (opzione 4) è fuorviante, perché è proprio la logica dello strumento a rendere la IAS indipendente dalla densità reale a parità di comportamento aerodinamico."
         },
         {
           "n": 157,
@@ -27092,7 +27092,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Un rilevamento radiogoniometrico di classe A ha un'accuratezza di ±2°, la più precisa tra le classi previste per i servizi VDF. Le altre risposte sono errate: ±3° non corrisponde a nessuna classe standard di accuratezza VDF; ±10° è un valore troppo impreciso, ben oltre le tolleranze delle classi definite; ±5° è invece il valore proprio della classe B, non della classe A."
+          "explanation": "Un rilevamento radiogoniometrico di classe A ha un'accuratezza di ±2°, la più precisa tra le classi previste per i servizi VDF. Le altre risposte sono errate: ±3° (opzione 1) non corrisponde a nessuna classe standard di accuratezza VDF; ±10° (opzione 2) è un valore troppo impreciso, ben oltre le tolleranze delle classi definite; ±5° (opzione 4) è invece il valore proprio della classe B, non della classe A."
         },
         {
           "n": 32,
@@ -27106,7 +27106,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un rilevamento di classe B ha un'accuratezza di ±5°, meno precisa della classe A (±2°) ma comunque utilizzabile per l'assistenza alla navigazione. Le altre risposte sono errate: ±3° non corrisponde a nessuna classe standard; ±10° è troppo impreciso rispetto alla tolleranza reale della classe B; ±2° è invece il valore della classe A, la più accurata, non della classe B."
+          "explanation": "Un rilevamento di classe B ha un'accuratezza di ±5°, meno precisa della classe A (±2°) ma comunque utilizzabile per l'assistenza alla navigazione. Le altre risposte sono errate: ±3° (opzione 2) non corrisponde a nessuna classe standard; ±10° (opzione 3) è troppo impreciso rispetto alla tolleranza reale della classe B; ±2° (opzione 4) è invece il valore della classe A, la più accurata, non della classe B."
         },
         {
           "n": 33,
@@ -27120,7 +27120,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "243.0 MHz è la frequenza di soccorso in UHF (multiplo di 121.5 MHz), usata soprattutto dai velivoli militari. Le altre risposte sono errate: 244.3 MHz, 241.3 MHz e 242.3 MHz sono valori numerici simili ma non corrispondono a nessuna frequenza di soccorso codificata; l'unica frequenza UHF di soccorso realmente in uso è 243.0 MHz."
+          "explanation": "243.0 MHz è la frequenza di soccorso in UHF (multiplo di 121.5 MHz), usata soprattutto dai velivoli militari. Le altre risposte sono errate: 244.3 MHz (opzione 1), 241.3 MHz (opzione 3) e 242.3 MHz (opzione 4) sono valori numerici simili ma non corrispondono a nessuna frequenza di soccorso codificata; l'unica frequenza UHF di soccorso realmente in uso è 243.0 MHz."
         },
         {
           "n": 34,
@@ -27133,7 +27133,7 @@
             "242.3 MHz"
           ],
           "correct": 1,
-          "explanation": "243.0 MHz è la frequenza di soccorso in UHF (multiplo di 121.5 MHz), usata soprattutto dai velivoli militari. Le altre risposte sono errate: 244.3 MHz, 241.3 MHz e 242.3 MHz sono valori numerici simili ma non corrispondono a nessuna frequenza di soccorso codificata; l'unica frequenza UHF di soccorso realmente in uso è 243.0 MHz."
+          "explanation": "243.0 MHz è la frequenza di soccorso in UHF (multiplo di 121.5 MHz), usata soprattutto dai velivoli militari. Le altre risposte sono errate: 244.3 MHz (opzione 1), 241.3 MHz (opzione 3) e 242.3 MHz (opzione 4) sono valori numerici simili ma non corrispondono a nessuna frequenza di soccorso codificata; l'unica frequenza UHF di soccorso realmente in uso è 243.0 MHz."
         },
         {
           "n": 35,
@@ -27147,7 +27147,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "2182 KHz è la frequenza internazionale del Servizio Mobile Marittimo per le chiamate di soccorso, utilizzabile anche da aeromobili e mezzi di sopravvivenza per contattare navi in caso di ammaraggio o emergenza in mare. Le altre risposte sono errate: 2342 KHz, 3162 KHz e 2162 KHz sono valori numerici simili ma non corrispondono alla frequenza di soccorso marittima realmente codificata, che è 2182 KHz."
+          "explanation": "2182 KHz è la frequenza internazionale del Servizio Mobile Marittimo per le chiamate di soccorso, utilizzabile anche da aeromobili e mezzi di sopravvivenza per contattare navi in caso di ammaraggio o emergenza in mare. Le altre risposte sono errate: 2342 KHz (opzione 1), 3162 KHz (opzione 3) e 2162 KHz (opzione 4) sono valori numerici simili ma non corrispondono alla frequenza di soccorso marittima realmente codificata, che è 2182 KHz."
         },
         {
           "n": 36,
@@ -27203,7 +27203,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il messaggio di pericolo completo contiene: MAYDAY (x3), nominativo della stazione chiamata, nominativo dell'aeromobile, natura del pericolo, intenzioni del comandante, posizione, altitudine/livello di volo e prua. Le altre risposte sono errate: la prima omette posizione, altitudine e prua, elementi essenziali per localizzare l'aeromobile in difficoltà; quella con \"DISTRESS\" pronunciato due volte usa un segnale e una ripetizione non corretti e omette comunque le intenzioni del comandante; quella con \"EMERGENCY\" ripetuto tre volte usa ancora un segnale sbagliato al posto di MAYDAY e aggiunge un elemento non previsto (la frequenza di trasmissione) al posto di quelli mancanti."
+          "explanation": "Il messaggio di pericolo completo contiene: MAYDAY pronunciato preferibilmente 3 volte, nominativo della stazione chiamata, nominativo dell'aeromobile, natura del pericolo, intenzioni del comandante, posizione, altitudine/livello di volo e prua. Le altre risposte sono errate: l'opzione 1 omette posizione, altitudine e prua, elementi essenziali per localizzare l'aeromobile in difficoltà; l'opzione 2 usa il segnale \"DISTRESS\" pronunciato due volte invece di MAYDAY per tre volte e omette comunque le intenzioni del comandante; l'opzione 3 usa il segnale sbagliato \"EMERGENCY\" ripetuto tre volte al posto di MAYDAY e aggiunge un elemento non previsto (la frequenza di trasmissione) al posto di quelli mancanti."
         },
         {
           "n": 40,
@@ -27245,7 +27245,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il messaggio di urgenza completo contiene: PAN PAN (x3), nominativo della stazione, nominativo del velivolo, natura della condizione di urgenza, intenzioni del comandante, posizione, altitudine/livello e prua. Le altre risposte sono errate: usano segnali diversi da quello codificato (EMERGENCY, PAN da solo, URGENCY) al posto di PAN PAN, e due di esse aggiungono anche un elemento non previsto nella struttura standard (la frequenza di trasmissione)."
+          "explanation": "Il messaggio di urgenza completo contiene: PAN PAN pronunciato preferibilmente 3 volte, nominativo della stazione, nominativo del velivolo, natura della condizione di urgenza, intenzioni del comandante, posizione, altitudine/livello di volo e prua. Le altre risposte sono errate: l'opzione 1 usa il segnale sbagliato \"EMERGENCY\" al posto di PAN PAN; l'opzione 3 usa \"PAN\" pronunciato da solo invece di \"PAN PAN\" e aggiunge un elemento non previsto (la frequenza di trasmissione); l'opzione 4 usa il segnale sbagliato \"URGENCY\" al posto di PAN PAN e aggiunge anch'essa la frequenza di trasmissione, non prevista nella struttura standard."
         },
         {
           "n": 43,
@@ -27385,7 +27385,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "121.5 MHz è la frequenza internazionale di soccorso in VHF, monitorata dalla maggior parte degli aeromobili e degli enti ATC. Le altre risposte sono errate: 134.3 MHz e 123.5 MHz sono valori generici non riservati al soccorso; 243.0 MHz è sì una frequenza di soccorso, ma in banda UHF, non VHF."
+          "explanation": "121.5 MHz è la frequenza internazionale di soccorso in VHF, monitorata dalla maggior parte degli aeromobili e degli enti ATC. Le altre risposte sono errate: 134.3 MHz (opzione 2) e 123.5 MHz (opzione 3) sono valori generici non riservati al soccorso; 243.0 MHz (opzione 4) è sì una frequenza di soccorso, ma in banda UHF, non VHF."
         },
         {
           "n": 53,
@@ -27523,7 +27523,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Nella scala di intelligibilità dei messaggi, il rapporto 4 corrisponde alla dizione \"comprensibile\". Le altre risposte sono errate: il valore 3 corrisponde a una ricezione con difficoltà; il valore 5 indica una ricezione perfetta; il valore 1 indica una ricezione incomprensibile."
+          "explanation": "Nella scala di intelligibilità dei messaggi, il rapporto 4 corrisponde alla dizione \"comprensibile\". Le altre risposte sono errate: il valore 3 (opzione 1) corrisponde a una ricezione con difficoltà; il valore 5 (opzione 2) indica una ricezione perfetta; il valore 1 (opzione 3) indica una ricezione incomprensibile."
         },
         {
           "n": 63,
@@ -27537,7 +27537,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nella classificazione di priorità dei messaggi del Servizio Mobile Aeronautico, un messaggio radiogoniometrico occupa la terza posizione, dopo i messaggi di pericolo e urgenza. Le altre risposte sono errate: 6 e 4 sono posizioni troppo basse rispetto all'effettiva priorità; 2 corrisponde invece alla posizione dei messaggi di urgenza."
+          "explanation": "Nella classificazione di priorità dei messaggi del Servizio Mobile Aeronautico, un messaggio radiogoniometrico occupa la terza posizione, dopo i messaggi di pericolo e urgenza. Le altre risposte sono errate: 6 (opzione 2) e 4 (opzione 3) sono posizioni troppo basse rispetto all'effettiva priorità; 2 (opzione 4) corrisponde invece alla posizione dei messaggi di urgenza."
         },
         {
           "n": 64,
@@ -27689,7 +27689,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "123.4 MHz non è una frequenza di emergenza: le frequenze di soccorso standard sono 121.5 MHz (VHF), 243.0 MHz (UHF) e 2182 KHz (marittima). Le altre risposte sono errate: 243.0 MHz, 2182 KHz e 121.5 MHz sono tutte effettivamente frequenze di soccorso codificate, quindi non sono la risposta cercata."
+          "explanation": "123.4 MHz non è una frequenza di emergenza: le frequenze di soccorso standard sono 121.5 MHz (VHF), 243.0 MHz (UHF) e 2182 KHz (marittima). Le altre risposte sono errate: 243.0 MHz (opzione 1), 2182 KHz (opzione 2) e 121.5 MHz (opzione 3) sono tutte effettivamente frequenze di soccorso codificate, quindi non sono la risposta cercata."
         },
         {
           "n": 75,
@@ -28303,7 +28303,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La scala di intelligibilità (Readability Scale) prevede 5 livelli, da 1 (incomprensibile) a 5 (perfettamente comprensibile). Le altre risposte sono errate: 3, 10 e 4 livelli non corrispondono al numero di gradini realmente previsti dalla scala standard."
+          "explanation": "La scala di intelligibilità (Readability Scale) prevede 5 livelli, da 1 (incomprensibile) a 5 (perfettamente comprensibile). Le altre risposte sono errate: 3 livelli (opzione 2), 10 livelli (opzione 3) e 4 livelli (opzione 4) non corrispondono al numero di gradini realmente previsti dalla scala standard."
         },
         {
           "n": 119,
@@ -28401,7 +28401,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il codice transponder 7500 segnala un atto di interferenza illecita (dirottamento) al radar ATC. Le altre risposte sono errate: 7600 segnala un'avaria alle comunicazioni radio; 7700 segnala una condizione di pericolo generico; 1200 è un codice di volo VFR generico non associato ad alcuna emergenza."
+          "explanation": "Il codice transponder 7500 segnala un atto di interferenza illecita (dirottamento) al radar ATC. Le altre risposte sono errate: 7600 (opzione 2) segnala un'avaria alle comunicazioni radio; 7700 (opzione 3) segnala una condizione di pericolo generico; 1200 (opzione 4) è un codice di volo VFR generico non associato ad alcuna emergenza."
         },
         {
           "n": 126,
@@ -28485,7 +28485,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il codice transponder 7700 dichiara una condizione di pericolo (distress) al radar ATC. Le altre risposte sono errate: 7000 è un codice generico di conspicuity VFR; 7600 segnala un'avaria alle comunicazioni radio; 7500 segnala uno specifico atto di interferenza illecita."
+          "explanation": "Il codice transponder 7700 dichiara una condizione di pericolo (distress) al radar ATC. Le altre risposte sono errate: 7000 (opzione 1) è un codice generico di conspicuity VFR; 7600 (opzione 2) segnala un'avaria alle comunicazioni radio; 7500 (opzione 3) segnala uno specifico atto di interferenza illecita."
         },
         {
           "n": 132,
@@ -28779,7 +28779,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il codice transponder 7600 segnala un'avaria delle comunicazioni radio al radar ATC. Le altre risposte sono errate: 7500 segnala un dirottamento; 7700 segnala una condizione di pericolo generico; 2000 non è tra i codici standard riservati alle emergenze."
+          "explanation": "Il codice transponder 7600 segnala un'avaria delle comunicazioni radio al radar ATC. Le altre risposte sono errate: 7500 (opzione 1) segnala un dirottamento; 7700 (opzione 2) segnala una condizione di pericolo generico; 2000 (opzione 4) non è tra i codici standard riservati alle emergenze."
         },
         {
           "n": 153,
