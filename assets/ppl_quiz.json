@@ -3279,9 +3279,9 @@
             "5 minuti.",
             "10 minuti."
           ],
-          "correct": 0,
+          "correct": 1,
           "src": "quizvds",
-          "explanation": "Nel quesito, l'errore massimo tollerato sull'ETA prima di dover comunicare una revisione all'ente ATS è fissato a 2 minuti. È falsa l'opzione 2 (3 minuti): valore comunemente associato alla soglia di revisione ETA in spazio aereo controllato secondo la regolamentazione SERA/ICAO, ma diverso dal valore indicato come corretto in questo specifico quesito. È falsa l'opzione 3 (5 minuti): soglia associata invece al volo in spazio non controllato, valore maggiore non applicabile qui. È falsa l'opzione 4 (10 minuti): margine troppo ampio, non compatibile con nessuna soglia di revisione ETA prevista dalla normativa."
+          "explanation": "Secondo la regola generale SERA/ICAO Annex 2 sui piani di volo (ripresa anche dal quesito gemello in questo stesso database, gid 108), se l'orario stimato di sorvolo del successivo punto di riporto risulta errato rispetto a quello comunicato all'ente ATS, il pilota deve trasmettere una revisione non appena l'errore previsto supera i 3 minuti rispetto all'ultimo orario notificato: sotto questa soglia lo scostamento è considerato fisiologico e non richiede aggiornamento, oltre introduce un'incertezza sulla posizione dell'aeromobile che l'ente ATS deve poter correggere per mantenere corretta la separazione e i servizi di allarme. È falsa l'opzione 1 (2 minuti): soglia troppo stretta, obbligherebbe a revisioni continue per normali variazioni di vento/velocità, non prevista dalla norma. È falsa l'opzione 3 (5 minuti): valore troppo permissivo per la soglia di revisione ETA, spesso confuso con altri intervalli operativi (es. tolleranze di posizione o di posizionamento in quota) ma non corretto per questa regola specifica. È falsa l'opzione 4 (10 minuti): margine eccessivo, incompatibile con qualunque soglia di revisione ETA prevista dalla normativa."
         },
         {
           "n": 241,
