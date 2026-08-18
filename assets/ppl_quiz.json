@@ -13907,7 +13907,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Le osservazioni aeroportuali non sono trasmesse in linguaggio chiaro né esclusivamente tramite GAFOR: viaggiano codificate (METAR) su reti dedicate, quindi nessuna delle prime tre opzioni descrive correttamente il sistema."
+          "explanation": "Le osservazioni aeroportuali (METAR) sono diffuse codificate su rete telescriventi/dati e non rientrano in nessuna delle prime tre descrizioni, per questo la risposta corretta è la quarta. (opzione 1) è errata perché abbina la rete telescriventi al codice GAFOR o TAF, che sono previsioni (rotta a bassa quota e di aeroporto) e non osservazioni. (opzione 2) è errata perché il METAR non viaggia in radiotelefonia ma su rete telescriventi/dati. (opzione 3) è errata perché le osservazioni non sono diffuse in linguaggio chiaro ma in codice standardizzato."
         },
         {
           "n": 162,
@@ -13921,7 +13921,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il VOLMET fornisce osservazioni meteo attuali ed eventuali previsioni di atterraggio per un gruppo di aeroporti importanti, in trasmissione continua."
+          "explanation": "Il VOLMET è una trasmissione radio continua che fornisce osservazioni meteo attuali ed eventuali previsioni di atterraggio (TREND) per un gruppo di aeroporti importanti, non per rotte o singoli parametri. (opzione 1) è errata perché il VOLMET non fornisce previsioni di rotta ma dati di singoli aeroporti. (opzione 2) è errata perché non riguarda percorsi/rotte ma condizioni puntuali di aeroporto. (opzione 4) è errata perché non si limita alle sole indicazioni di vento ma include l'intero quadro meteo (vento, visibilità, nubi, temperatura, QNH, ecc.)."
         },
         {
           "n": 163,
@@ -13935,7 +13935,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Uno strato uniforme e grigio, spesso associato a pioviggine e visibilità orizzontale ridotta, è la descrizione tipica dello Stratus."
+          "explanation": "Lo strato uniforme e grigio che produce pioviggine continua e riduce la visibilità orizzontale è tipico dello Stratus. (opzione 1) è errata perché il Cumulus è una nube isolata a sviluppo verticale con base piatta e sommità a cavolfiore, non a lenzuolo uniforme. (opzione 3) è errata perché il Cirrostratus è una nube alta, sottile e traslucida composta da cristalli di ghiaccio, che non produce pioviggine. (opzione 4) è errata perché il Cumulonimbus è associato a temporali, rovesci violenti e grandine, non a pioviggine continua."
         },
         {
           "n": 164,
@@ -13949,7 +13949,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In atmosfera standard la superficie isobarica di 500 hPa si trova a circa 18.000 ft (5500 m), livello di riferimento classico per le carte in quota."
+          "explanation": "In atmosfera standard la pressione si dimezza circa ogni 18.000 ft di quota (a partire da 1013 hPa al livello del mare, a circa 18.000 ft si scende a circa 505 hPa, prossimo ai 500 hPa): per questo la superficie isobarica di 500 hPa si trova a circa 18.000 ft (5500 m). (opzione 1) è errata perché 10.000 ft in ISA corrispondono a una pressione di circa 697 hPa, non 500 hPa. (opzione 2) è errata perché 30.000 ft corrispondono a circa 300 hPa, ben al di sotto dei 500 hPa cercati. (opzione 4) è errata perché 5.000 ft corrispondono a circa 843 hPa, troppo alta rispetto ai 500 hPa di riferimento."
         },
         {
           "n": 165,
@@ -13963,7 +13963,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un vento che ruota in senso orario (es. da Nord verso Est) è detto 'veering'; il movimento opposto (antiorario) si chiama 'backing'."
+          "explanation": "La rotazione oraria del vento (es. da Nord a Est) si chiama 'veering'. (opzione 2) è errata perché 'backing' descrive il fenomeno opposto, la rotazione antioraria. (opzione 3) è errata perché 'lulling' indica una diminuzione d'intensità del vento, non un cambio di direzione. (opzione 4) è errata perché 'sinking' si riferisce a moti discendenti dell'aria, non alla direzione del vento."
         },
         {
           "n": 166,
@@ -13977,7 +13977,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un forte wind shear in decollo o avvicinamento causa brusche variazioni della IAS e dell'assetto, con concreto rischio di stallo o di scendere sotto la traiettoria prevista."
+          "explanation": "Il wind shear forte in decollo o avvicinamento causa variazioni brusche di IAS e assetto, con rischio di stallo o di scendere sotto la traiettoria (undershoot). (opzione 2) è errata perché il blocco del tubo di Pitot è un guasto strumentale da ghiaccio/insetti, non un effetto del wind shear. (opzione 3) è errata perché il wind shear non genera scariche elettriche, fenomeno associato invece ai temporali. (opzione 4) è errata perché il wind shear produce variazioni brusche e non un aumento stabile e costante della velocità di crociera."
         },
         {
           "n": 167,
@@ -13991,7 +13991,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nel codice METAR, TS indica temporale (thunderstorm) e SH indica rovescio (shower)."
+          "explanation": "Nel codice METAR, TS indica temporale (thunderstorm) e SH indica rovescio (shower). (opzione 2) è errata perché TS non significa tornado (che si indica con FC) né SH significa neve forte. (opzione 3) è errata perché TS non indica ghiaccio sottile né SH indica sabbia (SA). (opzione 4) è errata perché TS non è una tempesta di polvere (DS) né SH è nebbia sparsa (BCFG/PRFG)."
         },
         {
           "n": 168,
@@ -14005,7 +14005,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La turbolenza generata dal mescolamento meccanico dell'aria su terreno accidentato, edifici o montagne è detta turbolenza meccanica (o d'attrito/orografica)."
+          "explanation": "La turbolenza generata dal mescolamento meccanico dell'aria su terreno accidentato, edifici o montagne è la turbolenza meccanica (o d'attrito/orografica). (opzione 1) è errata perché la turbolenza termica nasce dalle correnti convettive per riscaldamento del suolo, non dall'attrito meccanico. (opzione 2) è errata perché la turbolenza di scia è generata dai vortici di estremità alare di altri aeromobili, non dal terreno. (opzione 4) è errata perché la CAT si sviluppa in quota in aria limpida, tipicamente ai margini delle correnti a getto, non per attrito col terreno."
         },
         {
           "n": 169,
@@ -14019,7 +14019,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il vento catabatico scende lungo i pendii durante la notte, spinto dal maggior peso dell'aria raffreddata per irraggiamento a contatto col terreno."
+          "explanation": "Il vento catabatico scende lungo i pendii durante la notte, spinto dal maggior peso dell'aria raffreddata per irraggiamento a contatto col terreno. (opzione 2) è errata perché il vento anabatico è il fenomeno diurno opposto, ascendente lungo i pendii riscaldati dal sole. (opzione 3) è errata perché il libeccio è un vento regionale da Sud-Ovest, non un fenomeno di brezza di pendio notturna. (opzione 4) è errata perché il vento geostrofico è generato dall'equilibrio tra forza di gradiente barico e forza di Coriolis in quota, non dal raffreddamento notturno dei pendii."
         },
         {
           "n": 170,
@@ -14033,7 +14033,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In aria più fredda dello standard ISA, l'altimetro sovraindica: l'aereo si trova realmente più in basso rispetto a quanto letto sullo strumento, un pericolo da tenere in conto sugli ostacoli."
+          "explanation": "In aria più fredda dello standard ISA, l'altimetro sovraindica: l'aereo si trova realmente più in basso rispetto a quanto letto sullo strumento. (opzione 2) è errata perché descrive l'effetto opposto: in realtà l'aereo è più basso del previsto, non più alto, quindi la sicurezza sugli ostacoli diminuisce anziché aumentare. (opzione 3) è errata perché l'altimetro, essendo un barometro tarato su valori standard, è sensibile alla temperatura reale della colonna d'aria. (opzione 4) è errata perché non si verifica alcun blocco statico: l'errore è un effetto sistematico e prevedibile, non un guasto."
         },
         {
           "n": 171,
@@ -14047,7 +14047,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Sulle carte SIGWX una linea a contorno frastagliato (scalloped) delimita le aree con cumulonembi, temporali o turbolenza forte."
+          "explanation": "Sulle carte SIGWX una linea a contorno frastagliato (scalloped) delimita le aree con cumulonembi, temporali o turbolenza forte. (opzione 1) è errata perché un'area di alta pressione e tempo sereno non richiede una linea di avviso per fenomeni severi. (opzione 3) è errata perché i confini di uno spazio aereo militare sono rappresentati con simbologia aeronautica specifica, non con linee frastagliate meteorologiche. (opzione 4) è errata perché la nebbia da irraggiamento è indicata con simboli propri (FG), non con una linea a contorno frastagliato."
         },
         {
           "n": 172,
@@ -14061,7 +14061,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il METAR di Fiumicino riporta \"8000 -RA\": visibilità 8 km e pioggia debole in atto, l'affermazione è vera."
+          "explanation": "Il gruppo '8000 -RA' nel METAR indica visibilità di 8000 m (8 km) e pioggia debole (-RA) in atto, quindi l'affermazione è vera. (opzione 2) è errata perché i dati del METAR confermano visibilità 8 km e pioggia, non la smentiscono. (opzione 3) è errata perché nel messaggio non compare alcun gruppo di nebbia (FG/BR), quindi non c'è nebbia. (opzione 4) è errata perché il gruppo '-RA' indica esplicitamente pioggia debole in corso, non assenza di pioggia."
         },
         {
           "n": 173,
@@ -14075,7 +14075,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il SIGMET riporta turbolenza forte dal suolo (GND) fino al livello 100, stazionaria e in intensificazione, per la FIR di Roma."
+          "explanation": "Il SIGMET riporta turbolenza forte (SEV TURB) dal suolo (GND) fino al livello 100 (FL100), stazionaria (STNR) e in intensificazione (INTSF), per la FIR di Roma. (opzione 1) è errata perché il limite superiore indicato è FL100, non FL300, e il messaggio non riporta alcun movimento verso Sud-Est (STNR significa stazionario, non in moto). (opzione 3) è errata perché la turbolenza parte da terra (GND) e non da FL100: il limite inferiore corretto è il suolo, non FL100. (opzione 4) è errata perché la turbolenza interessa gli strati bassi fino a FL100, non esclusivamente sopra FL270, quota che non compare nel messaggio."
         },
         {
           "n": 174,
@@ -14089,7 +14089,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Volando da alta verso bassa pressione senza ricalibrare il QNH, l'altimetro sovraindica la quota reale: da qui la regola mnemonica \"High to Low, look out Below\", con rischio di collisione col suolo o gli ostacoli."
+          "explanation": "Volando da alta verso bassa pressione senza ricalibrare il QNH, l'altimetro sovraindica la quota reale: da qui la regola mnemonica 'High to Low, look out Below', con rischio di collisione col suolo o gli ostacoli. (opzione 2) è errata perché l'aereo non sale realmente da solo: è solo l'indicazione dell'altimetro a essere falsata, mentre la quota fisica resta quella di volo impostata dal pilota. (opzione 3) è errata perché l'altimetro non si azzera, ma mostra un errore progressivo per lo scarto di pressione non compensato. (opzione 4) è errata perché il fenomeno riguarda l'altimetro e non la IAS, che non è influenzata da questo errore di pressione."
         },
         {
           "n": 175,
@@ -14103,7 +14103,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "PROB30 e PROB40 indicano la probabilità (30% o 40%) che il fenomeno meteorologico descritto nel gruppo successivo del TAF si verifichi realmente."
+          "explanation": "PROB30 e PROB40 indicano la probabilità (30% o 40%) che il fenomeno meteorologico descritto nel gruppo successivo del TAF si verifichi realmente. (opzione 2) è errata perché il numero non indica una durata in minuti ma una percentuale di probabilità. (opzione 3) è errata perché non si riferisce a raffiche di vento in nodi, che sarebbero indicate nel gruppo vento con la lettera G. (opzione 4) è errata perché non riguarda un valore di visibilità in metri, che nel TAF è espresso separatamente in un proprio gruppo numerico."
         },
         {
           "n": 176,
@@ -14117,7 +14117,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nei bassi strati la pressione atmosferica diminuisce di circa 1 hPa ogni 30 ft di quota guadagnata."
+          "explanation": "Nei bassi strati la pressione diminuisce di circa 1 hPa ogni 30 ft di quota guadagnata (verifica: da 0 a 1000 ft la pressione scende da 1013 hPa a circa 977 hPa, cioè circa 36 hPa in 1000 ft, che equivalgono appunto a circa 1 hPa ogni 28-30 ft). (opzione 2) è errata perché un calo di 10 hPa ogni 30 ft è di gran lunga eccessivo: porterebbe la pressione a zero in poche migliaia di piedi. (opzione 3) è errata perché 0.1 hPa ogni 30 ft è troppo poco, un valore tipico di quote molto più alte in stratosfera, non dei bassi strati. (opzione 4) è errata perché 100 hPa ogni 30 ft è un valore assurdo, corrisponderebbe quasi al dimezzamento della pressione totale in pochi metri."
         },
         {
           "n": 177,
@@ -14131,7 +14131,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Lo spessore della troposfera è massimo all'equatore (16-18 km), per la dilatazione termica dell'aria calda, e minimo ai poli (circa 8 km)."
+          "explanation": "Lo spessore della troposfera è massimo all'equatore (16-18 km), per la dilatazione termica dell'aria calda, e minimo ai poli (circa 8 km). (opzione 2) è errata perché inverte la relazione: ai poli l'aria fredda e densa comprime la troposfera, rendendola più sottile, non più spessa. (opzione 3) è errata perché lo spessore non è costante: varia sensibilmente con la latitudine, da circa 8 km ai poli a 16-18 km all'equatore. (opzione 4) è errata perché il massimo si registra all'equatore e non nelle zone temperate a 45° di latitudine, dove lo spessore è intermedio."
         },
         {
           "n": 178,
@@ -14145,7 +14145,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Nel codice METAR, BCFG indica banchi di nebbia (patches of fog), non uniformemente distribuiti sull'aeroporto."
+          "explanation": "Nel codice METAR, BCFG indica banchi di nebbia (patches of fog), distribuiti in modo non uniforme sull'aeroporto. (opzione 1) è errata perché la nebbia congelantesi si indica con FZFG, non BCFG. (opzione 2) è errata perché BCFG non significa 'banchi di strati bassi e nebbia': il prefisso BC indica 'patches' (banchi), non una combinazione di sigle inventata. (opzione 4) è errata perché BCFG non ha nulla a che vedere con foschia e raffiche, che si indicherebbero rispettivamente con BR e con il gruppo raffiche (G) nel vento."
         },
         {
           "n": 179,
@@ -14159,7 +14159,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'OAT (temperatura esterna) è misurata da un termometro a bulbo bimetallico o da una sonda elettronica (TAT probe) installata sulla fusoliera."
+          "explanation": "L'OAT (temperatura esterna) è misurata da un termometro a bulbo bimetallico o da una sonda elettronica (TAT probe) installata sulla fusoliera. (opzione 2) è errata perché l'anemometro collegato al pitot misura la pressione dinamica per la velocità (IAS), non la temperatura. (opzione 3) è errata perché il barometro aneroide tarato sulla pressione locale è il principio di funzionamento dell'altimetro, non un sensore di temperatura. (opzione 4) è errata perché il variometro misura la velocità verticale tramite variazioni di pressione statica, non la temperatura esterna."
         },
         {
           "n": 180,
@@ -14173,7 +14173,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'aria instabile favorisce i moti verticali: una particella sollevata, restando più calda dell'ambiente, continua a salire da sola, alimentando lo sviluppo di nubi cumuliformi."
+          "explanation": "L'aria instabile favorisce i moti verticali: una particella sollevata, restando più calda dell'ambiente, continua a salire da sola, alimentando lo sviluppo di nubi cumuliformi. (opzione 1) è errata perché descrive un moto discendente costante con assenza di vento, l'opposto della definizione di instabilità che implica moti ascensionali. (opzione 3) è errata perché il gelo al suolo è un fenomeno termico locale legato alla temperatura, non una proprietà di stabilità/instabilità dell'aria. (opzione 4) è errata perché l'instabilità non è un fenomeno esclusivamente notturno né limitato alle pianure: dipende dal gradiente termico verticale, non dall'ora o dal terreno."
         },
         {
           "n": 181,
@@ -14187,7 +14187,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Isobare chiuse con 'H' al centro indicano un anticiclone: aria in subsidenza (discendente), stabile, generalmente bel tempo."
+          "explanation": "Isobare chiuse con 'H' al centro indicano un anticiclone: aria in subsidenza (discendente), stabile, generalmente bel tempo. (opzione 1) è errata perché la 'H' su una carta isobarica indica alta pressione atmosferica, non un rilievo orografico. (opzione 3) è errata perché la sigla 'H' (High) indica un'area di alta pressione, mentre un uragano è un ciclone tropicale, cioè un'area di bassa pressione. (opzione 4) è errata perché l'anticiclone è associato ad aria stabile e discendente, condizione opposta a quella che favorisce il wind shear, più tipico di fronti e temporali."
         },
         {
           "n": 182,
@@ -14201,7 +14201,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Gli strati si formano in aria stabile e umida, tipicamente per lento sollevamento diffuso o raffreddamento dei bassi strati."
+          "explanation": "Gli strati si formano in aria stabile e umida, tipicamente per lento sollevamento diffuso o raffreddamento dei bassi strati. (opzione 2) è errata perché un'aria fortemente instabile con correnti convettive produce nubi cumuliformi, non strati piatti e uniformi. (opzione 3) è errata perché un'aria estremamente secca non permette la condensazione necessaria a formare nubi. (opzione 4) è errata perché l'irraggiamento solare estivo intenso genera instabilità e nubi cumuliformi, non gli strati, che si formano piuttosto per raffreddamento o sollevamento lento."
         },
         {
           "n": 183,
@@ -14215,7 +14215,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "BECMG nel TAF indica un cambiamento graduale e regolare verso le condizioni specificate, da completarsi entro il periodo di tempo indicato."
+          "explanation": "BECMG nel TAF indica un cambiamento graduale e regolare verso le condizioni specificate, da completarsi entro il periodo di tempo indicato. (opzione 2) è errata perché BECMG non è definito da una soglia fissa di un'ora, ma dal periodo indicato nel gruppo orario del TAF, che può variare. (opzione 3) è errata perché la probabilità di un fenomeno è espressa dal gruppo PROB, non da BECMG. (opzione 4) è errata perché BECMG non implica né un miglioramento immediato né necessariamente un aumento della visibilità: descrive un cambiamento graduale, che può essere anche un peggioramento."
         },
         {
           "n": 184,
@@ -14229,7 +14229,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In un cumulonembo l'accumulo di ghiaccio può essere da forte a severo, per l'alta concentrazione di acqua sopraffusa sostenuta dalle intense correnti ascensionali."
+          "explanation": "In un cumulonembo l'accumulo di ghiaccio può essere da forte a severo, per l'alta concentrazione di acqua sopraffusa sostenuta dalle intense correnti ascensionali. (opzione 1) è errata perché nei CB il rischio di ghiaccio non è mai limitato al solo livello leggero, data la grande quantità di acqua liquida sopraffusa presente. (opzione 2) è errata perché la pioggia non elimina il rischio di ghiaccio: anzi, l'acqua sopraffusa è proprio la causa dell'accumulo. (opzione 4) è errata perché il ghiaccio nei CB non è affatto nullo: si forma anche e soprattutto nelle nubi a sviluppo verticale, non solo in quelle stratificate."
         },
         {
           "n": 185,
@@ -14243,7 +14243,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Lampi e tuoni segnalano che la nube ha raggiunto lo stadio di maturità, con forti correnti convettive miste ad acqua e ghiaccio che generano le cariche elettrostatiche."
+          "explanation": "Lampi e tuoni segnalano che la nube ha raggiunto lo stadio di maturità, con forti correnti convettive miste ad acqua e ghiaccio che generano le cariche elettrostatiche. (opzione 1) è errata perché lampi e tuoni intensi indicano la nube nel pieno della sua attività, non in fase di esaurimento. (opzione 2) è errata perché nello stadio maturo coesistono correnti ascendenti e discendenti, non solo moti discendenti. (opzione 4) è errata perché l'attività elettrica del temporale è legata alla dinamica interna della nube convettiva, non al passaggio di un fronte caldo."
         },
         {
           "n": 186,
@@ -14257,7 +14257,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il TAF di Fiumicino riporta vento iniziale 130°/13 nodi, con evoluzione graduale a 180°/18 nodi tra le 09:00 e le 11:00 (gruppo BECMG)."
+          "explanation": "Il TAF di Fiumicino riporta vento iniziale 130°/13 nodi, con evoluzione graduale a 180°/18 nodi tra le 09:00 e le 11:00 (gruppo BECMG). (opzione 1) è errata perché il vento iniziale non è 060°/15 ma 130°/13, e il messaggio prevede comunque una variazione, non l'assenza di essa. (opzione 2) è errata perché la nuova direzione/intensità prevista è 180°/18 e non 090°/11, valori non presenti nel TAF. (opzione 4) è errata perché il TAF non indica alcuna evoluzione da 180° a 130°, né fa riferimento al tramonto: è l'esatto contrario della sequenza reale (da 130° a 180°)."
         },
         {
           "n": 187,
@@ -14271,7 +14271,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "CAVOK richiede contemporaneamente: visibilità ≥10 km, nessuna nube sotto 5000 ft (o sotto la MSA), assenza di CB/TCU e nessun fenomeno meteorologico significativo."
+          "explanation": "CAVOK richiede contemporaneamente: visibilità ≥10 km, nessuna nube sotto 5000 ft (o sotto la MSA), assenza di CB/TCU e nessun fenomeno meteorologico significativo. (opzione 2) è errata perché il valore soglia di visibilità per CAVOK è 10 km e non 8 km, e la presenza di nubi sparse (SCT) è incompatibile con CAVOK. (opzione 3) è errata perché 'CAVOK' non è l'acronimo di 'Clear All Vis OK', ma di 'Ceiling And Visibility OK', con i criteri precisi sopra descritti. (opzione 4) è errata perché CAVOK non implica affatto l'assenza di vento: il codice riguarda solo nubi, visibilità e fenomeni significativi, il vento è riportato separatamente."
         },
         {
           "n": 188,
@@ -14285,7 +14285,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il microburst è una violenta e localizzata corrente discendente, di diametro inferiore a 4 km e durata di pochi minuti, particolarmente letale in decollo o atterraggio."
+          "explanation": "Il microburst è una violenta e localizzata corrente discendente, di diametro inferiore a 4 km e durata di pochi minuti, particolarmente letale in decollo o atterraggio. (opzione 2) è errata perché il microburst non è un vento costante e su vasta area, ma un fenomeno intenso, brevissimo e molto localizzato. (opzione 3) è errata perché non è affatto un tornado visibile e lento: è una corrente discendente, non un vortice ascendente-rotante come il tornado. (opzione 4) è errata perché il microburst è un fenomeno estremamente pericoloso, non benefico: riduce bruscamente la portanza al momento dell'attraversamento del fronte discendente."
         },
         {
           "n": 189,
@@ -14313,7 +14313,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "FG (fog) indica visibilità inferiore a 1000 m; BR (mist/foschia) indica visibilità pari o superiore a 1000 m (e inferiore a 5000 m nei bollettini formali)."
+          "explanation": "FG (fog) indica visibilità inferiore a 1000 m; BR (mist/foschia) indica visibilità pari o superiore a 1000 m (e inferiore a 5000 m nei bollettini formali). (opzione 2) è errata perché inverte i significati: FG è nebbia (non foschia) e BR è foschia (non nebbia densa). (opzione 3) è errata perché FG non significa ghiaccio (che si indica con FZ come prefisso) né BR significa pioggia (RA). (opzione 4) è errata perché FG non significa pioviggine (DZ) né BR significa grandine (GR)."
         },
         {
           "n": 191,
@@ -14327,7 +14327,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "BKN (broken) indica una copertura di 5-7 ottavi: è la prima soglia di copertura considerata come 'ceiling' (tetto nuvoloso significativo)."
+          "explanation": "BKN (broken) indica una copertura di 5-7 ottavi: è la prima soglia di copertura considerata come 'ceiling' (tetto nuvoloso significativo). (opzione 1) è errata perché 0 ottavi (cielo sereno) si indica con SKC o CLR, non BKN. (opzione 2) è errata perché 1-2 ottavi corrispondono alla sigla FEW, non BKN. (opzione 3) è errata perché 8 ottavi (cielo coperto) si indicano con OVC, non BKN."
         },
         {
           "n": 192,
@@ -14341,7 +14341,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il fronte stazionario si rappresenta con una linea a segmenti alternati rossi e blu, con triangoli (lato freddo) e semicerchi (lato caldo) rivolti in direzioni opposte."
+          "explanation": "Il fronte stazionario si rappresenta con una linea a segmenti alternati rossi e blu, con triangoli (lato freddo) e semicerchi (lato caldo) rivolti in direzioni opposte. (opzione 1) è errata perché una linea continua blu con soli triangoli rappresenta un fronte freddo, non uno stazionario. (opzione 2) è errata perché una linea continua rossa con soli semicerchi rappresenta un fronte caldo, non uno stazionario. (opzione 3) è errata perché la linea viola o fucsia con simboli alternati indica un fronte occluso, non uno stazionario."
         },
         {
           "n": 193,
@@ -14355,7 +14355,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le nubi stratiformi (altostrati, nembostrati) sono associate a precipitazioni continue, regolari e diffuse, in contrasto con i rovesci intermittenti tipici delle cumuliformi."
+          "explanation": "Le nubi stratiformi (altostrati, nembostrati) sono associate a precipitazioni continue, regolari e diffuse, in contrasto con i rovesci intermittenti tipici delle cumuliformi. (opzione 1) è errata perché i rovesci intermittenti e la grandine sono tipici delle nubi cumuliformi (cumulonembi), non degli strati. (opzione 2) è errata perché altostrati e nembostrati non sono nubi di bel tempo: il nembostrato in particolare è la nube di pioggia per eccellenza. (opzione 4) è errata perché queste nubi non producono esclusivamente neve tonda (graupel), tipica invece delle cumuliformi: producono pioggia o neve continue a seconda della temperatura."
         },
         {
           "n": 194,
@@ -14369,7 +14369,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Con il QFE impostato, l'altimetro indica l'altezza sopra l'elevazione dell'aeroporto: a terra sulla pista lo strumento segna zero."
+          "explanation": "Con il QFE impostato, l'altimetro indica l'altezza sopra l'elevazione dell'aeroporto: a terra sulla pista lo strumento segna zero. (opzione 2) è errata perché QNH e QFE non sono ripartiti per area geografica (USA vs Europa): sono due riferimenti di pressione usati indifferentemente ovunque a seconda delle esigenze operative. (opzione 3) è errata perché il valore fisso 1013.25 hPa usato per i livelli di volo è lo Standard (QNE), non il QFE. (opzione 4) è errata perché QNH e QFE non sono sinonimi: il primo dà la quota sul livello del mare, il secondo l'altezza sopra l'aeroporto."
         },
         {
           "n": 195,
@@ -14383,7 +14383,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "DZ nel codice METAR indica la pioviggine (drizzle), goccioline finissime tipiche delle nubi stratiformi basse."
+          "explanation": "DZ nel codice METAR indica la pioviggine (drizzle), goccioline finissime tipiche delle nubi stratiformi basse. (opzione 2) è errata perché il temporale isolato si indica con TS, non DZ. (opzione 3) è errata perché la neve debole si indica con -SN, non DZ. (opzione 4) è errata perché i rovesci di grandine si indicano con SHGR, non DZ."
         },
         {
           "n": 196,
@@ -14397,7 +14397,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il wind shear è una brusca variazione di intensità e/o direzione del vento su brevi distanze (orizzontali o verticali), che altera pericolosamente la portanza del velivolo."
+          "explanation": "Il wind shear è una brusca variazione di intensità e/o direzione del vento su brevi distanze (orizzontali o verticali), che altera pericolosamente la portanza del velivolo. (opzione 1) è errata perché il vento geostrofico costante in quota è per definizione stabile e regolare, l'opposto di una variazione brusca. (opzione 2) è errata perché il vento catabatico è un fenomeno di brezza di pendio notturna, non una variazione improvvisa del vento su breve distanza. (opzione 4) è errata perché non riguarda l'effetto del vento relativo durante virate standard, un fenomeno di aerodinamica ordinaria e non un evento meteorologico pericoloso."
         },
         {
           "n": 197,
@@ -14411,7 +14411,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "All'equatore la forza di Coriolis è nulla: per questo i cicloni tropicali non si formano mai esattamente sulla linea equatoriale."
+          "explanation": "All'equatore la forza di Coriolis è nulla: per questo i cicloni tropicali non si formano mai esattamente sulla linea equatoriale. (opzione 1) è errata perché il valore massimo della forza di Coriolis si registra ai poli, non all'equatore. (opzione 2) è errata perché è vero il contrario: essendo nulla la Coriolis, gli uragani non possono generarsi ed essere sostenuti proprio sulla linea equatoriale. (opzione 3) è errata perché la forza di Coriolis non è affatto costante con la latitudine: varia da zero all'equatore fino al massimo ai poli."
         },
         {
           "n": 198,
@@ -14425,7 +14425,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il TAF di Ciampino prevede temporaneamente, tra le 06:00 e le 15:00, possibili temporali (gruppo TEMPO con TSRA e CB)."
+          "explanation": "Il TAF di Ciampino prevede temporaneamente, tra le 06:00 e le 15:00, possibili temporali (gruppo TEMPO con TSRA e CB). (opzione 2) è errata perché il TAF non riporta alcuna diminuzione continua della visibilità a zero: nel periodo TEMPO la visibilità scende a 3000 m, non a zero. (opzione 3) è errata perché la presenza del gruppo TEMPO con TSRA e nubi CB indica un rischio concreto di temporali, non un tempo stabilmente buono. (opzione 4) è errata perché il TAF non menziona esplicitamente un rischio di microburst: il pericolo indicato dal messaggio è quello dei temporali (TSRA)."
         },
         {
           "n": 199,
@@ -14439,7 +14439,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il gruppo RERA nel METAR di Napoli indica pioggia recente: l'affermazione è vera."
+          "explanation": "Il gruppo RERA nel METAR di Napoli indica pioggia recente: l'affermazione è vera. (opzione 2) è errata perché il gruppo RERA è effettivamente presente nel messaggio, quindi la pioggia recente è confermata. (opzione 3) è errata perché RERA indica pioggia (RA) recente, non neve (che sarebbe RESN). (opzione 4) è errata perché il gruppo RERA nel METAR si riferisce alle condizioni dell'aeroporto stesso, non ai soli dintorni."
         },
         {
           "n": 200,
@@ -14453,7 +14453,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'ATIS trasmette in continuo, via radio, le informazioni aeronautiche e meteorologiche di base (vento, visibilità, nubi, QNH, pista in uso) nelle aree terminali ad alto traffico."
+          "explanation": "L'ATIS trasmette in continuo, via radio, le informazioni aeronautiche e meteorologiche di base (vento, visibilità, nubi, QNH, pista in uso) nelle aree terminali ad alto traffico. (opzione 2) è errata perché il servizio radar di avvicinamento è un servizio di controllo del traffico aereo, non una trasmissione automatica di informazioni meteo. (opzione 3) è errata perché l'ATIS non fornisce previsioni a lungo termine per lo spazio aereo nazionale, ma informazioni correnti locali di un singolo aeroporto. (opzione 4) è errata perché l'ATIS è un servizio informativo, non un servizio di controllo del traffico per il rullaggio."
         },
         {
           "n": 201,
@@ -14467,7 +14467,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un'atmosfera è assolutamente stabile quando il gradiente termico verticale reale (ELR) è minore del gradiente adiabatico saturo, oppure in presenza di un'inversione termica."
+          "explanation": "Un'atmosfera è assolutamente stabile quando il gradiente termico verticale reale (ELR) è minore del gradiente adiabatico saturo (SALR, circa 1.5°C/1000 ft), oppure in presenza di un'inversione termica. (opzione 2) è errata perché un gradiente maggiore di 3°C/1000 ft, superiore persino al gradiente adiabatico secco (circa 3°C/1000 ft), rende l'atmosfera assolutamente instabile, non stabile. (opzione 3) è errata perché un ELR esattamente uguale al gradiente adiabatico secco definisce una condizione di equilibrio neutro per l'aria secca, non una stabilità assoluta. (opzione 4) è errata perché il valore dell'atmosfera standard (1.98°C/1000 ft) si colloca tra il SALR e il DALR, definendo una condizione di stabilità condizionata, non assoluta."
         },
         {
           "n": 202,
@@ -14481,7 +14481,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La CAT è una turbolenza severa che si sviluppa senza nubi visibili, non rilevabile dai radar meteo, spesso associata ai margini di una corrente a getto."
+          "explanation": "La CAT è una turbolenza severa che si sviluppa senza nubi visibili, non rilevabile dai radar meteo, spesso associata ai margini di una corrente a getto. (opzione 2) è errata perché la CAT si verifica in quota, non al suolo, e non ha relazione con le notti stellate. (opzione 3) è errata perché per definizione la CAT avviene in aria limpida, senza nubi: il nucleo di un cumulonembo produce invece turbolenza convettiva, non CAT. (opzione 4) è errata perché l'attrito meccanico con gli ostacoli al suolo genera turbolenza meccanica in bassa quota, un fenomeno diverso dalla CAT in quota."
         },
         {
           "n": 203,
@@ -14495,7 +14495,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Nella rosa dei venti mediterranea il Maestrale spira da Nord-Ovest."
+          "explanation": "Nella rosa dei venti mediterranea il Maestrale spira da Nord-Ovest. (opzione 1) è errata perché il vento da Nord-Est nella tradizione mediterranea è il Grecale, non il Maestrale. (opzione 2) è errata perché il vento da Sud-Est è lo Scirocco (o il Levante a seconda della zona), non il Maestrale. (opzione 3) è errata perché il vento da Sud-Ovest è il Libeccio, non il Maestrale."
         },
         {
           "n": 204,
@@ -14509,7 +14509,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "All'avvicinarsi di un fronte caldo la pressione scende gradualmente, per poi stabilizzarsi (o continuare a scendere molto più lentamente) dopo il suo passaggio."
+          "explanation": "All'avvicinarsi di un fronte caldo la pressione scende gradualmente, per poi stabilizzarsi (o continuare a scendere molto più lentamente) dopo il suo passaggio. (opzione 1) è errata perché il fronte caldo non produce un aumento brusco e improvviso della pressione: quell'andamento è più tipico del passaggio di un fronte freddo. (opzione 2) è errata perché la pressione non rimane fissa: varia in modo caratteristico e prevedibile durante l'avvicinarsi e il passaggio del fronte. (opzione 4) è errata perché il fronte caldo produce un andamento graduale e regolare della pressione, non fluttuazioni estreme e casuali in pochi secondi."
         },
         {
           "n": 205,
@@ -14523,7 +14523,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'altimetro, essendo un barometro tarato in quota, è lo strumento direttamente influenzato dalle variazioni di pressione atmosferica e richiede costanti regolazioni del riferimento (QNH)."
+          "explanation": "L'altimetro, essendo un barometro tarato in quota, è lo strumento direttamente influenzato dalle variazioni di pressione atmosferica e richiede costanti regolazioni del riferimento (QNH). (opzione 1) è errata perché il virosbandometro misura la velocità angolare di virata tramite un giroscopio, non è influenzato dalla pressione barometrica. (opzione 3) è errata perché il contagiri motore misura il regime di rotazione meccanico o elettrico del motore, indipendente dalla pressione atmosferica esterna. (opzione 4) è errata perché la bussola magnetica si basa sul campo magnetico terrestre, non sulla pressione barometrica."
         },
         {
           "n": 206,
@@ -14537,7 +14537,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nubi lenticolari (Altocumulus Lenticularis) ferme vicino a una catena montuosa indicano onde orografiche stazionarie generate da vento forte in quota, con probabile turbolenza severa."
+          "explanation": "Nubi lenticolari (Altocumulus Lenticularis) ferme vicino a una catena montuosa indicano onde orografiche stazionarie generate da vento forte in quota, con probabile turbolenza severa. (opzione 2) è errata perché la presenza di lenticolari segnala proprio l'opposto: vento forte in quota e possibile turbolenza, non aria calma e tempo eccellente garantito. (opzione 3) è errata perché le lenticolari sono nubi stazionarie di origine orografica, non nubi temporalesche legate a microburst. (opzione 4) è errata perché non sono nubi basse da irraggiamento notturno: sono nubi medie/alte, stazionarie, legate al flusso d'aria sopra i rilievi, presenti anche di giorno."
         },
         {
           "n": 207,
@@ -14551,7 +14551,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nel codice GAFOR, la categoria M (Marginal) corrisponde a visibilità tra 1500 e 5000 m oppure base delle nubi tra 500 e 1000 ft."
+          "explanation": "Nel codice GAFOR, la categoria M (Marginal) corrisponde a visibilità tra 1500 e 5000 m oppure base delle nubi tra 500 e 1000 ft. (opzione 2) è errata perché la categoria M non indica un temporale intenso, e 'Maestrale' non è una definizione GAFOR ma il nome di un vento. (opzione 3) è errata perché tempo magnifico e sereno corrisponde alla categoria più favorevole, non a Marginal. (opzione 4) è errata perché GAFOR classifica le condizioni meteo per il volo a bassa quota, non lo stato della pista (bagnata/asciutta)."
         },
         {
           "n": 208,
@@ -14565,7 +14565,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In atmosfera standard, applicando il gradiente di 1,98°C/1000 ft a partire da 15°C al suolo, a 10.000 ft si ottengono circa -5°C."
+          "explanation": "In atmosfera standard, applicando il gradiente di 1,98°C/1000 ft a partire da 15°C al suolo: 15°C - (1,98°C × 10) = 15°C - 19,8°C = -4,8°C, arrotondato a circa -5°C. (opzione 2) è errata perché +5°C richiederebbe un gradiente positivo (aumento con la quota), l'opposto del comportamento reale della temperatura in troposfera. (opzione 3) è errata perché 0°C corrisponderebbe a circa 7.500 ft in ISA (15 / 1,98 ≈ 7,6), non a 10.000 ft. (opzione 4) è errata perché -15°C si otterrebbe solo a una quota molto maggiore, circa 15.000 ft (15 + 15 = 30; 30 / 1,98 ≈ 15,2)."
         },
         {
           "n": 209,
@@ -14579,7 +14579,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La saturazione è lo stato in cui l'aria contiene la massima quantità di vapore acqueo possibile per quella temperatura e pressione: oltre quel limite si ha condensazione."
+          "explanation": "La saturazione è lo stato in cui l'aria contiene la massima quantità di vapore acqueo possibile per quella temperatura e pressione: oltre quel limite si ha condensazione. (opzione 2) è errata perché la saturazione non è legata a una temperatura fissa di 0°C, ma dipende dalla quantità di vapore acqueo rispetto alla capacità massima a qualsiasi temperatura. (opzione 3) è errata perché il 50% di umidità relativa indica aria a metà della sua capacità di vapore, non satura: la saturazione corrisponde al 100%. (opzione 4) è errata perché la formazione di nebbia al suolo è comunque legata al raggiungimento della saturazione (100% di umidità relativa), non è un fenomeno indipendente da essa."
         },
         {
           "n": 210,
@@ -14593,7 +14593,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il prefisso 'Alto-' indica l'appartenenza alla famiglia delle nubi medie, con base tipicamente tra 6500 e 20.000 ft."
+          "explanation": "Il prefisso 'Alto-' indica l'appartenenza alla famiglia delle nubi medie, con base tipicamente tra 6.500 e 20.000 ft. (opzione 1) è errata perché le nubi alte (sopra 20.000 ft) sono quelle della famiglia dei Cirri (Cirrus, Cirrostratus, Cirrocumulus), non quelle con prefisso 'Alto-'. (opzione 3) è errata perché le nubi basse (dal suolo a 6.500 ft) sono Stratus, Stratocumulus e Nimbostratus, non quelle con prefisso 'Alto-'. (opzione 4) è errata perché le nubi a sviluppo verticale come i Cumulonembi non appartengono alla famiglia 'Alto-', che indica invece un livello altimetrico medio."
         },
         {
           "n": 211,
@@ -14607,7 +14607,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La tropopausa raggiunge la quota massima sopra l'equatore (fino a 16-18 km), per il maggior riscaldamento e la dilatazione dell'aria in quella fascia."
+          "explanation": "La tropopausa raggiunge la quota massima sopra l'equatore (fino a 16-18 km), per il maggior riscaldamento e la dilatazione dell'aria in quella fascia. (opzione 1) è errata perché sopra i poli, dove l'aria è fredda e densa, la tropopausa è più bassa, non più alta. (opzione 2) è errata perché alle medie latitudini la tropopausa si trova a una quota intermedia tra i due estremi, non al massimo assoluto. (opzione 4) è errata perché non esiste una relazione specifica tra la quota massima della tropopausa e l'Oceano Atlantico settentrionale: il fattore determinante è la latitudine, non la posizione oceanica."
         },
         {
           "n": 212,
@@ -14621,7 +14621,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La tropopausa è la zona di transizione tra troposfera e stratosfera, dove la temperatura cessa di diminuire con la quota e tende a stabilizzarsi o risalire."
+          "explanation": "La tropopausa è la zona di transizione tra troposfera e stratosfera, dove la temperatura cessa di diminuire con la quota e tende a stabilizzarsi o risalire. (opzione 1) è errata perché la tropopausa è il limite superiore della troposfera (e inferiore della stratosfera), non il limite superiore della stratosfera, che è invece la stratopausa. (opzione 3) è errata perché lo strato in cui l'attrito del suolo devia il vento è lo strato limite planetario nei bassi livelli, non la tropopausa in quota. (opzione 4) è errata perché la superficie di separazione tra due fronti è la superficie frontale, un concetto orizzontale/sinottico distinto dalla tropopausa, che è una transizione verticale globale."
         },
         {
           "n": 213,
@@ -14635,7 +14635,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La sublimazione (e il processo inverso di brinamento/deposizione) è il passaggio diretto tra stato solido e gassoso dell'acqua, senza passare per la fase liquida."
+          "explanation": "La sublimazione (e il processo inverso di brinamento/deposizione) è il passaggio diretto tra stato solido e gassoso dell'acqua, senza passare per la fase liquida. (opzione 2) è errata perché la fusione del ghiaccio per calore solare è un passaggio da solido a liquido, non da solido a gassoso. (opzione 3) è errata perché la condensazione della nebbia è un passaggio da vapore a liquido, un fenomeno diverso dalla sublimazione. (opzione 4) è errata perché l'evaporazione dell'acqua dai laghi è un passaggio da liquido a gassoso, che coinvolge comunque la fase liquida, a differenza della sublimazione."
         },
         {
           "n": 214,
@@ -14649,7 +14649,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nel codice METAR, SN indica neve (snow) e GR indica grandine (hail, chicchi superiori a 5 mm)."
+          "explanation": "Nel codice METAR, SN indica neve (snow) e GR indica grandine (hail, chicchi superiori a 5 mm). (opzione 2) è errata perché SN non significa sabbia (SA) né GR significa pioggia (RA). (opzione 3) è errata perché SN non significa foschia (BR) né GR significa ghiaccio. (opzione 4) è errata perché SN non significa strato (nube ST) né GR significa cumulo (nube CU): sono codici di fenomeni meteorologici, non di tipi di nubi."
         },
         {
           "n": 215,
@@ -14663,7 +14663,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Nella fase di maturità del temporale si registrano i fenomeni più violenti, con fulmini, grandine e precipitazioni intense, per la coesistenza di correnti ascendenti e discendenti."
+          "explanation": "Nella fase di maturità del temporale si registrano i fenomeni più violenti, con fulmini, grandine e precipitazioni intense, per la coesistenza di correnti ascendenti e discendenti. (opzione 1) è errata perché nella fase di sviluppo (cumulo) prevalgono solo correnti ascendenti e non si registrano ancora precipitazioni al suolo né i fenomeni più violenti. (opzione 3) è errata perché nella fase di dissolvimento prevalgono le correnti discendenti e i fenomeni si attenuano progressivamente, non raggiungono il picco. (opzione 4) è errata perché prima dell'innesco non esiste ancora una nube convettiva sviluppata, quindi non si registra alcun fenomeno temporalesco."
         },
         {
           "n": 216,
@@ -14677,7 +14677,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "I cirri sono nubi alte (sopra 20.000 ft), composte esclusivamente da cristalli di ghiaccio, con aspetto filamentoso o a banchi trasparenti."
+          "explanation": "I cirri sono nubi alte (sopra 20.000 ft), composte esclusivamente da cristalli di ghiaccio, con aspetto filamentoso o a banchi trasparenti. (opzione 2) è errata perché le nubi basse responsabili di pioggia e pioviggine continua sono gli strati e i nembostrati, non i cirri, che si trovano in quota e non producono precipitazioni al suolo. (opzione 3) è errata perché le nubi a enorme sviluppo verticale di origine temporalesca sono i cumulonembi, non i cirri. (opzione 4) è errata perché i banchi di nebbia sollevati dal suolo sono stratus, non cirri, che si formano invece ad alta quota per condensazione diretta in cristalli di ghiaccio."
         },
         {
           "n": 217,
@@ -14691,7 +14691,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Isobare chiuse con 'L' (Low) al centro indicano un'area di bassa pressione, associata ad aria instabile, ascesa di correnti e cattivo tempo."
+          "explanation": "Isobare chiuse con 'L' (Low) al centro indicano un'area di bassa pressione, associata ad aria instabile, ascesa di correnti e cattivo tempo. (opzione 1) è errata perché l'alta stabilità atmosferica è tipica delle aree di alta pressione (anticicloni), non di quelle a bassa pressione. (opzione 3) è errata perché le aree di alta pressione sono indicate dalla lettera 'H', non da 'L'. (opzione 4) è errata perché un'area ciclonica con aria instabile e cattivo tempo non è generalmente la zona migliore per il volo VFR, che richiede invece condizioni stabili tipiche degli anticicloni."
         },
         {
           "n": 218,
@@ -14705,7 +14705,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il ghiaccio limpido (clear ice) è pericoloso perché pesante, altera sensibilmente il profilo aerodinamico (riducendo portanza e aumentando resistenza) e aderisce tenacemente alle superfici."
+          "explanation": "Il ghiaccio limpido (clear ice) è pericoloso perché pesante, altera sensibilmente il profilo aerodinamico (riducendo la portanza e aumentando la resistenza) e aderisce tenacemente alle superfici, risultando difficile da rimuovere. (opzione 1) è errata perché il clear ice si forma in volo, tipicamente nell'attraversamento di nubi con goccioline sopraffuse, non a terra durante le notti stellate (che favoriscono semmai la brina). (opzione 2) è errata perché il ghiaccio limpido non si limita a ostruire il Pitot: si deposita diffusamente su ali, impennaggi ed eliche, alterando l'intera aerodinamica del velivolo. (opzione 3) è errata perché il clear ice è perfettamente visibile a occhio nudo come uno strato trasparente o vetroso, e non è affatto un gas."
         },
         {
           "n": 219,
@@ -14719,7 +14719,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Lo SPECI è un bollettino meteorologico speciale d'aeroporto, emesso al verificarsi di cambiamenti significativi e improvvisi fuori dagli orari regolari del METAR."
+          "explanation": "Lo SPECI è un bollettino meteorologico speciale d'aeroporto, emesso al verificarsi di cambiamenti significativi e improvvisi fuori dagli orari regolari del METAR. (opzione 2) è errata perché lo SPECI non è un messaggio di emergenza aerea, ma un report meteo aggiuntivo. (opzione 3) è errata perché lo SPECI non ha una validità fissa di 48 ore: è un'osservazione istantanea emessa quando serve, come il METAR. (opzione 4) è errata perché lo SPECI non riguarda la chiusura dello spazio aereo per motivi militari, ma esclusivamente le condizioni meteorologiche dell'aeroporto."
         },
         {
           "n": 220,
@@ -14733,7 +14733,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un vento che ruota in senso antiorario (es. da Nord verso Ovest) è detto 'backing', l'opposto del 'veering' (rotazione oraria)."
+          "explanation": "Un vento che ruota in senso antiorario (es. da Nord verso Ovest) è detto 'backing', l'opposto del 'veering' (rotazione oraria). (opzione 1) è errata perché 'veering' descrive la rotazione in senso orario e non ha a che fare con un rinforzo di intensità. (opzione 3) è errata perché 'shearing' si riferisce a una variazione di intensità/direzione del vento (wind shear), non specificamente a una rotazione antioraria. (opzione 4) è errata perché 'gusting' indica raffiche, cioè variazioni rapide di intensità, non un cambiamento di direzione."
         },
         {
           "n": 221,
@@ -14747,7 +14747,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il wind shear è una brusca variazione di intensità e/o direzione del vento nello spazio e nel tempo, che causa repentine fluttuazioni della IAS."
+          "explanation": "Il wind shear è una brusca variazione di intensità e/o direzione del vento nello spazio e nel tempo, che causa repentine fluttuazioni della IAS. (opzione 1) è errata perché un vento costante nella stessa direzione sopra i 10.000 ft è per definizione stabile, l'opposto del wind shear. (opzione 2) è errata perché la brezza marina che si inverte alla sera è un fenomeno regolare e prevedibile su scala locale, diverso dalla variazione brusca e pericolosa del wind shear. (opzione 4) è errata perché il wind shear implica una variazione di vento, mentre l'assenza totale di vento in zone di bonaccia è l'opposto, cioè una condizione stabile e omogenea."
         },
         {
           "n": 222,
@@ -14761,7 +14761,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il wind shear a bassa quota (LLWS) è critico perché altera bruscamente la portanza proprio nelle delicate fasi di decollo o avvicinamento finale."
+          "explanation": "Il wind shear a bassa quota (LLWS) è critico perché provoca un rapido e imprevisto cambiamento di direzione e/o intensità del vento, alterando bruscamente la portanza del velivolo proprio nelle delicate fasi di decollo o avvicinamento finale. (opzione 2) è errata perché l'LLWS non azzera la visibilità: è un fenomeno di variazione del vento, non un fenomeno legato alla visibilità come nebbia o pioggia intensa. (opzione 3) è errata perché non significa assenza di vento in valle, ma al contrario una brusca variazione della sua direzione o intensità. (opzione 4) è errata perché il wind shear non ha relazione diretta con la densità dell'aria né blocca i motori: agisce sulla portanza tramite la variazione della componente di vento relativo."
         },
         {
           "n": 223,
@@ -14775,7 +14775,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La forza di Coriolis devia i moti dell'aria verso destra nell'emisfero Nord, è nulla all'equatore ed è massima ai poli."
+          "explanation": "La forza di Coriolis devia i moti dell'aria verso destra nell'emisfero Nord, è nulla all'equatore ed è massima ai poli. (opzione 2) è errata perché nell'emisfero Nord la deviazione avviene verso destra, non verso sinistra (la deviazione a sinistra si verifica nell'emisfero Sud). (opzione 3) è errata perché la forza di Coriolis è nulla all'equatore e massima ai poli, esattamente il contrario di quanto affermato. (opzione 4) è errata perché la forza di Coriolis agisce su qualsiasi corpo in movimento sulla superficie terrestre, incluse le masse d'aria, non solo sulle correnti oceaniche."
         },
         {
           "n": 224,
@@ -14789,7 +14789,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un fronte occluso si forma quando il fronte freddo, più veloce, raggiunge e supera il fronte caldo che lo precede, sollevando completamente l'aria calda dal suolo."
+          "explanation": "Un fronte occluso si forma quando il fronte freddo, più veloce, raggiunge e supera il fronte caldo che lo precede, sollevando completamente l'aria calda dal suolo. (opzione 2) è errata perché un fronte occluso richiede proprio l'incontro e la sovrapposizione dei due fronti, non un moto parallelo senza mai incontrarsi. (opzione 3) è errata perché non si tratta di un fronte stazionario bloccato da una catena montuosa, ma della fusione dinamica tra un fronte freddo e uno caldo. (opzione 4) è errata perché il fronte occluso non è una perturbazione tropicale, ma un fenomeno tipico delle medie latitudini legato ai sistemi frontali extratropicali."
         },
         {
           "n": 225,
@@ -14803,7 +14803,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "FZFG indica Freezing Fog: nebbia composta da goccioline d'acqua sopraffusa che congelano al contatto con oggetti freddi."
+          "explanation": "FZFG indica Freezing Fog: nebbia composta da goccioline d'acqua sopraffusa che congelano al contatto con oggetti freddi. (opzione 2) è errata perché FZFG non è una combinazione di foschia e grandine: FZ è il prefisso per 'congelantesi' e FG significa nebbia, non foschia. (opzione 3) è errata perché FZFG non indica raffiche di vento: FZ non significa 'Force Zero' ma 'freezing'. (opzione 4) è errata perché FZFG descrive un singolo fenomeno di nebbia congelantesi osservato, non formazioni ripetute di ghiaccio in volo."
         },
         {
           "n": 226,
@@ -14817,7 +14817,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Nella stratosfera la temperatura cessa di diminuire con la quota, restando inizialmente costante per poi aumentare grazie all'assorbimento dei raggi UV da parte dell'ozono."
+          "explanation": "Nella stratosfera la temperatura cessa di diminuire con la quota, restando inizialmente costante per poi aumentare grazie all'assorbimento dei raggi UV da parte dell'ozono. (opzione 1) è errata perché il calo costante di 2°C ogni 1000 ft è tipico della troposfera (gradiente ISA), non della stratosfera, dove tale diminuzione si interrompe. (opzione 3) è errata perché la temperatura non crolla allo zero assoluto: si stabilizza per poi risalire, restando su valori tipici di alta quota (circa -56°C alla tropopausa). (opzione 4) è errata perché la temperatura in stratosfera è perfettamente calcolabile e misurabile, non diventa incalcolabile per la rarefazione dell'aria."
         },
         {
           "n": 227,
@@ -14831,7 +14831,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La subsidenza è un lento moto discendente di un'ampia massa d'aria (tipico degli anticicloni): comprimendosi, l'aria si riscalda e tende a dissolvere la nuvolosità."
+          "explanation": "La subsidenza è un lento moto discendente di un'ampia massa d'aria (tipico degli anticicloni): comprimendosi, l'aria si riscalda e tende a dissolvere la nuvolosità. (opzione 1) è errata perché descrive l'opposto: un moto ascensionale lungo un pendio, mentre la subsidenza è un moto discendente su vasta scala. (opzione 2) è errata perché l'avanzamento di un fronte freddo è un fenomeno orizzontale legato al movimento di una massa d'aria fredda, non un moto verticale discendente su area anticiclonica. (opzione 4) è errata perché la subsidenza non riguarda l'abbassamento della base delle nubi fino al suolo (che sarebbe piuttosto nebbia), ma un moto verticale su larga scala che tende anzi a dissolvere le nubi."
         },
         {
           "n": 228,
@@ -14845,7 +14845,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "SCT (scattered) nel codice METAR indica una copertura nuvolosa di 3-4 ottavi."
+          "explanation": "SCT (scattered) nel codice METAR indica una copertura nuvolosa di 3-4 ottavi. (opzione 1) è errata perché 1-2 ottavi corrispondono alla sigla FEW, non SCT. (opzione 2) è errata perché il cielo completamente coperto (8 ottavi) si indica con OVC, non SCT. (opzione 4) è errata perché 5-7 ottavi corrispondono alla sigla BKN, non SCT."
         },
         {
           "n": 229,
@@ -14859,7 +14859,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il METAR di Pisa riporta vento 140°/2 nodi e QNH 1001 hPa."
+          "explanation": "Il METAR di Pisa riporta vento 140°/2 nodi e QNH 1001 hPa, come si legge direttamente nei gruppi '14002KT' e 'Q1001'. (opzione 2) è errata perché il gruppo vento '14002KT' indica 2 nodi di intensità, non 120, e il QNH riportato è 1001 hPa, non lo standard 1013. (opzione 3) è errata perché la direzione corretta è 140° e non 120°, e il QNH del messaggio è 1001 hPa, non 999. (opzione 4) è errata perché il vento non è calmo (è riportato un valore di direzione e intensità) e il QNH corretto è 1001 hPa, non 1022."
         },
         {
           "n": 230,
@@ -14873,7 +14873,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il METAR di Napoli riporta vento 240° a 22 nodi con raffiche fino a 35 nodi."
+          "explanation": "Il METAR di Napoli riporta vento 240° a 22 nodi con raffiche fino a 35 nodi, come si legge nel gruppo '24022G35KT'. (opzione 2) è errata perché la direzione riportata è 240° e non 220°, e le raffiche indicate sono di 35 nodi, non 55. (opzione 3) è errata perché l'intensità media è 22 nodi (non 35) e le raffiche sono 35 nodi (non 99, valore peraltro implausibile). (opzione 4) è errata perché il vento non è costante a 35 nodi: 22 nodi è il valore medio e 35 nodi è solo il valore di picco nelle raffiche (gruppo G)."
         },
         {
           "n": 231,
@@ -14887,7 +14887,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Le nubi cumuliformi (cumulonembi) producono rovesci violenti e intermittenti di pioggia, neve o grandine, a carattere di acquazzone."
+          "explanation": "Le nubi cumuliformi (cumulonembi) producono rovesci violenti e intermittenti di pioggia, neve o grandine, a carattere di acquazzone. (opzione 2) è errata perché la pioviggine debole e continua per molte ore è tipica delle nubi stratiformi, non delle cumuliformi. (opzione 3) è errata perché le nubi cumuliformi non producono solo nebbia, che è un fenomeno di condensazione al suolo distinto dalle precipitazioni convettive. (opzione 4) è errata perché la pioggia debole e costante senza variazioni di intensità è tipica degli strati, mentre le cumuliformi danno precipitazioni intense e intermittenti."
         },
         {
           "n": 232,
@@ -14901,7 +14901,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Alle medie latitudini europee la circolazione generale in quota è dominata dai venti occidentali (westerlies), che spirano da Ovest verso Est."
+          "explanation": "Alle medie latitudini europee la circolazione generale in quota è dominata dai venti occidentali (westerlies), che spirano da Ovest verso Est. (opzione 1) è errata perché un flusso da Est verso Ovest descrive gli alisei tropicali o i venti polari orientali, non la circolazione delle medie latitudini. (opzione 3) è errata perché la circolazione generale in quota alle medie latitudini non è meridiana (Nord-Sud) ma prevalentemente zonale, da Ovest verso Est. (opzione 4) è errata perché il flusso dominante non è costantemente da Sud verso Nord: la componente prevalente e caratteristica è quella occidentale."
         },
         {
           "n": 233,
@@ -14915,7 +14915,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Nella rosa dei venti, la Tramontana spira da Nord."
+          "explanation": "Nella rosa dei venti, la Tramontana spira da Nord. (opzione 1) è errata perché il vento da Est nella tradizione italiana è il Levante, non la Tramontana. (opzione 2) è errata perché il vento da Sud è l'Ostro (o Mezzogiorno), non la Tramontana. (opzione 4) è errata perché il vento da Ovest è il Ponente, non la Tramontana."
         },
         {
           "n": 234,
@@ -14929,7 +14929,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "PROB30 e PROB40 indicano la probabilità percentuale (30% o 40%) che il fenomeno descritto nel TAF si verifichi."
+          "explanation": "PROB30 e PROB40 indicano la probabilità percentuale (30% o 40%) che il fenomeno descritto nel TAF si verifichi. (opzione 2) è errata perché non si riferisce a problemi strutturali sulla pista, un'interpretazione letterale scorretta della sigla PROB. (opzione 3) è errata perché non indica un valore di pressione atmosferica minima, che nel TAF non viene comunque riportata. (opzione 4) è errata perché PROB non indica di per sé precipitazioni abbondanti, ma la probabilità del fenomeno (qualsiasi esso sia) descritto nel gruppo che segue."
         },
         {
           "n": 235,
@@ -14943,7 +14943,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Se temperatura e punto di rugiada coincidono, l'umidità relativa è al 100%: l'aria è satura, con alta probabilità di nebbia, rugiada o nubi basse."
+          "explanation": "Se temperatura e punto di rugiada coincidono (spread pari a zero), l'umidità relativa è al 100%: l'aria è satura, con alta probabilità di nebbia, rugiada o nubi basse. (opzione 1) è errata perché il 50% di umidità relativa corrisponde a uno scarto significativo tra temperatura e punto di rugiada, non alla loro coincidenza. (opzione 3) è errata perché lo 0% di umidità (aria secchissima) corrisponderebbe a un punto di rugiada estremamente basso o indefinito, non uguale alla temperatura dell'aria. (opzione 4) è errata perché il 10% di umidità relativa implica ancora un ampio scarto tra temperatura e Td, incompatibile con la loro coincidenza."
         },
         {
           "n": 236,
@@ -14957,7 +14957,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nello stadio di maturità del cumulonembo iniziano le precipitazioni al suolo e coesistono violente correnti ascensionali e discendenti."
+          "explanation": "Nello stadio di maturità del cumulonembo iniziano le precipitazioni al suolo e coesistono violente correnti ascensionali e discendenti. (opzione 2) è errata perché la presenza di soli moti discendenti descrive piuttosto la fase di dissolvimento, non quella di maturità. (opzione 3) è errata perché un cumulonembo maturo non è affatto una nuvola innocua a forma di pecora: è la fase di massima pericolosità del temporale. (opzione 4) è errata perché nella fase matura non c'è solo aria calda e moti ascendenti: le precipitazioni generano anche forti correnti discendenti (downdraft)."
         },
         {
           "n": 237,
@@ -14971,7 +14971,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Le nubi a forte sviluppo verticale (cumulonembi) producono rovesci di forte intensità, grandine o neve tonda."
+          "explanation": "Le nubi a forte sviluppo verticale (cumulonembi) producono rovesci di forte intensità, grandine o neve tonda. (opzione 1) è errata perché la pioviggine debole e intermittente è tipica delle nubi stratiformi basse, non delle nubi a sviluppo verticale. (opzione 2) è errata perché la neve continua a fiocchi piccolissimi è associata a nubi stratiformi, non ai cumulonembi, che danno precipitazioni intense e intermittenti. (opzione 3) è errata perché la nebbia densa mista a pioggia è un fenomeno di bassa quota legato alla condensazione al suolo, non una precipitazione tipica dei cumulonembi."
         },
         {
           "n": 238,
@@ -14985,7 +14985,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Una massa d'aria è instabile quando una particella sollevata al suo interno risulta più calda e meno densa dell'aria circostante, continuando l'ascesa per inerzia e galleggiamento."
+          "explanation": "Una massa d'aria è instabile quando una particella sollevata al suo interno risulta più calda e meno densa dell'aria circostante, continuando l'ascesa per inerzia e galleggiamento. (opzione 1) è errata perché l'assenza di movimento orizzontale non ha relazione con la stabilità verticale dell'aria, che dipende dal comportamento delle particelle sollevate verticalmente. (opzione 2) è errata perché un'aria che scende seguendo il profilo delle valli descrive un moto catabatico locale, non la proprietà generale di instabilità di una massa d'aria. (opzione 3) è errata perché il semplice arresto sopra una superficie fredda è tipico di un'aria stabile (che tende a raffreddarsi e ristagnare), non di un'aria instabile."
         },
         {
           "n": 239,
