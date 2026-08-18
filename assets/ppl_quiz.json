@@ -11737,7 +11737,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'umidità relativa è il rapporto percentuale tra il vapore acqueo effettivamente presente e quello massimo che l'aria potrebbe contenere (saturazione) a quella temperatura."
+          "explanation": "L'umidità relativa è il rapporto percentuale tra il vapore acqueo effettivamente presente nell'aria e quello che sarebbe necessario per la saturazione a quella temperatura. (opzione 1) descrive un volume assoluto di vapore per unità di massa d'aria (un rapporto di mescolanza), non un rapporto rispetto alla saturazione. (opzione 2) confonde il concetto: non è la percentuale di vapore richiesta per saturare un volume fisso, ma il rapporto fra vapore presente e vapore di saturazione. (opzione 4) indica solo la quantità di vapore presente (un valore assoluto), senza metterla in relazione con la capacità di saturazione dell'aria a quella temperatura."
         },
         {
           "n": 4,
@@ -11751,7 +11751,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il punto di rugiada è la temperatura a cui l'aria, raffreddata a pressione costante, raggiungerebbe la saturazione (100% di umidità relativa) e inizierebbe la condensazione."
+          "explanation": "Il punto di rugiada è la temperatura a cui l'aria, raffreddata a pressione costante, raggiungerebbe la saturazione e inizierebbe la condensazione. (opzione 2) è sbagliata perché parla di riscaldamento anziché raffreddamento: riscaldando l'aria ci si allontana dalla saturazione, non ci si avvicina. (opzione 3) è sbagliata perché lega la saturazione a una diminuzione di pressione (mb), mentre il punto di rugiada è definito a pressione costante, variando solo la temperatura. (opzione 4) è generica e imprecisa: non specifica né il vincolo di pressione costante né il fatto che si tratti di un raffreddamento, elementi essenziali della definizione."
         },
         {
           "n": 5,
@@ -11765,7 +11765,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Più temperatura ambiente e punto di rugiada sono vicine, più l'aria è prossima alla saturazione: se coincidono o quasi, condensazione e nebbia sono probabili."
+          "explanation": "Quando temperatura e punto di rugiada sono uguali o molto vicini, l'aria è prossima alla saturazione e la condensazione (nebbia) è probabile. (opzione 1) è sbagliata perché i temporali richiedono instabilità e forte sviluppo verticale, non solo la vicinanza tra temperatura e punto di rugiada. (opzione 2) è sbagliata perché la sola vicinanza tra le due temperature indica formazione di nebbia o nubi basse, non necessariamente pioggia. (opzione 4) è sbagliata perché il punto di rugiada non può fisicamente superare la temperatura ambiente: quando le due coincidono l'aria è già satura."
         },
         {
           "n": 6,
@@ -11779,7 +11779,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il vapore acqueo è un gas, quindi invisibile: ciò che si vede (nubi, nebbia, fumo del respiro) è già condensato in minuscole goccioline d'acqua o cristalli di ghiaccio."
+          "explanation": "Il vapore acqueo è un gas e come tale è invisibile: ciò che si vede in nubi, nebbia o nel respiro è già acqua condensata in minuscole goccioline o cristalli di ghiaccio. (opzione 1) è sbagliata perché il vapore acqueo, essendo un gas, non è mai visibile ad occhio nudo, non solo talvolta. (opzione 2) è sbagliata perché non esistono occhiali che rendano visibile un gas trasparente: la percezione visiva riguarda sempre l'acqua già condensata. (opzione 4) è sbagliata perché afferma erroneamente che il vapore sia visibile, contraddicendo la sua natura gassosa."
         },
         {
           "n": 7,
@@ -11793,7 +11793,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Una massa d'aria è satura quando contiene la massima quantità di vapore acqueo che la sua temperatura le consente di sostenere: oltre quel limite il vapore in eccesso condensa."
+          "explanation": "Una massa d'aria è satura quando contiene la massima quantità di vapore acqueo che la sua temperatura le consente di sostenere. (opzione 1) è sbagliata perché lega la saturazione a una diminuzione rapida di temperatura superiore a quella ambiente, un criterio estraneo alla definizione di saturazione. (opzione 2) è sbagliata perché il punto di rugiada non può essere superiore alla temperatura ambiente: al massimo le due coincidono, condizione che segna proprio la saturazione. (opzione 4) è sbagliata perché la saturazione corrisponde al 100% del vapore possibile, non alla metà."
         },
         {
           "n": 8,
@@ -11807,7 +11807,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'umidità relativa esprime proprio questo rapporto: al 70% l'aria contiene il 70% del vapore che sarebbe necessario per la saturazione a quella temperatura."
+          "explanation": "Umidità relativa 70% significa che l'aria contiene il 70% del vapore acqueo che sarebbe necessario per saturarla a 23°C. (opzione 1) è sbagliata perché la saturazione corrisponde al 100%, non al 70%. (opzione 2) è sbagliata perché il vapore dovrebbe aumentare del 30% (per arrivare dal 70% al 100%), non del 70%. (opzione 4) è sbagliata perché la relazione tra vapore acqueo e temperatura esiste eccome: la capacità dell'aria di contenere vapore dipende fortemente dalla temperatura."
         },
         {
           "n": 9,
@@ -11821,7 +11821,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'altezza della troposfera varia con la latitudine: è massima all'equatore (per la forte dilatazione termica dell'aria calda) e minima ai poli."
+          "explanation": "L'altezza della troposfera varia con la latitudine: è massima all'equatore, dove il forte riscaldamento e la conseguente dilatazione termica dell'aria la spingono più in alto, ed è minima ai poli, dove l'aria fredda è più densa e comprimibile in uno strato più sottile. (opzione 1) è sbagliata perché l'altezza della troposfera non è affatto costante, ma varia sensibilmente con la latitudine. (opzione 3) è sbagliata perché inverte la relazione corretta: è ai poli che la troposfera è più bassa, non più alta. (opzione 4) è sbagliata perché la variazione dell'altezza della troposfera segue una legge ben precisa legata alla latitudine, non è casuale."
         },
         {
           "n": 10,
@@ -11835,7 +11835,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Tutti i fenomeni meteorologici (nubi, precipitazioni, fronti, venti) si sviluppano nella troposfera, lo strato atmosferico più basso e ricco di vapore acqueo."
+          "explanation": "Tutti i fenomeni meteorologici (nubi, precipitazioni, fronti, venti) si sviluppano nella troposfera, lo strato atmosferico più basso e ricco di vapore acqueo. (opzione 2) è sbagliata perché la ionosfera è una regione elettricamente ionizzata dell'alta atmosfera, priva dei fenomeni meteo che interessano il volo. (opzione 3) è sbagliata perché la stratosfera non è la sede dei fenomeni meteorologici determinanti per il tempo, che restano confinati alla troposfera. (opzione 4) è sbagliata perché lo strato di Heaviside è una porzione della ionosfera, coinvolta nella propagazione radio, non nei fenomeni meteorologici."
         },
         {
           "n": 11,
@@ -11849,7 +11849,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In atmosfera standard, 850 hPa corrisponde a circa 1500 m: è uno dei livelli di riferimento tipici delle carte meteo in quota (insieme a 700 hPa≈3000m e 500 hPa≈5500m)."
+          "explanation": "Nella tabella dell'atmosfera standard i livelli di riferimento più usati sulle carte meteo in quota sono: 850 hPa ≈ 1500 m, 700 hPa ≈ 3000 m e 500 hPa ≈ 5500 m. (opzione 1) 3000 m corrisponde invece al livello di 700 hPa, non 850 hPa. (opzione 2) 5500 m corrisponde al livello di 500 hPa, un valore molto più alto di 850 hPa. (opzione 3) 7200 m è una quota ancora superiore, prossima al livello dei 400 hPa, non a quello di 850 hPa."
         },
         {
           "n": 12,
@@ -11863,7 +11863,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il barometro è lo strumento che misura la pressione atmosferica; l'altimetro di bordo è sostanzialmente un barometro aneroide tarato in quota anziché in hPa."
+          "explanation": "Il barometro è lo strumento che misura la pressione atmosferica; l'altimetro di bordo è sostanzialmente un barometro aneroide tarato in quota anziché in hPa. (opzione 1) è sbagliata perché l'anemometro misura la velocità del vento, non la pressione. (opzione 2) è sbagliata perché 'pressiometro' non è il nome corretto dello strumento usato in meteorologia per la pressione atmosferica. (opzione 4) è sbagliata perché il variometro misura la velocità verticale (rateo di salita/discesa) di un aeromobile, non la pressione atmosferica."
         },
         {
           "n": 13,
@@ -11877,7 +11877,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La diminuzione della pressione con la quota è chiamata gradiente barico verticale, per distinguerla dal gradiente barico orizzontale (variazione di pressione a parità di quota, legato al vento)."
+          "explanation": "La diminuzione della pressione con la quota è chiamata gradiente barico verticale. (opzione 1) è sbagliata perché il gradiente orizzontale descrive la variazione di pressione a parità di quota fra punti diversi, non la variazione con l'altitudine. (opzione 3) è sbagliata perché l'isoallobara è una linea che unisce punti con la stessa variazione di pressione nel tempo, un concetto diverso dal gradiente verticale. (opzione 4) è sbagliata perché il gradiente geostrofico non è un termine standard riferito alla variazione verticale di pressione, ma richiama semmai il vento geostrofico, legato al gradiente orizzontale."
         },
         {
           "n": 14,
@@ -11891,7 +11891,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il gradiente di pressione dell'atmosfera standard è la legge (ISA) che descrive come la pressione diminuisce in modo predefinito all'aumentare della quota."
+          "explanation": "Il gradiente di pressione dell'atmosfera standard è la legge (ISA) che descrive come la pressione diminuisce in modo predefinito all'aumentare della quota. (opzione 1) è sbagliata perché non riguarda una variazione diurna all'equatore, ma una legge di variazione verticale valida ovunque. (opzione 2) è sbagliata perché il gradiente standard non dipende dalla condensazione, ma è un valore di riferimento convenzionale indipendente dalle condizioni reali. (opzione 3) è sbagliata perché il gradiente di pressione standard è invece un dato essenziale per il pilota, alla base del funzionamento dell'altimetro."
         },
         {
           "n": 15,
@@ -11905,7 +11905,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La pressione atmosferica in un punto è per definizione il peso della colonna d'aria sovrastante l'unità di superficie in quel punto."
+          "explanation": "La pressione atmosferica in un punto è per definizione il peso della colonna d'aria sovrastante l'unità di superficie in quel punto. (opzione 1) è sbagliata perché parla del peso di un volume fisso di aria secca al suolo, non del peso dell'intera colonna d'aria sovrastante. (opzione 2) è sbagliata perché descrive il funzionamento del barometro a mercurio, non la definizione di pressione atmosferica in sé. (opzione 3) è sbagliata perché limita arbitrariamente l'altezza della colonna d'aria a 10 m, mentre la definizione corretta considera l'intera colonna d'aria sovrastante, dal suolo fino al limite dell'atmosfera."
         },
         {
           "n": 16,
@@ -11919,7 +11919,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il gradiente termico verticale standard (ISA) prevede una diminuzione di 6,5°C ogni 1000 m di quota nella troposfera."
+          "explanation": "Il gradiente termico verticale standard (ISA) prevede una diminuzione di 6,5°C ogni 1000 m di quota nella troposfera. (opzione 1) 2°C è il valore approssimativo per 1000 ft, non per 1000 m. (opzione 2) 4°C è un valore intermedio errato, non corrispondente al gradiente ISA. (opzione 4) 8°C sovrastima il gradiente termico standard, che è di 6,5°C e non di 8°C ogni 1000 m."
         },
         {
           "n": 17,
@@ -11933,7 +11933,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il gradiente di temperatura dell'atmosfera standard è la legge (ISA) che descrive come la temperatura varia con la quota, indipendentemente dalle condizioni reali del giorno."
+          "explanation": "Il gradiente di temperatura dell'atmosfera standard è la legge (ISA) che descrive come la temperatura varia con la quota, indipendentemente dalle condizioni reali del giorno. (opzione 1) è sbagliata perché non riguarda una variazione diurna all'equatore, ma una legge di variazione verticale valida convenzionalmente ad ogni latitudine. (opzione 3) è sbagliata perché il gradiente standard non dipende dalla condensazione, ma è un valore di riferimento fisso. (opzione 4) è sbagliata perché descrive una diminuzione di pressione, non di temperatura, confondendo i due concetti."
         },
         {
           "n": 18,
@@ -11947,7 +11947,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Nella troposfera la temperatura diminuisce salendo di quota (fino alla tropopausa, dove il gradiente si annulla o si inverte)."
+          "explanation": "Nella troposfera la temperatura diminuisce salendo di quota, fino alla tropopausa dove il gradiente si annulla. (opzione 1) è sbagliata perché afferma l'opposto: la temperatura non aumenta ma diminuisce con la quota nella troposfera. (opzione 2) è sbagliata perché la temperatura non resta costante, ma segue il gradiente termico verticale (circa 6,5°C/1000 m). (opzione 4) è sbagliata perché descrive un andamento misto che non corrisponde al comportamento reale della troposfera, dove la diminuzione è pressoché costante fino alla tropopausa."
         },
         {
           "n": 19,
@@ -11961,7 +11961,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il valore standard ISA del gradiente termico verticale è 6,5°C ogni 1000 m (circa 2°C ogni 1000 ft)."
+          "explanation": "Il valore standard ISA del gradiente termico verticale è 6,5°C ogni 1000 m. (opzione 1) 1°C ogni 100 m equivale a 10°C ogni 1000 m, un valore troppo alto rispetto allo standard. (opzione 2) 2°C ogni 1000 m è il valore approssimativo in piedi (1000 ft), non in metri. (opzione 4) 6,5°C ogni 100 m equivarrebbe a 65°C ogni 1000 m, un valore assurdamente elevato rispetto al gradiente reale."
         },
         {
           "n": 20,
@@ -11975,7 +11975,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'aria stabile si oppone ai moti verticali: il particolato e l'umidità ristagnano negli strati bassi (visibilità scarsa), le nubi sono stratificate e le precipitazioni, quando avvengono, sono continue e regolari."
+          "explanation": "L'aria stabile si oppone ai moti verticali: l'umidità ristagna nei bassi strati (visibilità scarsa), le nubi sono stratificate e le precipitazioni, quando avvengono, sono continue. (opzione 1) è sbagliata perché associa all'aria stabile precipitazioni intermittenti e nubi a cumuli, caratteristiche tipiche invece dell'aria instabile. (opzione 3) è sbagliata perché attribuisce all'aria stabile buona visibilità, rovesci e cumuli, tutte caratteristiche dell'instabilità. (opzione 4) è sbagliata perché indica buona visibilità, mentre l'aria stabile intrappola foschia e particolato riducendola."
         },
         {
           "n": 21,
@@ -11989,7 +11989,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'aria instabile favorisce i moti convettivi: le nubi sono cumuliformi, le precipitazioni a carattere di rovescio e la visibilità è generalmente buona perché i moti verticali rimescolano e ripuliscono i bassi strati."
+          "explanation": "L'aria instabile favorisce i moti convettivi: nubi cumuliformi, precipitazioni a carattere di rovescio e visibilità generalmente buona grazie al rimescolamento verticale. (opzione 1) è sbagliata perché attribuisce all'aria instabile visibilità scarsa e nubi a strati, caratteristiche tipiche invece dell'aria stabile. (opzione 2) è sbagliata perché indica precipitazioni continue, nubi a strati e visibilità scarsa, un quadro interamente tipico dell'aria stabile, non di quella instabile. (opzione 4) è sbagliata perché, pur indicando correttamente la buona visibilità, attribuisce all'aria instabile precipitazioni continue e nubi a strati, caratteristiche invece dell'aria stabile."
         },
         {
           "n": 22,
@@ -12017,7 +12017,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'aria instabile, favorendo forti moti verticali e cumuliformi, si manifesta tipicamente con turbolenza avvertibile in volo."
+          "explanation": "L'aria instabile, favorendo forti moti verticali e nubi cumuliformi, si manifesta tipicamente con turbolenza avvertibile in volo. (opzione 1) è sbagliata perché precipitazioni leggere e continue sono tipiche dell'aria stabile, non di quella instabile. (opzione 2) è sbagliata perché visibilità discreta con foschia è una caratteristica dell'aria stabile, che intrappola il particolato nei bassi strati. (opzione 4) è sbagliata perché nubi stratificate o nebbia sono l'esito tipico dell'aria stabile, non di quella instabile."
         },
         {
           "n": 24,
@@ -12031,7 +12031,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'aria stabile, opponendosi al rimescolamento verticale, intrappola foschia e particolato nei bassi strati riducendo la visibilità."
+          "explanation": "L'aria stabile, opponendosi al rimescolamento verticale, intrappola foschia e particolato nei bassi strati riducendo la visibilità. (opzione 1) è sbagliata perché rovesci violenti di pioggia sono tipici dell'aria instabile, non di quella stabile. (opzione 3) è sbagliata perché le nubi cumuliformi sono l'esito dei moti convettivi tipici dell'aria instabile. (opzione 4) è sbagliata perché l'aria stabile riduce la visibilità (foschia, nebbia), non la migliora."
         },
         {
           "n": 25,
@@ -12045,7 +12045,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Aria umida e instabile su suolo molto riscaldato favorisce forti correnti ascensionali con sviluppo di nubi cumuliformi, la combinazione classica che genera i temporali di calore."
+          "explanation": "Aria umida e instabile su suolo molto riscaldato favorisce forti correnti ascensionali con sviluppo di nubi cumuliformi, la combinazione classica dei temporali di calore. (opzione 2) è sbagliata perché aria calda, umida e instabile non produce mai tempo calmo ed eccellente per il volo, ma condizioni convettive anche severe. (opzione 3) è sbagliata perché nebbia e pioviggine sono fenomeni tipici dell'aria stabile, non di quella instabile e molto riscaldata al suolo. (opzione 4) è sbagliata perché i rovesci di acqua sopraffusa sono un fenomeno specifico legato a temperature sottozero in quota, non la conseguenza diretta e generale descritta nella domanda."
         },
         {
           "n": 26,
@@ -12059,7 +12059,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Un moto verticale senza scambio di calore con l'ambiente circostante è per definizione un processo adiabatico."
+          "explanation": "Un moto verticale senza scambio di calore con l'ambiente circostante è per definizione un processo adiabatico. (opzione 1) è sbagliata perché il termine 'anabatico' indica un vento che risale un pendio per riscaldamento locale del versante, un fenomeno diverso e legato al terreno. (opzione 2) è sbagliata perché un sollevamento meccanico è dovuto a una forzante esterna (orografia, convergenza), non all'assenza di scambio termico. (opzione 3) è sbagliata perché il termine 'convettivo' descrive la causa del sollevamento (riscaldamento differenziale), non l'assenza di scambio di calore durante la salita."
         },
         {
           "n": 27,
@@ -12073,7 +12073,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Sollevamento adiabatico significa che la particella d'aria non scambia calore con l'esterno: la sua temperatura varia solo per effetto dell'espansione dovuta alla diminuzione di pressione con la quota."
+          "explanation": "Sollevamento adiabatico significa che la particella d'aria non scambia calore con l'esterno: la sua temperatura varia solo per effetto dell'espansione dovuta alla diminuzione di pressione con la quota. (opzione 1) è sbagliata perché nel sollevamento adiabatico la temperatura varia eccome (si raffredda salendo), anche se per espansione e non per scambio termico. (opzione 2) è sbagliata perché la pressione varia sempre con la quota: è proprio questa variazione a causare il raffreddamento adiabatico. (opzione 3) è sbagliata perché descrive l'esatto opposto della definizione: l'adiabaticità implica l'assenza, non la presenza, di scambio di calore con l'esterno."
         },
         {
           "n": 28,
@@ -12087,7 +12087,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Sì: al raggiungimento del punto di condensazione viene rilasciato calore latente, che rallenta il raffreddamento della particella (il gradiente adiabatico saturo è inferiore a quello secco), modificando il suo comportamento durante la salita."
+          "explanation": "Sì: al raggiungimento del punto di condensazione viene rilasciato calore latente, che rallenta il raffreddamento della particella (gradiente adiabatico saturo inferiore a quello secco), modificandone il comportamento durante la salita. (opzione 2) è sbagliata perché il punto di condensazione ha un'influenza significativa, cambiando il gradiente di raffreddamento della particella. (opzione 3) è sbagliata perché non si tratta di un fattore indifferente: il rilascio di calore latente altera concretamente la dinamica della salita. (opzione 4) è sbagliata perché l'influenza del punto di condensazione è sempre presente quando la particella lo raggiunge, non solo in alcuni casi."
         },
         {
           "n": 29,
@@ -12101,7 +12101,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Superfici asciutte e poco riflettenti come rocce e spiagge sabbiose si riscaldano per irraggiamento molto più rapidamente di laghi, mari o zone vegetate, che disperdono o assorbono parte del calore."
+          "explanation": "Superfici asciutte e poco riflettenti come rocce e spiagge sabbiose si riscaldano per irraggiamento molto più rapidamente di laghi, mari o zone vegetate. (opzione 1) è sbagliata perché laghi e mari, per l'elevato calore specifico dell'acqua, si riscaldano lentamente e restano più freddi del suolo asciutto. (opzione 2) è sbagliata perché prati e boschi disperdono parte del calore per evapotraspirazione e si riscaldano meno delle superfici rocciose o sabbiose asciutte. (opzione 4) è sbagliata perché combina due superfici (boschi e mari) che si riscaldano entrambe lentamente, non rapidamente."
         },
         {
           "n": 30,
@@ -12115,7 +12115,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "I moti convettivi sono movimenti verticali dell'aria generati dal riscaldamento differenziale del suolo: le zone più calde generano bolle d'aria ascendente."
+          "explanation": "I moti convettivi sono movimenti verticali dell'aria generati dal riscaldamento differenziale del suolo: le zone più calde generano bolle d'aria ascendente. (opzione 1) è sbagliata perché descrive un movimento orizzontale legato al gradiente barico, non un moto convettivo verticale. (opzione 2) è sbagliata perché parla di aria fredda che scende per gravità, l'esatto opposto della convezione (aria calda che sale). (opzione 4) è sbagliata perché descrive la circolazione ciclonica/anticiclonica attorno a un centro di pressione, un fenomeno di scala diversa dai moti convettivi locali."
         },
         {
           "n": 31,
@@ -12129,7 +12129,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Con vento calmo, il riscaldamento del suolo genera bolle termiche che si staccano e salgono (termiche), base della convezione in pianura e nelle valli."
+          "explanation": "Con vento calmo, il riscaldamento del suolo genera bolle termiche che si staccano e salgono, base della convezione in pianura e nelle valli. (opzione 1) è sbagliata perché il vento geostrofico è un fenomeno di scala sinottica legato al gradiente barico orizzontale, non all'attività termoconvettiva locale. (opzione 2) è sbagliata perché le bolle termiche generate dal riscaldamento del suolo salgono, non scendono. (opzione 4) è sbagliata perché con calma di vento e suolo riscaldato l'attività termoconvettiva si manifesta eccome, non è assente."
         },
         {
           "n": 32,
@@ -12143,7 +12143,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'instabilità dell'aria è la condizione che permette a una particella sollevata di continuare a salire da sola, innescando la circolazione convettiva anche in prossimità di un fronte."
+          "explanation": "L'instabilità dell'aria è la condizione che permette a una particella sollevata di continuare a salire da sola, innescando la circolazione convettiva anche in prossimità di un fronte. (opzione 2) è sbagliata perché il gradiente termico verticale standard è un valore di riferimento ISA, non la condizione reale che determina l'instabilità in una data situazione. (opzione 3) è sbagliata perché il tempo di esposizione ai raggi solari è più rilevante per la convezione termica da riscaldamento diurno, non per l'innesco della convezione in un contesto frontale. (opzione 4) è sbagliata perché la differente natura del terreno genera convezione termica locale, ma la condizione che sostiene la circolazione convettiva in una situazione frontale è l'instabilità dell'aria coinvolta."
         },
         {
           "n": 33,
@@ -12157,7 +12157,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un terreno di natura eterogenea (rocce, campi, boschi, acqua) si riscalda in modo differenziale sotto il sole, generando le celle di circolazione termica convettiva."
+          "explanation": "Un terreno di natura eterogenea (rocce, campi, boschi, acqua) si riscalda in modo differenziale sotto il sole, generando le celle di circolazione termica convettiva. (opzione 2) è sbagliata perché i venti di gradiente sono legati alla distribuzione della pressione su scala sinottica, non al riscaldamento differenziale del terreno. (opzione 3) è sbagliata perché l'instabilità dell'aria è una proprietà del profilo termico verticale della massa d'aria, non una conseguenza diretta della natura del terreno. (opzione 4) è sbagliata perché il riscaldamento differenziale del terreno favorisce nubi cumuliformi per convezione, non nubi stratificate."
         },
         {
           "n": 34,
@@ -12171,7 +12171,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In aria moderatamente instabile, il rilascio di calore latente alla condensazione rende la particella ancora più calda dell'ambiente circostante, accentuandone l'instabilità e la spinta ascensionale."
+          "explanation": "In aria moderatamente instabile, il rilascio di calore latente alla condensazione rende la particella ancora più calda dell'ambiente circostante, accentuandone l'instabilità. (opzione 1) è sbagliata perché il rilascio di calore latente accentua, non elimina, l'instabilità della particella. (opzione 3) è sbagliata perché la particella non raggiunge un equilibrio indifferente, ma diventa più calda dell'ambiente, quindi ancora più spinta a salire. (opzione 4) è sbagliata perché la condensazione rende l'aria più instabile, non più stabile, aumentando il divario di temperatura con l'ambiente."
         },
         {
           "n": 35,
@@ -12185,7 +12185,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In aria instabile, il calore latente rilasciato alla condensazione aumenta il divario di temperatura con l'ambiente, quindi la particella accelera la sua ascesa."
+          "explanation": "In aria instabile, il calore latente rilasciato alla condensazione aumenta il divario di temperatura con l'ambiente, quindi la particella accelera la sua ascesa. (opzione 2) è sbagliata perché la salita non rallenta ma accelera, dato che il calore latente rende la particella relativamente più calda. (opzione 3) è sbagliata perché la salita non si arresta: la condensazione in aria instabile alimenta ulteriormente il moto ascensionale. (opzione 4) è sbagliata perché non c'è alcuna discesa successiva: in aria instabile la particella continua a salire con velocità crescente."
         },
         {
           "n": 36,
@@ -12199,7 +12199,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Questo è il caso dell'instabilità condizionata: pur essendo l'aria stabile per l'ascesa a secco, il minor gradiente adiabatico saturo (dopo la condensazione) può mantenere la particella più calda dell'ambiente, permettendole di continuare a salire."
+          "explanation": "Questo è il caso dell'instabilità condizionata: pur essendo l'aria stabile per l'ascesa a secco, il minor gradiente adiabatico saturo dopo la condensazione può mantenere la particella più calda dell'ambiente, permettendole di continuare a salire. (opzione 1) è sbagliata perché la salita non si arresta: la condensazione anticipata, in questo scenario, favorisce anzi la prosecuzione dell'ascesa. (opzione 2) è sbagliata perché la particella non inizia a scendere, ma continua a salire proprio grazie al calore latente rilasciato. (opzione 3) è sbagliata perché non si tratta di equilibrio: la particella, restando più calda dell'ambiente dopo la condensazione, continua ad accelerare verso l'alto."
         },
         {
           "n": 37,
@@ -12213,7 +12213,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Nelle notti serene l'aria a contatto col suolo si raffredda per irraggiamento più velocemente di quella sovrastante, creando uno strato freddo vicino al terreno: è l'inversione termica al suolo."
+          "explanation": "Nelle notti serene l'aria a contatto col suolo si raffredda per irraggiamento più velocemente di quella sovrastante, creando uno strato freddo vicino al terreno: è l'inversione termica al suolo. (opzione 1) è sbagliata perché non è la compressione della massa d'aria sovrastante a raffreddare l'aria al suolo, ma la perdita di calore per irraggiamento notturno dal terreno. (opzione 3) è sbagliata perché nelle zone polari l'aria a contatto col terreno, specie nelle notti/inverni sereni, è tipicamente più fredda di quella in quota, non più calda. (opzione 4) è sbagliata perché anche nelle zone temperate, in condizioni di cielo sereno e vento calmo, l'aria al suolo si raffredda più della quota, generando l'inversione, non il contrario."
         },
         {
           "n": 38,
@@ -12227,7 +12227,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Se l'aria coinvolta dall'inversione termica al suolo contiene vapore acqueo, il raffreddamento può portarla a saturazione, generando nebbia."
+          "explanation": "Se l'aria coinvolta dall'inversione termica al suolo contiene vapore acqueo, il raffreddamento può portarla a saturazione, generando nebbia. (opzione 1) è sbagliata perché le nubi cumuliformi richiedono moti convettivi ascendenti, opposti alla stabilità tipica dell'inversione al suolo. (opzione 2) è sbagliata perché le nubi temporalesche necessitano di forte instabilità, incompatibile con l'aria stabile e stratificata dell'inversione al suolo. (opzione 4) è sbagliata perché la pioggia richiede nubi sviluppate con precipitazione, non semplicemente un raffreddamento al suolo con formazione di nebbia."
         },
         {
           "n": 39,
@@ -12241,7 +12241,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'inversione al suolo può verificarsi sia per irraggiamento notturno (nebbia di irraggiamento) sia per scorrimento di aria calda su superficie fredda (nebbia di avvezione): entrambe sono possibili."
+          "explanation": "L'inversione al suolo può verificarsi sia per irraggiamento notturno (nebbia di irraggiamento) sia per scorrimento di aria calda su superficie fredda (nebbia di avvezione): entrambe sono possibili conseguenze descritte nella domanda. (opzione 2) è sbagliata perché considera solo la nebbia di irraggiamento, ignorando il caso di scorrimento di aria calda descritto anch'esso nella domanda. (opzione 3) è sbagliata perché considera solo la nebbia di avvezione, ignorando il caso di irraggiamento da superficie fredda. (opzione 4) è sbagliata perché le nubi cumuliformi richiedono moti convettivi ascendenti, incompatibili con la stabilità dell'inversione termica al suolo."
         },
         {
           "n": 40,
@@ -12255,7 +12255,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un'inversione termica in quota blocca i moti convettivi ascendenti sottostanti, tipicamente appiattendo le nubi in formazioni stratificate."
+          "explanation": "Un'inversione termica in quota blocca i moti convettivi ascendenti sottostanti, tipicamente appiattendo le nubi in formazioni stratificate. (opzione 1) è sbagliata perché la 'nebbia di condensazione' non è un effetto tipico di un'inversione in quota, che agisce lontano dal suolo. (opzione 3) è sbagliata perché la nebbia di irraggiamento è un fenomeno di inversione al suolo dovuto al raffreddamento notturno del terreno, non un effetto di un'inversione in quota. (opzione 4) è sbagliata perché le nubi temporalesche richiedono forte sviluppo verticale, esattamente ciò che un'inversione in quota impedisce."
         },
         {
           "n": 41,
@@ -12269,7 +12269,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le nubi basse (base fino a circa 2000 m) sono strati, stratocumuli e nembostrati."
+          "explanation": "Le nubi basse (base fino a circa 2000 m) sono strati, stratocumuli e nembostrati. (opzione 1) è sbagliata perché include anche i cumuli, che appartengono invece alla famiglia separata delle nubi a sviluppo verticale. (opzione 3) è sbagliata perché include i cumulonembi, anch'essi nubi a sviluppo verticale e non nubi basse propriamente dette. (opzione 4) è sbagliata perché elenca cumuli, cumulonembi e cirrostrati, nessuno dei quali appartiene alla famiglia delle nubi basse."
         },
         {
           "n": 42,
@@ -12283,7 +12283,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le nubi medie (base tipicamente 2000-6000 m) sono altostrati e altocumuli."
+          "explanation": "Le nubi medie (base tipicamente 2000-6000 m) sono altostrati e altocumuli. (opzione 1) è sbagliata perché cumulonembi e nembostrati appartengono rispettivamente alle nubi a sviluppo verticale e alle nubi basse, non a quelle medie. (opzione 3) è sbagliata perché include i cirrocumuli, che sono nubi alte composte da cristalli di ghiaccio, non nubi medie. (opzione 4) è sbagliata perché elenca cumuli, cumulonembi e cirrostrati, nessuno dei quali è una nube media."
         },
         {
           "n": 43,
@@ -12297,7 +12297,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le nubi alte (base oltre 6000 m) sono cirri, cirrostrati e cirrocumuli, composte prevalentemente da cristalli di ghiaccio."
+          "explanation": "Le nubi alte (base oltre 6000 m) sono cirri, cirrostrati e cirrocumuli, composte prevalentemente da cristalli di ghiaccio. (opzione 1) è sbagliata perché nembostrati e cumulonembi appartengono rispettivamente alle nubi basse e alle nubi a sviluppo verticale, non a quelle alte. (opzione 3) è sbagliata perché include altostrati e altocumuli, che sono nubi medie, non nubi alte. (opzione 4) è sbagliata perché altostrati e altocumuli sono entrambe nubi medie, non nubi alte."
         },
         {
           "n": 44,
@@ -12311,7 +12311,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "I cumulonembi non rientrano nella classificazione per altezza (basse/medie/alte) ma in una famiglia a parte, le nubi a sviluppo verticale."
+          "explanation": "I cumulonembi non rientrano nella classificazione per altezza (basse/medie/alte) ma in una famiglia a parte, le nubi a sviluppo verticale. (opzione 1) è sbagliata perché i cumulonembi, con la loro estensione verticale che può superare i 10 km, non sono classificabili come nubi basse. (opzione 2) è sbagliata perché per lo stesso motivo non rientrano nemmeno nella famiglia delle nubi medie. (opzione 3) è sbagliata perché, pur avendo spesso la sommità in quota alta, il cumulonembo non è classificato tra le nubi alte, essendo la sua base tipicamente bassa."
         },
         {
           "n": 45,
@@ -12325,7 +12325,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il cumulonembo, essendo a forte sviluppo verticale con correnti intense, porta con sé precipitazioni, formazione di ghiaccio, turbolenza e fenomeni elettrici (fulmini)."
+          "explanation": "Il cumulonembo, a forte sviluppo verticale con correnti intense, porta con sé precipitazioni, formazione di ghiaccio, turbolenza e fenomeni elettrici. (opzione 1) è sbagliata perché, pur citando correttamente ghiaccio e turbolenza, omette le precipitazioni e i fenomeni elettrici che sono altrettanto caratteristici del cumulonembo. (opzione 2) è sbagliata perché associa al cumulonembo pioggia continua e calma di vento, mentre il cumulonembo produce piuttosto rovesci intensi e forti raffiche. (opzione 4) è sbagliata perché indica calma di vento, incompatibile con le violente correnti verticali e orizzontali tipiche del cumulonembo."
         },
         {
           "n": 46,
@@ -12339,7 +12339,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il nembostrato è la nube stratiforme di cattivo tempo per eccellenza: genera pioggia continua e piuttosto intensa, con marcata riduzione della visibilità al suolo."
+          "explanation": "Il nembostrato è la nube stratiforme di cattivo tempo per eccellenza: genera pioggia continua e piuttosto intensa, con marcata riduzione della visibilità al suolo. (opzione 1) è sbagliata perché temporali e grandine sono fenomeni tipici del cumulonembo, non del nembostrato. (opzione 2) è sbagliata perché il nembostrato produce pioggia continua e spesso intensa, non semplice pioggerella. (opzione 4) è sbagliata perché la pioviggine è tipica degli strati, mentre il nembostrato produce precipitazioni più abbondanti."
         },
         {
           "n": 47,
@@ -12353,7 +12353,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La classificazione per altezza di base usa i metri: basse fino a 2000 m, medie da 2000 a 6000 m, alte oltre i 6000 m."
+          "explanation": "La classificazione per altezza di base usa i metri: basse fino a 2000 m, medie da 2000 a 6000 m, alte oltre i 6000 m. (opzione 2) è sbagliata perché usa i piedi al posto dei metri come unità di riferimento della classificazione standard. (opzione 3) è sbagliata perché sia le unità (piedi) sia i valori numerici (1000/5000 ft) non corrispondono alla classificazione standard in metri. (opzione 4) è sbagliata perché descrive una classificazione per forma delle nubi (stratiformi, cumuliformi, cirriformi), non per altezza della base."
         },
         {
           "n": 48,
@@ -12367,7 +12367,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Le nubi cumuliformi (cumuli, cumulonembi) non appartengono a nessuna delle tre famiglie per altezza, ma alla famiglia separata delle nubi a sviluppo verticale."
+          "explanation": "Le nubi cumuliformi non appartengono a nessuna delle tre famiglie per altezza, ma alla famiglia separata delle nubi a sviluppo verticale. (opzione 1) è sbagliata perché i cumuli, potendo svilupparsi verticalmente ben oltre i 2000 m, non sono classificabili semplicemente come nubi basse. (opzione 2) è sbagliata perché non rientrano nemmeno tra le nubi medie, essendo definite da uno sviluppo verticale e non da una fascia di altezza fissa. (opzione 3) è sbagliata perché, pur potendo raggiungere quote elevate, i cumuli hanno base tipicamente bassa e non sono classificati come nubi alte."
         },
         {
           "n": 49,
@@ -12381,7 +12381,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La pioviggine (drizzle) è tipicamente associata agli strati, nubi basse stratificate con goccioline finissime."
+          "explanation": "La pioviggine (drizzle) è tipicamente associata agli strati, nubi basse stratificate con goccioline finissime. (opzione 2) è sbagliata perché i cirrostrati sono nubi alte composte da cristalli di ghiaccio, che non producono precipitazioni al suolo. (opzione 3) è sbagliata perché i cumulonembi producono rovesci intensi o temporali, non la debole e uniforme pioviggine. (opzione 4) è sbagliata perché i cumuli, quando non evolvono in cumulonembi, generalmente non producono alcuna precipitazione."
         },
         {
           "n": 50,
@@ -12395,7 +12395,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "I nembostrati, nube stratiforme spessa e di cattivo tempo, producono le precipitazioni più abbondanti e continue tra le nubi stratiformi."
+          "explanation": "I nembostrati, nube stratiforme spessa e di cattivo tempo, producono le precipitazioni più abbondanti e continue tra le nubi stratiformi. (opzione 1) è sbagliata perché gli strati producono al più pioviggine, una precipitazione leggera. (opzione 2) è sbagliata perché gli stratocumuli danno precipitazioni deboli o assenti, non abbondanti. (opzione 3) è sbagliata perché gli altostrati, nubi medie, producono precipitazioni deboli che spesso non raggiungono nemmeno il suolo."
         },
         {
           "n": 51,
@@ -12409,7 +12409,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Le nubi termoconvettive si sviluppano per bolle d'aria calda che si staccano dal suolo surriscaldato e salgono, in modo simile al moto convettivo dell'acqua in una pentola in ebollizione."
+          "explanation": "Le nubi termoconvettive si sviluppano per bolle d'aria calda che si staccano dal suolo surriscaldato e salgono, in modo simile al moto convettivo dell'acqua in una pentola in ebollizione. (opzione 2) è sbagliata perché la convezione termica con formazione di nube richiede la presenza di umidità nell'aria per dare origine alla condensazione. (opzione 3) è sbagliata perché non è necessario uno scambio di calore fra due masse d'aria: la convezione nasce dal riscaldamento del suolo che genera bolle d'aria calda in una singola massa. (opzione 4) è sbagliata perché le nubi termoconvettive si sviluppano tipicamente con il riscaldamento diurno, non con l'abbassamento di temperatura serale, che anzi ne inibisce la formazione."
         },
         {
           "n": 52,
@@ -12423,7 +12423,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Gli altocumuli lenticolari devono il nome alla loro sezione a forma di lente (aerodinamica), tipica delle onde orografiche in quota."
+          "explanation": "Gli altocumuli lenticolari devono il nome alla loro sezione a forma di lente (aerodinamica), tipica delle onde orografiche in quota. (opzione 1) è sbagliata perché le nubi lenticolari, essendo generate da un'onda stazionaria, non presentano uno sviluppo verticale marcato ma una forma appiattita. (opzione 2) è sbagliata perché le lenticolari restano tipicamente ferme rispetto al terreno, anche in presenza di vento forte, perché legate a un'onda stazionaria. (opzione 3) è sbagliata perché il colore non è una caratteristica distintiva delle lenticolari, che possono presentarsi anche ben definite e luminose."
         },
         {
           "n": 53,
@@ -12437,7 +12437,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le isobare sono linee che uniscono punti di uguale pressione atmosferica, l'equivalente barico delle isoipse per la quota."
+          "explanation": "Le isobare sono linee che uniscono punti di uguale pressione atmosferica. (opzione 1) è sbagliata perché la declinazione magnetica non ha nulla a che vedere con la pressione atmosferica. (opzione 2) è sbagliata perché descrive le isoterme, linee di uguale temperatura, non le isobare. (opzione 4) è sbagliata perché descrive le isoallobare, linee di uguale variazione di pressione nel tempo, non le isobare in senso stretto."
         },
         {
           "n": 54,
@@ -12451,7 +12451,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per convenzione sulle carte meteo il ciclone (bassa pressione) è indicato con 'L' e l'anticiclone (alta pressione) con 'H'."
+          "explanation": "Per convenzione sulle carte meteo il ciclone (bassa pressione) è indicato con 'L' e l'anticiclone (alta pressione) con 'H'. (opzione 2) è sbagliata perché inverte i significati: attribuisce erroneamente 'L' all'alta pressione e 'H' alla bassa. (opzione 3) è sbagliata perché scambia le lettere: assegna 'H' al ciclone e 'L' all'anticiclone, l'opposto della convenzione corretta. (opzione 4) è sbagliata perché anch'essa inverte sia le lettere sia i significati di pressione rispetto alla convenzione standard."
         },
         {
           "n": 55,
@@ -12465,7 +12465,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Isobare ravvicinate indicano un forte gradiente barico orizzontale, a cui corrispondono venti di intensità elevata."
+          "explanation": "Isobare ravvicinate indicano un forte gradiente barico orizzontale, a cui corrispondono venti di intensità elevata. (opzione 1) è sbagliata perché il gradiente barico verticale riguarda la variazione di pressione con la quota, non la distanza fra isobare su una carta orizzontale. (opzione 3) è sbagliata perché la distanza fra isobare indica direttamente il gradiente di pressione, non il gradiente termico orizzontale. (opzione 4) è sbagliata perché isobare ravvicinate indicano l'esatto opposto: venti forti, non deboli."
         },
         {
           "n": 56,
@@ -12479,7 +12479,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Per effetto della forza di Coriolis, nell'emisfero Nord il vento circola in senso antiorario attorno alle basse pressioni (cicloni) e in senso orario attorno alle alte pressioni (anticicloni)."
+          "explanation": "Per effetto della forza di Coriolis, nell'emisfero Nord il vento circola in senso antiorario attorno alle basse pressioni (cicloni) e in senso orario attorno alle alte pressioni (anticicloni). (opzione 1) è sbagliata perché il vento non si muove in linea retta e perpendicolare alle isobare dall'alta alla bassa pressione, ma le segue circolarmente per effetto della forza deviante. (opzione 2) è sbagliata perché per lo stesso motivo il vento non va dalla bassa all'alta pressione perpendicolarmente alle isobare. (opzione 3) è sbagliata perché inverte i sensi di rotazione: nell'emisfero Nord è l'anticiclone a girare in senso orario e il ciclone in senso antiorario, non il contrario."
         },
         {
           "n": 57,
@@ -12493,7 +12493,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Una superficie isobarica è il luogo geometrico di tutti i punti nello spazio aventi la medesima pressione atmosferica."
+          "explanation": "Una superficie isobarica è il luogo geometrico di tutti i punti nello spazio aventi la medesima pressione atmosferica. (opzione 1) è sbagliata perché descrive una superficie isotermica (uguale temperatura), non isobarica. (opzione 3) è sbagliata perché descrive una superficie frontale, che separa masse d'aria di diversa natura termica, non una superficie di uguale pressione. (opzione 4) è sbagliata perché una definizione corretta esiste realmente, quella del luogo dei punti di uguale pressione: non è vero che nessuna delle risposte proposte sia esatta."
         },
         {
           "n": 58,
@@ -12507,7 +12507,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La saccatura è un'estensione allungata di bassa pressione tra due zone di alta pressione, e come tale porta tipicamente maltempo e perturbazioni."
+          "explanation": "La saccatura è un'estensione allungata di bassa pressione tra due zone di alta pressione, e come tale porta tipicamente maltempo e perturbazioni. (opzione 2) è sbagliata perché descrive il promontorio, l'estensione di alta pressione associata a bel tempo, non la saccatura. (opzione 3) è sbagliata perché descrive la sella, la zona di incontro tra due basse e due alte pressioni, non la saccatura. (opzione 4) è sbagliata perché una generica zona di alta pressione stabile non ha nulla a che vedere con la saccatura, che è per definizione un'estensione di bassa pressione."
         },
         {
           "n": 59,
@@ -12521,7 +12521,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il promontorio è un'estensione allungata di alta pressione tra due zone di bassa pressione, associato a tempo generalmente stabile e buono."
+          "explanation": "Il promontorio è un'estensione allungata di alta pressione tra due zone di bassa pressione, associato a tempo generalmente stabile e buono. (opzione 1) è sbagliata perché descrive la saccatura, l'estensione di bassa pressione legata al maltempo, non il promontorio. (opzione 3) è sbagliata perché descrive la sella, la zona di incontro tra due basse e due alte pressioni, non il promontorio. (opzione 4) è sbagliata perché una generica zona di alta pressione stabile non coglie la caratteristica distintiva del promontorio, cioè la sua forma allungata fra due zone di bassa pressione."
         },
         {
           "n": 60,
@@ -12535,7 +12535,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La sella è la zona di incontro tra due alte pressioni e due basse pressioni disposte alternativamente: al centro i venti sono deboli e di direzione variabile."
+          "explanation": "La sella è la zona di incontro tra due alte pressioni e due basse pressioni disposte alternativamente: al centro i venti sono deboli e di direzione variabile. (opzione 1) è sbagliata perché descrive la saccatura, non la sella. (opzione 2) è sbagliata perché descrive il promontorio, non la sella. (opzione 4) è sbagliata perché descrive un'altra configurazione (unione di due basse pressioni con forti fenomeni temporaleschi), non la sella, dove i venti sono deboli e variabili."
         },
         {
           "n": 61,
@@ -12549,7 +12549,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il cuneo è una lingua di alta pressione tra due zone di bassa pressione; la saccatura è l'opposto, una lingua di bassa pressione tra due zone di alta pressione."
+          "explanation": "Il cuneo è una lingua di alta pressione tra due zone di bassa pressione; la saccatura è l'opposto, una lingua di bassa pressione tra due zone di alta pressione. (opzione 1) è sbagliata perché inverte le due definizioni, assegnando al cuneo la bassa pressione e alla saccatura l'alta pressione. (opzione 3) è sbagliata perché riferisce i due termini alla temperatura anziché alla pressione, un concetto diverso da quello richiesto. (opzione 4) è sbagliata perché descrive i due fenomeni in termini di convergenza/divergenza delle isobare anziché come lingue di alta o bassa pressione."
         },
         {
           "n": 62,
@@ -12563,7 +12563,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il vento è nominato in base alla direzione di provenienza: da sud significa che spira da 180°."
+          "explanation": "Il vento è nominato in base alla direzione di provenienza: da sud significa che spira da 180°. (opzione 1) 135° corrisponde a un vento da SE, non da sud. (opzione 2) 360° (equivalente a 0°) corrisponde a un vento da nord, l'esatto opposto di sud. (opzione 3) 225° corrisponde a un vento da SW, non da sud."
         },
         {
           "n": 63,
@@ -12578,7 +12578,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "5-1",
-          "explanation": "Sulla carta del vento in quota, la freccia indica la direzione di provenienza e le barbette sulla coda la forza (in nodi): nella figura il simbolo corrisponde a vento da NE, 110 nodi."
+          "explanation": "Sulla carta del vento in quota la freccia indica la direzione di provenienza (qui NE) e le barbette sulla coda ne indicano la forza in nodi: un triangolo pieno vale 50 nodi, una barbetta intera 10 nodi e una a metà 5 nodi; nel simbolo raffigurato la combinazione dà 110 nodi (2 triangoli pieni + 1 barbetta intera = 100+10). (opzione 1) indica la direzione corretta (NE) ma un'intensità nettamente sottostimata (25 nodi anziché 110). (opzione 3) indica l'intensità corretta (110 nodi) ma la direzione opposta (SW anziché NE), come leggendo la provenienza dal lato sbagliato dell'asta. (opzione 4) cumula entrambi gli errori, con direzione opposta (SW) e intensità sottostimata (25 nodi)."
         },
         {
           "n": 64,
@@ -12593,7 +12593,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "5-2",
-          "explanation": "Nel simbolo del vento, ogni barbetta piena vale 10 nodi e il triangolo pieno 50: la combinazione raffigurata corrisponde a vento da SW, 65 nodi."
+          "explanation": "Nel simbolo del vento la freccia indica la provenienza (qui SW) e le barbette sulla coda la forza: un triangolo pieno vale 50 nodi, una barbetta intera 10 nodi e una a metà 5 nodi; la combinazione raffigurata dà 65 nodi (50+10+5). (opzione 2) indica la stessa intensità corretta (65 nodi) ma la direzione opposta (NE anziché SW). (opzione 3) mantiene la direzione corretta SW ma sovrastima l'intensità (115 nodi anziché 65, come se si contasse un triangolo pieno in più). (opzione 4) cumula direzione errata (NE) e intensità sovrastimata (105 nodi anziché 65)."
         },
         {
           "n": 65,
@@ -12607,7 +12607,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Un vento che proviene da NE spira da una direzione di 45°."
+          "explanation": "Un vento che proviene da NE spira da una direzione di 45°. (opzione 1) 225° corrisponde alla direzione opposta, SW, non NE. (opzione 2) 135° corrisponde a un vento da SE, non da NE. (opzione 4) 360° (equivalente a 0°) corrisponde a un vento da nord, non da nord-est."
         },
         {
           "n": 66,
@@ -12622,7 +12622,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "5-3",
-          "explanation": "Applicando la stessa lettura di direzione (freccia) e forza (barbette), il simbolo di questa figura corrisponde a vento da NW, 35 nodi."
+          "explanation": "Nel simbolo del vento la freccia indica la provenienza (qui NW) e le barbette la forza: un triangolo pieno vale 50 nodi, una barbetta intera 10 nodi e una a metà 5 nodi; la combinazione raffigurata dà 75 nodi (50+10+10+5). (opzione 2) inverte sia la direzione (SW anziché NW) sia l'intensità, sottostimata a 35 nodi anziché 75. (opzione 3) mantiene la direzione corretta NW ma sottostima l'intensità (35 nodi anziché 75, come se mancasse il triangolo pieno da 50 nodi). (opzione 4) mantiene l'intensità corretta (75 nodi) ma indica una direzione imprecisa (W anziché NW)."
         },
         {
           "n": 67,
@@ -12637,7 +12637,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "5-4",
-          "explanation": "Con una sola barbetta piena da 10 nodi e mezza barbetta da 5, il simbolo indica vento da S, 15 nodi."
+          "explanation": "Nel simbolo del vento la freccia indica la provenienza (qui S) e le barbette la forza: una barbetta intera vale 10 nodi e una a metà 5 nodi, per un totale di 15 nodi. (opzione 1) indica la stessa intensità corretta (15 nodi) ma la direzione opposta (N anziché S). (opzione 3) mantiene la direzione corretta S ma sovrastima l'intensità (55 nodi anziché 15, come se si leggesse un triangolo pieno da 50 nodi al posto di una singola barbetta da 10). (opzione 4) cumula direzione opposta (N) e intensità sovrastimata (55 nodi anziché 15)."
         },
         {
           "n": 68,
@@ -12651,7 +12651,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Nel codice dei simboli del vento, il triangolino pieno rappresenta convenzionalmente 50 nodi."
+          "explanation": "Nel codice dei simboli del vento, il triangolino pieno rappresenta convenzionalmente 50 nodi. (opzione 1) 30 nodi corrisponderebbe invece a tre barbette intere, non a un triangolo. (opzione 2) 40 nodi corrisponderebbe a quattro barbette intere, non al simbolo del triangolo. (opzione 4) 60 nodi eccede il valore convenzionale di un singolo triangolo pieno, che è fissato a 50 nodi."
         },
         {
           "n": 69,
@@ -12665,7 +12665,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Le onde orografiche in quota si formano quando un vento sufficientemente forte (almeno 15 nodi) investe perpendicolarmente una catena montuosa."
+          "explanation": "Le onde orografiche in quota si formano quando un vento sufficientemente forte (almeno 15 nodi) investe una catena montuosa. (opzione 2) è sbagliata perché è l'opposto: un vento troppo debole (sotto i 15 nodi) non ha energia sufficiente per generare un'onda stazionaria in quota. (opzione 3) è sbagliata perché 54 nodi è una soglia molto più alta di quella minima necessaria, che è di circa 15 nodi. (opzione 4) è sbagliata perché l'onda si forma quando il vento soffia perpendicolarmente (o quasi) alla catena montuosa, non parallelamente ad essa."
         },
         {
           "n": 70,
@@ -12679,7 +12679,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Nubi lenticolari stazionarie vicino a rilievi montuosi sono l'indicatore visivo classico della presenza di onde orografiche (vento d'onda) in quota, spesso associate a forte turbolenza."
+          "explanation": "Nubi lenticolari stazionarie vicino a rilievi montuosi sono l'indicatore visivo classico della presenza di onde orografiche (vento d'onda) in quota, spesso associate a forte turbolenza. (opzione 1) è sbagliata perché uno strato di isotermia (temperatura costante con la quota) non è ciò che rivelano le lenticolari, che segnalano piuttosto un'onda di flusso. (opzione 3) è sbagliata perché l'inversione termica è un fenomeno diverso, legato alla stabilità dell'aria, non specificamente indicato dalle lenticolari. (opzione 4) è sbagliata perché le lenticolari si formano proprio in presenza di vento sostenuto (almeno 15 nodi) che investe il rilievo, non con venti deboli al suolo."
         },
         {
           "n": 71,
@@ -12693,7 +12693,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il vento è l'unico elemento meteorologico che agisce contemporaneamente sulla prua (deriva) e sulla velocità al suolo di un volo VFR."
+          "explanation": "Il vento è l'unico elemento meteorologico che agisce contemporaneamente sulla prua (deriva) e sulla velocità al suolo di un volo VFR. (opzione 1) è sbagliata perché la temperatura dell'aria influenza le prestazioni dell'aeromobile e la densità dell'aria, ma non la prua né direttamente la velocità al suolo. (opzione 3) è sbagliata perché pressione atmosferica e altitudine di volo influenzano la quota indicata e le prestazioni, ma non deviano la prua né alterano direttamente la velocità al suolo. (opzione 4) è sbagliata perché la nuvolosità influisce sulla visibilità e sulla scelta della rotta, ma non agisce fisicamente su prua e velocità al suolo come fa il vento."
         },
         {
           "n": 72,
@@ -12707,7 +12707,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il vento geostrofico è, per definizione teorica, il vento che per effetto della forza deviante di Coriolis spira parallelamente alle isobare (rettilinee, senza attrito al suolo)."
+          "explanation": "Il vento geostrofico è, per definizione teorica, il vento che per effetto della forza deviante di Coriolis spira parallelamente alle isobare rettilinee. (opzione 1) è sbagliata perché descrive il vento tangente a isobare circolari cicloniche, che è invece la definizione del vento di gradiente, non di quello geostrofico. (opzione 2) è sbagliata perché per lo stesso motivo descrive il caso anticiclonico circolare, proprio del vento di gradiente. (opzione 4) è sbagliata perché il vento geostrofico spira parallelamente alle isobare, non perpendicolarmente ad esse."
         },
         {
           "n": 73,
@@ -12721,7 +12721,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il vento di gradiente è la generalizzazione del vento geostrofico al caso di isobare curve (cicloniche o anticicloniche), tangente in ogni punto alle isobare circolari."
+          "explanation": "Il vento di gradiente è la generalizzazione del vento geostrofico al caso di isobare curve (cicloniche o anticicloniche), tangente in ogni punto alle isobare circolari. (opzione 1) è sbagliata perché descrive il vento geostrofico, definito per isobare rettilinee, non il vento di gradiente. (opzione 3) è sbagliata perché nessuno dei due venti teorici spira perpendicolarmente alle isobare: entrambi le seguono tangenzialmente. (opzione 4) è sbagliata perché descrive il vento termico (legato alla differenza fra vento geostrofico a due livelli), un concetto diverso dal vento di gradiente."
         },
         {
           "n": 74,
@@ -12735,7 +12735,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il Föhn è un vento che, dopo aver scaricato la propria umidità risalendo il versante sopravvento delle Alpi, scende caldo e secco lungo il versante Sud per riscaldamento adiabatico."
+          "explanation": "Il Föhn è un vento che, dopo aver scaricato la propria umidità risalendo il versante sopravvento delle Alpi, scende caldo e secco lungo il versante Sud per riscaldamento adiabatico. (opzione 1) è sbagliata perché descrive un vento freddo e umido in salita, mentre il Föhn è caratterizzato dalla discesa e dal riscaldamento per compressione adiabatica. (opzione 2) è sbagliata perché, sebbene descriva correttamente la salita umida sul versante Nord, il Föhn propriamente detto è il fenomeno di discesa calda e secca sul versante Sud. (opzione 4) è sbagliata perché il Föhn che si riversa a valle è caldo e secco, non freddo e umido."
         },
         {
           "n": 75,
@@ -12749,7 +12749,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Le nubi di Stau si formano sul versante sopravvento di una catena montuosa, dove l'aria umida è forzata a risalire e si condensa per raffreddamento adiabatico."
+          "explanation": "Le nubi di Stau si formano sul versante sopravvento di una catena montuosa, dove l'aria umida è forzata a risalire e si condensa per raffreddamento adiabatico. (opzione 2) è sbagliata perché descrive il versante sottovento, dove l'aria scende e si riscalda (fenomeno di Föhn), non dove si formano le nubi di Stau. (opzione 3) è sbagliata perché lo Stau non dipende dall'esposizione a un versante freddo, ma dal sollevamento forzato dell'aria umida contro il rilievo. (opzione 4) è sbagliata perché descrive un riscaldamento per attrito sul versante sopravvento, mentre le nubi di Stau derivano da un raffreddamento per espansione durante la salita forzata."
         },
         {
           "n": 76,
@@ -12763,7 +12763,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Durante il Föhn, il versante Nord (sopravvento, dove l'aria sale, si raffredda e precipita) risulta più freddo del versante Sud (sottovento, dove l'aria scende e si riscalda per compressione adiabatica)."
+          "explanation": "Durante il Föhn, il versante Nord (sopravvento, dove l'aria sale, si raffredda e precipita) risulta più freddo del versante Sud (sottovento, dove l'aria scende e si riscalda per compressione adiabatica). (opzione 1) è sbagliata perché le temperature dei due versanti non sono uguali: il Föhn crea proprio una marcata differenza termica fra Nord e Sud. (opzione 3) è sbagliata perché è il versante Sud, non quello Nord, a risultare più caldo durante il Föhn. (opzione 4) è sbagliata perché il versante Sud durante il Föhn è più caldo della massa d'aria circostante, non più freddo, proprio per il riscaldamento adiabatico in discesa."
         },
         {
           "n": 77,
@@ -12792,7 +12792,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "5-5",
-          "explanation": "Per convenzione internazionale il fronte freddo è rappresentato da una linea con triangoli pieni rivolti nella direzione di movimento del fronte."
+          "explanation": "Per convenzione internazionale il fronte freddo è rappresentato da una linea con triangoli pieni rivolti nella direzione di movimento del fronte. (opzione 1) S mostra invece il simbolo dei semicerchi pieni, tipico del fronte caldo. (opzione 3) U mostra la combinazione alternata di triangoli e semicerchi propria del fronte occluso, non il fronte freddo semplice. (opzione 4) Z rappresenta un quinto tipo di simbolo distinto dagli altri quattro (tipicamente il fronte stazionario), non il fronte freddo."
         },
         {
           "n": 79,
@@ -12807,7 +12807,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "5-5",
-          "explanation": "Per convenzione internazionale il fronte caldo è rappresentato da una linea con semicerchi pieni rivolti nella direzione di movimento del fronte."
+          "explanation": "Per convenzione internazionale il fronte caldo è rappresentato da una linea con semicerchi pieni rivolti nella direzione di movimento del fronte. (opzione 2) U mostra invece il simbolo alternato triangoli/semicerchi tipico del fronte occluso. (opzione 3) V mostra la variante di occlusione a carattere caldo, un simbolo diverso da quello del fronte caldo semplice. (opzione 4) Z rappresenta un quinto tipo di simbolo distinto dagli altri quattro (tipicamente il fronte stazionario), non il fronte caldo."
         },
         {
           "n": 80,
@@ -12822,7 +12822,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "5-5",
-          "explanation": "Il fronte occluso è rappresentato da una linea con triangoli e semicerchi alternati sullo stesso lato, a indicare la sovrapposizione tra fronte freddo e caldo."
+          "explanation": "Il fronte occluso è rappresentato da una linea con triangoli e semicerchi pieni alternati sullo stesso lato, a indicare la sovrapposizione tra fronte freddo e caldo. (opzione 1) T mostra solo triangoli pieni, il simbolo del fronte freddo semplice. (opzione 3) V è la variante di occlusione a carattere caldo, non l'occlusione standard qui richiesta. (opzione 4) Z rappresenta un quinto tipo di simbolo distinto dagli altri quattro (tipicamente il fronte stazionario), non un fronte occluso."
         },
         {
           "n": 81,
@@ -12837,7 +12837,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "5-5",
-          "explanation": "L'occlusione a carattere caldo (il fronte freddo che sovrasta, meno freddo dell'aria che precede) ha una simbologia dedicata che la distingue da quella a carattere freddo."
+          "explanation": "L'occlusione a carattere caldo ha una simbologia dedicata (variante dei triangoli e semicerchi alternati) che la distingue dall'occlusione standard a carattere freddo. (opzione 1) T mostra il semplice fronte freddo (soli triangoli pieni). (opzione 2) U mostra l'occlusione standard a carattere freddo, non quella a carattere caldo richiesta dalla domanda. (opzione 4) Z rappresenta un quinto tipo di simbolo distinto dagli altri quattro (tipicamente il fronte stazionario), non un'occlusione."
         },
         {
           "n": 82,
