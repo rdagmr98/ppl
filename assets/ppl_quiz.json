@@ -12852,7 +12852,7 @@
           "correct": 3,
           "src": "quizvds",
           "fig": "5-5",
-          "explanation": "L'occlusione a carattere freddo (il fronte freddo che scalza al suolo anche l'aria fredda precedente) ha un simbolo distinto rispetto all'occlusione calda."
+          "explanation": "Nell'occlusione a carattere freddo il fronte freddo (aria fredda che scalza anche l'aria fredda precedente) prevale sul fronte caldo: nel simbolo il triangolo pieno (fronte freddo) resta compatto mentre il semicerchio (fronte caldo) è disegnato vuoto/in contorno, per indicare che la sua componente è \"sollevata\" e indebolita al suolo — esattamente la sequenza mostrata nella riga Z della figura (triangolo pieno, semicerchio vuoto, alternati). (opzione 1) La riga T riporta solo triangoli pieni in sequenza: è il simbolo del fronte freddo semplice, non di un'occlusione. (opzione 2) La riga U alterna triangolo e semicerchio entrambi pieni: è il simbolo dell'occlusione generica/a carattere caldo, dove le due componenti restano ugualmente \"attive\". (opzione 3) La riga V alterna semicerchio pieno e triangolo vuoto: qui è la componente calda a prevalere, cioè il simbolo dell'occlusione a carattere caldo, l'opposto di quanto richiesto dalla domanda."
         },
         {
           "n": 83,
@@ -12866,7 +12866,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il fronte caldo ha pendenza dolce ed è molto esteso orizzontalmente (l'aria calda scivola lentamente sopra quella fredda); il fronte freddo è più ripido, essendo l'aria fredda che si incunea rapidamente sotto quella calda, e interessa una fascia più stretta."
+          "explanation": "Il fronte caldo ha pendenza dolce (l'aria calda scivola lentamente sopra il cuneo di aria fredda) e per questo si estende orizzontalmente per centinaia di km davanti alla sua linea al suolo; il fronte freddo, dove l'aria fredda si incunea rapidamente sotto quella calda, ha pendenza più ripida e interessa una fascia più stretta. (opzione 1) parla di una 'moderata perpendicolarità' del fronte freddo, un concetto non pertinente al confronto fra pendenza ed estensione dei due fronti. (opzione 2) inverte le caratteristiche: attribuisce al fronte freddo una forte pendenza ma anche una grande estensione, mentre il fronte freddo è ripido ma poco esteso. (opzione 4) attribuisce al fronte caldo una scarsa estensione e al fronte freddo un'estensione molto maggiore, esattamente il contrario della realtà."
         },
         {
           "n": 84,
@@ -12880,7 +12880,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il fronte freddo, sollevando bruscamente l'aria calda instabile, genera tipicamente nubi a sviluppo verticale (cumuli e cumulonembi)."
+          "explanation": "Il fronte freddo solleva bruscamente e con violenza l'aria calda instabile che incontra, generando tipicamente nubi a sviluppo verticale come cumuli e cumulonembi. (opzione 1) Le nubi stratificate sono tipiche del lento sollevamento dell'aria lungo il fronte caldo, non del fronte freddo. (opzione 3) Le nubi lenticolari si formano per onde orografiche in presenza di forte vento su rilievi, un fenomeno diverso dal passaggio di un fronte freddo. (opzione 4) Le nubi cirriformi (cirri, cirrostrati) sono nubi alte associate all'avvicinarsi di un fronte caldo, non al fronte freddo."
         },
         {
           "n": 85,
@@ -12894,7 +12894,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il sollevamento rapido e violento dell'aria al fronte freddo produce precipitazioni intense ma di breve durata (rovesci)."
+          "explanation": "Il sollevamento rapido e violento dell'aria al fronte freddo produce rovesci: precipitazioni intense ma di breve durata. (opzione 2) descrive precipitazioni leggere e persistenti, che sono invece tipiche del fronte caldo, dove il sollevamento è lento e graduale. (opzione 3) è errata perché le precipitazioni del fronte freddo, pur brevi, sono intense e non leggere. (opzione 4) è errata perché il fronte freddo produce sempre precipitazioni, dato il forte sollevamento dell'aria instabile che genera."
         },
         {
           "n": 86,
@@ -12908,7 +12908,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il lento sollevamento dell'aria calda sopra il cuneo di aria fredda al fronte caldo produce precipitazioni leggere ma persistenti nel tempo."
+          "explanation": "Il lento sollevamento dell'aria calda sopra il cuneo di aria fredda al fronte caldo produce precipitazioni leggere ma persistenti nel tempo. (opzione 1) descrive precipitazioni brevi e leggere, mentre quelle del fronte caldo sono leggere ma prolungate, non brevi. (opzione 2) descrive rovesci brevi e intensi, tipici invece del fronte freddo. (opzione 4) è errata perché il fronte caldo produce tipicamente precipitazioni, dovute al sollevamento su ampia scala dell'aria umida."
         },
         {
           "n": 87,
@@ -12922,7 +12922,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Le nubi a sviluppo verticale, generate dal sollevamento rapido e forzato dell'aria instabile, sono tipicamente associate al fronte freddo."
+          "explanation": "Le nubi a sviluppo verticale nascono dal sollevamento rapido e forzato dell'aria instabile, meccanismo tipico del fronte freddo. (opzione 2) Il fronte caldo solleva l'aria lentamente e in modo graduale, generando nubi stratificate e non a sviluppo verticale. (opzione 3) Il fronte stazionario, non essendoci un moto orizzontale netto delle masse d'aria, non produce il sollevamento brusco necessario a formare nubi a sviluppo verticale. (opzione 4) è errata perché le nubi a sviluppo verticale sono associate a un meccanismo di sollevamento frontale ben preciso, quello del fronte freddo."
         },
         {
           "n": 88,
@@ -12936,7 +12936,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La superficie di separazione tra due masse d'aria di diversa origine (temperatura/umidità) si chiama superficie di discontinuità (o superficie frontale)."
+          "explanation": "La superficie di separazione tra due masse d'aria di diversa origine (temperatura e umidità) si chiama superficie di discontinuità (o superficie frontale). (opzione 1) La linea del fronte è l'intersezione di questa superficie con il suolo, non la superficie stessa. (opzione 2) 'Superficie del fronte' non è il termine tecnico corretto usato in meteorologia aeronautica per questo concetto. (opzione 3) Il fronte stazionario è un tipo di fronte (in cui nessuna delle due masse d'aria avanza), non il nome generico della superficie di separazione."
         },
         {
           "n": 89,
@@ -12950,7 +12950,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un fronte caldo con aria sovrastante stabile genera tipicamente nubi stratificate (cirrostrati, altostrati, nembostrati), non cumuliformi."
+          "explanation": "Un fronte caldo con aria sovrastante stabile genera nubi stratificate (cirrostrati, altostrati, nembostrati) per il lento scorrimento dell'aria calda sul cuneo di aria fredda sottostante. (opzione 1) Le nubi cumuliformi richiedono instabilità e moti convettivi, condizione opposta a quella di un fronte caldo stabile. (opzione 3) Le nubi a forte sviluppo verticale sono tipiche di aria instabile sollevata bruscamente, come al fronte freddo, non di un fronte caldo stabile. (opzione 4) è una risposta troppo generica e non corrisponde al tipo di nube effettivamente prodotto, che è ben definito (stratificato)."
         },
         {
           "n": 90,
@@ -12964,7 +12964,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il fronte caldo, avendo pendenza dolce, si estende orizzontalmente per centinaia di chilometri, mediamente fino a circa 1000 km davanti alla sua linea al suolo."
+          "explanation": "Il fronte caldo, avendo pendenza dolce, si estende orizzontalmente per centinaia di chilometri davanti alla sua linea al suolo, mediamente fino a circa 1000 km. (opzione 1) sovrastima l'estensione tipica, che mediamente non raggiunge i 2000 km. (opzione 3) è errata perché l'estensione del fronte caldo è invece ben apprezzabile e misurabile. (opzione 4) sottostima nettamente l'estensione reale, che è molto maggiore di 100 km."
         },
         {
           "n": 91,
@@ -12978,7 +12978,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La sequenza cirri-cirrostrati-altostrati (in progressivo ispessimento) che avanza da ovest è il classico preannuncio dell'arrivo di un fronte caldo nelle ore o nel giorno successivo."
+          "explanation": "La sequenza di nubi alte in progressivo ispessimento (cirri, cirrostrati) che avanza lentamente da ovest verso est è il classico preannuncio dell'arrivo di un fronte caldo nelle ore o nel giorno successivo. (opzione 1) Il fronte occluso normalmente non si annuncia con questa sequenza ordinata di nubi alte, ma con un quadro nuvoloso già combinato tra i due tipi di fronte. (opzione 2) Il fronte stazionario, non avanzando, non produce questa progressione tipica di nubi in avvicinamento. (opzione 4) Il fronte freddo si annuncia con un rapido peggioramento e nubi cumuliformi/temporalesche in arrivo, non con un lento ispessimento di nubi alte stratificate."
         },
         {
           "n": 92,
@@ -12992,7 +12992,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Un accumulo irregolare di ghiaccio vitreo altera il profilo aerodinamico delle superfici portanti, peggiorando drasticamente le prestazioni e aumentando sensibilmente la velocità di stallo."
+          "explanation": "L'accumulo irregolare di ghiaccio vitreo altera il profilo aerodinamico delle superfici portanti, causando un drastico scadimento delle prestazioni e un notevole aumento della velocità di stallo. (opzione 1) L'aumento di peso dovuto al ghiaccio è reale ma non è 'enorme' né il pericolo principale: il rischio maggiore è la variazione del profilo alare, non il peso. (opzione 2) Uno sbilanciamento tra le semiali può verificarsi, ma non è la ragione principale della pericolosità del vetrone, che risiede soprattutto nel degrado aerodinamico. (opzione 4) descrive l'effetto come 'lieve', mentre l'aumento della velocità di stallo dovuto al vetrone è invece notevole e drastico."
         },
         {
           "n": 93,
@@ -13006,7 +13006,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "A terra il ghiaccio che si deposita sul velivolo (brina da rugiada gelata o brinamento) è di tipo brinoso e granuloso; il ghiaccio vitreo richiede acqua sopraffusa che si trova tipicamente solo in volo."
+          "explanation": "A terra il ghiaccio che si deposita sulle strutture del velivolo (per brinamento o rugiada gelata) è di tipo brinoso e granuloso; il ghiaccio vitreo richiede la presenza di acqua sopraffusa, condizione che si incontra tipicamente solo in volo attraverso nubi. (opzione 1) include il ghiaccio vitreo, che invece a terra normalmente non si forma. (opzione 3) include anch'essa il vitreo insieme alle altre due forme, includendo un tipo non tipico del suolo. (opzione 4) descrive caratteristiche visive (opaco, liscio, chiaro) che non corrispondono alla classificazione standard usata in meteorologia aeronautica (brinoso, granuloso, vitreo)."
         },
         {
           "n": 94,
@@ -13020,7 +13020,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il ghiaccio granuloso e brinoso si forma volando in nubi stratificate con piccole goccioline, in prossimità dello zero termico."
+          "explanation": "Il ghiaccio granuloso e brinoso si forma tipicamente volando in nubi stratificate con piccole goccioline d'acqua, in prossimità dello zero termico. (opzione 1) Volare nella nebbia (a terra) non espone il velivolo in volo alle stesse condizioni di formazione del ghiaccio in quota. (opzione 3) Il cumulonembo, con le sue grosse goccioline d'acqua sopraffusa, produce tipicamente ghiaccio vitreo, non granuloso/brinoso. (opzione 4) Volare sotto la pioggia (al di sotto della nube) generalmente non comporta la formazione di questo tipo di ghiaccio sulle strutture."
         },
         {
           "n": 95,
@@ -13034,7 +13034,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il ghiaccio vitreo (vetrone) si forma tipicamente attraversando cumulonembi, dove sono presenti grosse goccioline d'acqua sopraffusa."
+          "explanation": "Il ghiaccio vitreo (vetrone) si forma tipicamente attraversando cumulonembi, dove sono presenti grosse goccioline d'acqua sopraffusa che congelano rapidamente e uniformemente sulla superficie del velivolo. (opzione 1) La nebbia è un fenomeno di visibilità a terra e non è la condizione tipica associata al ghiaccio vitreo in volo. (opzione 2) Le nubi stratificate con piccole goccioline vicino allo zero termico producono ghiaccio granuloso o brinoso, non vitreo. (opzione 4) Volare sotto la pioggia non è la condizione classica in cui si forma il ghiaccio vitreo, che richiede il contatto diretto con acqua sopraffusa in nube."
         },
         {
           "n": 96,
@@ -13048,7 +13048,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La dimensione delle goccioline d'acqua sopraffusa incontrate determina se il ghiaccio che si deposita sarà granuloso/brinoso (goccioline piccole) o vitreo (goccioline grandi)."
+          "explanation": "La dimensione delle goccioline d'acqua sopraffusa incontrate determina se il ghiaccio che si deposita sarà granuloso/brinoso (goccioline piccole, che congelano subito) o vitreo (goccioline grandi, che si spandono e congelano lentamente e uniformemente). (opzione 2) Un'inversione termica in quota non è il fattore che determina il tipo di ghiaccio che si forma sul velivolo. (opzione 3) La differenza fra temperatura e punto di rugiada indica la vicinanza alla saturazione dell'aria, ma non è il fattore che discrimina fra ghiaccio granuloso e vitreo. (opzione 4) L'aumento della quota di volo di per sé non determina il tipo di ghiaccio, che dipende invece dalle caratteristiche delle goccioline incontrate."
         },
         {
           "n": 97,
@@ -13062,7 +13062,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La brina non rimossa dalle superfici prima del decollo altera il flusso d'aria sul profilo alare, riducendo la portanza generata e mettendo a rischio la sicurezza della traiettoria di decollo."
+          "explanation": "La brina non rimossa dalle superfici prima del decollo altera il flusso d'aria sul profilo alare, riducendo la portanza generata e mettendo quindi a rischio la sicurezza della traiettoria di decollo. (opzione 1) è errata perché la brina non viene affatto eliminata dall'aumento di velocità in decollo e i suoi effetti negativi restano presenti. (opzione 2) descrive un effetto opposto a quello reale: la brina non riduce l'angolo di incidenza o la IAS necessari, ma peggiora la capacità dell'ala di generare portanza a parità di condizioni. (opzione 3) è errata perché la brina non aumenta la portanza, ma la riduce, disturbando il flusso laminare sul profilo alare."
         },
         {
           "n": 98,
@@ -13076,7 +13076,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La pioggia sopraffusa è acqua che rimane allo stato liquido nonostante una temperatura inferiore a 0°C, condizione instabile che favorisce il congelamento immediato al contatto con superfici fredde."
+          "explanation": "La pioggia sopraffusa è acqua che rimane allo stato liquido nonostante una temperatura inferiore a 0°C: è una condizione fisicamente instabile, che favorisce il congelamento immediato al contatto con una superficie fredda come quella del velivolo. (opzione 2) descrive un fenomeno di fusione (da solido a liquido), non la sopraffusione, che riguarda invece acqua liquida a temperatura sotto zero. (opzione 3) descrive la sublimazione inversa (brinamento), un passaggio di stato diverso dalla sopraffusione. (opzione 4) non ha alcun legame con la definizione di sopraffusione, che è un concetto termodinamico indipendente dalla quota di transizione."
         },
         {
           "n": 99,
@@ -13090,7 +13090,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con temperatura e punto di rugiada quasi coincidenti (differenza minima), l'aria è prossima alla saturazione: ci si può attendere nebbia o nubi basse."
+          "explanation": "Quando la differenza fra temperatura e punto di rugiada è minima, con tendenza ad annullarsi, l'aria è prossima alla saturazione: a 15°C ci si può quindi attendere la formazione di nebbia o nubi basse. (opzione 1) I forti rovesci sono legati a instabilità e forte sollevamento dell'aria, non semplicemente alla vicinanza tra temperatura e punto di rugiada. (opzione 3) La pioggerella di acqua sopraffusa richiede temperature sotto lo zero, mentre qui la temperatura indicata è di 15°C. (opzione 4) I temporali richiedono condizioni di forte instabilità atmosferica, non semplicemente una piccola differenza fra temperatura e punto di rugiada."
         },
         {
           "n": 100,
@@ -13104,7 +13104,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La nebbia di avvezione si forma quando aria calda e umida proveniente da altre zone scorre su una superficie più fredda, condensando per contatto."
+          "explanation": "La nebbia di avvezione si forma quando aria calda e umida proveniente da altre zone scorre orizzontalmente su una superficie più fredda, raffreddandosi per contatto fino alla condensazione. (opzione 1) descrive il meccanismo della nebbia da irraggiamento (raffreddamento notturno del suolo), non quello della nebbia di avvezione. (opzione 3) descrive un sollevamento orografico dell'aria, meccanismo tipico della nebbia da pendio, diverso dall'avvezione orizzontale. (opzione 4) La sublimazione del vapore acqueo non è il processo fisico all'origine della nebbia di avvezione, che è dovuta al contatto e al raffreddamento per trasporto orizzontale."
         },
         {
           "n": 101,
@@ -13118,7 +13118,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Cielo sereno (irraggiamento notturno efficace), vento debole (poco rimescolamento) e punto di rugiada vicino alla temperatura dell'aria sono le condizioni classiche per la nebbia da irraggiamento."
+          "explanation": "Cielo sereno (che favorisce l'irraggiamento notturno efficace), vento debole (che limita il rimescolamento dell'aria) e punto di rugiada vicino alla temperatura dell'aria (aria prossima alla saturazione) sono le condizioni classiche per la formazione della nebbia da irraggiamento. (opzione 2) Il vento moderato favorisce il rimescolamento dell'aria e ostacola l'accumulo di aria fredda e umida al suolo necessario per la nebbia; inoltre il punto di rugiada non può essere superiore alla temperatura dell'aria. (opzione 3) Il cielo coperto impedisce l'irraggiamento notturno e il vento forte disperde l'umidità, condizioni sfavorevoli alla nebbia. (opzione 4) Il cielo coperto e la bassa umidità relativa sono entrambi condizioni sfavorevoli alla formazione della nebbia."
         },
         {
           "n": 102,
@@ -13132,7 +13132,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Cielo sereno, calma di vento e temperatura in calo verso il punto di rugiada verso sera sono le condizioni tipiche per la formazione della nebbia da irraggiamento notturna."
+          "explanation": "Cielo sereno, calma di vento e temperatura in calo verso il punto di rugiada nelle ore serali sono le condizioni tipiche per la formazione della nebbia da irraggiamento notturna. (opzione 1) La nebbia di avvezione richiede il trasporto orizzontale di aria calda e umida su una superficie fredda, non descritto in questo scenario di calma di vento e raffreddamento locale. (opzione 2) è l'opposto di quanto atteso: l'avvicinarsi al punto di rugiada in condizioni di calma peggiora, non migliora, la visibilità. (opzione 3) I moti convettivi richiedono riscaldamento del suolo e instabilità, condizioni diurne opposte a quelle serali e di raffreddamento descritte."
         },
         {
           "n": 103,
@@ -13146,7 +13146,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La nebbia di avvezione si forma per spostamento orizzontale di aria calda e umida sopra un terreno o mare più freddo, che la raffredda fino alla condensazione."
+          "explanation": "La nebbia di avvezione si forma per spostamento orizzontale di aria calda e umida sopra un terreno o un mare più freddo, che la raffredda gradualmente fino alla condensazione. (opzione 1) Le radiazioni solari producono riscaldamento e dissoluzione della nebbia, non la sua formazione per avvezione. (opzione 2) Il raffreddamento notturno per irraggiamento è il meccanismo della nebbia da irraggiamento, non di quella di avvezione. (opzione 3) Il rimescolamento fra aria umida e aria fredda secca non è il processo che caratterizza l'avvezione, che riguarda invece il trasporto orizzontale di aria calda su suolo freddo."
         },
         {
           "n": 104,
@@ -13160,7 +13160,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Le zone costiere, dove aria marittima calda e umida incontra spesso superfici più fredde, sono il luogo classico di formazione della nebbia di avvezione."
+          "explanation": "Le zone costiere, dove aria marittima calda e umida incontra spesso una superficie di terra o di mare più fredda, sono il luogo classico di formazione della nebbia di avvezione. (opzione 2) I pendii montagnosi favoriscono piuttosto la nebbia da risalita orografica, un fenomeno differente dall'avvezione. (opzione 3) Le zone pianeggianti interne sono più tipicamente soggette alla nebbia da irraggiamento notturno che a quella di avvezione. (opzione 4) Le vallate di montagna favoriscono l'accumulo di aria fredda per drenaggio catabatico e la nebbia da irraggiamento, non l'avvezione di aria calda marittima."
         },
         {
           "n": 105,
@@ -13174,7 +13174,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La caligine (foschia secca, dry haze) è composta da particelle secche in sospensione e non si dissolve con il riscaldamento come la foschia umida, ma solo con l'azione del vento che disperde le particelle."
+          "explanation": "La caligine (foschia secca) è composta da particelle secche in sospensione nell'aria e, a differenza della foschia umida, non si dissolve con il semplice riscaldamento diurno: può sparire solo grazie all'azione del vento, che disperde le particelle. (opzione 1) La dispersione di calore verso l'alto è un meccanismo legato al raffreddamento notturno (nebbia da irraggiamento), non alla differenza fra caligine e foschia. (opzione 2) Il trasporto di aria calda e umida descrive la nebbia di avvezione, non la caratteristica distintiva della caligine. (opzione 3) è l'opposto della realtà: è la foschia (umida) a dissolversi con l'aumento della temperatura, non la caligine."
         },
         {
           "n": 106,
@@ -13187,7 +13187,7 @@
             "Nessuna delle precedenti risposte è corretta"
           ],
           "correct": 2,
-          "explanation": "I temporali termoconvettivi (di calore) in pianura sono isolati e localizzati, quindi più facili da individuare e aggirare rispetto a quelli frontali o orografici, spesso organizzati in linee estese."
+          "explanation": "I temporali termoconvettivi (di calore) in pianura sono fenomeni isolati e localizzati, quindi più facili da individuare visivamente e aggirare rispetto a formazioni più estese e organizzate. (opzione 1) I temporali legati ai fronti freddi si sviluppano spesso in linee estese (linee di groppo), rendendo più difficile aggirarli rispetto a celle isolate. (opzione 2) I temporali orografici sulle Alpi tendono a formarsi ripetutamente sugli stessi rilievi e possono estendersi lungo l'intera catena, rendendo l'aggiramento più complesso. (opzione 4) è errata perché esiste effettivamente una categoria di temporali (quelli termoconvettivi isolati) più facile da aggirare delle altre."
         },
         {
           "n": 107,
@@ -13201,7 +13201,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La quantità e l'altezza delle nubi sotto i 1500 m sono l'elemento più critico per il volo VFR, perché determinano direttamente la possibilità di mantenere il contatto visivo con il suolo e la separazione dagli ostacoli."
+          "explanation": "La quantità e l'altezza delle nubi sotto i 1500 m sono l'elemento più critico per il volo VFR, perché determinano direttamente la possibilità di mantenere il contatto visivo con il suolo e la separazione dagli ostacoli. (opzione 2) Le nubi sopra i 1500 m interessano meno direttamente la fase di volo a vista a bassa quota, che si svolge tipicamente al di sotto di questo livello. (opzione 3) L'umidità relativa influenza fenomeni come nebbia o nubi, ma non è di per sé l'elemento più diretto per la sicurezza del volo a vista. (opzione 4) La temperatura dell'aria, pur influenzando le condizioni meteo generali, non è l'elemento più direttamente critico per il mantenimento del contatto visivo richiesto dal volo VFR."
         },
         {
           "n": 108,
@@ -13214,7 +13214,7 @@
             "La temperatura dell'aria"
           ],
           "correct": 0,
-          "explanation": "Come per la domanda precedente: è la nuvolosità bassa, sotto i 1500 m, a condizionare direttamente la fattibilità del volo a vista."
+          "explanation": "Anche in questo caso, il fattore determinante per la sicurezza del volo a vista è la nuvolosità bassa: quantità e altezza delle nubi sotto i 1500 m condizionano direttamente la possibilità di mantenere il riferimento visivo con il terreno. (opzione 2) La nuvolosità sopra i 1500 m ha un impatto minore sulla condotta del volo VFR a bassa quota. (opzione 3) L'umidità relativa non è l'elemento meteorologico più direttamente legato alla sicurezza del volo a vista. (opzione 4) La temperatura dell'aria non condiziona direttamente la visibilità o il contatto visivo necessari al volo VFR."
         },
         {
           "n": 109,
@@ -13228,7 +13228,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Tra i tipi di precipitazione, la neve è la più pericolosa per il volo per l'effetto combinato su visibilità, accumulo di ghiaccio e riduzione di aderenza/frenata a terra."
+          "explanation": "Tra i tipi di precipitazione elencati, la neve è la più pericolosa per il volo per l'effetto combinato sulla riduzione della visibilità, sulla possibile formazione di ghiaccio e sulla drastica riduzione dell'aderenza e della capacità frenante sulla pista. (opzione 1) La pioviggine con temperatura sopra lo zero non comporta rischio di formazione di ghiaccio né la severa riduzione di aderenza tipica della neve. (opzione 2) La pioggia con temperatura sopra lo zero riduce la visibilità ma non presenta il rischio combinato di accumulo e scarsa aderenza della neve. (opzione 3) I rovesci di pioggia con temperatura sopra lo zero, pur intensi, non comportano gli stessi rischi di accumulo di neve sulle superfici e sulla pista."
         },
         {
           "n": 110,
@@ -13242,7 +13242,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il pericolo principale in zone di acqua sopraffusa è la formazione di ghiaccio sulle superfici del velivolo (e nel carburatore), che altera portanza e resistenza."
+          "explanation": "Il pericolo principale nel volare in una zona con presenza di acqua sopraffusa è la formazione di ghiaccio sulle superfici del velivolo e nel carburatore, che altera portanza, resistenza e il corretto funzionamento del motore. (opzione 1) è errata perché l'acqua sopraffusa costituisce invece un pericolo concreto e ben noto per il volo. (opzione 2) Il raffreddamento dell'olio non è il rischio principale associato all'acqua sopraffusa, che riguarda soprattutto la formazione di ghiaccio. (opzione 4) La variazione di densità dell'aria non è legata alla presenza di acqua sopraffusa, ma a fattori come temperatura, pressione e quota."
         },
         {
           "n": 111,
@@ -13256,7 +13256,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Volare sotto nembostrati o cumulonembi con pioggia, in prossimità dello zero termico, espone al rischio di formazione di ghiaccio sulla struttura e nel carburatore, perché le gocce sono vicine al congelamento."
+          "explanation": "Volare sotto nembostrati o cumulonembi da cui cade pioggia, in prossimità dello zero termico, espone al rischio di formazione di ghiaccio sulla struttura del velivolo e nel carburatore, perché le gocce di pioggia si trovano vicine alla temperatura di congelamento. (opzione 1) sottovaluta il pericolo: oltre alla grandine, il rischio concreto e più comune in queste condizioni è la formazione di ghiaccio. (opzione 2) La riduzione di visibilità è un fattore secondario rispetto al pericolo più specifico e diretto della formazione di ghiaccio in questa situazione termica. (opzione 3) I disturbi agli apparati ricetrasmittenti non sono il pericolo principale associato al volo vicino allo zero termico sotto queste nubi."
         },
         {
           "n": 112,
@@ -13270,7 +13270,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Una valle stretta agisce come un tubo di Venturi sul vento incanalato: aumenta la velocità del flusso e genera turbolenza d'attrito con il terreno."
+          "explanation": "Una valle stretta agisce come un tubo di Venturi sul vento che vi si incanala: la sezione ristretta ne aumenta la velocità e genera turbolenza d'attrito con il terreno accidentato circostante. (opzione 1) è errata perché la conformazione della valle ha invece un'influenza diretta e ben nota sulla turbolenza. (opzione 3) La presenza di umidità in quota non è la condizione che determina la turbolenza d'attrito in valle, che dipende dalla conformazione del terreno e dall'intensità del vento. (opzione 4) Il peso dell'aeroplano non influisce sulla generazione della turbolenza atmosferica, che è un fenomeno indipendente dal velivolo che la attraversa."
         },
         {
           "n": 113,
@@ -13284,7 +13284,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "I vortici di estremità alare dei velivoli pesanti (turbolenza di scia) possono essere pericolosi e persistere per diversi minuti, capaci di destabilizzare un velivolo più piccolo che li attraversi."
+          "explanation": "I vortici di estremità alare generati dai velivoli di grosso tonnellaggio (turbolenza di scia) possono persistere per diversi minuti e sono in grado di destabilizzare pericolosamente un velivolo più piccolo che li attraversi: l'affermazione è quindi vera. (opzione 2) è errata perché la turbolenza di scia è un pericolo reale e documentato per il volo. (opzione 3) è errata perché i vortici di estremità non decadono in appena 10 secondi, ma possono restare attivi per diversi minuti, specialmente in aria calma. (opzione 4) è errata perché il fenomeno non richiede la presenza di un'inversione termica per essere pericoloso: si manifesta in condizioni normali di volo."
         },
         {
           "n": 114,
@@ -13298,7 +13298,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La turbolenza può estendersi in aria limpida anche tra due celle temporalesche vicine, senza che sia visibile alcuna nube in quella zona."
+          "explanation": "La turbolenza generata dalle correnti ascendenti e discendenti di una cella temporalesca può estendersi in aria limpida anche nella zona compresa tra due celle vicine, senza che sia visibile alcuna nube. (opzione 2) è errata perché questo tipo di turbolenza in aria serena è un fenomeno reale, ben documentato in prossimità dei temporali. (opzione 3) Non è un fenomeno limitato alle ore notturne: la turbolenza tra celle temporalesche può verificarsi in qualunque momento del giorno. (opzione 4) Analogamente, non è limitata alle ore diurne: dipende dall'attività delle celle stesse, non dall'ora del giorno."
         },
         {
           "n": 115,
@@ -13312,7 +13312,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "I temporali termoconvettivi (di calore, da riscaldamento diurno del suolo) sono tipicamente isolati e localizzati."
+          "explanation": "I temporali termoconvettivi, generati dal riscaldamento diurno del suolo, sono tipicamente isolati e localizzati in una zona ristretta, per questo sono considerati temporali locali. (opzione 1) I temporali legati ai fronti si sviluppano lungo linee estese che seguono il fronte stesso, non sono quindi fenomeni locali e isolati. (opzione 2) La persistenza per più giorni sullo stesso luogo non è il criterio che definisce un temporale come locale, che riguarda piuttosto l'estensione geografica limitata. (opzione 3) La possibilità o meno di produrre ghiaccio non è il criterio che distingue un temporale locale da uno esteso."
         },
         {
           "n": 116,
@@ -13326,7 +13326,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'incudine (la sommità appiattita a forma di incudine) di un cumulonembo indica che la nube ha raggiunto la fase di dissolvimento, con moti ormai prevalentemente discendenti."
+          "explanation": "L'incudine, cioè la sommità appiattita a forma di incudine di un cumulonembo, indica che la nube ha raggiunto la fase di dissolvimento, caratterizzata da moti ormai prevalentemente discendenti, mentre le correnti ascensionali che l'hanno alimentata si esauriscono. (opzione 1) Non fornisce alcuna indicazione sul significato dell'incudine, quindi non è una risposta valida alla domanda (anomalia preesistente nel testo dell'opzione, non modificata perché fuori dallo scope di questa correzione). (opzione 2) La fase di massimo sviluppo è caratterizzata da forti correnti ascensionali e non ha ancora formato l'incudine appiattita in sommità, che compare invece nella fase finale. (opzione 4) è errata sull'aspetto cinematico: la fase di dissolvimento è dominata da moti discendenti, non ascendenti, man mano che l'energia della cella si esaurisce."
         },
         {
           "n": 117,
@@ -13340,7 +13340,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nel ciclo di vita del temporale, la fase di dissolvimento è quella dominata dai moti discendenti, quando le correnti ascendenti che alimentavano la cella si esauriscono."
+          "explanation": "Nel ciclo di vita del temporale, la fase di dissolvimento è quella dominata dai moti discendenti, quando le correnti ascensionali che alimentavano la cella si esauriscono e prevale la pioggia con downdraft diffusi. (opzione 2) La fase iniziale di cumulo è caratterizzata da correnti ascensionali in sviluppo, non da moti discendenti. (opzione 3) La fase di maturità presenta sia forti correnti ascendenti sia discendenti insieme (precipitazione in atto), non è quindi caratterizzata esclusivamente da moti discendenti. (opzione 4) 'Innesco termico' descrive l'origine convettiva iniziale della cella, non una fase del suo ciclo di vita dominata da moti discendenti."
         },
         {
           "n": 118,
@@ -13354,7 +13354,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il prefisso/suffisso 'nembo' (nembostrato, cumulonembo) indica una nube di precipitazione consistente, associata a pioggia intensa o neve."
+          "explanation": "Il prefisso o suffisso 'nembo' (come in nembostrato o cumulonembo) indica una nube di precipitazione consistente, associata a pioggia intensa o neve. (opzione 1) La probabilità di formazione dell'alone lunare è legata a nubi cirriformi/stratiformi sottili di cristalli di ghiaccio, non al termine 'nembo'. (opzione 2) La pioggerella fine e gelata è tipicamente associata a nubi stratiformi sottili, non al prefisso 'nembo' che indica invece precipitazione consistente. (opzione 4) I cumuli di bel tempo sono nubi a sviluppo verticale limitato senza precipitazione, l'opposto del significato del prefisso 'nembo'."
         },
         {
           "n": 119,
@@ -13368,7 +13368,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Anche in condizioni VMC, vicino a nubi temporalesche è possibile incontrare turbolenza significativa, generata dalle correnti ascendenti/discendenti della cella anche fuori dalla nube stessa."
+          "explanation": "Anche in condizioni VMC, in prossimità di nubi temporalesche è possibile incontrare turbolenza significativa, generata dalle correnti ascendenti e discendenti della cella, che si estendono anche al di fuori della nube visibile. (opzione 1) è errata perché la turbolenza in prossimità dei temporali, anche in aria limpida, è un fenomeno reale e ben documentato. (opzione 3) Limita il fenomeno solo ai CB con sommità sopra i 30.000 piedi, mentre la turbolenza si può incontrare anche vicino a celle meno sviluppate in quota. (opzione 4) Condiziona il fenomeno al fatto che la sommità superi la tropopausa, requisito non necessario per l'esistenza di turbolenza in prossimità della cella."
         },
         {
           "n": 120,
@@ -13382,7 +13382,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La turbolenza leggera produce solo lievi e ritmici sobbalzi, senza alcuna difficoltà nel mantenere prua e assetto."
+          "explanation": "La turbolenza leggera produce solo lievi e ritmici sobbalzi dell'aeromobile, senza alcuna difficoltà a mantenere la traiettoria di volo. (opzione 2) Descrive ampie e brusche variazioni con possibile perdita di controllo: è la definizione della turbolenza forte, non di quella leggera. (opzione 3) Descrive sobbalzi e variazioni di assetto sensibili pur restando sotto controllo: corrisponde alla turbolenza moderata, un livello superiore a quello leggero. (opzione 4) Descrive l'impossibilità totale di controllo, condizione estrema non corrispondente alla turbolenza leggera."
         },
         {
           "n": 121,
@@ -13396,7 +13396,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La turbolenza moderata produce sobbalzi e variazioni di assetto sensibili, ma il velivolo resta sempre sotto pieno controllo del pilota."
+          "explanation": "La turbolenza moderata produce sobbalzi e variazioni di assetto sensibili, ma il velivolo resta sempre sotto il pieno controllo del pilota. (opzione 1) Descrive lievi e ritmici sobbalzi senza alcuna difficoltà: è la definizione della turbolenza leggera, un livello inferiore. (opzione 2) Descrive ampie e brusche variazioni con possibile perdita di controllo per brevi periodi: corrisponde alla turbolenza forte, non a quella moderata. (opzione 4) Descrive l'assenza di movimento percepito dai passeggeri, condizione opposta a quella della turbolenza moderata, che è invece chiaramente avvertibile."
         },
         {
           "n": 122,
@@ -13410,7 +13410,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La turbolenza forte produce ampie e brusche variazioni di quota e assetto, con possibile perdita temporanea di controllo del velivolo."
+          "explanation": "La turbolenza forte produce ampie e brusche variazioni di quota e di assetto, con la possibilità che l'aeromobile vada temporaneamente fuori controllo. (opzione 1) Descrive lievi e ritmici sobbalzi senza difficoltà di controllo: è la definizione della turbolenza leggera, non di quella forte. (opzione 3) Parla di lievi danni alla strumentazione con velivolo ancora pilotabile, una descrizione non standard e meno grave di quella della turbolenza forte. (opzione 4) Il rateo di salita non è il parametro utilizzato per classificare l'intensità della turbolenza, che si basa sugli effetti su assetto e controllabilità del velivolo."
         },
         {
           "n": 123,
@@ -13424,7 +13424,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il vento impetuoso incontra la massima resistenza e turbolenza meccanica sulle regioni montagnose, dove il terreno accidentato disturba il flusso d'aria."
+          "explanation": "Il vento impetuoso incontra la massima resistenza e turbolenza meccanica sulle regioni montagnose, dove il terreno accidentato disturba fortemente il flusso d'aria. (opzione 1) Il mare aperto, essendo una superficie piatta e omogenea, genera turbolenza meccanica molto minore rispetto al terreno montagnoso. (opzione 2) Le coste, pur potendo generare qualche turbolenza locale, non raggiungono l'intensità di disturbo del flusso tipica delle regioni montagnose. (opzione 4) La pianura, essendo relativamente pianeggiante, non produce la turbolenza meccanica intensa causata dai rilievi montagnosi."
         },
         {
           "n": 124,
@@ -13438,7 +13438,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La turbolenza termoconvettiva si trova dentro o vicino alle nubi cumuliformi e sopra le zone di suolo fortemente riscaldate, dove nascono le correnti ascensionali."
+          "explanation": "La turbolenza termoconvettiva si trova dentro o in prossimità delle nubi cumuliformi e sopra le zone di suolo fortemente riscaldate, dove nascono le correnti ascensionali che la generano. (opzione 1) Le nubi stratificate leggere sul mare non sono legate a moti convettivi termici, che richiedono invece riscaldamento e instabilità. (opzione 3) La sola vicinanza a un aeroporto non è un fattore che genera turbolenza termoconvettiva, che dipende dal riscaldamento del suolo e dalla presenza di nubi cumuliformi. (opzione 4) descrive la turbolenza meccanica/di massa d'aria dovuta a vento forte su terreno accidentato, un meccanismo diverso da quello termoconvettivo."
         },
         {
           "n": 125,
@@ -13450,7 +13450,7 @@
             "Da livello 100 a livello 300 stazionario"
           ],
           "correct": 1,
-          "explanation": "Il SIGMET riporta \"SEV TURB FCST OVER ROME FIR BTN GND AND FL 100 STNR INTSF\": turbolenza forte prevista dal suolo (GND) al livello di volo 100, stazionaria e in intensificazione."
+          "explanation": "Il SIGMET riporta testualmente turbolenza forte prevista dal suolo (GND) fino al livello di volo 100, stazionaria (STNR) e in intensificazione (INTSF). (opzione 1) Indica erroneamente 'fino al livello 300 in movimento verso Sud Est': quella descrizione corrisponde invece al gruppo separato relativo ai cumulonembi (CB TOP FL 300 MOV SLW SE), non alla turbolenza. (opzione 3) Indica un intervallo verticale (da livello 100 a 300) e un carattere stazionario che non corrispondono al testo, che colloca la turbolenza forte fra il suolo e il livello 100."
         },
         {
           "n": 126,
@@ -13462,7 +13462,7 @@
             "No. Sono previsti solo temporali"
           ],
           "correct": 0,
-          "explanation": "Il SIGMET riporta \"SEV CAT FCST MAINLY OVER NORTH AND WEST PART OF ROME FIR\": turbolenza forte in aria chiara prevista soprattutto sulla parte Nord e Ovest della FIR di Roma."
+          "explanation": "Il SIGMET riporta turbolenza forte in aria chiara (CAT) prevista soprattutto sulla parte Nord e Ovest della FIR di Roma, tra i livelli 270 e 400. (opzione 2) Indica il range di livelli 100-300, che corrisponde invece all'area dei cumulonembi (CB TOP FL 300), non alla turbolenza in aria chiara che si trova fra FL270 e FL400. (opzione 3) Nega la presenza di turbolenza in aria chiara e la attribuisce erroneamente solo ai temporali, mentre il messaggio riporta esplicitamente un gruppo SEV CAT distinto."
         },
         {
           "n": 127,
@@ -13474,7 +13474,7 @@
             "Dalle 06:00 alle 12:00 del giorno 24"
           ],
           "correct": 2,
-          "explanation": "Il SIGMET di Milano riporta \"VALID 240600/241200\": validità dalle 06:00 alle 12:00 del giorno 24."
+          "explanation": "Il gruppo giorno/ora del SIGMET di Milano indica validità dalle 06:00 alle 12:00 del giorno 24. (opzione 1) 'Dalle 06:00 del giorno 24 in poi' non rispetta il limite superiore di validità, che termina alle 12:00 dello stesso giorno. (opzione 2) Fraintende il formato del gruppo data/ora, leggendo i valori come due giorni distinti anziché come giorno-ora-ora: il formato indica invece un unico giorno con ora di inizio e di fine validità."
         },
         {
           "n": 128,
@@ -13486,7 +13486,7 @@
             "Nella parte Nord Ovest e lento movimento verso"
           ],
           "correct": 0,
-          "explanation": "Il SIGMET riporta \"SCT EMBD CB... MAINLY WEST PART MOV EAST\": temporali osservati soprattutto nella parte Ovest, in movimento verso Est."
+          "explanation": "Il SIGMET riporta i cumulonembi osservati soprattutto nella parte Ovest della FIR di Milano, in movimento verso Est. (opzione 2) Inverte le direzioni indicate nel messaggio: i temporali si trovano a Ovest e si spostano verso Est, non il contrario. (opzione 3) Colloca erroneamente i temporali a Nord Ovest, mentre il testo li indica genericamente nella parte Ovest, con movimento verso Est."
         },
         {
           "n": 129,
@@ -13498,7 +13498,7 @@
             "Da 130°/13 nodi ma potrebbe evolversi in 180°/18 nodi dalle 09:00 alle 11:00"
           ],
           "correct": 2,
-          "explanation": "Il TAF di Fiumicino riporta \"13013KT... BECMG 0911 18018KT\": vento iniziale 130°/13 nodi, con graduale evoluzione a 180°/18 nodi tra le 09:00 e le 11:00."
+          "explanation": "Il TAF di Fiumicino riporta un vento iniziale da 130° a 13 nodi, con evoluzione graduale (BECMG) a 180° e 18 nodi fra le 09:00 e le 11:00. (opzione 1) Riporta un vento iniziale da 060°/15 nodi senza variazioni, valori che non corrispondono a quanto riportato nel TAF (130°/13 nodi con evoluzione). (opzione 2) Riporta correttamente il vento iniziale ma indica un'evoluzione verso 090°/11 nodi, mentre il messaggio riporta invece un'evoluzione verso 180°/18 nodi."
         },
         {
           "n": 130,
@@ -13510,7 +13510,7 @@
             "No tutto fa prevedere che il tempo sarà abbastanza buono."
           ],
           "correct": 0,
-          "explanation": "Il TAF di Ciampino riporta \"TEMPO 0615 3000 TSRA SCT020CB\": temporaneamente, tra le 06:00 e le 15:00, sono possibili temporali con pioggia e visibilità ridotta a 3000 m."
+          "explanation": "Il TAF di Ciampino riporta un gruppo TEMPO valido tra le 06:00 e le 15:00 con possibilità di temporali, pioggia e visibilità ridotta: un elemento sicuramente da tenere in considerazione. (opzione 2) Il TAF non riporta alcuna tendenza di diminuzione della visibilità come previsione principale, ma un gruppo TEMPO relativo a possibili temporali. (opzione 3) è errata perché il TAF segnala esplicitamente, tramite il gruppo TEMPO, la possibilità di temporali con pioggia, quindi il tempo non è previsto interamente buono."
         },
         {
           "n": 131,
@@ -13522,7 +13522,7 @@
             "6 ore; dalle 06:00 alle 12:00"
           ],
           "correct": 0,
-          "explanation": "Il gruppo di validità del TAF \"0615\" indica dalle 06:00 alle 15:00, cioè 9 ore di validità."
+          "explanation": "Il gruppo di validità del TAF di Napoli indica un periodo dalle 06:00 alle 15:00, cioè 9 ore complessive di validità. (opzione 2) Indica erroneamente gli orari con i minuti: il gruppo giorno/ora del TAF non contiene i minuti, ma solo le ore di inizio e fine validità. (opzione 3) Indica una durata di 6 ore (06:00-12:00), che non corrisponde al gruppo di validità riportato, che copre invece 9 ore fino alle 15:00."
         },
         {
           "n": 134,
@@ -13534,7 +13534,7 @@
             "scattered a 3000 ft; broken a 1300 ft"
           ],
           "correct": 0,
-          "explanation": "Il METAR di Linate riporta \"BKN003 OVC060\": nubi broken a 300 ft (003×100) e overcast a 6000 ft (060×100)."
+          "explanation": "Il METAR di Linate riporta nubi broken (copertura 5-7 ottavi) a 300 ft e overcast (copertura totale) a 6000 ft. (opzione 2) Indica overcast a 600 ft anziché 6000 ft: il gruppo del METAR relativo alla quota va moltiplicato per 100 piedi, quindi corrisponde a 6000 ft, non 600. (opzione 3) Inverte i valori e i tipi di copertura: il METAR riporta broken a 300 ft e overcast a 6000 ft, non scattered a 3000 ft e broken a 1300 ft."
         },
         {
           "n": 135,
@@ -13546,7 +13546,7 @@
             "Vento 120°/12 nodi, QNH 999"
           ],
           "correct": 0,
-          "explanation": "Il METAR di Pisa riporta \"14002KT... Q1001\": vento da 140° a 2 nodi, QNH 1001 hPa."
+          "explanation": "Il METAR di Pisa riporta vento da 140° a 2 nodi e QNH 1001 hPa. (opzione 2) Riporta un'intensità del vento di 120 nodi e un QNH di 1013 hPa, valori entrambi errati rispetto al messaggio, che indica 2 nodi e 1001 hPa. (opzione 3) Indica una direzione di 120° e un'intensità di 12 nodi, mentre il METAR riporta 140° e 2 nodi; anche il QNH indicato (999) non corrisponde al valore reale di 1001 hPa."
         },
         {
           "n": 136,
@@ -13557,7 +13557,7 @@
             "FALSO"
           ],
           "correct": 0,
-          "explanation": "Il METAR di Fiumicino riporta \"8000 -RA\": visibilità 8000 m (8 km) e pioggia debole in atto, quindi l'affermazione è vera."
+          "explanation": "Il METAR di Fiumicino riporta visibilità di 8000 m (8 km) e pioggia debole in atto, quindi l'affermazione che riporta questi stessi valori è vera. (opzione 2) è errata perché sia la visibilità di 8 km sia la presenza di pioggia sono confermate testualmente dal METAR."
         },
         {
           "n": 137,
@@ -13568,7 +13568,7 @@
             "FALSO"
           ],
           "correct": 1,
-          "explanation": "Il METAR di Fiumicino riporta in realtà visibilità 8000 m e QNH 1004, non 1300 m e 1014: l'affermazione è falsa."
+          "explanation": "Il METAR di Fiumicino riporta valori di visibilità e QNH diversi da quelli indicati nell'affermazione: l'affermazione è quindi falsa. (opzione 1) è errata perché i valori indicati non corrispondono a quelli effettivamente riportati nel METAR."
         },
         {
           "n": 138,
@@ -13580,7 +13580,7 @@
             "scattered 1500 ft"
           ],
           "correct": 2,
-          "explanation": "Il METAR di Ciampino riporta \"SCT015 SCT025 BKN070\": lo strato più basso è scattered a 1500 ft."
+          "explanation": "Il METAR di Ciampino riporta come strato più basso 'scattered' (copertura 3-4 ottavi) a 1500 ft. (opzione 1) Indica broken a 1500 ft, mentre il gruppo a quella quota nel METAR è invece scattered, non broken. (opzione 2) Indica scattered ma a 2500 ft: la quota più bassa riportata nel METAR è invece 1500 ft, non 2500 ft."
         },
         {
           "n": 139,
@@ -13592,7 +13592,7 @@
             "240°/35 raffiche a 99"
           ],
           "correct": 0,
-          "explanation": "Il METAR di Napoli riporta \"24022G35KT\": vento da 240° a 22 nodi, con raffiche fino a 35 nodi."
+          "explanation": "Il METAR di Napoli riporta vento da 240° a 22 nodi, con raffiche (gust) fino a 35 nodi. (opzione 2) Indica una direzione di 220° e raffiche fino a 55 nodi, valori entrambi diversi da quelli riportati (240° e raffiche a 35 nodi). (opzione 3) Indica un'intensità di 35 nodi con raffiche fino a 99 nodi, valori che non corrispondono al messaggio, dove 22 è l'intensità media e 35 la raffica massima."
         },
         {
           "n": 140,
@@ -13603,7 +13603,7 @@
             "FALSO"
           ],
           "correct": 0,
-          "explanation": "Il METAR di Napoli riporta il gruppo \"RERA\" (recent rain): indica pioggia recente, quindi l'affermazione è vera."
+          "explanation": "Il METAR di Napoli riporta il gruppo di tempo recente 'RERA' (pioggia recente), che indica che è caduta pioggia recentemente: l'affermazione è quindi vera. (opzione 2) è errata perché il gruppo di tempo recente presente nel METAR conferma esplicitamente la pioggia recente sull'aeroporto."
         },
         {
           "n": 141,
@@ -13618,7 +13618,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "5-6",
-          "explanation": "Per rispondere occorre leggere l'intestazione della carta in figura, che distingue tra carta 'Forecast' (prevista) e 'Actual' (effettiva) e la relativa data/ora di riferimento."
+          "explanation": "L'intestazione della carta in figura riporta il tipo 'AS' (carta di analisi/osservazione al suolo, Actual) con data 6 novembre 1993 alle 0000 UTC: non si tratta quindi né di una carta di previsione (Forecast) né della data e ora indicate nella domanda, che sono entrambe errate. (opzione 1) è errata perché la carta è di tipo 'Actual' (effettiva/osservata), non 'Forecast' (prevista) come affermato. (opzione 3) Anche indicando le ore 12:00, l'affermazione resterebbe falsa: la carta riporta comunque il tipo 'Actual' e non 'Forecast', oltre alla data errata. (opzione 4) è errata perché la carta non è una carta dei venti, ma una carta di pressione al suolo con l'indicazione dei fronti."
         },
         {
           "n": 142,
@@ -13633,7 +13633,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "5-6",
-          "explanation": "La carta va identificata leggendo l'intestazione riportata in figura (tipo 'Actual' e data/ora), che qui corrisponde a un'osservazione effettiva al suolo."
+          "explanation": "L'intestazione della carta riporta il tipo 'AS' con data 6 novembre 1993 e ora 0000 UTC: si tratta quindi effettivamente di una carta 'Actual' (osservazione effettiva al suolo) di quella data e ora, come affermato. (opzione 2) è errata perché tutti gli elementi dell'affermazione (tipo carta, data e ora) corrispondono a quanto riportato nell'intestazione della figura. (opzione 3) è errata perché la carta è di tipo 'Actual' (effettiva/osservata), non una carta di previsione. (opzione 4) è errata perché la data riportata nell'intestazione è il 6 novembre, non il 16 novembre."
         },
         {
           "n": 143,
@@ -13648,7 +13648,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "5-6",
-          "explanation": "Osservando la posizione dei simboli frontali a Ovest della Sardegna nella figura, si riconosce la simbologia (triangoli pieni) tipica del fronte freddo."
+          "explanation": "Nella figura, a Ovest della Sardegna è disegnata una linea frontale con i triangoli pieni rivolti verso Est: è il simbolo standard del fronte freddo. (opzione 1) Il fronte caldo è rappresentato con semicerchi pieni, simbolo diverso da quello disegnato a Ovest della Sardegna nella figura. (opzione 2) Il fronte occluso è rappresentato dall'alternanza di triangoli e semicerchi, mentre nella figura compare la sola sequenza di triangoli tipica del fronte freddo. (opzione 4) In quella posizione la figura mostra una linea frontale, non un centro di alta pressione: la cella anticiclonica si trova altrove, sulla Scandinavia."
         },
         {
           "n": 144,
@@ -13663,7 +13663,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "5-6",
-          "explanation": "Il valore di pressione sulla Sardegna si legge interpolando le isobare della carta in figura, che indicano circa 1002 hPa."
+          "explanation": "Interpolando fra le isobare disegnate nella figura in prossimità della Sardegna (comprese fra i valori 1000 e 1004 hPa visibili sulla carta), la pressione sull'isola risulta di circa 1002 hPa. (opzione 2) 1012 hPa è un valore troppo alto rispetto alle isobare che attraversano l'area, che si mantengono attorno ai 1000-1004 hPa. (opzione 3) 980 hPa è un valore tipico del centro della depressione più intensa a Ovest, non della zona della Sardegna. (opzione 4) 1025 hPa è un valore da cella di alta pressione, incompatibile con le isobare relativamente basse presenti nell'area della Sardegna."
         },
         {
           "n": 145,
@@ -13678,7 +13678,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "5-6",
-          "explanation": "Le isobare chiuse ravvicinate sul Nord Ovest della Spagna nella figura delimitano un centro di bassa pressione non particolarmente intenso."
+          "explanation": "Sull'estremità Nord-Ovest della penisola iberica la figura mostra un sistema di isobare chiuse relativamente ravvicinate, con valori intorno ai 1004-1008 hPa: si tratta quindi del centro di una bassa pressione, ma non particolarmente profonda. (opzione 1) L'area è delimitata da isobare chiuse decrescenti verso il centro, tipiche di una bassa pressione, non di un'alta pressione in dissolvimento. (opzione 2) Nella figura in quella posizione non è disegnato alcun simbolo di fronte caldo associato al centro di bassa pressione. (opzione 4) Le isobare in quella zona non sono particolarmente ravvicinate fra loro, quindi non indicano un gradiente termico/barico particolarmente forte."
         },
         {
           "n": 146,
@@ -13693,7 +13693,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "5-6",
-          "explanation": "L'area di alta pressione (isobare che si allargano attorno a un centro 'H') è collocata sulla Scandinavia nella carta in figura."
+          "explanation": "Nella carta in figura, la lettera 'H' che indica un centro di alta pressione è posizionata sulla Scandinavia. (opzione 1) Sulla Grecia la figura non mostra alcun simbolo di alta pressione. (opzione 3) In Nord Africa non compare nella figura alcun centro di alta pressione segnalato. (opzione 4) Sul Mar Tirreno l'area è invece interessata dai sistemi frontali e dalla bassa pressione, non da un centro di alta pressione."
         },
         {
           "n": 147,
@@ -13708,7 +13708,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "5-7",
-          "explanation": "Sulla carta del vento in quota (figura 7) il valore massimo di vento riportato si trova sul Mediterraneo occidentale, al livello 360, pari a 110 nodi."
+          "explanation": "Sulla carta del vento massimo in quota, il simbolo del vento con il maggior numero di barbe/pennelli si trova sul Mediterraneo occidentale, in corrispondenza del livello di volo 360, con un'intensità di 110 nodi. (opzione 1) Il valore di 130 nodi al livello 410 non compare in figura sulla costa africana: le intensità massime riportate sono inferiori e associate a livelli diversi. (opzione 2) Il vento sul Mar Nero, per come rappresentato in figura, non raggiunge i 90 nodi al livello 360 indicati in questa opzione. (opzione 4) Sull'Italia il livello e l'intensità del vento massimo riportati in figura non corrispondono ai valori indicati, nettamente inferiori a quelli del massimo reale."
         },
         {
           "n": 148,
@@ -13723,7 +13723,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "5-7",
-          "explanation": "Nella figura si individua un promontorio di alta pressione in corrispondenza della lettera H sull'Europa centrale."
+          "explanation": "Nella figura è disegnata la lettera 'H', che indica un promontorio/cella di alta pressione, in corrispondenza dell'Europa centrale. (opzione 2) Verso la Sicilia la figura non riporta alcun simbolo di alta pressione. (opzione 3) è errata perché il promontorio di alta pressione è effettivamente individuabile nella figura, contrassegnato dalla lettera H. (opzione 4) Il simbolo H non è posizionato sulla Spagna, ma più a Est, sull'Europa centrale."
         },
         {
           "n": 149,
@@ -13738,7 +13738,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "5-7",
-          "explanation": "Sullo Stretto di Gibilterra la carta in figura riporta un vento forte da Ovest/Nord-Ovest al livello 360."
+          "explanation": "Sullo Stretto di Gibilterra la carta in figura riporta un simbolo di vento con più barbe (indicazione di intensità sostenuta) orientato da Ovest/Nord-Ovest, al livello di volo 360. (opzione 1) La direzione indicata (Est) è opposta a quella disegnata in figura, dove le barbe del simbolo del vento puntano da Ovest/Nord-Ovest. (opzione 2) Sottostima l'intensità del vento, classificandolo come moderato, mentre il numero di barbe sul simbolo indica un vento di forte intensità. (opzione 4) La figura rappresenta un vento in quota al livello 360, non condizioni di calma al suolo, dato estraneo a una carta del vento massimo in quota."
         },
         {
           "n": 150,
@@ -13753,7 +13753,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "5-7",
-          "explanation": "Sulla parte occidentale del Nord Africa la carta in figura mostra forti venti in quota provenienti da Ovest."
+          "explanation": "Sulla parte occidentale del Nord Africa, la carta in figura mostra i simboli del vento con le barbe orientate in modo da indicare una provenienza da Ovest. (opzione 1) La provenienza da Est non corrisponde all'orientamento dei simboli del vento disegnati in quell'area della figura. (opzione 2) Analogamente, i simboli non indicano una provenienza da Sud in quella zona della carta. (opzione 4) Neppure una provenienza da Nord è coerente con l'orientamento del vento rappresentato sulla parte occidentale del Nord Africa nella figura."
         },
         {
           "n": 151,
@@ -13767,7 +13767,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il VOLMET è una trasmissione radio continua e ininterrotta, su determinate frequenze VHF/HF, che ripete ciclicamente le osservazioni meteo di più aeroporti."
+          "explanation": "Il VOLMET è una trasmissione radio continua e ininterrotta, effettuata su determinate frequenze VHF (e HF per le trasmissioni a lunga distanza), che ripete ciclicamente le osservazioni meteorologiche di più aeroporti. (opzione 1) Il VOLMET non è emesso dai Centri Informazioni Volo, ma è una trasmissione automatica e continua dedicata alle informazioni meteo. (opzione 2) Non si tratta di una trasmissione periodica ogni 6 ore, ma di un servizio continuo e ininterrotto. (opzione 3) Analogamente, non è trasmesso ogni 4 ore, ma ininterrottamente, ripetendo ciclicamente il proprio contenuto."
         },
         {
           "n": 152,
@@ -13781,7 +13781,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "NOSIG significa che non sono previsti cambiamenti significativi di visibilità, nubi o fenomeni meteo (inclusi temporali o forte vento) nelle due ore successive."
+          "explanation": "NOSIG significa che non sono previsti cambiamenti significativi di visibilità, base delle nubi principali o fenomeni meteorologici (inclusi temporali o forti raffiche di vento) nelle due ore successive all'osservazione. (opzione 1) Non significa che non seguirà alcun altro messaggio: i bollettini meteo continuano comunque a essere emessi regolarmente. (opzione 2) è una definizione generica e imprecisa: NOSIG specifica esattamente quali parametri (visibilità, nubi, fenomeni) restano stabili, non un generico 'nessun cambiamento'. (opzione 3) NOSIG non si riferisce specificamente alla base delle nubi sopra i 500 ft, ma a un insieme più ampio di parametri meteorologici."
         },
         {
           "n": 153,
@@ -13795,7 +13795,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il SIGMET è l'informazione emessa da un ufficio meteorologico su fenomeni osservati o previsti che possono compromettere la sicurezza del volo in una determinata area."
+          "explanation": "Il SIGMET è l'informazione emessa da un ufficio meteorologico riguardante il verificarsi, osservato o previsto, di determinati fenomeni meteorologici pericolosi in una certa area, tali da poter influenzare la sicurezza del volo. (opzione 2) Gli avvisi sulle condizioni eccezionali del mare riguardano il traffico marittimo, non rientrano nella definizione di SIGMET. (opzione 3) Gli avvisi sull'operatività degli aeroporti sono forniti tramite NOTAM, non tramite il SIGMET, che riguarda fenomeni meteorologici. (opzione 4) Le previsioni di chiusura di un aeroporto non sono informazioni meteorologiche in senso stretto e non corrispondono alla definizione di SIGMET."
         },
         {
           "n": 154,
@@ -13809,7 +13809,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il SIGMET è disponibile al pilota sia a terra presso l'ufficio meteo aeroportuale, sia in volo tramite le trasmissioni VOLMET su frequenze VHF ed HF dedicate."
+          "explanation": "Il SIGMET è disponibile al pilota sia a terra, presso l'ufficio meteorologico aeroportuale, sia in volo tramite le trasmissioni VOLMET su frequenze dedicate VHF ed HF. (opzione 1) Non è fornito solo su richiesta esplicita all'ente ATS: è normalmente disponibile e diffuso attraverso i canali meteo standard. (opzione 2) Limitarlo alla sola disponibilità a terra è errato: il SIGMET è accessibile anche in volo attraverso il VOLMET. (opzione 3) Limitarlo alla sola disponibilità in volo è altrettanto errato: il SIGMET è consultabile anche a terra prima della partenza."
         },
         {
           "n": 155,
@@ -13823,7 +13823,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il SIGMET copre fenomeni pericolosi per il volo come aree temporalesche attive, turbolenza forte e forti formazioni di ghiaccio, non semplici fenomeni locali come nebbia o rovesci isolati."
+          "explanation": "Il SIGMET copre fenomeni meteorologici pericolosi per la sicurezza del volo su un'area estesa, come aree temporalesche attive, turbolenza forte e forti formazioni di ghiaccio. (opzione 1) La formazione di nebbia su un singolo aeroporto è un'informazione tipicamente riportata nel METAR/TAF locale, non nel SIGMET, che riguarda fenomeni estesi su un'area più ampia. (opzione 2) Semplici rovesci di pioggia o neve, se non associati a fenomeni più pericolosi, non rientrano tipicamente tra i fenomeni oggetto del SIGMET. (opzione 4) Le condizioni eccezionali del mare riguardano la navigazione marittima e non sono un fenomeno tipico del SIGMET aeronautico."
         },
         {
           "n": 156,
@@ -13837,7 +13837,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il vento in quota viene sempre comunicato al pilota in gradi veri (riferiti al Nord geografico)."
+          "explanation": "Il vento in quota viene sempre comunicato al pilota in gradi veri, cioè riferiti al Nord geografico, poiché in quota non ha senso il riferimento all'orientamento magnetico delle piste. (opzione 2) I gradi magnetici sono usati per il vento al suolo, riferito all'orientamento delle piste, non per il vento in quota. (opzione 3) La nomenclatura marina non è utilizzata nella comunicazione aeronautica del vento in quota. (opzione 4) I segnali ottici nel quadro segnali non sono un metodo utilizzato per comunicare il vento in quota, che viene fornito tramite messaggi meteo o dall'ATC."
         },
         {
           "n": 157,
@@ -13851,7 +13851,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il vento al suolo viene comunicato al pilota in gradi magnetici, coerentemente con l'orientamento delle piste."
+          "explanation": "Il vento al suolo viene comunicato al pilota in gradi magnetici, coerentemente con l'orientamento magnetico delle piste, per facilitare il confronto diretto con la direzione di decollo o atterraggio. (opzione 1) I gradi veri sono utilizzati per il vento in quota, non per quello al suolo, che è invece riferito al Nord magnetico. (opzione 3) La nomenclatura marina non è utilizzata nella comunicazione aeronautica del vento al suolo. (opzione 4) I segnali ottici nel quadro segnali non sono il metodo standard per comunicare la direzione e intensità del vento al suolo."
         },
         {
           "n": 158,
@@ -13865,7 +13865,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le condizioni della neve e l'azione frenante sulla pista sono comunicate tramite un messaggio dedicato, lo SNOWTAM."
+          "explanation": "Le condizioni della neve sulla pista e l'azione frenante disponibile sono comunicate tramite un messaggio dedicato, lo SNOWTAM, emesso specificamente per queste condizioni. (opzione 1) Non esiste un avviso denominato in questo modo per le condizioni della neve; il messaggio standard dedicato è lo SNOWTAM. (opzione 2) Il NOTAM di categoria C riguarda altre tipologie di informazioni aeronautiche, non è il messaggio specifico per le condizioni della neve in pista. (opzione 4) 'Stato della pista' non è la denominazione tecnica del messaggio dedicato, che è invece lo SNOWTAM."
         },
         {
           "n": 159,
@@ -13879,7 +13879,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nell'emisfero Nord, una deriva verso destra indica che si sta volando da una zona di alta pressione verso una di bassa pressione: lo stesso principio alla base della regola \"High to Low, look out below\" sull'altimetria."
+          "explanation": "Nell'emisfero Nord, una deriva verso destra rispetto alla rotta prevista indica che il velivolo sta volando da una zona di alta pressione verso una di bassa pressione, coerentemente con la circolazione dell'aria attorno ai centri di pressione. (opzione 2) Volare da una zona di bassa pressione verso una di alta produrrebbe una deriva nella direzione opposta, cioè verso sinistra, non verso destra. (opzione 3) Se il volo fosse parallelo alle isoipse (linee di uguale altezza geopotenziale), non si osserverebbe alcuna deriva sistematica dovuta al campo di pressione. (opzione 4) è errata perché una delle opzioni proposte (il volo da alta verso bassa pressione) descrive correttamente il fenomeno osservato."
         },
         {
           "n": 160,
@@ -13893,7 +13893,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Le informazioni meteorologiche prima della partenza si ottengono presso l'ufficio meteorologico aeroportuale."
+          "explanation": "Le informazioni meteorologiche prima della partenza si ottengono normalmente presso l'ufficio meteorologico aeroportuale, l'ente preposto a fornire i dati e la documentazione meteo per il volo. (opzione 2) Il C.D.A. o A.R.O. (Ufficio Notizie Aeronautiche) fornisce informazioni aeronautiche generali e di pianificazione, non è la fonte primaria delle informazioni meteorologiche. (opzione 3) La direzione aeroportuale si occupa della gestione amministrativa e operativa dello scalo, non della diffusione delle informazioni meteorologiche. (opzione 4) Il controllore di Torre fornisce informazioni operative per il traffico in prossimità dell'aeroporto, non è la fonte per la consultazione meteo pre-volo."
         },
         {
           "n": 161,
