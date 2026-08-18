@@ -25525,7 +25525,8 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per una data potenza sono possibili due soluzioni di volo rettilineo orizzontale a due velocità diverse: una nel primo regime (stabile) e una nel secondo regime (instabile). Le altre risposte sono errate: \"nel punto più basso della curva e sulla tangente\" descrive concetti geometrici legati ad altre velocità caratteristiche (minima potenza, massima efficienza), non alle due soluzioni per una data potenza; \"sono due punti arbitrari non riportati sulla curva\" nega la natura ben definita di queste due soluzioni; \"entrambe nel campo di primo regime\" ignora che una delle due soluzioni cade proprio nel secondo regime."
+          "explanation": "Per una data potenza sono possibili due soluzioni di volo rettilineo orizzontale a due velocità diverse: una nel primo regime (stabile) e una nel secondo regime (instabile). Le altre risposte sono errate: \"nel punto più basso della curva e sulla tangente\" descrive concetti geometrici legati ad altre velocità caratteristiche (minima potenza, massima efficienza), non alle due soluzioni per una data potenza; \"sono due punti arbitrari non riportati sulla curva\" nega la natura ben definita di queste due soluzioni; \"entrambe nel campo di primo regime\" ignora che una delle due soluzioni cade proprio nel secondo regime.",
+          "fig": "8-1"
         },
         {
           "n": 89,
