@@ -16798,7 +16798,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: La CAS corretta dell' errore di compressibilità. L'opzione A è errata perché la CAS corretta degli errori di postazione della presa statica non produce l'EAS: la presa statica influenza l'altimetro, non la CAS in senso stretto. L'opzione C è errata perché la correzione degli errori di temperatura produce la TAS, non l'EAS. L'opzione D è errata perché l'errore di pressione non è il fattore discriminante tra CAS e EAS: è l'errore di compressibilità."
+          "explanation": "L'EAS (Equivalent Air Speed) è la velocità ottenuta correggendo la CAS (Calibrated Air Speed) per l'errore di compressibilità: alle alte velocità e quote l'aria che entra nella presa dinamica del tubo di Pitot viene compressa, facendo leggere una velocità leggermente superiore a quella reale; l'EAS è appunto la CAS depurata da questo effetto. Per questo la risposta corretta è: la CAS corretta dell'errore di compressibilità. L'opzione A è errata perché la correzione degli errori di postazione della presa statica riguarda l'altimetro, non la CAS in senso stretto, e non produce l'EAS. L'opzione C è errata perché la correzione degli errori di temperatura produce la TAS, non l'EAS. L'opzione D è errata perché l'errore di pressione non è il fattore discriminante tra CAS e EAS: è l'errore di compressibilità."
         },
         {
           "n": 51,
@@ -16812,7 +16812,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: La EAS corretta dell'errore di pressione e temperatura. L'opzione A è errata perché la EAS corretta del solo errore di pressione non produce la TAS: manca la correzione termica (temperatura). L'opzione C è errata perché la correzione dell'errore di postazione della presa statica non produce la TAS. L'opzione D è errata perché l'errore di compressibilità è già stato corretto per passare da CAS a EAS, quindi non va corretto nuovamente."
+          "explanation": "La TAS (True Air Speed) è la velocità reale dell'aeromobile rispetto alla massa d'aria in cui vola: si ottiene correggendo la EAS per la densità dell'aria, che dipende sia dalla pressione (quota) sia dalla temperatura, tipicamente con il computer di volo (CRP-5) o con la regola approssimata dell'1% di incremento ogni 600 ft di quota. Per questo la risposta corretta è: la EAS corretta dell'errore di pressione e temperatura. L'opzione A è errata perché la EAS corretta del solo errore di pressione non produce la TAS: manca la correzione termica (temperatura). L'opzione C è errata perché la correzione dell'errore di postazione della presa statica non produce la TAS. L'opzione D è errata perché l'errore di compressibilità è già stato corretto per passare da CAS a EAS, quindi non va corretto nuovamente."
         },
         {
           "n": 52,
