@@ -18011,7 +18011,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per allontanarsi dalla stazione lungo il QDR 150° partendo dalla posizione attuale (QDR 138°), il pilota deve assumere una prua che intercetti quella radiale in uscita con un angolo di taglio ragionevole: la prua 180° realizza questa intercettazione. L'opzione 3 (360°) e l'opzione 4 (090°) sono prue che si allontanano dalla radiale 150° anziché convergervi, per cui non porterebbero mai il velivolo su quel QDR. L'opzione 2 (270°) converge sì geometricamente sul QDR 150°, ma con un angolo di intercettamento molto più stretto e indiretto rispetto alla prua 180°, un percorso inefficiente e non standard per allontanarsi lungo la radiale richiesta, rispetto alla soluzione corretta."
+          "explanation": "Per allontanarsi dalla stazione lungo il QDR 150° partendo dalla posizione attuale (QDR 138°), il pilota deve assumere una prua che intercetti quella radiale in uscita con un angolo di taglio ragionevole: la prua 180° realizza questa intercettazione. L'opzione C (360°) e l'opzione D (090°) sono prue che si allontanano dalla radiale 150° anziché convergervi, per cui non porterebbero mai il velivolo su quel QDR. L'opzione A (270°) converge sì geometricamente sul QDR 150°, ma con un angolo di intercettamento molto più stretto e indiretto rispetto alla prua 180°, un percorso inefficiente e non standard per allontanarsi lungo la radiale richiesta, rispetto alla soluzione corretta."
         },
         {
           "n": 137,
