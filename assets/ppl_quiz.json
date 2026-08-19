@@ -17232,10 +17232,10 @@
             "FL 75",
             "FL 85"
           ],
-          "correct": 2,
+          "correct": 3,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "La risposta corretta è: FL 75. Per un volo con rotta 258° (sud-ovest), la quota semicircolare minima in VFR segue la regola: rotte da 000° a 179° → quote dispari + 500 ft (3000, 5000, 7000...); rotte da 180° a 359° → quote pari + 500 ft (2000, 4000, 6000...). Con TC=258° (emisfero occidentale per rotte SW), la quota minima è FL 75. L'opzione A (FL 50) è errata perché è insufficiente. L'opzione B (FL 55) è errata. L'opzione D (FL 85) è errata perché la minima è FL 75."
+          "explanation": "La risposta corretta è: FL 85. Regola VFR dei livelli semicircolari: le quote VFR (sempre X500 ft) si dividono in due serie in base alla rotta magnetica (TC) — rotte da 000° a 179° usano la serie dispari (FL35, 55, 75, 95...), rotte da 180° a 359° usano la serie pari (FL45, 65, 85, 105...). Per il volo da Rimini a Firenze TC=258°, che ricade nel settore 180°-359°: va usata la serie pari, quindi il primo livello disponibile è FL 85. L'opzione A (FL 50) è errata perché non è un livello semicircolare valido (i livelli VFR terminano sempre in 500 ft, es. 8500, non 5000). L'opzione B (FL 55) è errata perché appartiene alla serie dispari (000°-179°), non applicabile a una rotta di 258°. L'opzione C (FL 75) è errata per lo stesso motivo: è un livello della serie dispari, incompatibile con una rotta nel settore 180°-359°."
         },
         {
           "n": 82,
@@ -17262,10 +17262,10 @@
             "FL 60",
             "FL 65"
           ],
-          "correct": 3,
+          "correct": 1,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "La risposta corretta è: FL 65. Per un volo con rotta 059° (nord-est), la quota semicircolare minima VFR è la prima quota dispari + 500 ft disponibile: FL 65. L'opzione A (FL 50) è errata perché insufficiente. L'opzione B (FL 55) è errata. L'opzione C (FL 60) è errata perché FL 60 è una quota pari e la rotta 059° richiede quote dispari."
+          "explanation": "La risposta corretta è: FL 55. Regola VFR dei livelli semicircolari: le quote VFR (sempre X500 ft) si dividono in due serie in base alla rotta magnetica (TC) — rotte da 000° a 179° usano la serie dispari (FL35, 55, 75, 95...), rotte da 180° a 359° usano la serie pari (FL45, 65, 85, 105...). Per il volo da Firenze a Forlì TC=059°, che ricade nel settore 000°-179°: va usata la serie dispari, quindi il primo livello disponibile è FL 55. L'opzione A (FL 50) è errata perché non è un livello semicircolare valido (i livelli VFR terminano sempre in 500 ft, es. 5500, non 5000). L'opzione C (FL 60) è errata per lo stesso motivo: non è un livello VFR valido. L'opzione D (FL 65) è errata perché appartiene alla serie pari (180°-359°), non applicabile a una rotta di 059°."
         },
         {
           "n": 84,
