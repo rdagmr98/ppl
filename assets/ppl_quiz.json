@@ -3960,7 +3960,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le precauzioni per l'estintore a CO2 di bordo impongono di ventilare al massimo l'abitacolo dopo l'uso e di non respirare il gas, che soffoca l'incendio togliendo ossigeno ma è pericoloso anche per le persone. Le altre risposte sono errate: non è vero che si tratti di un gas innocuo che non richieda alcuna precauzione (opzione 1), essendo il CO2 asfissiante; respirarlo a pieni polmoni (opzione 3) è l'esatto opposto della precauzione corretta; chiedere istruzioni via radio (opzione 4) non è una precauzione praticabile nell'immediatezza dell'emergenza."
+          "explanation": "Le precauzioni per l'estintore a CO2 di bordo impongono di ventilare al massimo l'abitacolo dopo l'uso e di non respirare il gas, che soffoca l'incendio togliendo ossigeno ma è pericoloso anche per le persone. Le altre risposte sono errate: non è vero che si tratti di un gas innocuo che non richieda alcuna precauzione (opzione A), essendo il CO2 asfissiante; respirarlo a pieni polmoni (opzione B) è l'esatto opposto della precauzione corretta; chiedere istruzioni via radio (opzione D) non è una precauzione praticabile nell'immediatezza dell'emergenza."
         },
         {
           "n": 22,
@@ -4184,7 +4184,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il meccanismo biella-manovella converte il moto rettilineo alternato del pistone nel moto rotatorio continuo dell'albero motore. Le altre risposte sono errate: non converte un moto rotatorio in rettilineo (opzione 1), che è il verso opposto della trasformazione reale; non ha funzione di lubrificazione delle pareti (opzione 3), compito dell'impianto olio; non è una pompa dell'olio (opzione 4), organo meccanico completamente diverso."
+          "explanation": "Il meccanismo biella-manovella converte il moto rettilineo alternato del pistone nel moto rotatorio continuo dell'albero motore. Le altre risposte sono errate: non converte un moto rotatorio in rettilineo (opzione A), che è il verso opposto della trasformazione reale; non ha funzione di lubrificazione delle pareti (opzione B), compito dell'impianto olio; non è una pompa dell'olio (opzione D), organo meccanico completamente diverso."
         },
         {
           "n": 38,
@@ -4492,7 +4492,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il tubo di Pitot capta la pressione totale del flusso d'aria e la invia all'anemometro, che la confronta con la pressione statica per ricavare la velocità indicata. Le altre risposte sono errate: non invia la sola pressione statica (opzione 1), captata invece da una presa separata; la pressione totale non alimenta l'altimetro (opzione 2), che utilizza solo la pressione statica; non alimenta nemmeno il variometro (opzione 4), anch'esso basato sulla sola pressione statica."
+          "explanation": "Il tubo di Pitot capta la pressione totale del flusso d'aria e la invia all'anemometro, che la confronta con la pressione statica per ricavare la velocità indicata. Le altre risposte sono errate: non invia la sola pressione statica (opzione A), captata invece da una presa separata; la pressione totale non alimenta l'altimetro (opzione C), che utilizza solo la pressione statica; non alimenta nemmeno il variometro (opzione D), anch'esso basato sulla sola pressione statica."
         },
         {
           "n": 60,
@@ -4520,7 +4520,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Attivando la statica alternata, che preleva aria dall'interno della cabina dove la pressione è tipicamente leggermente inferiore a quella esterna, gli strumenti risentono di questa lieve differenza. Le altre risposte sono errate: non è vero che nulla cambi (opzione 1), essendoci uno scarto di pressione misurabile; dire semplicemente che 'segnano più basso' (opzione 3) è impreciso senza specificare che si tratta di un errore di pressione statica; l'argomento non è privo di interesse per il pilota (opzione 4), che deve conoscere l'entità dell'errore introdotto."
+          "explanation": "Attivando la statica alternata, che preleva aria dall'interno della cabina dove la pressione è tipicamente leggermente inferiore a quella esterna, gli strumenti risentono di questa lieve differenza. Le altre risposte sono errate: non è vero che nulla cambi (opzione B), essendoci uno scarto di pressione misurabile; dire semplicemente che 'segnano più basso' (opzione C) è impreciso senza specificare che si tratta di un errore di pressione statica; l'argomento non è privo di interesse per il pilota (opzione D), che deve conoscere l'entità dell'errore introdotto."
         },
         {
           "n": 62,
@@ -5612,7 +5612,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un colore nocciola/marrone chiaro all'interno dei collettori di scarico (opzione 2) è l'indicatore visivo di una combustione ben bilanciata, senza depositi di fuliggine eccessivi né segni di smagrimento drastico. Le altre risposte sono errate: il nero fuliggine spesso (opzione 1) segnala una miscela troppo ricca con carburante incombusto; il bianco candido (opzione 3) indica al contrario surriscaldamento o miscela troppo povera; il verde scuro/bluastro (opzione 4) non corrisponde ad alcuna condizione di combustione realmente osservabile in questo contesto."
+          "explanation": "Un colore nocciola/marrone chiaro all'interno dei collettori di scarico (opzione B) è l'indicatore visivo di una combustione ben bilanciata, senza depositi di fuliggine eccessivi né segni di smagrimento drastico. Le altre risposte sono errate: il nero fuliggine spesso (opzione A) segnala una miscela troppo ricca con carburante incombusto; il bianco candido (opzione C) indica al contrario surriscaldamento o miscela troppo povera; il verde scuro/bluastro (opzione D) non corrisponde ad alcuna condizione di combustione realmente osservabile in questo contesto."
         },
         {
           "n": 140,
@@ -5626,7 +5626,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Un uso eccessivo dei freni durante un lungo rullaggio (opzione 1) surriscalda dischi e pastiglie fino a causare perdita di efficacia frenante (brake fade) e, nei casi più gravi, il rischio di esplosione dei pneumatici o incendio del carrello. Le altre risposte sono errate: non si verifica una ricarica troppo rapida del circuito idraulico (opzione 2), concetto estraneo al surriscaldamento meccanico dei freni; il liquido freni non diminuisce per evaporazione in queste condizioni (opzione 3), non raggiungendo temperature così estreme da vaporizzarlo; il ruotino anteriore (opzione 4) non è nemmeno interessato dai freni principali, che agiscono sulle ruote del carrello principale."
+          "explanation": "Un uso eccessivo dei freni durante un lungo rullaggio (opzione A) surriscalda dischi e pastiglie fino a causare perdita di efficacia frenante (brake fade) e, nei casi più gravi, il rischio di esplosione dei pneumatici o incendio del carrello. Le altre risposte sono errate: non si verifica una ricarica troppo rapida del circuito idraulico (opzione B), concetto estraneo al surriscaldamento meccanico dei freni; il liquido freni non diminuisce per evaporazione in queste condizioni (opzione C), non raggiungendo temperature così estreme da vaporizzarlo; il ruotino anteriore (opzione D) non è nemmeno interessato dai freni principali, che agiscono sulle ruote del carrello principale."
         },
         {
           "n": 141,
@@ -5640,7 +5640,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'acqua, più densa della benzina avio e non miscibile con essa, si deposita sul fondo del campionatore in forma di bolle ben visibili (opzione 3). Le altre risposte sono errate: l'acqua non galleggia sopra il carburante (opzione 1), essendo più pesante e non più leggera; non si dissolve istantaneamente (opzione 2), poiché acqua e benzina restano fasi separate; non evapora semplicemente esposta all'aria (opzione 4), motivo per cui resta visibile e va rimossa fisicamente tramite lo spurgo."
+          "explanation": "L'acqua, più densa della benzina avio e non miscibile con essa, si deposita sul fondo del campionatore in forma di bolle ben visibili (opzione C). Le altre risposte sono errate: l'acqua non galleggia sopra il carburante (opzione A), essendo più pesante e non più leggera; non si dissolve istantaneamente (opzione B), poiché acqua e benzina restano fasi separate; non evapora semplicemente esposta all'aria (opzione D), motivo per cui resta visibile e va rimossa fisicamente tramite lo spurgo."
         },
         {
           "n": 142,
@@ -5654,7 +5654,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La deriva apparente è causata dalla rotazione terrestre stessa: il giroscopio mantiene il proprio asse fisso rispetto allo spazio assoluto, mentre la Terra vi ruota sotto, in misura massima (circa 15°/h) ai poli (opzione 2). Le altre risposte sono errate: l'attrito dei cuscinetti (opzione 1) causa semmai una deriva reale legata a difetti meccanici, non l'errore apparente descritto; l'interferenza di campi magnetici (opzione 3) non riguarda un girodirezionale, strumento non magnetico; le virate strette (opzione 4) causano l'errore di precessione da virata, un fenomeno diverso e aggiuntivo rispetto alla deriva apparente."
+          "explanation": "La deriva apparente è causata dalla rotazione terrestre stessa: il giroscopio mantiene il proprio asse fisso rispetto allo spazio assoluto, mentre la Terra vi ruota sotto, in misura massima (circa 15°/h) ai poli (opzione B). Le altre risposte sono errate: l'attrito dei cuscinetti (opzione A) causa semmai una deriva reale legata a difetti meccanici, non l'errore apparente descritto; l'interferenza di campi magnetici (opzione C) non riguarda un girodirezionale, strumento non magnetico; le virate strette (opzione D) causano l'errore di precessione da virata, un fenomeno diverso e aggiuntivo rispetto alla deriva apparente."
         },
         {
           "n": 143,
@@ -5668,7 +5668,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il Primary Flight Display digitale integra e sostituisce, in un unico schermo, le indicazioni del tradizionale pannello a T (orizzonte, anemometro, altimetro, virosbandometro, girodirezionale) (opzione 3). Le altre risposte sono errate: gli strumenti motore e carburante (opzione 1) sono tipicamente mostrati sul MFD, non sul PFD; il PFD non si limita a GPS e mappe (opzione 2), funzione propria piuttosto del MFD in modalità navigazione; il pannello degli interruttori breaker (opzione 4) è un componente fisico separato, non sostituito da alcun display elettronico."
+          "explanation": "Il Primary Flight Display digitale integra e sostituisce, in un unico schermo, le indicazioni del tradizionale pannello a T (orizzonte, anemometro, altimetro, virosbandometro, girodirezionale) (opzione C). Le altre risposte sono errate: gli strumenti motore e carburante (opzione A) sono tipicamente mostrati sul MFD, non sul PFD; il PFD non si limita a GPS e mappe (opzione B), funzione propria piuttosto del MFD in modalità navigazione; il pannello degli interruttori breaker (opzione D) è un componente fisico separato, non sostituito da alcun display elettronico."
         },
         {
           "n": 144,
@@ -5682,7 +5682,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "I sistemi anti-icing agiscono in via preventiva impedendo che il ghiaccio si formi, mentre i sistemi de-icing intervengono dopo, rimuovendo il ghiaccio già accumulato (opzione 1). Le altre risposte sono errate: non è vero che l'anti-icing operi solo a terra e il de-icing solo in volo (opzione 2), potendo entrambi i sistemi essere usati in volo; non sono affatto sinonimi (opzione 3), differendo proprio per il momento di intervento, preventivo o successivo; l'attribuzione dei mezzi tecnici è invertita (opzione 4), poiché sono le guaine pneumatiche a rimuovere il ghiaccio già formato (de-icing) mentre l'aria calda tipicamente previene (anti-icing)."
+          "explanation": "I sistemi anti-icing agiscono in via preventiva impedendo che il ghiaccio si formi, mentre i sistemi de-icing intervengono dopo, rimuovendo il ghiaccio già accumulato (opzione A). Le altre risposte sono errate: non è vero che l'anti-icing operi solo a terra e il de-icing solo in volo (opzione B), potendo entrambi i sistemi essere usati in volo; non sono affatto sinonimi (opzione C), differendo proprio per il momento di intervento, preventivo o successivo; l'attribuzione dei mezzi tecnici è invertita (opzione D), poiché sono le guaine pneumatiche a rimuovere il ghiaccio già formato (de-icing) mentre l'aria calda tipicamente previene (anti-icing)."
         },
         {
           "n": 145,
@@ -5696,7 +5696,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La capacità di una batteria si misura in Ampere-ora (Ah) (opzione 3), un'unità che esprime quanta corrente può erogare per quanto tempo. Le altre risposte sono errate: il Volt (opzione 1) misura la tensione, non la capacità energetica accumulata; il Watt (opzione 2) misura la potenza istantanea, non la capacità di erogazione nel tempo; l'Ohm (opzione 4) misura la resistenza elettrica, grandezza estranea alla capacità di una batteria."
+          "explanation": "La capacità di una batteria si misura in Ampere-ora (Ah) (opzione C), un'unità che esprime quanta corrente può erogare per quanto tempo. Le altre risposte sono errate: il Volt (opzione A) misura la tensione, non la capacità energetica accumulata; il Watt (opzione B) misura la potenza istantanea, non la capacità di erogazione nel tempo; l'Ohm (opzione D) misura la resistenza elettrica, grandezza estranea alla capacità di una batteria."
         },
         {
           "n": 146,
@@ -5710,7 +5710,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Nella monoscocca pura è il rivestimento esterno stesso, irrigidito e autoportante, a sopportare la quasi totalità dei carichi strutturali, senza il contributo di ordinate o correntini interni (opzione 3). Le altre risposte sono errate: la struttura reticolare in tubi d'acciaio (opzione 1) affida il carico all'intelaiatura interna, con il rivestimento solo di forma; la semimonoscocca (opzione 2) ripartisce invece il carico tra rivestimento e ordinate/correntini interni; la struttura geodetica (opzione 4) distribuisce il carico su una rete di elementi elicoidali incrociati, un principio costruttivo diverso da quello monoscocca."
+          "explanation": "Nella monoscocca pura è il rivestimento esterno stesso, irrigidito e autoportante, a sopportare la quasi totalità dei carichi strutturali, senza il contributo di ordinate o correntini interni (opzione C). Le altre risposte sono errate: la struttura reticolare in tubi d'acciaio (opzione A) affida il carico all'intelaiatura interna, con il rivestimento solo di forma; la semimonoscocca (opzione B) ripartisce invece il carico tra rivestimento e ordinate/correntini interni; la struttura geodetica (opzione D) distribuisce il carico su una rete di elementi elicoidali incrociati, un principio costruttivo diverso da quello monoscocca."
         },
         {
           "n": 147,
@@ -5724,7 +5724,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'anti-ice termico mantiene costantemente caldi i bordi d'attacco, tramite aria calda spillata dal motore o resistenze elettriche, impedendo al ghiaccio di formarsi anziché rimuoverlo dopo (opzione 2). Le altre risposte sono errate: gonfiare guaine di gomma per rompere il ghiaccio già formato (opzione 1) descrive il sistema pneumatico de-icing, non quello termico anti-icing; spruzzare alcol sul parabrezza (opzione 3) è un sistema specifico per il solo parabrezza, non per i bordi d'attacco alari; il calore da attrito ad alta velocità (opzione 4) è un fenomeno rilevante solo a velocità molto superiori a quelle dell'aviazione generale, non il principio di funzionamento di questo sistema."
+          "explanation": "L'anti-ice termico mantiene costantemente caldi i bordi d'attacco, tramite aria calda spillata dal motore o resistenze elettriche, impedendo al ghiaccio di formarsi anziché rimuoverlo dopo (opzione B). Le altre risposte sono errate: gonfiare guaine di gomma per rompere il ghiaccio già formato (opzione A) descrive il sistema pneumatico de-icing, non quello termico anti-icing; spruzzare alcol sul parabrezza (opzione C) è un sistema specifico per il solo parabrezza, non per i bordi d'attacco alari; il calore da attrito ad alta velocità (opzione D) è un fenomeno rilevante solo a velocità molto superiori a quelle dell'aviazione generale, non il principio di funzionamento di questo sistema."
         },
         {
           "n": 148,
@@ -5738,7 +5738,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Nei sistemi EFIS l'Air Data Computer (ADC) è il modulo elettronico dedicato che elabora i segnali di pressione dinamica e statica per calcolare digitalmente IAS, altitudine e rateo di salita (opzione 1). Le altre risposte sono errate: l'AHRS (opzione 2) elabora dati di assetto e prua tramite sensori inerziali, non le pressioni Pitot-statiche; il FADEC (opzione 3) gestisce i parametri motore, non la strumentazione anemo-altimetrica; il magnetometro (opzione 4) fornisce il riferimento di prua magnetica, un dato indipendente dalle pressioni elaborate dall'ADC."
+          "explanation": "Nei sistemi EFIS l'Air Data Computer (ADC) è il modulo elettronico dedicato che elabora i segnali di pressione dinamica e statica per calcolare digitalmente IAS, altitudine e rateo di salita (opzione A). Le altre risposte sono errate: l'AHRS (opzione B) elabora dati di assetto e prua tramite sensori inerziali, non le pressioni Pitot-statiche; il FADEC (opzione C) gestisce i parametri motore, non la strumentazione anemo-altimetrica; il magnetometro (opzione D) fornisce il riferimento di prua magnetica, un dato indipendente dalle pressioni elaborate dall'ADC."
         },
         {
           "n": 149,
@@ -5752,7 +5752,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Mettere l'elica in bandiera ruota le pale fino ad allinearle quasi parallele alla direzione di volo, arrestando la rotazione di un motore fermo e riducendo al minimo la resistenza aggiuntiva (opzione 3). Le altre risposte sono errate: un passo piatto per massima spinta (opzione 1) è l'assetto opposto, usato per la massima trazione e non per minimizzare la resistenza di un motore fermo; l'inversione delle pale per il reverse (opzione 2) è una funzione distinta, usata in frenata a terra e non per un motore piantato in volo; le pale non si staccano automaticamente (opzione 4), ipotesi che descriverebbe un cedimento strutturale e non una procedura operativa controllata."
+          "explanation": "Mettere l'elica in bandiera ruota le pale fino ad allinearle quasi parallele alla direzione di volo, arrestando la rotazione di un motore fermo e riducendo al minimo la resistenza aggiuntiva (opzione C). Le altre risposte sono errate: un passo piatto per massima spinta (opzione A) è l'assetto opposto, usato per la massima trazione e non per minimizzare la resistenza di un motore fermo; l'inversione delle pale per il reverse (opzione B) è una funzione distinta, usata in frenata a terra e non per un motore piantato in volo; le pale non si staccano automaticamente (opzione D), ipotesi che descriverebbe un cedimento strutturale e non una procedura operativa controllata."
         },
         {
           "n": 150,
@@ -5766,7 +5766,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "FADEC (Full Authority Digital Engine Control) è un computer che gestisce elettronicamente e in piena autorità iniezione, accensione e dosaggio miscela per ottimizzare le prestazioni del motore (opzione 1). Le altre risposte sono errate: 'Flight Attitude Display Electronic Computer' (opzione 2) è un acronimo inventato che non corrisponde a FADEC né a un sistema reale con questa sigla; 'Fuel And Drag Economic Calculator' (opzione 3) è ugualmente un'espansione fittizia priva di riscontro tecnico; un sistema meccanico a passo variabile (opzione 4) è l'opposto concettuale del FADEC, che è invece un controllo digitale elettronico del motore, non un meccanismo dell'elica."
+          "explanation": "FADEC (Full Authority Digital Engine Control) è un computer che gestisce elettronicamente e in piena autorità iniezione, accensione e dosaggio miscela per ottimizzare le prestazioni del motore (opzione A). Le altre risposte sono errate: 'Flight Attitude Display Electronic Computer' (opzione B) è un acronimo inventato che non corrisponde a FADEC né a un sistema reale con questa sigla; 'Fuel And Drag Economic Calculator' (opzione C) è ugualmente un'espansione fittizia priva di riscontro tecnico; un sistema meccanico a passo variabile (opzione D) è l'opposto concettuale del FADEC, che è invece un controllo digitale elettronico del motore, non un meccanismo dell'elica."
         },
         {
           "n": 151,
@@ -5780,7 +5780,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "I freni idraulici sfruttano il principio di Pascal: la pressione applicata su un fluido incomprimibile si trasmette inalterata in ogni direzione, spingendo le pastiglie contro il disco (opzione 3). Le altre risposte sono errate: il principio di Bernoulli/Venturi (opzione 1) spiega la formazione della miscela nel carburatore, non l'azionamento idraulico dei freni; la legge di Boyle sui gas perfetti (opzione 2) riguarda fluidi comprimibili, mentre l'impianto frenante lavora con un liquido incomprimibile; la prima legge di Newton sull'inerzia (opzione 4) descrive il comportamento generale dei corpi in assenza di forze, non il meccanismo di trasmissione della pressione idraulica."
+          "explanation": "I freni idraulici sfruttano il principio di Pascal: la pressione applicata su un fluido incomprimibile si trasmette inalterata in ogni direzione, spingendo le pastiglie contro il disco (opzione C). Le altre risposte sono errate: il principio di Bernoulli/Venturi (opzione A) spiega la formazione della miscela nel carburatore, non l'azionamento idraulico dei freni; la legge di Boyle sui gas perfetti (opzione B) riguarda fluidi comprimibili, mentre l'impianto frenante lavora con un liquido incomprimibile; la prima legge di Newton sull'inerzia (opzione D) descrive il comportamento generale dei corpi in assenza di forze, non il meccanismo di trasmissione della pressione idraulica."
         },
         {
           "n": 152,
@@ -5794,7 +5794,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La busbar è la barra conduttrice centrale dell'impianto elettrico a cui si collegano le fonti di energia (batteria, alternatore) e da cui si diramano tutti i circuiti delle utenze di bordo (opzione 2). Le altre risposte sono errate: non è un'antenna radio VHF (opzione 1), componente di natura e funzione completamente diverse; non è il cavo di scarico dell'elettricità statica alare (opzione 3), che è invece uno scaricatore passivo esterno; non è un meccanismo di movimentazione dei flap (opzione 4), del tutto estraneo all'impianto elettrico."
+          "explanation": "La busbar è la barra conduttrice centrale dell'impianto elettrico a cui si collegano le fonti di energia (batteria, alternatore) e da cui si diramano tutti i circuiti delle utenze di bordo (opzione B). Le altre risposte sono errate: non è un'antenna radio VHF (opzione A), componente di natura e funzione completamente diverse; non è il cavo di scarico dell'elettricità statica alare (opzione C), che è invece uno scaricatore passivo esterno; non è un meccanismo di movimentazione dei flap (opzione D), del tutto estraneo all'impianto elettrico."
         },
         {
           "n": 153,
@@ -5808,7 +5808,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Se il motore non si arresta portando la chiave su OFF, il cavo di massa (P-lead) di un magnete è interrotto: il magnete resta vivo (hot mag) e può generare la scintilla anche a chiave estratta, un serio pericolo per chi maneggia l'elica (opzione 2). Le altre risposte sono errate: un motore freddo che necessiti di più cicchetto (opzione 1) non ha alcuna relazione con la persistenza del funzionamento a chiave disinserita; una batteria guasta (opzione 3) non può fornire energia ai magneti, che generano l'alta tensione autonomamente e non dalla batteria; non è affatto una situazione priva di problemi (opzione 4), rappresentando anzi un rischio concreto di lesioni durante la manipolazione dell'elica."
+          "explanation": "Se il motore non si arresta portando la chiave su OFF, il cavo di massa (P-lead) di un magnete è interrotto: il magnete resta vivo (hot mag) e può generare la scintilla anche a chiave estratta, un serio pericolo per chi maneggia l'elica (opzione B). Le altre risposte sono errate: un motore freddo che necessiti di più cicchetto (opzione A) non ha alcuna relazione con la persistenza del funzionamento a chiave disinserita; una batteria guasta (opzione C) non può fornire energia ai magneti, che generano l'alta tensione autonomamente e non dalla batteria; non è affatto una situazione priva di problemi (opzione D), rappresentando anzi un rischio concreto di lesioni durante la manipolazione dell'elica."
         },
         {
           "n": 154,
@@ -5822,7 +5822,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'ELT può essere azionato manualmente dall'equipaggio tramite un interruttore dedicato, ma si attiva anche automaticamente grazie a un sensore inerziale che rileva le forti decelerazioni tipiche di un impatto (opzione 4). Le altre risposte sono errate: non si attiva spegnendo semplicemente il motore (opzione 1), evento privo di relazione con il sensore di decelerazione; non richiede l'immersione in acqua (opzione 2), condizione specifica di modelli galleggianti diversi dal funzionamento standard; non si attiva automaticamente per il solo superamento dei 10000ft (opzione 3), quota che non ha alcuna relazione con il meccanismo di attivazione dell'ELT."
+          "explanation": "L'ELT può essere azionato manualmente dall'equipaggio tramite un interruttore dedicato, ma si attiva anche automaticamente grazie a un sensore inerziale che rileva le forti decelerazioni tipiche di un impatto (opzione D). Le altre risposte sono errate: non si attiva spegnendo semplicemente il motore (opzione A), evento privo di relazione con il sensore di decelerazione; non richiede l'immersione in acqua (opzione B), condizione specifica di modelli galleggianti diversi dal funzionamento standard; non si attiva automaticamente per il solo superamento dei 10000ft (opzione C), quota che non ha alcuna relazione con il meccanismo di attivazione dell'ELT."
         },
         {
           "n": 155,
@@ -5836,7 +5836,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Lo stallo aerodinamico dipende esclusivamente dal superamento dell'angolo di incidenza critico del profilo: può avvenire a qualunque velocità, assetto o peso, non solo alla velocità di stallo pubblicata per condizioni standard (opzione 4). Le altre risposte sono errate: non esiste una IAS fissa di stallo indipendente da assetto e peso (opzione 1), poiché la velocità di stallo varia proprio con questi fattori; un fattore di carico specifico di 2.5G (opzione 2) è un limite strutturale di categoria, non la condizione fisica che determina lo stallo; la quota di tangenza (opzione 3) è un limite prestazionale del motore/ala in salita, concetto del tutto estraneo al meccanismo dello stallo aerodinamico."
+          "explanation": "Lo stallo aerodinamico dipende esclusivamente dal superamento dell'angolo di incidenza critico del profilo: può avvenire a qualunque velocità, assetto o peso, non solo alla velocità di stallo pubblicata per condizioni standard (opzione D). Le altre risposte sono errate: non esiste una IAS fissa di stallo indipendente da assetto e peso (opzione A), poiché la velocità di stallo varia proprio con questi fattori; un fattore di carico specifico di 2.5G (opzione B) è un limite strutturale di categoria, non la condizione fisica che determina lo stallo; la quota di tangenza (opzione C) è un limite prestazionale del motore/ala in salita, concetto del tutto estraneo al meccanismo dello stallo aerodinamico."
         },
         {
           "n": 156,
@@ -5850,7 +5850,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con Pitot e relativo foro di scarico entrambi ostruiti, la pressione intrappolata resta fissa mentre la statica di riferimento varia con la quota: l'anemometro finisce per comportarsi come un altimetro, con letture che aumentano salendo e diminuiscono scendendo (opzione 2). Le altre risposte sono errate: lo strumento non segna zero in qualsiasi assetto (opzione 1), poiché la pressione captata resta intrappolata e non si annulla; non si attiva alcun allarme di stallo a prescindere (opzione 3), non essendovi alcun collegamento diretto tra questa avaria e il sistema di allarme; non segna affatto la Ground Speed (opzione 4), grandezza che l'anemometro non è comunque in grado di misurare in condizioni normali."
+          "explanation": "Con Pitot e relativo foro di scarico entrambi ostruiti, la pressione intrappolata resta fissa mentre la statica di riferimento varia con la quota: l'anemometro finisce per comportarsi come un altimetro, con letture che aumentano salendo e diminuiscono scendendo (opzione B). Le altre risposte sono errate: lo strumento non segna zero in qualsiasi assetto (opzione A), poiché la pressione captata resta intrappolata e non si annulla; non si attiva alcun allarme di stallo a prescindere (opzione C), non essendovi alcun collegamento diretto tra questa avaria e il sistema di allarme; non segna affatto la Ground Speed (opzione D), grandezza che l'anemometro non è comunque in grado di misurare in condizioni normali."
         },
         {
           "n": 157,
@@ -5864,7 +5864,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'imbracatura sulle spalle, oltre alla cintura addominale, impedisce che in una decelerazione brusca il busto e la testa vengano proiettati in avanti contro strumenti e cruscotto, scongiurando ferite gravi (opzione 2). Le altre risposte sono errate: non ha lo scopo di impedire l'uso dei pedali (opzione 1), che restano liberamente azionabili dal pilota; non ha alcuna relazione con il centraggio del velivolo (opzione 3), aspetto legato al peso e alla sua distribuzione e non ai dispositivi di sicurezza; non è obbligatoria solo per i passeggeri posteriori (opzione 4), essendo raccomandata per tutti gli occupanti inclusi i piloti."
+          "explanation": "L'imbracatura sulle spalle, oltre alla cintura addominale, impedisce che in una decelerazione brusca il busto e la testa vengano proiettati in avanti contro strumenti e cruscotto, scongiurando ferite gravi (opzione B). Le altre risposte sono errate: non ha lo scopo di impedire l'uso dei pedali (opzione A), che restano liberamente azionabili dal pilota; non ha alcuna relazione con il centraggio del velivolo (opzione C), aspetto legato al peso e alla sua distribuzione e non ai dispositivi di sicurezza; non è obbligatoria solo per i passeggeri posteriori (opzione D), essendo raccomandata per tutti gli occupanti inclusi i piloti."
         },
         {
           "n": 158,
@@ -5878,7 +5878,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il controllo visivo del campione prelevato dagli spurghi verifica sia l'assenza di acqua o sedimenti sia la corretta colorazione (blu per il 100LL), che identifica il grado di carburante imbarcato (opzione 1). Le altre risposte sono errate: la pressione di esercizio della pompa meccanica (opzione 2) non è verificabile con un'ispezione visiva del campione di carburante; il numero di ottani non è deducibile dalla viscosità a vista (opzione 3), richiedendo analisi specifiche di laboratorio; l'eventuale miscelazione con olio idraulico (opzione 4) non è lo scopo primario di questo controllo, che mira a individuare acqua e contaminanti nel carburante."
+          "explanation": "Il controllo visivo del campione prelevato dagli spurghi verifica sia l'assenza di acqua o sedimenti sia la corretta colorazione (blu per il 100LL), che identifica il grado di carburante imbarcato (opzione A). Le altre risposte sono errate: la pressione di esercizio della pompa meccanica (opzione B) non è verificabile con un'ispezione visiva del campione di carburante; il numero di ottani non è deducibile dalla viscosità a vista (opzione C), richiedendo analisi specifiche di laboratorio; l'eventuale miscelazione con olio idraulico (opzione D) non è lo scopo primario di questo controllo, che mira a individuare acqua e contaminanti nel carburante."
         },
         {
           "n": 159,
@@ -5892,7 +5892,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il vapor lock si verifica quando il carburante liquido, riscaldato eccessivamente nelle tubazioni, vaporizza formando bolle di vapore che ostacolano o bloccano il flusso verso pompa e motore (opzione 2). Le altre risposte sono errate: il ghiaccio nel Venturi (opzione 1) è un fenomeno distinto, dovuto al raffreddamento per espansione ed evaporazione e non al surriscaldamento; un olio troppo denso per il freddo (opzione 3) riguarda il circuito di lubrificazione, non quello del carburante; l'inserimento dell'aria calda a piena potenza (opzione 4) non è la causa del vapor lock, fenomeno legato al riscaldamento del carburante nelle tubazioni e non all'uso del carburatore in un particolare assetto di potenza."
+          "explanation": "Il vapor lock si verifica quando il carburante liquido, riscaldato eccessivamente nelle tubazioni, vaporizza formando bolle di vapore che ostacolano o bloccano il flusso verso pompa e motore (opzione B). Le altre risposte sono errate: il ghiaccio nel Venturi (opzione A) è un fenomeno distinto, dovuto al raffreddamento per espansione ed evaporazione e non al surriscaldamento; un olio troppo denso per il freddo (opzione C) riguarda il circuito di lubrificazione, non quello del carburante; l'inserimento dell'aria calda a piena potenza (opzione D) non è la causa del vapor lock, fenomeno legato al riscaldamento del carburante nelle tubazioni e non all'uso del carburatore in un particolare assetto di potenza."
         },
         {
           "n": 160,
@@ -5906,7 +5906,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per l'errore di virata, partendo da prua Nord nell'emisfero settentrionale la bussola magnetica inizialmente ritarda, mostrando per qualche istante una virata nel senso opposto a quella realmente iniziata, prima di allinearsi alla rotazione reale (opzione 2). Le altre risposte sono errate: la bussola non anticipa istantaneamente la virata (opzione 1), comportamento opposto a quello reale che è invece un ritardo; non ruota a velocità doppia rispetto al velivolo (opzione 3), ipotesi priva di riscontro nel comportamento reale dello strumento; non si blocca fino al livellamento (opzione 4), continuando invece a muoversi seppur con un'indicazione inizialmente fuorviante."
+          "explanation": "Per l'errore di virata, partendo da prua Nord nell'emisfero settentrionale la bussola magnetica inizialmente ritarda, mostrando per qualche istante una virata nel senso opposto a quella realmente iniziata, prima di allinearsi alla rotazione reale (opzione B). Le altre risposte sono errate: la bussola non anticipa istantaneamente la virata (opzione A), comportamento opposto a quello reale che è invece un ritardo; non ruota a velocità doppia rispetto al velivolo (opzione C), ipotesi priva di riscontro nel comportamento reale dello strumento; non si blocca fino al livellamento (opzione D), continuando invece a muoversi seppur con un'indicazione inizialmente fuorviante."
         },
         {
           "n": 161,
@@ -5920,7 +5920,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il riscaldamento a manicotto fa circolare aria di cabina attorno ai collettori di scarico: se questi si incrinano, i gas contenenti monossido di carbonio possono infiltrarsi nell'aria immessa in cabina, rendendo questo sistema il più a rischio (opzione 2). Le altre risposte sono errate: un riscaldatore a combustione indipendente nel muso (opzione 1) non condivide il percorso dei gas di scarico motore e comporta quindi un rischio diverso; il riscaldamento elettrico (opzione 3) non produce gas di combustione e non presenta questo rischio specifico di CO; il bleed-air (opzione 4), tipico di velivoli più grandi, preleva aria compressa dal motore in un punto diverso dai collettori di scarico e con rischio di contaminazione differente."
+          "explanation": "Il riscaldamento a manicotto fa circolare aria di cabina attorno ai collettori di scarico: se questi si incrinano, i gas contenenti monossido di carbonio possono infiltrarsi nell'aria immessa in cabina, rendendo questo sistema il più a rischio (opzione B). Le altre risposte sono errate: un riscaldatore a combustione indipendente nel muso (opzione A) non condivide il percorso dei gas di scarico motore e comporta quindi un rischio diverso; il riscaldamento elettrico (opzione C) non produce gas di combustione e non presenta questo rischio specifico di CO; il bleed-air (opzione D), tipico di velivoli più grandi, preleva aria compressa dal motore in un punto diverso dai collettori di scarico e con rischio di contaminazione differente."
         },
         {
           "n": 162,
@@ -5934,7 +5934,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Lo shimmy damper è un piccolo smorzatore idraulico che previene le pericolose oscillazioni laterali autoindotte del ruotino anteriore durante il rullaggio ad alta velocità (opzione 2). Le altre risposte sono errate: l'assorbimento del colpo di atterraggio (opzione 1) è compito dell'ammortizzatore principale del carrello, non dello shimmy damper; non ha alcuna funzione nella retrazione del carrello (opzione 3), essendo un dispositivo di smorzamento e non un meccanismo di movimentazione; non frena la ruota anteriore (opzione 4), funzione che comunque tipicamente non è presente sul ruotino nella maggior parte dei velivoli leggeri."
+          "explanation": "Lo shimmy damper è un piccolo smorzatore idraulico che previene le pericolose oscillazioni laterali autoindotte del ruotino anteriore durante il rullaggio ad alta velocità (opzione B). Le altre risposte sono errate: l'assorbimento del colpo di atterraggio (opzione A) è compito dell'ammortizzatore principale del carrello, non dello shimmy damper; non ha alcuna funzione nella retrazione del carrello (opzione C), essendo un dispositivo di smorzamento e non un meccanismo di movimentazione; non frena la ruota anteriore (opzione D), funzione che comunque tipicamente non è presente sul ruotino nella maggior parte dei velivoli leggeri."
         },
         {
           "n": 163,
@@ -5948,7 +5948,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Le strisce di riferimento dipinte tra pneumatico e cerchione permettono di individuare a colpo d'occhio un eventuale slittamento della gomma sul cerchio, che potrebbe danneggiare la valvola (opzione 2). Le altre risposte sono errate: non indicano l'usura del battistrada (opzione 1), verificabile invece tramite la profondità degli intagli; non indicano la pressione di gonfiaggio (opzione 3), misurabile solo con un manometro dedicato; non segnalano alcun limite di tolleranza termica dei freni (opzione 4), aspetto non collegato al posizionamento relativo tra gomma e cerchione."
+          "explanation": "Le strisce di riferimento dipinte tra pneumatico e cerchione permettono di individuare a colpo d'occhio un eventuale slittamento della gomma sul cerchio, che potrebbe danneggiare la valvola (opzione B). Le altre risposte sono errate: non indicano l'usura del battistrada (opzione A), verificabile invece tramite la profondità degli intagli; non indicano la pressione di gonfiaggio (opzione C), misurabile solo con un manometro dedicato; non segnalano alcun limite di tolleranza termica dei freni (opzione D), aspetto non collegato al posizionamento relativo tra gomma e cerchione."
         },
         {
           "n": 164,
@@ -5962,7 +5962,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Lo slotted flap crea una fessura tra ala e flap che convoglia aria ad alta energia dal ventre al dorso alare, rienergizzando lo strato limite e ritardando lo stallo (opzione 4). Le altre risposte sono errate: lo split flap (opzione 1) si limita ad abbassare una porzione del ventre alare senza creare alcuna fessura di rienergizzazione; il plain flap (opzione 2) è una semplice superficie incernierata al bordo d'uscita, anch'esso privo di fessura; il Krueger flap (opzione 3) agisce invece sul bordo d'attacco, estendendosi in avanti e non creando il passaggio d'aria ventre-dorso tipico dello slotted flap."
+          "explanation": "Lo slotted flap crea una fessura tra ala e flap che convoglia aria ad alta energia dal ventre al dorso alare, rienergizzando lo strato limite e ritardando lo stallo (opzione D). Le altre risposte sono errate: lo split flap (opzione A) si limita ad abbassare una porzione del ventre alare senza creare alcuna fessura di rienergizzazione; il plain flap (opzione B) è una semplice superficie incernierata al bordo d'uscita, anch'esso privo di fessura; il Krueger flap (opzione C) agisce invece sul bordo d'attacco, estendendosi in avanti e non creando il passaggio d'aria ventre-dorso tipico dello slotted flap."
         },
         {
           "n": 165,
@@ -5976,7 +5976,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Sistemi come il CAPS/BRS si attivano manualmente: il pilota tira una leva dedicata in cabina che innesca un piccolo razzo il quale estrae ed apre il paracadute principale (opzione 2). Le altre risposte sono errate: non esiste un computer che rilevi automaticamente lo stallo e attivi il sistema (opzione 1), essendo l'azionamento affidato esclusivamente al pilota; non è comandato idraulicamente né tantomeno da terra/torre (opzione 3), ipotesi priva di qualsiasi riscontro tecnico; non è limitato ai soli casi di incendio motore (opzione 4), potendo essere utilizzato in qualunque emergenza che comprometta il controllo del velivolo."
+          "explanation": "Sistemi come il CAPS/BRS si attivano manualmente: il pilota tira una leva dedicata in cabina che innesca un piccolo razzo il quale estrae ed apre il paracadute principale (opzione B). Le altre risposte sono errate: non esiste un computer che rilevi automaticamente lo stallo e attivi il sistema (opzione A), essendo l'azionamento affidato esclusivamente al pilota; non è comandato idraulicamente né tantomeno da terra/torre (opzione C), ipotesi priva di qualsiasi riscontro tecnico; non è limitato ai soli casi di incendio motore (opzione D), potendo essere utilizzato in qualunque emergenza che comprometta il controllo del velivolo."
         },
         {
           "n": 166,
@@ -5990,7 +5990,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un sistema a flusso continuo eroga ossigeno ininterrottamente nella maschera, dove si miscela in parte con l'aria ambiente, a differenza dei sistemi a domanda che erogano solo durante l'inspirazione (opzione 2). Le altre risposte sono errate: l'erogazione solo durante l'inspirazione (opzione 1) descrive proprio il sistema a domanda, l'alternativa al flusso continuo; non spinge ossigeno direttamente nei polmoni ad alta pressione (opzione 3), meccanismo non impiegato nell'aviazione generale; non si attiva solo in caso di depressurizzazione rapida (opzione 4), essendo utilizzabile ogniqualvolta si voli sopra la quota che ne richiede l'uso."
+          "explanation": "Un sistema a flusso continuo eroga ossigeno ininterrottamente nella maschera, dove si miscela in parte con l'aria ambiente, a differenza dei sistemi a domanda che erogano solo durante l'inspirazione (opzione B). Le altre risposte sono errate: l'erogazione solo durante l'inspirazione (opzione A) descrive proprio il sistema a domanda, l'alternativa al flusso continuo; non spinge ossigeno direttamente nei polmoni ad alta pressione (opzione C), meccanismo non impiegato nell'aviazione generale; non si attiva solo in caso di depressurizzazione rapida (opzione D), essendo utilizzabile ogniqualvolta si voli sopra la quota che ne richiede l'uso."
         },
         {
           "n": 167,
@@ -6004,7 +6004,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La cofanatura motore, oltre a definire l'aerodinamica del muso, è sagomata per incanalare il flusso d'aria di raffreddamento sulle alette dei cilindri in modo efficiente (opzione 2). Le altre risposte sono errate: non ha una funzione puramente estetica (opzione 1), rivestendo un ruolo aerodinamico e di raffreddamento fondamentale; non serve a trattenere i fumi di scarico (opzione 3), che vengono invece espulsi tramite i collettori dedicati; non ha lo scopo di assorbire il rumore in cabina (opzione 4), effetto secondario e non la funzione progettuale primaria della cofanatura."
+          "explanation": "La cofanatura motore, oltre a definire l'aerodinamica del muso, è sagomata per incanalare il flusso d'aria di raffreddamento sulle alette dei cilindri in modo efficiente (opzione B). Le altre risposte sono errate: non ha una funzione puramente estetica (opzione A), rivestendo un ruolo aerodinamico e di raffreddamento fondamentale; non serve a trattenere i fumi di scarico (opzione C), che vengono invece espulsi tramite i collettori dedicati; non ha lo scopo di assorbire il rumore in cabina (opzione D), effetto secondario e non la funzione progettuale primaria della cofanatura."
         },
         {
           "n": 168,
@@ -6018,7 +6018,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La valvola di bypass del filtro olio si apre quando il filtro è intasato o l'olio è troppo denso per attraversarlo, permettendo comunque all'olio non filtrato di raggiungere il motore ed evitandone il grippaggio (opzione 1). Le altre risposte sono errate: non entra in funzione per il semplice superamento dei 10000ft (opzione 2), quota che non ha relazione con lo stato del filtro o la viscosità dell'olio; non è legata a una pressione che scende a zero (opzione 3), condizione ben più grave e distinta dal funzionamento normale della valvola di bypass; non entra in funzione a motore spento (opzione 4), avendo senso solo quando l'olio è in circolazione sotto pressione."
+          "explanation": "La valvola di bypass del filtro olio si apre quando il filtro è intasato o l'olio è troppo denso per attraversarlo, permettendo comunque all'olio non filtrato di raggiungere il motore ed evitandone il grippaggio (opzione A). Le altre risposte sono errate: non entra in funzione per il semplice superamento dei 10000ft (opzione B), quota che non ha relazione con lo stato del filtro o la viscosità dell'olio; non è legata a una pressione che scende a zero (opzione C), condizione ben più grave e distinta dal funzionamento normale della valvola di bypass; non entra in funzione a motore spento (opzione D), avendo senso solo quando l'olio è in circolazione sotto pressione."
         },
         {
           "n": 169,
@@ -6032,7 +6032,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il flap Fowler, oltre ad abbassarsi, scorre anche indietro su rotaie, aumentando sia la curvatura sia l'area alare effettiva: per questo è tra i tipi più efficienti nell'aumentare la portanza (opzione 1). Le altre risposte sono errate: non ruota verso l'alto come un aerofreno (opzione 2), muovendosi invece verso il basso e all'indietro; non genera alcuna spinta propulsiva addizionale (opzione 3), essendo una superficie ipersostentatrice e non un dispositivo propulsivo; non si apre sul bordo d'attacco (opzione 4), essendo collocato ed esteso dal bordo d'uscita alare."
+          "explanation": "Il flap Fowler, oltre ad abbassarsi, scorre anche indietro su rotaie, aumentando sia la curvatura sia l'area alare effettiva: per questo è tra i tipi più efficienti nell'aumentare la portanza (opzione A). Le altre risposte sono errate: non ruota verso l'alto come un aerofreno (opzione B), muovendosi invece verso il basso e all'indietro; non genera alcuna spinta propulsiva addizionale (opzione C), essendo una superficie ipersostentatrice e non un dispositivo propulsivo; non si apre sul bordo d'attacco (opzione D), essendo collocato ed esteso dal bordo d'uscita alare."
         },
         {
           "n": 170,
@@ -6046,7 +6046,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il radioaltimetro invia un segnale radio verso il basso e ne misura il tempo di andata e ritorno per calcolare l'altezza reale sul terreno sottostante (AGL), a differenza dell'altimetro barometrico (opzione 2). Le altre risposte sono errate: non utilizza il sistema VOR né misura l'altitudine sul mare (opzione 1), tecnologie e riferimenti del tutto diversi; non fornisce una Pressure Altitude comunicando col suolo (opzione 3), grandezza che è invece calcolata dall'altimetro barometrico rispetto all'isobara standard; non ha lo scopo di rilevare altri aeromobili (opzione 4), funzione propria di sistemi come il TCAS."
+          "explanation": "Il radioaltimetro invia un segnale radio verso il basso e ne misura il tempo di andata e ritorno per calcolare l'altezza reale sul terreno sottostante (AGL), a differenza dell'altimetro barometrico (opzione B). Le altre risposte sono errate: non utilizza il sistema VOR né misura l'altitudine sul mare (opzione A), tecnologie e riferimenti del tutto diversi; non fornisce una Pressure Altitude comunicando col suolo (opzione C), grandezza che è invece calcolata dall'altimetro barometrico rispetto all'isobara standard; non ha lo scopo di rilevare altri aeromobili (opzione D), funzione propria di sistemi come il TCAS."
         },
         {
           "n": 171,
@@ -6060,7 +6060,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'alternatore riesce a generare tensione di carica sufficiente anche a bassi regimi motore, garantendo la ricarica della batteria in condizioni in cui la vecchia dinamo non ci riusciva (opzione 3). Le altre risposte sono errate: l'alternatore genera in realtà corrente alternata, che viene poi raddrizzata in continua da diodi interni (opzione 1), contrariamente a quanto affermato; non pesa 'dieci volte meno' né è fatto di plastica (opzione 2), descrizione priva di fondamento tecnico; non è esente da usura di spazzole e cuscinetti (opzione 4), componenti comunque soggetti a manutenzione periodica anche in questo tipo di generatore."
+          "explanation": "L'alternatore riesce a generare tensione di carica sufficiente anche a bassi regimi motore, garantendo la ricarica della batteria in condizioni in cui la vecchia dinamo non ci riusciva (opzione C). Le altre risposte sono errate: l'alternatore genera in realtà corrente alternata, che viene poi raddrizzata in continua da diodi interni (opzione A), contrariamente a quanto affermato; non pesa 'dieci volte meno' né è fatto di plastica (opzione B), descrizione priva di fondamento tecnico; non è esente da usura di spazzole e cuscinetti (opzione D), componenti comunque soggetti a manutenzione periodica anche in questo tipo di generatore."
         },
         {
           "n": 172,
@@ -6074,7 +6074,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Nel turbocompressore è l'energia residua dei gas di scarico, altrimenti dispersa, a mettere in rotazione la turbina ad altissima velocità, collegata sullo stesso asse al compressore che sovralimenta l'aspirazione (opzione 3). Le altre risposte sono errate: non è azionata da una cinghia collegata all'albero motore (opzione 1), collegamento meccanico diretto non impiegato in questo sistema; non è mossa da un motore elettrico alimentato dall'alternatore (opzione 2), soluzione non utilizzata nei turbocompressori aeronautici; non è azionata dall'aria dinamica captata dal Pitot (opzione 4), presa che alimenta invece l'anemometro e non ha energia sufficiente per muovere la turbina."
+          "explanation": "Nel turbocompressore è l'energia residua dei gas di scarico, altrimenti dispersa, a mettere in rotazione la turbina ad altissima velocità, collegata sullo stesso asse al compressore che sovralimenta l'aspirazione (opzione C). Le altre risposte sono errate: non è azionata da una cinghia collegata all'albero motore (opzione A), collegamento meccanico diretto non impiegato in questo sistema; non è mossa da un motore elettrico alimentato dall'alternatore (opzione B), soluzione non utilizzata nei turbocompressori aeronautici; non è azionata dall'aria dinamica captata dal Pitot (opzione D), presa che alimenta invece l'anemometro e non ha energia sufficiente per muovere la turbina."
         },
         {
           "n": 173,
@@ -6102,7 +6102,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In caso di ostruzione della presa statica esterna, la statica alternata utilizza l'aria dell'abitacolo, dove la pressione è tipicamente leggermente inferiore a quella esterna (opzione 4). Le altre risposte sono errate: non preleva aria dallo sfiato dei serbatoi (opzione 1), circuito completamente separato e non collegato agli strumenti di pressione statica; non utilizza la presa d'aria dinamica del motore (opzione 2), che alimenta semmai l'induzione motore e non gli strumenti di volo; non dipende dall'aria condizionata (opzione 3), impianto non presente o comunque non collegato al sistema statico alternato nei velivoli leggeri."
+          "explanation": "In caso di ostruzione della presa statica esterna, la statica alternata utilizza l'aria dell'abitacolo, dove la pressione è tipicamente leggermente inferiore a quella esterna (opzione D). Le altre risposte sono errate: non preleva aria dallo sfiato dei serbatoi (opzione A), circuito completamente separato e non collegato agli strumenti di pressione statica; non utilizza la presa d'aria dinamica del motore (opzione B), che alimenta semmai l'induzione motore e non gli strumenti di volo; non dipende dall'aria condizionata (opzione C), impianto non presente o comunque non collegato al sistema statico alternato nei velivoli leggeri."
         },
         {
           "n": 175,
@@ -6116,7 +6116,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "I vortex generators creano piccoli vortici che rimescolano e rienergizzano lo strato limite sulla superficie alare, ritardandone il distacco e mantenendo efficaci i comandi anche a bassa velocità (opzione 3). Le altre risposte sono errate: non hanno alcuna funzione di drenaggio del carburante in eccesso (opzione 1), concetto estraneo alla loro natura puramente aerodinamica; non servono a creare resistenza per la frenata (opzione 2), funzione svolta semmai da aerofreni dedicati; non scaricano elettricità statica (opzione 4), compito che spetta agli appositi scaricatori posti sui bordi d'uscita."
+          "explanation": "I vortex generators creano piccoli vortici che rimescolano e rienergizzano lo strato limite sulla superficie alare, ritardandone il distacco e mantenendo efficaci i comandi anche a bassa velocità (opzione C). Le altre risposte sono errate: non hanno alcuna funzione di drenaggio del carburante in eccesso (opzione A), concetto estraneo alla loro natura puramente aerodinamica; non servono a creare resistenza per la frenata (opzione B), funzione svolta semmai da aerofreni dedicati; non scaricano elettricità statica (opzione D), compito che spetta agli appositi scaricatori posti sui bordi d'uscita."
         },
         {
           "n": 176,
@@ -6130,7 +6130,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La wastegate devia parte dei gas di scarico attorno alla turbina, regolando quanta energia viene trasferita al compressore e quindi controllando la pressione di sovralimentazione, la Manifold Pressure (opzione 2). Le altre risposte sono errate: non svuota olio in eccesso in emergenza (opzione 1), funzione non correlata al circuito di sovralimentazione; non raffredda l'aria compressa (opzione 3), compito svolto semmai da un intercooler dedicato quando presente; non elimina l'acqua condensata dai serbatoi (opzione 4), operazione che spetta ai rubinetti di spurgo del carburante, sistema del tutto separato."
+          "explanation": "La wastegate devia parte dei gas di scarico attorno alla turbina, regolando quanta energia viene trasferita al compressore e quindi controllando la pressione di sovralimentazione, la Manifold Pressure (opzione B). Le altre risposte sono errate: non svuota olio in eccesso in emergenza (opzione A), funzione non correlata al circuito di sovralimentazione; non raffredda l'aria compressa (opzione C), compito svolto semmai da un intercooler dedicato quando presente; non elimina l'acqua condensata dai serbatoi (opzione D), operazione che spetta ai rubinetti di spurgo del carburante, sistema del tutto separato."
         },
         {
           "n": 177,
@@ -6144,7 +6144,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il riscaldatore del tubo di Pitot, progettato per lavorare col raffreddamento del flusso d'aria in volo, se tenuto acceso a lungo a velivolo fermo rischia di surriscaldarsi rapidamente e bruciarsi (opzione 3). Le altre risposte sono errate: accendere le luci di cabina (opzione 1) non comporta alcun rischio di surriscaldamento prolungato a terra; accendere la radio per il rullaggio (opzione 2) è un'operazione normale priva di controindicazioni; leggere il voltmetro (opzione 4) è una semplice verifica strumentale che non genera alcun rischio."
+          "explanation": "Il riscaldatore del tubo di Pitot, progettato per lavorare col raffreddamento del flusso d'aria in volo, se tenuto acceso a lungo a velivolo fermo rischia di surriscaldarsi rapidamente e bruciarsi (opzione C). Le altre risposte sono errate: accendere le luci di cabina (opzione A) non comporta alcun rischio di surriscaldamento prolungato a terra; accendere la radio per il rullaggio (opzione B) è un'operazione normale priva di controindicazioni; leggere il voltmetro (opzione D) è una semplice verifica strumentale che non genera alcun rischio."
         },
         {
           "n": 178,
@@ -6158,7 +6158,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Nei velivoli ad ala bassa il carburante è più in basso del motore, quindi non può arrivare per caduta: serve una pompa meccanica trascinata dal motore, affiancata da una pompa elettrica di backup (opzione 4). Le altre risposte sono errate: la caduta gravitazionale esclusiva (opzione 1) è possibile solo nei velivoli ad ala alta con serbatoi sopra il motore, non in quelli ad ala bassa; l'effetto Venturi del carburatore (opzione 2) riguarda la formazione della miscela, non il trasferimento del carburante dai serbatoi al motore; la pressione statica captata dal Pitot (opzione 3) alimenta gli strumenti anemo-altimetrici e non ha alcun ruolo nell'alimentazione carburante."
+          "explanation": "Nei velivoli ad ala bassa il carburante è più in basso del motore, quindi non può arrivare per caduta: serve una pompa meccanica trascinata dal motore, affiancata da una pompa elettrica di backup (opzione D). Le altre risposte sono errate: la caduta gravitazionale esclusiva (opzione A) è possibile solo nei velivoli ad ala alta con serbatoi sopra il motore, non in quelli ad ala bassa; l'effetto Venturi del carburatore (opzione B) riguarda la formazione della miscela, non il trasferimento del carburante dai serbatoi al motore; la pressione statica captata dal Pitot (opzione C) alimenta gli strumenti anemo-altimetrici e non ha alcun ruolo nell'alimentazione carburante."
         },
         {
           "n": 179,
@@ -6172,7 +6172,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il regolatore di tensione mantiene l'uscita dell'alternatore a un valore costante, leggermente più alto di quello della batteria, così da garantirne sempre la ricarica senza sovraccaricarla (opzione 1). Le altre risposte sono errate: non ha lo scopo di ridurre la tensione per le spie luminose (opzione 2), alimentate direttamente dalla tensione di bordo; non genera l'alta tensione per le candele (opzione 3), compito svolto autonomamente dai magneti; non raddrizza la corrente da alternata a continua (opzione 4), funzione svolta dai diodi interni all'alternatore e non dal regolatore di tensione."
+          "explanation": "Il regolatore di tensione mantiene l'uscita dell'alternatore a un valore costante, leggermente più alto di quello della batteria, così da garantirne sempre la ricarica senza sovraccaricarla (opzione A). Le altre risposte sono errate: non ha lo scopo di ridurre la tensione per le spie luminose (opzione B), alimentate direttamente dalla tensione di bordo; non genera l'alta tensione per le candele (opzione C), compito svolto autonomamente dai magneti; non raddrizza la corrente da alternata a continua (opzione D), funzione svolta dai diodi interni all'alternatore e non dal regolatore di tensione."
         },
         {
           "n": 180,
@@ -6186,7 +6186,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Spostando il centro di gravità della superficie di comando davanti al proprio asse di cerniera, i bilancieri di massa impediscono l'insorgere del flutter aerodinamico alle alte velocità (opzione 2). Le altre risposte sono errate: non hanno alcuna relazione con il bilanciamento del carico bagagli (opzione 1), aspetto gestito invece dal centraggio generale del velivolo; non forniscono informazioni al pilota automatico (opzione 3), essendo dispositivi puramente meccanici e passivi; non sono zavorre anti-ghiaccio (opzione 4), concetto privo di fondamento tecnico rispetto alla loro reale funzione di bilanciamento dinamico."
+          "explanation": "Spostando il centro di gravità della superficie di comando davanti al proprio asse di cerniera, i bilancieri di massa impediscono l'insorgere del flutter aerodinamico alle alte velocità (opzione B). Le altre risposte sono errate: non hanno alcuna relazione con il bilanciamento del carico bagagli (opzione A), aspetto gestito invece dal centraggio generale del velivolo; non forniscono informazioni al pilota automatico (opzione C), essendo dispositivi puramente meccanici e passivi; non sono zavorre anti-ghiaccio (opzione D), concetto privo di fondamento tecnico rispetto alla loro reale funzione di bilanciamento dinamico."
         },
         {
           "n": 181,
@@ -6200,7 +6200,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il propemp indica un regime motore eccessivamente alto rispetto al passo dell'elica, che non riesce a mantenere un regime adeguato: il motore supera i giri massimi consentiti con gravi rischi di cedimento meccanico (opzione 1). Le altre risposte sono errate: la perdita improvvisa di trazione (opzione 2) è un effetto secondario del propemp, non la definizione corretta; non è un regime troppo basso (opzione 3), condizione opposta al fenomeno reale; non è la resistenza aerodinamica dell'elica (opzione 4), grandezza che il propemp effettivamente aumenta ma non è il suo significato operativo primario."
+          "explanation": "Alta Pressione di Ammissione (MAP) e bassi Giri (RPM) significano che ogni ciclo di combustione avviene con una pressione elevata nel cilindro mentre il motore ruota lentamente: il carico meccanico e termico per singolo ciclo aumenta notevolmente, favorendo la detonazione (autoaccensione incontrollata della miscela) e sollecitazioni strutturali eccessive su bielle, pistoni e cuscinetti di banco (opzione B). Le altre risposte sono errate: bassa MAP e alti RPM (opzione A) corrisponde a un carico per ciclo ridotto, condizione non critica per la detonazione; bassa MAP e bassi RPM (opzione C) descrive un regime di crociera a potenza ridotta, senza le pressioni elevate che innescano il fenomeno; alta MAP e alti RPM entro i limiti di decollo (opzione D) è la configurazione di massima potenza certificata dal costruttore, sicura perché il regime elevato consente al motore di smaltire correttamente il carico."
         },
         {
           "n": 182,
@@ -6214,7 +6214,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il servo tab è una piccola superficie incernierata dietro l'aletta che si muove in senso opposto al movimento della superficie principale, sfruttando il flusso d'aria per amplificare la forza applicata dal pilota sui comandi (opzione 3). Le altre risposte sono errate: la cerniera sul bordo d'attacco (opzione 1) descrive il perno di rotazione dell'aletta stessa, non il servo tab; la molla di richiamo (opzione 2) è un sistema diverso, che interviene meccanicamente e non aerodinamicamente come il servo tab; l'equilibratore dinamico (opzione 4) non è un termine tecnico usato in aeronautica per identificare questa superficie."
+          "explanation": "Il CHT utilizza una termocoppia, cioè la giunzione di due metalli diversi che, scaldandosi, genera una piccola differenza di potenziale elettrico proporzionale alla temperatura (effetto Seebeck): la sonda è posta tipicamente sotto la candela o in un pozzetto del cilindro per rilevare la temperatura della testata (opzione B). Le altre risposte sono errate: un manometro a pressione idraulica (opzione A) misura una grandezza di pressione, non di temperatura, ed è lo strumento tipico della pressione olio; il tubo di mercurio (opzione C) è un principio di dilatazione termica non impiegato negli strumenti motore aeronautici; il barometro aneroide (opzione D) misura la pressione atmosferica ed è alla base di altimetro e anemometro, non del CHT."
         },
         {
           "n": 183,
@@ -6228,7 +6228,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La preaccensione (preignition) avviene quando la miscela si accende prematuramente per una scintilla spontanea generata da un punto caldo nel cilindro, come un frammento di elettrodo o un deposito incandescente, ben prima che scocchi la candela (opzione 2). Le altre risposte sono errate: l'accensione senza candela (opzione 1) non è possibile nel motore a benzina, che richiede obbligatoriamente una scintilla per l'accensione della miscela; non è il rilascio di gas dal collettore (opzione 3), fenomeno del tutto diverso dall'accensione prematura all'interno della camera di combustione; non è l'accensione che avviene a metà ciclo (opzione 4), tempo che non corrisponde al meccanismo reale della preaccensione."
+          "explanation": "Il Virosbandometro tradizionale (Turn and Slip) ha il giroscopio con asse montato in verticale e indica solo il rateo di imbardata (velocità di virata), mentre il Turn Coordinator ha il giroscopio montato in diagonale (canted) e reagisce sia al rateo di rollio iniziale sia al rateo di imbardata, mostrando la sagoma di un aeroplanino inclinato invece del solo ago (opzione C). Le altre risposte sono errate: entrambi gli strumenti hanno la pallina di inclinometro (opzione A), che indica il coordinamento della virata; entrambi possono essere azionati a vuoto o elettricamente a seconda dell'installazione, la fonte di energia non è ciò che li distingue (opzione B); i due strumenti non sono identici, differendo proprio nel montaggio del giroscopio e nell'indicazione fornita (opzione D)."
         },
         {
           "n": 184,
@@ -6242,7 +6242,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In virata coordinata la forza centrifuga spinge la sfera in飞去 laterale mentre la gravità la trattiene in basso: la sfera rimane al centro (opzione 3). Le altre risposte sono errate: lo skid (deriva verso l'esterno) avviene quando la sfera è spostata verso il lato esterno della virata, non verso l'interno (opzione 1); la sfera non rimane ferma in virata non coordinata (opzione 2), essendo proprio il suo spostamento a indicare la mancanza di coordinamento; lo slip (scivolamento) sposta la sfera verso l'interno della virata (opzione 4), comportamento opposto a quanto descritto dalla domanda."
+          "explanation": "Le prese statiche sono spesso installate su entrambi i lati della fusoliera per compensare gli errori di posizione della pressione statica causati dallo scivolamento (slip/skid) durante virate non coordinate o in presenza di forte vento al traverso: collegando le due prese, gli errori di sovra/sottopressione sui due lati si compensano a vicenda, fornendo una lettura più accurata di quota, velocità e rateo (opzione C). Le altre risposte sono errate: non esiste una presa dedicata al pilota e una al copilota (opzione A), essendo il sistema statico comune a tutta la strumentazione; le prese statiche non alimentano la cabina, essendo destinate esclusivamente agli strumenti di volo (opzione B); la doppia presa ha una funzione aerodinamica precisa e non è un elemento puramente estetico (opzione D)."
         },
         {
           "n": 185,
@@ -6256,7 +6256,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "I doppi magneti indipendenti garantiscono la ridondanza: se uno si guasta o viene spento accidentalmente, l'altro continua ad assicurare l'accensione del motore, riducendo il rischio di arresto improvviso in volo (opzione 2). Le altre risposte sono errate: non sono richiesti da alcuna normativa specifica per velivoli leggeri in operazioni non commerciali (opzione 1), pur essendo una pratica consolidata; non generano una scintilla più potente (opzione 3), essendo la potenza determinata dalle caratteristiche costruttive individuali; non sono interconnessi meccanicamente (opzione 4), essendo ciascun magnete un sistema autonomo con la propria bobina e rotore."
+          "explanation": "L'ala a freccia ritarda l'insorgenza della resistenza d'onda (wave drag) e degli effetti di compressibilità perché la componente di velocità del flusso perpendicolare al bordo d'attacco è inferiore alla velocità reale del velivolo, consentendo di raggiungere un numero di Mach critico più alto e quindi volare più vicino o oltre la velocità transonica in modo efficiente (opzione B). Le altre risposte sono errate: l'ala a freccia non riduce la velocità di stallo (opzione A), anzi tende ad aumentarla rispetto a un'ala dritta di pari superficie; non comporta un peso strutturale inferiore (opzione C), richiedendo anzi strutture più complesse per gestire la torsione aerodinamica; non migliora la visibilità verso il basso dei passeggeri (opzione D), fattore non correlato alla sua funzione aerodinamica."
         },
         {
           "n": 186,
@@ -6270,7 +6270,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La lancetta dell'amperometro a azzeramento centrale segnala la direzione del flusso di corrente: deflessione verso il segno + indica che l'alternatore sta caricando la batteria, verso il segno - che la batteria sta erogando a circuiti spenti (opzione 3). Le altre risposte sono errate: il controllo della quantità di carburante (opzione 1) non è la funzione di un amperometro, strumento dedicato alla sola corrente elettrica; non è un indicatore di velocità del motore (opzione 2), grandezza misurata dal tachometro; il segno + indica la carica e il - la scarica (opzione 4), inversione esatta del reale funzionamento di questo strumento."
+          "explanation": "I materiali compositi offrono un eccezionale rapporto resistenza/peso rispetto ai metalli tradizionali, non sono soggetti a corrosione elettrochimica e permettono di stampare forme aerodinamiche complesse e continue, difficili o costose da ottenere con strutture metalliche assemblate da più parti (opzione A). Le altre risposte sono errate: i compositi non sono immuni ai danni da impatto, anzi possono subire delaminazioni interne non visibili anche per urti relativamente lievi (opzione B); non sono conduttori elettrici (anzi generalmente isolanti, tanto da richiedere reti di protezione contro i fulmini) (opzione C); non sono immuni ai raggi UV e al calore, necessitando di verniciature protettive specifiche per evitare il degrado della resina (opzione D)."
         },
         {
           "n": 187,
@@ -6284,7 +6284,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Alla manetta parzializzata il carburatore ha la massima probabilità di formare ghiaccio per effetto Venturi: l'elevata depressione nel Venturi abbassa la temperatura dell'aria fino a far solidificare l'umidità presente, che si deposita sul farfallino e nel corpo farfallato (opzione 2). Le altre risposte sono errate: a manetta completamente aperta (opzione 1) la depressione nel Venturi è insufficiente a produrre il raffreddamento necessario; a motore spento (opzione 3) non c'è flusso d'aria né evaporazione e quindi nessuna formazione di ghiaccio; la manetta oscillante veloce (opzione 4) non è la condizione critica: è la posizione stabile di parzializzazione che massimizza il tempo di esposizione al fenomeno."
+          "explanation": "L'Avgas 100LL (Low Lead) è convenzionalmente colorata di blu per distinguerla visivamente dalle altre benzine avio e dal carburante automobilistico durante i controlli pre-volo del carburante (opzione D). Le altre risposte sono errate: il rosso (opzione A) non è il colore standard dell'Avgas 100LL; il verde (opzione B) era il colore storicamente associato alla vecchia Avgas 80/87, oggi in gran parte fuori produzione, non alla 100LL; il trasparente/paglierino (opzione C) è il colore tipico del Jet A1, un cherosene per turbina, non della benzina per motori a pistoni."
         },
         {
           "n": 188,
@@ -6298,7 +6298,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il vacuum pump_failure toglie la vacuum ai girostrumenti: l'orizzonte artificiale giroscopico e il girodirezionale, dipendenti dal sistema di aspirazione, smettono di funzionare mentre rimangono operativi gli strumenti autoalimentati dall'aria dinamica (anemometro, altimetro, variometro) (opzione 2). Le altre risposte sono errate: il guasto non interessa la strumentazione motore (opzione 1), alimentata indipendentemente dal sistema di aspirazione; l'orizzonte artificiale pneumatico è proprio quello che si guasta con questo avaria (opzione 3), essendo l'orizzonte artificiale tradizionalmente azionato a depressione; il variometro a capsula (opzione 4) è invece uno strumento pneumatico che dipende dalla statica e può anch'esso essere compromesso se il vacuum pump fornisce anche la pressione di riferimento per la statica alternativa."
+          "explanation": "Alle basse temperature l'olio motore aumenta notevolmente di viscosità, diventando denso e pastoso: all'avviamento questo può generare pressioni dell'olio iniziali molto elevate e un flusso insufficiente verso i cuscinetti prima che l'olio si scaldi, motivo per cui in climi rigidi può essere necessario pre-riscaldare il vano motore prima della messa in moto (opzione C). Le altre risposte sono errate: l'olio non aumenta di volume congelando come l'acqua (opzione A), essendo un fenomeno diverso da quello proprio degli oli minerali/sintetici; l'olio non diventa più fluido come acqua a basse temperature, ma esattamente il contrario (opzione B); il freddo non trasforma chimicamente l'olio in acido, fenomeno che semmai deriva dall'ossidazione nel tempo, non dalla bassa temperatura (opzione D)."
         },
         {
           "n": 189,
@@ -6312,7 +6312,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il motorino di avviamento assorbe una corrente enormee (centinaia di ampere) perché deve vincere la compressione meccanica dei pistoni e trascinare l'albero motore fermo, superandone l'inerzia e la resistenza interna, lavoro che richiede una potenza meccanica elevatissima (opzione 2). Le altre risposte sono errate: la durata prolungata del ciclo (opzione 1) è una conseguenza, non la causa dell'elevato assorbimento; non è la resistenza del cavo di massa (opzione 3), che per quanto presente non è la ragione primaria dell'assorbimento; non è un cedimento dell'impianto elettrico (opzione 4), essendo il funzionamento del motorino di avviamento assolutamente normale e progettato per questa corrente."
+          "explanation": "Il sistema di avviso di stallo è tipicamente innescato da un'aletta mobile (switch) o da un foro posizionato sul bordo d'attacco dell'ala, sensibile allo spostamento del punto di ristagno del flusso d'aria che si verifica quando l'angolo di incidenza si avvicina al valore critico di stallo, attivando un segnale acustico o visivo di avviso (opzione A). Le altre risposte sono errate: il calo della pressione dell'olio motore (opzione B) è monitorato da un sensore dedicato alla lubrificazione, non collegato all'avviso di stallo; l'anemometro collegato al tubo di Pitot (opzione C) misura la velocità indicata, ma non è la fonte diretta del segnale di stallo nella maggior parte dei velivoli leggeri; un termometro sulle ali (opzione D) non esiste come componente standard e non avrebbe alcuna relazione con l'angolo di incidenza."
         },
         {
           "n": 190,
@@ -6326,7 +6326,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'elica ha un'angolazione (passo) maggiore alle estremità e minore vicino al mozzo: questa variazione progressiva fa sì che ogni sezione lavori con un angolo di incidenza costante e uniforme lungo tutta l'翼展, ottimizzando la trazione (opzione 2). Le altre risposte sono errate: la distribuzione non è uniforme (opzione 1), essendo proprio la variazione di passo a caratterizzare l'elica progressiva; la torsione non compensa la deriva (opzione 3), effetto secondario non correlato al principio di progettazione dell'elica; la sezione più vicina al mozzo ha passo minore, non maggiore (opzione 4), essendo la torsione decrescente verso il mozzo e crescente verso l'estremità."
+          "explanation": "Olio motore torbido o color latte durante il walk-around è tipicamente sintomo della presenza di acqua o condensa miscelata nell'olio, che forma un'emulsione lattiginosa a causa della contaminazione da umidità, spesso legata a cicli termici, voli brevi che non permettono la completa evaporazione della condensa, o guarnizioni non perfettamente a tenuta (opzione A). Le altre risposte sono errate: un eccessivo numero di ottani nel carburante (opzione B) non ha alcun effetto sull'aspetto dell'olio; non è un segno di normale consumo dei componenti (opzione C), essendo invece un'anomalia da investigare prima del volo; non indica affatto un olio appena sostituito di alta qualità (opzione D), che avrebbe un aspetto limpido e ambrato, non torbido."
         },
         {
           "n": 191,
@@ -6340,7 +6340,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La precessione giroscopica è la tendenza di un giroscopio a reagire a una forza applicata con un movimento spostato di 90° in avanti nella direzione di rotazione, il che spiega perché un'ala che si abbassa su un velivolo dotato di girostabilizzatore faccia cabrare il muso (opzione 4). Le altre risposte sono errate: il muso si abbassa di 90° all'indietro (opzione 1) è un'interpretazione scorretta che non corrisponde al comportamento reale del giroscopio; il muso si alza di 90° (opzione 2) è l'effetto opposto; il muso oscilla lateralmente (opzione 3) descrive un'oscillazione trasversale non correlata alla precessione."
+          "explanation": "Selezionando \"Alternate Air\" nei motori a iniezione, l'aria che entra nel motore proviene dall'interno della cofanatura motore (engine cowling): è aria calda e non filtrata, prelevata a monte di eventuali ostruzioni o accumuli di ghiaccio sulla presa d'aria esterna, e la sua temperatura più elevata aiuta anche a sciogliere il ghiaccio che potrebbe bloccare il filtro (opzione A). Le altre risposte sono errate: non si tratta di aria condizionata dalla cabina (opzione B), circuito completamente separato dall'alimentazione del motore; non è aria spillata dai tubi di scarico (opzione C), che sarebbe inquinata da gas combusti e pericolosa per il motore; non proviene da una bombola di aria compressa (opzione D), sistema non presente sui velivoli leggeri a pistoni."
         },
         {
           "n": 192,
@@ -6354,7 +6354,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La regola ANDS (Accelerate North, Decelerate South) descrive l'errore di accelerazione della bussola magnetica: quando il velivolo accelera verso Nord, la massa pendolare interna ritarda e indica una prua inferiore a quella reale, mentre in decelerazione indica una prua superiore (opzione 1). Le altre risposte sono errate: il comportamento inverso (opzione 2) non corrisponde alla direzione dell'errore descritto dalla regola; la prua Ovest in accelerazione non diminuisce (opzione 3), poiché la componente orizzontale del campo magnetico terrestre è minima all'equatore; non è la deviazione verso Est in decelerazione (opzione 4), direzione errata per il tipo di moto qui descritto."
+          "explanation": "EFIS è l'acronimo di Electronic Flight Instrument System, il sistema di strumentazione elettronica che sostituisce gli strumenti analogici tradizionali con display digitali (PFD e MFD) capaci di presentare assetto, navigazione e parametri motore in forma integrata (opzione B). Le altre risposte sono errate: Engine Fuel Injection System (opzione A) è un acronimo inventato che non corrisponde a EFIS e riguarderebbe l'alimentazione carburante, non la strumentazione di volo; Emergency Flight Indicator Switch (opzione C) non è un termine tecnico standard in uso in aeronautica; Electronic Flap Integration System (opzione D) non esiste come acronimo riconosciuto e non ha attinenza con la strumentazione EFIS."
         },
         {
           "n": 193,
@@ -6368,7 +6368,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'iniezione diretta di carburante elimina il carburatore e la formazione di miscela al suo interno, rendendo il sistema intrinsecamente immune dal ghiaccio di tipo carburatore, che dipende invece dall'abbassamento di temperatura per evaporazione nel Venturi del carburatore (opzione 2). Le altre risposte sono errate: il vantaggio non è l'assenza di candele (opzione 1), che l'iniezione diretta condivide con i sistemi a iniezione indiretta e non è un suo beneficio specifico; l'iniezione diretta non garantisce sempre un rapporto stechiometrico migliore (opzione 3), potendo avere problemi diatomizzazione del carburante alle alte quote; non elimina il rischio di vapor lock (opzione 4), che può ancora formarsi nelle tubazioni di alta pressione quando il carburante surriscalda."
+          "explanation": "I De-Icing Boots pneumatici sono posizionati sui bordi d'attacco delle ali, degli stabilizzatori orizzontali e della deriva, cioè le superfici dove il ghiaccio si accumula per prime a causa dell'impatto diretto delle goccioline d'acqua sopraffuse in volo; gonfiandosi e sgonfiandosi ciclicamente rompono il ghiaccio accumulato (opzione C). Le altre risposte sono errate: il parabrezza (opzione A) viene tipicamente protetto con sistemi ad aria calda o elettrici, non con guaine pneumatiche; il bordo d'uscita dell'ala e i flap (opzione B) non sono le superfici critiche per l'accumulo di ghiaccio, che si forma sul bordo d'attacco; le pale dell'elica (opzione D) utilizzano generalmente sistemi di sghiacciamento elettrici o a liquido, non guaine pneumatiche gonfiabili."
         },
         {
           "n": 194,
@@ -6382,7 +6382,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In caso di incendio motore durante l'avviamento la procedura prevede di continuare a girare il motore: il flusso d'aria generato dalla rotazione aspira le fiamme e i gas caldi nel motore stesso, soffocando l'incendio dall'interno (opzione 3). Le altre risposte sono errate: spegnere subito il motore e il carburante (opzione 1) è controproducente perché interrompe il flusso d'aria che soffoca le fiamme; chiudere il paracadute antincendio (opzione 2) è la procedura corretta ma non preclude di continuare a girare per il motivo appena spiegato; evacuare immediatamente il velivolo (opzione 4) è una misura estrema da valutare solo dopo aver tentato tutte le procedure di spegnimento di bordo."
+          "explanation": "L'AHRS sostituisce i giroscopi meccanici tradizionali con sensori a stato solido, quali accelerometri e giroscopi laser ad anello o MEMS (Micro-Electro-Mechanical Systems), che misurano le accelerazioni e le velocità angolari lungo i tre assi e le elaborano elettronicamente per ricavare assetto e prua senza parti meccaniche rotanti soggette a usura (opzione B). Le altre risposte sono errate: non impiega pesi e contrappesi idraulici (opzione A), tecnologia non pertinente ai sistemi di riferimento inerziale moderni; non si basa esclusivamente sul GPS (opzione C), che semmai integra e corregge periodicamente i dati inerziali ma non li sostituisce; non utilizza la pressione statica differenziale (opzione D), grandezza propria degli strumenti anemo-barometrici e non della piattaforma di assetto."
         },
         {
           "n": 195,
@@ -6396,7 +6396,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il regolatore di velocità dell'elica (CSU o governor) è un dispositivo idraulico o aerodinamico che varia il passo dell'elica a velocità costante per mantenere il regime motore al valore desiderato indipendentemente dalle condizioni di volo (opzione 2). Le altre risposte sono errate: non è un indicatore della velocità del velivolo (opzione 1), grandezza misurata dall'anemometro; non è un amplificatore idraulico della forza del pilota (opzione 3), funzione propria del boost cylinder o dei servo tabs; non è il sistema di alimentazione del carburatore (opzione 4), circuito completamente separato dal controllo del passo dell'elica."
+          "explanation": "L'EGT misura la temperatura dei gas di scarico in uscita dai cilindri: è uno strumento essenziale per smagrire (lean) correttamente la miscela aria-carburante durante la crociera, individuando il picco di temperatura (peak EGT) come riferimento per ottenere le migliori prestazioni e il minor consumo specifico (opzione A). Le altre risposte sono errate: la pressione dell'olio di ritorno dai cilindri (opzione B) è misurata da un sensore di pressione olio dedicato, non dall'EGT; la temperatura dell'aria calda al carburatore (opzione C) è rilevata da uno strumento distinto usato per il controllo del ghiaccio carburatore; i giri del turbocompressore (opzione D) sono monitorati, quando presenti, da un tachimetro dedicato al turbo, non dall'EGT."
         },
         {
           "n": 196,
@@ -6410,7 +6410,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La fatica metallica è il deterioramento progressivo di un componente sottoposto a sollecitazioni cicliche ripetute nel tempo, ciascuna di intensità anche inferiore al carico limite, che genera microfratture fino al cedimento improvviso per fatica (opzione 3). Le altre risposte sono errate: la deformazione permanente sotto carico costante (opzione 1) è il fenomeno della plasticità o dello snervamento, che avviene a sollecitazioni sostenute e non cicliche; il surriscaldamento eccessivo che indebolisce il metallo (opzione 2) è un meccanismo di cedimento termico, distinto dalla fatica meccanica ciclica; l'usura superficiale da attrito (opzione 4) è l'abrasione meccanica dei componenti in contatto, diversa dal danneggiamento strutturale progressivo causato dai cicli di sollecitazione."
+          "explanation": "I Trim Tab servono ad azzerare o ridurre lo sforzo che il pilota deve esercitare sui comandi di volo, mantenendo la superficie principale in una posizione stabile grazie a una piccola forza aerodinamica generata dal tab stesso, regolabile per adattarsi a diverse configurazioni di peso, centraggio e velocità (opzione D). Le altre risposte sono errate: non servono a rendere i comandi più pesanti (opzione A), essendo il loro scopo esattamente l'opposto, cioè alleggerire lo sforzo; non generano portanza addizionale utile al decollo (opzione B), funzione propria dei flap, non dei trim tab; non fungono da flap secondari (opzione C), avendo una funzione di compensazione dei carichi sui comandi e non di generazione di portanza per l'intera ala."
         },
         {
           "n": 197,
@@ -6424,7 +6424,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Nel caso un display del glass cockpit si guasti, il velivolo dispone della modalità di ridondanza (reversionary mode) che consente di trasferire le informazioni essenziali del PFD su schermi alternativi, permettendo al pilota di proseguire il volo anche con indicazioni distribuite su display diversi (opzione 1). Le altre risposte sono errate: il passaggio automatico al pilota automatico (opzione 2) non è una funzione della modalità di ridondanza, che riguarda la visualizzazione e non il controllo del velivolo; l'azionamento manuale del paracadute (opzione 3) è un sistema di emergenza del tutto separato e non correlato all'affidabilità dei display elettronici; il velivolo non è privo di strumenti di backup (opzione 4), essendo dotato proprio di questa modalità di ridondanza per garantire la disponibilità delle informazioni essenziali."
+          "explanation": "Se la presa di Pressione Statica esterna si ostruisce per ghiaccio, ne risentono tutti gli strumenti pitot-statici che utilizzano la pressione statica come riferimento: l'altimetro si blocca sull'ultima quota corretta rilevata, il variometro tende ad andare a zero non percependo più variazioni di pressione, e l'anemometro fornisce letture errate (in eccesso salendo, in difetto scendendo) poiché la pressione statica bloccata altera il calcolo della pressione dinamica (opzione C). Le altre risposte sono errate: non sono coinvolti esclusivamente altimetro e virosbandometro (opzione A), poiché il virosbandometro è uno strumento giroscopico indipendente dalla pressione statica; non sono coinvolti solo variometro e orizzonte artificiale (opzione B), essendo quest'ultimo anch'esso giroscopico e non statico; non tutti gli strumenti del pannello vanno in avaria (opzione D), poiché i giroscopi (orizzonte artificiale, virosbandometro, girodirezionale) restano operativi indipendentemente dal sistema statico."
         },
         {
           "n": 198,
@@ -6438,7 +6438,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La miscela aria-carburante è la combinazione fisica di aria comburente e carburante vaporizzato in proporzione adeguata alla combustione nel cilindro, proporzione che il pilota dosa tramite la manetta della miscela (opzione 1). Le altre risposte sono errate: la combinazione di aria comburente ed olio motore (opzione 2) non è la miscela combustibile ma una condizione di contaminazione del sistema di lubrifilazione; la sola aria comburente senza carburante (opzione 3) è assenza di combustione, il motore non funziona; la quantità totale di aria e carburante disponibile nel serbatoio (opzione 4) è una misura dell'energia potenziale complessiva del carburante, non della miscela preparata per la combustione."
+          "explanation": "Negli ammortizzatori oleo-pneumatici, l'energia cinetica dell'impatto viene assorbita tramite il trasferimento forzato di un fluido idraulico attraverso un foro calibrato (orifizio), che dissipa energia per attrito viscoso, seguito dalla compressione di un gas, solitamente azoto, che immagazzina energia elasticamente e la restituisce gradualmente per un rientro morbido del carrello (opzione C). Le altre risposte sono errate: non si basano su grandi molle in acciaio (opzione A), tecnologia tipica di ammortizzatori puramente meccanici più semplici e meno efficienti; non impiegano dischi di gomma sovrapposti (opzione B), soluzione usata in alcuni carrelli leggeri ma non negli ammortizzatori oleo-pneumatici; non utilizzano cavi elastici bungee (opzione D), tecnologia tipica di piccoli aeromobili storici o ultraleggeri, non degli ammortizzatori oleo-pneumatici moderni."
         },
         {
           "n": 199,
@@ -6452,7 +6452,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il fluido idraulico rosso è a base di olio minerale (Mil-H-5606), specifico per impianti idraulici aeronautici e incompatibile con fluidi sintetici o vegetali, che richiedono un sistema idraulico dedicato e non interscambiabile (opzione 3). Le altre risposte sono errate: non è fluido trasparente (opzione 1), colore non utilizzato negli impianti aeronautici standard; non è verde (opzione 2), colore che identifica altri tipi di fluidi in contesti diversi; non è blu (opzione 4), colore del fluido idraulico sintetico Skydrol impiegato in velivoli commerciali più grandi e non nei velivoli leggeri tipici dell'aviazione generale."
+          "explanation": "La rigidità nello spazio (rigidity in space) è la tendenza di un giroscopio in rapida rotazione a mantenere il proprio asse orientato in una direzione fissa rispetto allo spazio assoluto, conseguenza diretta della conservazione del momento angolare: è il principio su cui si basano orizzonte artificiale e girodirezionale (opzione A). Le altre risposte sono errate: l'attrazione magnetica terrestre (opzione B) è il principio su cui si basa la bussola magnetica, non i girostrumenti; la pressione statica (opzione C) è la grandezza usata da altimetro, variometro e componente dell'anemometro, non dai giroscopi; il Principio di Archimede (opzione D) riguarda la spinta idrostatica sui corpi immersi in un fluido e non ha alcuna relazione con il comportamento giroscopico."
         },
         {
           "n": 200,
@@ -6466,7 +6466,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Per il volo VFR diurno in IMC accidentale, gli strumenti gyro obbligatori sono tre: l'orizzonte artificiale (per l'assetto), il virosbandometro (per il rateo di virata) e l'altimetro (per la quota), mentre l'anemometro è moto alternativo e il variometro è facoltativo in alcuni contesti regolamentari (opzione 1). Le altre risposte sono errate: solo orizzonte artificiale e altimetro (opzione 2) lasciano il pilota privo di informazione sulla manovra di virata; quattro strumenti (opzione 3) include elementi non richiesti dalla normativa di base; orizzonte artificiale e virosbandometro (opzione 4) non forniscono il dato essenziale della quota."
+          "explanation": "L'effetto diedro positivo migliora la stabilità laterale (di rollio) dell'aeromobile: se una raffica o una manovra inclina un'ala verso il basso, il velivolo scivola lateralmente verso quel lato, e l'ala bassa, presentando un angolo di incidenza effettivo maggiore rispetto all'ala alta a causa della geometria del diedro, genera più portanza e tende a riportare autonomamente le ali in condizione livellata (opzione C). Le altre risposte sono errate: il diedro non serve a diminuire la corsa di rullaggio (opzione A), parametro legato piuttosto a flap e potenza motore; non ha lo scopo di evitare la formazione di ghiaccio (opzione B), fenomeno gestito da sistemi antighiaccio dedicati; non fornisce spazio extra per i flap (opzione D), aspetto legato alla progettazione strutturale dell'ala e non alla sua angolazione diedra."
         },
         {
           "n": 201,
@@ -6480,7 +6480,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Gli strumenti azionati a vacuum sono l'orizzonte artificiale e il girodirezionale, che necessitano della rotazione di un giroscopio mantenuto in velocità dalla depressione generata dal vacuum pump (opzione 3). Le altre risposte sono errate: l'anemometro e l'altimetro (opzione 1) funzionano a pressione dinamica e statica, non a vacuum; il variometro (opzione 2) è uno strumento pneumatico ma non a giroscopio; l'orizzonte artificiale e il girodirezionale sono effettivamente gli strumenti gyro dipendenti dal vacuum (opzione 4) è scorretto perché associa questi due strumenti alla categoria sbagliata della domanda."
+          "explanation": "Il Servo Tab (opzione A) è un'aletta che si muove in direzione opposta alla superficie di comando principale azionata dal pilota: il flusso d'aria che investe il servo tab genera una forza aerodinamica che aiuta a muovere l'intera superficie principale, riducendo lo sforzo richiesto al pilota specialmente su velivoli grandi o veloci con comandi manuali. Le altre risposte sono errate: non è controllato da un motore idraulico indipendente (B), essendo un dispositivo puramente aerodinamico e passivo rispetto al movimento della superficie principale; non serve solo per la virata a terra (C), funzione propria del ruotino sterzante o del freno differenziale; non si estende dalla radice alare (D), essendo installato sul bordo d'uscita della superficie di comando a cui è abbinato."
         },
         {
           "n": 202,
@@ -6494,7 +6494,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Con un'elica a velocità costante impostata a basso RPM e alta MAP il motore tende ad accelerare oltre il regime massimo consentito e può incorrere in fenomeni di detonazione, poiché la miscela richiede un regime di rotazione proporzionato al passo per una combustione corretta (opzione 2). Le altre risposte sono errate: la perdita di trazione progressiva (opzione 1) è una conseguenza secondaria e non il fenomeno più grave; un regime motore stabile (opzione 3) è l'obiettivo del governor, non il risultato dell'impostazione errata MAP/RPM; l'ottimizzazione del consumo (opzione 4) è il beneficio di un'elica a velocità costante ben impostata, non il rischio di un'errata configurazione."
+          "explanation": "La Preaccensione (opzione D) è l'accensione della miscela carburante/aria prima che scocchi la scintilla della candela, causata da un punto caldo incandescente nel cilindro, ad esempio residui carboniosi o una valvola surriscaldata, favorita dal surriscaldamento prolungato del motore e da miscele eccessivamente povere. Le altre risposte sono errate: non è l'accensione esplosiva spontanea dell'intera carica per alta pressione (A), fenomeno distinto noto come detonazione; non è l'accensione del carburante nel collettore di scarico o ritorno di fiamma (B), evento diverso che avviene fuori dalla camera di combustione; non è un calo repentino dei giri per candele bagnate (C), problema di mancata accensione e non di accensione anticipata."
         },
         {
           "n": 203,
@@ -6508,7 +6508,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La temperatura della testa cilindri (CHT) è misurata da una termocoppia, una coppia di metalli diversi uniti che generano una tensione elettrica proporzionale alla temperatura nel punto di giunzione sul cilindro (opzione 4). Le altre risposte sono errate: la pressione dell'olio nel motore (opzione 1) è rilevata da un manometro dedicato nel circuito di lubrifilazione, non correlata alla CHT; la temperatura del gas di scarico (opzione 2) è misurata dalla sonda EGT, distinta e collocata nel condotto di scarico; il grado Baum del carburante (opzione 3) è un indicatore della volatilità del carburante, non una grandezza fisica misurabile da un sensore di temperatura del cilindro."
+          "explanation": "Quando la pallina si sposta verso l'ESTERNO della virata (opzione B), l'aereo è in Derapata (Skid): la forza centrifuga prevale sulla componente di gravità perché la velocità di virata (o l'inclinazione insufficiente) è troppo elevata per l'angolo di bank tenuto, spingendo la pallina verso l'esterno della curva. Le altre risposte sono errate: non è Scivolata/Slip (A), condizione in cui l'inclinazione è eccessiva rispetto al rateo di virata e la pallina si sposta verso l'interno, non verso l'esterno; non è volo coordinato (C), che si ha quando la pallina resta centrata; non è una fase di stallo (D), fenomeno legato all'angolo di incidenza critico e non alla posizione della pallina dell'inclinometro."
         },
         {
           "n": 204,
@@ -6522,7 +6522,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il Turn Coordinator differisce dal Turn and Slip indicator perché il suo giroscopio è inclinato di circa 30° rispetto all'asse longitudinale dell'aeroplano, permettendogli di rilevare sia le virate sia le rollate, mentre il T&S con gyro verticale rileva solo il rateo di virata laterale (opzione 1). Le altre risposte sono errate: entrambi usano un gyro verticale (opzione 2), differenza che non spiega la distinzione tra i due strumenti; il Turn Coordinator non ha un simbolo di aeroplano (opzione 3), dettaglio che riguarda invece il Turn and Slip indicator; la sensibilità alla velocità (opzione 4) non è il criterio distintivo tra i due strumenti, essendo entrambi tarati per rilevare il rateo di virata standard."
+          "explanation": "I motori a pistoni montano due magneti e due candele per cilindro (opzione C) per ragioni di ridondanza, così che il guasto o lo spegnimento accidentale di un magnete non comprometta l'accensione, e per garantire una combustione più rapida, uniforme e completa della miscela: due fronti di fiamma che si propagano da due punti diversi del cilindro bruciano la carica più velocemente e in modo più efficiente, migliorando la potenza. Le altre risposte sono errate: non servono ad avviare il motore senza batteria (A), essendo i magneti indipendenti dalla batteria ma non collegati alla necessità di doppia accensione per l'avviamento; non riducono l'interferenza radio (B), aspetto gestito da schermature dedicate dei cavi candela; non è dovuto al fatto che le candele si bruciano ogni 50 ore (D), la manutenzione periodica delle candele non è la ragione per cui sono installate in coppia fissa su ogni cilindro."
         },
         {
           "n": 205,
@@ -6536,7 +6536,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le prese statiche separate (split static ports) sono due piccole prese collocate una su ciascun lato della fusoliera che captano la pressione statica rispettivamente dal lato sopravento e sottovento, compensando automaticamente l'errore di pressione indotto dallo slip o skid sulla statica di riferimento degli strumenti (opzione 2). Le altre risposte sono errate: le due prese servono a misurare la velocità su ogni lato (opzione 1), funzione che spetta al sistema Pitot e non alla presa statica; non si compensano a vicenda per la temperatura (opzione 3), essendo la temperatura gestita da sensori dedicati e non correlata alle prese statiche; non alimentano strumenti diversi (opzione 4), poiché la statica di riferimento alimenta sempre gli stessi strumenti (altimetro, anemometro, variometro)."
+          "explanation": "L'amperometro Zero-Centrale (opzione C) indica il flusso di corrente da e verso la batteria: una deflessione verso il segno positivo mostra che l'alternatore sta ricaricando la batteria, una deflessione verso il segno negativo mostra che la batteria sta erogando corrente ai circuiti. Le altre risposte sono errate: non indica il voltaggio totale della batteria (A), grandezza mostrata da un voltmetro dedicato; non misura esclusivamente il consumo totale delle utenze (B), poiché mostra il bilancio netto di carica/scarica della batteria e non il solo assorbimento dei carichi; non misura elettricità statica accumulata (D), fenomeno non correlato alla strumentazione dell'impianto elettrico a corrente continua."
         },
         {
           "n": 206,
@@ -6550,7 +6550,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le ali a freccia (swept wings) sono progettate per ritardare il fenomeno dello wave drag e della comprimibilità transonica: spostando la portanza verso il bordo d'uscita e riducendo la componente normale del flusso all'ala, si alza il Mach critico e si consente di volare più vicini alla barriera del suono senza incorrere in resistenze d'onda (opzione 2). Le altre risposte sono errate: aumentare la portanza a bassa velocità (opzione 1) è l'obiettivo delle ali ad area maggiore o dei dispositivi ipersostentatori, non il vantaggio delle ali a freccia; ridurre la resistenza parassita (opzione 3) è un effetto secondario limitato, poiché la resistenza parassita domina a bassa velocità dove le ali a freccia non sono utilizzate; migliorare la visibilità laterale (opzione 4) non è una motivazione aerodinamica del design delle ali a freccia."
+          "explanation": "La probabilità di ghiaccio al carburatore è massima con la valvola a farfalla Parzialmente chiusa (opzione C), condizione tipica di basso regime come discesa o rullaggio: la maggiore espansione dell'aria attraverso lo stretto passaggio residuo e la forte diminuzione di pressione (effetto Venturi accentuato) abbassano drasticamente la temperatura locale, favorendo la formazione di ghiaccio anche con temperature esterne relativamente miti e umidità elevata. Le altre risposte sono errate: a farfalla Completamente aperta (A) la caduta di pressione nel Venturi è minima e il rischio di ghiaccio è ridotto; la valvola a farfalla non è inesistente nei motori aeronautici a carburatore (B), essendo un componente fondamentale del sistema di aspirazione; a manetta bloccata a metà esatta (D) il rischio esiste ma è inferiore rispetto alla condizione di basso regime prolungato tipica della discesa."
         },
         {
           "n": 207,
@@ -6564,7 +6564,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "I materiali compositi in fibra di carbonio offrono un rapporto resistenza/peso significativamente superiore alle leghe metalliche tradizionali, a parità di massa permettendo strutture più resistenti e più leggere, vantaggio critico in aeronautica per ridurre il peso e migliorare l'efficienza del velivolo (opzione 3). Le altre risposte sono errate: la resistenza al fuoco è un punto debole dei compositi, non un vantaggio (opzione 1), essendo le fibre di carbonio sensibili alle alte temperature se non protette; il costo di produzione è generalmente superiore (opzione 2), non inferiore, rispetto alle strutture metalliche tradizionali; la facilità di riparazione è limitata (opzione 4), poiché le riparazioni strutturali in composito richiedono attrezzature e competenze specialistiche maggiori rispetto alla lamiera metallica."
+          "explanation": "Con la rottura della pompa a vuoto (opzione C) il pilota perde l'affidabilità dell'Orizzonte artificiale e del Girodirezionale, i due strumenti giroscopici tradizionalmente azionati a depressione: le loro indicazioni diventano progressivamente errate per poi cadere o bloccarsi del tutto, mentre gli strumenti pneumatici pitot-statici restano operativi. Le altre risposte sono errate: Anemometro, Altimetro e Variometro (A) sono strumenti pitot-statici indipendenti dal vacuum pump; il Virosbandometro elettrico e la Bussola magnetica (B) restano operativi perché alimentati elettricamente o passivamente, non a vacuum; le luci di cabina e l'illuminazione strumenti (D) dipendono dall'impianto elettrico, non da quello pneumatico."
         },
         {
           "n": 208,
@@ -6578,7 +6578,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il colore blu dell'Avgas 100LL è una colorazione obbligatoria imposta dalla normativa ASTM D910, specifica per identificare visivamente questo grado di benzina avio ad alto numero di ottani e distinguerla da altre benzine di colore diverso (opzione 2). Le altre risposte sono errate: il blu non indica un numero di ottani superiore a 100LL (opzione 1), essendo il 100LL già il grado più alto disponibile; il colore non migliora la combustione (opzione 3), essendo una caratteristica puramente identificativa senza effetti sulle prestazioni; il blu non segnala proprietà antighiaccio (opzione 4), essendo il Perftone D-64 un additivo già presente nella formulazione e non il colore blu la sua spia."
+          "explanation": "Il motore di avviamento (opzione B) assorbe un'altissima corrente dalla batteria di bordo, spesso decine o centinaia di Ampere, perché deve vincere la compressione dei pistoni e l'inerzia dell'albero motore fermo: per questo va azionato solo per brevi intervalli, con pause di raffreddamento, per evitarne il surriscaldamento e prevenire danni al motorino stesso o alla batteria. Le altre risposte sono errate: non è alimentato dai magneti del motore (A), che generano l'alta tensione per le candele solo a motore già in rotazione, non l'energia per avviarlo; non funziona ad aria compressa nei velivoli leggeri (C), tecnologia riservata a motori di grandi dimensioni o turbine; non ricarica la batteria durante il volo (D), funzione svolta dall'alternatore o dalla dinamo, non dallo starter."
         },
         {
           "n": 209,
@@ -6592,7 +6592,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "A bassa temperatura l'olio motore si ispessisce aumentando la sua viscosità, il che ostacola la circolazione forzata e può ritardare l'avviamento del motore fino a quando l'olio non si riscalda abbastanza da fluire normalmente (opzione 3). Le altre risposte sono errate: il colore più chiaro dell'olio freddo (opzione 1) è un effetto secondario irrilevante; l'olio freddo non garantisce una migliore lubrifilazione (opzione 2), essendo la viscosità troppo alta per una lubrifilazione efficace; l'evaporazione accelerata (opzione 4) è un fenomeno legato alle alte temperature, non al freddo, e riguarda il carburante, non l'olio."
+          "explanation": "La svergolatura (twist) delle pale dell'elica (opzione C) serve a mantenere un angolo di incidenza aerodinamico relativamente costante lungo tutta la pala: poiché le sezioni vicine all'estremità si muovono a velocità periferica molto maggiore rispetto a quelle vicine al mozzo, ridurre progressivamente l'angolo di calettamento verso l'estremità compensa questa differenza di velocità e ottimizza la trazione su tutta la lunghezza della pala. Le altre risposte sono errate: non è una scelta puramente estetica o di riduzione del rumore (A), avendo una precisa funzione aerodinamica strutturale; non serve a evitare che le estremità tocchino il suolo (B), aspetto gestito dalla lunghezza dell'elica e dall'altezza del carrello, non dalla svergolatura; non serve a spingere l'aria verso il motore per raffreddarlo (D), funzione estranea al principio della torsione della pala."
         },
         {
           "n": 210,
@@ -6606,7 +6606,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'avvisatore acustico di stallo è azionato da una capsula sensibile (vane) sul bordo d'attacco dell'ala che, in condizioni normali, è tenuta aperta dal flusso d'aria; quando l'angolo di incidenza raggiunge valori prossimi allo stallo il flusso invertito spinge la capsula verso il basso chiudendo un contatto elettrico che attiva il segnale acustico (opzione 1). Le altre risposte sono errate: non è azionato dalla pressione del Pitot (opzione 2), che alimenta l'anemometro; non è attivato dalla temperatura della superficie alare (opzione 3), grandezza non correlata al meccanismo della capsula aerodinamica; non è basato su un sensore di vibrazione (opzione 4), principio impiegato in sistemi di monitoraggio motore ma non nel sistema di allarme stallo."
+          "explanation": "La Precessione giroscopica (opzione B) si manifesta così: se si applica una forza a un giroscopio in rotazione, la reazione a quella forza non si manifesta nel punto di applicazione ma a 90 gradi di distanza nel senso di rotazione, spostando l'asse del giroscopio in una direzione apparentemente inaspettata. Le altre risposte sono errate: non è un rallentamento dei giri per attrito (A), fenomeno distinto chiamato semplicemente attrito meccanico o perdita di velocità di rotazione; non comporta un allineamento automatico al Nord magnetico (C), comportamento proprio della bussola magnetica e non dei giroscopi liberi; non è un blocco totale della massa giroscopica in turbolenza (D), fenomeno non corrispondente al principio fisico della precessione."
         },
         {
           "n": 211,
@@ -6620,7 +6620,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'olio emulsionato (lattiginoso) indica la presenza di acqua nel circuito di lubrifilazione, tipicamente per condensazione interna o infiltrazione dal sistema di raffreddamento, contaminante grave che va eliminato e la causa individuata prima di riprendere il volo (opzione 2). Le altre risposte sono errate: la miscela con il carburante (opzione 1) genera altri sintomi e non l'emulsificazione; l'olio trasparente (opzione 3) è segno di olio nuovo e pulito, non di contaminazione; l'assenza di lubrifilazione (opzione 4) produce surriscaldamento e fumo, non l'aspetto lattiginoso caratteristico dell'emulsione."
+          "explanation": "Volando su rotta EST o OVEST nell'emisfero Nord, un'accelerazione causa una falsa indicazione di virata verso NORD (opzione A), secondo la regola pratica ANDS (Accelerate North, Decelerate South): la massa pendolare della bussola magnetica a liquido, per effetto della componente verticale del campo magnetico terrestre, ritarda durante l'accelerazione e fa deviare apparentemente la lettura verso Nord. Le altre risposte sono errate: non indica una falsa virata verso SUD (B), direzione opposta a quella prevista dalla regola ANDS in accelerazione; non provoca un rovesciamento della bussola (C), evento meccanico non legato all'errore di accelerazione; non causa un'inversione della declinazione magnetica (D), grandezza geografica fissa non alterata dall'accelerazione del velivolo."
         },
         {
           "n": 212,
@@ -6634,7 +6634,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'Alternate Air è una presa d'aria alternativa che si apre automaticamente o manualmente per immettere nel sistema di aspirazione del motore aria calda non filtrata prelevata dal cofano motore, bypassando la presa d'aria principale che potrebbe essere ostruita da ghiaccio o corpi estranei (opzione 1). Le altre risposte sono errate: l'aria fredda dall'esterno (opzione 2) è la funzione della presa normale, non della Alternate Air che bypassa proprio il sistema principale; non è un sensore di temperatura (opzione 3), essendo un componente del sistema di aspirazione del motore; non preleva gas di scarico (opzione 4), pratica che causerebbe intossicazione da monossido di carbonio e danni termici al motore."
+          "explanation": "Il principale vantaggio dei motori a iniezione rispetto al carburatore (opzione A) è l'assenza del fenomeno di ghiaccio al carburatore, poiché non esiste un Venturi dove l'aria si espande e si raffredda bruscamente, e una miscela distribuita in modo più uniforme ai cilindri, con dosaggio più preciso del carburante per ciascun cilindro. Le altre risposte sono errate: non garantisce l'immunità totale dal Vapor Lock (B), potendo il carburante surriscaldarsi comunque nelle tubazioni ad alta pressione; non permette di funzionare senza candele (C), essendo comunque necessaria l'accensione della miscela tramite scintilla; non richiede di funzionare esclusivamente con cherosene Jet A1 (D), continuando a usare benzina avio come i motori a carburatore."
         },
         {
           "n": 213,
@@ -6648,7 +6648,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "EFIS è l'acronimo di Electronic Flight Instrument System, il sistema integrato di strumentazione digitale di volo composto dal PFD (Primary Flight Display) e dal MFD (Multi-Function Display) che sostituisce la strumentazione tradizionale analogica (opzione 3). Le altre risposte sono errate: Electronic Flight Information System (opzione 1) non è l'espansione corretta della sigla; Electronic Flap and Instrument System (opzione 2) è inventata e non corrisponde ad alcun sistema aeronautico reale; Electric Fuel Injection System (opzione 4) riguarda l'iniezione del carburante, non la strumentazione di volo."
+          "explanation": "In caso di incendio nel condotto di aspirazione durante l'avviamento, spesso dovuto a overpriming (opzione C), la procedura standard iniziale prevede di continuare a far girare il motore con lo starter, così da tentare di risucchiare le fiamme all'interno dei cilindri, dove il carburante in eccesso può bruciare in modo controllato invece di alimentare l'incendio nel condotto esterno. Le altre risposte sono errate: spegnere subito lo starter e fuggire (A) è una misura estrema da riservare solo se il tentativo di risucchio fallisce e l'incendio si aggrava; spruzzare acqua nella presa d'aria (B) non è la procedura standard e rischia di danneggiare il motore senza spegnere efficacemente le fiamme; inserire tutta l'aria calda al carburatore (D) non è pertinente a un incendio nel condotto di aspirazione durante l'avviamento."
         },
         {
           "n": 214,
@@ -6662,7 +6662,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Le guaine pneumatiche antighiaccio (De-Icing Boots) sono tubi flessibili in gomma posizionati sul bordo d'attacco delle ali, delle piume d'equilibratura e del timone che, gonfiati periodicamente con aria compressa, rompono meccanicamente il ghiaccio già accumulato sulla superficie (opzione 1). Le altre risposte sono errate: riscaldano l'ala per prevenire la formazione di ghiaccio (opzione 2), funzione propria dei sistemi anti-icing termici (hot air o resistenze elettriche), non delle guaine pneumatiche; emettono segnali elettronici di allarme ghiaccio (opzione 3), compito di strumenti dedicati come il sistema di rilevamento ghiaccio e non delle guaine fisiche; si attivano automaticamente a terra (opzione 4), essendo comandate dal pilota in volo quando le condizioni lo richiedono."
+          "explanation": "La Constant Speed Unit o Governor (opzione A) altera l'inclinazione (pitch) delle pale dell'elica in volo, pompando olio in pressione nel mozzo, per mantenere costante il numero di giri (RPM) impostato dal pilota indipendentemente dal carico aerodinamico o dalla fase di volo. Le altre risposte sono errate: non modifica l'apertura del carburatore (B), regolata invece dalla manetta del gas azionata dal pilota; non assicura una TAS costante in crociera (C), grandezza che dipende da potenza, quota e condizioni atmosferiche e non è controllata direttamente dal governor; non spinge carburante addizionale nei cilindri in salita (D), funzione estranea al controllo del passo dell'elica."
         },
         {
           "n": 215,
@@ -6676,7 +6676,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'AHRS (Attitude and Heading Reference System) è un sistema completamente allo stato solido che determina l'assetto e la prua del velivolo utilizzando sensori MEMS (Micro-Electro-Mechanical Systems): accelerometri e giroscopi solid-state, senza alcuna parte meccanica in movimento (opzione 4). Le altre risposte sono errate: il sensore di temperatura (opzione 1) non è parte del sistema di determinazione dell'assetto; il giroscopio meccanico a vuoto (opzione 2) è il principio di funzionamento degli strumenti tradizionali, opposto alla tecnologia solid-state dell'AHRS; la pressione statica (opzione 3) è un dato pneumatico elaborato dall'Air Data Computer, non dall'AHRS che è completamente indipendente dal sistema Pitot-statico."
+          "explanation": "La Fatica dei metalli (opzione B) è un cedimento progressivo della struttura causato da cicli ripetuti e continui di sforzo e rilassamento (carichi variabili nel tempo), anche quando ciascun carico è ben inferiore al carico massimo di rottura: le sollecitazioni cicliche generano microfratture che si propagano nel tempo fino al cedimento improvviso del componente. Le altre risposte sono errate: non è causata esclusivamente da umidità e sale (A), fenomeno distinto noto come corrosione; non è dovuta al congelamento dei cavi in alta quota (C), evento non correlato al meccanismo di fatica ciclica; non è causata dal riscaldamento strutturale ad altissima velocità (D), fenomeno di natura termica diverso dalla fatica meccanica ciclica, tipico piuttosto di velivoli supersonici."
         },
         {
           "n": 216,
@@ -6690,7 +6690,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La temperatura dei gas di scarico (EGT) è lo strumento più sensibile per rilevare il punto di massima potenza e per leaned operation: la temperatura aumenta progressivamente leanedando la miscela fino a un picco (peak EGT), oltre il quale diminuisce con ulteriore impoverimento (opzione 3). Le altre risposte sono errate: il CHT non è lo strumento più indicato per leaned operation (opzione 1), poiché la temperatura della testa cilindri è meno sensibile alle variazioni di miscela rispetto all'EGT; il contagiri non è utile per leaned operation (opzione 2), essendo il suo scopo indicare il regime motore; la pressione del turbo (opzione 4) non è correlata all'erogazione di potenza in funzione della miscela nei motori aspirati."
+          "explanation": "In caso di guasto del display principale (PFD) in un Glass Cockpit a doppio schermo (opzione C), il sistema entra in Reversionary Mode: le informazioni vitali del PFD (assetto, velocità, quota) vengono automaticamente trasferite e visualizzate sul secondo schermo (MFD), garantendo al pilota la disponibilità continua dei dati essenziali di volo. Le altre risposte sono errate: il volo non deve procedere ignorando gli strumenti (A), essendo proprio la ridondanza elettronica a garantire la continuità delle informazioni; non vengono estratti strumenti meccanici nascosti (B), essendo la strumentazione di riserva analogica separata e non integrata nel cruscotto principale in questo modo; l'autopilota non prende automaticamente il controllo per l'atterraggio (D), rimanendo il pilota responsabile della condotta del velivolo anche in Reversionary Mode."
         },
         {
           "n": 217,
@@ -6704,7 +6704,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'aletta di compensazione (Trim Tab) è una piccola superficie mobile sul bordo d'uscita dell'impennaggio di coda che il pilota regola da terra o in volo per eliminare sforzi permanenti sui comandi e mantenere l'assetto desiderato senza dover tenere premuta la cloche o il timone (opzione 2). Le altre risposte sono errate: non limita il movimento massimo del comando (opzione 1), funzione propria di fermi meccanici dedicati; non è il dispositivo di bilanciamento principale dell'equilibratore orizzontale (opzione 3), che agisce sull'intera superficie equilibratrice e non su una piccola aletta secondaria; non serve a ridurre vibrazioni ad alta velocità (opzione 4), compito di smorzatori o modifiche aerodinamiche specifiche."
+          "explanation": "La miscela (mixture) introdotta nei cilindri (opzione B) è costituita essenzialmente da Carburante e Aria (ossigeno): il carburante vaporizzato si combina con l'ossigeno dell'aria comburente in un rapporto dosato dalla manetta della miscela, indispensabile per la combustione nel cilindro. Le altre risposte sono errate: non è composta da carburante e olio minerale 100W (A), essendo l'olio destinato alla lubrificazione e non alla combustione nella camera; non è aria e gas di scarico ricircolati (C), sistema di ricircolo non presente nei motori aeronautici a pistoni convenzionali; non è cherosene e aria compressa (D), combinazione propria dei motori a turbina e non dei motori a pistoni ad accensione comandata."
         },
         {
           "n": 218,
@@ -6718,7 +6718,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In caso di ostruzione della presa statica l'altimetro segna un valore superiore alla quota reale, il variometro indica dapprima una salita (risalita verso l'alto) e poi una discesa (discesa verso il basso) e l'anemometro indica una velocità minore del reale (opzione 3). Le altre risposte sono errate: l'altimetro non segna zero (opzione 1), poiché la pressione intrappolata corrisponde alla quota di blocco e non al suolo; il variometro non segna costantemente zero (opzione 2), avendo un funzionamento dinamico legato alla variazione della statica; l'anemometro non indica la velocità massima (opzione 4), grandezza che non dipende dalla statica bloccata."
+          "explanation": "Il fluido idraulico rosso (opzione C) è comunemente olio a base minerale, come il Mil-H-5606, tipico dell'aviazione leggera: è incompatibile con i fluidi sintetici e richiede un impianto dedicato, non interscambiabile con altri tipi di fluido. Le altre risposte sono errate: non si tratta di olio motore esausto (A), fluido diverso destinato alla lubrificazione del motore e non all'impianto idraulico; non è olio a base sintetica Skydrol (B), fluido di colore viola/rosato usato tipicamente sui velivoli commerciali più grandi, non nell'aviazione leggera; non è acqua mista a liquido antigelo (D), miscela non impiegata negli impianti idraulici aeronautici."
         },
         {
           "n": 219,
@@ -6732,7 +6732,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'ammortizzatore oleopneumatico (oleo-pneumatic) combina un fluido idraulico che passa attraverso un orifizio per smorzare gli urti con un gas inerte (azoto) precompressso che funziona come molla pneumatica, assorbendo e restituendo l'energia del ciclo di atterraggio (opzione 3). Le altre risposte sono errate: la molla elicoidale (opzione 1) è un componente del carrello classico ma non l'ammortizzatore oleopneumatico; il pneumatico del carrello (opzione 2) non è l'ammortizzatore primario, essendo progettato solo per l'assorbimento del carico verticale residuo; il gas inerte pressurizzato da solo (opzione 4) agisce come molla pneumatica ma senza il fluido non fornisce lo smorzamento necessario a controllare il rebound dell'ammortizzazione."
+          "explanation": "Nonostante la presenza di sistemi elettronici ridondanti (EFIS), i velivoli certificati devono obbligatoriamente avere una strumentazione di standby (opzione D), analogica o digitale indipendente con batteria propria, comprendente almeno anemometro, orizzonte e altimetro, per garantire i dati di volo essenziali anche in caso di perdita totale dell'alimentazione elettrica principale o di guasto dei display primari. Le altre risposte sono errate: un paracadute balistico (A) è un dispositivo di emergenza opzionale su alcuni velivoli, non un requisito legato alla ridondanza strumentale; un doppio motore (B) riguarda la ridondanza propulsiva, non quella strumentale; un sestante marino (C) non è un requisito degli aeromobili moderni, essendo uno strumento di navigazione storico non pertinente alla strumentazione di volo di base."
         },
         {
           "n": 220,
@@ -6746,7 +6746,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La rigidità giroscopica nello spazio è il fenomeno per cui un corpo rotante mantiene il proprio asse di rotazione puntato nella stessa direzione rispetto allo spazio assoluto, indipendentemente dal movimento del velivolo, grazie al principio di conservazione del momento angolare (opzione 3). Le altre risposte sono errate: la rotazione attorno al proprio asse è la definizione di spin, non di rigidità (opzione 1); il fenomeno non è causato dall'attrito dei cuscinetti (opzione 2), che semmai riduce la durata della rotazione ma non spiega la proprietà fondamentale del gyro di mantenere l'orientamento; l'oscillazione del componente in volo (opzione 4) è un effetto secondario indesiderato, non la proprietà fisica di rigidità."
+          "explanation": "Gli strumenti giroscopici tipicamente azionati dall'impianto pneumatico a depressione (opzione A) sono l'Orizzonte artificiale e il Girodirezionale: la pompa a vuoto trascinata dal motore crea la depressione necessaria a far ruotare il giroscopio interno di questi due strumenti alla velocità operativa richiesta. Le altre risposte sono errate: il Virosbandometro e l'altimetro (B) non sono azionati a vuoto, essendo il primo tipicamente elettrico e il secondo uno strumento pitot-statico; non è azionato a vuoto esclusivamente l'anemometro (C), anch'esso uno strumento pitot-statico e non giroscopico; non sono azionati a vuoto tutti gli strumenti del cruscotto inclusi quelli pitot-statici (D), poiché questi ultimi funzionano con pressione dinamica e statica, non con depressione pneumatica."
         }
       ]
     },
