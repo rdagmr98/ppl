@@ -17941,7 +17941,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Un QDM 300° corrisponde a un QDR (posizione del velivolo rispetto alla stazione) di 120°; per intercettare il QDM 310° (QDR 130°, leggermente più in senso orario rispetto alla posizione attuale) il pilota deve dirigersi con una prua che tagli quella radiale convergendo verso la stazione da quel lato: la prua 270° realizza questa intercettazione. Le opzioni 1 (330°), 3 (030°) e 4 (060°) sono tutte prue che, partendo dalla posizione attuale (QDR 120°), non convergono affatto verso la radiale QDR 130° desiderata ma se ne allontanano, per cui il pilota non riuscirebbe mai a raggiungere il QDM 310° mantenendole."
+          "explanation": "QDR e QDM differiscono sempre di 180°: QDR attuale = 300° − 180° = 120°; il QDM desiderato di 310° corrisponde a una radiale QDR = 310° − 180° = 130°. La radiale desiderata è quindi 130° − 120° = 10° in senso orario rispetto alla posizione attuale. Verificando geometricamente le 4 prue proposte rispetto alla retta della radiale 130°/QDM 310°, solo la prua 270° la incrocia in avanti convergendo verso la stazione: le altre tre proseguono divergendo e non la incrociano mai avanzando. La risposta corretta è quindi: B) 270°. Le opzioni A (330°), C (030°) e D (060°) sono prue che, partendo dalla posizione attuale (QDR 120°), si allontanano dalla radiale 130°/QDM 310° invece di convergervi, per cui mantenendole il pilota non raggiungerebbe mai il QDM 310° desiderato."
         },
         {
           "n": 132,
@@ -17955,7 +17955,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per allontanarsi dalla stazione lungo il QDR 160° partendo dalla posizione attuale (QDR 145°), il pilota deve assumere una prua che intercetti quella radiale in uscita: la prua 190° realizza questa intercettazione, tagliando il QDR 160° con un angolo utile. L'opzione B (115°) è una prua che si allontana dalla radiale 160° anziché convergervi. L'opzione C (160°) equivale a volare parallelamente alla radiale desiderata (stessa direzione del QDR bersaglio): mantenendo questa prua il velivolo non taglierà mai quella radiale, restandone sempre alla stessa distanza laterale. L'opzione D (090°) è anch'essa una prua che diverge dalla radiale 160° anziché intercettarla."
+          "explanation": "La radiale desiderata (QDR 160°) dista 160° − 145° = 15° in senso orario dalla posizione attuale (QDR 145°). Per intercettarla in allontanamento con un angolo di taglio standard di circa 30°, si assume una prua pari alla radiale desiderata + 30° = 160° + 30° = 190°. La risposta corretta è quindi: A) 190°. L'opzione B (115°) è una prua che si allontana dalla radiale 160° anziché convergervi. L'opzione C (160°) equivale a volare parallelamente alla radiale desiderata (stessa direzione del QDR bersaglio): mantenendo questa prua il velivolo non taglierà mai quella radiale, restandone sempre alla stessa distanza laterale. L'opzione D (090°) è anch'essa una prua che diverge dalla radiale 160° anziché intercettarla."
         },
         {
           "n": 133,
@@ -18011,7 +18011,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per allontanarsi dalla stazione lungo il QDR 150° partendo dalla posizione attuale (QDR 138°), il pilota deve assumere una prua che intercetti quella radiale in uscita con un angolo di taglio ragionevole: la prua 180° realizza questa intercettazione. L'opzione C (360°) e l'opzione D (090°) sono prue che si allontanano dalla radiale 150° anziché convergervi, per cui non porterebbero mai il velivolo su quel QDR. L'opzione A (270°) converge sì geometricamente sul QDR 150°, ma con un angolo di intercettamento molto più stretto e indiretto rispetto alla prua 180°, un percorso inefficiente e non standard per allontanarsi lungo la radiale richiesta, rispetto alla soluzione corretta."
+          "explanation": "La radiale desiderata (QDR 150°) dista 150° − 138° = 12° in senso orario dalla posizione attuale (QDR 138°). Per intercettarla in allontanamento con l'angolo di taglio standard di circa 30°, si assume una prua pari alla radiale desiderata + 30° = 150° + 30° = 180°. La risposta corretta è quindi: B) 180°. Le opzioni C (360°) e D (090°) sono prue che si allontanano dalla radiale 150° anziché convergervi, per cui non porterebbero mai il velivolo su quel QDR. L'opzione A (270°) converge sì geometricamente sul QDR 150°, ma con un angolo di intercettamento molto più stretto e indiretto rispetto alla prua 180°, un percorso inefficiente e non standard per allontanarsi lungo la radiale richiesta, rispetto alla soluzione corretta."
         },
         {
           "n": 137,
@@ -18025,7 +18025,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il QDM attuale 240° corrisponde a un QDR (posizione del velivolo rispetto alla stazione) di 060°; per intercettare il QDM 220° (QDR 040°, leggermente in senso antiorario rispetto alla posizione attuale) il pilota deve assumere una prua che tagli quella radiale convergendo verso la stazione: la prua 270° realizza questa intercettazione. L'opzione A (120°) e l'opzione B (180°) sono prue che si allontanano dalla radiale 040° anziché convergervi, per cui mantenendole il pilota non intercetterebbe mai il QDM 220° desiderato. L'opzione D (360°) converge sì geometricamente su quella radiale, ma con un angolo di intercettamento molto più stretto e indiretto rispetto alla prua 270°, una soluzione meno diretta ed efficiente rispetto a quella corretta."
+          "explanation": "QDR e QDM differiscono sempre di 180°: QDR attuale = 240° − 180° = 060°; il QDM desiderato di 220° corrisponde a una radiale QDR = 220° − 180° = 040°. La radiale desiderata è quindi 060° − 040° = 20° in senso antiorario rispetto alla posizione attuale. Verificando geometricamente le 4 prue proposte rispetto alla retta della radiale 040°/QDM 220°, solo la prua 270° la incrocia in avanti convergendo verso la stazione, mentre le prue 120° e 180° si allontanano dalla radiale senza mai incrociarla. La risposta corretta è quindi: C) 270°. Le opzioni A (120°) e B (180°) sono prue che si allontanano dalla radiale 040° anziché convergervi, per cui mantenendole il pilota non intercetterebbe mai il QDM 220° desiderato. L'opzione D (360°) converge sì geometricamente su quella radiale, ma con un angolo di intercettamento molto più stretto e indiretto rispetto alla prua 270°, una soluzione meno diretta ed efficiente rispetto a quella corretta."
         },
         {
           "n": 138,
@@ -18729,7 +18729,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Leggendo 120° TO con CDI centrato, il velivolo si trova sulla radiale opposta, cioè 300° (120+180). Per intercettare poi la radiale 330° in allontanamento con un angolo di taglio efficace, occorre una prua che tagli quella linea con un angolo utile: partendo dalla posizione sulla radiale 300°, la prua 360° (30° a destra rispetto alla radiale 330° desiderata) realizza esattamente questo intercettamento efficace. Le opzioni 2, 3 e 4 (300°, 090°, 150°) non producono un intercettamento efficace della radiale 330° in allontanamento partendo dalla posizione descritta."
+          "explanation": "Con CDI centrato e lettura 120° TO, il velivolo si trova sulla radiale opposta: 120° + 180° = 300°. La radiale desiderata (330°, da seguire in allontanamento) dista 330° − 300° = 30° in senso orario dalla posizione attuale. Per intercettarla con l'angolo di taglio standard di circa 30°, si assume una prua pari alla radiale desiderata + 30° = 330° + 30° = 360°. La risposta corretta è quindi: A) 360°. Le opzioni B (300°), C (090°) e D (150°) non producono un intercettamento efficace della radiale 330° in allontanamento partendo dalla posizione descritta."
         },
         {
           "n": 187,
@@ -19106,7 +19106,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Quando la pressione reale scende (da 1020 a 1010 hPa) ma il pilota non aggiorna il regolaggio, l'altimetro continua a leggere 3000 ft sulla base di una pressione di riferimento ormai troppo alta: la regola pratica è che ogni hPa di differenza corrisponde a circa 30 ft di errore, quindi 10 hPa non corretti fanno sì che la quota reale sia inferiore di circa 300 ft, cioè circa 2700 ft ('High to Low, look out below'). L'opzione B (3300 ft) inverte il segno dell'errore. L'opzione C (esattamente 3000 ft) ignora l'effetto del cambio di pressione non compensato. L'opzione D (1000 ft) non corrisponde al calcolo dell'errore da 10 hPa."
+          "explanation": "Differenza di pressione non compensata: 1020 − 1010 = 10 hPa. Regola pratica: 1 hPa di errore ≈ 30 ft di errore di quota, quindi 10 hPa × 30 ft = 300 ft di errore. Poiché la pressione reale è scesa (10 hPa in meno rispetto al regolaggio impostato) ma l'altimetro continua a leggere 3000 ft sulla base del vecchio riferimento più alto, la quota reale è inferiore a quella indicata: 3000 − 300 = 2700 ft ('High to Low, look out below'). La risposta corretta è quindi: A) circa 2700 piedi. L'opzione B (3300 ft) inverte il segno dell'errore. L'opzione C (esattamente 3000 ft) ignora l'effetto del cambio di pressione non compensato. L'opzione D (1000 ft) non corrisponde al calcolo dell'errore da 10 hPa."
         },
         {
           "n": 214,
