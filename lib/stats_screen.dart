@@ -302,23 +302,52 @@ class _StatsScreenState extends State<StatsScreen> {
                 color: Colors.white),
           ),
           const SizedBox(height: 6),
-          Text('${(overallPct * 100).round()}%',
-              style: const TextStyle(
-                  fontSize: 40, fontWeight: FontWeight.bold, color: Colors.white)),
-          Text('$correct / $total risposte corrette',
-              style: const TextStyle(color: Colors.white70, fontSize: 13)),
-          const SizedBox(height: 10),
-          Text(subtitle,
-              textAlign: TextAlign.center,
-              style: const TextStyle(color: Colors.white70, fontSize: 12)),
-          const SizedBox(height: 4),
-          Text(
-              usedFullHistory
-                  ? 'basato su $attemptsCount tentativi completati'
-                  : 'basato su $attemptsCount tentativi recenti '
-                      '(~$coveragePct% del database)',
-              textAlign: TextAlign.center,
-              style: const TextStyle(color: Colors.white54, fontSize: 11)),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text('${(overallPct * 100).round()}%',
+                  style: const TextStyle(
+                      fontSize: 40, fontWeight: FontWeight.bold, color: Colors.white)),
+              const SizedBox(width: 4),
+              IconButton(
+                icon: const Icon(Icons.info_outline, color: Colors.white70, size: 20),
+                tooltip: 'Dettagli',
+                onPressed: () => _showReadinessInfo(
+                    correct, total, subtitle, usedFullHistory, attemptsCount, coveragePct),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showReadinessInfo(int correct, int total, String subtitle,
+      bool usedFullHistory, int attemptsCount, int coveragePct) {
+    showDialog<void>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('Dettagli prontezza'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('$correct / $total risposte corrette'),
+            const SizedBox(height: 8),
+            Text(subtitle),
+            const SizedBox(height: 8),
+            Text(usedFullHistory
+                ? 'Basato su $attemptsCount tentativi completati.'
+                : 'Basato su $attemptsCount tentativi recenti '
+                    '(~$coveragePct% del database).'),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: const Text('Chiudi'),
+          ),
         ],
       ),
     );
