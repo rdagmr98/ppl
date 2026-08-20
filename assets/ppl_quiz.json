@@ -20892,7 +20892,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: No. Lo stallo non è un fenomeno esclusivo delle basse velocità, infatti può verificarsi anche ad alta velocità quando langolo dattacco supera improvvisamente il valore critico, ad esempio in una manovra brusca o in aria turbulenta. In virata stretta lo stallo può manifestarsi ben oltre la velocità di stallo indicata, perché il fattore di carico aumentato fa crescere la velocità di stallo effettiva. Lopzione A è errata perché confonde la correlazione tra velocità e stallo, omettendo che lincremento del fattore di carico in virata sposta la velocità di stallo verso lalto, non verso il basso."
+          "explanation": "Lo stallo è il distacco del flusso d'aria dal profilo alare quando l'angolo d'attacco supera il valore critico, indipendentemente dalla velocità: per questo può verificarsi anche ad alta velocità, ad esempio in una manovra brusca o in aria turbolenta. In virata stretta lo stallo può manifestarsi ben oltre la velocità di stallo indicata, perché il fattore di carico aumentato fa crescere la velocità di stallo effettiva. La risposta corretta è quindi: No, avviene quando si supera l'angolo di stallo, a prescindere dalla velocità. L'opzione A è errata perché confonde la correlazione tra velocità e stallo, omettendo che l'incremento del fattore di carico in virata sposta la velocità di stallo verso l'alto, non verso il basso."
         },
         {
           "n": 52,
