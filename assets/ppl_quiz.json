@@ -16111,7 +16111,7 @@
             "Precessione e Nutazione"
           ],
           "correct": 0,
-          "explanation": "La risposta corretta è: Rotazione e Rivoluzione. L'opzione B è errata perché 'Traslazione' non è il nome del movimento orbitale terrestre, che si chiama Rivoluzione, mentre la Precessione è un movimento secondario dell'asse terrestre. L'opzione C è errata perché 'Nutazione' è un oscillazione dell'asse e non un movimento principale, e Rotazione è già la scelta corretta. L'opzione D è errata perché sia la Precessione che la Nutazione sono movimenti secondari dell'asse di rotazione, non i due movimenti principali."
+          "explanation": "La Terra, come tutti i corpi celesti, compie diversi movimenti nello spazio: i due principali sono quello attorno al proprio asse, che genera l'alternanza di giorno e notte, e quello di orbita attorno al Sole, che genera le stagioni. Per questo la risposta corretta è: Rotazione e Rivoluzione. L'opzione B è errata perché 'Traslazione' non è il nome del movimento orbitale terrestre, che si chiama Rivoluzione, mentre la Precessione è un movimento secondario dell'asse terrestre. L'opzione C è errata perché 'Nutazione' è un oscillazione dell'asse e non un movimento principale, e Rotazione è già la scelta corretta. L'opzione D è errata perché sia la Precessione che la Nutazione sono movimenti secondari dell'asse di rotazione, non i due movimenti principali."
         },
         {
           "n": 2,
@@ -16125,7 +16125,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: E' un asse immaginario attorno al quale la Terra compie il movimento di rotazione. L'opzione A è errata perché l'asse di rotazione terrestre è l'asse attorno al quale la Terra compie il moto di ROTAZIONE (giornaliero), non quello di Rivoluzione (annuale attorno al Sole). L'opzione C è errata perché un asse perpendicolare all'eclittica è l'asse di rivoluzione, non quello di rotazione: l'asse terrestre è inclinato rispetto all'eclittica di circa 23.5°. L'opzione D è errata per lo stesso motivo: l'asse di rotazione non è perpendicolare all'eclittica."
+          "explanation": "L'asse di rotazione terrestre è la retta immaginaria passante per i due poli attorno a cui la Terra gira su se stessa, generando il moto diurno. Per questo la risposta corretta è: E' un asse immaginario attorno al quale la Terra compie il movimento di rotazione. L'opzione A è errata perché l'asse di rotazione terrestre è l'asse attorno al quale la Terra compie il moto di ROTAZIONE (giornaliero), non quello di Rivoluzione (annuale attorno al Sole). L'opzione C è errata perché un asse perpendicolare all'eclittica è l'asse di rivoluzione, non quello di rotazione: l'asse terrestre è inclinato rispetto all'eclittica di circa 23.5°. L'opzione D è errata per lo stesso motivo: l'asse di rotazione non è perpendicolare all'eclittica."
         },
         {
           "n": 3,
@@ -16139,7 +16139,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Dall'intersezione tra l'asse di rotazione terrestre con la superficie terrestre. L'opzione B è errata perché la congiungente Zenit-Nadir definisce la verticale del luogo, non i poli geografici: lo Zenit è il punto sopra la testa dell'osservatore e il Nadir quello sotto i piedi. L'opzione C è errata perché le isogone sono linee di uguale declinazione magnetica e convergono ai poli magnetici, non a quelli geografici. L'opzione D è errata perché l'asse parallelo a quello solare passante per il centro della Terra non coincide con l'asse di rotazione terrestre."
+          "explanation": "I poli geografici sono i due punti fissi della superficie terrestre attorno ai quali la Terra ruota, individuati geometricamente dall'incontro tra l'asse di rotazione e la superficie del pianeta. Per questo la risposta corretta è: Dall'intersezione tra l'asse di rotazione terrestre con la superficie terrestre. L'opzione B è errata perché la congiungente Zenit-Nadir definisce la verticale del luogo, non i poli geografici: lo Zenit è il punto sopra la testa dell'osservatore e il Nadir quello sotto i piedi. L'opzione C è errata perché le isogone sono linee di uguale declinazione magnetica e convergono ai poli magnetici, non a quelli geografici. L'opzione D è errata perché l'asse parallelo a quello solare passante per il centro della Terra non coincide con l'asse di rotazione terrestre."
         },
         {
           "n": 4,
@@ -16167,7 +16167,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Distanza di un punto dall'equatore misurata in gradi da 0° a 90° Nord e da 0° a 90° Sud. L'opzione A è errata perché la latitudine non ha nulla a che fare con la declinazione magnetica: le linee di uguale declinazione sono le isogone, non i paralleli. L'opzione B è errata perché l'isogonismo riguarda la declinazione magnetica, non la posizione geografica in latitudine. L'opzione C è errata perché la latitudine si misura da 0° a 90° Nord oppure da 0° a 90° Sud, non Est e Ovest: Est e Ovest sono le direzioni della longitudine."
+          "explanation": "La latitudine è la coordinata geografica che indica quanto un punto è distante dall'equatore verso nord o verso sud, misurata in gradi lungo il meridiano che passa per quel punto. Per questo la risposta corretta è: Distanza di un punto dall'equatore misurata in gradi da 0° a 90° Nord e da 0° a 90° Sud. L'opzione A è errata perché la latitudine non ha nulla a che fare con la declinazione magnetica: le linee di uguale declinazione sono le isogone, non i paralleli. L'opzione B è errata perché l'isogonismo riguarda la declinazione magnetica, non la posizione geografica in latitudine. L'opzione C è errata perché la latitudine si misura da 0° a 90° Nord oppure da 0° a 90° Sud, non Est e Ovest: Est e Ovest sono le direzioni della longitudine."
         },
         {
           "n": 6,
@@ -16195,7 +16195,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: E' una circonferenza massima ottenuta sulla superficie terrestre da un piano secante perpendicolare all'asse terrestre e contenente il centro della terra. L'opzione A è errata perché l'equatore è definito da un piano perpendicolare all'asse TERRESTRE (asse di rotazione), non alla congiungente Zenit-Nadir che rappresenta la verticale del luogo e varia da punto a punto. L'opzione C è errata perché l'equatore non è definito da punti di uguale declinazione magnetica: l'isogonale 0° (agonica) non coincide con l'equatore geografico. L'opzione D è errata perché l'eclittica è il piano dell'orbita terrestre attorno al Sole, non un piano perpendicolare all'asse terrestre."
+          "explanation": "L'equatore è il cerchio massimo di riferimento della Terra, dal quale si misurano tutte le latitudini: è definito geometricamente dal piano perpendicolare all'asse di rotazione che passa per il centro del pianeta. Per questo la risposta corretta è: E' una circonferenza massima ottenuta sulla superficie terrestre da un piano secante perpendicolare all'asse terrestre e contenente il centro della terra. L'opzione A è errata perché l'equatore è definito da un piano perpendicolare all'asse TERRESTRE (asse di rotazione), non alla congiungente Zenit-Nadir che rappresenta la verticale del luogo e varia da punto a punto. L'opzione C è errata perché l'equatore non è definito da punti di uguale declinazione magnetica: l'isogonale 0° (agonica) non coincide con l'equatore geografico. L'opzione D è errata perché l'eclittica è il piano dell'orbita terrestre attorno al Sole, non un piano perpendicolare all'asse terrestre."
         },
         {
           "n": 8,
@@ -16209,7 +16209,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Sono cerchi minori determinati da piani ideali secanti la superficie terrestre e paralleli all'Equatore. L'opzione B è errata perché i piani perpendicolari alla congiungente Zenit-Nadir sarebbero piani contenenti la verticale del luogo, e i cerchi da essi generati sarebbero cerchi massimi (meridiani), non cerchi minori paralleli all'equatore. L'opzione C è errata perché i piani paralleli all'eclittica generano cerchi legati all'orbita solare, non paralleli geografici. L'opzione D è errata perché i punti con la stessa longitudine giacciono sullo stesso MERIDIANO, non su un parallelo."
+          "explanation": "I paralleli sono le circonferenze che si ottengono sulla superficie terrestre intersecandola con piani paralleli al piano equatoriale: ogni punto su uno stesso parallelo condivide la medesima latitudine. Per questo la risposta corretta è: Sono cerchi minori determinati da piani ideali secanti la superficie terrestre e paralleli all'Equatore. L'opzione B è errata perché i piani perpendicolari alla congiungente Zenit-Nadir sarebbero piani contenenti la verticale del luogo, e i cerchi da essi generati sarebbero cerchi massimi (meridiani), non cerchi minori paralleli all'equatore. L'opzione C è errata perché i piani paralleli all'eclittica generano cerchi legati all'orbita solare, non paralleli geografici. L'opzione D è errata perché i punti con la stessa longitudine giacciono sullo stesso MERIDIANO, non su un parallelo."
         },
         {
           "n": 9,
@@ -16223,7 +16223,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Sono archi ideali di cerchio massimo di ampiezza pari a 180° che sono determinati sulla superficie terrestre da piani ideali che contengono l'asse terrestre. L'opzione A è errata perché i piani paralleli all'eclittica generano cerchi massimi legati all'orbita solare, non meridiani geografici. L'opzione C è errata perché l'asse dell'eclittica non coincide con l'asse terrestre: i meridiani sono definiti da piani che contengono l'ASSE TERRESTRE, non quello dell'eclittica. L'opzione D è errata perché i luoghi di uguale latitudine sono i PARALLELI, non i meridiani."
+          "explanation": "I meridiani sono le semicirconferenze che collegano il Polo Nord al Polo Sud, ottenute intersecando la superficie terrestre con piani contenenti l'asse di rotazione: ogni punto su uno stesso meridiano condivide la medesima longitudine. Per questo la risposta corretta è: Sono archi ideali di cerchio massimo di ampiezza pari a 180° che sono determinati sulla superficie terrestre da piani ideali che contengono l'asse terrestre. L'opzione A è errata perché i piani paralleli all'eclittica generano cerchi massimi legati all'orbita solare, non meridiani geografici. L'opzione C è errata perché l'asse dell'eclittica non coincide con l'asse terrestre: i meridiani sono definiti da piani che contengono l'ASSE TERRESTRE, non quello dell'eclittica. L'opzione D è errata perché i luoghi di uguale latitudine sono i PARALLELI, non i meridiani."
         },
         {
           "n": 10,
@@ -16237,7 +16237,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Sono infiniti ma per praticità se ne considerano 360, 180 ad Est e 180 ad Ovest del meridiano di riferimento. L'opzione A è errata perché il numero totale di meridiani considerati è 360, non 720: ogni meridiano ha un suo antimeridiano a 180°, quindi il sistema completo copre 360° Est e 360° Ovest ma sono lo stesso insieme di archi. L'opzione C è errata perché i meridiani non si dividono in Nord e Sud, bensì in Est e Ovest rispetto a Greenwich. L'opzione D è errata perché i meridiani considerati sono 360 complessivi (180 Est + 180 Ovest), non 180 totali."
+          "explanation": "I meridiani sono infiniti in teoria, ma per la navigazione se ne considera convenzionalmente un numero finito, distribuito simmetricamente rispetto al meridiano di riferimento di Greenwich. Per questo la risposta corretta è: Sono infiniti ma per praticità se ne considerano 360, 180 ad Est e 180 ad Ovest del meridiano di riferimento. L'opzione A è errata perché il numero totale di meridiani considerati è 360, non 720: ogni meridiano ha un suo antimeridiano a 180°, quindi il sistema completo copre 360° Est e 360° Ovest ma sono lo stesso insieme di archi. L'opzione C è errata perché i meridiani non si dividono in Nord e Sud, bensì in Est e Ovest rispetto a Greenwich. L'opzione D è errata perché i meridiani considerati sono 360 complessivi (180 Est + 180 Ovest), non 180 totali."
         },
         {
           "n": 11,
@@ -16251,7 +16251,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: E' il meridiano avente valore \"zero\" dal quale si iniziano a misurare le Longitudini Est o Ovest. Il suo Antimeridiano é quello del cambiamento di data. L'opzione A è errata perché il meridiano di Greenwich non è definito da una declinazione magnetica nulla: le linee di declinazione zero (agone) non passano necessariamente per Greenwich. L'opzione B è errata perché Greenwich è il meridiano di riferimento per le LONGITUDINI, non per le latitudini: le latitudini si contano dall'equatore. L'opzione D è errata perché sebbene Greenwich passi per zone disabitate in mare, il criterio di scelta non è la disabitazione ma il fatto che fu convenzionalmente stabilito a Greenwich come meridiano zero nel 1884."
+          "explanation": "Il meridiano di Greenwich è il meridiano scelto per convenzione internazionale come origine del sistema di longitudini, dal quale si misurano tutte le altre longitudini terrestri verso Est o verso Ovest. Per questo la risposta corretta è: E' il meridiano avente valore \"zero\" dal quale si iniziano a misurare le Longitudini Est o Ovest. Il suo Antimeridiano é quello del cambiamento di data. L'opzione A è errata perché il meridiano di Greenwich non è definito da una declinazione magnetica nulla: le linee di declinazione zero (agone) non passano necessariamente per Greenwich. L'opzione B è errata perché Greenwich è il meridiano di riferimento per le LONGITUDINI, non per le latitudini: le latitudini si contano dall'equatore. L'opzione D è errata perché sebbene Greenwich passi per zone disabitate in mare, il criterio di scelta non è la disabitazione ma il fatto che fu convenzionalmente stabilito a Greenwich come meridiano zero nel 1884."
         },
         {
           "n": 12,
@@ -16321,7 +16321,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Ad individuare un punto sia sulla superficie terrestre sia sulla carta geografica della zona considerata. L'opzione A è errata perché le coordinate geografiche non servono a individuare la declinazione magnetica, che si ricava dalle carte aeronautiche tramite le isogone. L'opzione B è errata perché la latitudine crescente è un concetto cartografico legato alla proiezione di Mercatore, non la funzione delle coordinate. L'opzione C è errata perché per tracciare una rotta con la declinazione magnetica si usano le coordinate unitamente alle informazioni magnetiche, ma la funzione primaria delle coordinate è localizzare punti."
+          "explanation": "Le coordinate geografiche (latitudine e longitudine) sono il sistema di riferimento che permette di individuare univocamente qualsiasi punto sulla superficie terrestre e di riportarlo sulla carta di navigazione. Per questo la risposta corretta è: Ad individuare un punto sia sulla superficie terrestre sia sulla carta geografica della zona considerata. L'opzione A è errata perché le coordinate geografiche non servono a individuare la declinazione magnetica, che si ricava dalle carte aeronautiche tramite le isogone. L'opzione B è errata perché la latitudine crescente è un concetto cartografico legato alla proiezione di Mercatore, non la funzione delle coordinate. L'opzione C è errata perché per tracciare una rotta con la declinazione magnetica si usano le coordinate unitamente alle informazioni magnetiche, ma la funzione primaria delle coordinate è localizzare punti."
         },
         {
           "n": 17,
@@ -16349,7 +16349,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Punto in cui convergono tutti i meridiani geografici compresi nell'Emisfero boreale. L'opzione A è errata perché i paralleli geografici sono direzioni Est-Ovest, non la direzione del Nord vero: il Nord vero è la direzione del Polo Nord geografico. L'opzione B è errata perché il meridiano di riferimento è la linea Nord-Sud che passa per Greenwich, non una direzione cardinale in sé. L'opzione D è errata perché i meridiani magnetici convergono al polo magnetico, non al Nord geografico, e il segno (+) non definisce il Nord vero."
+          "explanation": "Il Nord vero è la direzione geografica di riferimento definita dalla convergenza dei meridiani terrestri verso il Polo Nord geografico, indipendente dal campo magnetico terrestre. Per questo la risposta corretta è: Punto in cui convergono tutti i meridiani geografici compresi nell'Emisfero boreale. L'opzione A è errata perché i paralleli geografici sono direzioni Est-Ovest, non la direzione del Nord vero: il Nord vero è la direzione del Polo Nord geografico. L'opzione B è errata perché il meridiano di riferimento è la linea Nord-Sud che passa per Greenwich, non una direzione cardinale in sé. L'opzione D è errata perché i meridiani magnetici convergono al polo magnetico, non al Nord geografico, e il segno (+) non definisce il Nord vero."
         },
         {
           "n": 19,
@@ -16377,7 +16377,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Per indicare una direzione magnetica.. L'opzione A è errata perché la bussola magnetica non indica la direzione dei meridiani geografici in senso stretto, ma quella del Nord magnetico, che differisce dal Nord geografico per la declinazione magnetica. L'opzione B è errata perché i paralleli geografici sono direzioni Est-Ovest e la bussola non li segue. L'opzione C è errata perché la bussola non rileva la declinazione magnetica: per conoscerla si usano le isogone riportate sulle carte aeronautiche."
+          "explanation": "La bussola magnetica è lo strumento di bordo che sfrutta l'allineamento di un ago magnetizzato con le linee di forza del campo magnetico terrestre per fornire al pilota un riferimento di direzione. Per questo la risposta corretta è: Per indicare una direzione magnetica. L'opzione A è errata perché la bussola magnetica non indica la direzione dei meridiani geografici in senso stretto, ma quella del Nord magnetico, che differisce dal Nord geografico per la declinazione magnetica. L'opzione B è errata perché i paralleli geografici sono direzioni Est-Ovest e la bussola non li segue. L'opzione C è errata perché la bussola non rileva la declinazione magnetica: per conoscerla si usano le isogone riportate sulle carte aeronautiche."
         },
         {
           "n": 21,
@@ -16405,7 +16405,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Angolo formato tra il Nord vero e l'asse longitudinale del velivolo misurato in senso orario da 0° a 360°. L'opzione A è errata perché confonde la prua con la rotta: la prua è l'angolo tra il Nord e l'ASSE LONGITUDINALE del velivolo, non la traiettoria effettiva che può essere deviata dal vento. L'opzione B è errata perché descrive la rotta vera (True Course), non la prua vera: la congiungente punto di partenza-punto di arrivo è la rotta, non la direzione dell'asse del velivolo. L'opzione D è errata perché descrive la prua bussola (Compass Heading), che è la prua vera corretta della deviazione residua."
+          "explanation": "La prua vera (True Heading) è l'angolo, misurato in senso orario da 0° a 360° a partire dal Nord vero, tra la direzione del Nord vero e l'asse longitudinale del velivolo: descrive dove punta il muso dell'aereo, non necessariamente la traiettoria reale al suolo. Per questo la risposta corretta è: Angolo formato tra il Nord vero e l'asse longitudinale del velivolo misurato in senso orario da 0° a 360°. L'opzione A è errata perché confonde la prua con la rotta: la prua è l'angolo tra il Nord e l'ASSE LONGITUDINALE del velivolo, non la traiettoria effettiva che può essere deviata dal vento. L'opzione B è errata perché descrive la rotta vera (True Course), non la prua vera: la congiungente punto di partenza-punto di arrivo è la rotta, non la direzione dell'asse del velivolo. L'opzione D è errata perché descrive la prua bussola (Compass Heading), che è la prua vera corretta della deviazione residua."
         },
         {
           "n": 23,
@@ -16419,7 +16419,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Dai circuiti elettrici di bordo che creano un campo magnetico che influisce sulle indicazioni della bussola magnetica variabile con l'orientamento. L'opzione B è errata perché il campo magnetico terrestre causa la DECLINAZIONE magnetica (variazione tra Nord vero e Nord magnetico), non la deviazione residua: quest'ultima è provocata dalle masse metalliche e dai circuiti elettrici di bordo. L'opzione C è errata perché il numero di aghi della bussola non influenza la deviazione residua: la deviazione dipende dalla configurazione del campo magnetico locale di bordo. L'opzione D è errata perché la deviazione magnetica è l'errore misurato e corretto dal pilota, non la causa dell'errore."
+          "explanation": "La deviazione della bussola magnetica è l'errore residuo, diverso da aereo ad aereo, causato dai campi magnetici generati a bordo (masse metalliche, circuiti elettrici), che si somma alla declinazione magnetica ambientale e varia con la prua del velivolo. Per questo la risposta corretta è: Dai circuiti elettrici di bordo che creano un campo magnetico che influisce sulle indicazioni della bussola magnetica variabile con l'orientamento. L'opzione B è errata perché il campo magnetico terrestre causa la DECLINAZIONE magnetica (variazione tra Nord vero e Nord magnetico), non la deviazione residua: quest'ultima è provocata dalle masse metalliche e dai circuiti elettrici di bordo. L'opzione C è errata perché il numero di aghi della bussola non influenza la deviazione residua: la deviazione dipende dalla configurazione del campo magnetico locale di bordo. L'opzione D è errata perché la deviazione magnetica è l'errore misurato e corretto dal pilota, non la causa dell'errore."
         },
         {
           "n": 24,
@@ -16433,7 +16433,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Vero. L'opzione B è errata perché i poli magnetici sono EFFETTIVAMENTE sfasati rispetto ai poli geografici: il polo nord magnetico si trova attualmente nel nord del Canada, non al Polo Nord geografico. L'opzione C è errata perché il fatto che i poli non coincidano non dipende dalla posizione rispetto all'equatore: la non-coincidenza è una proprietà permanente e globale. L'opzione D è errata perché la posizione dei poli magnetici varia nel tempo (deriva magnetica) ma non ha periodicità stagionale."
+          "explanation": "I poli magnetici terrestri, dove le linee di forza del campo magnetico sono verticali, non coincidono con i poli geografici definiti dall'asse di rotazione: sono spostati di centinaia di chilometri e si spostano lentamente nel tempo. Per questo la risposta corretta è: Vero. L'opzione B è errata perché i poli magnetici sono EFFETTIVAMENTE sfasati rispetto ai poli geografici: il polo nord magnetico si trova attualmente nel nord del Canada, non al Polo Nord geografico. L'opzione C è errata perché il fatto che i poli non coincidano non dipende dalla posizione rispetto all'equatore: la non-coincidenza è una proprietà permanente e globale. L'opzione D è errata perché la posizione dei poli magnetici varia nel tempo (deriva magnetica) ma non ha periodicità stagionale."
         },
         {
           "n": 25,
@@ -16447,7 +16447,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Declinazione magnetica. L'opzione A è errata perché la deviazione residua è l'angolo tra il Nord magnetico e il Nord bussola (causata dalle masse metalliche di bordo), non l'angolo tra Nord vero e Nord magnetico. L'opzione C è errata perché l'inclinazione magnetica è l'angolo tra le linee di forza del campo magnetico terrestre e il piano orizzontale (è massima ai poli e nulla all'equatore), non l'angolo tra Nord vero e Nord magnetico. L'opzione D è errata perché la convergenza è l'angolo tra meridiani veri in proiezione cartografica, non l'angolo tra Nord vero e Nord magnetico."
+          "explanation": "L'angolo compreso tra la direzione del Nord vero e quella del Nord magnetico, dovuto al fatto che i due poli non coincidono, si chiama declinazione magnetica e varia da zona a zona. Per questo la risposta corretta è: Declinazione magnetica. L'opzione A è errata perché la deviazione residua è l'angolo tra il Nord magnetico e il Nord bussola (causata dalle masse metalliche di bordo), non l'angolo tra Nord vero e Nord magnetico. L'opzione C è errata perché l'inclinazione magnetica è l'angolo tra le linee di forza del campo magnetico terrestre e il piano orizzontale (è massima ai poli e nulla all'equatore), non l'angolo tra Nord vero e Nord magnetico. L'opzione D è errata perché la convergenza è l'angolo tra meridiani veri in proiezione cartografica, non l'angolo tra Nord vero e Nord magnetico."
         },
         {
           "n": 26,
@@ -16461,7 +16461,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Linee che uniscono tutti i punti di uguale declinazione magnetica. L'opzione A è errata perché 'uguale orientamento magnetico' è una formulazione vaga: le isogone sono specificamente linee di uguale DECLINAZIONE magnetica, non generici orientamenti magnetici. L'opzione C è errata perché le isogone non riguardano l'angolo del meridiano geografico, ma la differenza tra nord vero e nord magnetico. L'opzione D è errata perché le isogone non hanno nulla a che vedere con l'equatore: sono linee tracciate sulla carta che connettono punti di uguale angolo di declinazione."
+          "explanation": "Le linee isogone sono le linee tracciate sulle carte aeronautiche che uniscono tutti i punti della superficie terrestre in cui la declinazione magnetica assume lo stesso valore, permettendo al pilota di leggere direttamente la declinazione locale. Per questo la risposta corretta è: Linee che uniscono tutti i punti di uguale declinazione magnetica. L'opzione A è errata perché 'uguale orientamento magnetico' è una formulazione vaga: le isogone sono specificamente linee di uguale DECLINAZIONE magnetica, non generici orientamenti magnetici. L'opzione C è errata perché le isogone non riguardano l'angolo del meridiano geografico, ma la differenza tra nord vero e nord magnetico. L'opzione D è errata perché le isogone non hanno nulla a che vedere con l'equatore: sono linee tracciate sulla carta che connettono punti di uguale angolo di declinazione."
         },
         {
           "n": 27,
@@ -16475,7 +16475,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Dalle linee isogone riportate sulla carta di navigazione. L'opzione B è errata perché la tabella delle deviazioni residue di bordo riporta la DEVIAZIONE residua (causata dalle masse metalliche di bordo), non la DECLINAZIONE magnetica (causata dalla posizione del polo magnetico rispetto al polo geografico). L'opzione C è errata perché l'angolo tra prua magnetica e prua bussola è la deviazione residua (misurata dalla tabella di bordo), non la declinazione magnetica. L'opzione D è errata perché il Flight Manual contiene le prestazioni del velivolo, non i dati della declinazione magnetica che varia da zona a zona."
+          "explanation": "La declinazione magnetica di una zona, essendo un dato geografico legato alla posizione del polo magnetico, si ricava direttamente dalle isogone stampate sulle carte di navigazione aeronautica, non da tabelle di bordo o manuali del velivolo. Per questo la risposta corretta è: Dalle linee isogone riportate sulla carta di navigazione. L'opzione B è errata perché la tabella delle deviazioni residue di bordo riporta la DEVIAZIONE residua (causata dalle masse metalliche di bordo), non la DECLINAZIONE magnetica (causata dalla posizione del polo magnetico rispetto al polo geografico). L'opzione C è errata perché l'angolo tra prua magnetica e prua bussola è la deviazione residua (misurata dalla tabella di bordo), non la declinazione magnetica. L'opzione D è errata perché il Flight Manual contiene le prestazioni del velivolo, non i dati della declinazione magnetica che varia da zona a zona."
         },
         {
           "n": 28,
@@ -16503,7 +16503,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: La direzione del Nord bussola. L'opzione B è errata perché la bussola indica il Nord bussola, che è il Nord magnetico CORRETTO della deviazione residua di bordo, non il Nord magnetico puro. L'opzione C è errata perché il Nord geografico (Nord vero) si ottiene aggiungendo/sottraendo la declinazione magnetica alla prua magnetica, operazione che la bussola non compie. L'opzione D è errata perché la rotta vera rispetto al suolo è la Ground Track, influenzata anche dal vento, non un'indicazione della bussola."
+          "explanation": "La bussola magnetica di bordo, essendo influenzata sia dalla declinazione magnetica ambientale sia dalla deviazione residua dovuta ai campi magnetici del velivolo, indica una direzione propria chiamata Nord bussola, diversa sia dal Nord vero sia dal Nord magnetico puro. Per questo la risposta corretta è: La direzione del Nord bussola. L'opzione B è errata perché la bussola indica il Nord bussola, che è il Nord magnetico CORRETTO della deviazione residua di bordo, non il Nord magnetico puro. L'opzione C è errata perché il Nord geografico (Nord vero) si ottiene aggiungendo/sottraendo la declinazione magnetica alla prua magnetica, operazione che la bussola non compie. L'opzione D è errata perché la rotta vera rispetto al suolo è la Ground Track, influenzata anche dal vento, non un'indicazione della bussola."
         },
         {
           "n": 30,
@@ -16545,7 +16545,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: TC, TAS, W/V. L'opzione B è errata perché TH (True Heading) è la prua vera, ma il triangolo del vento si costruisce con la ROTTA VERA (TC), non con la prua: la differenza tra rotta e prua è proprio la deriva causata dal vento. L'opzione C è errata perché DA (Drift Angle) è l'angolo di deriva, che è una RISULTANTE del triangolo, non un dato di input. L'opzione D è errata perché QNH è la pressione normalizzata al livello del mare, non un dato del triangolo del vento che riguarda solo rotta, velocità e vento."
+          "explanation": "Il triangolo del vento è la costruzione grafica (o il calcolo equivalente al computer di volo) che mette in relazione la rotta e la velocità desiderate con l'effetto del vento, per ricavare la prua e la velocità al suolo effettive: richiede come dati di ingresso la rotta vera (TC), la velocità vera (TAS) e il vettore vento (W/V). Per questo la risposta corretta è: TC, TAS, W/V. L'opzione B è errata perché TH (True Heading) è la prua vera, ma il triangolo del vento si costruisce con la ROTTA VERA (TC), non con la prua: la differenza tra rotta e prua è proprio la deriva causata dal vento. L'opzione C è errata perché DA (Drift Angle) è l'angolo di deriva, che è una RISULTANTE del triangolo, non un dato di input. L'opzione D è errata perché QNH è la pressione normalizzata al livello del mare, non un dato del triangolo del vento che riguarda solo rotta, velocità e vento."
         },
         {
           "n": 33,
@@ -16574,7 +16574,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Angolo formato tra la direzione del Nord vero e quella del Nord magnetico. L'opzione B è errata perché l'angolo tra il Nord bussola e la traiettoria del velivolo è la DERIVA, non la declinazione magnetica. L'opzione C è errata perché l'angolo tra il Nord magnetico e l'asse del velivolo è la PRUA magnetica (MH), non la declinazione. L'opzione D è errata perché l'angolo tra il Nord magnetico e il Nord bussola è la DEVIAZIONE residua, non la declinazione magnetica."
+          "explanation": "La declinazione magnetica (Variation) è l'angolo, variabile da zona a zona, tra la direzione del Nord vero (geografico) e quella del Nord magnetico, causato dal disallineamento tra polo geografico e polo magnetico terrestre. Per questo la risposta corretta è: Angolo formato tra la direzione del Nord vero e quella del Nord magnetico. L'opzione B è errata perché l'angolo tra il Nord bussola e la traiettoria del velivolo è la DERIVA, non la declinazione magnetica. L'opzione C è errata perché l'angolo tra il Nord magnetico e l'asse del velivolo è la PRUA magnetica (MH), non la declinazione. L'opzione D è errata perché l'angolo tra il Nord magnetico e il Nord bussola è la DEVIAZIONE residua, non la declinazione magnetica."
         },
         {
           "n": 35,
@@ -16588,7 +16588,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: In assenza di componente laterale del vento. L'opzione B è errata perché uguagliare declinazione e deviazione non ha alcun effetto sull'uguaglianza tra prua magnetica e rotta magnetica: la deviazione e la declinazione sono correzioni applicate alla prua bussola per ottenere la prua magnetica. L'opzione C è errata perché una bussola ben compensata elimina la deviazione residua, ma la prua magnetica e la rotta magnetica rimangono diverse se c'è vento. L'opzione D è errata perché quando l'aereo naviga nel letto del vento (vento esattamente in prua o in coda) la deriva è zero ma prua e rotta magnetica non coincidono necessariamente."
+          "explanation": "La prua magnetica (l'angolo tra Nord magnetico e asse del velivolo) e la rotta magnetica (l'angolo tra Nord magnetico e traiettoria reale al suolo) coincidono solo quando il vento non produce alcuna deriva laterale, cioè quando la sua componente trasversale rispetto alla rotta è nulla. Per questo la risposta corretta è: In assenza di componente laterale del vento. L'opzione B è errata perché uguagliare declinazione e deviazione non ha alcun effetto sull'uguaglianza tra prua magnetica e rotta magnetica: la deviazione e la declinazione sono correzioni applicate alla prua bussola per ottenere la prua magnetica. L'opzione C è errata perché una bussola ben compensata elimina la deviazione residua, ma la prua magnetica e la rotta magnetica rimangono diverse se c'è vento. L'opzione D è errata perché quando l'aereo naviga nel letto del vento (vento esattamente in prua o in coda) la deriva è zero ma prua e rotta magnetica non coincidono necessariamente."
         },
         {
           "n": 36,
@@ -16602,7 +16602,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Prua magnetica (MH). L'opzione A è errata perché la rotta magnetica (MC) è l'angolo tra il Nord magnetico e la TRAIETTORIA effettiva del velivolo, non l'angolo con l'asse longitudinale. L'opzione B è errata perché la prua vera (TH) è riferita al Nord VERO, non al Nord magnetico. L'opzione D è errata perché la rotta bussola (CC) è riferita al Nord bussola, non al Nord magnetico."
+          "explanation": "L'angolo tra l'asse longitudinale del velivolo e la direzione del Nord magnetico, cioè la direzione verso cui punta il muso dell'aereo riferita al Nord magnetico, si chiama prua magnetica (Magnetic Heading, MH). Per questo la risposta corretta è: Prua magnetica (MH). L'opzione A è errata perché la rotta magnetica (MC) è l'angolo tra il Nord magnetico e la TRAIETTORIA effettiva del velivolo, non l'angolo con l'asse longitudinale. L'opzione B è errata perché la prua vera (TH) è riferita al Nord VERO, non al Nord magnetico. L'opzione D è errata perché la rotta bussola (CC) è riferita al Nord bussola, non al Nord magnetico."
         },
         {
           "n": 37,
@@ -16616,7 +16616,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Angolo formato tra la direzione del Nord vero e la direzione del Nord magnetico.. L'opzione A è errata perché l'angolo tra Nord magnetico e Nord bussola è la DEVIAZIONE residua (causata da masse metalliche di bordo), non la declinazione magnetica. L'opzione B è errata perché l'angolo tra il meridiano geografico e il Nord bussola è una combinazione di declinazione e deviazione, non la sola declinazione. L'opzione D è errata perché descrive la deviazione residua della bussola, non la declinazione magnetica."
+          "explanation": "La declinazione magnetica (Variation) è definita come l'angolo tra la direzione del Nord vero e quella del Nord magnetico, dovuto alla non coincidenza tra polo geografico e polo magnetico terrestre, e va tenuta distinta dalla deviazione residua causata dal velivolo stesso. Per questo la risposta corretta è: Angolo formato tra la direzione del Nord vero e la direzione del Nord magnetico. L'opzione A è errata perché l'angolo tra Nord magnetico e Nord bussola è la DEVIAZIONE residua (causata da masse metalliche di bordo), non la declinazione magnetica. L'opzione B è errata perché l'angolo tra il meridiano geografico e il Nord bussola è una combinazione di declinazione e deviazione, non la sola declinazione. L'opzione D è errata perché descrive la deviazione residua della bussola, non la declinazione magnetica."
         },
         {
           "n": 38,
@@ -16644,7 +16644,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Il pilota sta navigando verso un'area di Bassa Pressione e quindi deve attendersi le caratteristiche meteorologiche ad essa associate. L'opzione A è errata perché in alta pressione l'aria scende e ruota in senso orario (emisfero nord) senza produrre una forte deriva laterale: la deriva significativa è associata ai gradienti di pressione orizzontali tipici delle aree di bassa pressione. L'opzione C è errata perché un errore nel bollettino meteorologico non spiega una deriva costante verso destra, che ha cause aerodinamiche legate alla rotazione terrestre. L'opzione D è errata perché alle alte latitudini la deriva è maggiore per l'effetto Coriolis, ma la deriva verso destra è già presente alle nostre latitudini e indica navigazione verso una zona di bassa pressione."
+          "explanation": "Nel nostro emisfero, la circolazione dell'aria attorno ai centri di bassa pressione avviene in senso antiorario: un velivolo che, pur mantenendo la prua costante, subisce una deriva sostenuta verso destra sta tipicamente venendo deviato verso il centro di un sistema di bassa pressione. Per questo la risposta corretta è: Il pilota sta navigando verso un'area di Bassa Pressione e quindi deve attendersi le caratteristiche meteorologiche ad essa associate. L'opzione A è errata perché in alta pressione l'aria scende e ruota in senso orario (emisfero nord) senza produrre una forte deriva laterale: la deriva significativa è associata ai gradienti di pressione orizzontali tipici delle aree di bassa pressione. L'opzione C è errata perché un errore nel bollettino meteorologico non spiega una deriva costante verso destra, che ha cause aerodinamiche legate alla rotazione terrestre. L'opzione D è errata perché alle alte latitudini la deriva è maggiore per l'effetto Coriolis, ma la deriva verso destra è già presente alle nostre latitudini e indica navigazione verso una zona di bassa pressione."
         },
         {
           "n": 40,
@@ -16658,7 +16658,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Scarrocciamento laterale causato dalla componente trasversale del vento. L'opzione B è errata perché lo scarrocciamento (drift/sideslip) è lo scostamento laterale dell'aereo rispetto alla propria scia, mentre la deriva (drift angle) è l'angolo tra prua e rotta causato dal vento, non lo spostamento fisico. L'opzione C è errata perché il valore angolare proporzionale alla TAS e alla componente trasversale del vento descrive l'angolo di correzione di deriva (WCA), non la deriva in sé. L'opzione D è errata perché l'angolo di cui correggere la prua bussola è il WCA, non la deriva."
+          "explanation": "La deriva (drift) è l'angolo tra la prua del velivolo e la sua rotta effettiva al suolo, causato dallo scarrocciamento laterale che la componente di vento trasversale alla rotta prevista imprime alla traiettoria. Per questo la risposta corretta è: Scarrocciamento laterale causato dalla componente trasversale del vento. L'opzione B è errata perché lo scarrocciamento (drift/sideslip) è lo scostamento laterale dell'aereo rispetto alla propria scia, mentre la deriva (drift angle) è l'angolo tra prua e rotta causato dal vento, non lo spostamento fisico. L'opzione C è errata perché il valore angolare proporzionale alla TAS e alla componente trasversale del vento descrive l'angolo di correzione di deriva (WCA), non la deriva in sé. L'opzione D è errata perché l'angolo di cui correggere la prua bussola è il WCA, non la deriva."
         },
         {
           "n": 41,
@@ -16672,7 +16672,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Quando il vento proviene dalla sinistra del velivolo. L'opzione B è errata perché quando il vento proviene dalla DESTRA del velivolo, la deriva è NEGATIVA (il velivolo viene spinto verso sinistra rispetto alla prua impostata). L'opzione C è errata perché con il vento in coda (da behind) la deriva è zero: il vento è allineato con la prua, non trasversale. L'opzione D è errata perché l'uguaglianza tra rotta magnetica e prua vera non è un criterio per il segno della deriva."
+          "explanation": "Il segno della deriva dipende dal lato da cui proviene la componente trasversale del vento rispetto alla rotta: per convenzione la deriva è positiva quando il vento spinge il velivolo verso destra. Per questo la risposta corretta è: Quando il vento proviene dalla sinistra del velivolo. L'opzione B è errata perché quando il vento proviene dalla DESTRA del velivolo, la deriva è NEGATIVA (il velivolo viene spinto verso sinistra rispetto alla prua impostata). L'opzione C è errata perché con il vento in coda (da behind) la deriva è zero: il vento è allineato con la prua, non trasversale. L'opzione D è errata perché l'uguaglianza tra rotta magnetica e prua vera non è un criterio per il segno della deriva."
         },
         {
           "n": 42,
@@ -16686,7 +16686,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Quando il vento proviene dalla destra del velivolo.. L'opzione A è errata perché quando il vento proviene dalla SINISTRA del velivolo la deriva è POSITIVA (il velivolo viene spinto verso destra rispetto alla prua impostata). L'opzione C è errata perché in assenza di vento (calma) la deriva è zero, non negativa. L'opzione D è errata perché navigare lungo un parallelo non garantisce l'assenza di deriva."
+          "explanation": "Per lo stesso criterio di segno usato per la deriva, la deriva è negativa quando la componente trasversale del vento spinge il velivolo verso sinistra rispetto alla rotta prevista. Per questo la risposta corretta è: Quando il vento proviene dalla destra del velivolo. L'opzione A è errata perché quando il vento proviene dalla SINISTRA del velivolo la deriva è POSITIVA (il velivolo viene spinto verso destra rispetto alla prua impostata). L'opzione C è errata perché in assenza di vento (calma) la deriva è zero, non negativa. L'opzione D è errata perché navigare lungo un parallelo non garantisce l'assenza di deriva."
         },
         {
           "n": 43,
@@ -16700,7 +16700,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Angolo necessario per correggere l'effetto di Deriva del vento. L'opzione B è errata perché lo scarrocciamento (sideslip) è il movimento laterale dell'aereo dentro la propria scia, non l'angolo di correzione della rotta. L'opzione C è errata perché il valore angolare proporzionale alla TAS e al vento è la definizione della deriva stessa, non della WCA: la WCA è l'angolo che si aggiunge alla rotta per ottenere la prua. L'opzione D è errata perché lo spostamento della prua a seguito del vento è l'effetto della deriva, non la correzione di deriva."
+          "explanation": "L'angolo di correzione di deriva (Wind Correction Angle, WCA) è l'angolo che il pilota applica alla rotta desiderata per determinare la prua da mantenere, in modo che l'effetto della deriva del vento venga compensato e il velivolo segua effettivamente la rotta pianificata. Per questo la risposta corretta è: Angolo necessario per correggere l'effetto di Deriva del vento. L'opzione B è errata perché lo scarrocciamento (sideslip) è il movimento laterale dell'aereo dentro la propria scia, non l'angolo di correzione della rotta. L'opzione C è errata perché il valore angolare proporzionale alla TAS e al vento è la definizione della deriva stessa, non della WCA: la WCA è l'angolo che si aggiunge alla rotta per ottenere la prua. L'opzione D è errata perché lo spostamento della prua a seguito del vento è l'effetto della deriva, non la correzione di deriva."
         },
         {
           "n": 44,
@@ -16714,7 +16714,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Quando il vento proviene dalla destra della rotta. L'opzione B è errata perché lo scarrocciamento (sideslip) è il movimento laterale dell'aereo dentro la propria scia, non l'angolo di correzione della rotta. L'opzione C è errata perché il valore angolare proporzionale alla TAS e al vento è la definizione della deriva stessa, non della WCA: la WCA è l'angolo che si aggiunge alla rotta per ottenere la prua. L'opzione D è errata perché lo spostamento della prua a seguito del vento è l'effetto della deriva, non la correzione di deriva."
+          "explanation": "Analogamente al segno della deriva, il segno del WCA dipende dal lato da cui proviene il vento rispetto alla rotta: il WCA è positivo quando il vento proviene da destra, perché in tal caso occorre correggere la prua verso destra rispetto alla rotta. Per questo la risposta corretta è: Quando il vento proviene dalla destra della rotta. L'opzione B è errata perché se il vento proviene dalla SINISTRA della rotta, il WCA è NEGATIVO (si sottrae alla rotta). L'opzione C è errata perché con il vento in coda puro non c'è componente trasversale e il WCA è zero. L'opzione D è errata perché l'uguaglianza tra TAS e GS si verifica in assenza di componente di vento longitudinale, ma non è un criterio che determina il segno del WCA, che dipende solo dal lato di provenienza del vento trasversale."
         },
         {
           "n": 45,
@@ -16728,7 +16728,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Quando il vento proviene dalla sinistra della rotta. L'opzione A è errata perché se il vento proviene dalla DESTRA della rotta, il WCA è POSITIVO (si somma alla rotta). L'opzione C è errata perché con il vento in coda puro non c'è componente trasversale e il WCA è zero. L'opzione D è errata perché una virata standard (rate one, 3°/sec) non influenza il WCA, che dipende solo dal vento trasversale."
+          "explanation": "Specularmente, il WCA è negativo quando il vento proviene da sinistra della rotta, perché in tal caso occorre correggere la prua verso sinistra. Per questo la risposta corretta è: Quando il vento proviene dalla sinistra della rotta. L'opzione A è errata perché se il vento proviene dalla DESTRA della rotta, il WCA è POSITIVO (si somma alla rotta). L'opzione C è errata perché con il vento in coda puro non c'è componente trasversale e il WCA è zero. L'opzione D è errata perché una virata standard (rate one, 3°/sec) non influenza il WCA, che dipende solo dal vento trasversale."
         },
         {
           "n": 46,
@@ -16742,7 +16742,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: La correzione necessaria per compensare la componente laterale delvento. L'opzione A è errata perché la componente longitudinale del vento influenza la GS (velocità al suolo) e il tempo di volo, non l'angolo tra prua e rotta: la deriva è causata dalla componente TRASVERSALE. L'opzione C è errata perché la componente frontale del vento influenza la TAS effettiva (vento in testa rallenta, vento in coda accelera), non la differenza angolare tra prua e rotta. L'opzione D è errata perché la componente trasversale del campo magnetico non ha effetto sulla differenza tra prua e rotta, che è un fenomeno aerodinamico, non magnetico."
+          "explanation": "La differenza angolare tra la prua e la rotta di un velivolo è dovuta esclusivamente all'effetto della componente laterale (trasversale) del vento rispetto alla rotta, che il pilota deve compensare correggendo la prua per non essere deviato lateralmente. Per questo la risposta corretta è: La correzione necessaria per compensare la componente laterale del vento. L'opzione A è errata perché la componente longitudinale del vento influenza la GS (velocità al suolo) e il tempo di volo, non l'angolo tra prua e rotta: la deriva è causata dalla componente TRASVERSALE. L'opzione C è errata perché la componente frontale del vento influenza la TAS effettiva (vento in testa rallenta, vento in coda accelera), non la differenza angolare tra prua e rotta. L'opzione D è errata perché la componente trasversale del campo magnetico non ha effetto sulla differenza tra prua e rotta, che è un fenomeno aerodinamico, non magnetico."
         },
         {
           "n": 47,
@@ -16770,7 +16770,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: La velocità letta direttamente sullo strumento. L'opzione A è errata perché la velocità all'aria del velivolo non ha senso come definizione: l'IAS è specificamente la velocità letta sullo strumento senza correzioni. L'opzione C è errata perché l'IAS corretta dell'errore strumentale è la CAS (Calibrated Air Speed), non la IAS. L'opzione D è errata perché l'IAS corretta dell'errore di temperatura è un concetto che non appartiene alla catena di correzione dell'IAS."
+          "explanation": "La IAS (Indicated Air Speed) è il primo anello della catena delle velocità aeree: è semplicemente il valore che il pilota legge direttamente sull'anemometro di bordo, senza alcuna correzione per errori strumentali, di posizione della presa dinamica, di compressibilità o di temperatura. Per questo la risposta corretta è: La velocità letta direttamente sullo strumento. L'opzione A è errata perché la velocità all'aria del velivolo non ha senso come definizione: l'IAS è specificamente la velocità letta sullo strumento senza correzioni. L'opzione C è errata perché l'IAS corretta dell'errore strumentale è la CAS (Calibrated Air Speed), non la IAS. L'opzione D è errata perché l'IAS corretta dell'errore di temperatura è un concetto che non appartiene alla catena di correzione dell'IAS."
         },
         {
           "n": 49,
@@ -16784,7 +16784,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: La IAS corretta dell'errore strumentale e dell'errore di postazione della presa dinamica. L'opzione B è errata perché correggere la sola IAS dell'errore strumentale non produce la CAS: la CAS include anche la correzione dell'errore di postazione della presa dinamica. L'opzione C è errata perché la correzione dell'errore di temperatura produce la TAS, non la CAS. L'opzione D è errata perché la correzione dell'errore di pressione non è coinvolta nella definizione di CAS."
+          "explanation": "La CAS (Calibrated Air Speed) è il secondo anello della catena: si ottiene correggendo la IAS per l'errore strumentale e per l'errore di posizione della presa dinamica (Pitot), che dipende dall'assetto del velivolo. Per questo la risposta corretta è: La IAS corretta dell'errore strumentale e dell'errore di postazione della presa dinamica. L'opzione B è errata perché correggere la sola IAS dell'errore strumentale non produce la CAS: la CAS include anche la correzione dell'errore di postazione della presa dinamica. L'opzione C è errata perché la correzione dell'errore di temperatura produce la TAS, non la CAS. L'opzione D è errata perché la correzione dell'errore di pressione non è coinvolta nella definizione di CAS."
         },
         {
           "n": 50,
@@ -16826,7 +16826,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: La TAS corretta della componente longitudinale del vento. L'opzione A è errata perché l'IAS è la velocità indicata dallo strumento, che non tiene conto della variazione di densità con la quota: la GS richiede la TAS. L'opzione B è errata perché la CAS corregge solo gli errori strumentali e di postazione, ma non la variazione di densità dell'aria con la quota, necessaria per passare da velocità aria a velocità suolo. L'opzione D è errata perché la componente trasversale del vento influenza la rotta, non la velocità al suolo."
+          "explanation": "La Ground Speed (GS), cioè la velocità reale del velivolo rispetto al suolo, si ottiene correggendo la TAS (True Air Speed, cioè la velocità reale rispetto alla massa d'aria) della componente longitudinale del vento, che accelera o rallenta il moto al suolo a seconda che sia in coda o in prua. Per questo la risposta corretta è: La TAS corretta della componente longitudinale del vento. L'opzione A è errata perché l'IAS è la velocità indicata dallo strumento, che non tiene conto della variazione di densità con la quota: la GS richiede la TAS. L'opzione B è errata perché la CAS corregge solo gli errori strumentali e di postazione, ma non la variazione di densità dell'aria con la quota, necessaria per passare da velocità aria a velocità suolo. L'opzione D è errata perché la componente trasversale del vento influenza la rotta, non la velocità al suolo."
         },
         {
           "n": 53,
@@ -16839,7 +16839,7 @@
             "Distanza verticale di un oggetto qualsiasi rispetto all'elevazione dell'aeroporto sul MSL"
           ],
           "correct": 1,
-          "explanation": "La risposta corretta è: Distanza verticale di un oggetto puntiforme qualsiasi dal livello medio del mare. L'opzione A è errata perché l'altitudine è la distanza verticale dal livello medio del mare (MSL), non dalla superficie terrestre: la distanza dalla superficie è l'altezza (height). L'opzione C è errata perché la distanza dall'isobara 1013.2 hPa definisce la quota di pressione (Pressure Altitude), non l'altitudine. L'opzione D è errata perché riferirsi all'elevazione dell'aeroporto definisce l'altezza (height), non l'altitudine."
+          "explanation": "L'altitudine è la distanza verticale di un punto, riferita non a un punto della superficie terrestre ma al livello medio del mare (MSL, Mean Sea Level): è il dato che compare sulle carte di navigazione per il terreno e gli ostacoli. Per questo la risposta corretta è: Distanza verticale di un oggetto puntiforme qualsiasi dal livello medio del mare. L'opzione A è errata perché l'altitudine è la distanza verticale dal livello medio del mare (MSL), non dalla superficie terrestre: la distanza dalla superficie è l'altezza (height). L'opzione C è errata perché la distanza dall'isobara 1013.2 hPa definisce la quota di pressione (Pressure Altitude), non l'altitudine. L'opzione D è errata perché riferirsi all'elevazione dell'aeroporto definisce l'altezza (height), non l'altitudine."
         },
         {
           "n": 54,
@@ -16851,7 +16851,7 @@
             "Distanza verticale di un oggetto puntiforme qualsiasi riferita ad un determinato punto della superficie terrestre"
           ],
           "correct": 2,
-          "explanation": "La risposta corretta è: Distanza verticale di un oggetto puntiforme qualsiasi riferita ad un determinato punto della superficie terrestre. L'opzione A è errata perché la distanza verticale dal livello medio del mare (MSL) definisce l'ALTITUDINE, non l'altezza. L'opzione B è errata perché la distanza dall'isobara 1013.2 hPa definisce la quota di pressione (Pressure Altitude), non l'altezza."
+          "explanation": "L'altezza (height), a differenza dell'altitudine, è la distanza verticale di un punto riferita non al livello del mare ma a un punto specifico della superficie terrestre, tipicamente l'elevazione di un aeroporto: è il dato usato ad esempio nel circuito di traffico. Per questo la risposta corretta è: Distanza verticale di un oggetto puntiforme qualsiasi riferita ad un determinato punto della superficie terrestre. L'opzione A è errata perché la distanza verticale dal livello medio del mare (MSL) definisce l'ALTITUDINE, non l'altezza. L'opzione B è errata perché la distanza dall'isobara 1013.2 hPa definisce la quota di pressione (Pressure Altitude), non l'altezza."
         },
         {
           "n": 55,
@@ -16865,7 +16865,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Quella che si legge sull'altimetro quando viene inserito il valore dell'isobara standard 1013.2 hpa. L'opzione A è errata perché con il QFE l'altimetro indica l'altezza (height) rispetto alla pista, non la quota di pressione. L'opzione C è errata perché con il QNH l'altimetro indica l'altitudine rispetto al MSL, non la quota di pressione. L'opzione D è errata perché la correzione in base alla temperatura definisce la Density Altitude, non la Pressure Altitude."
+          "explanation": "La quota di pressione (Pressure Altitude) è il valore che si legge sull'altimetro quando questo viene regolato sulla pressione standard convenzionale di 1013.2 hPa, ed è il riferimento comune usato sopra la quota di transizione indipendentemente dalla pressione atmosferica reale del giorno. Per questo la risposta corretta è: Quella che si legge sull'altimetro quando viene inserito il valore dell'isobara standard 1013.2 hpa. L'opzione A è errata perché con il QFE l'altimetro indica l'altezza (height) rispetto alla pista, non la quota di pressione. L'opzione C è errata perché con il QNH l'altimetro indica l'altitudine rispetto al MSL, non la quota di pressione. L'opzione D è errata perché la correzione in base alla temperatura definisce la Density Altitude, non la Pressure Altitude."
         },
         {
           "n": 56,
@@ -16879,7 +16879,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: L'elevazione dell'aeroporto sul livello del mare. L'opzione A è errata perché con il QNH l'altimetro NON indica zero al suolo, ma l'ELEVAZIONE dell'aeroporto sul MSL. L'opzione C è errata perché l'altezza del circuito di traffico dipende dalla configurazione dell'aeroporto e non è l'indicazione dell'altimetro a terra. L'opzione D è errata perché con il QNH l'altimetro indica l'altitudine di pressione, non una pressione qualsiasi."
+          "explanation": "Il QNH è il valore di pressione atmosferica ridotta al livello del mare secondo l'atmosfera standard: regolando l'altimetro sul QNH, lo strumento indica l'altitudine, cioè al suolo mostra l'elevazione dell'aeroporto sopra il livello del mare, non zero. Per questo la risposta corretta è: L'elevazione dell'aeroporto sul livello del mare. L'opzione A è errata perché con il QNH l'altimetro NON indica zero al suolo, ma l'ELEVAZIONE dell'aeroporto sul MSL. L'opzione C è errata perché l'altezza del circuito di traffico dipende dalla configurazione dell'aeroporto e non è l'indicazione dell'altimetro a terra. L'opzione D è errata perché con il QNH l'altimetro indica l'altitudine di pressione, non una pressione qualsiasi."
         },
         {
           "n": 57,
@@ -16893,7 +16893,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Zero. L'opzione B è errata perché l'elevazione dell'aeroporto è la sua altezza sul livello del mare: con il QFE l'altimetro indica ZERO (l'altimetro è tarato per indicare zero alla superficie). L'opzione C è errata perché la quota di transizione è un livello altitudinale dove si passa dalla regolazione dell'altimetro QNH a quella standard 1013.2 hPa, non l'indicazione a terra. L'opzione D è errata perché con QFE l'altimetro indica l'altezza sopra la pista, non la quota di pressione."
+          "explanation": "Il QFE è il valore di pressione atmosferica misurato al livello di riferimento dell'aeroporto stesso (senza riduzione al livello del mare): regolando l'altimetro sul QFE, lo strumento è tarato per indicare zero quando il velivolo è a terra su quell'aeroporto. Per questo la risposta corretta è: Zero. L'opzione B è errata perché l'elevazione dell'aeroporto è la sua altezza sul livello del mare: con il QFE l'altimetro indica ZERO (l'altimetro è tarato per indicare zero alla superficie). L'opzione C è errata perché la quota di transizione è un livello altitudinale dove si passa dalla regolazione dell'altimetro QNH a quella standard 1013.2 hPa, non l'indicazione a terra. L'opzione D è errata perché con QFE l'altimetro indica l'altezza sopra la pista, non la quota di pressione."
         },
         {
           "n": 58,
@@ -16906,7 +16906,7 @@
             "In tali condizioni meteorologiche l'altimetro non è attendibile"
           ],
           "correct": 0,
-          "explanation": "La risposta corretta è: E' consigliato di eccedere, cioè di scegliere un livello di volo o una altitudine più elevata in quanto in tali condizioni l'altimetro indica più della quota reale e quindi ci troveremmo ad essere più bassi di quanto esso indichi. L'opzione B è errata perché il dato della pressione atmosferica è FONDAMENTALE per la scelta delle altitudini: l'altimetro sottostima la quota in alta pressione e sovrastima in bassa pressione. L'opzione C è errata perché scegliere un livello più BASSO in bassa pressione è pericoloso: l'altimetro indica PIÙ della quota reale, quindi in realtà si è PIÙ BASSI di quanto indicato, il che peggiora la sicurezza. L'opzione D è errata perché l'altimetro è attendibile, ma va interpretato: in bassa pressione indica valori superiori alla quota reale."
+          "explanation": "L'altimetro barometrico misura la quota sfruttando la diminuzione di pressione con l'altezza, ma è tarato su un'atmosfera standard: in condizioni di bassa pressione reale rispetto allo standard, lo strumento sovrastima la quota effettiva, cioè indica una quota maggiore di quella reale, per questo in navigazione in bassa pressione occorre eccedere e scegliere livelli più alti per mantenere il margine di sicurezza dal terreno. Per questo la risposta corretta è: E' consigliato di eccedere, cioè di scegliere un livello di volo o una altitudine più elevata in quanto in tali condizioni l'altimetro indica più della quota reale e quindi ci troveremmo ad essere più bassi di quanto esso indichi. L'opzione B è errata perché il dato della pressione atmosferica è FONDAMENTALE per la scelta delle altitudini: l'altimetro sottostima la quota in alta pressione e sovrastima in bassa pressione. L'opzione C è errata perché scegliere un livello più BASSO in bassa pressione è pericoloso: l'altimetro indica PIÙ della quota reale, quindi in realtà si è PIÙ BASSI di quanto indicato, il che peggiora la sicurezza. L'opzione D è errata perché l'altimetro è attendibile, ma va interpretato: in bassa pressione indica valori superiori alla quota reale."
         },
         {
           "n": 59,
@@ -16920,7 +16920,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: L'altimetro indica meno della quota reale e quindi ci troveremo ad essere più alti della quota da esso indicata.. L'opzione B è errata perché la pressione atmosferica è il dato stesso che l'altimetro misura tramite la pressione dell'aria sulla capsula aneroide. L'opzione C è errata perché in alta pressione l'altimetro indica PIÙ della quota reale (sovrastima), quindi si è più BASSI di quanto indicato, non più alti. L'opzione D è errata perché l'altimetro è attendibile: in alta pressione è semplicemente tarato per una pressione più alta del reale a quella quota."
+          "explanation": "Per lo stesso principio, quando la pressione reale è più alta dello standard, l'altimetro sottostima la quota effettiva: indica meno della quota reale, quindi il velivolo si trova in realtà più in alto di quanto lo strumento segnali. Per questo la risposta corretta è: L'altimetro indica meno della quota reale e quindi ci troveremo ad essere più alti della quota da esso indicata. L'opzione B è errata perché la pressione atmosferica è il dato stesso che l'altimetro misura tramite la pressione dell'aria sulla capsula aneroide. L'opzione C è errata perché in alta pressione l'altimetro indica PIÙ della quota reale (sovrastima), quindi si è più BASSI di quanto indicato, non più alti. L'opzione D è errata perché l'altimetro è attendibile: in alta pressione è semplicemente tarato per una pressione più alta del reale a quella quota."
         },
         {
           "n": 60,
@@ -16934,7 +16934,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 37.7 Nm 123 Kts.. L'opzione A è errata perché converte 70 km in circa 37.8 Nm (1 Nm = 1.852 km), non 39.6 Nm; e 140 mph corrispondono a circa 121.7 nodi (1 mph = 0.869 nodi), non 128 nodi. L'opzione B è errata perché 70 km / 1.852 = 37.8 Nm e 140 mph x 0.868976 = 121.7 nodi, non i valori indicati. L'opzione C è errata perché per 140 Mph si ottengono circa 122 nodi, non 118."
+          "explanation": "La conversione tra unità di misura anglosassoni e il sistema aeronautico standard richiede fattori di conversione precisi: il miglio nautico (Nm) equivale a 1.852 km, mentre 1 mph equivale a circa 0.869 nodi (kt). Per questo la risposta corretta è: 37.7 Nm 123 Kts. L'opzione A è errata perché converte 70 km in circa 37.8 Nm (1 Nm = 1.852 km), non 39.6 Nm; e 140 mph corrispondono a circa 121.7 nodi (1 mph = 0.869 nodi), non 128 nodi. L'opzione B è errata perché 70 km / 1.852 = 37.8 Nm e 140 mph x 0.868976 = 121.7 nodi, non i valori indicati. L'opzione C è errata perché per 140 Mph si ottengono circa 122 nodi, non 118."
         },
         {
           "n": 61,
@@ -16948,7 +16948,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 68 Lt 86 Kg. L'opzione A è errata perché 18 US/Gal x 3.78541 = 68.1 litri (arrotondato a 68 lt), non 72 lt; e 190 lbs / 2.2046 = 86.2 kg, non 83 kg. L'opzione C è errata per gli stessi motivi di calcolo non corretto. L'opzione D è errata perché 190 lbs corrispondono a circa 86 kg, non 90 kg."
+          "explanation": "Anche per il carburante la conversione tra unità anglosassoni e sistema metrico segue fattori fissi: 1 US Gallon equivale a 3.78541 litri, e 1 libbra (lb) equivale a circa 0.4536 kg (1 kg = 2.2046 lb). Per questo la risposta corretta è: 68 Lt 86 Kg. L'opzione A è errata perché 18 US/Gal x 3.78541 = 68.1 litri (arrotondato a 68 lt), non 72 lt; e 190 lbs / 2.2046 = 86.2 kg, non 83 kg. L'opzione C è errata per gli stessi motivi di calcolo non corretto. L'opzione D è errata perché 190 lbs corrispondono a circa 86 kg, non 90 kg."
         },
         {
           "n": 62,
@@ -16976,7 +16976,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 56.5 Nm. L'opzione B è errata perché 125 Kts x (27/60) ore = 56.25 Nm, arrotondato a 56.5 Nm; 52.7 Nm corrisponderebbe a circa 25 minuti di volo, non 27. L'opzione C è errata perché 60.3 Nm sarebbero 29 minuti circa. L'opzione D è errata perché 67.4 Nm corrisponderebbero a circa 32 minuti di volo."
+          "explanation": "La distanza percorsa in navigazione si calcola moltiplicando la velocità al suolo (GS) per il tempo di volo, espresso in frazione di ora. Per questo la risposta corretta è: 56.5 Nm. L'opzione B è errata perché 125 Kts x (27/60) ore = 56.25 Nm, arrotondato a 56.5 Nm; 52.7 Nm corrisponderebbe a circa 25 minuti di volo, non 27. L'opzione C è errata perché 60.3 Nm sarebbero 29 minuti circa. L'opzione D è errata perché 67.4 Nm corrisponderebbero a circa 32 minuti di volo."
         },
         {
           "n": 64,
@@ -16990,7 +16990,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 154 US/GAL. L'opzione A è errata perché 3h 40min = 3.667 ore x 42 US/Gal/h = 154.0 US/Gal, non 158: 42x3=126 + 42x(40/60)=28 = 154. L'opzione B è errata perché 160 US/Gal sovrastima. L'opzione C è errata perché 152 US/Gal sottostima."
+          "explanation": "Il carburante consumato in volo si calcola moltiplicando il consumo orario del motore per la durata effettiva del volo, espressa in ore e frazioni di ora. Per questo la risposta corretta è: 154 US/GAL. L'opzione A è errata perché 3h 40min = 3.667 ore x 42 US/Gal/h = 154.0 US/Gal, non 158: 42x3=126 + 42x(40/60)=28 = 154. L'opzione B è errata perché 160 US/Gal sovrastima. L'opzione C è errata perché 152 US/Gal sottostima."
         },
         {
           "n": 65,
@@ -17004,7 +17004,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 200 Kts.. L'opzione B è errata perché 40 Nm / (12/60)h = 40 / 0.2 = 200 Kts, non 205: il calcolo diretto è distanza fratto tempo espresso in ore. L'opzione C è errata perché 195 Kts corrisponderebbero a circa 13 minuti per 40 Nm. L'opzione D è errata perché 190 Kts corrisponderebbero a circa 12.6 minuti."
+          "explanation": "La velocità al suolo (Ground Speed) si ricava dividendo la distanza percorsa per il tempo impiegato, espresso in ore. Per questo la risposta corretta è: 200 Kts. L'opzione B è errata perché 40 Nm / (12/60)h = 40 / 0.2 = 200 Kts, non 205: il calcolo diretto è distanza fratto tempo espresso in ore. L'opzione C è errata perché 195 Kts corrisponderebbero a circa 13 minuti per 40 Nm. L'opzione D è errata perché 190 Kts corrisponderebbero a circa 12.6 minuti."
         },
         {
           "n": 66,
@@ -17018,7 +17018,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 314 NM. L'opzione A è errata perché calcola prima la distanza percorsa (140 Kts x 48/60 = 112 Nm) e poi sottrae, ottenendo 36-9.6=26.4 US/Gal residui x 140/12 = 308 Nm, non 294. L'opzione B è errata per calcolo parziale non corretto. L'opzione C è errata per lo stesso motivo: il carburante residuo è 36 - (12x48/60) = 36-9.6=26.4 US/Gal, autonomia = 26.4/12 x 140 = 308 Nm circa, non 286."
+          "explanation": "L'autonomia residua in miglia si calcola sottraendo il carburante già consumato dal totale a bordo, e poi convertendo il carburante residuo in distanza percorribile in base al consumo orario e alla velocità di crociera. Per questo la risposta corretta è: 314 NM. L'opzione A è errata perché calcola prima la distanza percorsa (140 Kts x 48/60 = 112 Nm) e poi sottrae, ottenendo 36-9.6=26.4 US/Gal residui x 140/12 = 308 Nm, non 294. L'opzione B è errata per calcolo parziale non corretto. L'opzione C è errata per lo stesso motivo: il carburante residuo è 36 - (12x48/60) = 36-9.6=26.4 US/Gal, autonomia = 26.4/12 x 140 = 308 Nm circa, non 286."
         },
         {
           "n": 67,
@@ -17032,7 +17032,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 208 NM. L'opzione A è errata perché calcola la distanza residua come 40-17.3=22.7 US/Gal x 10 gal/h = 227 Nm. L'opzione B è errata per calcolo non corretto. L'opzione C è errata per lo stesso motivo. Il calcolo corretto: carburante consumato = 13 x 80/60 = 17.33 Gal; residuo = 40-17.33=22.67 Gal; autonomia = 22.67 x (120/13) = 209 Nm circa."
+          "explanation": "Come nel calcolo precedente, l'autonomia residua si ottiene sottraendo il carburante consumato fino a quel momento dal totale imbarcato, per poi convertire il residuo in distanza percorribile alla velocità e al consumo dati. Per questo la risposta corretta è: 208 NM. L'opzione A è errata perché calcola la distanza residua come 40-17.3=22.7 US/Gal x 10 gal/h = 227 Nm. L'opzione B è errata per calcolo non corretto. L'opzione C è errata per lo stesso motivo. Il calcolo corretto: carburante consumato = 13 x 80/60 = 17.33 Gal; residuo = 40-17.33=22.67 Gal; autonomia = 22.67 x (120/13) = 209 Nm circa."
         },
         {
           "n": 68,
@@ -17046,7 +17046,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 68 lt. L'opzione A è errata perché calcola il tempo come 200/133=1.5h circa e poi 1.5x12=18 Gal, non 18 US/Gal x 3.785=68.2 lt: invece il consumo totale è 1.5h x 12 = 18 US/Gal, e 18 x 3.785 = 68.1 litri. L'opzione B è errata perché 63 lt corrisponderebbero a circa 16.6 Gal di consumo. L'opzione D è errata perché 77 lt corrispondono a circa 20.3 Gal."
+          "explanation": "Anche in questo caso il procedimento è in due passi: prima si calcola il consumo totale in US Gallon moltiplicando il consumo orario per il tempo di volo, poi si converte il risultato in litri con il fattore 1 US Gal = 3.785 litri. Per questo la risposta corretta è: 68 lt. L'opzione A è errata perché calcola il tempo come 200/133=1.5h circa e poi 1.5x12=18 Gal, non 18 US/Gal x 3.785=68.2 lt: invece il consumo totale è 1.5h x 12 = 18 US/Gal, e 18 x 3.785 = 68.1 litri. L'opzione B è errata perché 63 lt corrisponderebbero a circa 16.6 Gal di consumo. L'opzione D è errata perché 77 lt corrispondono a circa 20.3 Gal."
         },
         {
           "n": 69,
@@ -17088,7 +17088,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 60 US/GAL. L'opzione A è errata perché il consumo orario di 16 US/Gal/h per 200 Nm a GS=circa 150 Kts dà un tempo di volo di 200/150=1.33h, carburante usato=1.33x16=21.3 Gal, residuo=85-21.3=63.7 Gal. L'opzione B è errata. L'opzione C è errata per calcolo non corretto."
+          "explanation": "Anche qui il calcolo dell'autonomia richiede prima di determinare il tempo di volo dalla distanza e dalla velocità, poi il carburante consumato in quel tempo, e infine il carburante residuo disponibile a bordo. Per questo la risposta corretta è: 60 US/GAL. L'opzione A è errata perché il consumo orario di 16 US/Gal/h per 200 Nm a GS=circa 150 Kts dà un tempo di volo di 200/150=1.33h, carburante usato=1.33x16=21.3 Gal, residuo=85-21.3=63.7 Gal. L'opzione B è errata. L'opzione C è errata per calcolo non corretto."
         },
         {
           "n": 72,
@@ -17235,7 +17235,7 @@
           "correct": 3,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "La risposta corretta è: FL 85. Regola VFR dei livelli semicircolari: le quote VFR (sempre X500 ft) si dividono in due serie in base alla rotta magnetica (TC) — rotte da 000° a 179° usano la serie dispari (FL35, 55, 75, 95...), rotte da 180° a 359° usano la serie pari (FL45, 65, 85, 105...). Per il volo da Rimini a Firenze TC=258°, che ricade nel settore 180°-359°: va usata la serie pari, quindi il primo livello disponibile è FL 85. L'opzione A (FL 50) è errata perché non è un livello semicircolare valido (i livelli VFR terminano sempre in 500 ft, es. 8500, non 5000). L'opzione B (FL 55) è errata perché appartiene alla serie dispari (000°-179°), non applicabile a una rotta di 258°. L'opzione C (FL 75) è errata per lo stesso motivo: è un livello della serie dispari, incompatibile con una rotta nel settore 180°-359°."
+          "explanation": "Regola VFR dei livelli semicircolari: le quote VFR (sempre X500 ft) si dividono in due serie in base alla rotta magnetica (TC) — rotte da 000° a 179° usano la serie dispari (FL35, 55, 75, 95...), rotte da 180° a 359° usano la serie pari (FL45, 65, 85, 105...). Per il volo da Rimini a Firenze TC=258°, che ricade nel settore 180°-359°: va usata la serie pari, quindi il primo livello disponibile è FL 85. Per questo la risposta corretta è: FL 85. L'opzione A (FL 50) è errata perché non è un livello semicircolare valido (i livelli VFR terminano sempre in 500 ft, es. 8500, non 5000). L'opzione B (FL 55) è errata perché appartiene alla serie dispari (000°-179°), non applicabile a una rotta di 258°. L'opzione C (FL 75) è errata per lo stesso motivo: è un livello della serie dispari, incompatibile con una rotta nel settore 180°-359°."
         },
         {
           "n": 82,
@@ -17265,7 +17265,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "6-1",
-          "explanation": "La risposta corretta è: FL 55. Regola VFR dei livelli semicircolari: le quote VFR (sempre X500 ft) si dividono in due serie in base alla rotta magnetica (TC) — rotte da 000° a 179° usano la serie dispari (FL35, 55, 75, 95...), rotte da 180° a 359° usano la serie pari (FL45, 65, 85, 105...). Per il volo da Firenze a Forlì TC=059°, che ricade nel settore 000°-179°: va usata la serie dispari, quindi il primo livello disponibile è FL 55. L'opzione A (FL 50) è errata perché non è un livello semicircolare valido (i livelli VFR terminano sempre in 500 ft, es. 5500, non 5000). L'opzione C (FL 60) è errata per lo stesso motivo: non è un livello VFR valido. L'opzione D (FL 65) è errata perché appartiene alla serie pari (180°-359°), non applicabile a una rotta di 059°."
+          "explanation": "Regola VFR dei livelli semicircolari: le quote VFR (sempre X500 ft) si dividono in due serie in base alla rotta magnetica (TC) — rotte da 000° a 179° usano la serie dispari (FL35, 55, 75, 95...), rotte da 180° a 359° usano la serie pari (FL45, 65, 85, 105...). Per il volo da Firenze a Forlì TC=059°, che ricade nel settore 000°-179°: va usata la serie dispari, quindi il primo livello disponibile è FL 55. Per questo la risposta corretta è: FL 55. L'opzione A (FL 50) è errata perché non è un livello semicircolare valido (i livelli VFR terminano sempre in 500 ft, es. 5500, non 5000). L'opzione C (FL 60) è errata per lo stesso motivo: non è un livello VFR valido. L'opzione D (FL 65) è errata perché appartiene alla serie pari (180°-359°), non applicabile a una rotta di 059°."
         },
         {
           "n": 84,
@@ -18966,7 +18966,7 @@
             "NO"
           ],
           "correct": 1,
-          "explanation": "La risposta corretta è: NO. L opzione A è errata perché i ricevitori portatili GPS non sono approvati come unico mezzo di navigazione IFR: non dispongono di certificazione aeronautica, non sono integrati nell avionica certificata dell aeromobile e la loro accuratezza e affidabilità non sono garantite per operazioni strumentali. In IFR la navigazione deve basarsi su sistemi certificati come VOR, ILS, INS o GPS integrato nel sistema di gestione del volo dell aeromobile."
+          "explanation": "In volo IFR la navigazione deve basarsi esclusivamente su sistemi certificati e integrati nell'avionica dell'aeromobile, come VOR, ILS, INS o un GPS integrato nel sistema di gestione del volo: solo questi dispongono della certificazione aeronautica e delle garanzie di accuratezza e affidabilità richieste per le operazioni strumentali. Per questo la risposta corretta è: NO. L'opzione A è errata perché i ricevitori portatili GPS non sono approvati come unico mezzo di navigazione IFR: non dispongono di certificazione aeronautica, non sono integrati nell'avionica certificata dell'aeromobile e la loro accuratezza e affidabilità non sono garantite per operazioni strumentali."
         },
         {
           "n": 204,
@@ -19541,7 +19541,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: Rotazione e Rivoluzione. L'opzione B è errata perché 'Traslazione' non è il nome del movimento orbitale terrestre, che si chiama Rivoluzione, mentre la Precessione è un movimento secondario dell'asse terrestre. L'opzione C è errata perché 'Nutazione' è un oscillazione dell'asse e non un movimento principale, e Rotazione è già la scelta corretta. L'opzione D è errata perché sia la Precessione che la Nutazione sono movimenti secondari dell'asse di rotazione, non i due movimenti principali."
+          "explanation": "La Terra, come tutti i corpi celesti, compie diversi movimenti nello spazio: i due principali sono quello attorno al proprio asse, che genera l'alternanza di giorno e notte, e quello di orbita attorno al Sole, che genera le stagioni. Per questo la risposta corretta è: Rotazione e Rivoluzione. L'opzione B è errata perché 'Traslazione' non è il nome del movimento orbitale terrestre, che si chiama Rivoluzione, mentre la Precessione è un movimento secondario dell'asse terrestre. L'opzione C è errata perché 'Nutazione' è un oscillazione dell'asse e non un movimento principale, e Rotazione è già la scelta corretta. L'opzione D è errata perché sia la Precessione che la Nutazione sono movimenti secondari dell'asse di rotazione, non i due movimenti principali."
         },
         {
           "n": 245,
@@ -20171,7 +20171,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: E' consigliato di eccedere, cioè di scegliere un livello di volo o una altitudine più elevata in quanto in tali condizioni l'altimetro indica più della quota reale e quindi ci troveremmo ad essere più bassi di quanto esso indichi. L'opzione B è errata perché il dato della pressione atmosferica è FONDAMENTALE per la scelta delle altitudini: l'altimetro sottostima la quota in alta pressione e sovrastima in bassa pressione. L'opzione C è errata perché scegliere un livello più BASSO in bassa pressione è pericoloso: l'altimetro indica PIÙ della quota reale, quindi in realtà si è PIÙ BASSI di quanto indicato, il che peggiora la sicurezza. L'opzione D è errata perché l'altimetro è attendibile, ma va interpretato: in bassa pressione indica valori superiori alla quota reale."
+          "explanation": "L'altimetro barometrico misura la quota sfruttando la diminuzione di pressione con l'altezza, ma è tarato su un'atmosfera standard: in condizioni di bassa pressione reale rispetto allo standard, lo strumento sovrastima la quota effettiva, cioè indica una quota maggiore di quella reale, per questo in navigazione in bassa pressione occorre eccedere e scegliere livelli più alti per mantenere il margine di sicurezza dal terreno. Per questo la risposta corretta è: E' consigliato di eccedere, cioè di scegliere un livello di volo o una altitudine più elevata in quanto in tali condizioni l'altimetro indica più della quota reale e quindi ci troveremmo ad essere più bassi di quanto esso indichi. L'opzione B è errata perché il dato della pressione atmosferica è FONDAMENTALE per la scelta delle altitudini: l'altimetro sottostima la quota in alta pressione e sovrastima in bassa pressione. L'opzione C è errata perché scegliere un livello più BASSO in bassa pressione è pericoloso: l'altimetro indica PIÙ della quota reale, quindi in realtà si è PIÙ BASSI di quanto indicato, il che peggiora la sicurezza. L'opzione D è errata perché l'altimetro è attendibile, ma va interpretato: in bassa pressione indica valori superiori alla quota reale."
         }
       ]
     },
