@@ -23268,7 +23268,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "7-1",
-          "explanation": "Nella figura (una traiettoria in discesa) l'angolo di incidenza è di 20° e l'angolo di rampa, negativo trattandosi di una discesa, ha modulo 12°; per la relazione assetto = incidenza + rampa (con rampa negativa in discesa) si ottiene coerentemente l'assetto di 8° indicato nella domanda collegata."
+          "explanation": "Nella traiettoria di discesa rappresentata vale la relazione assetto = incidenza + rampa, con la rampa negativa in discesa: l'angolo di incidenza è 20° e l'angolo di rampa ha modulo 12° (20° + (-12°) = 8° di assetto, coerente con la domanda collegata), quindi la coppia richiesta è 20° e 12° (opzione C). Le altre risposte sono errate: l'opzione A (8° e 12°) scambia l'assetto (8°) con l'incidenza (20°); l'opzione B (12° e 8°) inverte i valori di rampa e assetto rispetto a incidenza e rampa; l'opzione D (28° e 8°) non corrisponde a nessuno dei due angoli letti in figura."
         },
         {
           "n": 222,
@@ -23283,7 +23283,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "7-1",
-          "explanation": "Nella stessa figura, applicando la relazione assetto = incidenza + rampa (rampa negativa perché la traiettoria è in discesa: 20° + (-12°) = 8°), l'assetto risulta 8° e l'incidenza 20°."
+          "explanation": "Applicando la relazione assetto = incidenza + rampa (rampa negativa in discesa: 20° + (-12°) = 8°), l'assetto della figura risulta 8° e l'incidenza 20°, quindi la coppia richiesta è 8°; 20° (opzione A). Le altre risposte sono errate: l'opzione B (12°;8°) e l'opzione C (20°;12°) confondono l'assetto/incidenza con l'angolo di rampa; l'opzione D (28°;8°) propone un valore di incidenza non presente nella figura."
         },
         {
           "n": 223,
@@ -23298,7 +23298,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "7-2",
-          "explanation": "Nella figura (una traiettoria in salita) l'angolo di incidenza è 7° e l'angolo di rampa è 3°; sommandoli si ottiene l'assetto di 10° richiesto nella domanda collegata (relazione assetto = incidenza + rampa)."
+          "explanation": "Nella traiettoria di salita rappresentata vale assetto = incidenza + rampa: l'angolo di incidenza è 7° e l'angolo di rampa è 3° (7° + 3° = 10° di assetto, coerente con la domanda collegata), quindi la coppia richiesta è 7°;3° (opzione B). Le altre risposte sono errate: l'opzione A (10°;7°) riporta l'assetto al posto dell'incidenza; l'opzione C (17°;3°) propone un'incidenza non presente in figura; l'opzione D (13°;7°) propone una rampa non corrispondente al valore letto."
         },
         {
           "n": 224,
@@ -23313,7 +23313,7 @@
           "correct": 3,
           "src": "quizvds",
           "fig": "7-2",
-          "explanation": "Nella stessa figura, applicando assetto = incidenza + rampa (7° + 3° = 10°), l'assetto risulta 10° e l'incidenza 7°."
+          "explanation": "Applicando assetto = incidenza + rampa (7° + 3° = 10°), l'assetto della figura risulta 10° e l'incidenza 7°, quindi la coppia richiesta è 10°;7° (opzione D). Le altre risposte sono errate: l'opzione A (13°;7°) propone un assetto non corrispondente al calcolo; l'opzione B (17°;3°) e l'opzione C (7°;3°) confondono assetto e incidenza con l'angolo di rampa."
         },
         {
           "n": 225,
@@ -23328,7 +23328,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "7-3",
-          "explanation": "Sul diagramma della potenza necessaria, la velocità di massima autonomia oraria corrisponde al punto di minima potenza necessaria (V2 in figura), poiché volare a potenza minima consuma meno carburante per unità di tempo."
+          "explanation": "Sul diagramma della potenza necessaria, la velocità di massima autonomia oraria corrisponde al punto di minima potenza necessaria (V2 in figura), poiché volare a potenza minima consuma meno carburante per unità di tempo, massimizzando le ore di volo (opzione C). Le altre risposte sono errate: l'opzione A (V4) e l'opzione B (V3) sono velocità superiori a quella di minima potenza; l'opzione D (V1) è una velocità inferiore, prossima allo stallo, non corrispondente al minimo di potenza necessaria."
         },
         {
           "n": 226,
@@ -23343,7 +23343,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "7-3",
-          "explanation": "Sul diagramma della potenza necessaria, la velocità di massima autonomia chilometrica corrisponde al punto di tangenza della retta dall'origine alla curva (V3 in figura), cioè al minimo rapporto potenza/velocità (massima efficienza)."
+          "explanation": "Sul diagramma della potenza necessaria, la velocità di massima autonomia chilometrica corrisponde al punto di tangenza della retta uscente dall'origine alla curva di potenza necessaria (V3 in figura), cioè al minimo rapporto potenza/velocità, ossia alla massima efficienza (opzione B). Le altre risposte sono errate: l'opzione A (V4) è una velocità superiore a quella di tangenza; l'opzione C (V2) corrisponde invece al punto di minima potenza necessaria (massima autonomia oraria, non chilometrica); l'opzione D (V1) è una velocità inferiore, non corrispondente al punto di tangenza."
         },
         {
           "n": 227,
@@ -23358,7 +23358,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "7-4",
-          "explanation": "Sul diagramma rappresentato, la velocità di salita rapida (Vy) corrisponde al punto di massimo eccesso di potenza disponibile rispetto a quella necessaria (V3 in figura)."
+          "explanation": "Sul diagramma rappresentato, la velocità di salita rapida (Vy) corrisponde al punto di massimo eccesso di potenza disponibile rispetto a quella necessaria (V3 in figura) (opzione C). Le altre risposte sono errate: l'opzione A (V1) e l'opzione B (V2) sono velocità inferiori al punto di massimo eccesso di potenza; l'opzione D (V4) è una velocità superiore, dove l'eccesso di potenza è già in calo."
         },
         {
           "n": 228,
@@ -23373,7 +23373,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "7-5",
-          "explanation": "Sul diagramma rappresentato, la velocità di salita ripida (Vx) corrisponde al punto di massimo eccesso di trazione rispetto alla resistenza, tipicamente a velocità inferiore rispetto a Vy (V2 in figura)."
+          "explanation": "Sul diagramma rappresentato, la velocità di salita ripida (Vx) corrisponde al punto di massimo eccesso di trazione rispetto alla resistenza, tipicamente a velocità inferiore rispetto a Vy (V2 in figura) (opzione B). Le altre risposte sono errate: l'opzione A (V1) è una velocità ancora inferiore, non corrispondente al massimo eccesso di trazione; l'opzione C (V3) e l'opzione D (V4) sono velocità superiori, oltre il punto di massimo eccesso di trazione."
         },
         {
           "n": 229,
@@ -23400,7 +23400,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Durante un'affondata con elica a passo fisso, aumentando la velocità a parità di manetta, i giri motore aumentano inizialmente per poi stabilizzarsi su valori più elevati di quelli iniziali (l'elica 'scarica' meno per l'aumento di velocità relativa)."
+          "explanation": "Durante un'affondata con elica a passo fisso, aumentando la velocità a parità di manetta, i giri motore aumentano inizialmente per poi stabilizzarsi su valori più elevati di quelli iniziali, perché l'elica 'scarica' meno per effetto della maggiore velocità relativa dell'aria (opzione B). Le altre risposte sono errate: l'opzione A afferma l'opposto (diminuzione), mentre in affondata i giri aumentano; l'opzione C (giri costanti) ignora l'effetto della velocità relativa sull'elica a passo fisso; l'opzione D corregge il verso iniziale ma sbaglia sull'assestamento finale, che avviene su valori più alti, non più bassi."
         },
         {
           "n": 231,
@@ -23414,7 +23414,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Durante la prova a punto fisso di un'elica a passo variabile, aumentando il passo dell'elica, i giri diminuiscono, perché aumenta il carico resistente che l'elica oppone al motore."
+          "explanation": "Durante la prova a punto fisso di un'elica a passo variabile, aumentando il passo, i giri diminuiscono, perché l'elica diventa più 'aggressiva' e oppone un maggior carico resistente al motore (opzione B). Le altre risposte sono errate: l'opzione A afferma l'opposto (aumento), mentre l'effetto reale è una diminuzione; l'opzione C (giri costanti) ignora l'aumento del carico resistente; l'opzione D introduce una relazione di proporzionalità inversa con la trazione priva di fondamento in questo contesto."
         },
         {
           "n": 232,
@@ -23428,7 +23428,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "I giri diminuiscono aumentando il passo dell'elica perché aumenta la coppia resistente che l'elica, più 'aggressiva', oppone alla rotazione del motore."
+          "explanation": "I giri diminuiscono aumentando il passo dell'elica perché aumenta la coppia resistente che l'elica, resa più 'aggressiva', oppone alla rotazione dell'albero motore (opzione A). Le altre risposte sono errate: l'opzione B (aumenta la trazione) non è la causa diretta della diminuzione di giri, essendo semmai una conseguenza collaterale; l'opzione C (diminuisce la pressione di alimentazione) non è il meccanismo che spiega la caduta di giri; l'opzione D nega correttamente che i giri aumentino, ma la domanda originale è formulata in modo corretto poiché in tali condizioni i giri diminuiscono davvero."
         },
         {
           "n": 233,
@@ -23443,7 +23443,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "7-6",
-          "explanation": "Dall'indicatore di livello del carburante raffigurato si deduce che è ancora disponibile un quarto (1/4) del contenuto del serbatoio."
+          "explanation": "Dall'indicatore di livello raffigurato si deduce che è ancora disponibile un quarto (1/4) del contenuto del serbatoio (opzione A). Le altre risposte sono errate: l'opzione B (3/4 disponibili) inverte la lettura dell'indicatore; l'opzione C lo confonde con un'indicazione di pressione carburante, funzione non svolta da questo strumento; l'opzione D lo confonde con un'autonomia in tempo di volo, mentre l'indicatore mostra una quantità di carburante, non un'autonomia."
         },
         {
           "n": 234,
@@ -23472,7 +23472,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'acqua di condensazione, più densa del carburante, si accumula nel punto più basso del serbatoio in un velivolo fermo al suolo per lungo periodo."
+          "explanation": "L'acqua di condensazione, più densa del carburante, si accumula nel punto più basso del serbatoio in un velivolo fermo al suolo per lungo periodo (opzione A). Le altre risposte sono errate: l'opzione B (galleggia sopra) è opposta al comportamento reale, dovuto alla maggiore densità dell'acqua; l'opzione C (si mescola) e l'opzione D (si dissolve) non corrispondono al comportamento dell'acqua, immiscibile con il carburante."
         },
         {
           "n": 236,
@@ -23486,7 +23486,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per contrastare efficacemente la formazione di condensa nei serbatoi durante soste prolungate conviene riempirli completamente, riducendo lo spazio d'aria (e quindi di umidità) al loro interno."
+          "explanation": "Per contrastare efficacemente la formazione di condensa nei serbatoi durante soste prolungate conviene riempirli completamente, riducendo lo spazio d'aria (e quindi di umidità) al loro interno (opzione B). Le altre risposte sono errate: l'opzione A (togliere i tappi) favorirebbe anzi l'ingresso di umidità dall'esterno; l'opzione C (chiudere l'aerazione) non elimina l'umidità già presente nello spazio d'aria residuo; l'opzione D (messa a terra) previene le scariche elettrostatiche, non la formazione di condensa."
         },
         {
           "n": 237,
@@ -23500,7 +23500,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Lo scarico dell'acqua di condensazione deve essere effettuato durante il controllo giornaliero e dopo ogni rifornimento, non solo in occasione delle ispezioni periodiche più diradate."
+          "explanation": "Lo scarico dell'acqua di condensazione deve essere effettuato durante il controllo giornaliero e dopo ogni rifornimento, non solo in occasione delle ispezioni periodiche più diradate (opzione D). Le altre risposte sono errate: l'opzione A (100 ore), l'opzione B (50 ore) e l'opzione C (controllo settimanale) sono tutte cadenze troppo diradate per un controllo che va effettuato quotidianamente e a ogni rifornimento."
         },
         {
           "n": 238,
@@ -23514,7 +23514,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'intensità dei vortici generati da un aereo pesante è maggiore di quella generata da un aereo leggero, essendo direttamente legata al peso del velivolo."
+          "explanation": "L'intensità dei vortici generati da un aereo pesante è maggiore di quella generata da un aereo leggero, essendo direttamente legata alla portanza (e quindi al peso) prodotta dall'ala (opzione A). Le altre risposte sono errate: l'opzione B afferma l'opposto (minore), mentre un peso maggiore genera vortici più intensi; l'opzione C (uguale) ignora la relazione diretta tra peso e intensità dei vortici; l'opzione D li considera trascurabili in decollo, mentre proprio in decollo e atterraggio, a bassa velocità e alto peso, i vortici sono più intensi."
         },
         {
           "n": 239,
@@ -23528,7 +23528,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "I vortici generati da un velivolo sono più intensi a basse velocità e con pesi elevati (condizioni tipiche di decollo e atterraggio di aerei pesanti)."
+          "explanation": "I vortici generati da un velivolo sono più intensi a basse velocità e con pesi elevati, condizioni tipiche di decollo e atterraggio di aerei pesanti, poiché richiedono una portanza (e quindi una circolazione ai vortici marginali) massima (opzione D). Le altre risposte sono errate: l'opzione A li rende dipendenti solo dalla velocità, ignorando il peso; l'opzione B li rende dipendenti solo dal peso, ignorando la velocità; l'opzione C inverte la relazione, indicandoli più intensi ad alte velocità e bassi pesi."
         },
         {
           "n": 240,
@@ -23542,7 +23542,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Se si deve intersecare la rotta di un pesante velivolo commerciale subito dopo il suo passaggio, è consigliabile mantenere una quota superiore a quella dell'aereo precedente, poiché la scia vorticosa tende a scendere sotto la sua traiettoria."
+          "explanation": "Intersecando la rotta di un pesante velivolo commerciale subito dopo il suo passaggio, è consigliabile mantenere una quota superiore a quella dell'aereo precedente, poiché la scia vorticosa tende a scendere sotto la sua traiettoria di volo (opzione C). Le altre risposte sono errate: l'opzione A (500 ft inferiore) porterebbe proprio nella zona dove la scia discende e si concentra; l'opzione B (uguale quota) espone direttamente alla scia appena generata; l'opzione D fissa una quota assoluta (2000 ft sul livello del mare) priva di relazione con la quota reale dell'aereo precedente."
         },
         {
           "n": 241,
@@ -23556,7 +23556,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Decollando dopo un grosso aereo di linea, per la turbolenza di scia conviene iniziare il distacco dalla pista prima del punto in cui ha ruotato il velivolo precedente, e comunque dopo un tempo di almeno 2 minuti dal suo decollo."
+          "explanation": "Decollando dopo un grosso aereo di linea, ai fini della turbolenza di scia è opportuno iniziare il distacco dalla pista prima di raggiungere il punto dove ha ruotato il velivolo precedente, e comunque dopo un tempo di almeno 2 minuti dal suo decollo (opzione A). Le altre risposte sono errate: l'opzione B (staccare nello stesso punto) espone alla scia lasciata dal velivolo precedente proprio nella zona di rotazione; l'opzione C (mantenersi sottovento) non è una misura efficace contro la turbolenza di scia, che si sposta secondo la propria dinamica indipendentemente dal vento laterale; l'opzione D nega tutte le affermazioni corrette, mentre la prima descrive effettivamente la tecnica raccomandata."
         },
         {
           "n": 242,
@@ -23570,7 +23570,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La scia vorticosa generata da un aereo in volo devia progressivamente verso il basso, restando dietro e sotto la sua traiettoria di volo."
+          "explanation": "La scia vorticosa generata da un aereo in volo devia progressivamente verso il basso, restando dietro e sotto la sua traiettoria di volo (opzione B). Le altre risposte sono errate: l'opzione A la colloca erroneamente al di sopra della traiettoria, mentre tende a scendere; l'opzione C ne afferma la scomparsa immediata, mentre la scia persiste per diversi minuti; l'opzione D la fa deviare lateralmente per effetto di eliche o reattori, meccanismo non corretto rispetto alla reale dinamica di discesa dei vortici."
         },
         {
           "n": 243,
@@ -23584,7 +23584,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La scia vorticosa si genera in maggior misura quando l'aereo opera a basse velocità e con pesi elevati, condizioni in cui la portanza richiesta (e quindi la circolazione ai vortici marginali) è massima."
+          "explanation": "La scia vorticosa si genera in maggior misura quando l'aereo opera a basse velocità e con pesi elevati, condizioni in cui la portanza richiesta (e quindi la circolazione ai vortici marginali) è massima (opzione C). Le altre risposte sono errate: l'opzione A (fermo in testata pista) non genera vortici significativi, essendo il velivolo non in volo; l'opzione B (alte velocità e bassi pesi) è l'opposto della condizione che massimizza i vortici; l'opzione D (centro di gravità al limite posteriore) non è un fattore determinante per l'intensità della scia vorticosa."
         },
         {
           "n": 244,
@@ -23598,7 +23598,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Atterrando dopo un grosso aereo di linea conviene, per la turbolenza di scia, atterrare oltre il punto di contatto dell'aeromobile che precede, e dopo un tempo di almeno 2 minuti."
+          "explanation": "Atterrando dopo un grosso aereo di linea conviene, per la turbolenza di scia, atterrare oltre il punto di contatto dell'aeromobile che precede, e dopo un tempo di almeno 2 minuti (opzione B). Le altre risposte sono errate: l'opzione A (mantenersi sottovento) non è una misura efficace contro la turbolenza di scia; l'opzione C (atterrare prima del punto di contatto) espone proprio alla zona dove si concentra la scia lasciata dal velivolo precedente; l'opzione D nega tutte le affermazioni corrette, mentre la seconda descrive effettivamente la tecnica raccomandata."
         },
         {
           "n": 245,
@@ -23612,7 +23612,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per evitare la turbolenza di scia attraversando la traiettoria di un grande aereo a getto che precede alla stessa quota, un velivolo leggero deve volare al di sopra della sua traiettoria, poiché la scia tende a scendere col tempo."
+          "explanation": "Per evitare la turbolenza di scia attraversando la traiettoria di un grande aereo a getto che precede alla stessa quota, un velivolo leggero deve volare al di sopra della sua traiettoria, poiché la scia tende a scendere col tempo (opzione A). Le altre risposte sono errate: l'opzione B (scendere sotto) porterebbe proprio nella zona dove la scia si concentra scendendo; l'opzione C (scendere e volare parallelamente) mantiene comunque l'esposizione alla scia in discesa; l'opzione D (portarsi alla Va) riguarda la resistenza strutturale alle raffiche, non la strategia di evitamento della scia vorticosa."
         },
         {
           "n": 246,
@@ -23626,7 +23626,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "I vortici di estremità, in presenza di vento al traverso vicino al suolo, tendono ad aumentare di intensità nella zona sottovento e a ridursi nella zona sopravvento, per effetto del trasporto laterale del vento."
+          "explanation": "I vortici di estremità, in presenza di vento al traverso vicino al suolo, tendono ad aumentare di intensità nella zona sottovento e a ridursi nella zona sopravvento, per effetto del trasporto laterale del vento (opzione C). Le altre risposte sono errate: l'opzione A afferma che entrambi si riducono, ignorando l'asimmetria introdotta dal vento; l'opzione B nega ogni influenza del vento al traverso, in contrasto con l'effetto di trasporto laterale; l'opzione D inverte la relazione, riducendo l'intensità sottovento e aumentandola sopravvento."
         },
         {
           "n": 247,
@@ -23640,7 +23640,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "A terra, con aeromobile fermo, il pilota determina l'altitudine pressione inserendo nella finestrella dell'altimetro il valore 1013.2 mb e leggendo direttamente il valore sulla scala dello strumento."
+          "explanation": "A terra, con aeromobile fermo, il pilota determina l'altitudine pressione inserendo nella finestrella dell'altimetro il valore standard 1013.2 mb e leggendo direttamente il valore sulla scala dello strumento (opzione C). Le altre risposte sono errate: l'opzione A (inserire la quota aeroporto) determina invece il QFE, non l'altitudine pressione; l'opzione B (azzerare l'indicazione e leggere la finestrella) inverte la procedura corretta; l'opzione D confonde selezione di quota e lettura in finestrella, procedura non applicabile all'altimetro."
         },
         {
           "n": 248,
@@ -23654,7 +23654,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'altitudine pressione si determina inserendo nella finestrella di regolazione dell'altimetro il valore standard 1013.2 mb e leggendo il valore corrispondente direttamente sulla scala dell'altimetro."
+          "explanation": "L'altitudine pressione si determina inserendo nella finestrella di regolazione dell'altimetro il valore standard 1013.2 mb e leggendo il valore corrispondente direttamente sulla scala dell'altimetro (opzione A). Le altre risposte sono errate: l'opzione B (azzerare e leggere la finestrella) inverte la procedura corretta; l'opzione C (inserire la pressione attuale dell'aeroporto) determina invece il QFE, non l'altitudine pressione; l'opzione D fa riferimento ai NOTAM, fonte non pertinente alla determinazione dell'altitudine pressione."
         },
         {
           "n": 249,
@@ -23668,7 +23668,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Una delle regole più importanti in caso di piantata motore subito dopo il decollo è assumere immediatamente l'assetto di massima efficienza (velocità di miglior planata), per massimizzare le opzioni disponibili."
+          "explanation": "Una delle regole più importanti in caso di piantata motore subito dopo il decollo è assumere immediatamente l'assetto di massima efficienza (velocità di miglior planata), per massimizzare la distanza percorribile e le opzioni di atterraggio disponibili (opzione C). Le altre risposte sono errate: l'opzione A (determinare la direzione del vento) è utile ma secondaria rispetto all'azione prioritaria sull'assetto; l'opzione B (ritornare in pista) è generalmente sconsigliato subito dopo il decollo per il rischio di virata a bassa quota e bassa velocità; l'opzione D (controllare gli indicatori carburante) è un'azione diagnostica successiva, non la priorità immediata."
         },
         {
           "n": 250,
@@ -23682,7 +23682,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In presenza di colpi metallici sospetti di detonazione subito dopo il decollo, l'azione correttiva iniziale è diminuire la potenza del motore, ritardando la manetta, per ridurre le sollecitazioni che causano il fenomeno."
+          "explanation": "In presenza di colpi metallici sospetti di detonazione subito dopo il decollo, l'azione correttiva iniziale è diminuire la potenza del motore, ritardando la manetta, per ridurre le sollecitazioni termiche e di pressione che causano il fenomeno (opzione D). Le altre risposte sono errate: l'opzione A (aria calda al carburatore) è la contromisura per il ghiaccio carburatore, non per la detonazione; l'opzione B (impoverire la miscela) aggraverebbe la detonazione, che si combatte semmai arricchendo la miscela; l'opzione C (aumentare il rateo di salita) richiederebbe più potenza, aggravando il fenomeno anziché contenerlo."
         },
         {
           "n": 251,
@@ -23696,7 +23696,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In caso di avaria a generatore e batteria, il motore continua a funzionare regolarmente, perché l'energia elettrica per l'accensione delle candele è fornita direttamente dai magneti, indipendenti dall'impianto elettrico di bordo."
+          "explanation": "In caso di avaria a generatore e batteria, il motore continua a funzionare regolarmente, perché l'energia elettrica per l'accensione delle candele è fornita direttamente dai magneti, indipendenti dall'impianto elettrico di bordo (opzione A). Le altre risposte sono errate: l'opzione B lo fa arrestare per mancanza di energia alle candele, ignorando l'indipendenza dei magneti; l'opzione C introduce sintomi (alta temperatura teste cilindri, bassa pressione olio) non legati a un'avaria elettrica; l'opzione D lo lega alla pompa dell'olio, componente meccanica non alimentata dall'impianto elettrico generatore/batteria."
         },
         {
           "n": 252,
@@ -23710,7 +23710,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In un motore a carburatore le formazioni di ghiaccio si verificano prevalentemente nella zona della valvola a farfalla, dove il forte calo di pressione e temperatura dovuto all'espansione dell'aria favorisce la condensazione e il congelamento."
+          "explanation": "In un motore a carburatore le formazioni di ghiaccio si verificano prevalentemente nella zona della valvola a farfalla, dove il forte calo di pressione e temperatura dovuto all'espansione dell'aria favorisce la condensazione e il congelamento (opzione D). Le altre risposte sono errate: l'opzione A (getto principale), l'opzione B (camera del galleggiante) e l'opzione C (economizzatore) non sono le zone dove il fenomeno si manifesta prevalentemente, essendo la caduta di pressione/temperatura più marcata in corrispondenza della valvola a farfalla."
         },
         {
           "n": 253,
@@ -23724,7 +23724,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Nei motori alternativi senza compressore e con elica a passo variabile, un aumento del passo dell'elica durante la prova motore provoca una diminuzione dei giri e un aumento della pressione di alimentazione (MAP)."
+          "explanation": "Nei motori alternativi senza compressore e con elica a passo variabile, un aumento del passo dell'elica durante la prova motore provoca una diminuzione dei giri (maggior carico resistente) e un aumento della pressione di alimentazione (MAP), poiché il motore lavora più 'caricato' (opzione D). Le altre risposte sono errate: l'opzione A (aumento giri e aumento MAP) sbaglia sul verso dei giri; l'opzione B (diminuzione di entrambi) sbaglia sul verso della MAP, che invece aumenta; l'opzione C (aumento giri, MAP costante) è opposta sul verso dei giri e ignora la variazione di MAP."
         },
         {
           "n": 254,
@@ -23738,7 +23738,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Nei motori alternativi senza compressore, salendo in quota a parità di manetta, la pressione di alimentazione diminuisce, a causa della progressiva diminuzione della densità dell'aria aspirata."
+          "explanation": "Nei motori alternativi senza compressore, salendo in quota a parità di manetta, la pressione di alimentazione diminuisce, a causa della progressiva diminuzione della densità dell'aria aspirata (opzione B). Le altre risposte sono errate: l'opzione A la considera costante grazie all'elica a passo variabile, che non compensa la caduta di densità; l'opzione C afferma un aumento per una contro-pressione di scarico ridotta, meccanismo non corretto e comunque secondario; l'opzione D attribuisce la diminuzione alla temperatura anziché alla densità dell'aria, causa fisica corretta del fenomeno."
         },
         {
           "n": 255,
@@ -23752,7 +23752,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Se si ha un guasto all'alternatore in volo su un velivolo con motore alternativo, il motore continua a girare normalmente, poiché l'accensione è garantita dai magneti, indipendenti dall'impianto elettrico generale."
+          "explanation": "Se si ha un guasto all'alternatore in volo su un velivolo con motore alternativo, il motore continua a girare normalmente, poiché l'accensione è garantita dai magneti, indipendenti dall'impianto elettrico generale (opzione B). Le altre risposte sono errate: l'opzione A (arresto immediato) ignora l'indipendenza dell'accensione dai magneti; l'opzione C (funzionamento irregolare) non è una conseguenza diretta di un guasto al solo alternatore; l'opzione D (magneti non funzionanti) inverte la relazione, poiché sono proprio i magneti a garantire il funzionamento anche senza alternatore."
         },
         {
           "n": 256,
@@ -23766,7 +23766,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Lo strumento che controlla il circuito di lubrificazione durante il volo è l'indicatore della pressione dell'olio."
+          "explanation": "Lo strumento che controlla il circuito di lubrificazione durante il volo è l'indicatore della pressione dell'olio (opzione C). Le altre risposte sono errate: l'opzione A (pressione carburante) controlla l'alimentazione, non la lubrificazione; l'opzione B (pressione di alimentazione, MAP) indica la potenza erogata dal motore; l'opzione D (temperatura teste cilindri) è un parametro termico, non direttamente il controllo del circuito di lubrificazione."
         },
         {
           "n": 257,
@@ -23780,7 +23780,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'accensione nella maggior parte dei motori alternativi aeronautici avviene tramite le candele alimentate dai magneti, non dalla batteria."
+          "explanation": "L'accensione nella maggior parte dei motori alternativi aeronautici avviene tramite le candele alimentate dai magneti, non dalla batteria, per garantire il funzionamento anche in caso di avaria elettrica (opzione B). Le altre risposte sono errate: l'opzione A (candele alimentate dalla batteria) è opposta al principio di ridondanza tipico dei motori aeronautici; l'opzione C (batteria e magneti insieme) attribuisce erroneamente un ruolo alla batteria nell'accensione; l'opzione D (generatore o alternatore) non è la fonte di energia per l'accensione delle candele."
         },
         {
           "n": 258,
@@ -23794,7 +23794,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La sigla 'AVGAS 100LL' indica una benzina avio con numero di ottano 100 e basso tenore di piombo tetraetile (Low Lead)."
+          "explanation": "La sigla 'AVGAS 100LL' indica una benzina avio con numero di ottano 100 e basso tenore di piombo tetraetile (Low Lead) (opzione B). Le altre risposte sono errate: l'opzione A la lega a una bassa volatilità, caratteristica non indicata dalla sigla LL; l'opzione C la lega a una bassa densità specifica, parametro non espresso dalla sigla; l'opzione D la lega a un alto potere calorifico, caratteristica anch'essa non indicata dalla sigla LL, che si riferisce specificamente al piombo."
         },
         {
           "n": 259,
@@ -23808,7 +23808,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La velocità angolare standard considerata in campo aeronautico per le virate è di 3 gradi al secondo (virata standard)."
+          "explanation": "La velocità angolare standard considerata in campo aeronautico per le virate è di 3 gradi al secondo (virata standard, rate one) (opzione B). Le altre risposte sono errate: l'opzione A (5°/sec) è un valore superiore allo standard; l'opzione C (1,5°/sec) è un valore inferiore, corrispondente semmai a una virata a mezzo tasso (half standard rate); l'opzione D nega l'esistenza di una risposta corretta, mentre il valore standard di 3°/sec è ben definito."
         },
         {
           "n": 260,
@@ -23822,7 +23822,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'altitudine di densità è definita come l'altitudine in atmosfera tipo corretta per condizioni di temperatura diverse da quella standard."
+          "explanation": "L'altitudine di densità è definita come l'altitudine in atmosfera tipo corretta per condizioni di temperatura diverse da quella standard (opzione A). Le altre risposte sono errate: l'opzione B la confonde con un'altezza rispetto al suolo (AGL), mentre è un'altitudine riferita all'atmosfera tipo; l'opzione C la lega a un errore strumentale dell'altimetro, concetto estraneo alla definizione; l'opzione D descrive invece l'altitudine pressione, non l'altitudine di densità."
         },
         {
           "n": 261,
@@ -23836,7 +23836,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La quota pressione (Pressure Altitude) è quella letta sull'altimetro quando viene inserito il valore 1013.2 hPa nella finestrella, cioè la quota riferita alla superficie isobarica standard."
+          "explanation": "La quota pressione (Pressure Altitude) è quella letta sull'altimetro quando viene inserito il valore 1013.2 hPa nella finestrella, cioè la quota riferita alla superficie isobarica standard (opzione B). Le altre risposte sono errate: l'opzione A (letta direttamente sull'altimetro) è generica e non specifica la regolazione 1013.2; l'opzione C descrive invece il QFE (pressione al livello dell'aeroporto), non la quota pressione; l'opzione D la lega erroneamente a una correzione per temperatura e umidità, procedura non pertinente."
         },
         {
           "n": 262,
@@ -23850,7 +23850,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il QNH è il valore della pressione atmosferica esistente al livello dell'aeroporto, ridotta al livello medio del mare secondo l'atmosfera tipo."
+          "explanation": "Il QNH è il valore della pressione atmosferica esistente al livello dell'aeroporto, ridotta al livello medio del mare secondo l'atmosfera tipo (opzione D). Le altre risposte sono errate: l'opzione A (pressione in atmosfera standard) descrive piuttosto il QNE; l'opzione B (pressione al livello aeroporto senza riduzione) descrive il QFE; l'opzione C aggiunge una correzione per temperatura non prevista nella definizione del QNH."
         },
         {
           "n": 263,
@@ -23864,7 +23864,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Inserendo il QNH nella finestrella, con velivolo a terra, l'altimetro indica l'altitudine dell'aeroporto rispetto al livello medio del mare (la sua elevazione)."
+          "explanation": "Inserendo il QNH nella finestrella, con velivolo a terra, l'altimetro indica l'altitudine dell'aeroporto rispetto al livello medio del mare, cioè la sua elevazione (opzione A). Le altre risposte sono errate: l'opzione B (zero) si otterrebbe regolando il QFE, non il QNH; l'opzione C descrive l'altitudine rispetto alla superficie 1013.2 mb, ottenuta regolando il QNE, non il QNH; l'opzione D (densità dell'aria) non è un'indicazione fornita dall'altimetro."
         },
         {
           "n": 264,
@@ -23878,7 +23878,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il QFE è definito come il valore della pressione atmosferica esistente al livello dell'aeroporto, senza alcuna riduzione al livello del mare."
+          "explanation": "Il QFE è definito come il valore della pressione atmosferica esistente al livello dell'aeroporto, senza alcuna riduzione al livello del mare (opzione B). Le altre risposte sono errate: l'opzione A (pressione atmosferica standard) descrive piuttosto il QNE; l'opzione C aggiunge una correzione per temperatura non prevista nella definizione del QFE; l'opzione D (ridotta al livello del mare) descrive invece il QNH, non il QFE."
         },
         {
           "n": 265,
@@ -23892,7 +23892,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il QNE è convenzionalmente il valore della pressione standard di 1013.2 mb (29.92 in/Hg) inserito nella finestrella dell'altimetro, usato per riferirsi ai livelli di volo."
+          "explanation": "Il QNE è convenzionalmente il valore della pressione standard di 1013.2 mb (29.92 in/Hg) inserito nella finestrella dell'altimetro, usato per riferirsi ai livelli di volo (opzione A). Le altre risposte sono errate: l'opzione B vi aggiunge una correzione per errore di temperatura non prevista nella definizione del QNE; l'opzione C (pressione del momento al livello del mare) descrive piuttosto il QNH; l'opzione D (pressione del momento al livello aeroporto) descrive piuttosto il QFE."
         },
         {
           "n": 266,
@@ -23906,7 +23906,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con l'altimetro regolato sul QNE, in volo esso indica l'altitudine del velivolo rispetto alla superficie isobarica di 1013.2 mb, valore che in questo caso si esprime col termine 'livello di volo' (flight level)."
+          "explanation": "Con l'altimetro regolato sul QNE, in volo esso indica l'altitudine del velivolo rispetto alla superficie isobarica di 1013.2 mb, valore che in questo caso si esprime col termine 'livello di volo' (flight level) (opzione B). Le altre risposte sono errate: l'opzione A (rispetto al livello medio del mare) si otterrebbe regolando il QNH, non il QNE; l'opzione C (altezza rispetto al livello aeroporto) si otterrebbe regolando il QFE; l'opzione D (distanza verticale dal terreno) non è un'indicazione fornita da un altimetro barometrico."
         },
         {
           "n": 267,
@@ -23920,7 +23920,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "A parità di regolazione dell'altimetro, volando da una zona di alta pressione verso una di bassa pressione, la quota reale del velivolo diminuisce rispetto a quella indicata (da cui il detto 'from high to low, look out below')."
+          "explanation": "A parità di regolazione dell'altimetro, volando da una zona di alta pressione verso una di bassa pressione, la quota reale del velivolo diminuisce rispetto a quella indicata (da cui il detto 'from high to low, look out below') (opzione B). Le altre risposte sono errate: l'opzione A (quota costante) ignora l'effetto della variazione di pressione sull'altimetro non ricalibrato; l'opzione C afferma l'opposto (aumento), mentre l'effetto reale è una diminuzione; l'opzione D introduce una variazione ondulatoria priva di fondamento fisico."
         },
         {
           "n": 268,
@@ -23934,7 +23934,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "A parità di regolazione dell'altimetro, volando da una zona di bassa pressione verso una di alta pressione, la quota reale del velivolo aumenta rispetto a quella indicata."
+          "explanation": "A parità di regolazione dell'altimetro, volando da una zona di bassa pressione verso una di alta pressione, la quota reale del velivolo aumenta rispetto a quella indicata (opzione C). Le altre risposte sono errate: l'opzione A (quota costante) ignora l'effetto della variazione di pressione; l'opzione B afferma l'opposto (diminuzione), mentre l'effetto reale è un aumento; l'opzione D introduce variazioni improvvise prive di fondamento fisico, trattandosi invece di una variazione graduale."
         },
         {
           "n": 269,
@@ -23948,7 +23948,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "A parità di regolazione dell'altimetro, volando da una zona di alta temperatura verso una di bassa temperatura, la quota reale diminuisce rispetto a quella indicata (l'aria più fredda e densa 'comprime' i livelli di pressione più in basso)."
+          "explanation": "A parità di regolazione dell'altimetro, volando da una zona di alta temperatura verso una di bassa temperatura, la quota reale diminuisce rispetto a quella indicata, poiché l'aria più fredda e densa 'comprime' i livelli di pressione più in basso (opzione B). Le altre risposte sono errate: l'opzione A (quota costante) ignora l'effetto della temperatura sulla densità dell'aria; l'opzione C afferma l'opposto (aumento), mentre l'effetto reale è una diminuzione; l'opzione D introduce fluttuazioni imprevedibili prive di fondamento fisico."
         },
         {
           "n": 270,
@@ -23962,7 +23962,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "A parità di regolazione dell'altimetro, volando da una zona di bassa temperatura verso una di alta temperatura, la quota reale aumenta rispetto a quella indicata."
+          "explanation": "A parità di regolazione dell'altimetro, volando da una zona di bassa temperatura verso una di alta temperatura, la quota reale aumenta rispetto a quella indicata (opzione C). Le altre risposte sono errate: l'opzione A (quota costante) ignora l'effetto della temperatura sulla densità dell'aria; l'opzione B afferma l'opposto (diminuzione), mentre l'effetto reale è un aumento; l'opzione D introduce un blocco dell'indicazione privo di fondamento fisico, trattandosi invece di una variazione graduale."
         },
         {
           "n": 271,
@@ -23977,7 +23977,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "7-8",
-          "explanation": "Nella lettura convenzionale a lancette dell'altimetro, la combinazione indicata in figura corrisponde a 7500 piedi."
+          "explanation": "Nella lettura convenzionale a lancette dell'altimetro, la combinazione indicata in figura corrisponde a 7500 piedi (opzione B). Le altre risposte sono errate: l'opzione A (750 ft) è inferiore di un ordine di grandezza rispetto alla lettura corretta; l'opzione C (75 ft) e l'opzione D (75000 ft) sono valori rispettivamente troppo bassi e troppo alti, incompatibili con la posizione delle lancette raffigurata."
         },
         {
           "n": 272,
@@ -23992,7 +23992,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "7-9",
-          "explanation": "Con la stessa convenzione di lettura, l'altimetro in figura indica 7880 piedi."
+          "explanation": "Con la stessa convenzione di lettura a lancette, l'altimetro in figura indica 7880 piedi (opzione A). Le altre risposte sono errate: l'opzione B (8900 ft), l'opzione C (17880 ft) e l'opzione D (780 ft) non corrispondono alla posizione delle lancette raffigurata, che indica migliaia, centinaia e decine coerenti solo con la lettura 7880."
         },
         {
           "n": 273,
@@ -24007,7 +24007,7 @@
           "correct": 3,
           "src": "quizvds",
           "fig": "7-10",
-          "explanation": "L'altimetro in figura indica 1380 piedi."
+          "explanation": "L'altimetro in figura indica 1380 piedi (opzione D). Le altre risposte sono errate: l'opzione A (138 ft) e l'opzione C (13,8 ft) sono di uno o due ordini di grandezza inferiori alla lettura corretta; l'opzione B (13800 ft) è di un ordine di grandezza superiore, incompatibile con la posizione delle lancette raffigurata."
         },
         {
           "n": 274,
@@ -24022,7 +24022,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "7-11",
-          "explanation": "L'altimetro in figura indica 8800 piedi."
+          "explanation": "L'altimetro in figura indica 8800 piedi (opzione C). Le altre risposte sono errate: l'opzione A (9800 ft) sbaglia la cifra delle migliaia; l'opzione B (980 ft) e l'opzione D (880 ft) sono di un ordine di grandezza inferiori rispetto alla lettura corretta."
         },
         {
           "n": 275,
@@ -24037,7 +24037,7 @@
           "correct": 1,
           "src": "quizvds",
           "fig": "7-12",
-          "explanation": "L'altimetro in figura indica 12420 piedi."
+          "explanation": "L'altimetro in figura indica 12420 piedi (opzione B). Le altre risposte sono errate: l'opzione A (1242 ft) e l'opzione D (124 ft) sono di uno o due ordini di grandezza inferiori alla lettura corretta; l'opzione C (2420 ft) omette la cifra delle decine di migliaia indicata dalla lancetta corrispondente."
         },
         {
           "n": 276,
@@ -24052,7 +24052,7 @@
           "correct": 0,
           "src": "quizvds",
           "fig": "7-13",
-          "explanation": "L'altimetro in figura indica 880 piedi."
+          "explanation": "L'altimetro in figura indica 880 piedi (opzione A). Le altre risposte sono errate: l'opzione B (1880 ft) e l'opzione D (18880 ft) aggiungono una cifra delle migliaia non presente nella lettura corretta; l'opzione C (18,80 ft) è di due ordini di grandezza inferiore, incompatibile con la posizione delle lancette raffigurata."
         },
         {
           "n": 277,
@@ -24066,7 +24066,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Navigando per prua Nord nel nostro emisfero ed entrando in virata verso Est o Ovest, la bussola magnetica indica inizialmente un'accostata in senso opposto a quella reale (errore di virata per prua Nord)."
+          "explanation": "Navigando per prua Nord nel nostro emisfero ed entrando in virata verso Est o Ovest, la bussola magnetica indica inizialmente un'accostata in senso opposto a quella reale, per effetto dell'errore di virata in prua Nord dovuto all'inclinazione delle linee di forza del campo magnetico (opzione A). Le altre risposte sono errate: l'opzione B (stesso senso, maggiore entità) descrive invece l'errore tipico per prua Sud; l'opzione C (accostata corretta) ignora l'esistenza dell'errore di virata; l'opzione D (stesso senso, minore entità) non corrisponde al comportamento reale della bussola per prua Nord."
         },
         {
           "n": 278,
@@ -24080,7 +24080,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Navigando per prua Sud ed entrando in virata verso Est o Ovest, la bussola indica un'accostata nello stesso senso di quella reale, ma di entità maggiore (errore di virata per prua Sud)."
+          "explanation": "Navigando per prua Sud ed entrando in virata verso Est o Ovest, la bussola indica un'accostata nello stesso senso di quella reale, ma di entità maggiore, per effetto dell'errore di virata in prua Sud (opzione B). Le altre risposte sono errate: l'opzione A (senso opposto) descrive invece l'errore tipico per prua Nord; l'opzione C (accostata corretta) ignora l'esistenza dell'errore di virata; l'opzione D (oscillazione continua senza direzione) non corrisponde al comportamento sistematico della bussola per prua Sud."
         },
         {
           "n": 279,
@@ -24108,7 +24108,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Per compensare approssimativamente gli errori di virata della bussola, il pilota deve anticipare la rimessa dalla virata quando vira verso Nord, e posticiparla quando vira verso Sud."
+          "explanation": "Per compensare approssimativamente gli errori di virata della bussola, il pilota deve anticipare la rimessa dalla virata quando vira verso Nord (dove la bussola 'ritarda') e posticiparla quando vira verso Sud (dove la bussola 'anticipa') (opzione C). Le altre risposte sono errate: l'opzione A e l'opzione B prescrivono nessun accorgimento per una delle due prue, mentre in entrambi i casi (Nord e Sud) serve una correzione opposta e specifica; l'opzione D inverte esattamente il verso corretto delle correzioni per Nord e Sud."
         },
         {
           "n": 281,
@@ -24122,7 +24122,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La lettura della bussola magnetica va effettuata possibilmente in aria calma, con ali orizzontali, pallina al centro e velocità costante, condizioni che minimizzano gli errori di virata e di accelerazione."
+          "explanation": "La lettura della bussola magnetica va effettuata possibilmente in aria calma, con ali orizzontali, pallina al centro e velocità costante, condizioni che minimizzano gli errori di virata e di accelerazione (opzione B). Le altre risposte sono errate: l'opzione A (qualsiasi condizione di volo) ignora la sensibilità della bussola a virate e accelerazioni; l'opzione C la limita erroneamente alla sola prua Nord, mentre la lettura corretta richiede le condizioni generali indicate, non solo la stabilizzazione su una prua; l'opzione D omette la condizione della pallina al centro e della velocità costante, entrambe rilevanti per ridurre gli errori."
         },
         {
           "n": 282,
@@ -24137,7 +24137,7 @@
           "correct": 2,
           "src": "quizvds",
           "fig": "7-14",
-          "explanation": "Riferendosi alla bussola magnetica raffigurata, l'attuale indicazione di prua è 035°."
+          "explanation": "Riferendosi alla bussola magnetica raffigurata, l'attuale indicazione di prua è 035° (opzione C). Le altre risposte sono errate: l'opzione A (3,5°) è di un ordine di grandezza inferiore, lettura errata della scala; l'opzione B (305°) e l'opzione D (085°) non corrispondono alla posizione dell'indice/lubber line rispetto alla rosa graduata raffigurata."
         },
         {
           "n": 283,
@@ -24151,7 +24151,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Nell'indicatore di virata, lo spostamento laterale della paletta (o dell'ago) indica la velocità angolare di virata, tramite le indicazioni convenzionali riportate sul quadrante (es. tacche di virata standard)."
+          "explanation": "Nell'indicatore di virata, lo spostamento laterale della paletta (o dell'ago) indica la velocità angolare di virata, tramite le indicazioni convenzionali riportate sul quadrante, ad esempio le tacche di virata standard (opzione C). Le altre risposte sono errate: l'opzione A (inclinazione laterale in gradi) è l'informazione fornita dall'orizzonte artificiale, non dall'indicatore di virata; l'opzione B (derapata o scivolata) è l'informazione fornita dalla pallina dello sbandometro, non dalla paletta; l'opzione D (angolo di rampa) è un'informazione estranea a questo strumento."
         },
         {
           "n": 284,
@@ -24165,7 +24165,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Lo spostamento della pallina fuori dal centro dello sbandometro durante una virata indica al pilota un'eventuale derapata o scivolata (virata non coordinata)."
+          "explanation": "Lo spostamento della pallina fuori dal centro dello sbandometro durante una virata indica al pilota un'eventuale derapata o scivolata, cioè una virata non coordinata (opzione B). Le altre risposte sono errate: l'opzione A (inclinazione in gradi) è l'informazione fornita dall'orizzonte artificiale, non dalla pallina; l'opzione C (velocità angolare di virata) è l'informazione fornita dalla paletta o dall'ago dell'indicatore di virata, non dalla pallina; l'opzione D (angolo di attacco) non è un'informazione fornita dallo sbandometro."
         },
         {
           "n": 285,
@@ -24179,7 +24179,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Nell'indicatore di virata e sbandamento, la condizione di virata corretta (coordinata) è quella in cui la pallina resta centrata, rappresentata in figura dall'indicatore Z.",
+          "explanation": "Nell'indicatore di virata e sbandamento, la condizione di virata corretta (coordinata) è quella in cui la pallina resta centrata, rappresentata in figura dall'indicatore Z (opzione C). Le altre risposte sono errate: l'opzione A (X) rappresenta la condizione di scivolata, con pallina spostata verso l'interno della virata; l'opzione B (Y) rappresenta la condizione di derapata, con pallina spostata verso l'esterno; l'opzione D nega tutte le indicazioni proposte, mentre una di esse (Z) rappresenta correttamente la virata coordinata.",
           "fig": "7-15"
         },
         {
@@ -24194,7 +24194,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La condizione di 'scivolata' (slip) durante la virata, in cui la pallina si sposta verso l'interno della virata per inclinazione eccessiva rispetto al tasso di virata, è quella rappresentata in figura dall'indicatore X.",
+          "explanation": "La condizione di 'scivolata' (slip) durante la virata, in cui la pallina si sposta verso l'interno della virata per inclinazione eccessiva rispetto al tasso di virata, è quella rappresentata in figura dall'indicatore X (opzione A). Le altre risposte sono errate: l'opzione B (Y) rappresenta la condizione opposta di derapata, con pallina spostata verso l'esterno; l'opzione C (Z) rappresenta la virata coordinata, con pallina centrata; l'opzione D nega tutte le indicazioni proposte, mentre una di esse (X) rappresenta correttamente la scivolata.",
           "fig": "7-15"
         },
         {
@@ -24209,7 +24209,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La condizione di 'derapata' (skid) durante la virata, in cui la pallina si sposta verso l'esterno della virata per inclinazione insufficiente rispetto al tasso di virata (o eccesso di timone), è quella rappresentata in figura dall'indicatore Y.",
+          "explanation": "La condizione di 'derapata' (skid) durante la virata, in cui la pallina si sposta verso l'esterno della virata per inclinazione insufficiente rispetto al tasso di virata (o eccesso di timone), è quella rappresentata in figura dall'indicatore Y (opzione B). Le altre risposte sono errate: l'opzione A (X) rappresenta la condizione opposta di scivolata, con pallina spostata verso l'interno; l'opzione C (Z) rappresenta la virata coordinata, con pallina centrata; l'opzione D nega tutte le indicazioni proposte, mentre una di esse (Y) rappresenta correttamente la derapata.",
           "fig": "7-15"
         },
         {
@@ -24266,7 +24266,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il selettore del transponder ha normalmente le posizioni Off - Standby (Sby) - On - Alt - Test."
+          "explanation": "Il selettore del transponder ha normalmente le posizioni Off - Standby (Sby) - On - Alt - Test, che coprono spegnimento, attesa, trasmissione codice, trasmissione con quota (Mode C) e autotest (opzione D). Le altre risposte sono errate: l'opzione A (Off - On) è una sequenza troppo semplificata, priva delle posizioni intermedie; l'opzione B introduce una voce 'Sit' non prevista tra le posizioni reali del selettore; l'opzione C (Sby - On - Alt) omette le posizioni Off e Test, entrambe presenti sul selettore reale."
         },
         {
           "n": 292,
@@ -24294,7 +24294,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Su un terreno morbido, al contatto e durante la corsa di arresto è corretto evitare di frenare a fondo (rischio di cappottamento per l'affondamento delle ruote nel terreno cedevole) e mantenere la barra tirata indietro per alleggerire il carico sul ruotino anteriore."
+          "explanation": "Su un terreno morbido, al contatto e durante la corsa di arresto è corretto evitare di frenare a fondo, per il rischio di cappottamento dovuto all'affondamento delle ruote nel terreno cedevole, e mantenere la barra tirata indietro per alleggerire il carico sul ruotino/gambo anteriore (opzione B). Le altre risposte sono errate: l'opzione A (frenare a fondo immediatamente) è proprio la manovra che espone al cappottamento su terreno cedevole; l'opzione C (frenare in modo alternato per lo slittamento laterale) non è la tecnica corretta su fondo morbido, dove il rischio principale è il cappottamento, non lo slittamento; l'opzione D (ritrarre subito i flap e frenare bruscamente) aumenta il rischio, riducendo la portanza residua e frenando bruscamente proprio quando andrebbe evitato."
         }
       ]
     },
