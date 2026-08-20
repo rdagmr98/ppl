@@ -22264,7 +22264,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il pilota modifica la portanza intervenendo in modo coordinato sui comandi per variare l'angolo di attacco dell'ala."
+          "explanation": "Il pilota modifica la portanza intervenendo in modo coordinato sui comandi per variare l'angolo di attacco dell'ala, il vero parametro da cui dipende il coefficiente di portanza (opzione D). Le altre risposte sono errate: l'opzione A nega ogni possibilità d'intervento, mentre il pilota ha pieno controllo sulla portanza tramite i comandi; l'opzione B (estendere il carrello) non incide sulla portanza, non essendo una superficie portante; l'opzione C (variare la pendenza di traiettoria) è una conseguenza della variazione di portanza/assetto, non il mezzo diretto con cui la si modifica."
         },
         {
           "n": 150,
@@ -22278,7 +22278,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Gli strumenti con cui il pilota verifica i cambiamenti di assetto sono gli strumenti a pressione (anemometro, altimetro, variometro) insieme alla bussola, che riflettono le conseguenze dell'assetto impostato."
+          "explanation": "Gli strumenti con cui si verificano i cambiamenti di assetto impostati dal pilota sono gli strumenti a pressione (anemometro, altimetro, variometro) insieme alla bussola, che riflettono le conseguenze dell'assetto assunto (opzione B). Le altre risposte sono errate: l'opzione A è troppo restrittiva, limitandosi a due soli strumenti a pressione e omettendo l'altimetro e la bussola; l'opzione C (strumenti giroscopici) indica l'assetto direttamente ma non è la coppia di riferimento richiesta dalla domanda; l'opzione D (strumenti motore) non fornisce alcuna informazione sull'assetto del velivolo."
         },
         {
           "n": 151,
@@ -22291,7 +22291,7 @@
             "gli strumenti motore"
           ],
           "correct": 1,
-          "explanation": "Gli strumenti essenziali per il controllo delle prestazioni sono gli strumenti a pressione (anemometro, altimetro, variometro) più la bussola, da cui si leggono velocità, quota, rateo e prua risultanti dall'assetto assunto."
+          "explanation": "Gli strumenti essenziali per il controllo delle prestazioni sono gli strumenti a pressione (anemometro, altimetro, variometro) più la bussola, da cui si leggono velocità, quota, rateo e prua risultanti dall'assetto assunto (opzione B). Le altre risposte sono errate: l'opzione A è troppo restrittiva, limitandosi a due soli strumenti; l'opzione C (strumenti giroscopici) riguarda il controllo dell'assetto, non delle prestazioni; l'opzione D (strumenti motore) non fornisce le prestazioni di volo (velocità, quota, rateo)."
         },
         {
           "n": 152,
@@ -22305,7 +22305,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In condizioni normali il volo si svolge tra un assetto minimo di 0° e un assetto massimo di circa +10°."
+          "explanation": "In condizioni normali il volo si svolge tra un assetto minimo di 0° e un assetto massimo di circa +10° (opzione C). Le altre risposte sono errate: l'opzione A (-17°/+18°) è un intervallo troppo ampio, tipico di manovre acrobatiche non del volo normale; l'opzione B (-10°/+15°) resta comunque più ampio del range standard indicato; l'opzione D (-5°/+25°) include assetti estremi non rappresentativi del volo ordinario."
         },
         {
           "n": 153,
@@ -22319,7 +22319,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il controllo incrociato consiste nell'acquisire almeno tre informazioni per ogni dato di volo da controllare, provenienti da tre fonti indipendenti, per ridurre il rischio di errore o di affidarsi a un'indicazione isolata e non verificata."
+          "explanation": "Il controllo incrociato consiste nell'acquisire almeno tre informazioni per ogni dato di volo da controllare, provenienti da tre fonti indipendenti, per ridurre il rischio di errore o di affidarsi a un'indicazione isolata e non verificata (opzione A). Le altre risposte sono errate: l'opzione B lo confonde con il controllo tra i pannelli strumenti dei due piloti, procedura diversa; l'opzione C lo riduce a un controllo tra due persone, mentre il vero criterio è il numero di fonti indipendenti per ogni dato; l'opzione D descrive una manovra sui comandi (alettoni/timone discordi), concetto estraneo al controllo incrociato."
         },
         {
           "n": 154,
@@ -22333,7 +22333,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Lo 'scanning' è la rotazione sistematica e ordinata dell'attenzione del pilota tra i vari strumenti e riferimenti esterni, per mantenere una visione d'insieme costantemente aggiornata."
+          "explanation": "Lo 'scanning' è la rotazione sistematica e ordinata dell'attenzione del pilota tra i vari strumenti e riferimenti esterni, per mantenere una visione d'insieme costantemente aggiornata (opzione B). Le altre risposte sono errate: l'opzione A lo definisce genericamente 'una rude tecnica di pilotaggio', priva di significato tecnico; l'opzione C e l'opzione D lo confondono con tecniche di manutenzione o di carico passeggeri, concetti estranei allo scanning strumentale."
         },
         {
           "n": 155,
@@ -22361,7 +22361,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Rispetto al volo rettilineo orizzontale uniforme, è la virata a comportare un aumento del fattore di carico, dovuto alla componente centrifuga che si somma al peso."
+          "explanation": "Rispetto al volo rettilineo orizzontale uniforme, è la virata a comportare un aumento del fattore di carico, dovuto alla componente centrifuga che si somma al peso e che deve essere bilanciata da un supplemento di portanza (opzione B). Le altre risposte sono errate: l'opzione A (salita) non richiede un fattore di carico superiore a 1 nel tratto rettilineo; l'opzione C (stallo) è la perdita di portanza, non un aumento del fattore di carico; l'opzione D (discesa) rettilinea, come la salita, mantiene il fattore di carico attorno a 1."
         },
         {
           "n": 157,
@@ -22375,7 +22375,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In una virata a quota costante con angolo di banco di 60° il fattore di carico è pari a 2 (n = 1/cos(bank))."
+          "explanation": "Il fattore di carico in virata livellata si calcola con n = 1/cos(angolo di banco): a 60° si ha cos(60°) = 0,5, quindi n = 1/0,5 = 2 (opzione B). Le altre risposte sono errate: l'opzione A (n=1) corrisponde al volo rettilineo orizzontale, senza inclinazione; l'opzione C (n=3,75) e l'opzione D (n=5,75) sono valori troppo elevati, tipici di angoli di banco molto maggiori di 60° (rispettivamente vicini a 75° e 80°), non del caso in esame."
         },
         {
           "n": 158,
@@ -22389,7 +22389,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Durante una virata a 60° di inclinazione la portanza deve essere il doppio del peso statico del velivolo, per bilanciare sia il peso sia la componente centrifuga."
+          "explanation": "Durante una virata a 60° di inclinazione il fattore di carico è n=2 (n=1/cos60°=2), quindi la portanza deve essere il doppio del peso statico del velivolo per bilanciare sia il peso sia la componente centrifuga (opzione C). Le altre risposte sono errate: l'opzione A (uguale al peso) corrisponde al volo livellato senza inclinazione; l'opzione B (di poco superiore) sottostima il reale incremento richiesto a 60° di banco; l'opzione D (inferiore al peso) è impossibile, poiché in virata livellata la portanza deve sempre superare il peso."
         },
         {
           "n": 159,
@@ -22403,7 +22403,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'effetto suolo è una contropressione sull'ala esercitata dall'aria che, vicino al terreno, viene deviata dall'ala stessa verso la superficie della pista, riducendo la resistenza indotta e aumentando l'efficienza."
+          "explanation": "L'effetto suolo è una contropressione sull'ala esercitata dall'aria che, vicino al terreno, viene deviata dall'ala stessa verso la superficie della pista, riducendo la resistenza indotta e aumentando l'efficienza (opzione C). Le altre risposte sono errate: l'opzione A lo descrive come una caduta di pressione dovuta ad asperità del terreno, meccanismo non corretto; l'opzione B lo attribuisce erroneamente al flusso dell'elica, mentre è generato dall'ala stessa; l'opzione D lo lega alla forza muscolare del pilota sul timone di profondità, concetto estraneo al fenomeno aerodinamico."
         },
         {
           "n": 160,
@@ -22417,7 +22417,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Se si prevede turbolenza subito dopo il decollo conviene aumentare leggermente la velocità di decollo, per mantenere un margine più ampio sopra la velocità di stallo in presenza di raffiche."
+          "explanation": "Se si prevede turbolenza subito dopo il decollo conviene aumentare leggermente la velocità di decollo, per mantenere un margine più ampio sopra la velocità di stallo in presenza di raffiche (opzione A). Le altre risposte sono errate: l'opzione B (diminuire la velocità) ridurrebbe pericolosamente il margine dallo stallo proprio quando servirebbe di più; l'opzione C (flap di avvicinamento) non è la contromisura specifica per la turbolenza in decollo; l'opzione D (ritrarre subito il carrello) non ha relazione con la gestione della turbolenza e comprometterebbe la sicurezza a bassa quota."
         },
         {
           "n": 161,
@@ -22431,7 +22431,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'impiego dei flap in decollo, aumentando il coefficiente di portanza massimo, diminuisce la corsa di decollo necessaria per raggiungere la velocità di distacco."
+          "explanation": "L'impiego dei flap in decollo, aumentando il coefficiente di portanza massimo disponibile, diminuisce la corsa di decollo necessaria per raggiungere la velocità di distacco (opzione A). Le altre risposte sono errate: l'opzione B afferma l'opposto, mentre l'effetto reale è una riduzione della corsa; l'opzione C nega ogni influenza, in contrasto con l'aumento di portanza generato dai flap; l'opzione D attribuisce ai flap in decollo un aumento considerevole del rateo di salita, mentre in realtà lo penalizzano per l'aumento di resistenza."
         },
         {
           "n": 162,
@@ -22445,7 +22445,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Nonostante riducano la corsa di decollo, i flap in configurazione di decollo peggiorano il rateo di salita successivo, a causa dell'aumento di resistenza che comportano."
+          "explanation": "Nonostante riducano la corsa di decollo, i flap in configurazione di decollo peggiorano il rateo di salita successivo, a causa dell'aumento di resistenza che comportano (opzione B). Le altre risposte sono errate: l'opzione A afferma l'opposto, mentre l'effetto reale è un peggioramento; l'opzione C nega ogni influenza, in contrasto con l'aumento di resistenza indotto dai flap; l'opzione D collega erroneamente i flap a un peso massimo di decollo superiore, aspetto non centrato sul rateo di salita."
         },
         {
           "n": 163,
@@ -22459,7 +22459,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Su una pista corta e pulita con ostacoli alla fine, l'elemento più penalizzante sulla corsa di decollo è il vento (in particolare l'assenza di vento contrario o la presenza di vento in coda), che incide più di pendenza, densità dell'aria o stato della superficie in condizioni normali."
+          "explanation": "Su una pista corta e pulita con ostacoli alla fine, l'elemento più penalizzante sulla corsa di decollo è il vento (in particolare l'assenza di vento contrario o la presenza di vento in coda), che incide più di pendenza, densità dell'aria o stato della superficie in condizioni normali (opzione D). Le altre risposte sono errate: l'opzione A (pendenza di pista) ha un peso minore su una pista descritta come corta ma pulita; l'opzione B (densità dell'aria) è un fattore ambientale meno determinante in questo scenario specifico; l'opzione C (stato della superficie) è già escluso dalla domanda, che specifica una pista pulita."
         },
         {
           "n": 164,
@@ -22487,7 +22487,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Nei decolli da campi con fondo morbido, assumendo un assetto molto alto per proteggere il carrello, il pericolo maggiore è quello di stallare appena staccati da terra, per l'incidenza eccessiva a bassa velocità."
+          "explanation": "Nei decolli da campi con fondo morbido, assumendo un assetto molto alto per proteggere il carrello, il pericolo maggiore è quello di stallare appena staccati da terra, per l'incidenza eccessiva a bassa velocità (opzione D). Le altre risposte sono errate: l'opzione A nega ogni pericolo, mentre la manovra comporta un rischio specifico e noto; l'opzione B (non riuscire a staccare) è opposto al problema reale, che si presenta proprio dopo il distacco; l'opzione C (mangiare troppa pista) non è il pericolo principale di questa tecnica, che mira anzi a ridurre la corsa a terra."
         },
         {
           "n": 166,
@@ -22501,7 +22501,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La situazione di maggior pericolo virando in finale è uno stallo con comandi incrociati (alettone e timone discordi), che può facilmente degenerare in una vite a bassa quota, senza margine di recupero."
+          "explanation": "La situazione di maggior pericolo virando in finale è uno stallo con comandi incrociati (alettone e timone discordi), che può facilmente degenerare in una vite a bassa quota, senza margine di recupero (opzione A). Le altre risposte sono errate: l'opzione B (superamento asse pista) è un errore di traiettoria correggibile, non paragonabile per gravità; l'opzione C (troppo anticipo rispetto all'asse) è ugualmente un errore gestibile; l'opzione D (quota troppo bassa) è un fattore aggravante ma non la causa diretta del pericolo maggiore, che resta lo stallo con comandi incrociati."
         },
         {
           "n": 167,
@@ -22515,7 +22515,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'estensione dei flap diminuisce la controllabilità laterale del velivolo, riducendo l'efficacia degli alettoni nella porzione di ala interessata."
+          "explanation": "L'estensione dei flap diminuisce la controllabilità laterale del velivolo, riducendo l'efficacia degli alettoni nella porzione di ala interessata (opzione B). Le altre risposte sono errate: l'opzione A afferma l'opposto, mentre l'effetto reale è una diminuzione; l'opzione C nega ogni variazione, in contrasto con la riduzione di efficacia degli alettoni; l'opzione D la limita erroneamente ai soli plurimotore, mentre il fenomeno riguarda in generale i velivoli con flap."
         },
         {
           "n": 168,
@@ -22529,7 +22529,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Una delle funzioni dei flap in avvicinamento e atterraggio è di aumentare la pendenza della traiettoria di discesa senza dover aumentare la velocità, grazie all'incremento di resistenza generato."
+          "explanation": "Una delle funzioni dei flap in avvicinamento e atterraggio è di aumentare la pendenza della traiettoria di discesa senza dover aumentare la velocità, grazie all'incremento di resistenza generato (opzione C). Le altre risposte sono errate: l'opzione A afferma l'opposto (diminuire la pendenza), mentre i flap aumentano la resistenza e quindi la pendenza; l'opzione B (contatto a velocità più elevate) è contrario allo scopo dei flap, che riducono la velocità di stallo e quindi di contatto; l'opzione D attribuisce ai flap una diminuzione di portanza con avvicinamento più piatto, mentre in realtà aumentano la portanza a bassa velocità e la pendenza di discesa."
         },
         {
           "n": 169,
@@ -22543,7 +22543,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In assenza di vento, la velocità di soglia pista prevista dalle tabelle prestazionali è normalmente pari a 1,3 volte la velocità di stallo (1,3 Vs)."
+          "explanation": "In assenza di vento, la velocità di soglia pista prevista dalle tabelle prestazionali è normalmente pari a 1,3 volte la velocità di stallo, 1,3 Vs (opzione C). Le altre risposte sono errate: l'opzione A (1,1 Vs) e l'opzione B (1,2 Vs) sono margini insufficienti rispetto allo standard indicato; l'opzione D (1,4 Vs) è un margine superiore a quello previsto dalle tabelle prestazionali standard."
         },
         {
           "n": 170,
@@ -22557,7 +22557,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In finale il pilota regola la pendenza della traiettoria agendo su potenza e assetto, con l'eventuale ausilio dei flap."
+          "explanation": "In finale il pilota regola la pendenza della traiettoria agendo su potenza e assetto, con l'eventuale ausilio dei flap (opzione D). Le altre risposte sono errate: l'opzione A è una risposta priva di rilevanza tecnica; l'opzione B (velocità e assetto) tralascia il ruolo determinante della potenza; l'opzione C (flap e carrello) omette potenza e assetto, i veri parametri primari di controllo della pendenza."
         },
         {
           "n": 171,
@@ -22585,7 +22585,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Se è in corso un temporale entro le 10 NM dall'aeroporto, la decisione più prudente è procedere verso l'aeroporto alternato, evitando di avvicinarsi a fenomeni meteorologici potenzialmente pericolosi."
+          "explanation": "Se è in corso un temporale entro le 10 NM dall'aeroporto, la decisione più prudente è procedere verso l'aeroporto alternato, evitando di avvicinarsi a fenomeni meteorologici potenzialmente pericolosi come wind shear, turbolenza e grandine (opzione D). Le altre risposte sono errate: l'opzione A (attendere un miglioramento) mantiene il velivolo esposto al rischio più a lungo del necessario; l'opzione B (atterrare prima che arrivi) è rischiosa se i tempi non sono garantiti; l'opzione C (procedere come se niente fosse) ignora un pericolo meteorologico reale e significativo."
         },
         {
           "n": 173,
@@ -22599,7 +22599,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Sia con la tecnica della deriva sia con quella della scivolata d'ala, in atterraggio con vento al traverso la prima ruota a toccare la pista è quella sopravvento."
+          "explanation": "Sia con la tecnica della deriva sia con quella della scivolata d'ala, in atterraggio con vento al traverso la prima ruota a toccare la pista è quella sopravvento, per effetto dell'assetto assunto dal velivolo nella correzione della deriva (opzione C). Le altre risposte sono errate: l'opzione A (ruotino anteriore) non tocca mai per primo in un atterraggio corretto sulle ruote principali; l'opzione B (ruotino posteriore) riguarda una configurazione diversa e non è la ruota interessata da queste tecniche; l'opzione D (ruota sottovento) è l'opposto della ruota che tocca effettivamente per prima."
         },
         {
           "n": 174,
@@ -22613,7 +22613,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In un buon atterraggio con vento al traverso, al momento del contatto la direzione di moto del velivolo e il suo asse longitudinale devono essere paralleli all'asse pista (allineati), per evitare sollecitazioni laterali sul carrello."
+          "explanation": "In un buon atterraggio con vento al traverso, al momento del contatto la direzione di moto del velivolo e il suo asse longitudinale devono essere paralleli all'asse pista (allineati), per evitare sollecitazioni laterali sul carrello (opzione B). Le altre risposte sono errate: l'opzione A (perpendicolari alla pista) descrive una condizione pericolosa e non corretta; l'opzione C (ruota sopravvento frenata per lo spostamento del CG) non è la tecnica corretta di allineamento; l'opzione D si riferisce alla tecnica della scivolata d'ala, valida ma non descrive la condizione generale richiesta al momento del contatto."
         },
         {
           "n": 175,
@@ -22627,7 +22627,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In un avvicinamento senza flap, rispetto a uno con tutto flap, l'assetto di contatto risulta più alto e la corsa d'atterraggio più lunga, per la maggiore velocità di stallo e quindi di contatto."
+          "explanation": "In un avvicinamento senza flap, rispetto a uno con tutto flap, l'assetto di contatto risulta più alto e la corsa d'atterraggio più lunga, per la maggiore velocità di stallo e quindi di contatto (opzione B). Le altre risposte sono errate: l'opzione A (assetto più basso, corsa più lunga) è una combinazione errata, poiché senza flap l'assetto di contatto è più alto, non più basso; l'opzione C (assetto più alto, corsa più breve) sbaglia sulla corsa, che invece si allunga; l'opzione D (assetto più basso, corsa più breve) è opposta su entrambi i parametri rispetto alla realtà."
         },
         {
           "n": 176,
@@ -22666,7 +22666,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il residuo ultimo di autonomia che consiglia di effettuare un atterraggio d'emergenza, quando non sia raggiungibile alcun aeroporto, è di circa 30 minuti di carburante."
+          "explanation": "Il residuo ultimo di autonomia che consiglia di effettuare un atterraggio d'emergenza, quando non sia raggiungibile alcun aeroporto, è di circa 30 minuti di carburante (opzione B). Le altre risposte sono errate: l'opzione A (15 minuti) è un margine insufficiente, troppo vicino all'esaurimento; l'opzione C (45 minuti) e l'opzione D (60 minuti) sono valori superiori allo standard di riferimento indicato per la decisione di atterraggio d'emergenza."
         },
         {
           "n": 179,
@@ -22680,7 +22680,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Con il volantino ruotato a sinistra, l'alettone sinistro si alza e l'alettone destro si abbassa, generando meno portanza a sinistra e più a destra, per far inclinare (rollare) il velivolo verso sinistra."
+          "explanation": "Con il volantino ruotato a sinistra, l'alettone sinistro si alza e l'alettone destro si abbassa, generando meno portanza a sinistra e più a destra, per far inclinare (rollare) il velivolo verso sinistra (opzione B). Le altre risposte sono errate: l'opzione A descrive la combinazione opposta, corrispondente invece a un volantino ruotato a destra; l'opzione C (entrambi neutri) non corrisponde ad alcuna azione sul volantino; l'opzione D (solo l'alettone sinistro si muove) è incompleta, poiché gli alettoni si muovono sempre in modo differenziale e opposto."
         },
         {
           "n": 180,
@@ -22694,7 +22694,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Con il volantino ruotato a destra, l'alettone destro si alza e l'alettone sinistro si abbassa, facendo inclinare il velivolo verso destra."
+          "explanation": "Con il volantino ruotato a destra, l'alettone destro si alza e l'alettone sinistro si abbassa, facendo inclinare il velivolo verso destra (opzione A). Le altre risposte sono errate: l'opzione B descrive la combinazione opposta, corrispondente a un volantino ruotato a sinistra; l'opzione C (entrambi neutri) non corrisponde ad alcuna azione sul volantino; l'opzione D (solo l'alettone destro si muove) è incompleta, poiché gli alettoni si muovono sempre in modo differenziale e opposto."
         },
         {
           "n": 181,
@@ -22708,7 +22708,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Ritraendo rapidamente gli ipersostentatori subito dopo il decollo, la portanza diminuisce bruscamente (venendo meno il contributo del flap), e il velivolo può perdere quota pericolosamente se non si dispone di un margine di velocità/potenza sufficiente."
+          "explanation": "Ritraendo rapidamente gli ipersostentatori subito dopo il decollo, la portanza diminuisce bruscamente (venendo meno il contributo del flap), e il velivolo può perdere quota pericolosamente se non si dispone di un margine di velocità/potenza sufficiente (opzione D). Le altre risposte sono errate: l'opzione A (diminuzione di velocità) è una conseguenza secondaria, non la causa diretta della perdita di quota; l'opzione B (spostamento del centro di gravità) non è un effetto della retrazione dei flap; l'opzione C (aumento brusco di resistenza) è opposto all'effetto reale, poiché retraendo il flap la resistenza diminuisce."
         },
         {
           "n": 182,
@@ -22722,7 +22722,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per percorrere in aria calma la maggior distanza possibile in volo planato occorre volare alla velocità di massima efficienza (miglior rapporto portanza/resistenza)."
+          "explanation": "Per percorrere in aria calma la maggior distanza possibile in volo planato occorre volare alla velocità di massima efficienza (miglior rapporto portanza/resistenza) (opzione B). Le altre risposte sono errate: l'opzione A (velocità minima) non corrisponde al punto di massima efficienza aerodinamica; l'opzione C (velocità massima) comporta un peggioramento dell'efficienza e quindi della distanza percorribile; l'opzione D (velocità di discesa minima) massimizza il tempo in volo, non la distanza percorsa."
         },
         {
           "n": 183,
@@ -22736,7 +22736,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per rimanere in volo il più a lungo possibile in aria calma e volo planato occorre volare alla velocità minima variometrica (di massima autonomia oraria), che minimizza il rateo di discesa, non la distanza percorsa."
+          "explanation": "Per rimanere in volo il più a lungo possibile in aria calma e volo planato occorre volare alla velocità minima variometrica (di massima autonomia oraria), che minimizza il rateo di discesa, non la distanza percorsa (opzione A). Le altre risposte sono errate: l'opzione B (ipersostentatori completamente fuori) aumenta la resistenza e il rateo di discesa, riducendo il tempo in volo; l'opzione C (velocità di maggior efficienza) massimizza la distanza percorsa, non il tempo in volo; l'opzione D (velocità minima assoluta, prossima allo stallo) non coincide con la velocità di minimo rateo di discesa."
         },
         {
           "n": 184,
@@ -22750,7 +22750,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le superfici compensatrici (trim) su timoni di direzione e profondità servono ad annullare, a volontà del pilota, la forza residua sui comandi in volo stabilizzato, alleggerendo il carico di lavoro senza modificare l'assetto impostato."
+          "explanation": "Le superfici compensatrici (trim) su timoni di direzione e profondità servono ad annullare, a volontà del pilota, la forza residua sui comandi in volo stabilizzato, alleggerendo il carico di lavoro senza modificare l'assetto impostato (opzione C). Le altre risposte sono errate: l'opzione A descrive l'effetto opposto, un aumento della pressione sui comandi; l'opzione B (compensare la coppia dell'elica in decollo) non è la funzione generale del trim su profondità/direzione; l'opzione D (diminuire la resistenza indotta) non è la funzione delle superfici compensatrici, che agiscono sul carico sui comandi."
         },
         {
           "n": 185,
@@ -22764,7 +22764,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Sì: la velocità di stallo aumenta con l'aumentare del carico (peso), perché a parità di angolo critico d'incidenza serve più velocità per generare la portanza necessaria a sostenere un peso maggiore."
+          "explanation": "Sì: la velocità di stallo aumenta con l'aumentare del carico (peso), perché a parità di angolo critico d'incidenza serve più velocità per generare la portanza necessaria a sostenere un peso maggiore (opzione B). Le altre risposte sono errate: l'opzione A nega ogni influenza, in contrasto con la relazione diretta tra peso e velocità di stallo; l'opzione C afferma l'opposto (diminuzione), mentre la Vs aumenta con il carico; l'opzione D considera la domanda errata attribuendo l'influenza solo alla densità dell'aria, ignorando il ruolo determinante del peso."
         },
         {
           "n": 186,
@@ -22778,7 +22778,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "A parità di peso e configurazione, la velocità di stallo indicata (IAS) è la stessa al livello del mare e in quota, perché l'anemometro a tubo di Pitot compensa (in prima approssimazione) le variazioni di densità dell'aria."
+          "explanation": "A parità di peso e configurazione, la velocità di stallo indicata (IAS) è la stessa al livello del mare e in quota, perché l'anemometro a tubo di Pitot compensa, in prima approssimazione, le variazioni di densità dell'aria (opzione C). Le altre risposte sono errate: l'opzione A (maggiore) e l'opzione B (minore) presuppongono un'influenza della quota sulla IAS di stallo che, trascurando la comprimibilità, non esiste; l'opzione D nega la possibilità di rispondere, mentre la IAS di stallo resta invariata con la quota."
         },
         {
           "n": 187,
@@ -22792,7 +22792,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La velocità indicata di stallo al livello del mare è uguale a quella a 5000 ft, poiché la IAS di stallo dipende dal peso e dalla configurazione, non dalla quota/densità (a meno di effetti di comprimibilità qui trascurati)."
+          "explanation": "La velocità indicata di stallo al livello del mare è uguale a quella a 5000 ft, poiché la IAS di stallo dipende dal peso e dalla configurazione, non dalla quota/densità, a meno di effetti di comprimibilità qui trascurati (opzione C). Le altre risposte sono errate: l'opzione A e l'opzione B presuppongono una differenza tra le due quote che, in queste condizioni, non esiste; l'opzione D nega la possibilità di stabilire l'affermazione corretta, mentre l'invarianza della IAS di stallo con la quota è un principio consolidato."
         },
         {
           "n": 188,
@@ -22806,7 +22806,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In volo di salita rettilineo a velocità costante la trazione deve bilanciare sia la resistenza aerodinamica sia la componente del peso diretta lungo la traiettoria (che si oppone al moto in salita)."
+          "explanation": "In volo di salita rettilineo a velocità costante la trazione deve bilanciare sia la resistenza aerodinamica sia la componente del peso diretta lungo la traiettoria, che si oppone al moto in salita (opzione B). Le altre risposte sono errate: l'opzione A considera solo la resistenza, tralasciando la componente del peso lungo la traiettoria; l'opzione C fa bilanciare la trazione con l'intero peso, ignorando il ruolo della resistenza e la scomposizione vettoriale corretta; l'opzione D afferma genericamente che la trazione deve superare sempre il peso, condizione non necessaria per la salita a velocità costante."
         },
         {
           "n": 189,
@@ -22819,7 +22819,7 @@
             "La trazione deve essere sempre maggiore del peso dei velivolo, che altrimenti non salirebbe"
           ],
           "correct": 1,
-          "explanation": "Vale lo stesso principio della domanda precedente: in salita rettilinea a velocità costante la trazione bilancia resistenza e componente del peso lungo la traiettoria."
+          "explanation": "Vale lo stesso principio della domanda precedente: in salita rettilinea a velocità costante la trazione bilancia sia la resistenza aerodinamica sia la componente del peso lungo la traiettoria (opzione B). Le altre risposte sono errate: l'opzione A considera solo la resistenza, tralasciando la componente del peso; l'opzione C fa bilanciare la trazione con l'intero peso, scomposizione vettoriale non corretta; l'opzione D afferma genericamente che la trazione deve superare sempre il peso, condizione non necessaria per la salita a velocità costante."
         },
         {
           "n": 190,
@@ -22833,7 +22833,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Su una data distanza, la quota più elevata si raggiunge volando alla velocità di massimo angolo di salita (Vx), che massimizza il guadagno di quota per unità di distanza percorsa."
+          "explanation": "Su una data distanza, la quota più elevata si raggiunge volando alla velocità di massimo angolo di salita (Vx), che massimizza il guadagno di quota per unità di distanza percorsa (opzione C). Le altre risposte sono errate: l'opzione A (velocità minima ammissibile) è prossima allo stallo e non ottimizza il guadagno di quota per distanza; l'opzione B (massima velocità ascensionale, Vy) massimizza il guadagno di quota nel tempo, non nella distanza; l'opzione D (massima autonomia chilometrica) è una velocità di crociera, non pertinente alla salita."
         },
         {
           "n": 191,
@@ -22847,7 +22847,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Un'efficienza E=12 significa che, in volo planato e in assenza di vento, il velivolo percorre 12 NM di distanza orizzontale per ogni NM di quota persa (rapporto distanza/perdita di quota = 12)."
+          "explanation": "Un'efficienza E=12 significa che, in volo planato e in assenza di vento, il velivolo percorre 12 NM di distanza orizzontale per ogni NM di quota persa, rapporto distanza/perdita di quota pari a 12 (opzione D). Le altre risposte sono errate: l'opzione A la definisce impropriamente come un angolo rispetto all'orizzonte, confondendo efficienza con angolo di planata; l'opzione B introduce una relazione con la velocità minima ammissibile non pertinente alla definizione di efficienza; l'opzione C inverte il rapporto, definendolo tra distanza e velocità di discesa anziché tra distanza e quota persa."
         },
         {
           "n": 192,
@@ -22861,7 +22861,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Nel volo librato, la massima distanza percorsa si realizza volando all'angolo di incidenza corrispondente alla massima efficienza (miglior rapporto portanza/resistenza), non necessariamente al peso minimo o alla massima pendenza."
+          "explanation": "Nel volo librato, la massima distanza percorsa si realizza volando all'angolo di incidenza corrispondente alla massima efficienza, miglior rapporto portanza/resistenza, non necessariamente al peso minimo o alla massima pendenza (opzione B). Le altre risposte sono errate: l'opzione A lega la massima distanza al peso minimo del velivolo, fattore non determinante quanto l'angolo di incidenza; l'opzione C propone la massima pendenza, che invece minimizza (non massimizza) la distanza percorsa; l'opzione D descrive erroneamente il comportamento in presenza di vento contrario, dove occorre in realtà aumentare, non diminuire, la IAS rispetto alla massima efficienza."
         },
         {
           "n": 193,
@@ -22875,7 +22875,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "A parità di quota e di angolo di inclinazione laterale, il raggio di virata aumenta all'aumentare della velocità (il raggio è proporzionale al quadrato della velocità e inversamente al fattore che dipende dal bank)."
+          "explanation": "A parità di quota e di angolo di inclinazione laterale (bank), il raggio di virata aumenta all'aumentare della velocità, essendo proporzionale al quadrato della velocità (opzione A). Le altre risposte sono errate: l'opzione B afferma l'opposto (diminuzione), mentre il raggio aumenta con la velocità; l'opzione C nega la dipendenza dalla velocità, in contrasto con la relazione fisica reale; l'opzione D nega la possibilità di rispondere correttamente, mentre esiste una relazione ben definita tra velocità e raggio di virata."
         },
         {
           "n": 194,
@@ -22889,7 +22889,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "A parità di quota e velocità, il raggio di virata aumenta diminuendo l'inclinazione laterale (bank), perché un'inclinazione minore genera una componente centripeta minore, quindi un raggio maggiore."
+          "explanation": "A parità di quota e velocità, il raggio di virata aumenta diminuendo l'inclinazione laterale (bank), perché un'inclinazione minore genera una componente centripeta minore, quindi un raggio maggiore (opzione B). Le altre risposte sono errate: l'opzione A afferma l'opposto, mentre è la diminuzione (non l'aumento) dell'inclinazione a far crescere il raggio; l'opzione C afferma che il raggio diminuisce diminuendo l'inclinazione, relazione invertita rispetto a quella reale; l'opzione D introduce una proporzionalità fissa (1 metro per grado) priva di fondamento fisico generale."
         },
         {
           "n": 195,
@@ -22903,7 +22903,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il fattore di carico 'n' è il rapporto tra la portanza generata e il peso del velivolo in quel momento."
+          "explanation": "Il fattore di carico 'n' è il rapporto tra la portanza generata e il peso del velivolo in quel momento (opzione C). Le altre risposte sono errate: l'opzione A lo definisce come rapporto tra peso e superficie alare, che è invece il carico alare, grandezza diversa; l'opzione B e l'opzione D lo legano erroneamente al rapporto tra accelerazione di gravità e velocità di volo, relazione priva di significato fisico corretto per il fattore di carico."
         },
         {
           "n": 196,
@@ -22931,7 +22931,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Durante una virata il fattore di carico aumenta con l'aumentare dell'inclinazione laterale (bank), perché serve più portanza per bilanciare sia il peso sia la componente centrifuga."
+          "explanation": "Durante una virata il fattore di carico aumenta con l'aumentare dell'inclinazione laterale (bank), perché serve più portanza per bilanciare sia il peso sia la componente centrifuga (opzione A). Le altre risposte sono errate: l'opzione B afferma l'opposto (diminuzione), mentre il fattore di carico cresce con il bank; l'opzione C nega ogni variazione, in contrasto con la relazione n=1/cos(bank); l'opzione D inverte la relazione, facendolo aumentare con la diminuzione dell'inclinazione."
         },
         {
           "n": 198,
@@ -22945,7 +22945,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In una virata a 60° con fattore di carico n=2, la portanza deve essere il doppio del peso del velivolo (per definizione, n = portanza/peso)."
+          "explanation": "In una virata a 60° con fattore di carico n=2, la portanza deve essere il doppio del peso del velivolo, per definizione n = portanza/peso (opzione C). Le altre risposte sono errate: l'opzione A (uguale al peso) corrisponderebbe a n=1, volo livellato senza inclinazione; l'opzione B (di poco superiore) sottostima il valore reale richiesto da n=2; l'opzione D (inferiore al peso) è incompatibile con un fattore di carico maggiore di 1."
         },
         {
           "n": 199,
@@ -22959,7 +22959,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In una virata a quota costante con inclinazione di 60° si sviluppa un fattore di carico pari a 2."
+          "explanation": "In una virata a quota costante con inclinazione di 60° si sviluppa un fattore di carico pari a 2, dato da n=1/cos(60°)=2 (opzione B). Le altre risposte sono errate: l'opzione A confonde il fattore di carico con il peso del velivolo, grandezze diverse; l'opzione C (n=1) corrisponde al volo livellato senza inclinazione, non a 60° di bank; l'opzione D lo definisce come 'uguale alla forza centrifuga', definizione imprecisa rispetto al rapporto portanza/peso."
         },
         {
           "n": 200,
@@ -22973,7 +22973,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Azionando il timone di direzione, l'effetto primario è una rotazione del velivolo attorno all'asse verticale (imbardata)."
+          "explanation": "Azionando il timone di direzione, l'effetto primario che ne consegue è una rotazione del velivolo attorno all'asse verticale, l'imbardata (opzione D). Le altre risposte sono errate: l'opzione A (inclinazione laterale) è l'effetto primario degli alettoni, non del timone di direzione; l'opzione B (picchiata) e l'opzione C (cabrata) sono effetti del timone di profondità, non del timone di direzione."
         },
         {
           "n": 201,
@@ -22987,7 +22987,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Perché un aeroplano mantenga una traiettoria rettilinea orizzontale senza variare quota, la portanza deve essere uguale e opposta al peso, così che la risultante delle forze verticali sia nulla."
+          "explanation": "Perché un aeroplano mantenga una traiettoria rettilinea orizzontale senza variare quota, la portanza deve essere uguale e opposta al peso, così che la risultante delle forze verticali sia nulla (opzione B). Le altre risposte sono errate: l'opzione A (portanza superiore al peso) farebbe salire il velivolo, non mantenerlo livellato; l'opzione C introduce impropriamente la resistenza nell'equilibrio verticale, che riguarda invece l'equilibrio orizzontale con la trazione; l'opzione D confronta risultante aerodinamica e massa, grandezze non direttamente confrontabili in questo equilibrio."
         },
         {
           "n": 202,
@@ -23001,7 +23001,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Durante la salita la portanza è minore di quella corrispondente al volo orizzontale, perché parte del peso è ora bilanciata dalla componente di trazione diretta lungo la traiettoria inclinata."
+          "explanation": "Durante la salita la portanza è minore di quella corrispondente al volo orizzontale, perché parte del peso è ora bilanciata dalla componente di trazione diretta lungo la traiettoria inclinata (opzione C). Le altre risposte sono errate: l'opzione A afferma l'opposto (maggiore), mentre la portanza richiesta in salita è inferiore; l'opzione B (uguale) ignora l'effetto della componente di trazione lungo la traiettoria inclinata; l'opzione D confonde erroneamente portanza e trazione, grandezze distinte."
         },
         {
           "n": 203,
@@ -23015,7 +23015,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Durante la discesa la portanza è anch'essa minore di quella corrispondente al volo orizzontale, per lo stesso motivo geometrico legato all'inclinazione della traiettoria."
+          "explanation": "Durante la discesa la portanza è anch'essa minore di quella corrispondente al volo orizzontale, per lo stesso motivo geometrico legato all'inclinazione della traiettoria (opzione C). Le altre risposte sono errate: l'opzione A afferma l'opposto (maggiore), mentre la portanza richiesta in discesa è inferiore; l'opzione B (uguale) ignora l'effetto dell'inclinazione della traiettoria; l'opzione D confonde erroneamente portanza e trazione, grandezze distinte."
         },
         {
           "n": 204,
@@ -23029,7 +23029,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La stabilità longitudinale (di beccheggio) di un velivolo è assicurata essenzialmente dallo stabilizzatore (impennaggio orizzontale fisso)."
+          "explanation": "La stabilità longitudinale (di beccheggio) di un velivolo è assicurata essenzialmente dallo stabilizzatore, l'impennaggio orizzontale fisso (opzione D). Le altre risposte sono errate: l'opzione A (timone di direzione) governa la stabilità/controllo direzionale, non longitudinale; l'opzione B (timone di profondità) è la superficie di comando mobile, mentre la stabilità è garantita dalla parte fissa; l'opzione C (alettoni) governano il controllo laterale, non longitudinale."
         },
         {
           "n": 205,
@@ -23043,7 +23043,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La stabilità trasversale (laterale) può essere incrementata adottando il diedro alare, che genera un momento di richiamo quando un'ala scende rispetto all'altra."
+          "explanation": "La stabilità trasversale (laterale) può essere incrementata adottando il diedro alare, che genera un momento di richiamo quando un'ala scende rispetto all'altra (opzione C). Le altre risposte sono errate: l'opzione A (alettoni differenziali) riguarda il controllo, non la stabilità intrinseca; l'opzione B (spoiler di volo) non è un dispositivo tipicamente associato alla stabilità trasversale; l'opzione D (profili biconvessi simmetrici) riguarda le caratteristiche aerodinamiche del profilo, non la geometria che genera stabilità laterale."
         },
         {
           "n": 206,
@@ -23057,7 +23057,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La stabilità direzionale è assicurata essenzialmente dalla parte fissa (deriva) dell'impennaggio verticale, ed è ulteriormente migliorata dall'adozione di ali a freccia."
+          "explanation": "La stabilità direzionale è assicurata essenzialmente dalla parte fissa (deriva) dell'impennaggio verticale, ed è ulteriormente migliorata dall'adozione di ali a freccia (opzione A). Le altre risposte sono errate: l'opzione B (alettoni e diedro) riguardano la stabilità laterale, non direzionale; l'opzione C (stabilizzatore) governa la stabilità longitudinale; l'opzione D (timone di direzione, parte mobile) è la superficie di comando, mentre la stabilità è garantita dalla parte fissa."
         },
         {
           "n": 207,
@@ -23071,7 +23071,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Lo stallo di un'ala dipende essenzialmente dal superamento di un certo valore critico dell'angolo di incidenza, non da un valore fisso di velocità."
+          "explanation": "Lo stallo di un'ala dipende essenzialmente dal superamento di un certo valore critico dell'angolo di incidenza, non da un valore fisso di velocità (opzione B). Le altre risposte sono errate: l'opzione A lo lega a un valore critico di IAS, mentre lo stallo può avvenire a velocità diverse a seconda del fattore di carico; l'opzione C (diminuzione improvvisa di resistenza) è opposta al fenomeno reale, in cui la resistenza aumenta bruscamente; l'opzione D (variazione di densità dell'aria) non è la causa determinante dello stallo."
         },
         {
           "n": 208,
@@ -23085,7 +23085,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il caratteristico scuotimento (buffeting) che precede lo stallo è provocato dall'instabilità del flusso sul dorso alare, che si stacca e si riattacca ripetutamente alla superficie prima della separazione completa."
+          "explanation": "Il caratteristico scuotimento (buffeting) che precede lo stallo è provocato dall'instabilità del flusso sul dorso alare, che si stacca e si riattacca ripetutamente alla superficie prima della separazione completa (opzione D). Le altre risposte sono errate: l'opzione A (aumento della scia a valle) è una conseguenza dello stallo già instaurato, non la causa del buffeting premonitore; l'opzione B (oscillazioni delle estremità alari) non è il meccanismo che genera il buffeting; l'opzione C (aumento dei vortici marginali) riguarda la resistenza indotta, non il fenomeno del buffeting."
         },
         {
           "n": 209,
@@ -23099,7 +23099,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Lo stallo si può verificare a qualsiasi velocità, purché l'incidenza superi l'angolo critico (da cui lo stallo accelerato in manovra, anche ad alta velocità)."
+          "explanation": "Lo stallo si può verificare a qualsiasi velocità, purché l'incidenza superi l'angolo critico, da cui lo stallo accelerato in manovra, che può avvenire anche ad alta velocità (opzione C). Le altre risposte sono errate: l'opzione A e l'opzione B lo limitano erroneamente alla sola bassa velocità, ignorando lo stallo accelerato in manovra; l'opzione D lo lega a un'incidenza pari all'angolo di minima efficienza, condizione non corretta rispetto alla definizione di stallo."
         },
         {
           "n": 210,
@@ -23113,7 +23113,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il fenomeno aerodinamico della vite è caratterizzato da un'ala interna alla rotazione completamente stallata, un elevato rateo di discesa e una bassa velocità indicata."
+          "explanation": "Il fenomeno aerodinamico della vite è caratterizzato da un'ala interna alla rotazione completamente stallata, un elevato rateo di discesa e una bassa velocità indicata (opzione A). Le altre risposte sono errate: l'opzione B attribuisce lo stallo all'ala esterna e un'alta velocità indicata, entrambi elementi invertiti rispetto alla realtà; l'opzione C descrive entrambe le ali stallate con basso rateo di discesa e alta velocità, quadro non corrispondente alla vite; l'opzione D corregge l'ala stallata ma mantiene erroneamente un'alta velocità indicata, mentre in vite la IAS è tipicamente bassa."
         },
         {
           "n": 211,
@@ -23127,7 +23127,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Durante la vite il comando che non perde (o perde per ultimo) efficacia è il timone di direzione, che rimane il mezzo principale per tentare di arrestare la rotazione."
+          "explanation": "Durante la vite il comando che non perde, o perde per ultimo, efficacia è il timone di direzione, che rimane il mezzo principale per tentare di arrestare la rotazione (opzione B). Le altre risposte sono errate: l'opzione A (stabilizzatore) e l'opzione D (timone di profondità) perdono efficacia con l'ala stallata; l'opzione C (alettoni) sono tra i primi comandi a perdere efficacia in vite, a causa dello stallo asimmetrico delle ali."
         },
         {
           "n": 212,
@@ -23141,7 +23141,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Gli angoli di flap in decollo sono inferiori a quelli in atterraggio perché, con l'angolo previsto per l'atterraggio, l'aumento del coefficiente di resistenza supererebbe l'incremento del coefficiente di portanza, penalizzando le prestazioni di decollo/salita."
+          "explanation": "Gli angoli di flap in decollo sono inferiori a quelli in atterraggio perché, con l'angolo previsto per l'atterraggio, l'aumento del coefficiente di resistenza supererebbe l'incremento del coefficiente di portanza, penalizzando le prestazioni di decollo/salita (opzione C). Le altre risposte sono errate: l'opzione A (stallo della zona dorsale) e l'opzione B (stallo della zona ventrale) non sono il motivo della scelta di angoli ridotti in decollo; l'opzione D (contenere i vortici marginali) non è la ragione principale della differenza tra angoli di decollo e atterraggio."
         },
         {
           "n": 213,
@@ -23155,7 +23155,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Per superare un ostacolo molto vicino durante la salita, la velocità indicata idonea è quella di salita ripida (Vx), che massimizza il guadagno di quota per distanza percorsa."
+          "explanation": "Per superare un ostacolo molto vicino durante la salita, la velocità indicata idonea è quella di salita ripida (Vx), che massimizza il guadagno di quota per distanza percorsa (opzione C). Le altre risposte sono errate: l'opzione A (stallo) è una condizione pericolosa da evitare, non una velocità operativa; l'opzione B (salita rapida, Vy) massimizza il guadagno di quota nel tempo, non per distanza percorsa; l'opzione D (massima portanza) non corrisponde a una velocità operativa specifica per il superamento ostacoli."
         },
         {
           "n": 214,
@@ -23169,7 +23169,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La salita ripida (Vx) consente il maggior guadagno di quota rispetto alla distanza percorsa al suolo."
+          "explanation": "La salita ripida (Vx) consente il maggior guadagno di quota rispetto alla distanza percorsa al suolo (opzione B). Le altre risposte sono errate: l'opzione A (rispetto al tempo impiegato) è il criterio della salita rapida (Vy), non della salita ripida; l'opzione C (massima velocità di traiettoria) non è il criterio che definisce la salita ripida; l'opzione D (carburante consumato) non è il parametro di riferimento per questo tipo di salita."
         },
         {
           "n": 215,
@@ -23183,7 +23183,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La salita rapida (Vy) consente il maggior guadagno di quota rispetto al tempo impiegato."
+          "explanation": "La salita rapida (Vy) consente il maggior guadagno di quota rispetto al tempo impiegato (opzione A). Le altre risposte sono errate: l'opzione B (rispetto alla distanza percorsa) è il criterio della salita ripida (Vx), non della salita rapida; l'opzione C (massima velocità di traiettoria) non è il criterio che definisce la salita rapida; l'opzione D (carburante consumato) non è il parametro di riferimento per questo tipo di salita."
         },
         {
           "n": 216,
@@ -23197,7 +23197,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La velocità indicata di salita ripida (Vx) di un aereo ad elica è minore di quella di salita rapida (Vy)."
+          "explanation": "La velocità indicata di salita ripida (Vx) di un aereo ad elica è minore di quella di salita rapida (Vy) (opzione B). Le altre risposte sono errate: l'opzione A afferma l'opposto, mentre Vx è tipicamente inferiore a Vy; l'opzione C (uguale alla minima potenza necessaria) non corrisponde alla definizione di Vx; l'opzione D (maggiore della massima efficienza) non è la relazione corretta per Vx."
         },
         {
           "n": 217,
@@ -23211,7 +23211,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La velocità indicata di salita rapida (Vy) di un aereo ad elica è maggiore di quella di salita ripida (Vx)."
+          "explanation": "La velocità indicata di salita rapida (Vy) di un aereo ad elica è maggiore di quella di salita ripida (Vx) (opzione D). Le altre risposte sono errate: l'opzione A afferma l'opposto, mentre Vy è tipicamente superiore a Vx; l'opzione B (uguale alla minima potenza necessaria) non corrisponde in generale alla definizione di Vy; l'opzione C (minore della minima potenza necessaria) è ugualmente non corretta come relazione per Vy."
         },
         {
           "n": 218,
@@ -23225,7 +23225,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La pendenza della traiettoria durante una salita ripida è maggiore di quella corrispondente alla salita rapida: è proprio la maggior pendenza a definire la salita ripida."
+          "explanation": "La pendenza della traiettoria durante una salita ripida è maggiore di quella corrispondente alla salita rapida: è proprio la maggior pendenza a definire la salita ripida (opzione A). Le altre risposte sono errate: l'opzione B afferma l'opposto (minore), mentre la salita ripida ha per definizione pendenza maggiore; l'opzione C (uguale) nega la differenza che caratterizza le due tecniche; l'opzione D la confonde con l'angolo di assetto, grandezza distinta dalla pendenza della traiettoria."
         },
         {
           "n": 219,
@@ -23239,7 +23239,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La pendenza della traiettoria durante una salita rapida è minore di quella corrispondente alla salita ripida."
+          "explanation": "La pendenza della traiettoria durante una salita rapida è minore di quella corrispondente alla salita ripida (opzione B). Le altre risposte sono errate: l'opzione A afferma l'opposto (maggiore), mentre la salita rapida ha pendenza minore della ripida; l'opzione C (uguale) nega la differenza che caratterizza le due tecniche; l'opzione D la confonde con l'angolo di assetto, grandezza distinta dalla pendenza della traiettoria."
         },
         {
           "n": 220,
@@ -23253,7 +23253,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La velocità di manovra (Va) è la velocità massima alla quale, portando i comandi a fondo corsa con incidenza di massimo coefficiente di portanza, non si supera il fattore di carico strutturale massimo consentito dalla manovra."
+          "explanation": "La velocità di manovra (Va) è la velocità massima alla quale, portando i comandi a fondo corsa con incidenza di massimo coefficiente di portanza, non si supera il fattore di carico strutturale massimo consentito dalla manovra (opzione A). Le altre risposte sono errate: l'opzione B la descrive come velocità minima con margine sullo stallo, definizione non corretta di Va; l'opzione C (velocità nelle aree aeroportuali) la confonde con altri limiti operativi (es. VFE aeroportuale); l'opzione D la lega erroneamente alla manovra del carrello di atterraggio, concetto estraneo alla definizione di Va."
         },
         {
           "n": 221,
