@@ -20192,7 +20192,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "I comandi di volo (alettoni, timone di profondità, timone di direzione) permettono al pilota di controllare la rotazione del velivolo attorno ai tre assi fondamentali (longitudinale, trasversale, verticale), determinando così l'assetto e la traiettoria."
+          "explanation": "I comandi di volo primari (alettoni, timone di profondità, timone di direzione) permettono al pilota di controllare la rotazione del velivolo attorno ai tre assi fondamentali (longitudinale, trasversale, verticale), determinando così assetto e traiettoria (opzione C). Le altre risposte sono errate: l'opzione A parla genericamente di 'prestazioni', concetto diverso dal controllo della rotazione; l'opzione B descrive una funzione radio/comunicazione, estranea ai comandi di volo aerodinamici; l'opzione D riguarda i flap, un dispositivo ipersostentatore secondario e non un comando di volo primario."
         },
         {
           "n": 2,
@@ -20206,7 +20206,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "I comandi di volo aerodinamici agiscono variando l'incidenza locale delle superfici mobili, sfruttando quindi l'effetto della portanza (variazione di pressione sulle due facce) per generare il momento che ruota il velivolo."
+          "explanation": "I comandi di volo aerodinamici (alettoni, equilibratore, timone) agiscono variando l'incidenza locale delle superfici mobili e sfruttano quindi l'effetto della portanza, la cui variazione di pressione sulle due facce del profilo genera il momento che ruota il velivolo (opzione A). Le altre risposte sono errate: l'opzione B (resistenza) è una forza che si oppone al moto, non generatrice del momento di controllo; l'opzione C (trazione) è la forza propulsiva del motore/elica, non legata alle superfici di comando; l'opzione D (peso) è una forza costante applicata al baricentro, indipendente dall'azionamento dei comandi."
         },
         {
           "n": 3,
@@ -20234,7 +20234,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Sì: azionando gli alettoni si varia l'incidenza locale delle semiali (una aumenta, l'altra diminuisce), modificando così la distribuzione della portanza anche in volo, oltre che con l'estensione dei flap."
+          "explanation": "Sì, la distribuzione della portanza sull'ala può essere variata in volo: azionando gli alettoni si varia l'incidenza locale delle due semiali (una aumenta, l'altra diminuisce), modificando la ripartizione della portanza anche senza toccare i flap (opzione A). Le altre risposte sono errate: l'opzione B limita erroneamente la possibilità alla sola estensione flap, ignorando l'effetto alettoni; l'opzione C nega la possibilità stessa, mentre la distribuzione non è affatto fissa; l'opzione D è errata perché la variazione avviene in volo tramite i comandi, non richiede un intervento a terra."
         },
         {
           "n": 5,
@@ -20248,7 +20248,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Gli alettoni, muovendosi in senso opposto sulle due semiali, generano un momento che fa ruotare il velivolo attorno all'asse longitudinale (rollio/inclinazione laterale)."
+          "explanation": "Gli alettoni, muovendosi in senso opposto sulle due semiali, generano una differenza di portanza che produce un momento di rollio attorno all'asse longitudinale del velivolo, controllandone l'inclinazione laterale (opzione B). Le altre risposte sono errate: l'opzione A (asse trasversale) descrive il beccheggio, funzione dell'equilibratore non degli alettoni; l'opzione C è errata perché la funzione primaria degli alettoni è generare un momento di rollio, non aumentare la resistenza (che è solo un effetto secondario indesiderato); l'opzione D (controllo direzionale al suolo) è compito del timone/ruotino, non degli alettoni."
         },
         {
           "n": 6,
@@ -20262,7 +20262,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il timone di direzione è la superficie mobile della deriva e controlla la rotazione del velivolo attorno all'asse verticale (imbardata)."
+          "explanation": "Il timone di direzione, superficie mobile incernierata alla deriva, genera una forza laterale che produce il momento di imbardata, controllando la rotazione del velivolo attorno all'asse verticale (opzione C). Le altre risposte sono errate: l'opzione A (asse longitudinale) descrive il rollio, funzione degli alettoni; l'opzione B (asse trasversale) descrive il beccheggio, funzione dell'equilibratore; l'opzione D è generica e non identifica l'asse di rotazione specifico controllato dal timone, che è per definizione l'asse verticale."
         },
         {
           "n": 7,
@@ -20276,7 +20276,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Più che per 'girare', il timone di direzione viene usato soprattutto per mantenere l'asse longitudinale allineato con il flusso d'aria (vento relativo), ad esempio per coordinare le virate o contrastare l'imbardata indotta da alettoni ed elica."
+          "explanation": "Più che per generare virate, il timone di direzione viene usato soprattutto per mantenere l'asse longitudinale del velivolo allineato con la direzione del vento relativo (volo coordinato), contrastando l'imbardata indotta da alettoni ed elica (opzione C). Le altre risposte sono errate: l'opzione A descrive un uso secondario e meno frequente rispetto al coordinamento; l'opzione B (inclinare l'ala) è funzione degli alettoni, non del timone; l'opzione D è errata perché il timone viene usato costantemente, ad ogni virata e in molte fasi del volo."
         },
         {
           "n": 8,
@@ -20290,7 +20290,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il timone di profondità (equilibratore) controlla la rotazione attorno all'asse trasversale (beccheggio), variando l'angolo di incidenza e quindi l'assetto."
+          "explanation": "Il timone di profondità (equilibratore), superficie mobile del piano di coda orizzontale, controlla la rotazione del velivolo attorno all'asse trasversale (beccheggio), variando l'angolo di incidenza e quindi l'assetto longitudinale (opzione B). Le altre risposte sono errate: l'opzione A (asse longitudinale) descrive il rollio, funzione degli alettoni; l'opzione C (asse verticale) descrive l'imbardata, funzione del timone di direzione; l'opzione D è errata perché la funzione primaria del timone di profondità è controllare l'assetto, non generare resistenza."
         },
         {
           "n": 9,
@@ -20304,7 +20304,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Ogni comando primario produce un effetto principale sul proprio asse, ma genera anche un effetto secondario indesiderato su un altro asse: ad esempio gli alettoni, oltre al rollio, inducono anche un'imbardata (imbardata inversa)."
+          "explanation": "Ogni comando primario produce un effetto principale sul proprio asse ma genera anche un effetto secondario indesiderato su un altro asse: ad esempio gli alettoni, oltre al rollio, inducono un'imbardata inversa; il timone di profondità può indurre lievi effetti secondari analoghi (opzione D, rotazione su un asse con interferenza su un altro). Le altre risposte sono errate: l'opzione A ignora l'esistenza dell'effetto secondario di interferenza; l'opzione B nega qualsiasi rotazione, in contrasto con la funzione primaria del comando; l'opzione C è un'affermazione priva di senso aeronautico, non pertinente alla domanda."
         },
         {
           "n": 10,
@@ -20318,7 +20318,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La traiettoria di volo è definita come la linea descritta nello spazio dal baricentro (centro di gravità) dell'aeromobile durante il moto, e non coincide necessariamente con l'asse longitudinale del velivolo."
+          "explanation": "La traiettoria di volo è definita come la linea descritta nello spazio dal baricentro (centro di gravità) dell'aeromobile durante il moto, e non coincide necessariamente con l'asse longitudinale del velivolo (opzione C). Le altre risposte sono errate: l'opzione A confonde la traiettoria con il prolungamento dell'asse longitudinale, che indica invece la direzione della prua (assetto), non il percorso realmente seguito; l'opzione B descrive una linea geometrica astratta (la più breve), non il percorso realmente volato; l'opzione D è un gioco di parole estraneo alla definizione tecnica."
         },
         {
           "n": 11,
@@ -20332,7 +20332,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Le traiettorie di volo possono essere rettilinee o curve, e possono svilupparsi a quota costante, in salita o in discesa, a seconda del segno e valore dell'angolo di rampa."
+          "explanation": "Le traiettorie di volo possono essere rettilinee o curve e possono svilupparsi a quota costante, in salita o in discesa, a seconda del segno e del valore dell'angolo di rampa (opzione C). Le altre risposte sono errate: l'opzione A limita le traiettorie alla sola quota costante, escludendo salita e discesa; l'opzione B descrive linee spezzate legate a variazioni di velocità, non la classificazione reale delle traiettorie; l'opzione D esclude ingiustamente la discesa, che è una traiettoria altrettanto valida."
         },
         {
           "n": 12,
@@ -20346,7 +20346,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Ciò che distingue una traiettoria a quota costante è l'angolo di rampa nullo (zero): la traiettoria non forma alcun angolo con il piano orizzontale."
+          "explanation": "Ciò che distingue una traiettoria a quota costante è l'angolo di rampa nullo (zero): la traiettoria non forma alcun angolo con il piano orizzontale, mentre salita e discesa hanno rispettivamente rampa positiva e negativa (opzione C). Le altre risposte sono errate: l'opzione A attribuisce erroneamente un rampa positivo alla quota costante, che invece caratterizza la salita; l'opzione B attribuisce erroneamente un rampa negativo, che invece caratterizza la discesa; l'opzione D contraddice la definizione stessa di volo a quota costante, che per definizione non ha componente verticale di traiettoria."
         },
         {
           "n": 13,
@@ -20360,7 +20360,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Una traiettoria in salita ha, per definizione, angolo di rampa positivo (la traiettoria è inclinata verso l'alto rispetto al piano orizzontale)."
+          "explanation": "Una traiettoria in salita ha, per definizione, angolo di rampa positivo: la traiettoria è inclinata verso l'alto rispetto al piano orizzontale (opzione B). Le altre risposte sono errate: l'opzione A (rampa negativo) descrive invece la discesa; l'opzione C nega l'esistenza di un angolo di rampa, in contrasto con la definizione stessa di traiettoria in salita; l'opzione D nega che si tratti di una traiettoria, affermazione priva di senso poiché la salita è una traiettoria a tutti gli effetti."
         },
         {
           "n": 14,
@@ -20374,7 +20374,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Una traiettoria in discesa ha angolo di rampa negativo, essendo inclinata verso il basso rispetto al piano orizzontale."
+          "explanation": "Una traiettoria in discesa ha angolo di rampa negativo, essendo inclinata verso il basso rispetto al piano orizzontale (opzione A). Le altre risposte sono errate: l'opzione B (rampa positivo) descrive invece la salita; l'opzione C nega l'esistenza di un angolo di rampa, in contrasto con la definizione di traiettoria in discesa; l'opzione D nega che si tratti di una traiettoria, affermazione priva di senso poiché la discesa è una traiettoria a tutti gli effetti."
         },
         {
           "n": 15,
@@ -20388,7 +20388,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il vento relativo è per definizione la velocità dell'aria rispetto al velivolo, ed è sempre diretto lungo la traiettoria di volo (parallelo e di verso opposto ad essa)."
+          "explanation": "Il vento relativo è per definizione la velocità dell'aria rispetto al velivolo ed è sempre diretto lungo la traiettoria di volo, parallelo ad essa e di verso opposto (opzione D). Le altre risposte sono errate: l'opzione A è errata perché il vento relativo segue la traiettoria anche in salita/discesa, non resta sempre sul piano orizzontale; l'opzione B introduce una relazione di segno inesistente con l'angolo di rampa; l'opzione C confonde il vento relativo (definito rispetto al moto del velivolo) con il vento meteorologico reale, grandezza diversa."
         },
         {
           "n": 16,
@@ -20402,7 +20402,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'angolo di attacco (o di incidenza) è l'angolo compreso tra la corda alare e la direzione del vento relativo, ed è il parametro da cui dipende direttamente il coefficiente di portanza."
+          "explanation": "L'angolo di attacco (o di incidenza) è l'angolo compreso tra la corda alare e la direzione del vento relativo, ed è il parametro da cui dipende direttamente il coefficiente di portanza (opzione D). Le altre risposte sono errate: l'opzione A definisce invece l'angolo di rampa (traiettoria rispetto all'orizzonte), non l'incidenza; l'opzione B definisce l'angolo di assetto (asse longitudinale rispetto al vento relativo), concetto distinto dall'incidenza; l'opzione C descrive l'angolo di virata, non pertinente alla definizione di incidenza."
         },
         {
           "n": 17,
@@ -20416,7 +20416,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'angolo di attacco esiste sempre durante il volo, non solo in virata o in salita/discesa: è presente ogniqualvolta l'ala genera portanza."
+          "explanation": "L'angolo di attacco esiste sempre durante il volo, ogniqualvolta l'ala genera portanza, non solo in virata o in fasi di salita/discesa (opzione B). Le altre risposte sono errate: l'opzione A limita erroneamente l'esistenza dell'incidenza alla sola virata; l'opzione C la limita erroneamente alla sola salita; l'opzione D la limita erroneamente alla sola discesa: in tutti questi casi l'incidenza è invece sempre presente, anche in volo rettilineo orizzontale."
         },
         {
           "n": 18,
@@ -20430,7 +20430,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In volo a quota costante (rettilineo orizzontale) la portanza deve essere uguale al peso, altrimenti il velivolo salirebbe o scenderebbe."
+          "explanation": "In volo a quota costante (rettilineo orizzontale) la portanza deve essere uguale al peso, altrimenti il velivolo salirebbe (portanza maggiore) o scenderebbe (portanza minore) (opzione C). Le altre risposte sono errate: l'opzione A (portanza di poco superiore) provocherebbe una lenta salita, non una quota costante; l'opzione B (doppio del peso) è un valore arbitrario e sproporzionato, non richiesto per l'equilibrio; l'opzione D (metà del peso, compensata dal motore) confonde portanza con trazione, forze di natura diversa che non si sostituiscono a vicenda."
         },
         {
           "n": 19,
@@ -20444,7 +20444,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Poiché la portanza dipende sia dalla velocità che dall'angolo d'attacco (L = Cl · ½ρV²S), lo stesso valore di portanza si ottiene con bassa velocità e grande incidenza oppure con alta velocità e piccola incidenza."
+          "explanation": "Poiché la portanza dipende sia dalla velocità che dall'angolo d'attacco (L = Cl · ½ρV²S), uno stesso valore di portanza si ottiene con bassa velocità e grande incidenza oppure con alta velocità e piccola incidenza (opzione A). Le altre risposte sono errate: l'opzione B abbina le variabili nel modo opposto a quello fisicamente corretto (bassa velocità con piccola incidenza non compenserebbe la perdita di portanza); l'opzione C e l'opzione D attribuiscono la portanza a potenza installata e vento, fattori che non compaiono nella formula della portanza."
         },
         {
           "n": 20,
@@ -20458,7 +20458,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Sì: a bassa velocità corrisponde necessariamente un alto angolo d'attacco (per generare comunque la portanza richiesta) e viceversa ad alta velocità corrisponde basso angolo d'attacco."
+          "explanation": "Sì: a bassa velocità corrisponde necessariamente un alto angolo d'attacco, per generare comunque la portanza richiesta a bilanciare il peso, e viceversa ad alta velocità corrisponde un basso angolo d'attacco (opzione B). Le altre risposte sono errate: l'opzione A inverte la relazione, attribuendo erroneamente alta velocità ad alto angolo d'attacco; l'opzione C è incompleta, poiché non menziona il caso inverso ad alta velocità; l'opzione D nega la possibilità di stimare l'incidenza dalla IAS, mentre la relazione descritta è invece diretta e ben nota."
         },
         {
           "n": 21,
@@ -20472,7 +20472,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'assetto di volo è l'angolo che la corda alare (o l'asse longitudinale, a seconda della convenzione) forma con il piano orizzontale, indipendentemente dalla direzione del moto."
+          "explanation": "L'assetto di volo è l'angolo che la corda alare (o l'asse longitudinale, a seconda della convenzione) forma con il piano orizzontale, indipendentemente dalla direzione del moto (opzione C). Le altre risposte sono errate: l'opzione A definisce invece l'angolo di incidenza (corda alare rispetto al vento relativo, non al piano orizzontale); l'opzione B definisce un angolo legato alla direzione della portanza, non all'assetto; l'opzione D mette in relazione asse longitudinale e corda alare, una relazione strutturale fissa del velivolo e non la definizione di assetto."
         },
         {
           "n": 22,
@@ -20486,7 +20486,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In volo rettilineo orizzontale l'angolo di rampa è zero, quindi per la relazione assetto = incidenza + rampa, l'assetto coincide numericamente con l'angolo di incidenza."
+          "explanation": "In volo rettilineo orizzontale l'angolo di rampa è zero; per la relazione assetto = incidenza + rampa, l'angolo di assetto coincide numericamente con l'angolo di incidenza (opzione B). Le altre risposte sono errate: l'opzione A attribuisce erroneamente un rampa negativo al volo orizzontale, che invece ha rampa nullo; l'opzione C attribuisce erroneamente un rampa positivo, condizione tipica della salita non del volo livellato; l'opzione D nega una relazione che invece esiste sempre tra assetto, incidenza e rampa."
         },
         {
           "n": 23,
@@ -20500,7 +20500,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "I comandi di volo azionati dal pilota (alettoni, timoni) servono a consentire la manovra, cioè a variare volontariamente l'assetto e la traiettoria del velivolo."
+          "explanation": "I comandi di volo azionati dal pilota (alettoni, timoni, equilibratore) servono a consentire la manovra, cioè a variare volontariamente l'assetto e la traiettoria del velivolo (opzione B). Le altre risposte sono errate: l'opzione A inverte il rapporto causa-effetto, poiché sono gli strumenti a mostrare l'effetto dei comandi e non viceversa; l'opzione C descrive il compito del trim, non dei comandi di volo primari azionati attivamente; l'opzione D è priva di senso aeronautico, i comandi di volo non si riferiscono ai passeggeri."
         },
         {
           "n": 24,
@@ -20514,7 +20514,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Il volo per assetti è una tecnica di pilotaggio basata sull'impostare combinazioni note e precalcolate di assetto e potenza per ottenere le prestazioni desiderate (salita, discesa, crociera), anziché rincorrere istante per istante le indicazioni strumentali."
+          "explanation": "Il volo per assetti è una tecnica di pilotaggio basata sull'impostare combinazioni note e precalcolate di assetto e potenza per ottenere le prestazioni desiderate (salita, discesa, crociera), anziché rincorrere istante per istante le indicazioni strumentali (opzione A). Le altre risposte sono errate: l'opzione B descrive l'approccio opposto, ossia l'inseguimento continuo delle performance strumentali che il volo per assetti vuole evitare; l'opzione C esclude erroneamente il ruolo della potenza, elemento cardine della tecnica; l'opzione D attribuisce all'anemometro/variometro un ruolo primario che nel volo per assetti è invece secondario e di verifica."
         },
         {
           "n": 25,
@@ -20528,7 +20528,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Nel volo per assetti gli strumenti non vengono usati per impostare direttamente l'assetto, ma per verificare e controllare le prestazioni ottenute dopo che l'assetto è stato impostato e stabilizzato dal pilota."
+          "explanation": "Nel volo per assetti gli strumenti non vengono usati per impostare direttamente l'assetto, ma per verificare e controllare le prestazioni ottenute dopo che l'assetto è stato impostato e stabilizzato dal pilota (opzione C). Le altre risposte sono errate: l'opzione A inverte il ruolo degli strumenti, che nel volo per assetti sono di verifica e non di intervento diretto sull'assetto; l'opzione B limita erroneamente l'uso degli strumenti al solo volo in nube; l'opzione D attribuisce agli strumenti un comando automatico delle superfici, funzione propria di un autopilota e non della tecnica del volo per assetti."
         },
         {
           "n": 26,
@@ -20556,7 +20556,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il rateo di salita (o di discesa) è indicato convenzionalmente con la sigla Vz, misurato dal variometro."
+          "explanation": "Il rateo di salita (o di discesa), misurato dal variometro, è indicato convenzionalmente con la sigla Vz (opzione C). Le altre risposte sono errate: l'opzione A (Vy) indica la velocità di salita rapida (massimo guadagno di quota nel tempo); l'opzione B (Vx) indica la velocità di salita ripida (massimo guadagno di quota nella distanza); l'opzione D (Va) indica la velocità di manovra strutturale, un limite di resistenza e non un rateo di salita."
         },
         {
           "n": 28,
@@ -20570,7 +20570,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La velocità di salita ripida (Vx) è quella che massimizza il guadagno di quota rispetto alla distanza percorsa al suolo, utile per superare ostacoli vicini."
+          "explanation": "La velocità di salita ripida (Vx) è quella che massimizza il guadagno di quota rispetto alla distanza percorsa al suolo, utile per superare ostacoli vicini alla fine di una pista corta (opzione C). Le altre risposte sono errate: l'opzione A confonde il concetto con la salita rapida (Vy), ottimizzata per il tempo non per la distanza; l'opzione B (salita di crociera) privilegia comfort e raffreddamento motore, non il massimo guadagno di quota per distanza; l'opzione D (velocità di attesa) è una condizione di crociera lenta, non una tecnica di salita."
         },
         {
           "n": 29,
@@ -20584,7 +20584,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La velocità di salita rapida (Vy) è quella che massimizza il guadagno di quota rispetto al tempo impiegato, permettendo di raggiungere una quota prescelta nel minor tempo possibile."
+          "explanation": "La velocità di salita rapida (Vy) è quella che massimizza il guadagno di quota rispetto al tempo impiegato, permettendo di raggiungere una quota prescelta nel minor tempo possibile (opzione B). Le altre risposte sono errate: l'opzione A (salita ripida, Vx) ottimizza la distanza percorsa, non il tempo; l'opzione C (salita di crociera) è una condizione di compromesso per comfort/raffreddamento, non la più rapida in quota/tempo; l'opzione D (velocità di attesa) non è affatto una velocità di salita ottimizzata."
         },
         {
           "n": 30,
@@ -20598,7 +20598,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La velocità di salita ripida si usa quando è necessario guadagnare quota nella minor distanza possibile, tipicamente in presenza di ostacoli alla fine di una pista corta."
+          "explanation": "La velocità di salita ripida (Vx) si usa quando è necessario guadagnare quota nella minor distanza possibile, tipicamente in presenza di ostacoli alla fine di una pista corta (opzione B). Le altre risposte sono errate: l'opzione A lascia la scelta alla discrezione del pilota, ignorando che esiste un criterio tecnico preciso (presenza di ostacoli); l'opzione C (vento in coda) non è il fattore che determina la scelta della Vx; l'opzione D descrive l'assenza di ostacoli, condizione in cui si userebbe invece la salita rapida (Vy)."
         },
         {
           "n": 31,
@@ -20612,7 +20612,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La velocità di salita rapida si usa quando non ci sono ostacoli da superare, per guadagnare quota nel minor tempo possibile (ad esempio per uscire rapidamente da una zona di traffico)."
+          "explanation": "La velocità di salita rapida (Vy) si usa quando non ci sono ostacoli da superare, per guadagnare quota nel minor tempo possibile, ad esempio per uscire rapidamente da una zona di traffico (opzione B). Le altre risposte sono errate: l'opzione A descrive la presenza di ostacoli, condizione in cui si userebbe invece la salita ripida (Vx); l'opzione C (vento in coda) non è il criterio che determina la scelta della Vy; l'opzione D lascia la scelta alla discrezione del pilota, ignorando che esiste un criterio tecnico preciso."
         },
         {
           "n": 32,
@@ -20640,7 +20640,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La tecnica corretta per una salita a velocità costante è applicare potenza e variare l'assetto di quantità precalcolate (non lasciare che la velocità si assesti da sola)."
+          "explanation": "La tecnica corretta per una salita a velocità costante è applicare potenza e variare l'assetto di quantità precalcolate, senza lasciare che la velocità si assesti da sola (opzione D). Le altre risposte sono errate: l'opzione A varia l'assetto ma applica potenza in modo impreciso ('quanto basta'), non garantendo la velocità costante voluta; l'opzione B lascia la velocità libera di assestarsi, contraddicendo l'obiettivo di mantenerla costante; l'opzione C (piena potenza, lasciar fare) non garantisce alcun controllo sulla velocità di salita ottenuta."
         },
         {
           "n": 34,
@@ -20654,7 +20654,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In discesa il peso si scompone in una componente maggiore perpendicolare alla traiettoria (bilanciata dalla portanza) e una componente minore parallela alla traiettoria, ma questa volta nello stesso senso del moto, favorendolo."
+          "explanation": "In discesa il peso si scompone in una componente maggiore perpendicolare alla traiettoria (bilanciata dalla portanza) e in una componente minore parallela alla traiettoria nello stesso senso del moto, che favorisce l'accelerazione (opzione B). Le altre risposte sono errate: l'opzione A inverte le proporzioni, attribuendo alla componente parallela (motrice) la parte maggiore invece che minore; l'opzione C ipotizza una scomposizione in parti uguali, non corrispondente alla geometria reale della discesa; l'opzione D nega la scomposizione stessa, in contrasto con la fisica del volo in discesa."
         },
         {
           "n": 35,
@@ -20668,7 +20668,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La tecnica corretta per una discesa a velocità costante è variare l'assetto e togliere potenza di quantità precalcolate, non semplicemente tagliare tutta la potenza."
+          "explanation": "La tecnica corretta per una discesa a velocità costante è variare l'assetto e togliere potenza di quantità precalcolate, in modo controllato (opzione A). Le altre risposte sono errate: l'opzione B toglie potenza in modo impreciso ('quanto basta') dopo aver variato l'assetto, non garantendo un controllo preciso della velocità; l'opzione C ('picchiare verso l'obiettivo') non è una tecnica controllata di discesa a velocità costante; l'opzione D (tutta potenza tolta, lasciar fare) non permette di controllare la velocità di discesa ottenuta."
         },
         {
           "n": 36,
@@ -20710,7 +20710,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "L'inclinazione laterale del velivolo si ottiene sfruttando la portanza: azionando gli alettoni si crea una differenza di portanza fra le due semiali che genera il momento di rollio."
+          "explanation": "L'inclinazione laterale del velivolo si ottiene sfruttando la portanza: azionando gli alettoni si crea una differenza di portanza fra le due semiali che genera il momento di rollio (opzione A). Le altre risposte sono errate: l'opzione B (resistenza) è una forza frenante, non generatrice del momento di rollio; l'opzione C (peso) è una forza costante applicata al baricentro, non modificabile dagli alettoni; l'opzione D (trazione) è la forza propulsiva del motore/elica, non collegata all'inclinazione laterale."
         },
         {
           "n": 39,
@@ -20724,7 +20724,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il timone di direzione serve principalmente a mantenere l'asse longitudinale del velivolo allineato con il flusso d'aria (vento relativo), specialmente per coordinare la virata."
+          "explanation": "Il timone di direzione serve principalmente a mantenere l'asse longitudinale del velivolo allineato con il flusso d'aria (vento relativo), specialmente per coordinare la virata (opzione C). Le altre risposte sono errate: l'opzione A attribuisce al timone un aumento di portanza, funzione estranea alla sua azione (che è di imbardata, non di portanza); l'opzione B (inclinare l'ala) è funzione degli alettoni, non del timone; l'opzione D nega ogni funzione al timone, in contrasto con il suo ruolo essenziale nel volo coordinato."
         },
         {
           "n": 40,
@@ -20738,7 +20738,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'aumento di portanza necessario in virata si ottiene aumentando l'angolo di incidenza (tirando leggermente la barra), poiché la velocità da sola non basta a compensare la componente verticale perduta con l'inclinazione."
+          "explanation": "L'aumento di portanza necessario in virata si ottiene aumentando l'angolo di incidenza (tirando leggermente la barra), poiché la sola inclinazione riduce la componente verticale della portanza e va compensata (opzione D). Le altre risposte sono errate: l'opzione A (rotazione attorno all'asse longitudinale) descrive il rollio che inclina l'ala, non l'aumento di portanza in sé; l'opzione B (aumentare potenza) serve a mantenere la velocità, non a generare direttamente più portanza; l'opzione C (estendere il flap) non è la tecnica normale per bilanciare la portanza in virata."
         },
         {
           "n": 41,
@@ -20752,7 +20752,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Sì: in virata corretta l'aumento del fattore di carico (dovuto all'inclinazione) comporta un aumento della portanza necessaria e quindi, a parità di velocità, un aumento della resistenza indotta rispetto al volo rettilineo orizzontale."
+          "explanation": "Sì: in virata corretta l'aumento del fattore di carico, dovuto all'inclinazione alare, comporta un aumento della portanza necessaria e quindi, a parità di velocità, un aumento della resistenza indotta rispetto al volo rettilineo orizzontale (opzione B). Le altre risposte sono errate: l'opzione A limita erroneamente il fenomeno alle sole virate accentuate, mentre l'aumento di resistenza è presente anche a 30° come indicato; l'opzione C nega il fenomeno, in contrasto con la fisica della virata; l'opzione D lo rende solo occasionale, mentre è sistematico in ogni virata coordinata."
         },
         {
           "n": 42,
@@ -20766,7 +20766,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per mantenere costante la velocità in virata, compensando il maggior fabbisogno di portanza (e la relativa resistenza indotta), occorre aumentare la potenza applicata."
+          "explanation": "Per mantenere costante la velocità in virata, compensando il maggior fabbisogno di portanza e la relativa resistenza indotta, occorre aumentare la potenza applicata (opzione A). Le altre risposte sono errate: l'opzione B (titolo della miscela) regola la ricchezza aria-benzina, non la resistenza indotta in virata; l'opzione C (aria calda al carburatore) previene la formazione di ghiaccio, estranea al bilanciamento della resistenza in virata; l'opzione D nega la necessità di un intervento del pilota, mentre il bilanciamento richiede un'azione attiva sulla manetta."
         },
         {
           "n": 43,
@@ -20780,7 +20780,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'aumento apparente di peso avvertito in virata è dovuto all'effetto della forza centrifuga che si compone vettorialmente con la forza peso, dando origine al fattore di carico maggiore di 1."
+          "explanation": "L'aumento apparente di peso avvertito in virata è dovuto all'effetto della forza centrifuga che si compone vettorialmente con la forza peso, dando origine a un fattore di carico maggiore di 1 (opzione D). Le altre risposte sono errate: l'opzione A attribuisce l'effetto a una diminuzione di portanza, mentre in virata corretta la portanza aumenta; l'opzione B lo attribuisce alla trazione, forza non implicata nel fenomeno; l'opzione C descrive genericamente un'accelerazione di gravità combinata, formulazione imprecisa che non identifica correttamente la forza centrifuga come causa."
         },
         {
           "n": 44,
@@ -20794,7 +20794,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'angolo di banco (inclinazione alare) è l'angolo formato dall'asse trasversale del velivolo rispetto al piano orizzontale."
+          "explanation": "L'angolo di banco (o d'inclinazione alare) è l'angolo formato dall'asse trasversale del velivolo rispetto al piano orizzontale (opzione C). Le altre risposte sono errate: l'opzione A fa riferimento all'asse verticale, non pertinente alla definizione di banco; l'opzione B fa riferimento all'asse longitudinale, che definisce invece l'assetto (beccheggio), non l'inclinazione laterale; l'opzione D è una battuta priva di rilevanza tecnica."
         },
         {
           "n": 45,
@@ -20808,7 +20808,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'imbardata inversa (adverse yaw) è la tendenza del velivolo a ruotare attorno all'asse verticale in senso opposto a quello della virata voluta, causata dalla diversa resistenza indotta generata dagli alettoni quando vengono azionati."
+          "explanation": "L'imbardata inversa (adverse yaw) è la tendenza del velivolo a ruotare attorno all'asse verticale in senso opposto a quello della virata voluta, causata dalla diversa resistenza indotta generata dagli alettoni quando vengono azionati (opzione D). Le altre risposte sono errate: l'opzione A fa riferimento all'asse trasversale (beccheggio), non pertinente all'imbardata inversa; l'opzione B fa riferimento all'asse longitudinale (rollio), che è l'effetto voluto degli alettoni non l'imbardata secondaria; l'opzione C è una definizione troppo generica che non identifica l'asse e la causa specifici del fenomeno."
         },
         {
           "n": 46,
@@ -20822,7 +20822,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il rollio indotto è un'accentuazione della rotazione attorno all'asse longitudinale che si manifesta quando il velivolo imbarda in modo non controllato (l'ala esterna alla rotazione, più veloce, genera più portanza e fa aumentare il rollio)."
+          "explanation": "Il rollio indotto è un'accentuazione della rotazione attorno all'asse longitudinale che si manifesta quando il velivolo imbarda in modo non controllato: l'ala esterna alla rotazione, più veloce, genera più portanza e fa aumentare il rollio (opzione B). Le altre risposte sono errate: l'opzione A fa riferimento all'asse verticale, che è l'asse dell'imbardata causa del fenomeno e non dell'effetto di rollio; l'opzione C fa riferimento a un inesistente 'asse orizzontale' generico, non tecnicamente corretto; l'opzione D è una definizione troppo generica che non identifica l'asse e la causa specifici del fenomeno."
         },
         {
           "n": 47,
@@ -20836,7 +20836,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Lo stallo è il fenomeno aerodinamico per cui l'ala perde la sua capacità portante a causa del distacco dei filetti fluidi dal dorso del profilo, quando si supera l'angolo critico di incidenza."
+          "explanation": "Lo stallo è il fenomeno aerodinamico per cui l'ala perde la sua capacità portante a causa del distacco dei filetti fluidi dal dorso del profilo, quando si supera l'angolo critico di incidenza (opzione A). Le altre risposte sono errate: l'opzione B descrive solo la conseguenza (portanza trascurabile) senza indicarne la causa aerodinamica; l'opzione C descrive un effetto generico (perdita di quota) che può avere molte altre cause non legate allo stallo; l'opzione D è l'opposto della definizione corretta, poiché lo stallo avviene oltre il punto di massima portanza, non al suo apice."
         },
         {
           "n": 48,
@@ -20850,7 +20850,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Lo stallo dipende esclusivamente dall'angolo d'attacco (superamento dell'angolo critico), non dalla velocità in sé: si può stallare a qualsiasi velocità se l'incidenza è sufficientemente elevata."
+          "explanation": "Lo stallo dipende esclusivamente dall'angolo d'attacco, cioè dal superamento dell'angolo critico di incidenza, non dalla velocità in sé: si può stallare a qualsiasi velocità se l'incidenza è sufficientemente elevata (opzione B). Le altre risposte sono errate: l'opzione A attribuisce lo stallo alla velocità, mentre è un'unica velocità di stallo a esistere solo per un dato angolo di attacco/fattore di carico; l'opzione C nega la dipendenza dall'incidenza, che è invece il fattore determinante; l'opzione D nega qualunque relazione, mentre la velocità di stallo varia proprio in funzione delle condizioni che modificano l'angolo critico."
         },
         {
           "n": 49,
@@ -20864,7 +20864,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "I sintomi premonitori dello stallo sono leggeri scuotimenti della struttura (buffeting), una sensazione di mancanza d'appoggio del corpo, e comandi che diventano laschi/poco efficaci per la riduzione di velocità del flusso."
+          "explanation": "I sintomi premonitori dello stallo sono leggeri scuotimenti della struttura (buffeting), una sensazione di mancanza d'appoggio del corpo, e comandi che diventano laschi e poco efficaci per la riduzione di velocità del flusso sulle superfici (opzione C). Le altre risposte sono errate: l'opzione A nega l'esistenza di sintomi premonitori, mentre lo stallo è generalmente ben avvertibile prima del distacco completo; l'opzione B attribuisce un sintomo (caduta a zero dell'anemometro) non realistico, poiché la velocità resta misurabile fino allo stallo; l'opzione D limita erroneamente l'avviso alla sola sirena, ignorando i sintomi aerodinamici percepibili dal pilota."
         },
         {
           "n": 50,
@@ -20878,7 +20878,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Sì: l'estensione dei flap modifica la curvatura del profilo e riduce l'angolo di incidenza critico, per cui l'angolo di stallo in genere diminuisce con flap esteso."
+          "explanation": "Sì: l'estensione dei flap modifica la curvatura del profilo alare e riduce l'angolo di incidenza critico, per cui l'angolo di stallo in genere diminuisce con flap esteso (opzione A). Le altre risposte sono errate: l'opzione B nega ogni differenza, mentre i flap modificano sensibilmente il comportamento allo stallo; l'opzione C afferma l'opposto (aumento dell'angolo di stallo), mentre l'effetto reale dei flap è di ridurlo; l'opzione D attribuisce la variazione al peso dell'aeroplano, fattore che incide sulla velocità di stallo ma non sull'angolo critico di incidenza legato ai flap."
         },
         {
           "n": 51,
@@ -20906,7 +20906,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La manovra di recupero dallo stallo consiste nel portare la barra in avanti (per ridurre l'incidenza sotto l'angolo critico) e applicare dolcemente ma con decisione piena potenza."
+          "explanation": "La manovra di recupero dallo stallo consiste nel portare la barra in avanti, per ridurre l'incidenza sotto l'angolo critico, e applicare dolcemente ma con decisione piena potenza (opzione D). Le altre risposte sono errate: l'opzione A (barra in pancia) aggraverebbe lo stallo aumentando ulteriormente l'incidenza; l'opzione B (virata di recupero) è pericolosa in condizione di stallo, potendo innescare uno stallo asimmetrico o vite; l'opzione C (lasciar fare all'aeroplano) non è una tecnica di recupero attiva e affidabile."
         },
         {
           "n": 53,
@@ -20920,7 +20920,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "In caso di caduta di un'estremità alare in stallo, va contrastata con il piede dal lato opposto (timone), mai con l'alettone, per evitare di aggravare lo stallo asimmetrico e innescare l'autorotazione (vite)."
+          "explanation": "In caso di caduta di un'estremità alare in stallo, va contrastata con il piede dal lato opposto (timone), per raddrizzare l'imbardata senza aumentare l'incidenza dell'ala caduta (opzione A). Le altre risposte sono errate: l'opzione B (piede dalla stessa parte) aggraverebbe lo scivolamento e l'autorotazione; l'opzione C (correggere di alettone) è pericolosa perché in stallo l'alettone abbassato aumenta l'incidenza dell'ala già in stallo, potendo aggravare la caduta; l'opzione D (estrarre il flap) non è la manovra di correzione immediata per la caduta d'ala, e può alterare ulteriormente l'angolo di stallo."
         },
         {
           "n": 54,
@@ -20934,7 +20934,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Decollare controvento riduce la corsa di decollo necessaria; con vento in coda la corsa richiesta si allunga notevolmente e la traiettoria di salita successiva si appiattisce, riducendo il margine di sicurezza sugli ostacoli."
+          "explanation": "Con vento in coda la corsa di decollo richiesta è molto più lunga (minore velocità relativa rispetto all'aria) e la traiettoria di salita successiva si appiattisce, riducendo il margine di sicurezza sugli ostacoli: per questo si decolla sempre controvento (opzione B). Le altre risposte sono errate: l'opzione A è una motivazione secondaria e non il motivo principale, poiché la frenata in caso di interruzione dipende dalla distanza percorsa non solo dal vento; l'opzione C inverte il ragionamento, attribuendo erroneamente al vento in coda un vantaggio in velocità al suolo che in realtà comporta un decollo più lungo; l'opzione D è una motivazione non tecnica, priva di fondamento aerodinamico."
         },
         {
           "n": 55,
@@ -20948,7 +20948,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La rotazione dell'elica introduce un momento indesiderato di imbardata (dovuto a effetto giroscopico, scia elicoidale e coppia di reazione), che il pilota deve contrastare con il timone di direzione."
+          "explanation": "La rotazione dell'elica introduce un momento indesiderato di imbardata, dovuto a effetto giroscopico, scia elicoidale e coppia di reazione, che il pilota deve contrastare con il timone di direzione (opzione B). Le altre risposte sono errate: l'opzione A nega ogni interferenza, in contrasto con gli effetti aerodinamici noti dell'elica; l'opzione C descrive un effetto acustico secondario, non l'interferenza aerodinamica rilevante per il controllo direzionale; l'opzione D attribuisce all'elica una compensazione automatica del vento traverso che non esiste, essendo un intervento richiesto attivamente al pilota."
         },
         {
           "n": 56,
@@ -20962,7 +20962,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il timone di direzione è il comando principale con cui il pilota controlla e contrasta l'imbardata che insorge durante la corsa di decollo."
+          "explanation": "Il timone di direzione è il comando principale con cui il pilota controlla e contrasta l'imbardata che insorge durante la corsa di decollo, in particolare quella indotta dagli effetti dell'elica (opzione D). Le altre risposte sono errate: l'opzione A (alettoni) controlla il rollio, non l'imbardata; l'opzione B (timone di profondità) controlla il beccheggio, non l'imbardata; l'opzione C (il motore) genera l'imbardata tramite gli effetti elica ma non è lo strumento di controllo della stessa."
         },
         {
           "n": 57,
@@ -20976,7 +20976,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Durante la corsa di decollo occorre guardare il più lontano possibile, verso il punto ideale in cui convergono le due linee laterali della pista, per percepire con precisione ogni accenno di imbardata rispetto all'asse pista."
+          "explanation": "Durante la corsa di decollo occorre guardare il più lontano possibile, verso il punto ideale in cui convergono all'infinito le due linee laterali della pista, per percepire con precisione ogni accenno di imbardata rispetto all'asse pista (opzione A). Le altre risposte sono errate: l'opzione B (guardare di lato a 90°) non permette di apprezzare piccole deviazioni direzionali rispetto all'asse pista; l'opzione C (guardare a sinistra, destra e in basso) disperde l'attenzione visiva necessaria per il controllo direzionale; l'opzione D (occhi sugli strumenti) è pericoloso durante la corsa di decollo, fase in cui il riferimento visivo esterno è prioritario."
         },
         {
           "n": 58,
@@ -20990,7 +20990,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La rotazione si inizia convenzionalmente a circa 1,15 volte la velocità di stallo (1,15 Vs), un valore che garantisce sufficiente efficacia dei comandi."
+          "explanation": "La rotazione si inizia convenzionalmente a circa 1,15 volte la velocità di stallo (1,15 Vs), un valore che garantisce sufficiente efficacia dei comandi per sollevare il muso in sicurezza (opzione C). Le altre risposte sono errate: l'opzione A (1,50 Vs) è un valore troppo elevato, tipico di altre fasi come la salita iniziale o il circuito, non della rotazione; l'opzione B (1,67 Vs) è ancora più alto e non corrisponde alla velocità standard di rotazione; l'opzione D lascia la scelta all'aeroplano stesso, ignorando che esiste un valore tecnico preciso da rispettare attivamente."
         },
         {
           "n": 59,
@@ -21004,7 +21004,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per proseguire il decollo con un buon margine di sicurezza sullo stallo occorre raggiungere almeno 1,3 volte la velocità di stallo (1,3 Vs)."
+          "explanation": "Per proseguire il decollo con un buon margine di sicurezza sullo stallo occorre raggiungere almeno 1,3 volte la velocità di stallo (1,3 Vs), valore standard di salita iniziale dopo il distacco (opzione A). Le altre risposte sono errate: l'opzione B (1,9 Vs) è un valore eccessivamente alto rispetto allo standard richiesto per il margine di sicurezza; l'opzione C (velocità di crociera) non è pertinente alla fase immediatamente successiva al decollo; l'opzione D lascia il valore indeterminato, mentre esiste un criterio tecnico preciso (1,3 Vs) da rispettare."
         },
         {
           "n": 60,
@@ -21018,7 +21018,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'assetto di decollo normalmente assunto è di circa 6-9 gradi rispetto al piano orizzontale."
+          "explanation": "L'assetto di decollo normalmente assunto è di circa 6-9 gradi rispetto al piano orizzontale, valore tipico che garantisce l'angolo di salita iniziale in sicurezza (opzione C). Le altre risposte sono errate: l'opzione A (2-3 gradi) è un valore troppo basso, insufficiente a garantire la rotazione e la salita iniziale; l'opzione B (8 gradi) rientra nell'intervallo corretto ma è un valore singolo non rappresentativo del range tipico indicato; l'opzione D (21 gradi) è un valore eccessivo, incompatibile con un assetto di decollo sicuro (rischio di stallo)."
         },
         {
           "n": 61,
@@ -21032,7 +21032,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La risposta corretta è: 2 gradi. La pallina dellorizzonte artificiale indica laccelerazione laterale (forza apparente) in virata, e il suo spostamento è correlato al raggio di virata e alla velocità. A 2 gradi di bank la forza laterale è appena percettibile, e la pallina rimane centrata perché laccelerazione centripeta necessaria è minima. Lopzione A (zero gradi) è errata perché nessuna virata può essere effettivamente eseguita con bank nullo; lopzione B (5 gradi) è errata perché a 5 gradi la pallina si sposta visibilmente, indicando una lateral acceleration significativa rispetto a quella a 2 gradi; lopzione C (7 gradi) è errata perché è un angolo di bank tipico di virate standard, dove la pallina è sensibilmente decentrata."
+          "explanation": "Nella scansione strumentale, lo spessore grafico della pallina disposta al centro del quadrante (usata come riferimento visivo insieme all'orizzonte artificiale) corrisponde approssimativamente a 2 gradi di variazione di assetto: è un valore sufficientemente piccolo da fungere da unità di misura per apprezzare a colpo d'occhio piccole correzioni di beccheggio (opzione B). Le altre risposte sono errate: l'opzione A (1 grado) sottostima lo spessore reale della pallina, un valore troppo esiguo da usare come riferimento visivo affidabile; l'opzione C (4 gradi) e l'opzione D (10 gradi) sovrastimano lo spessore, corrispondendo a variazioni di assetto troppo ampie per essere rappresentate da un riferimento grafico così sottile come la pallina."
         },
         {
           "n": 62,
@@ -21046,7 +21046,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La retrazione dei flap dopo il decollo, quando prevista, si effettua normalmente a circa 300 piedi di altezza, una volta stabilita la salita."
+          "explanation": "La retrazione dei flap dopo il decollo, quando prevista, si effettua normalmente a circa 300 piedi di altezza, una volta stabilita la salita e raggiunta una velocità di sicurezza (opzione B). Le altre risposte sono errate: l'opzione A (500 piedi) è un'altezza superiore, tipica di altre azioni come la prima riduzione di potenza, non la retrazione flap; l'opzione C (100 piedi) è troppo bassa, fase ancora critica subito dopo il distacco; l'opzione D (1000 piedi) è un'altezza associata ad altre azioni successive (es. disinserimento pompa ausiliaria), non alla retrazione flap."
         },
         {
           "n": 63,
@@ -21060,7 +21060,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La prima riduzione di potenza dopo un decollo normale avviene tipicamente a circa 500 piedi di altezza."
+          "explanation": "La prima riduzione di potenza dopo un decollo normale avviene tipicamente a circa 500 piedi di altezza, una volta stabilita la salita in sicurezza (opzione B). Le altre risposte sono errate: l'opzione A (1000 piedi) è un'altezza superiore, associata ad altre azioni come il disinserimento della pompa ausiliaria; l'opzione C (100 piedi) è troppo bassa, fase ancora critica del decollo; l'opzione D (800 piedi) non corrisponde all'altezza standard indicata per questa azione."
         },
         {
           "n": 64,
@@ -21074,7 +21074,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Nel reinserimento nel circuito di traffico, la virata controbase va normalmente iniziata a circa 500 piedi, oltre la fine della pista."
+          "explanation": "Nel reinserimento nel circuito di traffico, la virata controbase va normalmente iniziata a circa 500 piedi, oltre la fine della pista, per un corretto allineamento con il circuito standard (opzione B). Le altre risposte sono errate: l'opzione A (1000 piedi, subito dopo la riduzione motore) è un'altezza e un momento non corrispondenti alla procedura standard di reinserimento; l'opzione C (100 piedi) è un'altezza troppo bassa per questa manovra; l'opzione D (800 piedi) non corrisponde all'altezza standard indicata."
         },
         {
           "n": 65,
@@ -21088,7 +21088,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La pompa ausiliaria del carburante, se inserita per il decollo, si disinserisce normalmente non prima di aver raggiunto 1000 piedi di altezza."
+          "explanation": "La pompa ausiliaria del carburante, se inserita per il decollo, si disinserisce normalmente non prima di aver raggiunto 1000 piedi di altezza, una volta stabilizzata la salita (opzione A). Le altre risposte sono errate: l'opzione B (800 piedi), l'opzione C (500 piedi) e l'opzione D (100 piedi) indicano altezze inferiori a quella standard richiesta prima di disinserire la pompa, fase in cui è ancora prudente mantenerla inserita per sicurezza dell'alimentazione."
         },
         {
           "n": 66,
@@ -21102,7 +21102,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Se gli strumenti motore, appena rilasciati i freni, mostrano valori anomali rispetto a quelli attesi, la decisione corretta è interrompere il decollo e rientrare all'area di parcheggio per accertamenti."
+          "explanation": "Se gli strumenti motore, appena rilasciati i freni, mostrano valori anomali rispetto a quelli attesi dal manuale, la decisione corretta è interrompere il decollo e tornare all'area di parcheggio per accertamenti, prima ancora di prendere velocità (opzione C). Le altre risposte sono errate: l'opzione A (continuare e poi riatterrare) espone inutilmente al rischio di volare con un'anomalia non verificata; l'opzione B minimizza il rischio ipotizzando un semplice guasto strumentale, senza cautela; l'opzione D rimanda la segnalazione a fine giornata, mentre l'anomalia va gestita immediatamente prima di procedere al decollo."
         },
         {
           "n": 67,
@@ -21130,7 +21130,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Se l'anemometro non indica alcun aumento di velocità durante la corsa, la causa più probabile è un'ostruzione del tubo di Pitot (es. cappuccio non rimosso): occorre interrompere il decollo se la pista rimanente è sufficiente per l'arresto."
+          "explanation": "Se l'anemometro non indica alcun aumento di velocità durante la corsa di decollo, la causa più probabile è un'ostruzione del tubo di Pitot (ad esempio il cappuccio non rimosso): occorre interrompere il decollo se la pista rimanente è sufficiente per l'arresto (opzione A). Le altre risposte sono errate: l'opzione B suggerisce di continuare il volo confidando nel cruscotto ridotto, scelta rischiosa quando l'interruzione è ancora possibile; l'opzione C (trascurare l'avaria) ignora un'anomalia primaria di sicurezza; l'opzione D limita erroneamente l'interruzione alle sole piste molto corte, mentre il criterio corretto è la sufficienza della pista rimanente in ogni caso."
         },
         {
           "n": 69,
@@ -21144,7 +21144,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Uno sportello di accesso alla cabina rimasto aperto durante la corsa di decollo impone comunque di interrompere il decollo, anche se proseguire in volo non comporterebbe un pericolo diretto, per la distrazione e il rischio che comporta."
+          "explanation": "Uno sportello di accesso alla cabina rimasto aperto durante la corsa di decollo impone comunque di interrompere il decollo, anche se proseguire in volo non comporterebbe un pericolo diretto, per la distrazione e il rischio che comporta (opzione D). Le altre risposte sono errate: l'opzione A giustifica erroneamente il proseguimento adducendo il rischio generico dell'interruzione, quando in questo caso l'interruzione resta la scelta prudente; l'opzione B (trascurare l'inconveniente) ignora un fattore di distrazione rilevante durante una fase critica; l'opzione C rimanda la segnalazione a fine giornata, mentre l'anomalia va gestita subito interrompendo il decollo."
         },
         {
           "n": 70,
@@ -21158,7 +21158,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In caso di arresto motore appena dopo il decollo, la priorità immediata è assumere la velocità di miglior discesa (massima efficienza), per massimizzare tempo e distanza disponibili prima di cercare un campo o le cause dell'arresto."
+          "explanation": "In caso di arresto motore appena dopo il decollo, la priorità immediata è assumere la velocità di miglior discesa (massima efficienza), per massimizzare tempo e distanza disponibili prima di cercare un campo o le cause dell'arresto (opzione D). Le altre risposte sono errate: l'opzione A (cercare un campo) è un'azione successiva, non la prima priorità; l'opzione B (regola ABC) è utile ma secondaria rispetto al mantenimento della velocità corretta; l'opzione C (chiudere il miscelatore) è un'azione tecnica di procedura, non la prima priorità di pilotaggio in caso di arresto motore."
         },
         {
           "n": 71,
@@ -21172,7 +21172,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "In caso di avaria motore, per impostare il circuito d'atterraggio forzato conviene adottare la velocità più bassa possibile compatibile con un margine di sicurezza, comunque non inferiore a 1,2 volte la velocità di stallo (1,2 Vs)."
+          "explanation": "In caso di avaria motore, per impostare il circuito d'atterraggio forzato conviene adottare la velocità più bassa possibile compatibile con un margine di sicurezza, comunque non inferiore a 1,2 volte la velocità di stallo (1,2 Vs), per ridurre il rateo di discesa e guadagnare tempo (opzione C). Le altre risposte sono errate: l'opzione A (velocità di miglior discesa/massima efficienza) è utile per massimizzare la distanza percorribile in linea retta, non per il circuito d'atterraggio forzato che richiede la minima velocità sicura; l'opzione B (velocità di crociera) è troppo elevata e aumenterebbe inutilmente il rateo di discesa; l'opzione D lascia la scelta alla discrezione del pilota, ignorando che esiste un criterio tecnico preciso (1,2 Vs)."
         },
         {
           "n": 72,
@@ -21186,7 +21186,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "La traiettoria di avvicinamento finale inizia al termine della virata in finale (allineamento con l'asse pista) e si sviluppa fino al punto di mira."
+          "explanation": "La traiettoria di avvicinamento finale inizia al termine della virata in finale, quando il velivolo è allineato con l'asse pista, e si sviluppa fino al punto di mira (opzione D). Le altre risposte sono errate: l'opzione A la fa iniziare dalla virata base, fase antecedente al vero e proprio allineamento in finale; l'opzione B (dal punto di mira al punto di contatto) descrive un tratto successivo, non l'inizio della finale; l'opzione C (dal sottovento al punto di mira) comprende erroneamente anche le gambe sottovento e base, non solo il tratto di finale."
         },
         {
           "n": 73,
@@ -21200,7 +21200,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Se il circuito di traffico è stato condotto correttamente, all'inizio della traiettoria di finale il velivolo si trova tipicamente a circa 500 piedi di altezza."
+          "explanation": "Se il circuito di traffico è stato condotto correttamente, all'inizio della traiettoria di finale il velivolo si trova tipicamente a circa 500 piedi di altezza, coerente con la quota di virata controbase (opzione C). Le altre risposte sono errate: l'opzione A (1000 piedi) è un'altezza troppo elevata per l'inizio della finale; l'opzione B (800 piedi) non corrisponde alla quota standard indicata; l'opzione D (300 piedi) è un'altezza troppo bassa, più vicina alla fase di richiamata che all'inizio della finale."
         },
         {
           "n": 74,
