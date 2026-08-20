@@ -21214,7 +21214,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Impostare sempre il finale con i flap in posizione di avvicinamento standardizza la procedura per ogni campo (dissipando l'energia in eccesso in modo ripetibile), rendendo i riferimenti visivi e operativi costanti e facilitando il controllo."
+          "explanation": "Impostare sempre il finale con i flap in posizione di avvicinamento standardizza la procedura per ogni campo, dissipando l'energia in eccesso in modo ripetibile e mantenendo costanti i riferimenti visivi e operativi, il che facilita il controllo (opzione D). Le altre risposte sono errate: l'opzione A (maggior controllo) è vera solo in parte ma non spiega il motivo principale, la standardizzazione; l'opzione B (vento laterale) non è il motivo per cui si sceglie sempre la stessa configurazione; l'opzione C (efficacia comandi a bassa velocità) è un effetto secondario, non la ragione della standardizzazione procedurale."
         },
         {
           "n": 75,
@@ -21228,7 +21228,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "No: il flap va esteso alla posizione massima solo quando serve smaltire un eccesso di quota o di velocità in relazione alla lunghezza di pista disponibile, non sistematicamente in ogni avvicinamento."
+          "explanation": "No: il flap va esteso alla posizione massima solo quando serve smaltire un eccesso di quota o di velocità in relazione alla lunghezza di pista disponibile, non sistematicamente in ogni avvicinamento (opzione A). Le altre risposte sono errate: l'opzione B generalizza erroneamente l'uso del flap massimo come regola fissa per aumentare la portanza; l'opzione C attribuisce al flap tutto esteso un aumento di stabilità laterale che non è il motivo del suo impiego; l'opzione D nega ogni utilità del flap esteso, in contrasto con il suo reale impiego quando necessario."
         },
         {
           "n": 76,
@@ -21242,7 +21242,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per aumentare la pendenza di discesa mantenendo costante la velocità occorre diminuire contemporaneamente la potenza applicata e l'assetto (altrimenti la velocità cambierebbe)."
+          "explanation": "Per aumentare la pendenza di discesa mantenendo costante la velocità occorre diminuire contemporaneamente la potenza applicata e l'assetto, altrimenti la velocità varierebbe (opzione B). Le altre risposte sono errate: l'opzione A diminuisce potenza ma anche la velocità, non mantenendola costante; l'opzione C aumenta la potenza, azione opposta a quella necessaria per aumentare la pendenza di discesa; l'opzione D è una risposta priva di senso aeronautico, non pertinente alla tecnica di volo."
         },
         {
           "n": 77,
@@ -21256,7 +21256,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Per diminuire la pendenza di discesa mantenendo costante la velocità occorre aumentare sia l'assetto sia la potenza applicata."
+          "explanation": "Per diminuire la pendenza di discesa mantenendo costante la velocità occorre aumentare sia l'assetto sia la potenza applicata, compensando la riduzione del rateo di discesa (opzione C). Le altre risposte sono errate: l'opzione A diminuisce l'assetto, azione che aumenterebbe la pendenza anziché diminuirla; l'opzione B diminuisce la potenza mentre aumenta l'assetto, combinazione che non garantisce la velocità costante; l'opzione D diminuisce entrambi i parametri, aumentando la pendenza anziché ridurla."
         },
         {
           "n": 78,
@@ -21284,7 +21284,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il punto di mira è il punto di riferimento a terra, generalmente anticipato rispetto al reale punto di contatto, verso cui è diretta la traiettoria di discesa e su cui il pilota mantiene il riferimento visivo durante l'avvicinamento."
+          "explanation": "Il punto di mira è il punto di riferimento a terra, generalmente anticipato rispetto al reale punto di contatto, verso cui è diretta la traiettoria di discesa e su cui il pilota mantiene il riferimento visivo durante l'avvicinamento (opzione B). Le altre risposte sono errate: l'opzione A afferma erroneamente che coincide col punto di contatto, mentre per definizione è anticipato rispetto ad esso; l'opzione C lo confonde con il riferimento di allineamento all'asse pista, funzione diversa; l'opzione D è una battuta priva di rilevanza tecnica."
         },
         {
           "n": 80,
@@ -21298,7 +21298,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Una traiettoria finale è ben impostata quando allineamento con l'asse pista, velocità e rateo di discesa sono stabilizzati e il punto di mira appare fermo nel campo visivo (non si sposta in alto né in basso)."
+          "explanation": "Una traiettoria finale è ben impostata quando allineamento con l'asse pista, velocità e rateo di discesa sono stabilizzati e il punto di mira appare fermo nel campo visivo, senza spostarsi in alto né in basso (opzione A). Le altre risposte sono errate: l'opzione B si riferisce erroneamente alla virata base, fase precedente alla finale stabilizzata; l'opzione C descrive una valutazione approssimativa e rischiosa, non un criterio di stabilizzazione; l'opzione D si riferisce a un'emergenza motore, non al criterio generale di una finale ben impostata."
         },
         {
           "n": 81,
@@ -21312,7 +21312,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Per verificare la costanza dell'angolo di discesa rispetto al piano orizzontale, l'occhio va portato ripetutamente dal punto di mira all'altezza dell'orizzonte naturale e viceversa."
+          "explanation": "Per verificare la costanza dell'angolo di discesa rispetto al piano orizzontale, l'occhio va portato ripetutamente dal punto di mira all'altezza dell'orizzonte naturale e viceversa (opzione C). Le altre risposte sono errate: l'opzione A guarda solo il punto di mira, senza il riferimento all'orizzonte necessario per apprezzare l'angolo; l'opzione B si affida all'orizzonte artificiale, strumento non necessario in condizioni VMC per questo controllo visivo; l'opzione D si affida al variometro, che indica il rateo ma non l'angolo geometrico rispetto all'orizzonte."
         },
         {
           "n": 82,
@@ -21326,7 +21326,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Per verificare la costanza dell'angolo rispetto al piano pista, l'occhio va fatto scorrere dal punto di mira all'estremità opposta della pista (o del campo d'atterraggio) e viceversa."
+          "explanation": "Per verificare la costanza dell'angolo rispetto al piano pista, l'occhio va fatto scorrere dal punto di mira all'estremità opposta della pista (o del campo d'atterraggio) e viceversa (opzione D). Le altre risposte sono errate: l'opzione A guarda solo il punto di mira, senza il secondo riferimento necessario per apprezzare l'angolo rispetto alla pista; l'opzione B (estremità alare) non è un riferimento utile per questo controllo; l'opzione C esclude il riferimento visivo esterno, elemento essenziale in condizioni VMC."
         },
         {
           "n": 83,
@@ -21354,7 +21354,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In un avvicinamento a discesa costante ben impostato, la dimensione apparente della pista non varia significativamente, perché l'angolo sotteso rimane costante finché il rateo e la traiettoria restano stabilizzati."
+          "explanation": "In un avvicinamento a discesa costante ben impostato, la dimensione apparente della pista non varia significativamente, perché l'angolo sotteso rimane costante finché rateo e traiettoria restano stabilizzati (opzione D). Le altre risposte sono errate: l'opzione A (accorciamento apparente) indicherebbe un angolo di discesa in aumento, segno di eccesso di pendenza; l'opzione B (allungamento apparente) indicherebbe un angolo in diminuzione, segno di traiettoria troppo piatta; l'opzione C (allargamento anormale) non è un fenomeno atteso in una discesa costante ben condotta."
         },
         {
           "n": 85,
@@ -21368,7 +21368,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Con motore spento, la quota è l'unica riserva di energia disponibile: assumendo un punto di mira a circa un terzo della distanza di atterraggio disponibile si mantiene un margine di quota fino in prossimità del contatto, utile a correggere eventuali errori di valutazione."
+          "explanation": "Con motore spento, la quota è l'unica riserva di energia disponibile: assumendo un punto di mira a circa un terzo della distanza di atterraggio disponibile si mantiene un margine di quota fino in prossimità del contatto, utile a correggere eventuali errori di valutazione (opzione A). Le altre risposte sono errate: l'opzione B enfatizza la visibilità della pista, non il vero motivo (la riserva di energia/quota); l'opzione C ipotizza una ripresa del motore, non applicabile a un atterraggio pianificato a motore spento; l'opzione D introduce una scivolata d'ala come motivo, mentre la scelta del punto di mira dipende dalla gestione dell'energia disponibile, non dalla direzione del vento."
         },
         {
           "n": 86,
@@ -21382,7 +21382,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "In un atterraggio di emergenza fuori pista conviene mantenere la velocità di soglia il più vicino possibile a 1,3 Vs, un compromesso che assicura controllabilità senza eccesso di energia da smaltire al contatto."
+          "explanation": "In un atterraggio di emergenza fuori pista conviene mantenere la velocità di soglia il più vicino possibile a 1,3 Vs, un compromesso che assicura controllabilità dei comandi senza eccesso di energia cinetica da smaltire al contatto (opzione B). Le altre risposte sono errate: l'opzione A (1,0 Vs) è troppo vicina allo stallo, senza margine di sicurezza per correggere raffiche o errori di giudizio; l'opzione C (1,6 Vs) è eccessiva, con energia cinetica in più che aumenta il danno al contatto; l'opzione D nega l'utilità di un parametro di velocità, mentre l'anemometro resta attendibile anche a motore fermo."
         },
         {
           "n": 87,
@@ -21396,7 +21396,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La sequenza corretta della riattaccata è: interrompere la discesa, cambiare configurazione (retrarre gradualmente i flap secondo necessità) e impostare l'assetto/la traiettoria di salita, il tutto applicando potenza."
+          "explanation": "La sequenza corretta della riattaccata è: interrompere la discesa, cambiare configurazione (retrarre gradualmente i flap secondo necessità) e impostare l'assetto/la traiettoria di salita, il tutto applicando potenza (opzione B). Le altre risposte sono errate: l'opzione A salta le fasi intermedie, assumendo l'assetto di salita senza prima interrompere la discesa in modo ordinato; l'opzione C inverte l'ordine, cambiando configurazione dopo aver già assunto l'assetto di salita, sequenza meno sicura; l'opzione D è generica e priva di una vera sequenza tecnica."
         },
         {
           "n": 88,
@@ -21410,7 +21410,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Passando da tutto flap a flap zero la velocità di stallo aumenta, perché il flap esteso aumenta il coefficiente di portanza massimo disponibile (e quindi abbassa la Vs); rimuovendolo, la Vs sale."
+          "explanation": "Passando da tutto flap a flap zero la velocità di stallo aumenta, perché il flap esteso aumenta il coefficiente di portanza massimo disponibile (abbassando la Vs); rimuovendolo, la Vs sale (opzione C). Le altre risposte sono errate: l'opzione A afferma l'opposto, mentre è proprio la rimozione del flap a far salire la Vs; l'opzione B nega ogni variazione, mentre la configurazione del flap incide direttamente sulla Vs; l'opzione D minimizza un rischio reale, importante da considerare proprio durante la riattaccata quando i flap vengono retratti."
         },
         {
           "n": 89,
@@ -21424,7 +21424,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "L'altezza minima alla quale si assume normalmente la configurazione di atterraggio prevista, nel tratto di finale, è di circa 300 piedi."
+          "explanation": "L'altezza minima alla quale si assume normalmente la configurazione di atterraggio prevista, nel tratto di finale, è di circa 300 piedi (opzione D). Le altre risposte sono errate: l'opzione A (50 piedi) è un'altezza troppo bassa, ormai prossima alla richiamata; l'opzione B (150 piedi) è ancora inferiore al valore standard indicato; l'opzione C (500 piedi) è un'altezza superiore, più vicina all'inizio della finale che al completamento della configurazione di atterraggio."
         },
         {
           "n": 90,
@@ -21438,7 +21438,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Una riattaccata poco prima del contatto con la pista è sconsigliabile per il rischio di stallo/interferenza con l'effetto suolo, ma resta possibile e può risolvere situazioni di avvicinamento compromesso."
+          "explanation": "Una riattaccata poco prima del contatto con la pista è sconsigliabile per il rischio di stallo/interferenza con l'effetto suolo, ma resta possibile e può risolvere situazioni di avvicinamento compromesso (opzione A). Le altre risposte sono errate: l'opzione B la esclude categoricamente, mentre resta una manovra possibile seppur delicata; l'opzione C sottovaluta i rischi specifici (vicinanza al suolo, effetto suolo, bassa energia) rispetto a una riattaccata in quota; l'opzione D nega che l'occasione si presenti mai, mentre è una manovra prevista e allenata proprio per queste situazioni."
         },
         {
           "n": 91,
@@ -21452,7 +21452,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La traiettoria di riattaccata va normalmente mantenuta lungo l'asse pista, per restare in un'area libera da ostacoli e coerente con il circuito di traffico."
+          "explanation": "La traiettoria di riattaccata va normalmente mantenuta lungo l'asse pista, per restare in un'area libera da ostacoli e coerente con il circuito di traffico (opzione B). Le altre risposte sono errate: l'opzione A (a destra dell'asse) non è la traiettoria standard prevista dalla procedura; l'opzione C (a sinistra dell'asse) è ugualmente non standard; l'opzione D lascia la traiettoria all'improvvisazione, in contrasto con la procedura definita."
         },
         {
           "n": 92,
@@ -21466,7 +21466,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Mantenere una velocità moderata in atterraggio riduce le sollecitazioni sul carrello al contatto e permette un arresto in spazi più brevi, grazie alla minore energia cinetica da dissipare."
+          "explanation": "Mantenere una velocità moderata in atterraggio riduce le sollecitazioni sul carrello al contatto e permette un arresto in spazi più brevi, grazie alla minore energia cinetica da dissipare (opzione D). Le altre risposte sono errate: l'opzione A cita portanza e resistenza, grandezze non direttamente indicate come i due vantaggi principali della domanda; l'opzione B (vento traverso e pista erbosa) non sono vantaggi diretti di una velocità moderata; l'opzione C (consumo carburante e freni) non sono i due vantaggi principali associati alla velocità di atterraggio."
         },
         {
           "n": 93,
@@ -21480,7 +21480,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La condizione preliminare essenziale per un buon atterraggio è aver condotto un buon avvicinamento stabilizzato, con i giusti parametri di velocità, assetto e traiettoria."
+          "explanation": "La condizione preliminare essenziale per un buon atterraggio è aver condotto un buon avvicinamento stabilizzato, con i giusti parametri di velocità, assetto e traiettoria (opzione A). Le altre risposte sono errate: l'opzione B (gomme e freni) riguarda la manutenzione del velivolo, non la condotta del pilota nell'avvicinamento; l'opzione C fissa una configurazione rigida (una tacca di flap) non generalizzabile a ogni condizione; l'opzione D (motore al minimo e velocità sostenuta) descrive una tecnica scorretta, in contrasto con un avvicinamento ben stabilizzato."
         },
         {
           "n": 94,
@@ -21494,7 +21494,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Nella fase iniziale di raccordo fra avvicinamento e richiamata, l'occhio va portato lontano, verso l'altra estremità della pista, più o meno all'altezza di un albero, per sfruttare la capacità dell'occhio di percepire la variazione d'angolo rispetto all'orizzonte."
+          "explanation": "Nella fase iniziale di raccordo fra avvicinamento e richiamata, l'occhio va portato lontano, verso l'altra estremità della pista, più o meno all'altezza di un albero, per sfruttare la capacità dell'occhio di percepire la variazione d'angolo rispetto all'orizzonte (opzione B). Le altre risposte sono errate: l'opzione A porta l'occhio vicino alla verticale, riferimento troppo ravvicinato per questa fase iniziale; l'opzione C descrive la tecnica della fase successiva, quando il muso taglia l'orizzonte, non quella iniziale; l'opzione D (luci laterali) è un riferimento accessorio, non la tecnica primaria di raccordo."
         },
         {
           "n": 95,
@@ -21508,7 +21508,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Quando durante la richiamata finale il muso taglia l'orizzonte impedendone la vista diretta, l'occhio va portato di fianco e in avanti, nella posizione abituale con cui si guarda la strada guidando un'automobile."
+          "explanation": "Quando durante la richiamata finale il muso taglia l'orizzonte impedendone la vista diretta, l'occhio va portato di fianco e in avanti, nella posizione abituale con cui si guarda la strada guidando un'automobile (opzione C). Le altre risposte sono errate: l'opzione A (oggetti a 7/10 metri) è un riferimento troppo ravvicinato per questa fase; l'opzione B (luci laterali) è un riferimento accessorio, non la tecnica primaria; l'opzione D descrive la tecnica della fase precedente (raccordo iniziale), non quella con il muso che taglia l'orizzonte."
         },
         {
           "n": 96,
@@ -21522,7 +21522,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La prima fase della richiamata finale consiste nel mantenere l'aeroplano in volo rettilineo orizzontale a pochi centimetri dal suolo, riducendo contemporaneamente la potenza al minimo, lasciando che la velocità decada gradualmente fino al contatto."
+          "explanation": "La prima fase della richiamata finale consiste nel mantenere l'aeroplano in volo rettilineo orizzontale a pochi centimetri dal suolo, riducendo contemporaneamente la potenza al minimo, lasciando che la velocità decada gradualmente fino al contatto (opzione C). Le altre risposte sono errate: l'opzione A descrive uno stallo indotto a bassa quota, manovra pericolosa e non la tecnica corretta; l'opzione B descrive un atterraggio sulle tre ruote, condizione finale e non la prima fase della richiamata; l'opzione D (ruotino anteriore per primo) è una tecnica scorretta e pericolosa."
         },
         {
           "n": 97,
@@ -21536,7 +21536,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "La tecnica corretta di frenata prevede di attendere che il peso sia ben appoggiato sulle ruote, quindi frenare dolcemente e a intermittenza, evitando di bloccare le ruote o sollecitare eccessivamente il carrello."
+          "explanation": "La tecnica corretta di frenata prevede di attendere che il peso sia ben appoggiato sulle ruote, quindi frenare dolcemente e a intermittenza, evitando di bloccare le ruote o sollecitare eccessivamente il carrello (opzione B). Le altre risposte sono errate: l'opzione A applica subito i freni con forza, rischiando il bloccaggio delle ruote e lo slittamento; l'opzione C ritarda troppo l'inizio della frenata, riducendo lo spazio utile per l'arresto; l'opzione D propone di atterrare con ruote già frenate, tecnica pericolosa che può causare il bloccaggio al contatto."
         },
         {
           "n": 98,
@@ -21550,7 +21550,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Un volo si considera terminato solo quando il motore è stato spento, sono stati messi i tacchi al velivolo parcheggiato e sono stati compilati i documenti di volo previsti."
+          "explanation": "Un volo si considera terminato solo quando il motore è stato spento, sono stati messi i tacchi al velivolo parcheggiato e sono stati compilati i documenti di volo previsti (opzione D). Le altre risposte sono errate: l'opzione A si ferma alla sola corsa di atterraggio, fase ancora precedente al parcheggio e alla documentazione; l'opzione B lega la fine del volo alla liberazione pista, un criterio di traffico aeroportuale non la definizione operativa completa; l'opzione C è un'affermazione retorica priva di criterio tecnico."
         },
         {
           "n": 99,
@@ -21564,7 +21564,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Sforzi anomali di torsione sulla cellula lasciano segni visibili quali ondulazioni della lamiera, lacerazioni e teste dei ribattini sporgenti o fuori sede, da ricercare in sede di ispezione."
+          "explanation": "Sforzi anomali di torsione sulla cellula lasciano segni visibili quali ondulazioni della lamiera, lacerazioni e teste dei ribattini sporgenti o fuori sede, da ricercare in sede di ispezione (opzione A). Le altre risposte sono errate: l'opzione B (IAS inferiore in crociera) non è un segno strutturale visibile di torsione; l'opzione C (rumori in turbolenza) è un sintomo generico e non specifico di danno strutturale; l'opzione D (rumori radio) è del tutto estranea a un problema strutturale della cellula."
         },
         {
           "n": 100,
@@ -21578,7 +21578,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per impedire lo svitamento accidentale dei bulloni si usano sistemi di frenatura come filo di ferro (frenatura meccanica) e vernici antisbloccanti (frenatura chimica/visiva)."
+          "explanation": "Per impedire lo svitamento accidentale dei bulloni si usano sistemi di frenatura come filo di ferro (frenatura meccanica) e vernici antisbloccanti (frenatura chimica/visiva) (opzione B). Le altre risposte sono errate: l'opzione A (avvitati con attenzione) non costituisce un vero sistema di frenatura affidabile contro le vibrazioni; l'opzione C (grasso antivibrazione) non impedisce lo svitamento, essendo un semplice lubrificante; l'opzione D nega l'uso dei bulloni, in contrasto con la realtà costruttiva degli aeromobili."
         },
         {
           "n": 101,
@@ -21592,7 +21592,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per i flap occorre verificare che l'escursione sia libera, che le cerniere non siano deformate e che le leve di guida non abbiano subito deformazioni, controllando che escano e rientrino regolarmente."
+          "explanation": "Per i flap occorre verificare che l'escursione sia libera, che le cerniere non siano deformate e che le leve di guida non abbiano subito deformazioni, controllando che escano e rientrino regolarmente (opzione B). Le altre risposte sono errate: l'opzione A si limita a lacerazioni e bulloni, tralasciando l'escursione e le cerniere; l'opzione C riguarda solo la distanza dal terreno a flap esteso, un controllo diverso da quello di escursione meccanica; l'opzione D descrive erroneamente un movimento contrario tra flap sinistro e destro, mentre i flap si muovono in modo simmetrico."
         },
         {
           "n": 102,
@@ -21606,7 +21606,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Azionando a mano l'aletta dell'avvisatore di stallo a terra, con batteria inserita, si attivano il cicalino sonoro e la luce di avviso di stallo imminente, verificando così il corretto funzionamento del sistema."
+          "explanation": "Azionando a mano l'aletta dell'avvisatore di stallo a terra, con batteria inserita, si attivano il cicalino sonoro e la luce di avviso di stallo imminente, verificando così il corretto funzionamento del sistema (opzione D). Le altre risposte sono errate: l'opzione A collega erroneamente l'azionamento manuale a un'indicazione anemometrica, non pertinente al sistema di avviso stallo; l'opzione B è impossibile a terra, poiché l'ala non genera portanza né raggiunge realmente l'angolo di stallo; l'opzione C nega la possibilità di test a terra, mentre il sistema è progettato per essere verificabile anche al suolo."
         },
         {
           "n": 103,
@@ -21620,7 +21620,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Gli scaricatori statici hanno la funzione di dissipare in volo le cariche elettrostatiche accumulate sulla struttura, inibendo la formazione di archi elettrici che potrebbero incendiare i vapori di carburante o disturbare le comunicazioni radio."
+          "explanation": "Gli scaricatori statici hanno la funzione di dissipare in volo le cariche elettrostatiche accumulate sulla struttura, inibendo la formazione di archi elettrici che potrebbero incendiare i vapori di carburante o disturbare le comunicazioni (opzione A). Le altre risposte sono errate: l'opzione B attribuisce loro una funzione di antenna radio, ruolo non proprio degli scaricatori statici; l'opzione C li descrive come dispositivi anti-vortice, funzione estranea al loro scopo elettrostatico; l'opzione D (bilanciamento di peso) è priva di fondamento tecnico."
         },
         {
           "n": 104,
@@ -21634,7 +21634,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Sì, il controllo a vista dei serbatoi va sempre effettuato dal pilota prima del volo, indipendentemente dal fatto che il rifornimento sia stato appena eseguito dal personale addetto, perché la responsabilità finale resta del pilota."
+          "explanation": "Sì, il controllo a vista dei serbatoi va sempre effettuato dal pilota prima del volo, indipendentemente dal fatto che il rifornimento sia stato appena eseguito dal personale addetto, perché la responsabilità finale resta del pilota (opzione A). Le altre risposte sono errate: l'opzione B limita erroneamente il controllo al solo primo volo della giornata; l'opzione C delega il controllo agli strumenti indicatori (televel), non sostitutivi della verifica visiva diretta; l'opzione D si affida solo all'assicurazione dell'addetto, senza verifica personale del pilota, in contrasto con il principio di responsabilità del comandante."
         },
         {
           "n": 105,
@@ -21648,7 +21648,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Se i tubi di sfiato dei serbatoi si ostruiscono, la pressione interna diminuisce progressivamente man mano che il carburante viene consumato, fino a impedire una corretta alimentazione e a causare l'arresto del motore."
+          "explanation": "Se i tubi di sfiato dei serbatoi si ostruiscono, la pressione interna diminuisce progressivamente man mano che il carburante viene consumato, fino a impedire una corretta alimentazione e a causare l'arresto del motore (opzione C). Le altre risposte sono errate: l'opzione A cita un generico calo di rendimento del 3%, dato non pertinente al fenomeno reale; l'opzione B descrive un aumento di pressione con rottura dei condotti, meccanismo opposto a quello reale (che è una progressiva depressione); l'opzione D descrive un aumento di pressione di alimentazione e giri, effetto opposto a quello che realmente si verifica."
         },
         {
           "n": 106,
@@ -21662,7 +21662,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Si raccoglie e si osserva il carburante dagli spurghi per verificare visivamente che non contenga acqua di condensazione o altre impurità prima del volo."
+          "explanation": "Si raccoglie e si osserva il carburante dagli spurghi per verificare visivamente che non contenga acqua di condensazione o altre impurità prima del volo (opzione C). Le altre risposte sono errate: l'opzione A e l'opzione B attribuiscono allo spurgo un effetto sulla pressione dei serbatoi, non il vero scopo del controllo; l'opzione D lo lega erroneamente all'innesco della pompa di benzina, funzione non pertinente allo scopo del controllo visivo."
         },
         {
           "n": 107,
@@ -21676,7 +21676,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Per verificare che i condotti non siano ostruiti si segue una procedura di selezione dei serbatoi durante le varie fasi (messa in moto/rullaggio su un serbatoio, prova motore e decollo su un altro), in modo da controllare l'alimentazione da ciascun serbatoio disponibile."
+          "explanation": "Per verificare che i condotti non siano ostruiti si segue una procedura di selezione dei serbatoi durante le varie fasi: messa in moto/rullaggio su un serbatoio, prova motore e decollo su un altro (il più pieno), in modo da controllare l'alimentazione da ciascun serbatoio disponibile (opzione D). Le altre risposte sono errate: l'opzione A propone di soffiare nei tubi di sfiato, azione non prevista e potenzialmente dannosa; l'opzione B delega il controllo all'addetto al rifornimento, mentre è compito del pilota verificare l'alimentazione motore; l'opzione C nega l'esistenza del controllo, in contrasto con la procedura standard di selezione serbatoi."
         },
         {
           "n": 108,
@@ -21690,7 +21690,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il corretto funzionamento del generatore subito dopo la messa in moto si verifica osservando la spia di avaria generatore, che deve spegnersi."
+          "explanation": "Il corretto funzionamento del generatore subito dopo la messa in moto si verifica osservando la spia di avaria generatore, che deve spegnersi (opzione C). Le altre risposte sono errate: l'opzione A (accendere la radio) non è un controllo diretto del generatore; l'opzione B osserva il breaker, che indica solo l'assenza di sovraccarico e non conferma il funzionamento regolare come la spia dedicata; l'opzione D è un controllo uditivo non attendibile per questo tipo di verifica elettrica."
         },
         {
           "n": 109,
@@ -21704,7 +21704,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Per verificare che il generatore erogi effettivamente corrente si inserisce un'utenza di assorbimento elevato (es. riscaldamento del tubo di Pitot) e si controlla che l'erogazione aumenti di conseguenza."
+          "explanation": "Per verificare che il generatore erogi effettivamente corrente si inserisce un'utenza di assorbimento elevato, come il riscaldamento del tubo di Pitot, e si controlla che l'erogazione aumenti di conseguenza (opzione B). Le altre risposte sono errate: l'opzione A descrive solo lo spegnimento della lampadina e la scomparsa delle bandierine, controllo di funzionamento ma non di effettiva erogazione sotto carico; l'opzione C fa riferimento al vacuometro, strumento non collegato all'impianto elettrico del generatore; l'opzione D delega il controllo al meccanico, mentre è un controllo che il pilota effettua autonomamente prima del volo."
         },
         {
           "n": 110,
@@ -21718,7 +21718,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il controllo della pressione dei pneumatici è compito del tecnico di manutenzione; il pilota, se nota ad occhio un aspetto sospetto (gomma troppo gonfia o sgonfia), deve richiedere un controllo supplementare al tecnico."
+          "explanation": "Il controllo della pressione dei pneumatici è compito del tecnico di manutenzione; il pilota, se nota ad occhio un aspetto sospetto (gomma troppo gonfia o sgonfia), deve richiedere un controllo supplementare al tecnico (opzione C). Le altre risposte sono errate: l'opzione A minimizza un controllo importante per la sicurezza del carrello; l'opzione B nega ogni possibilità di verifica visiva da parte del pilota, mentre un'osservazione preliminare è sempre possibile; l'opzione D descrive un sistema di linee di fede non standard per questo tipo di controllo sui pneumatici."
         },
         {
           "n": 111,
@@ -21732,7 +21732,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Gli ammortizzatori idraulici vanno verificati controllando che non siano né tutti estesi né tutti schiacciati a battuta, che lo stelo non presenti rigature e che non vi siano perdite di liquido visibili."
+          "explanation": "Gli ammortizzatori idraulici vanno verificati controllando che non siano né tutti estesi né tutti schiacciati a battuta, che lo stelo non presenti rigature e che non vi siano perdite di liquido visibili (opzione A). Le altre risposte sono errate: l'opzione B richiede un velo d'olio sullo stelo e una prova di pressione non standard per il controllo pre-volo; l'opzione C indica corse specifiche in funzione del peso, procedura di verifica tecnica non applicabile in un controllo visivo pre-volo; l'opzione D delega il controllo esclusivamente al tecnico, mentre è anche compito del pilota verificarne l'aspetto prima del volo."
         },
         {
           "n": 112,
@@ -21746,7 +21746,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Una deformazione o un disallineamento del compasso del ruotino anteriore indica che ha subito un'eccessiva sollecitazione laterale: in questo caso non si può partire per il volo."
+          "explanation": "Una deformazione o un disallineamento del compasso del ruotino anteriore indica che ha subito un'eccessiva sollecitazione laterale: in questo caso non si può partire per il volo (opzione C). Le altre risposte sono errate: l'opzione A minimizza il difetto come semplice errore di montaggio non impeditivo, mentre è un segno di danno strutturale; l'opzione B lo considera erroneamente in tolleranza; l'opzione D nega ogni rilevanza per l'efficienza del velivolo, in contrasto con la gravità dell'anomalia descritta."
         },
         {
           "n": 113,
@@ -21760,7 +21760,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Delle superfici di comando occorre verificare che siano libere di muoversi in tutta la loro escursione e che le cerniere siano integre, senza giochi o deformazioni anomale."
+          "explanation": "Delle superfici di comando occorre verificare che siano libere di muoversi in tutta la loro escursione e che le cerniere siano integre, senza giochi o deformazioni anomale (opzione B). Le altre risposte sono errate: l'opzione A cita perdite d'olio idraulico, non pertinenti a superfici di comando manuali/meccaniche tipiche di un velivolo leggero; l'opzione C riguarda i bulloni, un controllo diverso da quello di libertà di movimento e integrità cerniere; l'opzione D (linee di fede) è un controllo relativo ad altri componenti, non alle superfici di comando in generale."
         },
         {
           "n": 114,
@@ -21774,7 +21774,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Sì, la ricetrasmittente va controllata prima della messa in moto: se non funziona non ha senso procedere con l'avviamento del motore."
+          "explanation": "Sì, la ricetrasmittente va controllata prima della messa in moto: se non funziona non ha senso procedere con l'avviamento del motore (opzione D). Le altre risposte sono errate: l'opzione A afferma che si procede comunque alla messa in moto anche senza verifica, contraddicendo la logica del controllo preliminare; l'opzione B rimanda il controllo a dopo la messa in moto, ritardo non necessario; l'opzione C delega il controllo al personale di terra, mentre è compito del pilota verificarne il funzionamento prima di procedere."
         },
         {
           "n": 115,
@@ -21802,7 +21802,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Inserendo il QFE a terra, prima della partenza, l'altimetro deve indicare zero, poiché il QFE fa riferimento proprio al livello del campo."
+          "explanation": "Inserendo il QFE a terra, prima della partenza, l'altimetro deve indicare zero, poiché il QFE fa riferimento proprio al livello del campo (opzione D). Le altre risposte sono errate: l'opzione A (quota del campo) descrive invece l'indicazione che si otterrebbe con il QNH, non con il QFE; l'opzione B ipotizza un malfunzionamento a terra che non si verifica normalmente; l'opzione C introduce una dipendenza dalla temperatura non pertinente all'indicazione di riferimento del QFE."
         },
         {
           "n": 117,
@@ -21816,7 +21816,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Inserendo il riscaldamento del tubo di Pitot si verificano contemporaneamente che il riscaldamento funzioni regolarmente e che il generatore sia in grado di erogare la corrente necessaria ad alimentarlo."
+          "explanation": "Inserendo il riscaldamento del tubo di Pitot si verificano contemporaneamente che il riscaldamento funzioni regolarmente e che il generatore sia in grado di erogare la corrente necessaria ad alimentarlo (opzione A). Le altre risposte sono errate: l'opzione B cita il virosbandometro, strumento non collegato al riscaldamento Pitot; l'opzione C descrive uno sghiacciamento e un effetto sulla bussola, non i due controlli reali associati a questa azione; l'opzione D cita generatore e candele, ma le candele non sono pertinenti al riscaldamento Pitot."
         },
         {
           "n": 118,
@@ -21830,7 +21830,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Se durante la corsa di decollo la IAS non aumenta in modo coerente, è probabile che il cappuccio di protezione del tubo di Pitot non sia stato rimosso: occorre interrompere il decollo."
+          "explanation": "Se durante la corsa di decollo la IAS non aumenta in modo coerente, è probabile che il cappuccio di protezione del tubo di Pitot non sia stato rimosso: occorre interrompere il decollo (opzione B). Le altre risposte sono errate: l'opzione A propone di proseguire confidando solo su assetto e potenza, scelta rischiosa quando l'interruzione è ancora possibile; l'opzione C considera l'interruzione sempre un'incognita, ignorando che in questo caso è la scelta più prudente; l'opzione D applica rigidamente una decisione presa in precedenza, ignorando l'evidenza di un'anomalia strumentale sopraggiunta."
         },
         {
           "n": 119,
@@ -21844,7 +21844,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "La stabilità e la precisione d'indicazione degli strumenti giroscopici dipendono principalmente dalla velocità di rotazione dei giroscopi (effetto giroscopico proporzionale al regime di rotazione)."
+          "explanation": "La stabilità e la precisione d'indicazione degli strumenti giroscopici dipendono principalmente dalla velocità di rotazione dei giroscopi, poiché l'effetto giroscopico (rigidità nello spazio) è proporzionale al regime di rotazione (opzione C). Le altre risposte sono errate: l'opzione A (orientamento nello spazio) è una conseguenza dell'effetto giroscopico, non il fattore che ne determina la stabilità; l'opzione B (qualità dei materiali) incide sulla durata ma non è il fattore primario di stabilità/precisione; l'opzione D (masse metalliche vicine) riguarda semmai interferenze sulla bussola magnetica, non sugli strumenti giroscopici."
         },
         {
           "n": 120,
@@ -21858,7 +21858,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il primo controllo sugli strumenti giroscopici consiste nel verificare, subito dopo la messa in moto, che il vacuometro indichi il valore previsto oppure, se l'alimentazione è elettrica, che le bandierine rosse di avviso siano scomparse."
+          "explanation": "Il primo controllo sugli strumenti giroscopici consiste nel verificare, subito dopo la messa in moto, che il vacuometro indichi il valore previsto oppure, se l'alimentazione è elettrica, che le bandierine rosse di avviso siano scomparse (opzione B). Le altre risposte sono errate: l'opzione A (banda verde numero giri giroscopi) non è un'indicazione direttamente disponibile al pilota come primo controllo; l'opzione C (disinserire alimentazione esterna) è un'azione procedurale diversa, non un controllo sugli strumenti giroscopici; l'opzione D confronta girodirezionale e bussola magnetica, controllo successivo di allineamento e non il primo controllo di funzionamento."
         },
         {
           "n": 121,
@@ -21872,7 +21872,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "In condizioni normali, il riallineamento della girobussola con l'indicazione della bussola magnetica va effettuato ogni venti minuti circa, per compensare la deriva propria del giroscopio."
+          "explanation": "In condizioni normali, il riallineamento della girobussola con l'indicazione della bussola magnetica va effettuato ogni venti minuti circa, per compensare la deriva propria del giroscopio (opzione D). Le altre risposte sono errate: l'opzione A (ogni minuto), l'opzione B (ogni 4-5 minuti) e l'opzione C (ogni 8-10 minuti) sono intervalli troppo brevi rispetto alla deriva tipica della girobussola, che richiede riallineamenti meno frequenti."
         },
         {
           "n": 122,
@@ -21886,7 +21886,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Per verificare che il regime del giroscopio sia corretto si posiziona l'orizzonte artificiale e si allinea la girobussola alla bussola magnetica dopo la messa in moto; circa 5 minuti dopo, alla prova motore, se l'orizzonte resta correttamente eretto e la girobussola mostra uno scostamento inferiore a ±5°, i giri sono regolari."
+          "explanation": "Per verificare che il regime del giroscopio sia corretto si posiziona l'orizzonte artificiale e si allinea la girobussola alla bussola magnetica dopo la messa in moto; circa 5 minuti dopo, alla prova motore, se l'orizzonte resta correttamente eretto e la girobussola mostra uno scostamento inferiore a ±5°, i giri sono regolari (opzione C). Le altre risposte sono errate: l'opzione A si basa solo sulla scomparsa delle bandierine, senza verificare l'assenza di deriva eccessiva della girobussola; l'opzione B fa riferimento erroneamente a un limite sul vacuometro anziché al comportamento di orizzonte e girobussola; l'opzione D inverte i criteri, accettando come regolare uno scostamento eccessivo (>10°) e un angolo di banco anomalo, che sono invece segni di malfunzionamento."
         },
         {
           "n": 123,
@@ -21900,7 +21900,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il primo controllo sull'olio motore riguarda la quantità disponibile, che deve essere sufficiente per il volo previsto."
+          "explanation": "Il primo controllo sull'olio motore riguarda la quantità disponibile, che deve essere sufficiente per il volo previsto (opzione C). Le altre risposte sono errate: l'opzione A riguarda il tempo trascorso dall'ultimo controllo, non la quantità reale presente; l'opzione B delega il controllo al tecnico, mentre è compito del pilota verificarne la quantità prima del volo; l'opzione D è priva di rilevanza tecnica, riguardando aspetti amministrativi non di sicurezza del volo."
         },
         {
           "n": 124,
@@ -21914,7 +21914,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Il secondo controllo sull'olio motore, dopo la messa in moto, verifica che il manometro della pressione indichi un valore entro 30 secondi dall'avviamento."
+          "explanation": "Il secondo controllo sull'olio motore, dopo la messa in moto, verifica che il manometro della pressione indichi un valore entro 30 secondi dall'avviamento (opzione B). Le altre risposte sono errate: l'opzione A (20 secondi) è un valore inferiore a quello standard indicato; l'opzione C (60 secondi) è un valore superiore, oltre il quale si sospetterebbe già un'anomalia di lubrificazione; l'opzione D (2 secondi) è un valore irrealisticamente breve per la pressurizzazione del circuito olio."
         },
         {
           "n": 125,
@@ -21928,7 +21928,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il terzo controllo sull'olio motore riguarda la temperatura, che prima del decollo deve trovarsi in arco verde."
+          "explanation": "Il terzo controllo sull'olio motore riguarda la temperatura, che prima del decollo deve trovarsi in arco verde (opzione D). Le altre risposte sono errate: l'opzione A parla genericamente di un movimento dal minimo, senza il criterio preciso dell'arco verde; l'opzione B fa riferimento a un tempo di 30 secondi, che è invece il criterio del secondo controllo (pressione olio), non della temperatura; l'opzione C riguarda la quantità di olio (in pinte), controllo diverso da quello sulla temperatura."
         },
         {
           "n": 126,
@@ -21942,7 +21942,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Vera: un primo segno di funzionamento irregolare del motore è un rumore non regolare (ruvidità) quando si applica circa l'80% della potenza in vista del decollo; il motore deve rispondere in modo dolce e omogeneo al comando."
+          "explanation": "Vera: un primo segno di funzionamento irregolare del motore è un rumore non regolare (ruvidità) quando si applica circa l'80% della potenza in vista del decollo; il motore deve rispondere in modo dolce e omogeneo al comando (opzione A). Le altre risposte sono errate: l'opzione B nega l'affermazione, mentre il rumore è effettivamente un indicatore riconosciuto; l'opzione C la limita erroneamente all'alta quota, condizione non richiesta dall'affermazione originale; l'opzione D la limita erroneamente ai soli motori a iniezione, mentre il principio vale per i motori a pistoni in generale."
         },
         {
           "n": 127,
@@ -21956,7 +21956,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Vera: se a piena potenza al punto fermo il numero di giri (RPM) non raggiunge il limite superiore dell'arco verde, è un segnale di funzionamento irregolare del motore o dell'elica."
+          "explanation": "Vera: se a piena potenza al punto fermo il numero di giri (RPM) non raggiunge il limite superiore dell'arco verde, è un segnale di funzionamento irregolare del motore o dell'elica (opzione A). Le altre risposte sono errate: l'opzione B nega l'affermazione, mentre è un controllo standard riconosciuto; l'opzione C la limita erroneamente alla sola quota, condizione non pertinente a un controllo al punto fermo; l'opzione D la lega erroneamente al tipo di carburante usato, fattore non determinante per questo controllo RPM."
         },
         {
           "n": 128,
@@ -21970,7 +21970,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "La pompa elettrica ausiliaria va disinserita non prima dei 1000 piedi e dopo l'eventuale virata in controbase perché, in caso di avaria alla pompa meccanica, il motore resta alimentato dalla pompa elettrica: mantenendola inserita fino a quella quota consente, in caso di arresto motore al disinserimento, di rientrare in pianata sulla pista dalla controbase."
+          "explanation": "La pompa elettrica ausiliaria va disinserita non prima dei 1000 piedi e dopo l'eventuale virata in controbase perché, in caso di avaria alla pompa meccanica, il motore resta alimentato dalla pompa elettrica: mantenendola inserita fino a quella quota consente, in caso di arresto motore al disinserimento, di rientrare in planata sulla pista dalla controbase (opzione A). Le altre risposte sono errate: l'opzione B attribuisce erroneamente un rendimento ridotto della pompa sotto i 1000 piedi, motivo non corretto; l'opzione C le attribuisce una funzione idraulica non pertinente alla pompa carburante; l'opzione D cita il consumo della batteria, non il vero motivo (la possibilità di rientro planato in caso di guasto)."
         },
         {
           "n": 129,
@@ -21984,7 +21984,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'aria calda al carburatore, oltre a prevenire/rimuovere il ghiaccio, ha l'effetto di arricchire la miscela di alimentazione (aria meno densa a parità di getto di carburante)."
+          "explanation": "L'aria calda al carburatore, oltre a prevenire/rimuovere il ghiaccio, ha l'effetto di arricchire la miscela di alimentazione, poiché l'aria calda è meno densa a parità di getto di carburante erogato (opzione C). Le altre risposte sono errate: l'opzione A afferma l'opposto (impoverimento), mentre l'effetto reale è un arricchimento; l'opzione B nega ogni effetto sulla miscela, in contrasto con la variazione di densità dell'aria calda; l'opzione D introduce una dipendenza dall'umidità non pertinente all'effetto primario sulla miscela."
         },
         {
           "n": 130,
@@ -21998,7 +21998,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "L'inserimento dell'aria calda provoca tipicamente una diminuzione dei giri motore e un aumento della temperatura all'interno del carburatore."
+          "explanation": "L'inserimento dell'aria calda provoca tipicamente una diminuzione dei giri motore (miscela arricchita, minor densità aria) e un aumento della temperatura all'interno del carburatore (opzione B). Le altre risposte sono errate: l'opzione A afferma un aumento di giri, effetto opposto a quello reale; l'opzione C afferma una diminuzione di temperatura, effetto opposto a quello reale (l'aria calda aumenta la temperatura); l'opzione D combina aumento di giri e diminuzione di temperatura, entrambi effetti opposti a quelli reali."
         },
         {
           "n": 131,
@@ -22012,7 +22012,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "L'uso dell'aria calda in rullaggio è sconsigliabile perché l'aria calda non passa attraverso il filtro normale, con il rischio di aspirare sassi o altri corpi estranei presenti sul piazzale/via di rullaggio."
+          "explanation": "L'uso dell'aria calda in rullaggio è sconsigliabile perché l'aria calda non passa attraverso il filtro normale, con il rischio di aspirare sassi o altri corpi estranei presenti sul piazzale/via di rullaggio (opzione C). Le altre risposte sono errate: l'opzione A la considera applicabile tranquillamente a terra, ignorando il rischio di aspirazione di corpi estranei; l'opzione B la limita erroneamente alla sola prova motori, mentre il rischio esiste in ogni fase a terra; l'opzione D esagera il confronto, mentre il vero motivo di cautela è specificamente il rischio di ingestione di corpi estranei non filtrati."
         },
         {
           "n": 132,
@@ -22026,7 +22026,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Portando i magneti su 'off' e poi di nuovo su 'on' a bassa potenza si verifica che la massa (il collegamento a terra dell'accensione) funzioni correttamente, scongiurando il rischio di trovarsi in volo con un solo sistema di accensione realmente operativo."
+          "explanation": "Portando i magneti su 'off' e poi di nuovo su 'on' a bassa potenza si verifica che la massa (il collegamento a terra dell'accensione) funzioni correttamente, scongiurando il rischio di trovarsi in volo con un solo sistema di accensione realmente operativo (opzione D). Le altre risposte sono errate: l'opzione A (sequenza d'accensione candele) non è ciò che questa specifica prova verifica; l'opzione B (rumore del motore in ripresa) è un effetto collaterale osservabile, non lo scopo del controllo; l'opzione C (pompa di accelerazione) è pertinente ad altri controlli motore, non alla verifica della massa magneti."
         },
         {
           "n": 133,
@@ -22054,7 +22054,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il metodo più rapido per fermare l'elica in caso di avaria ai freni appena mossi dal parcheggio è portare gli interruttori dei magneti su 'off', arrestando immediatamente l'accensione del motore."
+          "explanation": "Il metodo più rapido per fermare l'elica in caso di avaria ai freni appena mossi dal parcheggio è portare gli interruttori dei magneti su 'off', arrestando immediatamente l'accensione del motore (opzione C). Le altre risposte sono errate: l'opzione A (dosatore miscela su chiuso) richiede più tempo per l'arresto rispetto ai magneti; l'opzione B (selettore serbatoi su off) non arresta immediatamente il motore, che continua a girare con il carburante residuo nei condotti; l'opzione D (interruttore generale elettrico) non interrompe l'accensione a magneti, che nei piccoli aeroplani è generalmente indipendente dall'impianto elettrico principale."
         },
         {
           "n": 135,
@@ -22068,7 +22068,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Se una delle due masse dei magneti non funziona, il pilota se ne accorge perché, ponendo l'interruttore relativo su 'off', il motore continua a girare senza variazioni (segno che quel circuito non stava contribuendo all'accensione)."
+          "explanation": "Se una delle due masse dei magneti non funziona, il pilota se ne accorge perché, ponendo l'interruttore relativo su 'off', il motore continua a girare senza variazioni, segno che quel circuito non stava contribuendo all'accensione (opzione D). Le altre risposte sono errate: l'opzione A nega ogni possibilità di accorgersene, mentre il controllo è previsto proprio per questo; l'opzione B delega la segnalazione al personale di terra, non pertinente durante la messa in moto; l'opzione C (pressione olio) non è collegata al funzionamento dei magneti."
         },
         {
           "n": 136,
@@ -22082,7 +22082,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Si controllano orizzonte artificiale e girodirezionale dopo la messa in moto per poter poi verificare, alla prova motori qualche minuto più tardi, che il regime minimo di rotazione dei giroscopi sia stato raggiunto e si mantenga stabile."
+          "explanation": "Si controllano orizzonte artificiale e girodirezionale dopo la messa in moto per poter poi verificare, alla prova motori qualche minuto più tardi, che il regime minimo di rotazione dei giroscopi sia stato raggiunto e si mantenga stabile (opzione A). Le altre risposte sono errate: l'opzione B (guadagnare tempo) non è il motivo tecnico del controllo; l'opzione C attribuisce il controllo all'impianto elettrico strumenti, non al regime giroscopico; l'opzione D fa riferimento erroneamente a un impianto idraulico strumenti, non pertinente agli strumenti giroscopici tipici di un velivolo leggero."
         },
         {
           "n": 137,
@@ -22096,7 +22096,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Se la guida del velivolo si rivela impossibile muovendosi dal parcheggio, il pilota deve spegnere immediatamente il motore, per evitare di proseguire senza controllo direzionale."
+          "explanation": "Se la guida del velivolo si rivela impossibile muovendosi dal parcheggio, il pilota deve spegnere immediatamente il motore, per evitare di proseguire senza controllo direzionale (opzione B). Le altre risposte sono errate: l'opzione A (informare la torre) ritarda un'azione immediata necessaria per la sicurezza; l'opzione C (cercare di spostare il velivolo) rischia di aggravare la situazione prima di fermare il motore; l'opzione D (informare il personale di terra) ritarda ugualmente l'azione immediata richiesta."
         },
         {
           "n": 138,
@@ -22110,7 +22110,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Se durante il rullaggio si scopre un'avaria ai freni, occorre liberare la via di rullaggio, spegnere il motore e avvisare la torre di controllo."
+          "explanation": "Se durante il rullaggio si scopre un'avaria ai freni, occorre liberare la via di rullaggio, spegnere il motore e avvisare la torre di controllo (opzione D). Le altre risposte sono errate: l'opzione A (fermare subito il motore) non considera la necessità di liberare prima la via di rullaggio per non ostacolare altro traffico; l'opzione B (avvisare la torre) da sola non risolve l'urgenza di gestire il velivolo senza freni; l'opzione C (proseguire fino al punto attesa) è pericoloso, poiché senza freni affidabili non si può garantire il controllo del rullaggio."
         },
         {
           "n": 139,
@@ -22138,7 +22138,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Azionando solo gli alettoni, senza il timone di direzione a correggere l'imbardata inversa e senza la barra a compensare la perdita di portanza per l'inclinazione, il velivolo tende a entrare in una spirale picchiata anziché eseguire una virata corretta e coordinata."
+          "explanation": "Azionando solo gli alettoni, senza il timone di direzione a correggere l'imbardata inversa e senza la barra a compensare la perdita di portanza per l'inclinazione, il velivolo tende a entrare in una spirale picchiata anziché eseguire una virata corretta e coordinata (opzione B). Le altre risposte sono errate: l'opzione A presume una virata normale, mentre manca il coordinamento necessario del timone; l'opzione C nega ogni conseguenza, in contrasto con la tendenza reale alla spirale; l'opzione D descrive un cambio di direzione senza perdita di quota, mentre la spirale comporta invece una perdita di quota progressiva."
         },
         {
           "n": 141,
@@ -22152,7 +22152,7 @@
           ],
           "correct": 1,
           "src": "quizvds",
-          "explanation": "Azionando solo il timone di direzione, senza intervenire con gli alettoni, il velivolo imbarda e, a causa del rollio indotto dall'imbardata stessa, tende comunque a entrare in una spirale."
+          "explanation": "Azionando solo il timone di direzione, senza intervenire con gli alettoni, il velivolo imbarda e, a causa del rollio indotto dall'imbardata stessa, tende comunque a entrare in una spirale (opzione B). Le altre risposte sono errate: l'opzione A presume una virata normale, mentre manca il coordinamento degli alettoni; l'opzione C nega ogni conseguenza, in contrasto con la tendenza reale alla spirale indotta dal rollio; l'opzione D descrive un cambio di direzione senza perdita di quota, mentre la spirale comporta invece una perdita di quota progressiva."
         },
         {
           "n": 142,
@@ -22180,7 +22180,7 @@
           ],
           "correct": 2,
           "src": "quizvds",
-          "explanation": "Il timone di profondità (equilibratore) agisce direttamente sull'angolo di incidenza dell'ala, e attraverso questo controlla di conseguenza salita, discesa e velocità."
+          "explanation": "Il timone di profondità (equilibratore) agisce direttamente sull'angolo di incidenza dell'ala, e attraverso questo controlla di conseguenza salita, discesa e velocità (opzione C). Le altre risposte sono errate: l'opzione A (far salire e scendere) è un effetto indiretto conseguente al controllo dell'incidenza, non l'azione diretta del comando; l'opzione B (angolo di rampa) è anch'esso un effetto risultante, non ciò su cui agisce direttamente il timone di profondità; l'opzione D nega ogni funzione corretta, mentre l'opzione C descrive esattamente l'azione diretta del comando."
         },
         {
           "n": 144,
@@ -22236,7 +22236,7 @@
           ],
           "correct": 3,
           "src": "quizvds",
-          "explanation": "Il pilota varia normalmente la trazione intervenendo sul motore (manetta) e, indirettamente, sulla pendenza della traiettoria (che modifica la componente del peso lungo il moto)."
+          "explanation": "Il pilota varia normalmente la trazione intervenendo sul motore (manetta) e, indirettamente, sulla pendenza della traiettoria, che modifica la componente del peso lungo la direzione del moto (opzione D). Le altre risposte sono errate: l'opzione A (variare il peso) non è un intervento praticabile in volo per variare la trazione; l'opzione B (centraggio) influenza la stabilità e il bilanciamento, non la trazione; l'opzione C combina erroneamente peso e centraggio, nessuno dei due essendo il vero mezzo di variazione della trazione."
         },
         {
           "n": 148,
@@ -22250,7 +22250,7 @@
           ],
           "correct": 0,
           "src": "quizvds",
-          "explanation": "Per aumentare la resistenza in volo il pilota può estendere i flap e, se necessario, eseguire una scivolata d'ala."
+          "explanation": "Per aumentare la resistenza in volo il pilota può estendere i flap e, se necessario, eseguire una scivolata d'ala, entrambe tecniche dirette per smaltire quota/energia in eccesso (opzione A). Le altre risposte sono errate: l'opzione B (diminuzione di potenza) riduce la trazione ma non aumenta direttamente la resistenza aerodinamica; l'opzione C (miscela dosata su povero) è un intervento sulla combustione motore, non pertinente alla resistenza aerodinamica; l'opzione D (aumento del peso operativo) non è un intervento normalmente eseguibile in volo dal pilota."
         },
         {
           "n": 149,
