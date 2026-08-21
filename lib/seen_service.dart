@@ -1,39 +1,65 @@
+import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// Traccia i gid delle domande gia' comparse in un quiz completato, cosi'
-/// i builder possono proporre prima le domande mai viste. Caricato una volta
-/// all'avvio in [load] e tenuto in cache in memoria: le letture successive
-/// sono sincrone e sempre aggiornate anche dopo [markSeen].
+/// Traccia quante volte ogni gid e' comparso in un quiz (non solo se
+/// comparso), cosi' i builder possono pescare sempre dal minimo comune di
+/// volte viste, garantendo copertura uniforme del database invece di un
+/// semplice "visto/non visto" che degenera in pescate puramente casuali una
+/// volta esaurito il primo giro. Caricato una volta all'avvio in [load] e
+/// tenuto in cache in memoria: le letture successive sono sincrone.
 class SeenService {
-  static const _seenKey = 'seen_gids_v1';
+  static const _legacySeenKey = 'seen_gids_v1'; // formato precedente, solo migrazione
+  static const _seenCountsKey = 'seen_counts_v2';
   static const _wrongKey = 'wrong_gids_v1';
   static const _wrongHistoryKey = 'wrong_history_v1';
   static const _wrongRetriedKey = 'wrong_retried_v1';
-  static Set<int> _seen = {};
+  static Map<int, int> _seenCount = {};
   static Set<int> _wrong = {};
   static Set<int> _wrongHistory = {}; // gid sbagliati gia' ritentati (e risposti correttamente)
   static Set<int> _wrongRetried = {}; // gid sbagliati ritentati almeno una volta (anche se ancora sbagliati)
 
   static Future<void> load() async {
     final prefs = await SharedPreferences.getInstance();
-    final rawSeen = prefs.getStringList(_seenKey) ?? const [];
+    final rawCounts = prefs.getString(_seenCountsKey);
+    if (rawCounts != null) {
+      final decoded = jsonDecode(rawCounts) as Map<String, dynamic>;
+      _seenCount = decoded.map((k, v) => MapEntry(int.parse(k), v as int));
+    } else {
+      // Migrazione one-shot dal vecchio set booleano: ogni gid gia' visto
+      // parte con conteggio 1.
+      final legacy = prefs.getStringList(_legacySeenKey) ?? const [];
+      _seenCount = {for (final g in legacy.map(int.parse)) g: 1};
+      if (_seenCount.isNotEmpty) await _persistCounts(prefs);
+    }
     final rawWrong = prefs.getStringList(_wrongKey) ?? const [];
     final rawWrongHistory = prefs.getStringList(_wrongHistoryKey) ?? const [];
     final rawWrongRetried = prefs.getStringList(_wrongRetriedKey) ?? const [];
-    _seen = rawSeen.map(int.parse).toSet();
     _wrong = rawWrong.map(int.parse).toSet();
     _wrongHistory = rawWrongHistory.map(int.parse).toSet();
     _wrongRetried = rawWrongRetried.map(int.parse).toSet();
   }
 
-  static bool hasSeen(int gid) => _seen.contains(gid);
+  static Future<void> _persistCounts(SharedPreferences prefs) async {
+    await prefs.setString(
+        _seenCountsKey, jsonEncode(_seenCount.map((k, v) => MapEntry(k.toString(), v))));
+  }
 
-  static int get seenCount => _seen.length;
+  static int countOf(int gid) => _seenCount[gid] ?? 0;
 
+  static bool hasSeen(int gid) => countOf(gid) > 0;
+
+  /// Numero di gid distinti visti almeno una volta (per la card "Copertura database").
+  static int get seenCount => _seenCount.length;
+
+  /// Incrementa il conteggio di ogni gid passato. Va chiamato subito dopo
+  /// ogni risposta, non solo a fine quiz: altrimenti una sessione
+  /// interrotta a meta' non fa avanzare la copertura per nessuna domanda.
   static Future<void> markSeen(Iterable<int> gids) async {
-    _seen.addAll(gids);
+    for (final g in gids) {
+      _seenCount[g] = (_seenCount[g] ?? 0) + 1;
+    }
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setStringList(_seenKey, _seen.map((e) => e.toString()).toList());
+    await _persistCounts(prefs);
   }
 
   static bool hasWrong(int gid) => _wrong.contains(gid);
@@ -68,12 +94,13 @@ class SeenService {
   static int get wrongNeverRetriedCount => _wrong.difference(_wrongRetried).length;
 
   static Future<void> clearAll() async {
-    _seen = {};
+    _seenCount = {};
     _wrong = {};
     _wrongHistory = {};
     _wrongRetried = {};
     final prefs = await SharedPreferences.getInstance();
-    await prefs.remove(_seenKey);
+    await prefs.remove(_legacySeenKey);
+    await prefs.remove(_seenCountsKey);
     await prefs.remove(_wrongKey);
     await prefs.remove(_wrongHistoryKey);
     await prefs.remove(_wrongRetriedKey);

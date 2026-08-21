@@ -16,8 +16,9 @@ class _SubjectAgg {
 enum _Readiness { ready, close, notReady }
 
 class StatsScreen extends StatefulWidget {
-  final int totalDbQuestions;
-  const StatsScreen({super.key, required this.totalDbQuestions});
+  final QuizDb db;
+  const StatsScreen({super.key, required this.db});
+  int get totalDbQuestions => db.total;
 
   @override
   State<StatsScreen> createState() => _StatsScreenState();
@@ -353,6 +354,45 @@ class _StatsScreenState extends State<StatsScreen> {
     );
   }
 
+  void _showDbCoverageInfo() {
+    final rows = widget.db.subjects.map((s) {
+      final seen = s.questions.where((q) => SeenService.hasSeen(q.gid)).length;
+      return (name: s.name, seen: seen, total: s.questions.length);
+    }).toList();
+    showDialog<void>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('Copertura per materia'),
+        content: SizedBox(
+          width: double.maxFinite,
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: rows.map((r) {
+                final pct = r.total == 0 ? 0 : (r.seen / r.total * 100).round();
+                return Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 4),
+                  child: Row(
+                    children: [
+                      Expanded(child: Text(r.name)),
+                      Text('${r.seen}/${r.total} ($pct%)'),
+                    ],
+                  ),
+                );
+              }).toList(),
+            ),
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: const Text('Chiudi'),
+          ),
+        ],
+      ),
+    );
+  }
+
   Widget _dbCoverageCard(ThemeData theme) {
     final seen = SeenService.seenCount;
     final total = widget.totalDbQuestions;
@@ -403,6 +443,11 @@ class _StatsScreenState extends State<StatsScreen> {
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
                   color: theme.colorScheme.primary)),
+          IconButton(
+            icon: Icon(Icons.info_outline, color: theme.colorScheme.onSurfaceVariant, size: 20),
+            tooltip: 'Dettagli per materia',
+            onPressed: _showDbCoverageInfo,
+          ),
         ],
       ),
     );

@@ -72,15 +72,26 @@ class _QuizScreenState extends State<QuizScreen> {
   void _onTap(int i) {
     if (_locked) return;
     final correct = i == _q.correct;
+    final gid = _q.gid;
     setState(() {
       _selected = i;
       _locked = true;
       if (correct) {
         _correctCount++;
       } else {
-        SeenService.markWrong(_q.gid);
+        SeenService.markWrong(gid);
       }
     });
+    // Persistito subito (non a fine quiz): cosi' anche una sessione
+    // interrotta a meta' fa avanzare copertura e ripasso errori.
+    SeenService.markSeen([gid]);
+    if (_preExistingWrong.contains(gid)) {
+      if (correct) {
+        SeenService.markWrongSeen(gid);
+      } else {
+        SeenService.markRetried(gid);
+      }
+    }
     if (correct) {
       HapticFeedback.lightImpact();
     } else {
@@ -103,16 +114,6 @@ class _QuizScreenState extends State<QuizScreen> {
         QuizAttempt.fromAnswers(_answers, widget.title, widget.isExam,
             isErrorReview: widget.isErrorReview),
       );
-      SeenService.markSeen(_answers.map((a) => a.question.gid));
-      for (final a in _answers) {
-        if (_preExistingWrong.contains(a.question.gid)) {
-          if (a.isCorrect) {
-            SeenService.markWrongSeen(a.question.gid);
-          } else {
-            SeenService.markRetried(a.question.gid);
-          }
-        }
-      }
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
           builder: (_) => ResultsScreen(

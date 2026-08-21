@@ -122,7 +122,7 @@ class _HomeScreenState extends State<HomeScreen> {
         subtitle: 'Sei pronto?',
         onTap: () => Navigator.of(context).push(
           MaterialPageRoute(
-            builder: (_) => StatsScreen(totalDbQuestions: db.total),
+            builder: (_) => StatsScreen(db: db),
           ),
         ),
       ),

@@ -2,17 +2,23 @@ import 'dart:math';
 import 'models.dart';
 import 'seen_service.dart';
 
-/// Mescola [pool] ma porta in cima le domande mai comparse in un quiz
-/// completato, cosi' l'intero database viene esplorato prima di ripetere.
+/// Raggruppa [pool] per quante volte ogni domanda e' gia' comparsa e
+/// concatena i gruppi in ordine crescente (shuffle interno ad ognuno), cosi'
+/// le domande viste meno volte escono sempre prima: mai una ripetuta 4 volte
+/// mentre un'altra resta a zero, a differenza di un semplice visto/non-visto
+/// che degenera in pescate casuali una volta esaurito il primo giro.
 List<Question> _prioritizeUnseen(List<Question> pool, Random rnd) {
-  final unseen = <Question>[];
-  final seen = <Question>[];
+  final buckets = <int, List<Question>>{};
   for (final q in pool) {
-    (SeenService.hasSeen(q.gid) ? seen : unseen).add(q);
+    buckets.putIfAbsent(SeenService.countOf(q.gid), () => []).add(q);
   }
-  unseen.shuffle(rnd);
-  seen.shuffle(rnd);
-  return [...unseen, ...seen];
+  final counts = buckets.keys.toList()..sort();
+  final result = <Question>[];
+  for (final c in counts) {
+    final bucket = buckets[c]!..shuffle(rnd);
+    result.addAll(bucket);
+  }
+  return result;
 }
 
 /// Costruisce la lista di domande per una prova d'esame realistica,
