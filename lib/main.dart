@@ -5,6 +5,8 @@ import 'quiz_screen.dart';
 import 'stats_screen.dart';
 import 'settings_service.dart';
 import 'seen_service.dart';
+import 'database_browser_screen.dart';
+import 'bignami_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -132,6 +134,26 @@ class _HomeScreenState extends State<HomeScreen> {
             borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
           ),
           builder: (_) => _ErrorPickerSheet(db: db),
+        ),
+      ),
+      _ModeCard(
+        icon: Icons.travel_explore,
+        color: const Color(0xFF43A047),
+        title: 'Database per materia',
+        subtitle: 'Domande, risposte e spiegazioni',
+        onTap: () => Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (_) => DatabaseSubjectPickerScreen(db: db),
+          ),
+        ),
+      ),
+      _ModeCard(
+        icon: Icons.explore,
+        color: const Color(0xFFEF6C00),
+        title: 'Bignami PPL(A)',
+        subtitle: 'Formule e regole, offline',
+        onTap: () => Navigator.of(context).push(
+          MaterialPageRoute(builder: (_) => const BignamiScreen()),
         ),
       ),
     ];
