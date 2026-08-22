@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'models.dart';
+import 'ads_service.dart';
 
 /// Elenco materie per l'accesso diretto al database (sola consultazione,
 /// nessuna logica quiz): domanda + tutte le opzioni + risposta corretta +
@@ -15,9 +16,12 @@ class DatabaseSubjectPickerScreen extends StatelessWidget {
       appBar: AppBar(title: const Text('Database per materia')),
       body: ListView.separated(
         padding: const EdgeInsets.all(16),
-        itemCount: db.subjects.length,
+        itemCount: db.subjects.length + 1,
         separatorBuilder: (context, index) => const SizedBox(height: 8),
         itemBuilder: (context, i) {
+          if (i == db.subjects.length) {
+            return const PplNativeAd(adUnitId: AdIds.nativeFooter);
+          }
           final s = db.subjects[i];
           return Material(
             color: theme.colorScheme.surfaceContainerHigh,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'ads_service.dart';
 
 /// Bignami PPL(A): promemoria sintetico di formule/regole ricorrenti,
 /// nativo Flutter cosi' e' sempre disponibile offline (bundled nell'app,
@@ -12,7 +13,7 @@ class BignamiScreen extends StatelessWidget {
       appBar: AppBar(title: const Text('Bignami PPL(A)')),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(12, 8, 12, 28),
-        children: const [
+        children: [
           Padding(
             padding: EdgeInsets.fromLTRB(4, 0, 4, 12),
             child: Text(
@@ -169,13 +170,14 @@ class BignamiScreen extends StatelessWidget {
               _Mnemo('se la torre da\' un numero, nella risposta quel numero deve ricomparire.'),
             ],
           ),
-          Padding(
+          const Padding(
             padding: EdgeInsets.fromLTRB(4, 8, 4, 0),
             child: Text(
               "Estratto dai pattern ricorrenti nel database di 2310 domande ufficiali ENAC/EASA PPL(A) — uso come promemoria, non come unica fonte di studio.",
               style: TextStyle(fontSize: 10.5),
             ),
           ),
+          const PplNativeAd(adUnitId: AdIds.nativeFooter),
         ],
       ),
     );

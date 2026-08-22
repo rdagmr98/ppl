@@ -1,5 +1,21 @@
 package com.ardia.ppl_quiz
 
 import io.flutter.embedding.android.FlutterActivity
+import io.flutter.embedding.engine.FlutterEngine
+import io.flutter.plugins.googlemobileads.GoogleMobileAdsPlugin
 
-class MainActivity : FlutterActivity()
+class MainActivity : FlutterActivity() {
+    override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
+        super.configureFlutterEngine(flutterEngine)
+        GoogleMobileAdsPlugin.registerNativeAdFactory(
+            flutterEngine,
+            "ppl_native",
+            PplNativeAdFactory(layoutInflater)
+        )
+    }
+
+    override fun cleanUpFlutterEngine(flutterEngine: FlutterEngine) {
+        GoogleMobileAdsPlugin.unregisterNativeAdFactory(flutterEngine, "ppl_native")
+        super.cleanUpFlutterEngine(flutterEngine)
+    }
+}

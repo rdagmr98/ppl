@@ -1,4 +1,6 @@
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'models.dart';
 import 'builder.dart';
 import 'quiz_screen.dart';
@@ -7,11 +9,13 @@ import 'settings_service.dart';
 import 'seen_service.dart';
 import 'database_browser_screen.dart';
 import 'bignami_screen.dart';
+import 'ads_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await SettingsService.load();
   await SeenService.load();
+  if (!kIsWeb) await MobileAds.instance.initialize();
   runApp(const PplApp());
 }
 
@@ -182,6 +186,15 @@ class _HomeScreenState extends State<HomeScreen> {
               childAspectRatio: 0.95,
             ),
             delegate: SliverChildListDelegate(modes),
+          ),
+        ),
+        const SliverToBoxAdapter(
+          child: PplNativeAd(adUnitId: AdIds.nativeFooter),
+        ),
+        SliverToBoxAdapter(
+          child: Padding(
+            padding: const EdgeInsets.only(bottom: 16),
+            child: const Center(child: PplBannerAd()),
           ),
         ),
       ],

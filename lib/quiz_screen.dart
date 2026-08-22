@@ -7,6 +7,7 @@ import 'results_screen.dart';
 import 'stats_service.dart';
 import 'settings_service.dart';
 import 'seen_service.dart';
+import 'ads_service.dart';
 
 class QuizScreen extends StatefulWidget {
   final List<Question> questions;
@@ -266,6 +267,12 @@ class _QuizScreenState extends State<QuizScreen> {
                         if (showExplanation && _q.explanation != null) ...[
                           const SizedBox(height: 4),
                           _ExplanationBox(text: _q.explanation!),
+                        ],
+                        if (showExplanation) ...[
+                          PplNativeAd(
+                            adUnitId: AdIds.nativeAnswer,
+                            reloadKey: _q.gid,
+                          ),
                         ],
                       ],
                     ),

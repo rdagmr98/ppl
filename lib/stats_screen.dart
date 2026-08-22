@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'models.dart';
 import 'seen_service.dart';
 import 'stats_service.dart';
+import 'ads_service.dart';
 
 class _SubjectAgg {
   final int parte;
@@ -248,6 +249,7 @@ class _StatsScreenState extends State<StatsScreen> {
           ),
         ),
         const SizedBox(height: 24),
+        const PplNativeAd(adUnitId: AdIds.nativeFooter),
       ],
     );
   }
