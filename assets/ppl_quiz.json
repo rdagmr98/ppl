@@ -9991,7 +9991,8 @@
             "aumenta con i flap nelle posizioni iniziali, diminuisce successivamente"
           ],
           "correct": 1,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "L'estensione dei flap aumenta sia la portanza sia la resistenza indotta a bassa velocità, ma l'aumento di resistenza è proporzionalmente maggiore, riducendo il rapporto L/D disponibile per la salita; poiché l'angolo di salita dipende dall'eccesso di spinta rispetto alla resistenza (T-D)/W, con più resistenza a parità di potenza l'angolo di salita ottenibile è normalmente più piccolo rispetto alla configurazione pulita. L'opzione \"più grande\" inverte l'effetto reale dei flap sulla resistenza. \"Non cambia\" ignora che i flap modificano sensibilmente il rapporto portanza/resistenza. L'opzione sul comportamento bifasico descrive un fenomeno non caratteristico dell'angolo di salita con flap, che è un effetto monotono di peggioramento del rapporto L/D disponibile."
         },
         {
           "n": 232,
@@ -10004,7 +10005,8 @@
             "la IAS diminuirà"
           ],
           "correct": 2,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "La velocità di massima autonomia corrisponde alla condizione di minima potenza necessaria (minimo consumo orario), un parametro puramente aerodinamico legato al peso e alla configurazione dell'aeromobile, indipendente dalla componente di vento; il vento in coda modifica solo la distanza percorsa nell'unità di tempo (GS), non la IAS ottimale da mantenere. Le opzioni \"la IAS aumenterà\" e \"diminuirà\" attribuiscono erroneamente al vento un effetto sulla velocità indicata che compete invece solo alla velocità di massima crociera per l'autonomia chilometrica (range), non a quella di autonomia oraria. L'opzione sulla velocità di holding confonde due parametri di prestazione differenti che non sono legati dal vento in questo contesto."
         },
         {
           "n": 233,
@@ -10017,7 +10019,8 @@
             "diminuisce a mano che la velocità dell'aereo aumenta"
           ],
           "correct": 3,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "La trazione (thrust) prodotta da un'elica a passo fisso è massima a velocità nulla e decresce progressivamente con l'aumentare della velocità dell'aereo, poiché aumenta la velocità relativa dell'aria investita dall'elica e si riduce l'efficienza propulsiva netta; durante la corsa di decollo e la salita iniziale questo si traduce in una trazione decrescente mano a mano che la velocità aumenta. L'opzione \"nessun cambiamento\" ignora la caratteristica curva trazione-velocità dell'elica. L'opzione \"aumenta con la velocità\" inverte il comportamento reale. L'opzione che lega la trazione solo al peso confonde trazione disponibile (motore/elica) con trazione richiesta (peso e resistenza)."
         },
         {
           "n": 234,
@@ -10030,7 +10033,8 @@
             "il timone di profondità deve essere tirato per abbassare il muso"
           ],
           "correct": 0,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Nel secondo regime (dietro la curva di potenza, a velocità inferiori a quella di minima resistenza) la stabilità di velocità intrinseca dell'aeromobile si inverte: un piccolo aumento di resistenza rallenta l'aereo, il che aumenta ulteriormente la resistenza indotta, portando a un ulteriore rallentamento se non si interviene attivamente sulla potenza; la velocità quindi non è auto-stabile, ed è questo l'effetto più rilevante e pericoloso del secondo regime. L'opzione sull'impossibilità di stallare è falsa: lo stallo resta sempre possibile. L'opzione sulla quota non mantenibile descrive una conseguenza indiretta, non la caratteristica fondamentale. L'opzione sul timone di profondità descrive un comando invertito legato al controllo, ma non è la radice del problema, che è l'instabilità di velocità."
         },
         {
           "n": 235,
@@ -10043,7 +10047,8 @@
             "il rapporto portanza resistenza diminuisce"
           ],
           "correct": 1,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "L'angolo di planata ottimale dipende dal rapporto portanza/resistenza massimo (L/D max), un parametro puramente aerodinamico che non cambia con il peso; tuttavia, per mantenere lo stesso angolo di attacco ottimale (e quindi lo stesso L/D max) con un peso maggiore, è necessaria una velocità indicata più alta, quindi la velocità per il miglior angolo di planata aumenta con il peso. L'opzione \"non c'è cambiamento\" ignora l'effetto sulla velocità. Le opzioni che affermano una diminuzione dell'angolo di planata o del rapporto L/D sono errate perché confondono l'effetto del peso sulla velocità necessaria con un presunto effetto sul rapporto portanza/resistenza massimo, che dipende solo dalla configurazione aerodinamica."
         },
         {
           "n": 236,
@@ -10056,7 +10061,8 @@
             "VA"
           ],
           "correct": 0,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "La resistenza indotta è generata dalla portanza e cresce con il quadrato del coefficiente di portanza (CL), quindi aumenta rapidamente al diminuire della velocità, poiché a bassa velocità serve un CL (e quindi un angolo di attacco) più elevato per generare la portanza necessaria a sostenere il peso; risulta quindi massima alla più bassa velocità sostenibile in quella configurazione. Le opzioni VS1, VNO e VA sono velocità di riferimento specifiche (stallo in una configurazione definita, non superabile in turbolenza, di manovra) che non rappresentano necessariamente la velocità minima assoluta della configurazione in esame: il fattore determinante è la velocità più bassa in assoluto, non una velocità di riferimento strutturale."
         },
         {
           "n": 237,
@@ -10069,7 +10075,8 @@
             "una corsa al suolo più lunga"
           ],
           "correct": 1,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Un'estrazione di flap superiore all'ottimale aumenta il coefficiente di portanza disponibile a una data velocità, permettendo il distacco a una IAS più bassa e quindi una corsa al suolo più breve rispetto alla configurazione ottimale; il rovescio della medaglia è un peggioramento della salita iniziale per l'aumento di resistenza. L'opzione \"maggiore accelerazione\" è errata perché l'aumento di resistenza con più flap riduce, non aumenta, l'accelerazione durante la corsa. L'opzione sulla Vr più alta è errata: più flap riduce, non aumenta, la velocità di rotazione necessaria. L'opzione sulla corsa al suolo più lunga inverte l'effetto reale dell'aumento di portanza disponibile a bassa velocità."
         },
         {
           "n": 238,
@@ -10082,7 +10089,8 @@
             "VS0"
           ],
           "correct": 3,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "La velocità VS0 è definita come la velocità di stallo, o la minima velocità di volo livellato controllabile, nella configurazione di atterraggio (flap e carrello estesi, se applicabile); è il riferimento normativo per questa condizione specifica. VMC è la velocità minima di controllo con un motore inoperativo sui plurimotore, non pertinente. VS1 è la velocità di stallo in una configurazione definita dal costruttore, tipicamente configurazione pulita, non necessariamente quella di atterraggio. VS generico non specifica la configurazione, mentre la domanda richiede esplicitamente il riferimento normato per la configurazione di atterraggio, che è VS0."
         },
         {
           "n": 239,
@@ -10095,7 +10103,8 @@
             "una riduzione della distanza di decollo e un peggioramento della salita iniziale"
           ],
           "correct": 2,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Una diminuzione della pressione atmosferica corrisponde a un aumento della quota densità, quindi a una minore densità dell'aria: il motore aspirato produce meno potenza, l'elica meno trazione e l'ala meno portanza a parità di velocità, con il risultato di un aumento della distanza di decollo necessaria e un peggioramento del rateo di salita iniziale. Le opzioni che indicano un miglioramento della salita iniziale sono errate perché la minore densità dell'aria peggiora, non migliora, le prestazioni propulsive e aerodinamiche. Le opzioni che indicano una riduzione della distanza di decollo sono errate per lo stesso motivo."
         },
         {
           "n": 240,
@@ -10108,7 +10117,8 @@
             "755 m"
           ],
           "correct": 3,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Partendo dalla distanza di riferimento di 600 m (ISA, MSL, vento calmo) si sommano le correzioni: +20 m per l'elevazione di 1000 ft (+20 m/1000 ft); +100 m per il vento in coda di 10 kt (+10 m/kt); +15 m per l'1% di pendenza in salita (+15 m/%); e +20 m per lo scarto di temperatura rispetto a ISA, che a 1000 ft è 13°C (15°C - 2°C di lapse rate standard), quindi 17°C - 13°C = +4°C di scarto, ovvero +5 m/°C × 4 = +20 m. Il totale è 600+20+100+15+20 = 755 m. Le altre opzioni derivano da errori tipici come l'inversione del segno delle correzioni o dall'omissione di una delle quattro correzioni, portando a valori inferiori al corretto 755 m."
         },
         {
           "n": 241,
@@ -10121,7 +10131,8 @@
             "8800 ft"
           ],
           "correct": 2,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "La quota vera corrispondente a FL85 (quota di pressione 8500 ft riferita a 1013,25 hPa) va corretta per lo scarto di QNH: con QNH 1.023 hPa, superiore di circa 10 hPa rispetto allo standard, la quota vera aumenta di 10 × 30 ft = 300 ft, risultando quindi in circa 8.800 ft di quota vera. Partendo da un'elevazione di campo di 1.000 ft, la salita necessaria è 8.800 - 1.000 = 7.800 ft. L'opzione 8.800 ft è la quota vera finale, non la salita richiesta partendo dal campo, quindi risponde a una domanda diversa da quella posta. Le opzioni 7.200 ft e 7.500 ft derivano da un'applicazione errata o omessa della correzione QNH-quota vera."
         },
         {
           "n": 242,
@@ -10134,7 +10145,8 @@
             "evitare spostamenti non voluti del baricentro (C.G.)."
           ],
           "correct": 3,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Il carico non adeguatamente fissato può spostarsi durante il volo, in particolare in turbolenza, virate o manovre brusche, alterando in modo incontrollato la posizione del baricentro (C.G.) rispetto ai limiti approvati, con conseguenze dirette su stabilità e controllabilità; per questo il fissaggio del carico è un requisito di sicurezza primario. Le opzioni su curve ripide o carico di 'g' descrivono conseguenze indirette e non lo scopo diretto del fissaggio. L'opzione sul trasporto di carburante extra è estranea al tema del fissaggio del carico."
         },
         {
           "n": 243,
@@ -10147,7 +10159,8 @@
             "fasi e manovre di volo impreviste che possono essere corrette dal pilota tramite i comandi di volo."
           ],
           "correct": 1,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Uno spostamento improvviso e incontrollato del carico durante il volo può alterare drasticamente il centro di gravità oltre i limiti certificati, causare una perdita di controllo dell'aeromobile, generare carichi strutturali imprevisti sulla cellula e provocare infortuni all'equipaggio o ai passeggeri colpiti dal carico stesso: questa è la combinazione di rischi reali riconosciuta dalla manualistica di sicurezza. Le altre opzioni descrivono conseguenze inventate o irrilevanti che minimizzano impropriamente la gravità reale di uno spostamento del carico, la quale può superare rapidamente la capacità di correzione del pilota."
         },
         {
           "n": 244,
@@ -10160,7 +10173,8 @@
             "1, 2, 3"
           ],
           "correct": 3,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Uno spostamento in avanti del baricentro (C.G. frontale) aumenta la stabilità longitudinale (il piano di coda deve generare più deportanza per trimmare, rendendo il velivolo più stabile), aumenta la velocità di stallo (serve un angolo di attacco maggiore per bilanciare lo stesso peso con un braccio di leva meno favorevole) e aumenta la resistenza (per il maggior carico di trim richiesto sul piano di coda, che si traduce in resistenza indotta aggiuntiva): sono questi i tre effetti classici riconosciuti dalla teoria del bilanciamento, mentre il quarto effetto elencato nello screenshot originale non rientra nella combinazione corretta."
         },
         {
           "n": 245,
@@ -10173,7 +10187,8 @@
             "che l'aereo non si ribalti sulla coda durante il caricamento."
           ],
           "correct": 0,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Il baricentro deve rimanere entro i limiti approvati in ogni fase del volo perché la sua posizione determina il margine di stabilità statica longitudinale e l'efficacia dei comandi di profondità: un C.G. fuori dai limiti compromette la capacità del pilota di controllare l'assetto e la stabilità dell'aeromobile, in particolare in fase di stallo, atterraggio e manovre. Le altre opzioni descrivono conseguenze specifiche e secondarie di un C.G. fuori limiti, non lo scopo generale della regola, che è garantire stabilità e controllabilità in tutte le condizioni di volo."
         },
         {
           "n": 246,
@@ -10186,7 +10201,8 @@
             "davanti al limite frontale del C.G."
           ],
           "correct": 2,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Il baricentro deve trovarsi all'interno dell'inviluppo approvato, ovvero in una posizione compresa tra il limite anteriore e quello posteriore stabiliti dal costruttore, entro cui sono garantite stabilità e controllabilità adeguate; questa è per definizione una posizione \"in mezzo\", non un valore estremo. Le opzioni che lo collocano dietro al limite posteriore o davanti al limite frontale descrivono per definizione una condizione fuori inviluppo, non ammissibile. L'opzione sul limite laterale è priva di senso fisico per un velivolo simmetrico standard."
         },
         {
           "n": 247,
@@ -10199,7 +10215,8 @@
             "non ammissibile e sostanzialmente pericoloso."
           ],
           "correct": 3,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Il superamento della massa massima certificata (MTOW) comporta prestazioni di decollo e salita inferiori a quelle garantite, sollecitazioni strutturali superiori ai limiti di progetto e margini di sicurezza ridotti in ogni fase del volo: per questo non è mai ammissibile, indipendentemente dall'entità del superamento. Le opzioni che lo tollerano entro una soglia percentuale, per evitare ritardi, o che lo ritengono compensabile con un miglior controllo dei comandi sono errate perché il limite di massa massima è un vincolo strutturale e prestazionale assoluto, non negoziabile con l'abilità del pilota o l'urgenza operativa."
         },
         {
           "n": 248,
@@ -10212,7 +10229,8 @@
             "37.2 cm"
           ],
           "correct": 2,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Il consumo di 30,5 l di carburante (peso specifico ≈0,72 kg/l) equivale a una riduzione di massa di circa 22 kg dalla stazione 45 cm. Applicando la formula del nuovo baricentro [(Massa×CG - massa rimossa×braccio rimosso)/(Massa - massa rimossa)]: (746×37,1 - 22×45)/(746-22) = (27.678,6 - 990)/724 ≈ 26.688,6/724 ≈ 36,9 cm. Le altre opzioni derivano da arrotondamenti diversi del peso specifico del carburante o da un'applicazione della formula senza sottrarre correttamente la massa consumata dal totale."
         },
         {
           "n": 249,
@@ -10225,7 +10243,8 @@
             "94.11 in"
           ],
           "correct": 1,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Applicando la formula del nuovo baricentro dopo il consumo di carburante: momento iniziale = 2300 lbs × 95,75 in = 220.225 lb·in; momento rimosso = 170 lbs × 87,00 in = 14.790 lb·in; nuova massa = 2300-170 = 2130 lbs; nuovo C.G. = (220.225-14.790)/2130 = 205.435/2130 ≈ 96,45 in. Le altre opzioni derivano da errori di calcolo nella sottrazione del momento rimosso o nell'uso della massa non aggiornata al denominatore."
         },
         {
           "n": 250,
@@ -10238,7 +10257,8 @@
             "Weight and balance"
           ],
           "correct": 3,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "La massa a vuoto di base (basic empty weight) di un aeromobile, insieme al relativo braccio e momento di riferimento, è riportata nella sezione \"Weight and Balance\" del manuale di volo (POH/AFM), poiché è il dato di partenza indispensabile per ogni calcolo di bilanciamento. La sezione \"Limitations\" contiene i limiti operativi ma non il valore specifico della massa a vuoto dell'esemplare. \"Normal procedures\" descrive le procedure operative standard, non i dati di peso. \"Performance\" contiene i grafici e le tabelle prestazionali, non il dato di massa a vuoto di base."
         },
         {
           "n": 251,
@@ -10251,7 +10271,8 @@
             "Scaricare tutto il carburante utilizzabile."
           ],
           "correct": 3,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Prima di eseguire la pesatura ufficiale di un aeromobile, la procedura standard richiede di scaricare tutto il carburante utilizzabile (lasciando solo l'eventuale carburante non utilizzabile, che è parte della massa a vuoto), in modo da ottenere un dato di massa a vuoto ripetibile e non influenzato dalla quantità variabile di carburante a bordo. Rimuovere le batterie o l'attrezzatura di servizio altererebbe la configurazione di riferimento della massa a vuoto standard, mentre scaricare l'olio motore non è previsto perché l'olio fa parte della massa a vuoto di base, a differenza del carburante."
         },
         {
           "n": 252,
@@ -10264,7 +10285,8 @@
             "certificato di aeronavigabilità."
           ],
           "correct": 1,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "I dati necessari per il calcolo di mass & balance (massa a vuoto, braccio di riferimento, momenti, limiti di C.G., bracci delle stazioni di carico) si trovano nella sezione \"Mass & Balance\" (o \"Weight and Balance\") del manuale operativo/di volo (POH) specifico dell'aeromobile. La sezione \"Performance\" contiene invece le prestazioni di decollo, salita, crociera e atterraggio, non i dati di bilanciamento. La documentazione dell'ispezione annuale attesta lo stato di aeronavigabilità ma non riporta dati di bilanciamento. Il certificato di aeronavigabilità è un documento normativo privo di dati numerici di massa e centraggio."
         },
         {
           "n": 253,
@@ -10277,7 +10299,8 @@
             "74 kg"
           ],
           "correct": 3,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "L'Avgas 100LL ha un peso specifico di circa 0,72 kg/litro; 102 litri corrispondono quindi a 102 × 0,72 ≈ 73,4 kg, arrotondato a 74 kg. Le opzioni in libbre (74 lbs, 142 lbs) confondono l'unità di misura: 74 kg equivalgono a circa 163 lbs, non 74 lbs, quindi l'opzione \"74 lbs\" applica il valore numerico corretto all'unità sbagliata. L'opzione \"142 lbs\" e \"142 kg\" derivano da un raddoppio implicito del peso specifico, valore non plausibile per un carburante aeronautico, la cui densità è sempre inferiore a quella dell'acqua."
         }
       ]
     },
@@ -20483,7 +20506,8 @@
             "27 minuti"
           ],
           "correct": 3,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Con vento in coda di 15 kt, la GS all'andata è 105+15=120 kt; in 20 minuti la distanza percorsa è 120×(20/60)=40 NM. Invertendo la rotta, lo stesso vento diventa in prua, quindi la GS al ritorno è 105-15=90 kt; il tempo per percorrere i 40 NM di ritorno è 40/90 ore ≈ 0,444 h ≈ 26,7 minuti, arrotondato a 27 minuti. Le altre opzioni derivano da errori come l'uso della stessa GS per andata e ritorno, ignorando l'inversione dell'effetto del vento."
         },
         {
           "n": 291,
@@ -20496,7 +20520,8 @@
             "35 min"
           ],
           "correct": 2,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Con stima in assenza di vento pari a 25 minuti su 45 NM, la velocità di crociera equivalente è 45/(25/60) = 108 kt. Con un vento frontale di 18 kt la nuova GS diventa 108-18=90 kt, e il tempo necessario per percorrere le stesse 45 NM è 45/90×60 = 30 minuti. Le opzioni 20 e 25 minuti ignorano l'effetto frenante del vento frontale, mentre 35 minuti sovrastima l'effetto del vento oltre il valore reale di 18 kt indicato."
         },
         {
           "n": 292,
@@ -20509,7 +20534,8 @@
             "FL 105"
           ],
           "correct": 0,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Convertendo la rotta vera in rotta magnetica (per applicare la regola semicircolare VFR, basata sulla rotta magnetica): TC vero 185° - declinazione 9°E = 176° di rotta magnetica, che ricade nell'intervallo 000°-179°, per cui la regola ICAO prevede livelli di volo dispari +500 ft (es. FL035, FL055, FL075...). Tra i livelli elencati, il più basso compatibile è FL075 (7.500 ft, dispari+500). Le opzioni FL085, FL095 e FL105 sono livelli pari+500, riservati alle rotte magnetiche comprese tra 180° e 359°, quindi non applicabili alla rotta magnetica di 176° di questo caso."
         },
         {
           "n": 293,
@@ -20522,7 +20548,8 @@
             "tutte le risposte precedenti"
           ],
           "correct": 3,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Il calcolo del carburante necessario per un volo deve tenere conto simultaneamente di più fattori: il vento (che influenza la GS e quindi il tempo di volo), gli altri elementi meteorologici (che incidono su prestazioni e consumi), e i ritardi prevedibili e non prevedibili (riserva di sicurezza per imprevisti come traffico o meteo in peggioramento); nessuno di questi fattori da solo è sufficiente, motivo per cui la risposta corretta è la combinazione di tutti loro. Le opzioni singole sono incomplete perché considerano un solo aspetto del calcolo, ignorando gli altri fattori altrettanto rilevanti."
         },
         {
           "n": 294,
@@ -20535,7 +20562,8 @@
             "no, riducendo la potenza in modo da consumare 24 l/h la riserva non è toccata"
           ],
           "correct": 0,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Il carburante necessario per completare la tratta rimanente (1h30min) al consumo di crociera di 30 l/h è 1,5×30=45 litri; sommando la riserva minima di 23 litri, il fabbisogno totale è 45+23=68 litri. Avendo a disposizione solo 60 litri, il deficit rispetto al fabbisogno con riserva intatta è 68-60=8 litri: la riserva viene quindi intaccata per 8 litri. Le altre opzioni non tengono conto correttamente del bilancio tra carburante disponibile e fabbisogno totale (tratta+riserva), oppure introducono un'azione (riduzione potenza) non implicita nei dati del quesito."
         },
         {
           "n": 295,
@@ -20548,7 +20576,8 @@
             "35 l"
           ],
           "correct": 0,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Dopo 2 ore di volo resta 1 ora di tratta, che richiede 30 l al consumo dato; il 30% in più su questo valore è 30×1,3=39 l, mentre l'alternativa dei 45 minuti equivale a 0,75×30=22,5 l. Il criterio prevede di usare il valore maggiore tra i due, quindi il carburante minimo richiesto residuo dopo due ore di volo è 39 litri. Le altre opzioni derivano da un calcolo improprio, come sommare il carburante di rullaggio, usare il tempo di volo totale anziché quello rimanente, o confrontare erroneamente i due criteri di riserva."
         },
         {
           "n": 296,
@@ -20561,7 +20590,8 @@
             "119 l; 3h 30min"
           ],
           "correct": 1,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Il peso massimo di carburante imbarcabile è determinato dalla differenza tra MTOW e peso a vuoto operativo (1300-1220=80 kg), convertita in volume tramite il peso specifico della benzina (0,72 kg/l); da questo volume si sottrae il carburante di rullaggio (5 l) per ottenere il carburante disponibile per il volo, e l'autonomia risultante si ottiene dividendo questo valore per il consumo orario di crociera (38 l/h), tenendo poi conto della riserva di 45 minuti come franchigia minima non intaccabile. Le altre opzioni derivano da arrotondamenti diversi in una o più di queste fasi (margine di peso, conversione in volume, sottrazione del rullaggio, calcolo del tempo di riserva)."
         },
         {
           "n": 297,
@@ -20574,7 +20604,8 @@
             "1h 06min"
           ],
           "correct": 1,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Il consumo orario si ricava dal trip fuel e dal tempo di volo previsto: 50 l ÷ 1h35min (1,5833 h) ≈ 31,6 l/h. Il carburante disponibile per il volo, al netto del rullaggio, è 90-5=85 l; l'autonomia risultante da indicare nel piano di volo è quindi 85/31,6 ≈ 2,69 h, cioè 2h 41min. Le altre opzioni derivano da errori come l'uso diretto del tempo di volo pianificato (che è solo la tratta prevista, non l'autonomia totale disponibile) o calcoli che non sottraggono correttamente il carburante di rullaggio dal totale imbarcato."
         }
       ]
     },
@@ -24709,7 +24740,8 @@
             "il piano con l'orario effettivo di partenza"
           ],
           "correct": 0,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Il \"piano di volo in vigore\" è il piano di volo originariamente depositato, aggiornato con tutti gli emendamenti successivi e le autorizzazioni ATC ricevute durante l'esecuzione del volo (variazioni di rotta, quota o orario autorizzate dal controllo), non semplicemente il documento originale invariato. L'opzione \"senza alcun cambiamento\" ignora che il piano evolve con le autorizzazioni ricevute in tempo reale. L'opzione sull'orario effettivo di partenza descrive solo un singolo dato, non l'insieme aggiornato dell'intero piano di volo."
         },
         {
           "n": 295,
@@ -24722,7 +24754,8 @@
             "l'orario di registrazione del piano di volo"
           ],
           "correct": 0,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "L'orario di partenza indicato nel piano di volo depositato prima del volo è l'EOBT (Estimated Off-Block Time), il dato standard richiesto nel modulo di piano di volo ICAO. Il decollo effettivo è un orario successivo e diverso, registrato solo a posteriori. La verticale del primo punto di riporto riguarda un momento successivo della rotta, non la partenza. L'orario di registrazione del piano di volo è quando il piano viene depositato presso l'ente ATS, un momento amministrativo distinto dall'EOBT stimato per il volo."
         },
         {
           "n": 296,
@@ -24735,7 +24768,8 @@
             "N0100"
           ],
           "correct": 2,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Il campo velocità di crociera del piano di volo ICAO (item 15) richiede la TAS (True Airspeed) di crociera, espressa in nodi con prefisso \"N\" (K per km/h, M per Mach); la IAS non è il dato richiesto, né una velocità media che tenga conto delle fasi di salita e avvicinamento, poiché il piano di volo si riferisce alla velocità di crociera in rotta. Con TAS=110 kt, il formato corretto è N0110. L'opzione K0090 usa erroneamente l'unità km/h e il valore medio; K0110 usa l'unità sbagliata pur con il valore numerico corretto; N0100 usa erroneamente la IAS al posto della TAS."
         },
         {
           "n": 297,
@@ -24748,7 +24782,8 @@
             "Ufficio locale per la supervisione aerea."
           ],
           "correct": 1,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Quando un volo con piano di volo depositato atterra in un aeroporto diverso da quello di destinazione previsto, il pilota deve avvisare immediatamente il Servizio Informazioni Aeronautiche (AIS) competente (o l'ARO, spesso funzionalmente integrato con l'AIS), affinché il piano di volo venga chiuso correttamente ed evitare l'attivazione delle procedure di allarme/ricerca e soccorso per un aeromobile ritenuto ancora in volo o disperso. Il dipartimento di polizia non è l'ente preposto alla gestione dei piani di volo. Il \"manager di volo in servizio\" e l'\"ufficio locale per la supervisione aerea\" non sono enti ATS riconosciuti con questa specifica responsabilità."
         },
         {
           "n": 298,
@@ -24761,7 +24796,8 @@
             "Su richiesta dell'ATC."
           ],
           "correct": 1,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "Da un aeroporto non controllato non è presente un ente ATC locale in grado di registrare l'orario di decollo in tempo reale; per questo la normativa prevede che il pilota trasmetta l'orario effettivo del decollo all'ente ATS competente non appena possibile subito dopo il decollo stesso, in modo che il piano di volo venga correttamente attivato e monitorato. L'opzione sulla deviazione di 15 minuti riguarda un'altra procedura (la cancellazione automatica del piano se non attivato entro un certo ritardo). \"Quando l'atterraggio è assicurato\" riguarda la chiusura del piano, non la sua attivazione. \"Su richiesta dell'ATC\" è errato perché l'iniziativa spetta al pilota."
         }
       ]
     },
@@ -27135,7 +27171,8 @@
             "la componente orizzontale della spinta è uguale alla somma della resistenza e della gravità."
           ],
           "correct": 1,
-          "src": "quizppl"
+          "src": "quizppl",
+          "explanation": "In un volo senza accelerazione la risultante delle forze è nulla lungo ogni asse: scomponendo la spinta nelle sue componenti verticale e orizzontale, la componente verticale della spinta contribuisce, insieme alla portanza, a equilibrare il peso, mentre la componente orizzontale della spinta equilibra la resistenza aerodinamica lungo la traiettoria di volo; questa è l'unica scomposizione coerente tra le quattro proposte, che accoppia correttamente ciascuna componente di spinta con la forza sul medesimo asse. Le altre opzioni invertono gli accoppiamenti o sommano impropriamente resistenza e gravità su un unico asse, scomposizioni fisicamente incoerenti per l'equilibrio di un volo stazionario."
         }
       ]
     },
