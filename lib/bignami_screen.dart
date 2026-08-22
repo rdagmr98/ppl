@@ -172,7 +172,7 @@ class BignamiScreen extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(4, 8, 4, 0),
             child: Text(
-              "Estratto dai pattern ricorrenti nel database di 2273 domande ufficiali ENAC/EASA PPL(A) — uso come promemoria, non come unica fonte di studio.",
+              "Estratto dai pattern ricorrenti nel database di 2310 domande ufficiali ENAC/EASA PPL(A) — uso come promemoria, non come unica fonte di studio.",
               style: TextStyle(fontSize: 10.5),
             ),
           ),

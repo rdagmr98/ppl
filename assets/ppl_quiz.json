@@ -1,7 +1,7 @@
 {
   "source": "tastoeffeuno.it + quizvds.it - pool ufficiale ENAC/EASA PPL(A)",
   "generated": "2026-06-28",
-  "total": 2273,
+  "total": 2310,
   "subjects": [
     {
       "parte": 1,
@@ -6753,7 +6753,7 @@
     {
       "parte": 3,
       "name": "Prestazioni di volo e pianificazione",
-      "count": 230,
+      "count": 253,
       "questions": [
         {
           "n": 1,
@@ -9979,6 +9979,305 @@
           "correct": 2,
           "src": "quizvds",
           "explanation": "La combinazione di Manifold Pressure e RPM, sui motori a passo variabile, permette di impostare con precisione una percentuale di potenza (ad esempio 65% o 75%), un dato usato nelle tabelle di crociera per pianificare consumo di carburante e TAS attesa. (opzione A) attribuisce a questi parametri motoristici un legame con la velocità di stallo, che dipende invece dal peso e dalla configurazione aerodinamica dell'aereo, non dalla combinazione MP/RPM. (opzione B) è priva di fondamento: MP e RPM sono parametri motoristici meccanici, senza relazione con la misura elettrica del voltaggio dell'alternatore. (opzione D) confonde la funzione di MP/RPM (impostare la potenza) con il calcolo della Density Altitude, che dipende invece da pressione, temperatura e quota, non dai parametri del motore impostati dal pilota."
+        },
+        {
+          "n": 231,
+          "gid": 200890,
+          "q": "L'angolo di salita con i flap estesi, paragonato a quello con i flap retratti, normalmente sarà:",
+          "options": [
+            "più grande",
+            "più piccolo",
+            "non cambia",
+            "aumenta con i flap nelle posizioni iniziali, diminuisce successivamente"
+          ],
+          "correct": 1,
+          "src": "quizppl"
+        },
+        {
+          "n": 232,
+          "gid": 200891,
+          "q": "Che effetto ha il vento in coda sulla velocità di massima autonomia?",
+          "options": [
+            "la IAS aumenterà",
+            "il vento in coda varia solo la velocità di holding",
+            "nessun effetto",
+            "la IAS diminuirà"
+          ],
+          "correct": 2,
+          "src": "quizppl"
+        },
+        {
+          "n": 233,
+          "gid": 200892,
+          "q": "Come varia la trazione dell'elica durante il decollo?",
+          "options": [
+            "non c'è cambiamento durante il decollo e la salita",
+            "aumenta a mano che la velocità dell'aereo aumenta",
+            "varia solo in dipendenza del peso dell'aereo",
+            "diminuisce a mano che la velocità dell'aereo aumenta"
+          ],
+          "correct": 3,
+          "src": "quizppl"
+        },
+        {
+          "n": 234,
+          "gid": 200893,
+          "q": "Qual è l'effetto più importante del secondo regime?",
+          "options": [
+            "la velocità non è stabile",
+            "l'aereo non può stallare",
+            "la quota non può essere mantenuta",
+            "il timone di profondità deve essere tirato per abbassare il muso"
+          ],
+          "correct": 0,
+          "src": "quizppl"
+        },
+        {
+          "n": 235,
+          "gid": 200894,
+          "q": "Qual è l'effetto di peso maggiore sulla prestazione di un aereo in planata:",
+          "options": [
+            "non c'è cambiamento",
+            "la velocità per il miglior angolo di discesa aumenta",
+            "l'angolo di planata diminuisce",
+            "il rapporto portanza resistenza diminuisce"
+          ],
+          "correct": 1,
+          "src": "quizppl"
+        },
+        {
+          "n": 236,
+          "gid": 200895,
+          "q": "La resistenza indotta di un aereo in volo orizzontale stabilizzato è la più alta alla:",
+          "options": [
+            "più bassa velocità in una data configurazione",
+            "VS1",
+            "VNO",
+            "VA"
+          ],
+          "correct": 0,
+          "src": "quizppl"
+        },
+        {
+          "n": 237,
+          "gid": 200896,
+          "q": "Il risultato di un'estrazione dei flap maggiore dell'ottimale al decollo è:",
+          "options": [
+            "una maggiore accelerazione",
+            "una corsa al suolo più breve",
+            "una Vr più alta",
+            "una corsa al suolo più lunga"
+          ],
+          "correct": 1,
+          "src": "quizppl"
+        },
+        {
+          "n": 238,
+          "gid": 200897,
+          "q": "La velocità di stallo, o velocità minima a cui l'aereo in configurazione di atterraggio è controllabile, è indicata come:",
+          "options": [
+            "VMC",
+            "VS1",
+            "VS",
+            "VS0"
+          ],
+          "correct": 3,
+          "src": "quizppl"
+        },
+        {
+          "n": 239,
+          "gid": 200898,
+          "q": "Una diminuzione della pressione atmosferica ha, tra l'altro, le seguenti conseguenze sulla prestazioni di decollo:",
+          "options": [
+            "un aumento della distanza di decollo ed un miglioramento della salita iniziale",
+            "una riduzione della distanza di decollo e un miglioramento della salita iniziale",
+            "un aumento della distanza di decollo e un peggioramento della salita iniziale",
+            "una riduzione della distanza di decollo e un peggioramento della salita iniziale"
+          ],
+          "correct": 2,
+          "src": "quizppl"
+        },
+        {
+          "n": 240,
+          "gid": 200899,
+          "q": "La distanza di decollo di un aereo è 600 m in condizioni ISA a MSL e calma di vento. Qual è la distanza in un aeroporto a 1000 ft, con T=17°C, QNH 1013,25 hPa, pendenza pista 1% in salita, vento in coda 10 kt? Fattori correttivi: +/- 20 m/1000 ft elevazione campo; +10 m/kt vento in coda, -5 m/kt vento frontale; +/- 15 m/% pendenza di pista; +/- 5 m/°C deviazione da ISA.",
+          "options": [
+            "555 m",
+            "685 m",
+            "715 m",
+            "755 m"
+          ],
+          "correct": 3,
+          "src": "quizppl"
+        },
+        {
+          "n": 241,
+          "gid": 200903,
+          "q": "Un aereo decolla da un aeroporto che ha una elevazione di 1000 ft e intende salire sino a FL85. Quanto deve salire se il QNH è 1.023 hPa (1 hPa = 30 ft).",
+          "options": [
+            "7200 ft",
+            "7500 ft",
+            "7800 ft",
+            "8800 ft"
+          ],
+          "correct": 2,
+          "src": "quizppl"
+        },
+        {
+          "n": 242,
+          "gid": 200913,
+          "q": "Il carico deve essere adeguatamente fissato per...",
+          "options": [
+            "consentire curve ripide.",
+            "prevenire un eccessivo carico di 'g' durante l'atterraggio.",
+            "trasportare carburante extra.",
+            "evitare spostamenti non voluti del baricentro (C.G.)."
+          ],
+          "correct": 3,
+          "src": "quizppl"
+        },
+        {
+          "n": 243,
+          "gid": 200914,
+          "q": "Il bagaglio e il carico devono essere adeguatamente stivati e allacciati, altrimenti uno spostamento del carico può causare...",
+          "options": [
+            "danni strutturali, stabilità dell'angolo di attacco, stabilità della velocità.",
+            "volo incontrollabile, danni strutturali, rischio di infortuni.",
+            "instabilità calcolabile se il C.G. si sta spostando di meno del 10%.",
+            "fasi e manovre di volo impreviste che possono essere corrette dal pilota tramite i comandi di volo."
+          ],
+          "correct": 1,
+          "src": "quizppl"
+        },
+        {
+          "n": 244,
+          "gid": 200915,
+          "q": "Il risultato di avere un C.G. frontale:",
+          "options": [
+            "2, 3, 4",
+            "1, 2",
+            "2, 4",
+            "1, 2, 3"
+          ],
+          "correct": 3,
+          "src": "quizppl"
+        },
+        {
+          "n": 245,
+          "gid": 200916,
+          "q": "Un aeromobile deve essere caricato e utilizzato in modo tale che il centro di gravità (CG) rimane entro i limiti approvati durante tutte le fasi del volo. Questo viene fatto per garantire...",
+          "options": [
+            "stabilità e controllabilità del velivolo.",
+            "che l'aeromobile non superi la velocità massima consentita durante una discesa.",
+            "che l'aereo non vada in stallo.",
+            "che l'aereo non si ribalti sulla coda durante il caricamento."
+          ],
+          "correct": 0,
+          "src": "quizppl"
+        },
+        {
+          "n": 246,
+          "gid": 200917,
+          "q": "Il baricentro (C.G.) deve essere posizionato...",
+          "options": [
+            "dietro al limite posteriore del C.G.",
+            "a destra del limite laterale del C.G.",
+            "in mezzo al limite frontale e posteriore del C.G.",
+            "davanti al limite frontale del C.G."
+          ],
+          "correct": 2,
+          "src": "quizppl"
+        },
+        {
+          "n": 247,
+          "gid": 200918,
+          "q": "Il superamento della massa massima consentita dell'aeromobile è...",
+          "options": [
+            "rilevante solo se la franchigia è superiore al 10%.",
+            "eccezionalmente ammissibile per evitare ritardi.",
+            "compensato dall'appropriato controllo del pilota dei comandi.",
+            "non ammissibile e sostanzialmente pericoloso."
+          ],
+          "correct": 3,
+          "src": "quizppl"
+        },
+        {
+          "n": 248,
+          "gid": 200921,
+          "q": "Dati: Massa calcolata al decollo = 746 kg, CG = 37,1 cm, consumo di carburante = 30,5 l su stazione 45 cm. Dove si trova il C.G. dopo l'atterraggio?",
+          "options": [
+            "37.5 cm",
+            "36.3 cm",
+            "36.9 cm",
+            "37.2 cm"
+          ],
+          "correct": 2,
+          "src": "quizppl"
+        },
+        {
+          "n": 249,
+          "gid": 200922,
+          "q": "Massa calcolata al decollo = 2300 lbs, C.G. calcolato = 95,75 in, consumo di carburante = 170 lbs a 87,00 in. Dove si trova il C.G. dopo l'atterraggio?",
+          "options": [
+            "96.57 in",
+            "96.45 in",
+            "97.39 in",
+            "94.11 in"
+          ],
+          "correct": 1,
+          "src": "quizppl"
+        },
+        {
+          "n": 250,
+          "gid": 200923,
+          "q": "Quale sezione del manuale di volo riporta la massa a vuoto di base di un aeromobile?",
+          "options": [
+            "Limitations",
+            "Normal procedures",
+            "Performance",
+            "Weight and balance"
+          ],
+          "correct": 3,
+          "src": "quizppl"
+        },
+        {
+          "n": 251,
+          "gid": 200924,
+          "q": "Quando ci si prepara ad eseguire la procedura di pesatura di un aeromobile, bisogna:",
+          "options": [
+            "Rimuovere le batterie.",
+            "Rimuovere l'attrezzatura di servizio.",
+            "Scaricare tutto l'olio dal serbatoio del motore.",
+            "Scaricare tutto il carburante utilizzabile."
+          ],
+          "correct": 3,
+          "src": "quizppl"
+        },
+        {
+          "n": 252,
+          "gid": 200925,
+          "q": "I dati richiesti per un calcolo di mass & balance si trovano nella...",
+          "options": [
+            "documentazione dell'ispezione annuale.",
+            "sezione mass & balance del manuale operativo (POH) dell'aeromobile.",
+            "sezione sulle prestazioni (performance) del manuale operativo (POH) dell'aeromobile.",
+            "certificato di aeronavigabilità."
+          ],
+          "correct": 1,
+          "src": "quizppl"
+        },
+        {
+          "n": 253,
+          "gid": 200926,
+          "q": "Quale massa equivale a 102 litri di Avgas 100LL?",
+          "options": [
+            "74 lbs",
+            "142 lbs",
+            "142 kg",
+            "74 kg"
+          ],
+          "correct": 3,
+          "src": "quizppl"
         }
       ]
     },
@@ -16098,7 +16397,7 @@
     {
       "parte": 6,
       "name": "Navigazione",
-      "count": 289,
+      "count": 297,
       "questions": [
         {
           "n": 1,
@@ -20172,13 +20471,117 @@
           "correct": 0,
           "src": "quizvds",
           "explanation": "L'altimetro barometrico misura la quota sfruttando la diminuzione di pressione con l'altezza, ma è tarato su un'atmosfera standard: in condizioni di bassa pressione reale rispetto allo standard, lo strumento sovrastima la quota effettiva, cioè indica una quota maggiore di quella reale, per questo in navigazione in bassa pressione occorre eccedere e scegliere livelli più alti per mantenere il margine di sicurezza dal terreno. Per questo la risposta corretta è: E' consigliato di eccedere, cioè di scegliere un livello di volo o una altitudine più elevata in quanto in tali condizioni l'altimetro indica più della quota reale e quindi ci troveremmo ad essere più bassi di quanto esso indichi. L'opzione B è errata perché il dato della pressione atmosferica è FONDAMENTALE per la scelta delle altitudini: l'altimetro sottostima la quota in alta pressione e sovrastima in bassa pressione. L'opzione C è errata perché scegliere un livello più BASSO in bassa pressione è pericoloso: l'altimetro indica PIÙ della quota reale, quindi in realtà si è PIÙ BASSI di quanto indicato, il che peggiora la sicurezza. L'opzione D è errata perché l'altimetro è attendibile, ma va interpretato: in bassa pressione indica valori superiori alla quota reale."
+        },
+        {
+          "n": 290,
+          "gid": 200900,
+          "q": "Un aereo vola a 105 kt con un vento in coda di 15 kt. Dopo 20 minuti di volo inverte la rotta per rientrare. Quanto tempo impiegherà per tornare all'aeroporto di partenza?",
+          "options": [
+            "17 minuti",
+            "20 minuti",
+            "23 minuti",
+            "27 minuti"
+          ],
+          "correct": 3,
+          "src": "quizppl"
+        },
+        {
+          "n": 291,
+          "gid": 200901,
+          "q": "La distanza tra i punti A e B è d = 45 NM e lo stimato in assenza di vento è 25 min. Quale sarà lo stimato con un vento frontale di 18 kt?",
+          "options": [
+            "20 min",
+            "25 min",
+            "30 min",
+            "35 min"
+          ],
+          "correct": 2,
+          "src": "quizppl"
+        },
+        {
+          "n": 292,
+          "gid": 200902,
+          "q": "Rotta vera TC= 185°, prua vera TH= 182°, declinazione d= 9°E, qual è il livello di volo VFR ICAO più basso tra quelli elencati?",
+          "options": [
+            "FL 075",
+            "FL 085",
+            "FL 095",
+            "FL 105"
+          ],
+          "correct": 0,
+          "src": "quizppl"
+        },
+        {
+          "n": 293,
+          "gid": 200904,
+          "q": "Nel calcolo del carburante occorre tenere in considerazione vari elementi. Tra quelli elencati qual è la combinazione corretta?",
+          "options": [
+            "il vento",
+            "gli altri elementi meteo",
+            "ritardi prevedibili e non prevedibili",
+            "tutte le risposte precedenti"
+          ],
+          "correct": 3,
+          "src": "quizppl"
+        },
+        {
+          "n": 294,
+          "gid": 200905,
+          "q": "Verificando gli indicatori del carburante notate che ci sono ancora 60 litri. La riserva minima che avete previsto è 23 litri (45 minuti). Il tempo rimanente per arrivare a destinazione è 1h 30 min. Se il consumo alla potenza di crociera è 30 l/h, intaccherete la riserva?",
+          "options": [
+            "si per 8 litri",
+            "rimangono 15 litri",
+            "no, rimangono 30 min di autonomia",
+            "no, riducendo la potenza in modo da consumare 24 l/h la riserva non è toccata"
+          ],
+          "correct": 0,
+          "src": "quizppl"
+        },
+        {
+          "n": 295,
+          "gid": 200906,
+          "q": "Dati: tempo di volo 3 ore, consumo orario 30 l/h, carburante imbarcato 120 litri, carburante per il rullaggio 3 litri. Se la riserva minima dev'essere sempre il 30% in più rispetto al carburante necessario per il tempo di volo rimanente, o 45 minuti quale delle due è maggiore, il carburante minimo dopo due ore di volo è:",
+          "options": [
+            "39 l",
+            "57 l",
+            "53 l",
+            "35 l"
+          ],
+          "correct": 0,
+          "src": "quizppl"
+        },
+        {
+          "n": 296,
+          "gid": 200907,
+          "q": "Il peso dell'aereo carico ma senza carburante è 1.220 kg, il MTOW (maximum take-off weight) è 1.300 kg. Il consumo in crociera è 38 l/h, il carburante per il rullaggio è 5 l. Quanta benzina si può caricare (peso specifico benzina = 0,72 kg/l) e qual è l'autonomia risultante con 45 minuti di riserva?",
+          "options": [
+            "80 l; 2h 6min",
+            "116 l; 2h 7 min",
+            "111 l; 2h 21min",
+            "119 l; 3h 30min"
+          ],
+          "correct": 1,
+          "src": "quizppl"
+        },
+        {
+          "n": 297,
+          "gid": 200911,
+          "q": "Se i consumi previsti e il carburante imbarcato sono: trip fuel 50 litri, taxi fuel 5 litri, carburante 90 litri, tempo di volo 1 hr 35 min. Quale autonomia va indicata nel piano di volo?",
+          "options": [
+            "1h 35min",
+            "2h 41min",
+            "2h 20min",
+            "1h 06min"
+          ],
+          "correct": 1,
+          "src": "quizppl"
         }
       ]
     },
     {
       "parte": 7,
       "name": "Procedure operative",
-      "count": 293,
+      "count": 298,
       "questions": [
         {
           "n": 1,
@@ -24295,13 +24698,77 @@
           "correct": 1,
           "src": "quizvds",
           "explanation": "Su un terreno morbido, al contatto e durante la corsa di arresto è corretto evitare di frenare a fondo, per il rischio di cappottamento dovuto all'affondamento delle ruote nel terreno cedevole, e mantenere la barra tirata indietro per alleggerire il carico sul ruotino/gambo anteriore (opzione B). Le altre risposte sono errate: l'opzione A (frenare a fondo immediatamente) è proprio la manovra che espone al cappottamento su terreno cedevole; l'opzione C (frenare in modo alternato per lo slittamento laterale) non è la tecnica corretta su fondo morbido, dove il rischio principale è il cappottamento, non lo slittamento; l'opzione D (ritrarre subito i flap e frenare bruscamente) aumenta il rischio, riducendo la portanza residua e frenando bruscamente proprio quando andrebbe evitato."
+        },
+        {
+          "n": 294,
+          "gid": 200908,
+          "q": "Il piano di volo in vigore è:",
+          "options": [
+            "il piano registrato con inclusi emendamenti ed autorizzazioni ATC",
+            "il piano registrato senza alcun cambiamento",
+            "il piano con l'orario effettivo di partenza"
+          ],
+          "correct": 0,
+          "src": "quizppl"
+        },
+        {
+          "n": 295,
+          "gid": 200909,
+          "q": "L'orario della partenza nel piano di volo registrato prima del volo è:",
+          "options": [
+            "l'EOBT",
+            "il decollo",
+            "la verticale del primo punto di riporto",
+            "l'orario di registrazione del piano di volo"
+          ],
+          "correct": 0,
+          "src": "quizppl"
+        },
+        {
+          "n": 296,
+          "gid": 200910,
+          "q": "Un aereo in crociera ha una IAS di 100 kt, una TAS di 110 kt, ed una velocità media tenendo conto di salita e avvicinamento di 90 kt. Come dev'essere indicata la velocità nel piano di volo ICAO?",
+          "options": [
+            "K0090",
+            "K0110",
+            "N0110",
+            "N0100"
+          ],
+          "correct": 2,
+          "src": "quizppl"
+        },
+        {
+          "n": 297,
+          "gid": 200919,
+          "q": "Durante un volo con un piano di volo presentato, l'atterraggio viene effettuato in un aeroporto diverso rispetto alla destinazione indicata nel piano di volo compilato. Chi, o quale ente dovrà essere contattato/a immediatamente dal pilota?",
+          "options": [
+            "Il dipartimento di polizia.",
+            "Servizio Informazioni Aeronautiche (AIS).",
+            "Il manager di volo in servizio.",
+            "Ufficio locale per la supervisione aerea."
+          ],
+          "correct": 1,
+          "src": "quizppl"
+        },
+        {
+          "n": 298,
+          "gid": 200920,
+          "q": "È stato presentato un piano di volo per un volo in partenza da un aeroporto non controllato. Quando verrà trasmesso all'ATC l'orario effettivo del decollo?",
+          "options": [
+            "In caso di deviazione dal tempo previsto fuori dal blocco di più di 15 min.",
+            "Subito dopo il decollo.",
+            "Quando l'atterraggio è assicurato.",
+            "Su richiesta dell'ATC."
+          ],
+          "correct": 1,
+          "src": "quizppl"
         }
       ]
     },
     {
       "parte": 8,
       "name": "Principi del volo",
-      "count": 170,
+      "count": 171,
       "questions": [
         {
           "n": 1,
@@ -26656,6 +27123,19 @@
           "correct": 3,
           "src": "quizvds",
           "explanation": "Le rotazioni attorno all'asse trasversale (beccheggio) sono comandate dal timone di profondità, posto sull'impennaggio orizzontale. Le altre risposte sono errate: \"alettoni\" comandano il rollio sull'asse longitudinale; \"timone di direzione\" comanda l'imbardata sull'asse verticale; \"motore\" non comanda direttamente alcuna rotazione, salvo effetti secondari sull'assetto."
+        },
+        {
+          "n": 171,
+          "gid": 200912,
+          "q": "Durante un volo senza accelerazione...",
+          "options": [
+            "la componente verticale della spinta è uguale alla componente orizzontale della spinta e la resistenza è uguale alla gravità.",
+            "la componente verticale della spinta è uguale alla gravità e la componente orizzontale della spinta è uguale alla resistenza.",
+            "la componente verticale della spinta è uguale alla resistenza e la componente orizzontale della spinta è uguale alla gravità.",
+            "la componente orizzontale della spinta è uguale alla somma della resistenza e della gravità."
+          ],
+          "correct": 1,
+          "src": "quizppl"
         }
       ]
     },
