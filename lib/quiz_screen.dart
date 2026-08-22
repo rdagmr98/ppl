@@ -264,14 +264,16 @@ class _QuizScreenState extends State<QuizScreen> {
                             state: _stateFor(i),
                             onTap: () => _onTap(i),
                           ),
+                        PplNativeAd(
+                          adUnitId: AdIds.nativeAnswer,
+                          reloadKey: _q.gid,
+                        ),
                         if (showExplanation && _q.explanation != null) ...[
                           const SizedBox(height: 4),
                           _ExplanationBox(text: _q.explanation!),
-                        ],
-                        if (showExplanation) ...[
                           PplNativeAd(
                             adUnitId: AdIds.nativeAnswer,
-                            reloadKey: _q.gid,
+                            reloadKey: '${_q.gid}-exp',
                           ),
                         ],
                       ],

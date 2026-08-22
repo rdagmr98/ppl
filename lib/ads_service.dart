@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
@@ -76,8 +77,12 @@ class PplNativeAd extends StatefulWidget {
 }
 
 class _PplNativeAdState extends State<PplNativeAd> {
+  static const _maxRetries = 3;
+
   NativeAd? _ad;
   bool _loaded = false;
+  int _retries = 0;
+  Timer? _retryTimer;
 
   @override
   void initState() {
@@ -89,6 +94,8 @@ class _PplNativeAdState extends State<PplNativeAd> {
   void didUpdateWidget(PplNativeAd old) {
     super.didUpdateWidget(old);
     if (!kIsWeb && old.reloadKey != widget.reloadKey) {
+      _retryTimer?.cancel();
+      _retries = 0;
       _ad?.dispose();
       _ad = null;
       _loaded = false;
@@ -112,13 +119,23 @@ class _PplNativeAdState extends State<PplNativeAd> {
             _loaded = true;
           });
         },
-        onAdFailedToLoad: (ad, error) => ad.dispose(),
+        onAdFailedToLoad: (ad, error) {
+          ad.dispose();
+          // no-fill/errore transitorio: qualche ritentativo con backoff prima
+          // di arrendersi, altrimenti un solo fallimento lascia lo spazio vuoto
+          // per tutta la durata dello schermo.
+          if (_retries < _maxRetries && mounted) {
+            _retries++;
+            _retryTimer = Timer(Duration(seconds: 10 * _retries), _load);
+          }
+        },
       ),
     ).load();
   }
 
   @override
   void dispose() {
+    _retryTimer?.cancel();
     _ad?.dispose();
     super.dispose();
   }
