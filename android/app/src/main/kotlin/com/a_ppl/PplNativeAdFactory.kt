@@ -1,4 +1,4 @@
-package com.ardia.ppl_quiz
+package com.a_ppl
 
 import android.graphics.Color
 import android.view.LayoutInflater
