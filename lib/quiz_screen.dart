@@ -281,6 +281,10 @@ class _QuizScreenState extends State<QuizScreen> {
                   ),
                 ),
                 _bottomBar(showExplanation, theme),
+                const Padding(
+                  padding: EdgeInsets.only(top: 4, bottom: 6),
+                  child: Center(child: PplBannerAd()),
+                ),
               ],
             ),
           ),
