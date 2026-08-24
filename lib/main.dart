@@ -110,7 +110,20 @@ class _HomeScreenState extends State<HomeScreen> {
         color: const Color(0xFFFFB300),
         title: 'Allenamento rapido',
         subtitle: '30 quesiti',
-        onTap: () => _start(buildMixed(db, 30), 'Allenamento rapido'),
+        onTap: () => showModalBottomSheet(
+          context: context,
+          backgroundColor: Theme.of(context).colorScheme.surfaceContainerHigh,
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+          ),
+          builder: (_) => _QuickTrainingSheet(
+            onStart: (includeEnglish) {
+              Navigator.pop(context);
+              _start(buildMixed(db, 30, includeEnglish: includeEnglish),
+                  'Allenamento rapido');
+            },
+          ),
+        ),
       ),
       _ModeCard(
         icon: Icons.menu_book,
@@ -155,7 +168,7 @@ class _HomeScreenState extends State<HomeScreen> {
         icon: Icons.explore,
         color: const Color(0xFFEF6C00),
         title: 'Bignami PPL(A)',
-        subtitle: 'Formule e regole, offline',
+        subtitle: 'Formule e regole',
         onTap: () => Navigator.of(context).push(
           MaterialPageRoute(builder: (_) => const BignamiScreen()),
         ),
@@ -236,6 +249,53 @@ class _ErrorsCard extends StatelessWidget {
 }
 
 /// Bottom sheet con tre opzioni per il ripasso errori.
+/// Sheet di scelta prima di "Allenamento rapido": permette di includere o
+/// escludere le domande di fonia EN (parte 10) dal pool misto.
+class _QuickTrainingSheet extends StatefulWidget {
+  final void Function(bool includeEnglish) onStart;
+  const _QuickTrainingSheet({required this.onStart});
+
+  @override
+  State<_QuickTrainingSheet> createState() => _QuickTrainingSheetState();
+}
+
+class _QuickTrainingSheetState extends State<_QuickTrainingSheet> {
+  bool _includeEnglish = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text('Allenamento rapido',
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 12),
+            SwitchListTile(
+              contentPadding: EdgeInsets.zero,
+              title: const Text('Includi fonia EN'),
+              subtitle: const Text('Domande di radiotelefonia in inglese'),
+              value: _includeEnglish,
+              onChanged: (v) => setState(() => _includeEnglish = v),
+            ),
+            const SizedBox(height: 12),
+            SizedBox(
+              width: double.infinity,
+              child: FilledButton(
+                onPressed: () => widget.onStart(_includeEnglish),
+                child: const Text('Inizia'),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
 class _ErrorPickerSheet extends StatelessWidget {
   final QuizDb db;
   const _ErrorPickerSheet({required this.db});
@@ -680,7 +740,7 @@ class _ModeCard extends StatelessWidget {
                   color: color.withValues(alpha: 0.18),
                   borderRadius: BorderRadius.circular(13),
                 ),
-                child: Icon(icon, color: color, size: 24),
+                child: Icon(icon, color: color, size: 34),
               ),
               const SizedBox(height: 10),
               Text(
@@ -695,7 +755,7 @@ class _ModeCard extends StatelessWidget {
               Text(
                 subtitle,
                 textAlign: TextAlign.center,
-                maxLines: 1,
+                maxLines: 2,
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
                     fontSize: 11.5, color: theme.colorScheme.onSurfaceVariant),
@@ -750,7 +810,8 @@ class SubjectPickerScreen extends StatelessWidget {
                       FilledButton.tonal(
                         onPressed: () =>
                             onStart(buildStudy(s, limit: c), s.name),
-                        child: Text('$c domande'),
+                        child: Text(
+                            c == examCount ? '$c domande (esame)' : '$c domande'),
                       ),
                     if (examCount != null &&
                         examCount < s.questions.length &&

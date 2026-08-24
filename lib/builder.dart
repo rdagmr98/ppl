@@ -51,10 +51,12 @@ List<Question> buildStudy(Subject subject, {int? limit}) {
 }
 
 /// Allenamento misto: N domande casuali da tutte le materie.
-List<Question> buildMixed(QuizDb db, int count) {
+/// [includeEnglish] controlla se includere la fonia EN (parte 10).
+List<Question> buildMixed(QuizDb db, int count, {bool includeEnglish = true}) {
   final rnd = Random();
   final all = <Question>[];
   for (final s in db.subjects) {
+    if (!includeEnglish && s.parte == 10) continue;
     all.addAll(s.questions);
   }
   final pool = _prioritizeUnseen(all, rnd);
