@@ -11,6 +11,7 @@ class Question {
   final int parte; // materia di appartenenza
   final String? fig; // riferimento figura (assets/figures/<fig>.webp), se presente
   final String? explanation; // spiegazione della risposta, se disponibile
+  final bool calc; // domanda di calcolo (QDR, RILPO, peso, carburante, TC/CH, deriva, ecc.)
 
   const Question({
     required this.gid,
@@ -21,6 +22,7 @@ class Question {
     required this.parte,
     this.fig,
     this.explanation,
+    this.calc = false,
   });
 
   factory Question.fromJson(Map<String, dynamic> j, int parte) => Question(
@@ -32,6 +34,7 @@ class Question {
         parte: parte,
         fig: j['fig'] as String?,
         explanation: j['explanation'] as String?,
+        calc: j['calc'] == true,
       );
 }
 
@@ -85,6 +88,14 @@ class QuizDb {
         .map((e) => Subject.fromJson(e as Map<String, dynamic>))
         .toList()
       ..sort((a, b) => a.parte.compareTo(b.parte));
+    final calcQuestions = [
+      for (final s in subs)
+        for (final q in s.questions)
+          if (q.calc) q,
+    ];
+    if (calcQuestions.isNotEmpty) {
+      subs.add(Subject(parte: 99, name: 'Calcoli', questions: calcQuestions));
+    }
     return QuizDb(
       source: (j['source'] ?? '') as String,
       generated: (j['generated'] ?? '') as String,
@@ -125,4 +136,5 @@ const Map<int, String> subjectNames = {
   8: 'Principi del volo',
   9: 'Comunicazioni (italiano)',
   10: 'Comunicazioni in inglese',
+  99: 'Calcoli',
 };

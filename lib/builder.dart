@@ -56,6 +56,7 @@ List<Question> buildMixed(QuizDb db, int count, {bool includeEnglish = true}) {
   final rnd = Random();
   final all = <Question>[];
   for (final s in db.subjects) {
+    if (s.parte == 99) continue; // Calcoli: duplicherebbe domande gia' nella materia reale
     if (!includeEnglish && s.parte == 10) continue;
     all.addAll(s.questions);
   }
@@ -67,6 +68,7 @@ List<Question> buildMixed(QuizDb db, int count, {bool includeEnglish = true}) {
 List<Question> buildErrors(QuizDb db) {
   final result = <Question>[];
   for (final s in db.subjects) {
+    if (s.parte == 99) continue; // Calcoli: duplicherebbe domande gia' nella materia reale
     for (final q in s.questions) {
       if (SeenService.hasWrong(q.gid)) result.add(q);
     }
@@ -79,6 +81,7 @@ List<Question> buildErrors(QuizDb db) {
 List<Question> buildErrorsUnseen(QuizDb db, {int? limit}) {
   final result = <Question>[];
   for (final s in db.subjects) {
+    if (s.parte == 99) continue; // Calcoli: duplicherebbe domande gia' nella materia reale
     for (final q in s.questions) {
       if (SeenService.hasWrong(q.gid) && !SeenService.hasBeenRetried(q.gid)) {
         result.add(q);
