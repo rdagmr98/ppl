@@ -14,7 +14,7 @@ class AdIds {
   /// Ottenerlo da logcat/Logcat Android Studio al primo avvio: cercare la
   /// riga "Use RequestConfiguration.Builder().setTestDeviceIds(...)".
   static const testDeviceIds = <String>[
-    // 'INCOLLA_QUI_HASH_DEVICE_ID',
+    'A835DE9577FDF95568FD8B5472340DB4',
   ];
 }
 
