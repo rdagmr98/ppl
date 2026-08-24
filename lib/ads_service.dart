@@ -8,6 +8,14 @@ class AdIds {
   static const nativeAnswer = 'ca-app-pub-2556899149200560/4880140160';
   static const nativeFooter = 'ca-app-pub-2556899149200560/1646482480';
   static const nativeFactoryId = 'ppl_native';
+
+  /// Device ID hash per registrare il telefono come test device AdMob
+  /// (evita ban da autoclick accidentale sui propri annunci).
+  /// Ottenerlo da logcat/Logcat Android Studio al primo avvio: cercare la
+  /// riga "Use RequestConfiguration.Builder().setTestDeviceIds(...)".
+  static const testDeviceIds = <String>[
+    // 'INCOLLA_QUI_HASH_DEVICE_ID',
+  ];
 }
 
 /// Banner persistente. Va montato una sola volta (es. in fondo alla home).

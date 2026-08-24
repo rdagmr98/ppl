@@ -15,7 +15,16 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await SettingsService.load();
   await SeenService.load();
-  if (!kIsWeb) await MobileAds.instance.initialize();
+  if (!kIsWeb) {
+    await MobileAds.instance.initialize();
+    // ponytail: ID vuoto finché non lo estraiamo da logcat sul telefono reale
+    // (AdMob lo stampa la prima volta che carica un annuncio non-test).
+    // Con l'ID inserito qui, gli annunci su questo device diventano test ads:
+    // toccarli non genera click reali e non rischia il ban per invalid traffic.
+    await MobileAds.instance.updateRequestConfiguration(
+      RequestConfiguration(testDeviceIds: AdIds.testDeviceIds),
+    );
+  }
   runApp(const PplApp());
 }
 
