@@ -725,6 +725,7 @@ class SubjectPickerScreen extends StatelessWidget {
         borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
       ),
       builder: (ctx) {
+        final examCount = examDistribution[s.parte];
         final counts = [10, 20, 40].where((c) => c < s.questions.length).toList();
         return SafeArea(
           child: Padding(
@@ -750,6 +751,14 @@ class SubjectPickerScreen extends StatelessWidget {
                         onPressed: () =>
                             onStart(buildStudy(s, limit: c), s.name),
                         child: Text('$c domande'),
+                      ),
+                    if (examCount != null &&
+                        examCount < s.questions.length &&
+                        !counts.contains(examCount))
+                      FilledButton.tonal(
+                        onPressed: () =>
+                            onStart(buildStudy(s, limit: examCount), s.name),
+                        child: Text('$examCount domande (esame)'),
                       ),
                     FilledButton(
                       onPressed: () => onStart(buildStudy(s), s.name),
