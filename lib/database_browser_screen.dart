@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'models.dart';
 import 'ads_service.dart';
+import 'quiz_screen.dart' show openFigureZoom;
 
 /// Elenco materie per l'accesso diretto al database (sola consultazione,
 /// nessuna logica quiz): domanda + tutte le opzioni + risposta corretta +
@@ -129,6 +130,21 @@ class _QuestionCard extends StatelessWidget {
             ),
             const SizedBox(height: 6),
             Text(q.q, style: const TextStyle(fontSize: 15, height: 1.3)),
+            if (q.fig != null) ...[
+              const SizedBox(height: 10),
+              GestureDetector(
+                onTap: () => openFigureZoom(context, q.fig!),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(10),
+                  child: Container(
+                    width: double.infinity,
+                    color: Colors.white,
+                    padding: const EdgeInsets.all(8),
+                    child: Image.asset('assets/figures/${q.fig}.webp'),
+                  ),
+                ),
+              ),
+            ],
             const SizedBox(height: 10),
             for (int j = 0; j < q.options.length; j++)
               _OptionRow(

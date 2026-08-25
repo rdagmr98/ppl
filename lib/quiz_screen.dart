@@ -155,15 +155,8 @@ class _QuizScreenState extends State<QuizScreen> {
     if (ok == true && mounted) Navigator.of(context).pop();
   }
 
-  void _openFigureZoom(BuildContext context, String fig) {
-    Navigator.of(context).push(
-      PageRouteBuilder(
-        opaque: false,
-        barrierColor: Colors.black87,
-        pageBuilder: (_, __, ___) => _FigureZoomView(fig: fig),
-      ),
-    );
-  }
+  void _openFigureZoom(BuildContext context, String fig) =>
+      openFigureZoom(context, fig);
 
   @override
   Widget build(BuildContext context) {
@@ -325,6 +318,18 @@ class _QuizScreenState extends State<QuizScreen> {
       ),
     );
   }
+}
+
+/// Apre lo zoom a schermo intero di una figura (usata anche fuori da questo
+/// file, es. dal database browser di sola consultazione).
+void openFigureZoom(BuildContext context, String fig) {
+  Navigator.of(context).push(
+    PageRouteBuilder(
+      opaque: false,
+      barrierColor: Colors.black87,
+      pageBuilder: (_, __, ___) => _FigureZoomView(fig: fig),
+    ),
+  );
 }
 
 /// Vista a schermo intero per zoomare la figura (pinch/doppio tap), tap
