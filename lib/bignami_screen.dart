@@ -212,6 +212,8 @@ class BignamiScreen extends StatelessWidget {
             ),
           ),
           const PplNativeAd(adUnitId: AdIds.nativeFooter),
+          const SizedBox(height: 8),
+          const Center(child: PplBannerAd()),
         ],
       ),
     );

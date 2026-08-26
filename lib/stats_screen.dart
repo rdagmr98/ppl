@@ -250,6 +250,8 @@ class _StatsScreenState extends State<StatsScreen> {
         ),
         const SizedBox(height: 24),
         const PplNativeAd(adUnitId: AdIds.nativeFooter),
+        const SizedBox(height: 8),
+        const Center(child: PplBannerAd()),
       ],
     );
   }

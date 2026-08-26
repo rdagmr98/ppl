@@ -21,7 +21,13 @@ class DatabaseSubjectPickerScreen extends StatelessWidget {
         separatorBuilder: (context, index) => const SizedBox(height: 8),
         itemBuilder: (context, i) {
           if (i == db.subjects.length) {
-            return const PplNativeAd(adUnitId: AdIds.nativeFooter);
+            return const Column(
+              children: [
+                PplNativeAd(adUnitId: AdIds.nativeFooter),
+                SizedBox(height: 8),
+                Center(child: PplBannerAd()),
+              ],
+            );
           }
           final s = db.subjects[i];
           return Material(
