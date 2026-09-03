@@ -34,6 +34,9 @@ class BignamiScreen extends StatelessWidget {
                   'GS = TAS ± componente vento lungo rotta\nWCA(°) ≈ 60 × (Wv × sin(angolo vento-rotta)) / TAS'),
               _P("Regola dell'1 in 60: errore laterale, distanza percorsa e angolo di correzione stanno in proporzione:"),
               _Formula('angolo(°) = errore fuori rotta (NM) / distanza percorsa (NM) × 60'),
+              _P('Regola radiale 10° — tempo alla stazione (VOR/NDB): accosta di 90° rispetto alla radiale e cronometra quanto impiega la radiale a variare:'),
+              _Formula('tempo alla stazione (min) = T × 60 / D\nT = minuti trascorsi, D = variazione di radiale (°) nello stesso intervallo'),
+              _Example('T=4 min, D=10° → tempo alla stazione = 4 × 60/10 = 24 min'),
               _P('Autonomia / carburante residuo:'),
               _Formula(
                   'tempo(h) = distanza / GS\nconsumato = consumo orario × tempo\nresiduo = carburante imbarcato − consumato'),
