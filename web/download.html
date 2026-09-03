@@ -58,8 +58,9 @@ body{
   background:var(--bg);color:var(--text);font-family:var(--body);
   -webkit-font-smoothing:antialiased;overflow-x:hidden;
   background-image:
-    radial-gradient(60% 40% at 18% 0%, rgba(30,136,229,.16), transparent 60%),
-    radial-gradient(50% 35% at 100% 10%, rgba(255,176,32,.08), transparent 60%);
+    radial-gradient(70% 50% at 10% 0%, rgba(30,136,229,.2), transparent 55%),
+    radial-gradient(50% 35% at 100% 8%, rgba(255,176,32,.08), transparent 55%),
+    radial-gradient(40% 60% at 80% 70%, rgba(30,136,229,.07), transparent 60%);
 }
 .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
 a{color:inherit}
@@ -69,6 +70,23 @@ img{max-width:100%;display:block}
 /* ---- reveal on scroll ---- */
 .reveal{opacity:0;transform:translateY(26px);filter:blur(6px);transition:opacity .9s var(--ease),transform .9s var(--ease),filter .9s var(--ease)}
 .reveal.in{opacity:1;transform:translateY(0);filter:blur(0)}
+
+/* ---- hero load animations ---- */
+@keyframes heroFadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+.hero-grid > :first-child .eyebrow{animation:heroFadeUp .5s .05s both ease-out}
+.hero-grid > :first-child h1{animation:heroFadeUp .55s .15s both ease-out}
+.hero-grid > :first-child .hero-sub{animation:heroFadeUp .55s .25s both ease-out}
+.hero-grid > :first-child .hero-cta{animation:heroFadeUp .5s .35s both ease-out}
+.hero-grid > :first-child .hero-proof{animation:heroFadeUp .5s .45s both ease-out}
+.hero-grid > .stage{animation:heroFadeUp .65s .3s both ease-out}
+@media(prefers-reduced-motion:reduce){
+  .hero-grid > :first-child .eyebrow,
+  .hero-grid > :first-child h1,
+  .hero-grid > :first-child .hero-sub,
+  .hero-grid > :first-child .hero-cta,
+  .hero-grid > :first-child .hero-proof,
+  .hero-grid > .stage{animation:none}
+}
 
 /* ---- nav ---- */
 .nav{position:fixed;top:16px;left:0;right:0;z-index:50;display:flex;justify-content:center;padding:0 16px}
@@ -200,25 +218,80 @@ h2{font-family:var(--disp);font-weight:700;font-size:clamp(26px,3.2vw,38px);lett
 .step p{color:var(--text-dim);font-size:14px;line-height:1.6}
 @media(max-width:780px){.steps{grid-template-columns:1fr;gap:34px}.steps::before{display:none}}
 
+/* ---- entrance keyframes ---- */
+@keyframes fadeSlideUp{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:translateY(0)}}
+@keyframes floatIcon{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+
 /* ---- download ---- */
-.dl-shell{padding:2px;border-radius:32px;background:linear-gradient(160deg,rgba(30,136,229,.4),rgba(255,255,255,.03));position:relative;overflow:hidden}
+.dl-shell{
+  padding:2px;border-radius:32px;
+  background:linear-gradient(160deg,rgba(30,136,229,.45),rgba(255,255,255,.03) 70%,rgba(93,169,234,.15));
+  position:relative;overflow:hidden;
+  box-shadow:0 0 80px -20px rgba(30,136,229,.22)}
 .dl-core{background:var(--panel);border-radius:30px;padding:52px;position:relative}
-.dl-core::before{content:'';position:absolute;inset:0;background:radial-gradient(60% 90% at 100% 0%,rgba(30,136,229,.18),transparent 60%);pointer-events:none}
+.dl-core::before{content:'';position:absolute;inset:0;
+  background:
+    radial-gradient(60% 90% at 100% 0%,rgba(30,136,229,.18),transparent 60%),
+    radial-gradient(40% 60% at 0% 100%,rgba(93,169,234,.07),transparent 55%);
+  pointer-events:none}
 .dl-top{max-width:520px;margin-bottom:40px;position:relative}
-.dl-options{display:grid;grid-template-columns:1fr 1fr auto;gap:18px;align-items:stretch;position:relative}
-.dl-opt{display:flex;align-items:center;gap:18px;padding:26px 26px 26px 24px;border-radius:22px;border:1px solid var(--line-strong);
-  background:var(--panel-2);text-decoration:none;color:inherit;
-  transition:transform .45s var(--ease),border-color .45s var(--ease),box-shadow .45s var(--ease)}
-.dl-opt:hover{transform:translateY(-3px);border-color:var(--blue-soft);box-shadow:0 16px 34px -12px var(--blue-glow)}
-.dl-opt .plat-icon{width:54px;height:54px;border-radius:16px;background:rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;flex:none}
+
+/* App icon float */
+.dl-icon{
+  width:80px;height:80px;border-radius:22px;
+  margin-bottom:24px;
+  box-shadow:0 20px 48px -12px rgba(30,136,229,.45),0 0 0 1px rgba(255,255,255,.1) inset;
+  animation:floatIcon 3.2s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.dl-icon{animation:none}}
+
+.dl-options{display:grid;grid-template-columns:1fr 1fr auto;gap:18px;align-items:stretch;position:relative;perspective:900px}
+
+/* 3D card */
+.dl-opt{
+  position:relative;
+  display:flex;align-items:center;gap:18px;padding:26px 26px 26px 24px;
+  border-radius:22px;border:1px solid var(--line-strong);
+  background:linear-gradient(160deg,rgba(22,31,48,1),rgba(17,24,38,1));
+  text-decoration:none;color:inherit;
+  transform-style:preserve-3d;
+  transition:transform .5s var(--ease),border-color .5s var(--ease),box-shadow .5s var(--ease);
+  will-change:transform}
+.dl-opt::after{
+  content:'';position:absolute;inset:0;border-radius:22px;
+  background:linear-gradient(135deg,rgba(255,255,255,.06) 0%,transparent 50%);
+  pointer-events:none}
+.dl-opt:hover{
+  transform:translateY(-6px) rotateX(4deg) rotateY(-3deg);
+  border-color:var(--blue-soft);
+  box-shadow:0 24px 48px -12px var(--blue-glow),0 0 0 1px rgba(93,169,234,.2) inset}
+.dl-opt .plat-icon{
+  width:54px;height:54px;border-radius:16px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.08);
+  display:flex;align-items:center;justify-content:center;flex:none;
+  transition:transform .5s var(--ease)}
+.dl-opt:hover .plat-icon{transform:translateZ(12px) scale(1.05)}
 .dl-opt .plat-icon svg{width:26px;height:26px;fill:var(--text)}
 .dl-opt .txt{flex:1;min-width:0}
 .dl-opt h4{font-family:var(--disp);font-size:21px;font-weight:700}
 .dl-opt span{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--text-faint);text-transform:uppercase;margin-top:3px;display:block}
-.dl-opt .arrow{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;
-  flex:none;font-size:16px;transition:transform .45s var(--ease),background .45s var(--ease)}
-.dl-opt:hover .arrow{transform:translate(2px,-2px);background:var(--blue);color:#04101c}
-.qr-box{width:200px;background:var(--panel-2);border:1px solid var(--line-strong);border-radius:22px;padding:16px;display:flex;flex-direction:column;
+.dl-opt .arrow{
+  width:34px;height:34px;border-radius:50%;
+  background:rgba(255,255,255,.06);
+  display:flex;align-items:center;justify-content:center;
+  flex:none;font-size:16px;
+  transition:transform .5s var(--ease),background .5s var(--ease)}
+.dl-opt:hover .arrow{transform:translate(2px,-2px) translateZ(8px);background:var(--blue);color:#04101c}
+
+/* staggered entrance for dl-opt */
+.dl-opt:nth-child(1){animation:fadeSlideUp .5s .1s both ease-out}
+.dl-opt:nth-child(2){animation:fadeSlideUp .5s .22s both ease-out}
+.dl-opt:nth-child(3){animation:fadeSlideUp .5s .34s both ease-out}
+@media(prefers-reduced-motion:reduce){.dl-opt{animation:none}}
+
+.qr-box{
+  width:200px;background:var(--panel-2);border:1px solid var(--line-strong);
+  border-radius:22px;padding:16px;display:flex;flex-direction:column;
   align-items:center;justify-content:center;gap:10px;text-align:center}
 .qr-box img{width:164px;height:164px;border-radius:12px;background:#fff;padding:8px}
 .qr-box span{font-family:var(--mono);font-size:9.5px;color:var(--text-faint);line-height:1.4}
@@ -389,6 +462,7 @@ footer{border-top:1px solid var(--line);padding:34px 0}
     <div class="dl-shell reveal">
       <div class="dl-core">
         <div class="dl-top">
+          <img src="icons/Icon-192.png" alt="Quiz PPL" class="dl-icon">
           <div class="sec-eyebrow">Scarica</div>
           <h2>Sempre gratis. Su iPhone e su Android.</h2>
           <p class="sec-sub">Su iPhone e iPad è una Web App gratuita, si aggiorna da sola. Su Android è gratuita anche lei, disponibile su Google Play.</p>
@@ -443,6 +517,21 @@ footer{border-top:1px solid var(--line);padding:34px 0}
     });
     stage && stage.addEventListener('mouseleave', function(){
       phone.style.transform = 'translate(-50%,-50%) rotateY(-16deg) rotateX(5deg) rotateZ(-1.5deg)';
+    });
+  }
+
+  /* 3D tilt on download cards */
+  if(matchMedia('(pointer:fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+    document.querySelectorAll('.dl-opt').forEach(function(card){
+      card.addEventListener('mousemove', function(e){
+        var r = card.getBoundingClientRect();
+        var px = (e.clientX - r.left) / r.width - .5;
+        var py = (e.clientY - r.top) / r.height - .5;
+        card.style.transform = 'translateY(-6px) rotateX(' + (-py*10) + 'deg) rotateY(' + (px*10) + 'deg)';
+      });
+      card.addEventListener('mouseleave', function(){
+        card.style.transform = '';
+      });
     });
   }
 })();
