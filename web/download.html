@@ -2,6 +2,19 @@
 <html lang="it">
 <head>
 <meta charset="utf-8">
+<script>
+/* Redirect automatico per piattaforma (Android -> Play Store, iOS -> Web App).
+   Eseguito subito: chi scansiona il QR da mobile non vede mai la landing page. */
+(function(){
+  var ua = navigator.userAgent || navigator.vendor || window.opera || '';
+  var ANDROID = 'https://play.google.com/store/apps/details?id=com.a_ppl';
+  var IOS = 'https://rdagmr98.github.io/ppl/';
+  var isIOS = /iphone|ipad|ipod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  var isAndroid = /android/i.test(ua);
+  if (isAndroid) { location.replace(ANDROID); }
+  else if (isIOS) { location.replace(IOS); }
+})();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Quiz PPL — allenati per l'esame teorico PPL(A)</title>
 <meta name="description" content="Domande reali del pool ufficiale ENAC/EASA PPL(A), risultato istantaneo a ogni tap, statistiche di pronti materia per materia. Sempre gratis, su iPhone e su Android.">
@@ -275,7 +288,7 @@ footer{border-top:1px solid var(--line);padding:34px 0}
       </div>
       <div class="gauge-card">
         <div class="gauge"><b>97%</b></div>
-        <div class="lbl">Pronto su <b>Navigazione</b> — verificato dalle tue ultime sessioni</div>
+        <div class="lbl">Esempio: pronti al <b>97%</b> su Navigazione dopo qualche sessione</div>
       </div>
       <div class="mini-card"><div class="n">Free</div><div class="t">Sempre gratis</div></div>
     </div>
@@ -286,7 +299,7 @@ footer{border-top:1px solid var(--line);padding:34px 0}
   <div class="wrap strip-inner">
     <span><b>Fonte</b> tastoeffeuno.it + quizvds.it — pool ufficiale ENAC/EASA</span>
     <span><b>iOS</b> Web App, sempre gratis</span>
-    <span><b>Android</b> test chiuso, sempre gratis</span>
+    <span><b>Android</b> su Google Play, sempre gratis</span>
     <span><b>Ultimo aggiornamento</b> v1.5.12</span>
   </div>
 </div>
@@ -387,7 +400,7 @@ footer{border-top:1px solid var(--line);padding:34px 0}
         <div class="dl-top">
           <div class="sec-eyebrow">Scarica</div>
           <h2>Sempre gratis. Su iPhone e su Android.</h2>
-          <p class="sec-sub">Su iPhone e iPad è una Web App gratuita, si aggiorna da sola. Su Android è gratuita anche lei, al momento in test chiuso su Google Play: basta l'invito come tester.</p>
+          <p class="sec-sub">Su iPhone e iPad è una Web App gratuita, si aggiorna da sola. Su Android è gratuita anche lei, disponibile su Google Play.</p>
         </div>
         <div class="dl-options">
           <a class="dl-opt" href="https://rdagmr98.github.io/ppl/">
@@ -398,17 +411,24 @@ footer{border-top:1px solid var(--line);padding:34px 0}
             <h4>iPhone · iPad</h4>
             <p>Apri la Web App e aggiungila alla schermata Home — si comporta come un'app nativa, sempre aggiornata.</p>
           </a>
-          <a class="dl-opt" href="https://play.google.com/apps/testing/com.a_ppl">
+          <a class="dl-opt" href="https://play.google.com/store/apps/details?id=com.a_ppl">
             <div class="row1">
-              <div class="plat-icon"><svg viewBox="0 0 24 24"><path d="M3.6 2.3c-.32.18-.5.55-.5 1.05v17.3c0 .5.18.87.5 1.05l.06.03 9.7-9.7v-.06zM17.1 9.36l-3.23-1.86-2.7 2.7 2.7 2.7 3.25-1.87c.93-.53.93-1.4-.02-1.67M5.5 1.9l7.8 4.5 2.18-2.18zM5.5 22.1l9.98-5.76-2.18-2.18z"/></svg></div>
-              <span class="tag beta">Beta</span>
+              <div class="plat-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18">
+                  <path fill="#00D2FF" d="M3.6 2.3c-.32.18-.5.55-.5 1.05v17.3c0 .5.18.87.5 1.05l.06.03 9.7-9.7v-.06z"/>
+                  <path fill="#FFD500" d="M17.1 9.36l-3.23-1.86-2.7 2.7 2.7 2.7 3.25-1.87c.93-.53.93-1.4-.02-1.67"/>
+                  <path fill="#00E676" d="M5.5 1.9l7.8 4.5 2.18-2.18z"/>
+                  <path fill="#FF3D57" d="M5.5 22.1l9.98-5.76-2.18-2.18z"/>
+                </svg>
+              </div>
+              <span class="tag">Gratis</span>
             </div>
             <h4>Android</h4>
-            <p>Gratuita anche qui. Entra nel test chiuso su Google Play con il tuo account Google: dopo l'iscrizione l'app compare come installabile.</p>
+            <p>Scaricala direttamente da Google Play con il tuo account Google, come qualsiasi altra app.</p>
           </a>
           <div class="qr-box">
             <img src="qr-download.png" alt="QR di questa pagina">
-            <span>Inquadra per aprire questa pagina su un altro dispositivo</span>
+            <span>Inquadra con il telefono: va dritto allo scaricamento</span>
           </div>
         </div>
       </div>
