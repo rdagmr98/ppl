@@ -2,76 +2,451 @@
 <html lang="it">
 <head>
 <meta charset="utf-8">
-<script>
-/* Redirect automatico per piattaforma (iOS -> Web App, Android -> Play Store test chiuso).
-   Eseguito subito: gli utenti mobile non vedono mai il fallback. */
-(function(){
-  var ua = navigator.userAgent || navigator.vendor || window.opera || '';
-  var ANDROID = 'https://play.google.com/apps/testing/com.a_ppl';
-  var IOS = 'https://rdagmr98.github.io/ppl/';
-  var isIOS = /iphone|ipad|ipod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-  var isAndroid = /android/i.test(ua);
-  if (isAndroid) { location.replace(ANDROID); }
-  else if (isIOS) { location.replace(IOS); }
-})();
-</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Scarica Quiz PPL</title>
-<meta name="description" content="Scarica Quiz PPL(A): iPhone/iPad come Web App, Android in test chiuso su Google Play.">
-<meta name="theme-color" content="#0E1116">
-<meta name="robots" content="noindex">
+<title>Quiz PPL — allenati per l'esame teorico PPL(A)</title>
+<meta name="description" content="2322 domande reali del pool ufficiale ENAC/EASA PPL(A), feedback istantaneo a ogni tap, statistiche di pronti materia per materia. Gratis su iPhone, in test chiuso su Android.">
+<meta name="theme-color" content="#0A0E14">
+<link rel="canonical" href="https://rdagmr98.github.io/ppl/download.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rdagmr98.github.io/ppl/download.html">
+<meta property="og:title" content="Quiz PPL — allenati per l'esame teorico PPL(A)">
+<meta property="og:description" content="2322 domande reali, feedback istantaneo, statistiche di pronti. Gratis su iPhone, test chiuso su Android.">
+<meta property="og:image" content="https://rdagmr98.github.io/ppl/icons/Icon-512.png">
+<meta property="og:locale" content="it_IT">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700;800&family=Sora:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <style>
+:root{
+  --bg:#0A0E14;
+  --panel:#111826;
+  --panel-2:#161F30;
+  --line:rgba(234,241,248,.09);
+  --line-strong:rgba(234,241,248,.16);
+  --text:#EAF1F8;
+  --text-dim:#8E9AB0;
+  --text-faint:#5B6579;
+  --blue:#1E88E5;
+  --blue-soft:#5DA9EA;
+  --blue-glow:rgba(30,136,229,.5);
+  --amber:#FFB020;
+  --green:#31D07B;
+  --red:#FF5D6C;
+  --disp:'Space Grotesk',system-ui,sans-serif;
+  --body:'Sora',system-ui,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+  --ease:cubic-bezier(.22,.75,.13,1);
+}
 *{margin:0;padding:0;box-sizing:border-box}
-body{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;
-  background:#0E1116;color:#fff;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding:28px;
-  background-image:radial-gradient(60% 45% at 50% 0%,rgba(30,136,229,.22),transparent 60%)}
-.box{max-width:430px;width:100%}
-.logo{width:88px;height:88px;margin:0 auto 18px;display:grid;place-items:center;border-radius:22px;
-  background:linear-gradient(160deg,#141a24,#05070a);border:1px solid rgba(30,136,229,.3);
-  box-shadow:0 0 32px rgba(30,136,229,.4);overflow:hidden}
-.logo img{width:100%;height:100%;object-fit:cover}
-.wm{font-size:30px;font-weight:800;letter-spacing:-.5px;margin-bottom:6px}
-.wm b{color:#1E88E5;text-shadow:0 0 18px rgba(30,136,229,.6)}
-.sub{color:#9aa1ad;font-size:15px;margin-bottom:30px}
-.btns{display:flex;flex-direction:column;gap:14px}
-.btn{display:flex;align-items:center;gap:14px;justify-content:flex-start;text-align:left;text-decoration:none;color:#fff;
-  padding:15px 20px;border-radius:16px;border:1px solid rgba(30,136,229,.25);
-  background:linear-gradient(180deg,#141a24,#0a0d12);transition:.2s}
-.btn:hover{border-color:#1E88E5;box-shadow:0 0 26px rgba(30,136,229,.35);transform:translateY(-2px)}
-.btn.primary{background:#1E88E5;color:#051019;border-color:#1E88E5;box-shadow:0 0 26px rgba(30,136,229,.45)}
-.btn svg{width:30px;height:30px;flex:none;fill:#1E88E5}
-.btn.primary svg{fill:#051019}
-.btn .t{display:flex;flex-direction:column;line-height:1.2}
-.btn .t small{font-size:12px;opacity:.7;font-weight:600}
-.btn .t span{font-size:18px;font-weight:800}
-.btn .tag{margin-left:auto;font-size:12px;font-weight:800;padding:5px 11px;border-radius:999px;
-  background:rgba(30,136,229,.16);color:#1E88E5;border:1px solid rgba(30,136,229,.35)}
-.btn.primary .tag{background:rgba(5,16,25,.18);color:#051019;border-color:rgba(5,16,25,.25)}
-.note{margin-top:22px;color:#6b727d;font-size:12.5px}
-.redir{margin-bottom:18px;color:#1E88E5;font-size:13px;font-weight:700;display:none}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation-duration:.01ms !important;transition-duration:.01ms !important}}
+body{
+  background:var(--bg);color:var(--text);font-family:var(--body);
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+  background-image:
+    radial-gradient(60% 40% at 18% 0%, rgba(30,136,229,.16), transparent 60%),
+    radial-gradient(50% 35% at 100% 10%, rgba(255,176,32,.08), transparent 60%);
+}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+a{color:inherit}
+img{max-width:100%;display:block}
+::selection{background:var(--blue-glow);color:#fff}
+
+/* ---- reveal on scroll ---- */
+.reveal{opacity:0;transform:translateY(26px);filter:blur(6px);transition:opacity .9s var(--ease),transform .9s var(--ease),filter .9s var(--ease)}
+.reveal.in{opacity:1;transform:translateY(0);filter:blur(0)}
+
+/* ---- nav ---- */
+.nav{position:fixed;top:16px;left:0;right:0;z-index:50;display:flex;justify-content:center;padding:0 16px}
+.nav-pill{display:flex;align-items:center;gap:26px;background:rgba(16,22,33,.72);backdrop-filter:blur(18px) saturate(140%);
+  border:1px solid var(--line-strong);border-radius:999px;padding:8px 10px 8px 16px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.nav-brand{display:flex;align-items:center;gap:9px;font-family:var(--disp);font-weight:700;font-size:15px;letter-spacing:-.2px;white-space:nowrap}
+.nav-brand img{width:24px;height:24px;border-radius:7px}
+.nav-links{display:flex;gap:20px;font-size:13.5px;color:var(--text-dim)}
+.nav-links a{text-decoration:none;transition:color .3s var(--ease)}
+.nav-links a:hover{color:var(--text)}
+.nav-cta{font-family:var(--body);font-weight:600;font-size:13px;background:var(--blue);color:#04101c;text-decoration:none;
+  padding:9px 18px;border-radius:999px;white-space:nowrap;transition:transform .45s var(--ease),box-shadow .45s var(--ease)}
+.nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 22px var(--blue-glow)}
+@media(max-width:720px){.nav-links{display:none}}
+
+/* ---- hero ---- */
+.hero{padding:150px 0 90px;position:relative}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--blue-soft);background:rgba(30,136,229,.1);border:1px solid rgba(30,136,229,.28);
+  padding:6px 14px;border-radius:999px;margin-bottom:22px}
+.eyebrow i{width:6px;height:6px;border-radius:50%;background:var(--blue-soft);box-shadow:0 0 8px var(--blue-glow)}
+h1{font-family:var(--disp);font-weight:800;font-size:clamp(34px,4.6vw,58px);line-height:1.04;letter-spacing:-1.4px;text-wrap:balance}
+h1 .hl{color:var(--blue-soft)}
+.hero-sub{margin-top:22px;font-size:17px;line-height:1.65;color:var(--text-dim);max-width:46ch}
+.hero-cta{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--body);font-weight:600;font-size:14.5px;
+  padding:14px 22px 14px 24px;border-radius:999px;transition:transform .45s var(--ease),box-shadow .45s var(--ease),border-color .45s var(--ease)}
+.btn-primary{background:var(--blue);color:#04101c}
+.btn-primary .arrow{width:26px;height:26px;border-radius:50%;background:rgba(4,16,28,.16);display:flex;align-items:center;justify-content:center;
+  transition:transform .45s var(--ease)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 28px var(--blue-glow)}
+.btn-primary:hover .arrow{transform:translate(2px,-2px)}
+.btn-ghost{border:1px solid var(--line-strong);color:var(--text)}
+.btn-ghost:hover{border-color:var(--blue-soft);background:rgba(30,136,229,.08)}
+.hero-proof{display:flex;gap:26px;margin-top:38px;flex-wrap:wrap}
+.hero-proof div{display:flex;flex-direction:column}
+.hero-proof b{font-family:var(--mono);font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
+.hero-proof span{font-size:11.5px;color:var(--text-faint);text-transform:uppercase;letter-spacing:.08em;margin-top:2px}
+
+/* ---- hero stage (phone + gauge) ---- */
+.stage{position:relative;height:520px;perspective:1600px}
+.phone{position:absolute;left:50%;top:50%;width:250px;
+  transform:translate(-50%,-50%) rotateY(-16deg) rotateX(5deg) rotateZ(-1.5deg);
+  transform-style:preserve-3d;transition:transform .6s var(--ease)}
+.phone-shell{background:linear-gradient(160deg,#1b2434,#080b11);border:1px solid rgba(255,255,255,.14);border-radius:38px;
+  padding:9px;box-shadow:0 40px 70px -20px rgba(0,0,0,.65), 0 0 0 1px rgba(255,255,255,.04) inset}
+.phone-screen{background:var(--panel);border-radius:29px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(255,255,255,.05)}
+.phone-topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 18px 6px;font-family:var(--mono);font-size:10px;color:var(--text-faint)}
+.q-card{margin:14px;padding:16px;background:var(--panel-2);border:1px solid var(--line);border-radius:18px}
+.q-tag{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-soft)}
+.q-text{font-size:12.5px;line-height:1.5;margin:8px 0 12px;font-weight:500}
+.q-opt{display:flex;align-items:center;gap:8px;font-size:11px;padding:8px 10px;border-radius:10px;border:1px solid var(--line);margin-bottom:6px;color:var(--text-dim)}
+.q-opt b{width:16px;height:16px;border-radius:50%;border:1px solid var(--line-strong);display:flex;align-items:center;justify-content:center;font-size:8.5px;flex:none;font-family:var(--mono);color:var(--text-faint)}
+.q-opt.correct{border-color:rgba(49,208,123,.5);background:rgba(49,208,123,.1);color:#c8f3da}
+.q-opt.correct b{background:var(--green);border-color:var(--green);color:#04150c}
+.q-foot{display:flex;justify-content:space-between;align-items:center;padding:0 4px 4px;font-family:var(--mono);font-size:9.5px;color:var(--text-faint)}
+.q-dot{display:flex;gap:4px}
+.q-dot i{width:5px;height:5px;border-radius:50%;background:var(--line-strong)}
+.q-dot i.on{background:var(--blue-soft)}
+
+.gauge-card{position:absolute;right:-14px;bottom:18px;width:168px;background:rgba(17,24,38,.85);backdrop-filter:blur(14px);
+  border:1px solid var(--line-strong);border-radius:20px;padding:14px;box-shadow:0 22px 44px -14px rgba(0,0,0,.6);
+  transform:translateZ(60px)}
+.gauge{width:78px;height:78px;border-radius:50%;margin:0 auto 8px;display:flex;align-items:center;justify-content:center;position:relative;
+  background:conic-gradient(var(--blue) 0deg 349deg, var(--line) 349deg 360deg)}
+.gauge::before{content:'';position:absolute;inset:9px;border-radius:50%;background:var(--panel-2)}
+.gauge b{position:relative;font-family:var(--mono);font-size:15px;font-weight:600}
+.gauge-card .lbl{text-align:center;font-size:10.5px;color:var(--text-dim);line-height:1.4}
+.gauge-card .lbl b{color:var(--text);font-weight:600}
+
+.mini-card{position:absolute;left:-18px;top:26px;background:rgba(17,24,38,.85);backdrop-filter:blur(14px);
+  border:1px solid var(--line-strong);border-radius:16px;padding:10px 14px;box-shadow:0 18px 36px -12px rgba(0,0,0,.55);
+  transform:translateZ(40px);font-family:var(--mono);font-size:11px}
+.mini-card .n{font-size:18px;font-weight:600;color:var(--blue-soft)}
+.mini-card .t{color:var(--text-faint);font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;margin-top:2px}
+
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr}
+  .stage{height:420px;margin-top:20px}
+  .phone{transform:translate(-50%,-50%) rotateY(-8deg) rotateX(3deg)}
+}
+
+/* ---- strip ---- */
+.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0}
+.strip-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-family:var(--mono);font-size:12px;color:var(--text-faint)}
+.strip-inner b{color:var(--text-dim);font-weight:500}
+
+/* ---- section shell ---- */
+section{padding:96px 0}
+.sec-head{max-width:640px;margin-bottom:52px}
+.sec-eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--blue-soft);margin-bottom:14px}
+h2{font-family:var(--disp);font-weight:700;font-size:clamp(26px,3.2vw,38px);letter-spacing:-.8px;text-wrap:balance}
+.sec-sub{margin-top:14px;color:var(--text-dim);font-size:15.5px;line-height:1.6;max-width:56ch}
+
+/* ---- bento ---- */
+.bento{display:grid;grid-template-columns:repeat(6,1fr);gap:18px}
+.card-shell{grid-column:span 3;padding:2px;border-radius:26px;background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.015));
+  border:1px solid var(--line)}
+.card-shell.wide{grid-column:span 6}
+.card-core{background:var(--panel);border-radius:24px;padding:30px;height:100%;box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
+.card-icon{width:42px;height:42px;border-radius:13px;background:rgba(30,136,229,.12);border:1px solid rgba(30,136,229,.28);
+  display:flex;align-items:center;justify-content:center;margin-bottom:20px}
+.card-icon svg{width:20px;height:20px;stroke:var(--blue-soft);fill:none;stroke-width:1.5}
+.card-core h3{font-family:var(--disp);font-size:19px;font-weight:700;letter-spacing:-.3px;margin-bottom:9px}
+.card-core p{color:var(--text-dim);font-size:14px;line-height:1.65}
+.card-core p b{color:var(--text);font-weight:600}
+@media(max-width:820px){.card-shell,.card-shell.wide{grid-column:span 6}}
+
+/* ---- materie ---- */
+.subj-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.subj{display:flex;align-items:center;gap:14px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:15px 18px}
+.subj .num{font-family:var(--mono);font-size:11px;color:var(--text-faint);width:20px;flex:none}
+.subj .body{flex:1;min-width:0}
+.subj .name{font-size:13.5px;font-weight:500;margin-bottom:7px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.subj .bar{height:4px;border-radius:99px;background:var(--line);overflow:hidden}
+.subj .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--blue-soft));border-radius:99px}
+.subj .count{font-family:var(--mono);font-size:12px;color:var(--text-dim);flex:none}
+@media(max-width:640px){.subj-grid{grid-template-columns:1fr}}
+
+/* ---- steps ---- */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;position:relative}
+.steps::before{content:'';position:absolute;top:23px;left:12%;right:12%;height:1px;background:linear-gradient(90deg,transparent,var(--line-strong),transparent)}
+.step{position:relative}
+.step .idx{width:46px;height:46px;border-radius:50%;background:var(--panel);border:1px solid var(--line-strong);
+  display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-weight:600;font-size:15px;color:var(--blue-soft);
+  margin-bottom:20px;position:relative;z-index:1}
+.step h3{font-family:var(--disp);font-size:16.5px;font-weight:700;margin-bottom:8px}
+.step p{color:var(--text-dim);font-size:14px;line-height:1.6}
+@media(max-width:780px){.steps{grid-template-columns:1fr;gap:34px}.steps::before{display:none}}
+
+/* ---- download ---- */
+.dl-shell{padding:2px;border-radius:32px;background:linear-gradient(160deg,rgba(30,136,229,.4),rgba(255,255,255,.03));position:relative;overflow:hidden}
+.dl-core{background:var(--panel);border-radius:30px;padding:52px;position:relative}
+.dl-core::before{content:'';position:absolute;inset:0;background:radial-gradient(60% 90% at 100% 0%,rgba(30,136,229,.18),transparent 60%);pointer-events:none}
+.dl-top{max-width:520px;margin-bottom:40px;position:relative}
+.dl-options{display:grid;grid-template-columns:1fr 1fr auto;gap:16px;align-items:stretch;position:relative}
+.dl-opt{display:flex;flex-direction:column;gap:14px;padding:22px;border-radius:20px;border:1px solid var(--line-strong);
+  background:var(--panel-2);text-decoration:color-mix(in srgb, var(--text) 0%, transparent);text-decoration:none;color:inherit;
+  transition:transform .45s var(--ease),border-color .45s var(--ease),box-shadow .45s var(--ease)}
+.dl-opt:hover{transform:translateY(-3px);border-color:var(--blue-soft);box-shadow:0 16px 34px -12px var(--blue-glow)}
+.dl-opt .row1{display:flex;justify-content:space-between;align-items:flex-start}
+.dl-opt .plat-icon{width:36px;height:36px;border-radius:11px;background:rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center}
+.dl-opt .plat-icon svg{width:18px;height:18px;fill:var(--text)}
+.dl-opt .tag{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:99px;
+  border:1px solid rgba(49,208,123,.4);color:#8ff0bd;background:rgba(49,208,123,.08)}
+.dl-opt .tag.beta{border-color:rgba(255,176,32,.4);color:var(--amber);background:rgba(255,176,32,.08)}
+.dl-opt h4{font-family:var(--disp);font-size:18px;font-weight:700}
+.dl-opt p{font-size:12.5px;color:var(--text-dim);line-height:1.5}
+.qr-box{width:150px;background:var(--panel-2);border:1px solid var(--line-strong);border-radius:20px;padding:14px;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:10px;text-align:center}
+.qr-box img{width:104px;height:104px;border-radius:10px;background:#fff;padding:6px}
+.qr-box span{font-family:var(--mono);font-size:9.5px;color:var(--text-faint);line-height:1.4}
+@media(max-width:900px){.dl-options{grid-template-columns:1fr}.qr-box{width:100%;flex-direction:row}.qr-box img{width:74px;height:74px}}
+@media(max-width:560px){.dl-core{padding:30px 22px}}
+
+/* ---- footer ---- */
+footer{border-top:1px solid var(--line);padding:34px 0}
+.foot-inner{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--text-faint)}
+.foot-inner a{color:var(--text-dim);text-decoration:none}
+.foot-inner a:hover{color:var(--text)}
 </style>
 </head>
 <body>
-<div class="box">
-  <div class="redir" id="redir">Reindirizzamento in corso…</div>
-  <div class="logo">
-    <img src="icons/Icon-192.png" alt="Quiz PPL">
+
+<nav class="nav">
+  <div class="nav-pill">
+    <a href="#top" class="nav-brand"><img src="icons/Icon-192.png" alt="">Quiz <span style="color:var(--blue-soft)">PPL</span></a>
+    <div class="nav-links">
+      <a href="#caratteristiche">Caratteristiche</a>
+      <a href="#materie">Materie</a>
+      <a href="#come-funziona">Come funziona</a>
+    </div>
+    <a href="#scarica" class="nav-cta">Scarica</a>
   </div>
-  <div class="wm">Quiz <b>PPL</b></div>
-  <div class="sub">Scegli il tuo dispositivo per iniziare</div>
-  <div class="btns">
-    <a class="btn" href="https://rdagmr98.github.io/ppl/">
-      <svg viewBox="0 0 24 24"><path d="M16.36 12.7c.02 2.42 2.12 3.22 2.14 3.23-.02.05-.34 1.16-1.11 2.3-.66.99-1.35 1.97-2.43 1.99-1.06.02-1.4-.63-2.62-.63-1.21 0-1.59.61-2.6.65-1.04.04-1.84-1.07-2.51-2.05-1.36-1.98-2.4-5.6-1-8.04.69-1.21 1.93-1.98 3.28-2 1.03-.02 2 .69 2.62.69.62 0 1.81-.86 3.05-.73.52.02 1.98.21 2.91 1.58-.07.05-1.74 1.02-1.72 3.04M14.4 6.6c.55-.66.92-1.59.82-2.51-.79.03-1.75.53-2.32 1.19-.51.58-.96 1.52-.84 2.42.88.07 1.78-.45 2.34-1.1"/></svg>
-      <span class="t"><small>iPhone · iPad · Web App</small><span>Apri la Web App</span></span>
-      <span class="tag">Gratis</span>
-    </a>
-    <a class="btn primary" href="https://play.google.com/apps/testing/com.a_ppl">
-      <svg viewBox="0 0 24 24"><path d="M3.6 2.3c-.32.18-.5.55-.5 1.05v17.3c0 .5.18.87.5 1.05l.06.03 9.7-9.7v-.06zM17.1 9.36l-3.23-1.86-2.7 2.7 2.7 2.7 3.25-1.87c.93-.53.93-1.4-.02-1.67M5.5 1.9l7.8 4.5 2.18-2.18zM5.5 22.1l9.98-5.76-2.18-2.18z"/></svg>
-      <span class="t"><small>Android · Google Play</small><span>Entra nel test chiuso</span></span>
-      <span class="tag">Beta</span>
-    </a>
+</nav>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="reveal in">
+      <div class="eyebrow"><i></i>App di allenamento teoria PPL(A)</div>
+      <h1>Studia come voli: <span class="hl">per istinto</span>, non a memoria.</h1>
+      <p class="hero-sub">2322 domande reali del pool ufficiale ENAC/EASA. Tocchi una risposta, il colore ti dice subito se hai ragione: niente "conferma", niente attese — l'app avanza da sola in mezzo secondo.</p>
+      <div class="hero-cta">
+        <a href="#scarica" class="btn btn-primary">Scarica l'app<span class="arrow">↗</span></a>
+        <a href="#caratteristiche" class="btn btn-ghost">Come funziona</a>
+      </div>
+      <div class="hero-proof">
+        <div><b>2322</b><span>Domande reali</span></div>
+        <div><b>10</b><span>Materie EASA</span></div>
+        <div><b>0,5s</b><span>Al feedback</span></div>
+        <div><b>Gratis</b><span>Su iPhone</span></div>
+      </div>
+    </div>
+
+    <div class="stage reveal in">
+      <div class="phone">
+        <div class="phone-shell">
+          <div class="phone-screen">
+            <div class="phone-topbar"><span>NAVIGAZIONE</span><span>18 / 297</span></div>
+            <div class="q-card">
+              <div class="q-tag">Domanda 18</div>
+              <div class="q-text">Fino a quale distanza un velivolo che vola a 1000 FT può ricevere un VOR?</div>
+              <div class="q-opt correct"><b>✓</b>40 NM</div>
+              <div class="q-opt"><b>B</b>80 NM</div>
+              <div class="q-opt"><b>C</b>150 NM</div>
+              <div class="q-opt"><b>D</b>200 NM</div>
+              <div class="q-foot">
+                <span>tastoeffeuno · quizvds</span>
+                <span class="q-dot"><i class="on"></i><i class="on"></i><i></i><i></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gauge-card">
+        <div class="gauge"><b>97%</b></div>
+        <div class="lbl">Pronto su <b>Navigazione</b> — verificato dalle tue ultime sessioni</div>
+      </div>
+      <div class="mini-card"><div class="n">2322</div><div class="t">Domande reali</div></div>
+    </div>
   </div>
-  <div class="note">iPhone come Web App, gratis · Android in test chiuso: serve l'invito come tester Google Play</div>
+</section>
+
+<div class="strip">
+  <div class="wrap strip-inner">
+    <span><b>Fonte</b> tastoeffeuno.it + quizvds.it — pool ufficiale ENAC/EASA</span>
+    <span><b>iOS</b> Web App gratuita</span>
+    <span><b>Android</b> test chiuso Google Play</span>
+    <span><b>Ultimo aggiornamento</b> v1.5.12</span>
+  </div>
 </div>
+
+<section id="caratteristiche">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-eyebrow">Caratteristiche</div>
+      <h2>Fatta per chi deve davvero passare l'esame, non per farti scrollare a lungo.</h2>
+      <p class="sec-sub">I quiz "seri" sul mercato ti fanno confermare ogni risposta e aspettare il caricamento della prossima. Quiz PPL è pensata al contrario: meno attrito, più ripetizioni, più ore di volo teorico in meno tempo reale.</p>
+    </div>
+
+    <div class="bento">
+      <div class="card-shell reveal">
+        <div class="card-core">
+          <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+          <h3>Feedback istantaneo</h3>
+          <p>Tocchi una risposta: <b>verde o rosso</b>, e via alla prossima in circa mezzo secondo. Nessun popup "sei sicuro?", nessun tasto "conferma" — l'attrito che rallenta gli altri quiz qui non esiste.</p>
+        </div>
+      </div>
+      <div class="card-shell reveal">
+        <div class="card-core">
+          <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M4 6c0-1.1 3.6-2 8-2s8 .9 8 2-3.6 2-8 2-8-.9-8-2Z"/><path d="M4 6v12c0 1.1 3.6 2 8 2s8-.9 8-2V6"/><path d="M4 12c0 1.1 3.6 2 8 2s8-.9 8-2"/></svg></div>
+          <h3>2322 domande reali</h3>
+          <p>Pool ufficiale ENAC/EASA PPL(A), 10 materie complete — dalla Regolamentazione alle Comunicazioni in inglese. Non sono domande inventate: sono quelle dell'esame vero.</p>
+        </div>
+      </div>
+      <div class="card-shell reveal">
+        <div class="card-core">
+          <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M6 3h9l5 5v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z"/><path d="M9 12h6M9 16h6M9 8h3"/></svg></div>
+          <h3>Bignami</h3>
+          <p>Le formule e i trucchi mnemonici che servono all'esame — dalla regola dei 10° per il tempo alla stazione ai calcoli di prestazione — sempre a un tap di distanza, anche offline.</p>
+        </div>
+      </div>
+      <div class="card-shell reveal">
+        <div class="card-core">
+          <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M4 20V10M11 20V4M18 20v-7"/></svg></div>
+          <h3>Statistiche di pronti</h3>
+          <p>Grafici materia per materia che ti dicono su cosa sei davvero pronto e cosa devi ancora ripassare — invece di scoprirlo il giorno dell'esame.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="materie">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-eyebrow">Il pool completo</div>
+      <h2>Le 10 materie dell'esame teorico PPL(A), con il conteggio reale.</h2>
+    </div>
+    <div class="subj-grid">
+      <div class="subj reveal"><span class="num">01</span><div class="body"><div class="name">Regolamentazione Aeronautica</div><div class="bar"><i style="width:85%"></i></div></div><span class="count">267</span></div>
+      <div class="subj reveal"><span class="num">02</span><div class="body"><div class="name">Nozioni generali sugli Aeromobili</div><div class="bar"><i style="width:70%"></i></div></div><span class="count">220</span></div>
+      <div class="subj reveal"><span class="num">03</span><div class="body"><div class="name">Prestazioni di volo e pianificazione</div><div class="bar"><i style="width:84%"></i></div></div><span class="count">265</span></div>
+      <div class="subj reveal"><span class="num">04</span><div class="body"><div class="name">Prestazioni e limitazioni umane</div><div class="bar"><i style="width:39%"></i></div></div><span class="count">122</span></div>
+      <div class="subj reveal"><span class="num">05</span><div class="body"><div class="name">Meteorologia</div><div class="bar"><i style="width:100%"></i></div></div><span class="count">315</span></div>
+      <div class="subj reveal"><span class="num">06</span><div class="body"><div class="name">Navigazione</div><div class="bar"><i style="width:94%"></i></div></div><span class="count">297</span></div>
+      <div class="subj reveal"><span class="num">07</span><div class="body"><div class="name">Procedure operative</div><div class="bar"><i style="width:95%"></i></div></div><span class="count">298</span></div>
+      <div class="subj reveal"><span class="num">08</span><div class="body"><div class="name">Principi del volo</div><div class="bar"><i style="width:54%"></i></div></div><span class="count">171</span></div>
+      <div class="subj reveal"><span class="num">09</span><div class="body"><div class="name">Comunicazioni (italiano)</div><div class="bar"><i style="width:50%"></i></div></div><span class="count">158</span></div>
+      <div class="subj reveal"><span class="num">10</span><div class="body"><div class="name">Comunicazioni in inglese</div><div class="bar"><i style="width:66%"></i></div></div><span class="count">209</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="come-funziona">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-eyebrow">Come funziona</div>
+      <h2>Tre passaggi, zero frizione.</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="idx">01</div>
+        <h3>Scegli la materia</h3>
+        <p>Dieci materie reali, oppure lasci che l'app scelga per te tra tutto il pool da 2322 domande.</p>
+      </div>
+      <div class="step reveal">
+        <div class="idx">02</div>
+        <h3>Rispondi, il colore ti guida</h3>
+        <p>Un tap, verde o rosso, spiegazione a portata di mano se serve — e via alla prossima in mezzo secondo.</p>
+      </div>
+      <div class="step reveal">
+        <div class="idx">03</div>
+        <h3>Guarda cosa sei pronto</h3>
+        <p>Le statistiche ti dicono materia per materia dove sei solido e dove serve ancora ripasso.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="scarica">
+  <div class="wrap">
+    <div class="dl-shell reveal">
+      <div class="dl-core">
+        <div class="dl-top">
+          <div class="sec-eyebrow">Scarica</div>
+          <h2>Gratis su iPhone. In test chiuso su Android.</h2>
+          <p class="sec-sub">Su iPhone e iPad è una Web App gratuita, si aggiorna da sola. Su Android è in fase di test chiuso su Google Play: serve l'invito come tester.</p>
+        </div>
+        <div class="dl-options">
+          <a class="dl-opt" href="https://rdagmr98.github.io/ppl/">
+            <div class="row1">
+              <div class="plat-icon"><svg viewBox="0 0 24 24"><path d="M16.36 12.7c.02 2.42 2.12 3.22 2.14 3.23-.02.05-.34 1.16-1.11 2.3-.66.99-1.35 1.97-2.43 1.99-1.06.02-1.4-.63-2.62-.63-1.21 0-1.59.61-2.6.65-1.04.04-1.84-1.07-2.51-2.05-1.36-1.98-2.4-5.6-1-8.04.69-1.21 1.93-1.98 3.28-2 1.03-.02 2 .69 2.62.69.62 0 1.81-.86 3.05-.73.52.02 1.98.21 2.91 1.58-.07.05-1.74 1.02-1.72 3.04M14.4 6.6c.55-.66.92-1.59.82-2.51-.79.03-1.75.53-2.32 1.19-.51.58-.96 1.52-.84 2.42.88.07 1.78-.45 2.34-1.1"/></svg></div>
+              <span class="tag">Gratis</span>
+            </div>
+            <h4>iPhone · iPad</h4>
+            <p>Apri la Web App e aggiungila alla schermata Home — si comporta come un'app nativa, sempre aggiornata.</p>
+          </a>
+          <a class="dl-opt" href="https://play.google.com/apps/testing/com.a_ppl">
+            <div class="row1">
+              <div class="plat-icon"><svg viewBox="0 0 24 24"><path d="M3.6 2.3c-.32.18-.5.55-.5 1.05v17.3c0 .5.18.87.5 1.05l.06.03 9.7-9.7v-.06zM17.1 9.36l-3.23-1.86-2.7 2.7 2.7 2.7 3.25-1.87c.93-.53.93-1.4-.02-1.67M5.5 1.9l7.8 4.5 2.18-2.18zM5.5 22.1l9.98-5.76-2.18-2.18z"/></svg></div>
+              <span class="tag beta">Beta</span>
+            </div>
+            <h4>Android</h4>
+            <p>Entra nel test chiuso su Google Play con il tuo account Google: dopo l'iscrizione l'app compare come installabile.</p>
+          </a>
+          <div class="qr-box">
+            <img src="qr-download.png" alt="QR di questa pagina">
+            <span>Inquadra per aprire questa pagina su un altro dispositivo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <span>Quiz PPL — allenamento non ufficiale per l'esame teorico PPL(A). Nessun legame con ENAC o EASA.</span>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var els = document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){ els.forEach(function(e){e.classList.add('in')}); return; }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+  }, {threshold:.15, rootMargin:'0px 0px -8% 0px'});
+  els.forEach(function(e){ io.observe(e); });
+
+  var phone = document.querySelector('.phone');
+  if(phone && matchMedia('(pointer:fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+    var stage = document.querySelector('.stage');
+    stage && stage.addEventListener('mousemove', function(e){
+      var r = stage.getBoundingClientRect();
+      var px = (e.clientX - r.left) / r.width - .5;
+      var py = (e.clientY - r.top) / r.height - .5;
+      phone.style.transform = 'translate(-50%,-50%) rotateY(' + (-16 - px*10) + 'deg) rotateX(' + (5 - py*8) + 'deg) rotateZ(-1.5deg)';
+    });
+    stage && stage.addEventListener('mouseleave', function(){
+      phone.style.transform = 'translate(-50%,-50%) rotateY(-16deg) rotateX(5deg) rotateZ(-1.5deg)';
+    });
+  }
+})();
+</script>
 </body>
 </html>
