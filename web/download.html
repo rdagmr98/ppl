@@ -63,12 +63,13 @@ img{max-width:100%;display:block}
   *{animation-duration:.01ms !important;transition-duration:.01ms !important}
 }
 
-/* ── ambient background (gymappad style) ── */
+/* ── ambient background (aviation sky mood) ── */
 .bgglow{position:fixed;inset:0;z-index:-1;pointer-events:none;
   background:
-    radial-gradient(60% 40% at 50% -5%, rgba(0,242,255,.18), transparent 60%),
+    radial-gradient(60% 40% at 50% -5%, rgba(0,80,160,.28), transparent 60%),
     radial-gradient(40% 30% at 100% 12%, rgba(0,242,255,.10), transparent 60%),
-    radial-gradient(45% 35% at 0% 60%, rgba(0,242,255,.08), transparent 60%)}
+    radial-gradient(45% 35% at 0% 60%, rgba(80,0,160,.12), transparent 60%),
+    radial-gradient(30% 20% at 20% 90%, rgba(0,120,200,.08), transparent 60%)}
 .grid-lines{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.35;
   background-image:
     linear-gradient(rgba(0,242,255,.04) 1px,transparent 1px),
@@ -76,6 +77,28 @@ img{max-width:100%;display:block}
   background-size:54px 54px;
   -webkit-mask-image:radial-gradient(70% 60% at 50% 30%,#000,transparent 80%);
   mask-image:radial-gradient(70% 60% at 50% 30%,#000,transparent 80%)}
+
+/* ── runway perspective grid ── */
+.runway{position:fixed;bottom:0;left:50%;z-index:-1;pointer-events:none;
+  transform:translateX(-50%);width:100%;max-width:900px;height:340px;opacity:.13;
+  perspective:420px}
+.runway::before{
+  content:'';display:block;width:100%;height:100%;
+  background:
+    repeating-linear-gradient(0deg,rgba(0,242,255,.5) 0px,rgba(0,242,255,.5) 1px,transparent 1px,transparent 34px),
+    repeating-linear-gradient(90deg,rgba(0,242,255,.3) 0px,rgba(0,242,255,.3) 1px,transparent 1px,transparent 80px);
+  transform:rotateX(72deg);transform-origin:bottom center;
+  -webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9) 0%,transparent 100%);
+  mask-image:linear-gradient(to top,rgba(0,0,0,.9) 0%,transparent 100%)}
+@media(prefers-reduced-motion:reduce){.runway::before{opacity:0}}
+
+/* ── plane silhouette decorative ── */
+@keyframes contrail{from{transform:translateX(-120px) translateY(12px) scaleX(.7);opacity:0}to{transform:translateX(0) translateY(0) scaleX(1);opacity:1}}
+.plane-deco{position:fixed;top:14%;right:6%;z-index:-1;pointer-events:none;opacity:.09;
+  animation:contrail 1.4s .6s both ease-out}
+.plane-deco svg{width:180px;height:180px;fill:#fff;filter:drop-shadow(0 0 18px rgba(0,242,255,.4))}
+@media(max-width:720px){.plane-deco{display:none}}
+@media(prefers-reduced-motion:reduce){.plane-deco{animation:none}}
 
 /* ── layout ── */
 .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
@@ -195,6 +218,9 @@ section{padding:90px 0}
 .sec-head{max-width:640px;margin-bottom:52px}
 .kicker{color:var(--accent);font-weight:800;font-size:13px;letter-spacing:1.5px;
   text-transform:uppercase;text-shadow:var(--glow);margin-bottom:12px}
+/* section heading entrance */
+.sec-head.reveal h2{opacity:0;transform:translateY(22px);transition:opacity .65s .18s ease-out,transform .65s .18s ease-out}
+.sec-head.in h2{opacity:1;transform:none}
 h2{font-family:'Inter',sans-serif;font-weight:900;font-size:clamp(26px,3.8vw,42px);
   letter-spacing:-1px;text-wrap:balance;margin-bottom:12px}
 .sec-sub{color:var(--muted);font-size:16px;line-height:1.65;max-width:56ch}
@@ -287,9 +313,9 @@ h2{font-family:'Inter',sans-serif;font-weight:900;font-size:clamp(26px,3.8vw,42p
 .dl-opt::after{content:'';position:absolute;inset:0;border-radius:22px;
   background:linear-gradient(135deg,rgba(255,255,255,.05) 0%,transparent 50%);pointer-events:none}
 .dl-opt:hover{
-  transform:translateY(-6px) rotateX(4deg) rotateY(-3deg);
+  transform:translateY(-8px) scale(1.02);
   border-color:var(--accent);
-  box-shadow:0 24px 48px -12px rgba(0,242,255,.3),0 0 0 1px rgba(0,242,255,.18) inset,var(--glow)}
+  box-shadow:0 28px 56px -12px rgba(0,242,255,.35),0 0 0 1px rgba(0,242,255,.22) inset,var(--glow)}
 .dl-opt .plat-icon{
   width:54px;height:54px;border-radius:16px;
   background:rgba(0,242,255,.08);border:1px solid var(--line);
@@ -336,12 +362,104 @@ footer{border-top:1px solid var(--line-w);padding:34px 0}
   gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--muted)}
 .foot-inner a{color:rgba(255,255,255,.5)}
 .foot-inner a:hover{color:var(--accent)}
+
+/* ── aviation decorations ── */
+
+/* Runway perspective grid */
+.runway-grid{
+  position:fixed;bottom:0;left:50%;transform:translateX(-50%);
+  width:600px;height:420px;z-index:-1;pointer-events:none;
+  perspective:600px;opacity:.22}
+.runway-grid::before{
+  content:'';display:block;width:100%;height:100%;
+  transform:rotateX(72deg) translateY(30%);transform-origin:bottom center;
+  background-image:
+    linear-gradient(rgba(0,242,255,.35) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(0,242,255,.35) 1px,transparent 1px);
+  background-size:60px 60px;
+  -webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9) 0%,rgba(0,0,0,.2) 50%,transparent 80%);
+  mask-image:linear-gradient(to top,rgba(0,0,0,.9) 0%,rgba(0,0,0,.2) 50%,transparent 80%)}
+
+/* Airplane silhouette */
+@keyframes planeFly{
+  0%{transform:translate(-120px,-30px) scaleX(-1) scale(.9);opacity:0}
+  8%{opacity:.18}
+  85%{opacity:.15}
+  100%{transform:translate(calc(100vw + 60px),-30px) scaleX(-1) scale(.9);opacity:0}}
+.plane-deco{
+  position:fixed;top:18%;left:0;z-index:0;pointer-events:none;
+  color:rgba(0,242,255,.18);width:120px;
+  animation:planeFly 28s 3s linear infinite}
+@media(prefers-reduced-motion:reduce){.plane-deco{display:none}}
+
+/* Contrails */
+@keyframes ctFade{
+  0%{opacity:0;transform:scaleX(0)}
+  15%{opacity:1;transform:scaleX(.2)}
+  60%{opacity:.5;transform:scaleX(1)}
+  100%{opacity:0;transform:scaleX(1)}}
+.contrail{position:fixed;top:18%;left:0;width:100vw;height:60px;z-index:0;pointer-events:none}
+.ct{position:absolute;height:1px;left:0;width:100%;
+  background:linear-gradient(90deg,transparent 0%,rgba(0,242,255,.35) 40%,rgba(0,242,255,.15) 70%,transparent 100%);
+  transform-origin:left center;opacity:0}
+.ct1{top:22px;animation:ctFade 28s 4.8s linear infinite}
+.ct2{top:28px;animation:ctFade 28s 5s linear infinite}
+.ct3{top:34px;animation:ctFade 28s 5.2s linear infinite;opacity:.6}
+@media(prefers-reduced-motion:reduce){.ct{display:none}}
+
+/* ── section headings fade-slide on load ── */
+.sec-head{animation:fadeSlideUp .65s both ease-out}
+#caratteristiche .sec-head{animation-delay:.05s}
+#materie .sec-head{animation-delay:.05s}
+#come-funziona .sec-head{animation-delay:.05s}
+#scarica .sec-head{animation-delay:.05s}
+/* when .reveal is used, override: start hidden, animate when .in class is added */
+.reveal.sec-head{animation:none;opacity:0;transform:translateY(28px);
+  transition:.7s cubic-bezier(.2,.7,.2,1)}
+.reveal.sec-head.in{opacity:1;transform:none}
 </style>
 </head>
 <body>
 
 <div class="bgglow"></div>
 <div class="grid-lines"></div>
+<div class="runway"></div>
+<div class="plane-deco" aria-hidden="true">
+  <!-- small aircraft silhouette -->
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path d="M50 30 L56 44 L78 50 L56 56 L54 70 L50 68 L46 70 L44 56 L22 50 L44 44 Z
+             M34 46 L22 50 L34 54 Z
+             M66 46 L78 50 L66 54 Z"/>
+  </svg>
+</div>
+<!-- aviation decorative: runway perspective grid -->
+<div class="runway-grid" aria-hidden="true"></div>
+<!-- aviation decorative: airplane silhouette -->
+<div class="plane-deco" aria-hidden="true">
+  <svg viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg">
+    <!-- fuselage -->
+    <ellipse cx="60" cy="30" rx="38" ry="5.5" fill="currentColor"/>
+    <!-- nose cone -->
+    <ellipse cx="98" cy="30" rx="10" ry="4" fill="currentColor"/>
+    <!-- tail fin vertical -->
+    <path d="M22 30 L28 12 L34 30Z" fill="currentColor"/>
+    <!-- tail fin horizontal -->
+    <path d="M20 30 L10 22 L22 28Z" fill="currentColor"/>
+    <path d="M20 30 L10 38 L22 32Z" fill="currentColor"/>
+    <!-- main wings -->
+    <path d="M55 30 L72 2 L78 4 L65 30Z" fill="currentColor"/>
+    <path d="M55 30 L72 58 L78 56 L65 30Z" fill="currentColor"/>
+    <!-- engine pods -->
+    <ellipse cx="68" cy="10" rx="5" ry="2.2" fill="currentColor"/>
+    <ellipse cx="68" cy="50" rx="5" ry="2.2" fill="currentColor"/>
+  </svg>
+</div>
+<!-- contrail lines -->
+<div class="contrail" aria-hidden="true">
+  <div class="ct ct1"></div>
+  <div class="ct ct2"></div>
+  <div class="ct ct3"></div>
+</div>
 
 <header>
   <div class="wrap nav">
@@ -512,14 +630,14 @@ footer{border-top:1px solid var(--line-w);padding:34px 0}
         <div class="dl-options">
           <a class="dl-opt" href="https://rdagmr98.github.io/ppl/">
             <div class="plat-icon">
-              <svg viewBox="0 0 24 24"><path d="M16.36 12.7c.02 2.42 2.12 3.22 2.14 3.23-.02.05-.34 1.16-1.11 2.3-.66.99-1.35 1.97-2.43 1.99-1.06.02-1.4-.63-2.62-.63-1.21 0-1.59.61-2.6.65-1.04.04-1.84-1.07-2.51-2.05-1.36-1.98-2.4-5.6-1-8.04.69-1.21 1.93-1.98 3.28-2 1.03-.02 2 .69 2.62.69.62 0 1.81-.86 3.05-.73.52.02 1.98.21 2.91 1.58-.07.05-1.74 1.02-1.72 3.04M14.4 6.6c.55-.66.92-1.59.82-2.51-.79.03-1.75.53-2.32 1.19-.51.58-.96 1.52-.84 2.42.88.07 1.78-.45 2.34-1.1"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.36 12.7c.02 2.42 2.12 3.22 2.14 3.23-.02.05-.34 1.16-1.11 2.3-.66.99-1.35 1.97-2.43 1.99-1.06.02-1.4-.63-2.62-.63-1.21 0-1.59.61-2.6.65-1.04.04-1.84-1.07-2.51-2.05-1.36-1.98-2.4-5.6-1-8.04.69-1.21 1.93-1.98 3.28-2 1.03-.02 2 .69 2.62.69.62 0 1.81-.86 3.05-.73.52.02 1.98.21 2.91 1.58-.07.05-1.74 1.02-1.72 3.04M14.4 6.6c.55-.66.92-1.59.82-2.51-.79.03-1.75.53-2.32 1.19-.51.58-.96 1.52-.84 2.42.88.07 1.78-.45 2.34-1.1"/></svg>
             </div>
             <div class="txt"><h4>iPhone · iPad</h4><span>Web App, sempre gratis</span></div>
             <div class="arrow">↗</div>
           </a>
           <a class="dl-opt" href="https://play.google.com/store/apps/details?id=com.a_ppl" target="_blank" rel="noopener">
             <div class="plat-icon">
-              <svg viewBox="0 0 24 24"><path d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg>
             </div>
             <div class="txt"><h4>Android</h4><span>Google Play, sempre gratis</span></div>
             <div class="arrow">↗</div>
@@ -575,7 +693,7 @@ footer{border-top:1px solid var(--line-w);padding:34px 0}
         var r = card.getBoundingClientRect();
         var px = (e.clientX - r.left) / r.width - .5;
         var py = (e.clientY - r.top) / r.height - .5;
-        card.style.transform = 'translateY(-6px) rotateX(' + (-py*10) + 'deg) rotateY(' + (px*10) + 'deg)';
+        card.style.transform = 'translateY(-8px) rotateX(' + (-py*10) + 'deg) rotateY(' + (px*10) + 'deg) scale(1.02)';
       });
       card.addEventListener('mouseleave', function(){
         card.style.transform = '';
