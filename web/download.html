@@ -63,13 +63,12 @@ img{max-width:100%;display:block}
   *{animation-duration:.01ms !important;transition-duration:.01ms !important}
 }
 
-/* ── ambient background (aviation sky mood) ── */
+/* ── ambient background (gymappad style) ── */
 .bgglow{position:fixed;inset:0;z-index:-1;pointer-events:none;
   background:
-    radial-gradient(60% 40% at 50% -5%, rgba(0,80,160,.28), transparent 60%),
+    radial-gradient(60% 40% at 50% -5%, rgba(0,242,255,.18), transparent 60%),
     radial-gradient(40% 30% at 100% 12%, rgba(0,242,255,.10), transparent 60%),
-    radial-gradient(45% 35% at 0% 60%, rgba(80,0,160,.12), transparent 60%),
-    radial-gradient(30% 20% at 20% 90%, rgba(0,120,200,.08), transparent 60%)}
+    radial-gradient(45% 35% at 0% 60%, rgba(0,242,255,.08), transparent 60%)}
 .grid-lines{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.35;
   background-image:
     linear-gradient(rgba(0,242,255,.04) 1px,transparent 1px),
@@ -78,27 +77,6 @@ img{max-width:100%;display:block}
   -webkit-mask-image:radial-gradient(70% 60% at 50% 30%,#000,transparent 80%);
   mask-image:radial-gradient(70% 60% at 50% 30%,#000,transparent 80%)}
 
-/* ── runway perspective grid ── */
-.runway{position:fixed;bottom:0;left:50%;z-index:-1;pointer-events:none;
-  transform:translateX(-50%);width:100%;max-width:900px;height:340px;opacity:.13;
-  perspective:420px}
-.runway::before{
-  content:'';display:block;width:100%;height:100%;
-  background:
-    repeating-linear-gradient(0deg,rgba(0,242,255,.5) 0px,rgba(0,242,255,.5) 1px,transparent 1px,transparent 34px),
-    repeating-linear-gradient(90deg,rgba(0,242,255,.3) 0px,rgba(0,242,255,.3) 1px,transparent 1px,transparent 80px);
-  transform:rotateX(72deg);transform-origin:bottom center;
-  -webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9) 0%,transparent 100%);
-  mask-image:linear-gradient(to top,rgba(0,0,0,.9) 0%,transparent 100%)}
-@media(prefers-reduced-motion:reduce){.runway::before{opacity:0}}
-
-/* ── plane silhouette decorative ── */
-@keyframes contrail{from{transform:translateX(-120px) translateY(12px) scaleX(.7);opacity:0}to{transform:translateX(0) translateY(0) scaleX(1);opacity:1}}
-.plane-deco{position:fixed;top:14%;right:6%;z-index:-1;pointer-events:none;opacity:.09;
-  animation:contrail 1.4s .6s both ease-out}
-.plane-deco svg{width:180px;height:180px;fill:#fff;filter:drop-shadow(0 0 18px rgba(0,242,255,.4))}
-@media(max-width:720px){.plane-deco{display:none}}
-@media(prefers-reduced-motion:reduce){.plane-deco{animation:none}}
 
 /* ── layout ── */
 .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
@@ -423,15 +401,6 @@ footer{border-top:1px solid var(--line-w);padding:34px 0}
 
 <div class="bgglow"></div>
 <div class="grid-lines"></div>
-<div class="runway"></div>
-<div class="plane-deco" aria-hidden="true">
-  <!-- small aircraft silhouette -->
-  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <path d="M50 30 L56 44 L78 50 L56 56 L54 70 L50 68 L46 70 L44 56 L22 50 L44 44 Z
-             M34 46 L22 50 L34 54 Z
-             M66 46 L78 50 L66 54 Z"/>
-  </svg>
-</div>
 <!-- aviation decorative: runway perspective grid -->
 <div class="runway-grid" aria-hidden="true"></div>
 <!-- aviation decorative: airplane silhouette -->
