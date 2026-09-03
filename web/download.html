@@ -341,50 +341,6 @@ footer{border-top:1px solid var(--line-w);padding:34px 0}
 .foot-inner a{color:rgba(255,255,255,.5)}
 .foot-inner a:hover{color:var(--accent)}
 
-/* ── aviation decorations ── */
-
-/* Runway perspective grid */
-.runway-grid{
-  position:fixed;bottom:0;left:50%;transform:translateX(-50%);
-  width:600px;height:420px;z-index:-1;pointer-events:none;
-  perspective:600px;opacity:.22}
-.runway-grid::before{
-  content:'';display:block;width:100%;height:100%;
-  transform:rotateX(72deg) translateY(30%);transform-origin:bottom center;
-  background-image:
-    linear-gradient(rgba(0,242,255,.35) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(0,242,255,.35) 1px,transparent 1px);
-  background-size:60px 60px;
-  -webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9) 0%,rgba(0,0,0,.2) 50%,transparent 80%);
-  mask-image:linear-gradient(to top,rgba(0,0,0,.9) 0%,rgba(0,0,0,.2) 50%,transparent 80%)}
-
-/* Airplane silhouette */
-@keyframes planeFly{
-  0%{transform:translate(-120px,-30px) scaleX(-1) scale(.9);opacity:0}
-  8%{opacity:.18}
-  85%{opacity:.15}
-  100%{transform:translate(calc(100vw + 60px),-30px) scaleX(-1) scale(.9);opacity:0}}
-.plane-deco{
-  position:fixed;top:18%;left:0;z-index:0;pointer-events:none;
-  color:rgba(0,242,255,.18);width:120px;
-  animation:planeFly 28s 3s linear infinite}
-@media(prefers-reduced-motion:reduce){.plane-deco{display:none}}
-
-/* Contrails */
-@keyframes ctFade{
-  0%{opacity:0;transform:scaleX(0)}
-  15%{opacity:1;transform:scaleX(.2)}
-  60%{opacity:.5;transform:scaleX(1)}
-  100%{opacity:0;transform:scaleX(1)}}
-.contrail{position:fixed;top:18%;left:0;width:100vw;height:60px;z-index:0;pointer-events:none}
-.ct{position:absolute;height:1px;left:0;width:100%;
-  background:linear-gradient(90deg,transparent 0%,rgba(0,242,255,.35) 40%,rgba(0,242,255,.15) 70%,transparent 100%);
-  transform-origin:left center;opacity:0}
-.ct1{top:22px;animation:ctFade 28s 4.8s linear infinite}
-.ct2{top:28px;animation:ctFade 28s 5s linear infinite}
-.ct3{top:34px;animation:ctFade 28s 5.2s linear infinite;opacity:.6}
-@media(prefers-reduced-motion:reduce){.ct{display:none}}
-
 /* ── section headings fade-slide on load ── */
 .sec-head{animation:fadeSlideUp .65s both ease-out}
 #caratteristiche .sec-head{animation-delay:.05s}
@@ -401,34 +357,6 @@ footer{border-top:1px solid var(--line-w);padding:34px 0}
 
 <div class="bgglow"></div>
 <div class="grid-lines"></div>
-<!-- aviation decorative: runway perspective grid -->
-<div class="runway-grid" aria-hidden="true"></div>
-<!-- aviation decorative: airplane silhouette -->
-<div class="plane-deco" aria-hidden="true">
-  <svg viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg">
-    <!-- fuselage -->
-    <ellipse cx="60" cy="30" rx="38" ry="5.5" fill="currentColor"/>
-    <!-- nose cone -->
-    <ellipse cx="98" cy="30" rx="10" ry="4" fill="currentColor"/>
-    <!-- tail fin vertical -->
-    <path d="M22 30 L28 12 L34 30Z" fill="currentColor"/>
-    <!-- tail fin horizontal -->
-    <path d="M20 30 L10 22 L22 28Z" fill="currentColor"/>
-    <path d="M20 30 L10 38 L22 32Z" fill="currentColor"/>
-    <!-- main wings -->
-    <path d="M55 30 L72 2 L78 4 L65 30Z" fill="currentColor"/>
-    <path d="M55 30 L72 58 L78 56 L65 30Z" fill="currentColor"/>
-    <!-- engine pods -->
-    <ellipse cx="68" cy="10" rx="5" ry="2.2" fill="currentColor"/>
-    <ellipse cx="68" cy="50" rx="5" ry="2.2" fill="currentColor"/>
-  </svg>
-</div>
-<!-- contrail lines -->
-<div class="contrail" aria-hidden="true">
-  <div class="ct ct1"></div>
-  <div class="ct ct2"></div>
-  <div class="ct ct3"></div>
-</div>
 
 <header>
   <div class="wrap nav">
