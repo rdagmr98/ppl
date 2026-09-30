@@ -23,18 +23,20 @@ List<Question> _prioritizeUnseen(List<Question> pool, Random rnd) {
 
 /// Costruisce la lista di domande per una prova d'esame realistica,
 /// pescando da ogni materia il numero ufficiale di quesiti (in ordine di materia).
-List<Question> buildExam(QuizDb db, {bool withEnglish = false}) {
+/// [partes] limita l'esame alle materie scelte (es. solo quelle da ripetere).
+List<Question> buildExam(QuizDb db,
+    {bool withEnglish = false, Set<int>? partes}) {
   final rnd = Random();
   final result = <Question>[];
-  final dist = Map<int, int>.from(examDistribution);
-  if (withEnglish) dist[10] = englishExamCount;
-
-  final partes = dist.keys.toList()..sort();
-  for (final parte in partes) {
+  final selected = (partes ??
+          examDistribution.keys.where((p) => p != 10 || withEnglish).toSet())
+      .toList()
+    ..sort();
+  for (final parte in selected) {
     final subject = db.byParte(parte);
     if (subject == null || subject.questions.isEmpty) continue;
     final pool = _prioritizeUnseen(subject.questions, rnd);
-    final take = min(dist[parte]!, pool.length);
+    final take = min(examDistribution[parte] ?? 0, pool.length);
     result.addAll(pool.take(take));
   }
   return result;

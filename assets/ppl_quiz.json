@@ -1,7 +1,7 @@
 {
  "source": "tastoeffeuno.it + quizvds.it - pool ufficiale ENAC/EASA PPL(A)",
  "generated": "2026-06-28",
- "total": 2322,
+ "total": 2330,
  "subjects": [
   {
    "parte": 1,
@@ -16610,7 +16610,7 @@
   {
    "parte": 6,
    "name": "Navigazione",
-   "count": 297,
+   "count": 305,
    "questions": [
     {
      "n": 1,
@@ -20847,6 +20847,118 @@
      "correct": 1,
      "src": "quizppl",
      "explanation": "Il consumo orario si ricava dal trip fuel e dal tempo di volo previsto: 50 l ÷ 1h35min (1,5833 h) ≈ 31,6 l/h. Il carburante disponibile per il volo, al netto del rullaggio, è 90-5=85 l; l'autonomia risultante da indicare nel piano di volo è quindi 85/31,6 ≈ 2,69 h, cioè 2h 41min. Le altre opzioni derivano da errori come l'uso diretto del tempo di volo pianificato (che è solo la tratta prevista, non l'autonomia totale disponibile) o calcoli che non sottraggono correttamente il carburante di rullaggio dal totale imbarcato."
+    },
+    {
+     "n": 298,
+     "gid": 200939,
+     "q": "Un aeromobile parte da un punto a latitudine 42°00'N e vola con rotta vera (TC) 360° per 90 NM. Quale latitudine raggiunge?",
+     "options": [
+      "43°00'N",
+      "43°30'N",
+      "43°50'N",
+      "44°30'N"
+     ],
+     "correct": 1,
+     "explanation": "Lungo un meridiano 1 NM corrisponde a 1' (un primo) di latitudine, quindi 90 NM = 90' = 1°30'. Volando con TC 360° la latitudine aumenta: 42°00' + 1°30' = 43°30'N. L'opzione 43°00'N conta solo 60 NM (1°). L'opzione 43°50'N converte 1,5° in 1°50' invece che in 1°30'. L'opzione 44°30'N corrisponde a 150 NM, non a 90.",
+     "calc": true
+    },
+    {
+     "n": 299,
+     "gid": 200940,
+     "q": "Un aeromobile parte da 45°00'N e vola con TC 180° a una GS di 100 kt per 36 minuti. Quale latitudine raggiunge?",
+     "options": [
+      "44°00'N",
+      "46°00'N",
+      "44°24'N",
+      "43°00'N"
+     ],
+     "correct": 0,
+     "explanation": "Distanza percorsa = GS × tempo = 100 kt × 36/60 h = 60 NM. 60 NM lungo il meridiano = 60' = 1°00'. Con TC 180° si va verso Sud, quindi la latitudine diminuisce: 45°00' − 1°00' = 44°00'N. L'opzione 46°00'N applica la variazione nel verso sbagliato (verso Nord). L'opzione 44°24'N scambia i 36 minuti di volo per 36' di latitudine. L'opzione 43°00'N corrisponde a 120 NM, cioè a un'ora intera di volo.",
+     "calc": true
+    },
+    {
+     "n": 300,
+     "gid": 200941,
+     "q": "Qual è la distanza, misurata lungo lo stesso meridiano, tra un punto a 38°20'N e un punto a 41°05'N?",
+     "options": [
+      "147 NM",
+      "165 NM",
+      "185 NM",
+      "245 NM"
+     ],
+     "correct": 1,
+     "explanation": "La differenza di latitudine è 41°05' − 38°20' = 2°45' = 2 × 60' + 45' = 165'. Poiché 1' di latitudine = 1 NM, la distanza è 165 NM. L'opzione 147 NM tratta 2°45' come 2,45 gradi decimali (2,45 × 60 = 147). L'opzione 185 NM sottrae solo i gradi (41 − 38 = 3°) e mantiene i 05', ottenendo 3°05'. L'opzione 245 NM legge 2°45' come numero intero.",
+     "calc": true
+    },
+    {
+     "n": 301,
+     "gid": 200942,
+     "q": "Un aeromobile vola lungo un meridiano da 44°10'N a 42°40'N con una GS di 90 kt. Quanto dura il volo?",
+     "options": [
+      "40 minuti",
+      "50 minuti",
+      "60 minuti",
+      "1 ora e 30 minuti"
+     ],
+     "correct": 2,
+     "explanation": "Differenza di latitudine = 44°10' − 42°40' = 1°30' = 90' = 90 NM. Tempo = distanza / GS = 90 NM / 90 kt = 1 h = 60 minuti. L'opzione 1 ora e 30 minuti confonde 1°30' di latitudine con 1 h 30 min di tempo. Le opzioni 40 e 50 minuti derivano da una differenza di latitudine calcolata male (60 e 75 NM).",
+     "calc": true
+    },
+    {
+     "n": 302,
+     "gid": 200943,
+     "q": "Un aeromobile parte da 02°00'N e vola con TC 180° a una GS di 150 kt per 1 ora e 12 minuti. Quale latitudine raggiunge?",
+     "options": [
+      "01°00'N",
+      "01°00'S",
+      "05°00'N",
+      "05°00'S"
+     ],
+     "correct": 1,
+     "explanation": "Distanza = 150 kt × 1,2 h = 180 NM = 180' = 3°00'. Con TC 180° si va verso Sud: da 2°N si percorrono 2° fino all'equatore e il grado restante nell'emisfero Sud, quindi 01°00'S. L'opzione 01°00'N ignora l'attraversamento dell'equatore. L'opzione 05°00'N applica la variazione verso Nord. L'opzione 05°00'S somma i 3° ai 2° iniziali invece di sottrarli fino all'equatore.",
+     "calc": true
+    },
+    {
+     "n": 303,
+     "gid": 200944,
+     "q": "L'aeroporto A si trova a 45°30'N e l'aeroporto B a 43°50'N, sullo stesso meridiano. Decollando da A alle 10:00 UTC con GS 100 kt, a che ora si arriva in B (tempi di salita e discesa trascurabili)?",
+     "options": [
+      "10:40 UTC",
+      "10:50 UTC",
+      "11:00 UTC",
+      "11:40 UTC"
+     ],
+     "correct": 2,
+     "explanation": "Differenza di latitudine = 45°30' − 43°50' = 1°40' = 100' = 100 NM. Tempo = 100 NM / 100 kt = 1 h, quindi arrivo alle 11:00 UTC. L'opzione 10:40 legge i 40' di latitudine come 40 minuti di volo. L'opzione 10:50 tratta 1°40' come 1,40 gradi decimali (84 NM, circa 50 min). L'opzione 11:40 somma 1 h e 40 min scambiando gradi e primi per ore e minuti.",
+     "calc": true
+    },
+    {
+     "n": 304,
+     "gid": 200945,
+     "q": "Un pilota deve volare verso Nord dal parallelo 40°00'N al parallelo 41°30'N in 45 minuti. Quale GS deve mantenere?",
+     "options": [
+      "90 kt",
+      "120 kt",
+      "135 kt",
+      "150 kt"
+     ],
+     "correct": 1,
+     "explanation": "Differenza di latitudine = 1°30' = 90' = 90 NM. GS = distanza / tempo = 90 NM / 0,75 h = 120 kt. L'opzione 90 kt considera 45 minuti come un'ora intera. L'opzione 135 kt usa 45 min come 2/3 di ora. L'opzione 150 kt deriva da un tempo di 36 minuti.",
+     "calc": true
+    },
+    {
+     "n": 305,
+     "gid": 200946,
+     "q": "Un aeromobile vola lungo l'equatore con TC 090° a una GS di 120 kt per 2 ore, partendo dalla longitudine 010°00'E. Quale longitudine raggiunge?",
+     "options": [
+      "006°00'E",
+      "012°00'E",
+      "018°00'E",
+      "014°00'E"
+     ],
+     "correct": 3,
+     "explanation": "Solo sull'equatore 1' di longitudine vale 1 NM, come 1' di latitudine (altrove si moltiplica per il coseno della latitudine). Distanza = 120 kt × 2 h = 240 NM = 240' = 4°00'. Con TC 090° si va verso Est, quindi 010°00' + 4°00' = 014°00'E. L'opzione 006°00'E applica la variazione verso Ovest. L'opzione 012°00'E corrisponde a 120 NM (una sola ora). L'opzione 018°00'E corrisponde a 480 NM.",
+     "calc": true
     }
    ]
   },

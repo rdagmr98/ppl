@@ -5,8 +5,8 @@ Veloce: tocchi la risposta e vedi subito **verde** se giusta (avanza da sola) o
 **rossa** se sbagliata, indicando quella corretta. Nessun "invia / sei sicuro?".
 
 ## Modalità
-- **Esame completo** — 132 quesiti con la distribuzione ufficiale ENAC per materia.
-- **Esame + fonia inglese** — 152 quesiti (132 + 20 di comunicazioni EN).
+- **Esame completo** — 120 quesiti con la distribuzione ENAC per materia (verbale 30/09/2026), +20 di fonia EN opzionali.
+- **Esame per materie** — solo le materie scelte (es. quelle da ripetere), ognuna col numero di quesiti d'esame.
 - **Allenamento rapido** — 30 quesiti casuali.
 - **Studio per materia** — scegli materia e numero di domande.
 

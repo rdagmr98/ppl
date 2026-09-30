@@ -102,17 +102,44 @@ class _HomeScreenState extends State<HomeScreen> {
         icon: Icons.flight_takeoff,
         color: const Color(0xFF1E88E5),
         title: 'Esame completo',
-        subtitle: '132 quesiti',
-        onTap: () => _start(buildExam(db), 'Esame completo', isExam: true),
+        subtitle: '120 quesiti (+20 fonia EN)',
+        onTap: () => showModalBottomSheet(
+          context: context,
+          backgroundColor: Theme.of(context).colorScheme.surfaceContainerHigh,
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+          ),
+          builder: (_) => _QuickTrainingSheet(
+            title: 'Esame completo',
+            onStart: (includeEnglish) {
+              Navigator.pop(context);
+              _start(buildExam(db, withEnglish: includeEnglish),
+                  includeEnglish ? 'Esame + inglese' : 'Esame completo',
+                  isExam: true);
+            },
+          ),
+        ),
       ),
       _ModeCard(
-        icon: Icons.record_voice_over,
+        icon: Icons.fact_check,
         color: const Color(0xFF26A69A),
-        title: 'Esame + fonia EN',
-        subtitle: '152 quesiti',
-        onTap: () => _start(
-            buildExam(db, withEnglish: true), 'Esame + inglese',
-            isExam: true),
+        title: 'Esame per materie',
+        subtitle: 'Solo le materie da ripetere',
+        onTap: () => showModalBottomSheet(
+          context: context,
+          isScrollControlled: true,
+          backgroundColor: Theme.of(context).colorScheme.surfaceContainerHigh,
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+          ),
+          builder: (_) => _SubjectExamSheet(
+            onStart: (partes) {
+              Navigator.pop(context);
+              _start(buildExam(db, partes: partes), 'Esame per materie',
+                  isExam: true);
+            },
+          ),
+        ),
       ),
       _ModeCard(
         icon: Icons.bolt,
@@ -126,6 +153,7 @@ class _HomeScreenState extends State<HomeScreen> {
             borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
           ),
           builder: (_) => _QuickTrainingSheet(
+            title: 'Allenamento rapido',
             onStart: (includeEnglish) {
               Navigator.pop(context);
               _start(buildMixed(db, 30, includeEnglish: includeEnglish),
@@ -205,7 +233,7 @@ class _HomeScreenState extends State<HomeScreen> {
               crossAxisCount: 2,
               mainAxisSpacing: 12,
               crossAxisSpacing: 12,
-              childAspectRatio: 0.95,
+              childAspectRatio: 0.85,
             ),
             delegate: SliverChildListDelegate(modes),
           ),
@@ -258,11 +286,12 @@ class _ErrorsCard extends StatelessWidget {
 }
 
 /// Bottom sheet con tre opzioni per il ripasso errori.
-/// Sheet di scelta prima di "Allenamento rapido": permette di includere o
-/// escludere le domande di fonia EN (parte 10) dal pool misto.
+/// Sheet di scelta prima di "Allenamento rapido" / "Esame completo": permette
+/// di includere o escludere le domande di fonia EN (parte 10).
 class _QuickTrainingSheet extends StatefulWidget {
+  final String title;
   final void Function(bool includeEnglish) onStart;
-  const _QuickTrainingSheet({required this.onStart});
+  const _QuickTrainingSheet({required this.title, required this.onStart});
 
   @override
   State<_QuickTrainingSheet> createState() => _QuickTrainingSheetState();
@@ -280,8 +309,9 @@ class _QuickTrainingSheetState extends State<_QuickTrainingSheet> {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text('Allenamento rapido',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            Text(widget.title,
+                style: const TextStyle(
+                    fontSize: 18, fontWeight: FontWeight.bold)),
             const SizedBox(height: 12),
             SwitchListTile(
               contentPadding: EdgeInsets.zero,
@@ -296,6 +326,73 @@ class _QuickTrainingSheetState extends State<_QuickTrainingSheet> {
               child: FilledButton(
                 onPressed: () => widget.onStart(_includeEnglish),
                 child: const Text('Inizia'),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Esame solo sulle materie scelte, ognuna col numero ufficiale di quesiti.
+class _SubjectExamSheet extends StatefulWidget {
+  final void Function(Set<int> partes) onStart;
+  const _SubjectExamSheet({required this.onStart});
+
+  @override
+  State<_SubjectExamSheet> createState() => _SubjectExamSheetState();
+}
+
+class _SubjectExamSheetState extends State<_SubjectExamSheet> {
+  final _selected = <int>{};
+
+  @override
+  Widget build(BuildContext context) {
+    final partes = examDistribution.keys.toList()..sort();
+    final total =
+        _selected.fold<int>(0, (sum, p) => sum + examDistribution[p]!);
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text('Esame per materie',
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 4),
+            Text('Quesiti come all\'esame ENAC, promosso con il 75% per materia',
+                style: TextStyle(
+                    fontSize: 12.5,
+                    color: Theme.of(context).colorScheme.onSurfaceVariant)),
+            const SizedBox(height: 8),
+            Flexible(
+              child: ListView(
+                shrinkWrap: true,
+                children: [
+                  for (final p in partes)
+                    CheckboxListTile(
+                      contentPadding: EdgeInsets.zero,
+                      dense: true,
+                      title: Text(subjectNames[p] ?? 'Parte $p'),
+                      subtitle: Text('${examDistribution[p]} quesiti'),
+                      value: _selected.contains(p),
+                      onChanged: (v) => setState(() =>
+                          v == true ? _selected.add(p) : _selected.remove(p)),
+                    ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 12),
+            SizedBox(
+              width: double.infinity,
+              child: FilledButton(
+                onPressed:
+                    _selected.isEmpty ? null : () => widget.onStart(_selected),
+                child: Text(_selected.isEmpty
+                    ? 'Scegli almeno una materia'
+                    : 'Inizia ($total quesiti)'),
               ),
             ),
           ],
@@ -743,13 +840,13 @@ class _ModeCard extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: 46,
-                height: 46,
+                width: 64,
+                height: 64,
                 decoration: BoxDecoration(
                   color: color.withValues(alpha: 0.18),
-                  borderRadius: BorderRadius.circular(13),
+                  borderRadius: BorderRadius.circular(18),
                 ),
-                child: Icon(icon, color: color, size: 34),
+                child: Icon(icon, color: color, size: 48),
               ),
               const SizedBox(height: 10),
               Text(

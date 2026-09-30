@@ -105,21 +105,20 @@ class QuizDb {
 }
 
 /// Distribuzione ufficiale ENAC/EASA dell'esame teorico PPL(A).
-/// PARTE -> numero di quesiti. Totale = 132 (le 9 materie d'esame).
+/// PARTE -> numero di quesiti, da verbale d'esame ENAC del 30/09/2026.
+/// Totale = 120 per le 9 materie, +20 con la fonia inglese (PARTE 10, opzionale).
 const Map<int, int> examDistribution = {
-  1: 20, // Regolamentazione
+  1: 12, // Regolamentazione
   2: 12, // Nozioni generali aeromobili
   3: 12, // Prestazioni di volo e pianificazione
   4: 12, // Prestazioni e limitazioni umane
-  5: 20, // Meteorologia
-  6: 20, // Navigazione
+  5: 16, // Meteorologia
+  6: 16, // Navigazione
   7: 12, // Procedure operative
   8: 12, // Principi del volo
-  9: 12, // Comunicazioni (italiano)
+  9: 16, // Comunicazioni (italiano)
+  10: 20, // Comunicazioni in inglese (opzionale)
 };
-
-/// Quesiti aggiuntivi di fonia inglese (PARTE 10), esame separato.
-const int englishExamCount = 20;
 
 /// Soglia di superamento per materia (75%).
 const double passThreshold = 0.75;
