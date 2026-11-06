@@ -206,16 +206,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
-      _ErrorsCard(
-        onTap: () => showModalBottomSheet(
-          context: context,
-          backgroundColor: Theme.of(context).colorScheme.surfaceContainerHigh,
-          shape: const RoundedRectangleBorder(
-            borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-          ),
-          builder: (_) => _ErrorPickerSheet(db: db),
-        ),
-      ),
+      _ErrorsCard(onTap: () => showErrorPicker(context, db)),
       _ModeCard(
         icon: Icons.travel_explore,
         color: const Color(0xFF43A047),
@@ -246,14 +237,8 @@ class _HomeScreenState extends State<HomeScreen> {
             background: _HeaderArt(),
           ),
         ),
-        SliverToBoxAdapter(
-          child: Padding(
-            padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
-            child: Center(child: _ExplanationModeSelector()),
-          ),
-        ),
         SliverPadding(
-          padding: const EdgeInsets.fromLTRB(16, 0, 16, 24),
+          padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
           sliver: SliverGrid(
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
@@ -293,6 +278,17 @@ class _HomeScreenState extends State<HomeScreen> {
 
 }
 
+
+/// Sheet "Ripasso errori", aperto dalla home e dalle statistiche.
+Future<void> showErrorPicker(BuildContext context, QuizDb db) =>
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Theme.of(context).colorScheme.surfaceContainerHigh,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (_) => _ErrorPickerSheet(db: db),
+    );
 
 /// Card per il ripasso degli errori: apre un bottom sheet con tre opzioni.
 class _ErrorsCard extends StatelessWidget {
@@ -787,10 +783,9 @@ class _ErrorSubjectCountSheet extends StatelessWidget {
   }
 }
 
-/// Selettore a 3 posizioni (sesta cella della griglia home, sotto
-/// _ExplanationModeCard) per decidere quando mostrare la spiegazione durante
-/// il quiz: sempre, solo se sbagliata, oppure mai ("flash", avanza subito
-/// anche su errore).
+/// Selettore a 3 posizioni (header della home, sotto il titolo) per decidere
+/// quando mostrare la spiegazione durante il quiz: sempre, solo se sbagliata,
+/// oppure mai ("flash", avanza subito anche su errore).
 class _ExplanationModeSelector extends StatelessWidget {
   const _ExplanationModeSelector();
 
@@ -808,33 +803,28 @@ class _ExplanationModeSelector extends StatelessWidget {
       builder: (context, mode, _) {
         return Column(
           mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            FittedBox(
-              fit: BoxFit.scaleDown,
-              child: Container(
-                padding: const EdgeInsets.all(4),
-                decoration: BoxDecoration(
-                  color: theme.colorScheme.surfaceContainerHighest,
-                  borderRadius: BorderRadius.circular(25),
-                ),
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    for (final m in ExplanationMode.values)
-                      _segment(context, theme, m, mode),
-                  ],
-                ),
+            Container(
+              padding: const EdgeInsets.all(4),
+              decoration: BoxDecoration(
+                color: theme.colorScheme.surfaceContainerHighest,
+                borderRadius: BorderRadius.circular(25),
+              ),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  for (final m in ExplanationMode.values)
+                    _segment(context, theme, m, mode),
+                ],
               ),
             ),
             const SizedBox(height: 4),
             Text(
               mode.description,
-              textAlign: TextAlign.center,
               maxLines: 1,
-              overflow: TextOverflow.ellipsis,
               style: theme.textTheme.labelSmall
-                  ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
+                  ?.copyWith(color: Colors.white70),
             ),
           ],
         );
@@ -898,10 +888,20 @@ class _HeaderArt extends StatelessWidget {
             alignment: Alignment.centerLeft,
             child: Padding(
               padding: const EdgeInsets.only(left: 16),
-              child: Text(
-                'Quiz PPL(A)',
-                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                    color: Colors.white, fontWeight: FontWeight.bold),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Quiz PPL(A)',
+                    style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                        color: Colors.white, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 10),
+                  const FittedBox(
+                      fit: BoxFit.scaleDown,
+                      child: _ExplanationModeSelector()),
+                ],
               ),
             ),
           ),

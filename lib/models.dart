@@ -71,8 +71,11 @@ class QuizDb {
     required this.subjects,
   });
 
-  int get total =>
-      subjects.fold(0, (sum, s) => sum + s.questions.length);
+  // Esclude la 99 Calcoli, che ripete domande delle altre materie: contata,
+  // la copertura database non arrivava mai al 100%.
+  int get total => subjects
+      .where((s) => s.parte != 99)
+      .fold(0, (sum, s) => sum + s.questions.length);
 
   Subject? byParte(int parte) {
     for (final s in subjects) {

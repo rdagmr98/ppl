@@ -5,6 +5,7 @@ import 'seen_service.dart';
 import 'stats_service.dart';
 import 'ads_service.dart';
 import 'bignami_screen.dart';
+import 'main.dart' show showErrorPicker;
 
 class _SubjectAgg {
   final int parte;
@@ -37,10 +38,14 @@ class _StatsScreenState extends State<StatsScreen> {
 
   late Future<List<QuizAttempt>> _future;
 
+  // Ricarica a ogni ritorno su questa schermata (es. dopo un ripasso errori
+  // avviato da qui): isCurrentOf crea la dipendenza sul cambio di route.
   @override
-  void initState() {
-    super.initState();
-    _future = StatsService.loadAll();
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (ModalRoute.isCurrentOf(context) ?? true) {
+      _future = StatsService.loadAll();
+    }
   }
 
   void _reload() {
@@ -151,6 +156,11 @@ class _StatsScreenState extends State<StatsScreen> {
   // del syllabus, non solo le ultimissime sessioni.
   static const _recentCoverageTarget = 0.15;
 
+  static String _date(DateTime d) => '${d.day}/${d.month}';
+
+  static TextStyle _muted(ThemeData theme, [double size = 12]) =>
+      TextStyle(fontSize: size, color: theme.colorScheme.onSurfaceVariant);
+
   Widget _content(BuildContext context, List<QuizAttempt> attempts) {
     final theme = Theme.of(context);
 
@@ -182,8 +192,11 @@ class _StatsScreenState extends State<StatsScreen> {
         agg.total += entry.value['total']!;
       }
     }
-    final subs = byParte.values.toList()
-      ..sort((a, b) => a.parte.compareTo(b.parte));
+    final subs = byParte.values.toList();
+    // Elenco materie: tutte e 9 d'esame (fonia EN solo se allenata), anche
+    // quelle uscite dalla finestra recente, che restano in grigio.
+    final partes = {for (var p = 1; p <= 9; p++) p, ...byParte.keys}.toList()
+      ..sort();
     final recentAttempts =
         attempts.length > 10 ? attempts.sublist(attempts.length - 10) : attempts;
     final totalCorrectAll = attempts.fold<int>(0, (sum, a) => sum + a.correctCount);
@@ -205,7 +218,11 @@ class _StatsScreenState extends State<StatsScreen> {
       children: [
         _readinessCard(theme, readiness, overallPct, totalCorrect,
             totalQuestions, windowed.length, usedFullHistory, coveragePct),
-        const SizedBox(height: 16),
+        const SizedBox(height: 12),
+        _examsCard(theme, attempts.where((a) => a.isExam).toList()),
+        const SizedBox(height: 12),
+        _errorsCard(theme),
+        const SizedBox(height: 12),
         _dbCoverageCard(theme),
         const SizedBox(height: 28),
         Text('Andamento per materia',
@@ -213,40 +230,32 @@ class _StatsScreenState extends State<StatsScreen> {
                 theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold)),
         const SizedBox(height: 4),
         Text(
-          usedFullHistory
-              ? 'Prontezza per materia su tutti i tentativi disponibili'
-              : 'Prontezza per materia negli ultimi ${windowed.length} '
-                  'tentativi (~$coveragePct% del database)',
-          style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurfaceVariant),
+          '${usedFullHistory ? 'Su tutti i tentativi disponibili' : 'Negli ultimi ${windowed.length} tentativi (~$coveragePct% del database)'}'
+          ' · tocca una materia per il bignami',
+          style: _muted(theme),
         ),
-        const SizedBox(height: 16),
-        SizedBox(height: 220, child: _subjectBarChart(theme, subs)),
-        const SizedBox(height: 16),
-        for (final s in subs) _subjectRow(context, s),
-        const SizedBox(height: 28),
+        const SizedBox(height: 12),
+        for (final p in partes) _subjectRow(context, p, byParte[p]),
         if (attempts.length > 1) ...[
+          const SizedBox(height: 28),
           Text('Andamento nel tempo',
               style: theme.textTheme.titleMedium
                   ?.copyWith(fontWeight: FontWeight.bold)),
           const SizedBox(height: 4),
           Text(
-            'Percentuale corrette negli ultimi ${recentAttempts.length} tentativi, in ordine cronologico',
-            style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurfaceVariant),
+            'Corrette negli ultimi ${recentAttempts.length} tentativi · '
+            'punti bianchi = esami',
+            style: _muted(theme),
           ),
           const SizedBox(height: 16),
           SizedBox(height: 200, child: _trendChart(theme, recentAttempts)),
-          const SizedBox(height: 28),
         ],
-        Text('Totale risposte',
-            style:
-                theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold)),
-        const SizedBox(height: 16),
-        SizedBox(height: 160, child: _overallSection(theme, totalCorrectAll, totalQuestionsAll)),
-        const SizedBox(height: 16),
+        const SizedBox(height: 20),
         Center(
           child: Text(
-            '${attempts.length} tentativi completati',
-            style: TextStyle(color: theme.colorScheme.onSurfaceVariant, fontSize: 12),
+            '${attempts.length} tentativi · $totalQuestionsAll risposte · '
+            '${(totalCorrectAll / totalQuestionsAll * 100).round()}% corrette',
+            style: _muted(theme),
           ),
         ),
         const SizedBox(height: 24),
@@ -359,50 +368,13 @@ class _StatsScreenState extends State<StatsScreen> {
     );
   }
 
-  void _showDbCoverageInfo() {
-    final rows = widget.db.subjects.map((s) {
-      final seen = s.questions.where((q) => SeenService.hasSeen(q.gid)).length;
-      return (name: s.name, seen: seen, total: s.questions.length);
-    }).toList();
-    showDialog<void>(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        title: const Text('Copertura per materia'),
-        content: SizedBox(
-          width: double.maxFinite,
-          child: SingleChildScrollView(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: rows.map((r) {
-                final pct = r.total == 0 ? 0 : (r.seen / r.total * 100).round();
-                return Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 4),
-                  child: Row(
-                    children: [
-                      Expanded(child: Text(r.name)),
-                      Text('${r.seen}/${r.total} ($pct%)'),
-                    ],
-                  ),
-                );
-              }).toList(),
-            ),
-          ),
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx),
-            child: const Text('Chiudi'),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _dbCoverageCard(ThemeData theme) {
-    final seen = SeenService.seenCount;
-    final total = widget.totalDbQuestions;
-    final pct = total == 0 ? 0.0 : (seen / total).clamp(0.0, 1.0);
-    final remaining = (total - seen).clamp(0, total);
+  /// Card compatta comune a esami, errori e copertura.
+  Widget _infoCard(ThemeData theme,
+      {required IconData icon,
+      required Color color,
+      required String title,
+      required List<Widget> body,
+      Widget? trailing}) {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(16),
@@ -413,210 +385,195 @@ class _StatsScreenState extends State<StatsScreen> {
       ),
       child: Row(
         children: [
-          Icon(Icons.library_books_outlined,
-              size: 28, color: theme.colorScheme.primary),
+          Icon(icon, size: 28, color: color),
           const SizedBox(width: 14),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Copertura database',
-                    style: theme.textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w600)),
+                Text(title,
+                    style: theme.textTheme.titleSmall
+                        ?.copyWith(fontWeight: FontWeight.w600)),
                 const SizedBox(height: 4),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(4),
-                  child: LinearProgressIndicator(
-                    value: pct,
-                    minHeight: 8,
-                    color: theme.colorScheme.primary,
-                    backgroundColor: theme.colorScheme.surfaceContainerLow,
-                  ),
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  remaining > 0
-                      ? '$seen / $total domande ($remaining da fare)'
-                      : '$seen / $total domande (completato!)',
-                  style: TextStyle(fontSize: 12, color: theme.colorScheme.onSurfaceVariant),
-                ),
+                ...body,
               ],
             ),
           ),
-          const SizedBox(width: 14),
-          Text('${(pct * 100).round()}%',
-              style: TextStyle(
-                  fontSize: 22,
-                  fontWeight: FontWeight.bold,
-                  color: theme.colorScheme.primary)),
-          IconButton(
-            icon: Icon(Icons.info_outline, color: theme.colorScheme.onSurfaceVariant, size: 20),
-            tooltip: 'Dettagli per materia',
-            onPressed: _showDbCoverageInfo,
-          ),
+          if (trailing != null) ...[const SizedBox(width: 14), trailing],
         ],
       ),
     );
   }
 
-  Widget _subjectBarChart(ThemeData theme, List<_SubjectAgg> subs) {
-    if (subs.isEmpty) return const SizedBox.shrink();
-    return BarChart(
-      BarChartData(
-        maxY: 100,
-        minY: 0,
-        alignment: BarChartAlignment.spaceAround,
-        barTouchData: BarTouchData(
-          touchTooltipData: BarTouchTooltipData(
-            getTooltipColor: (_) => theme.colorScheme.inverseSurface,
-            getTooltipItem: (group, groupIndex, rod, rodIndex) {
-              final s = subs[group.x.toInt()];
-              return BarTooltipItem(
-                '${subjectNames[s.parte] ?? 'Materia ${s.parte}'}\n',
-                TextStyle(
-                    color: theme.colorScheme.onInverseSurface,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 12),
-                children: [
-                  TextSpan(
-                    text: '${s.correct}/${s.total} (${(s.pct * 100).round()}%)',
-                    style: TextStyle(
-                        color: theme.colorScheme.onInverseSurface,
-                        fontWeight: FontWeight.normal,
-                        fontSize: 12),
-                  ),
-                ],
-              );
-            },
-          ),
-        ),
-        titlesData: FlTitlesData(
-          topTitles: const AxisTitles(sideTitles: SideTitles(showTitles: false)),
-          rightTitles: const AxisTitles(sideTitles: SideTitles(showTitles: false)),
-          leftTitles: AxisTitles(
-            sideTitles: SideTitles(
-              showTitles: true,
-              reservedSize: 32,
-              interval: 25,
-              getTitlesWidget: (value, meta) => SideTitleWidget(
-                meta: meta,
-                child: Text('${value.toInt()}',
-                    style:
-                        TextStyle(fontSize: 10, color: theme.colorScheme.onSurfaceVariant)),
-              ),
-            ),
-          ),
-          bottomTitles: AxisTitles(
-            sideTitles: SideTitles(
-              showTitles: true,
-              reservedSize: 28,
-              getTitlesWidget: (value, meta) {
-                final i = value.toInt();
-                if (i < 0 || i >= subs.length) return const SizedBox.shrink();
-                return SideTitleWidget(
-                  meta: meta,
-                  child: Text('P${subs[i].parte}',
-                      style: const TextStyle(fontSize: 11, fontWeight: FontWeight.bold)),
-                );
-              },
-            ),
-          ),
-        ),
-        gridData: FlGridData(
-          show: true,
-          drawVerticalLine: false,
-          horizontalInterval: 25,
-          getDrawingHorizontalLine: (value) => FlLine(
-            color: theme.colorScheme.outlineVariant.withValues(alpha: 0.3),
-            strokeWidth: 1,
-          ),
-        ),
-        borderData: FlBorderData(show: false),
-        extraLinesData: ExtraLinesData(horizontalLines: [
-          HorizontalLine(
-            y: passThreshold * 100,
-            color: _closeAccent,
-            strokeWidth: 2,
-            dashArray: const [8, 4],
-            label: HorizontalLineLabel(
-              show: true,
-              alignment: Alignment.topRight,
-              style: const TextStyle(
-                  color: _closeAccent, fontSize: 10, fontWeight: FontWeight.bold),
-              labelResolver: (line) => '75%',
-            ),
-          ),
-        ]),
-        barGroups: [
-          for (int i = 0; i < subs.length; i++)
-            BarChartGroupData(
-              x: i,
-              barRods: [
-                BarChartRodData(
-                  toY: subs[i].pct * 100,
-                  color: subs[i].passed ? _passColor : _failColor,
-                  width: 18,
-                  borderRadius: BorderRadius.circular(4),
-                  backDrawRodData: BackgroundBarChartRodData(
-                    show: true,
-                    toY: 100,
-                    color: theme.colorScheme.surfaceContainerHighest,
-                  ),
-                ),
-              ],
-            ),
-        ],
+  Widget _bar(ThemeData theme, double value, Color color,
+      {double height = 8, Color? bg}) {
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(4),
+      child: LinearProgressIndicator(
+        value: value,
+        minHeight: height,
+        color: color,
+        backgroundColor: bg ?? theme.colorScheme.surfaceContainerLow,
       ),
     );
   }
 
-  Widget _subjectRow(BuildContext context, _SubjectAgg s) {
+  Widget _examsCard(ThemeData theme, List<QuizAttempt> exams) {
+    final last = exams.isEmpty ? null : exams.last;
+    final recent = exams.length > 10 ? exams.sublist(exams.length - 10) : exams;
+    final passed = exams.where((e) => e.passed).length;
+    return _infoCard(
+      theme,
+      icon: Icons.flight_takeoff,
+      color: _trendColor,
+      title: 'Esami simulati',
+      body: [
+        if (last == null)
+          Text('Nessuno ancora: prova un esame completo o per materie',
+              style: _muted(theme))
+        else ...[
+          Row(
+            children: [
+              for (final e in recent)
+                Container(
+                  width: 10,
+                  height: 10,
+                  margin: const EdgeInsets.only(right: 4),
+                  decoration: BoxDecoration(
+                      color: e.passed ? _passColor : _failColor,
+                      shape: BoxShape.circle),
+                ),
+            ],
+          ),
+          const SizedBox(height: 4),
+          Text(
+            'Superati $passed su ${exams.length} · ultimo '
+            '${(last.pct * 100).round()}% del ${_date(last.timestamp)}',
+            style: _muted(theme),
+          ),
+        ],
+      ],
+    );
+  }
+
+  Widget _errorsCard(ThemeData theme) {
+    final open = SeenService.wrongCount;
+    final recovered = SeenService.recoveredCount;
+    final total = open + recovered;
+    return _infoCard(
+      theme,
+      icon: Icons.error_outline,
+      color: const Color(0xFFD32F2F),
+      title: 'Errori',
+      body: [
+        if (total > 0) ...[
+          _bar(theme, recovered / total, _passColor),
+          const SizedBox(height: 4),
+        ],
+        Text(
+          total == 0
+              ? 'Nessun errore finora'
+              : '$open da ripassare · $recovered recuperati',
+          style: _muted(theme),
+        ),
+      ],
+      trailing: FilledButton.tonal(
+        onPressed: open == 0 ? null : () => showErrorPicker(context, widget.db),
+        child: const Text('Ripassa'),
+      ),
+    );
+  }
+
+  Widget _dbCoverageCard(ThemeData theme) {
+    final seen = SeenService.seenCount;
+    final total = widget.totalDbQuestions;
+    final pct = total == 0 ? 0.0 : (seen / total).clamp(0.0, 1.0);
+    final remaining = (total - seen).clamp(0, total);
+    return _infoCard(
+      theme,
+      icon: Icons.library_books_outlined,
+      color: theme.colorScheme.primary,
+      title: 'Copertura database',
+      body: [
+        _bar(theme, pct, theme.colorScheme.primary),
+        const SizedBox(height: 4),
+        Text(
+          remaining > 0
+              ? '$seen / $total domande viste ($remaining da fare)'
+              : '$seen / $total domande viste (completato!)',
+          style: _muted(theme),
+        ),
+      ],
+      trailing: Text('${(pct * 100).round()}%',
+          style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
+              color: theme.colorScheme.primary)),
+    );
+  }
+
+  Widget _subjectRow(BuildContext context, int parte, _SubjectAgg? s) {
     final theme = Theme.of(context);
-    final name = subjectNames[s.parte] ?? 'Materia ${s.parte}';
-    final col = s.passed ? _passColor : _failColor;
+    final name = subjectNames[parte] ?? 'Materia $parte';
+    final pct = s == null || s.total == 0 ? null : s.pct;
+    final passed = pct != null && pct >= passThreshold;
+    final col = pct == null
+        ? theme.colorScheme.onSurfaceVariant
+        : passed
+            ? _passColor
+            : _failColor;
+    final qs = widget.db.byParte(parte)?.questions ?? const <Question>[];
+    final seen = qs.where((q) => SeenService.hasSeen(q.gid)).length;
     // tocca la materia per ripassarla sul bignami
     return InkWell(
       borderRadius: BorderRadius.circular(8),
       onTap: () => Navigator.of(context).push(MaterialPageRoute(
-          builder: (_) =>
-              BignamiScreen(db: widget.db, initialParte: s.parte))),
+          builder: (_) => BignamiScreen(db: widget.db, initialParte: parte))),
       child: Padding(
-      padding: const EdgeInsets.symmetric(vertical: 6),
-      child: Row(
-        children: [
-          Icon(s.passed ? Icons.check_circle : Icons.cancel, color: col, size: 20),
-          const SizedBox(width: 10),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(name, style: const TextStyle(fontWeight: FontWeight.w500)),
-                const SizedBox(height: 4),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(4),
-                  child: LinearProgressIndicator(
-                    value: s.pct,
-                    minHeight: 6,
-                    color: col,
-                    backgroundColor: theme.colorScheme.surfaceContainerHighest,
-                  ),
-                ),
-              ],
+        padding: const EdgeInsets.symmetric(vertical: 6),
+        child: Row(
+          children: [
+            Icon(
+                pct == null
+                    ? Icons.remove_circle_outline
+                    : passed
+                        ? Icons.check_circle
+                        : Icons.cancel,
+                color: col,
+                size: 20),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(name, style: const TextStyle(fontWeight: FontWeight.w500)),
+                  const SizedBox(height: 4),
+                  _bar(theme, pct ?? 0, col,
+                      height: 6, bg: theme.colorScheme.surfaceContainerHighest),
+                  const SizedBox(height: 3),
+                  Text(
+                      pct == null
+                          ? 'Non allenata di recente · viste $seen/${qs.length}'
+                          : 'Viste $seen/${qs.length} domande',
+                      style: _muted(theme, 11)),
+                ],
+              ),
             ),
-          ),
-          const SizedBox(width: 12),
-          Text('${s.correct}/${s.total}', style: const TextStyle(fontWeight: FontWeight.bold)),
-          const SizedBox(width: 8),
-          SizedBox(
-            width: 44,
-            child: Text('${(s.pct * 100).round()}%',
-                textAlign: TextAlign.end,
-                style: TextStyle(color: col, fontWeight: FontWeight.bold)),
-          ),
-          const SizedBox(width: 6),
-          Icon(Icons.menu_book,
-              size: 18, color: theme.colorScheme.onSurfaceVariant),
-        ],
-      ),
+            const SizedBox(width: 12),
+            Text(pct == null ? '–' : '${s!.correct}/${s.total}',
+                style: const TextStyle(fontWeight: FontWeight.bold)),
+            const SizedBox(width: 8),
+            SizedBox(
+              width: 44,
+              child: Text(pct == null ? '' : '${(pct * 100).round()}%',
+                  textAlign: TextAlign.end,
+                  style: TextStyle(color: col, fontWeight: FontWeight.bold)),
+            ),
+            const SizedBox(width: 6),
+            Icon(Icons.menu_book,
+                size: 18, color: theme.colorScheme.onSurfaceVariant),
+          ],
+        ),
       ),
     );
   }
@@ -636,13 +593,26 @@ class _StatsScreenState extends State<StatsScreen> {
         lineTouchData: LineTouchData(
           touchTooltipData: LineTouchTooltipData(
             getTooltipColor: (_) => theme.colorScheme.inverseSurface,
+            maxContentWidth: 180,
+            fitInsideHorizontally: true,
+            fitInsideVertically: true,
             getTooltipItems: (spots) => [
               for (final spot in spots)
                 LineTooltipItem(
-                  '${spot.y.round()}%',
+                  '${spot.y.round()}%\n',
                   TextStyle(
                       color: theme.colorScheme.onInverseSurface,
                       fontWeight: FontWeight.bold),
+                  children: [
+                    TextSpan(
+                      text: '${attempts[spot.spotIndex].title}\n'
+                          '${_date(attempts[spot.spotIndex].timestamp)}',
+                      style: TextStyle(
+                          color: theme.colorScheme.onInverseSurface,
+                          fontWeight: FontWeight.normal,
+                          fontSize: 12),
+                    ),
+                  ],
                 ),
             ],
           ),
@@ -657,9 +627,7 @@ class _StatsScreenState extends State<StatsScreen> {
               interval: 25,
               getTitlesWidget: (value, meta) => SideTitleWidget(
                 meta: meta,
-                child: Text('${value.toInt()}',
-                    style:
-                        TextStyle(fontSize: 10, color: theme.colorScheme.onSurfaceVariant)),
+                child: Text('${value.toInt()}', style: _muted(theme, 10)),
               ),
             ),
           ),
@@ -670,9 +638,7 @@ class _StatsScreenState extends State<StatsScreen> {
               interval: labelInterval,
               getTitlesWidget: (value, meta) => SideTitleWidget(
                 meta: meta,
-                child: Text('${value.toInt() + 1}',
-                    style:
-                        TextStyle(fontSize: 10, color: theme.colorScheme.onSurfaceVariant)),
+                child: Text('${value.toInt() + 1}', style: _muted(theme, 10)),
               ),
             ),
           ),
@@ -705,93 +671,25 @@ class _StatsScreenState extends State<StatsScreen> {
         lineBarsData: [
           LineChartBarData(
             isCurved: true,
+            preventCurveOverShooting: true,
             color: _trendColor,
             barWidth: 3,
-            dotData: const FlDotData(show: true),
+            dotData: FlDotData(
+              show: true,
+              getDotPainter: (spot, percent, bar, i) => attempts[i].isExam
+                  ? FlDotCirclePainter(
+                      radius: 5,
+                      color: Colors.white,
+                      strokeWidth: 2,
+                      strokeColor: _trendColor)
+                  : FlDotCirclePainter(
+                      radius: 3, color: _trendColor, strokeWidth: 0),
+            ),
             belowBarData: BarAreaData(show: true, color: _trendColor.withValues(alpha: 0.15)),
             spots: spots,
           ),
         ],
       ),
-    );
-  }
-
-  Widget _overallSection(ThemeData theme, int correct, int total) {
-    final wrong = total - correct;
-    if (total == 0) return const SizedBox.shrink();
-    final pct = correct / total;
-    return Row(
-      children: [
-        SizedBox(
-          width: 150,
-          height: 150,
-          child: Stack(
-            alignment: Alignment.center,
-            children: [
-              PieChart(
-                PieChartData(
-                  sectionsSpace: 3,
-                  centerSpaceRadius: 46,
-                  startDegreeOffset: -90,
-                  borderData: FlBorderData(show: false),
-                  sections: [
-                    PieChartSectionData(
-                      value: correct.toDouble(),
-                      color: _passColor,
-                      title: '',
-                      radius: 24,
-                    ),
-                    if (wrong > 0)
-                      PieChartSectionData(
-                        value: wrong.toDouble(),
-                        color: _failColor,
-                        title: '',
-                        radius: 24,
-                      ),
-                  ],
-                ),
-              ),
-              Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text('${(pct * 100).round()}%',
-                      style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
-                  Text('corrette',
-                      style:
-                          TextStyle(fontSize: 11, color: theme.colorScheme.onSurfaceVariant)),
-                ],
-              ),
-            ],
-          ),
-        ),
-        const SizedBox(width: 20),
-        Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              _legendRow(_passColor, 'Corrette', correct),
-              const SizedBox(height: 12),
-              _legendRow(_failColor, 'Errate', wrong),
-            ],
-          ),
-        ),
-      ],
-    );
-  }
-
-  Widget _legendRow(Color color, String label, int count) {
-    return Row(
-      children: [
-        Container(
-            width: 12,
-            height: 12,
-            decoration: BoxDecoration(color: color, shape: BoxShape.circle)),
-        const SizedBox(width: 8),
-        Text(label, style: const TextStyle(fontWeight: FontWeight.w500)),
-        const Spacer(),
-        Text('$count', style: const TextStyle(fontWeight: FontWeight.bold)),
-      ],
     );
   }
 }

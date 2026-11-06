@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'builder.dart';
+import 'models.dart';
 
 /// Esito di un intero tentativo di quiz/esame, salvato per le statistiche.
 class QuizAttempt {
@@ -23,6 +24,12 @@ class QuizAttempt {
   });
 
   double get pct => totalQuestions == 0 ? 0 : correctCount / totalQuestions;
+
+  /// Criterio ENAC: promosso con almeno il 75% in ogni materia.
+  bool get passed =>
+      perSubject.isNotEmpty &&
+      perSubject.values.every((v) =>
+          v['total']! > 0 && v['correct']! / v['total']! >= passThreshold);
 
   factory QuizAttempt.fromAnswers(
       List<AnsweredQuestion> answers, String title, bool isExam,

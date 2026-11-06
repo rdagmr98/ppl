@@ -93,6 +93,9 @@ class SeenService {
 
   static int get wrongNeverRetriedCount => _wrong.difference(_wrongRetried).length;
 
+  /// Errori poi ritentati e risposti giusti, esclusi quelli sbagliati di nuovo.
+  static int get recoveredCount => _wrongHistory.difference(_wrong).length;
+
   static Future<void> clearAll() async {
     _seenCount = {};
     _wrong = {};
