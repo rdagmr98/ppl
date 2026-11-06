@@ -6,6 +6,7 @@ import 'models.dart';
 import 'builder.dart';
 import 'quiz_screen.dart';
 import 'stats_screen.dart';
+import 'stats_service.dart';
 import 'settings_service.dart';
 import 'seen_service.dart';
 import 'database_browser_screen.dart';
@@ -61,11 +62,24 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   late Future<QuizDb> _dbFuture;
+  List<QuizAttempt> _attempts = const [];
 
   @override
   void initState() {
     super.initState();
     _dbFuture = QuizDb.load();
+  }
+
+  // A ogni ritorno sulla home (fine quiz, chiusura sheet) ricarica lo storico:
+  // aggiorna il sottotitolo Statistiche e, col setState, il conteggio errori.
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (ModalRoute.isCurrentOf(context) ?? true) {
+      StatsService.loadAll().then((a) {
+        if (mounted) setState(() => _attempts = a);
+      });
+    }
   }
 
   void _start(List<Question> questions, String title, {bool isExam = false}) {
@@ -105,10 +119,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _buildHome(BuildContext context, QuizDb db) {
     final theme = Theme.of(context);
-    final modes = [
+    // Un colore per sezione (rosso solo per gli errori).
+    const practiceColor = Color(0xFF1E88E5);
+    const studyColor = Color(0xFF26A69A);
+    final practice = [
       _ModeCard(
         icon: Icons.flight_takeoff,
-        color: const Color(0xFF1E88E5),
+        color: practiceColor,
         title: 'Esame completo',
         subtitle: '120 quesiti (+20 fonia EN)',
         onTap: () => showModalBottomSheet(
@@ -130,7 +147,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       _ModeCard(
         icon: Icons.fact_check,
-        color: const Color(0xFF26A69A),
+        color: practiceColor,
         title: 'Esame per materie',
         subtitle: 'Solo le materie da ripetere',
         onTap: () => showModalBottomSheet(
@@ -159,7 +176,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       _ModeCard(
         icon: Icons.bolt,
-        color: const Color(0xFFFFB300),
+        color: practiceColor,
         title: 'Allenamento rapido',
         subtitle: '30 quesiti',
         onTap: () => showModalBottomSheet(
@@ -188,30 +205,21 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
+      _ErrorsCard(onTap: () => showErrorPicker(context, db)),
+    ];
+    final study = [
       _ModeCard(
         icon: Icons.menu_book,
-        color: const Color(0xFF7E57C2),
+        color: studyColor,
         title: 'Studio per materia',
         subtitle: 'Scegli materia',
         onTap: () => _openSubjects(db),
       ),
       _ModeCard(
-        icon: Icons.query_stats,
-        color: const Color(0xFF00ACC1),
-        title: 'Statistiche',
-        subtitle: 'Sei pronto?',
-        onTap: () => Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (_) => StatsScreen(db: db),
-          ),
-        ),
-      ),
-      _ErrorsCard(onTap: () => showErrorPicker(context, db)),
-      _ModeCard(
         icon: Icons.travel_explore,
-        color: const Color(0xFF43A047),
+        color: studyColor,
         title: 'Database per materia',
-        subtitle: 'Domande, risposte e spiegazioni',
+        subtitle: 'Domande e spiegazioni',
         onTap: () => Navigator.of(context).push(
           MaterialPageRoute(
             builder: (_) => DatabaseSubjectPickerScreen(db: db),
@@ -220,14 +228,53 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       _ModeCard(
         icon: Icons.explore,
-        color: const Color(0xFFEF6C00),
+        color: studyColor,
         title: 'Bignami PPL(A)',
         subtitle: 'Formule e regole',
         onTap: () => Navigator.of(context).push(
           MaterialPageRoute(builder: (_) => BignamiScreen(db: db)),
         ),
       ),
+      _ModeCard(
+        icon: Icons.query_stats,
+        color: studyColor,
+        title: 'Statistiche',
+        subtitle: readinessSubtitle(_attempts, db.total),
+        onTap: () => Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (_) => StatsScreen(db: db),
+          ),
+        ),
+      ),
     ];
+    // Card ad altezza fissa (non aspect ratio): la home sta in uno schermo e
+    // il testo non sfora sui telefoni stretti.
+    List<Widget> section(String title, List<Widget> cards) => [
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(20, 14, 16, 8),
+              child: Text(
+                title.toUpperCase(),
+                style: theme.textTheme.labelLarge?.copyWith(
+                    color: theme.colorScheme.onSurfaceVariant,
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 1.2),
+              ),
+            ),
+          ),
+          SliverPadding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            sliver: SliverGrid(
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                mainAxisSpacing: 12,
+                crossAxisSpacing: 12,
+                mainAxisExtent: 140,
+              ),
+              delegate: SliverChildListDelegate(cards),
+            ),
+          ),
+        ];
     return CustomScrollView(
       slivers: [
         SliverAppBar.large(
@@ -237,18 +284,9 @@ class _HomeScreenState extends State<HomeScreen> {
             background: _HeaderArt(),
           ),
         ),
-        SliverPadding(
-          padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
-          sliver: SliverGrid(
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2,
-              mainAxisSpacing: 12,
-              crossAxisSpacing: 12,
-              childAspectRatio: 0.85,
-            ),
-            delegate: SliverChildListDelegate(modes),
-          ),
-        ),
+        ...section('Esercitati', practice),
+        ...section('Studia', study),
+        const SliverToBoxAdapter(child: SizedBox(height: 24)),
         const SliverToBoxAdapter(
           child: PplNativeAd(adUnitId: AdIds.nativeFooter),
         ),
@@ -935,7 +973,7 @@ class _ModeCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.all(14),
+          padding: const EdgeInsets.all(12),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -948,23 +986,28 @@ class _ModeCard extends StatelessWidget {
                 ),
                 child: Icon(icon, color: color, size: 48),
               ),
-              const SizedBox(height: 10),
-              Text(
-                title,
-                textAlign: TextAlign.center,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-                style: const TextStyle(
-                    fontSize: 14.5, fontWeight: FontWeight.bold),
+              const SizedBox(height: 8),
+              // Una riga sola, rimpicciolita se serve: niente ellissi né
+              // overflow nelle card ad altezza fissa.
+              FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  title,
+                  maxLines: 1,
+                  style: const TextStyle(
+                      fontSize: 14.5, fontWeight: FontWeight.bold),
+                ),
               ),
-              const SizedBox(height: 4),
-              Text(
-                subtitle,
-                textAlign: TextAlign.center,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                    fontSize: 11.5, color: theme.colorScheme.onSurfaceVariant),
+              const SizedBox(height: 3),
+              FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  subtitle,
+                  maxLines: 1,
+                  style: TextStyle(
+                      fontSize: 11.5,
+                      color: theme.colorScheme.onSurfaceVariant),
+                ),
               ),
             ],
           ),

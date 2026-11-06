@@ -18,6 +18,66 @@ class _SubjectAgg {
 
 enum _Readiness { ready, close, notReady }
 
+/// Aggregato della finestra recente, comune alla schermata Statistiche e al
+/// sottotitolo della card Statistiche in home.
+class _Summary {
+  // Finestra "recente" per il giudizio di preparazione: non un tempo fisso,
+  // ma un numero di tentativi (dal piu' recente indietro) che copra almeno
+  // il 15% del database di domande — un campione ampio e rappresentativo
+  // del syllabus, non solo le ultimissime sessioni.
+  static const _recentCoverageTarget = 0.15;
+
+  final windowed = <QuizAttempt>[];
+  final byParte = <int, _SubjectAgg>{};
+  var coveredQuestions = 0;
+  var totalCorrect = 0;
+  var totalQuestions = 0;
+
+  _Summary(List<QuizAttempt> attempts, int dbTotal) {
+    final target = (dbTotal * _recentCoverageTarget).round();
+    for (var i = attempts.length - 1;
+        i >= 0 && coveredQuestions < target;
+        i--) {
+      windowed.add(attempts[i]);
+      coveredQuestions += attempts[i].totalQuestions;
+    }
+    for (final a in windowed) {
+      totalCorrect += a.correctCount;
+      totalQuestions += a.totalQuestions;
+      for (final entry in a.perSubject.entries) {
+        final agg =
+            byParte.putIfAbsent(entry.key, () => _SubjectAgg(entry.key));
+        agg.correct += entry.value['correct']!;
+        agg.total += entry.value['total']!;
+      }
+    }
+  }
+
+  double get overallPct =>
+      totalQuestions == 0 ? 0 : totalCorrect / totalQuestions;
+
+  _Readiness get readiness {
+    final allPassed =
+        byParte.isNotEmpty && byParte.values.every((s) => s.passed);
+    if (allPassed && overallPct >= passThreshold) return _Readiness.ready;
+    if (overallPct >= passThreshold - 0.10) return _Readiness.close;
+    return _Readiness.notReady;
+  }
+}
+
+/// Sottotitolo della card Statistiche in home, es. "82% · quasi pronto".
+String readinessSubtitle(List<QuizAttempt> all, int dbTotal) {
+  final attempts = all.where((a) => !a.isErrorReview).toList();
+  if (attempts.isEmpty) return 'Sei pronto?';
+  final s = _Summary(attempts, dbTotal);
+  final label = switch (s.readiness) {
+    _Readiness.ready => 'pronto',
+    _Readiness.close => 'quasi pronto',
+    _Readiness.notReady => 'da migliorare',
+  };
+  return '${(s.overallPct * 100).round()}% · $label';
+}
+
 class StatsScreen extends StatefulWidget {
   final QuizDb db;
   const StatsScreen({super.key, required this.db});
@@ -150,12 +210,6 @@ class _StatsScreenState extends State<StatsScreen> {
     );
   }
 
-  // Finestra "recente" per il giudizio di preparazione: non un tempo fisso,
-  // ma un numero di tentativi (dal piu' recente indietro) che copra almeno
-  // il 15% del database di domande — un campione ampio e rappresentativo
-  // del syllabus, non solo le ultimissime sessioni.
-  static const _recentCoverageTarget = 0.15;
-
   static String _date(DateTime d) => '${d.day}/${d.month}';
 
   static TextStyle _muted(ThemeData theme, [double size = 12]) =>
@@ -164,35 +218,17 @@ class _StatsScreenState extends State<StatsScreen> {
   Widget _content(BuildContext context, List<QuizAttempt> attempts) {
     final theme = Theme.of(context);
 
-    final targetQuestions =
-        (widget.totalDbQuestions * _recentCoverageTarget).round();
-    final windowed = <QuizAttempt>[];
-    var coveredQuestions = 0;
-    for (var i = attempts.length - 1;
-        i >= 0 && coveredQuestions < targetQuestions;
-        i--) {
-      windowed.add(attempts[i]);
-      coveredQuestions += attempts[i].totalQuestions;
-    }
+    final s = _Summary(attempts, widget.totalDbQuestions);
+    final windowed = s.windowed;
+    final byParte = s.byParte;
+    final totalCorrect = s.totalCorrect;
+    final totalQuestions = s.totalQuestions;
+    final overallPct = s.overallPct;
+    final readiness = s.readiness;
     final usedFullHistory = windowed.length == attempts.length;
     final coveragePct = widget.totalDbQuestions == 0
         ? 0
-        : (coveredQuestions / widget.totalDbQuestions * 100).round();
-
-    final Map<int, _SubjectAgg> byParte = {};
-    var totalCorrect = 0;
-    var totalQuestions = 0;
-    for (final a in windowed) {
-      totalCorrect += a.correctCount;
-      totalQuestions += a.totalQuestions;
-      for (final entry in a.perSubject.entries) {
-        final agg =
-            byParte.putIfAbsent(entry.key, () => _SubjectAgg(entry.key));
-        agg.correct += entry.value['correct']!;
-        agg.total += entry.value['total']!;
-      }
-    }
-    final subs = byParte.values.toList();
+        : (s.coveredQuestions / widget.totalDbQuestions * 100).round();
     // Elenco materie: tutte e 9 d'esame (fonia EN solo se allenata), anche
     // quelle uscite dalla finestra recente, che restano in grigio.
     final partes = {for (var p = 1; p <= 9; p++) p, ...byParte.keys}.toList()
@@ -201,17 +237,6 @@ class _StatsScreenState extends State<StatsScreen> {
         attempts.length > 10 ? attempts.sublist(attempts.length - 10) : attempts;
     final totalCorrectAll = attempts.fold<int>(0, (sum, a) => sum + a.correctCount);
     final totalQuestionsAll = attempts.fold<int>(0, (sum, a) => sum + a.totalQuestions);
-    final overallPct = totalQuestions == 0 ? 0.0 : totalCorrect / totalQuestions;
-    final allPassed = subs.isNotEmpty && subs.every((s) => s.passed);
-
-    final _Readiness readiness;
-    if (allPassed && overallPct >= passThreshold) {
-      readiness = _Readiness.ready;
-    } else if (overallPct >= passThreshold - 0.10) {
-      readiness = _Readiness.close;
-    } else {
-      readiness = _Readiness.notReady;
-    }
 
     return ListView(
       padding: const EdgeInsets.all(16),

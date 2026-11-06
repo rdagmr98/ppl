@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:ppl_quiz/stats_screen.dart';
 import 'package:ppl_quiz/stats_service.dart';
 
 QuizAttempt _a(Map<int, Map<String, int>> perSubject) => QuizAttempt(
@@ -25,5 +26,20 @@ void main() {
         }).passed,
         isFalse);
     expect(_a({}).passed, isFalse);
+  });
+
+  test('sottotitolo Statistiche in home', () {
+    expect(readinessSubtitle([], 1000), 'Sei pronto?');
+    final ok = QuizAttempt(
+      timestamp: DateTime(2026),
+      title: 't',
+      isExam: false,
+      totalQuestions: 10,
+      correctCount: 10,
+      perSubject: {
+        1: {'correct': 10, 'total': 10},
+      },
+    );
+    expect(readinessSubtitle([ok], 1000), '100% · pronto');
   });
 }
