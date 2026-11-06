@@ -28,11 +28,37 @@ class SettingsService {
   static final ValueNotifier<ExplanationMode> mode =
       ValueNotifier(ExplanationMode.wrongOnly);
 
+  // Selezioni di materie "ricordate" per sheet (es. 'exam', 'quick').
+  static const _partesPrefix = 'partes_';
+  static final Map<String, Set<int>> _partes = {};
+
   static Future<void> load() async {
     final prefs = await SharedPreferences.getInstance();
     final raw = prefs.getInt(_key);
     if (raw != null && raw >= 0 && raw < ExplanationMode.values.length) {
       mode.value = ExplanationMode.values[raw];
+    }
+    for (final k in prefs.getKeys().where((k) => k.startsWith(_partesPrefix))) {
+      _partes[k.substring(_partesPrefix.length)] = {
+        for (final s in prefs.getStringList(k) ?? const <String>[])
+          ?int.tryParse(s),
+      };
+    }
+  }
+
+  /// Materie salvate con "Ricorda selezione", null se non ricordate.
+  static Set<int>? rememberedPartes(String key) => _partes[key];
+
+  /// Salva [partes] per [key]; null cancella la selezione ricordata.
+  static Future<void> rememberPartes(String key, Set<int>? partes) async {
+    final prefs = await SharedPreferences.getInstance();
+    if (partes == null) {
+      _partes.remove(key);
+      await prefs.remove('$_partesPrefix$key');
+    } else {
+      _partes[key] = {...partes};
+      await prefs.setStringList(
+          '$_partesPrefix$key', [for (final p in partes) '$p']);
     }
   }
 

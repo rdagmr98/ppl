@@ -52,17 +52,14 @@ List<Question> buildStudy(Subject subject, {int? limit}) {
   return pool;
 }
 
-/// Allenamento misto: N domande casuali da tutte le materie.
-/// [includeEnglish] controlla se includere la fonia EN (parte 10).
-List<Question> buildMixed(QuizDb db, int count, {bool includeEnglish = true}) {
-  final rnd = Random();
-  final all = <Question>[];
-  for (final s in db.subjects) {
-    if (s.parte == 99) continue; // Calcoli: duplicherebbe domande gia' nella materia reale
-    if (!includeEnglish && s.parte == 10) continue;
-    all.addAll(s.questions);
-  }
-  final pool = _prioritizeUnseen(all, rnd);
+/// Allenamento misto: N domande casuali dalle materie [partes]
+/// (mai la 99 Calcoli, che duplicherebbe domande gia' nella materia reale).
+List<Question> buildMixed(QuizDb db, int count, Set<int> partes) {
+  final all = [
+    for (final s in db.subjects)
+      if (s.parte != 99 && partes.contains(s.parte)) ...s.questions,
+  ];
+  final pool = _prioritizeUnseen(all, Random());
   return pool.take(min(count, pool.length)).toList();
 }
 

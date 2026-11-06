@@ -1,3 +1,4 @@
+import 'dart:math' show min;
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
@@ -132,7 +133,15 @@ class _HomeScreenState extends State<HomeScreen> {
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
           ),
-          builder: (_) => _SubjectExamSheet(
+          builder: (_) => _SubjectPickSheet(
+            title: 'Esame per materie',
+            subtitle:
+                'Quesiti come all\'esame ENAC, promosso con il 75% per materia',
+            prefsKey: 'exam',
+            initial: const {},
+            itemSubtitle: (p) => '${examDistribution[p]} quesiti',
+            total: (sel) =>
+                sel.fold<int>(0, (sum, p) => sum + examDistribution[p]!),
             onStart: (partes) {
               Navigator.pop(context);
               _start(buildExam(db, partes: partes), 'Esame per materie',
@@ -148,16 +157,25 @@ class _HomeScreenState extends State<HomeScreen> {
         subtitle: '30 quesiti',
         onTap: () => showModalBottomSheet(
           context: context,
+          isScrollControlled: true,
           backgroundColor: Theme.of(context).colorScheme.surfaceContainerHigh,
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
           ),
-          builder: (_) => _QuickTrainingSheet(
+          builder: (_) => _SubjectPickSheet(
             title: 'Allenamento rapido',
-            onStart: (includeEnglish) {
+            subtitle: '30 quesiti misti dalle materie scelte',
+            prefsKey: 'quick',
+            initial: {for (var p = 1; p <= 9; p++) p}, // fonia EN esclusa
+            itemSubtitle: (p) =>
+                '${db.byParte(p)?.questions.length ?? 0} domande',
+            total: (sel) => min(
+                30,
+                sel.fold<int>(0,
+                    (sum, p) => sum + (db.byParte(p)?.questions.length ?? 0))),
+            onStart: (partes) {
               Navigator.pop(context);
-              _start(buildMixed(db, 30, includeEnglish: includeEnglish),
-                  'Allenamento rapido');
+              _start(buildMixed(db, 30, partes), 'Allenamento rapido');
             },
           ),
         ),
@@ -207,7 +225,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: 'Bignami PPL(A)',
         subtitle: 'Formule e regole',
         onTap: () => Navigator.of(context).push(
-          MaterialPageRoute(builder: (_) => const BignamiScreen()),
+          MaterialPageRoute(builder: (_) => BignamiScreen(db: db)),
         ),
       ),
     ];
@@ -285,9 +303,8 @@ class _ErrorsCard extends StatelessWidget {
   }
 }
 
-/// Bottom sheet con tre opzioni per il ripasso errori.
-/// Sheet di scelta prima di "Allenamento rapido" / "Esame completo": permette
-/// di includere o escludere le domande di fonia EN (parte 10).
+/// Sheet di scelta prima di "Esame completo": permette di includere o
+/// escludere le domande di fonia EN (parte 10).
 class _QuickTrainingSheet extends StatefulWidget {
   final String title;
   final void Function(bool includeEnglish) onStart;
@@ -335,23 +352,49 @@ class _QuickTrainingSheetState extends State<_QuickTrainingSheet> {
   }
 }
 
-/// Esame solo sulle materie scelte, ognuna col numero ufficiale di quesiti.
-class _SubjectExamSheet extends StatefulWidget {
+/// Scelta materie (esame per materie, allenamento rapido) con
+/// "Ricorda selezione": la scelta resta salvata per [prefsKey] e la prossima
+/// volta lo sheet si apre gia' compilato.
+class _SubjectPickSheet extends StatefulWidget {
+  final String title;
+  final String subtitle;
+  final String prefsKey;
+  final Set<int> initial; // selezione di default se non ce n'e' una ricordata
+  final String Function(int parte) itemSubtitle;
+  final int Function(Set<int> partes) total;
   final void Function(Set<int> partes) onStart;
-  const _SubjectExamSheet({required this.onStart});
+  const _SubjectPickSheet({
+    required this.title,
+    required this.subtitle,
+    required this.prefsKey,
+    required this.initial,
+    required this.itemSubtitle,
+    required this.total,
+    required this.onStart,
+  });
 
   @override
-  State<_SubjectExamSheet> createState() => _SubjectExamSheetState();
+  State<_SubjectPickSheet> createState() => _SubjectPickSheetState();
 }
 
-class _SubjectExamSheetState extends State<_SubjectExamSheet> {
-  final _selected = <int>{};
+class _SubjectPickSheetState extends State<_SubjectPickSheet> {
+  late final Set<int> _selected = {
+    ...(SettingsService.rememberedPartes(widget.prefsKey) ?? widget.initial)
+  };
+  late bool _remember =
+      SettingsService.rememberedPartes(widget.prefsKey) != null;
+
+  // Salvata a ogni modifica: chiudere lo sheet senza iniziare non la perde.
+  void _update(VoidCallback change) {
+    setState(change);
+    SettingsService.rememberPartes(
+        widget.prefsKey, _remember ? _selected : null);
+  }
 
   @override
   Widget build(BuildContext context) {
     final partes = examDistribution.keys.toList()..sort();
-    final total =
-        _selected.fold<int>(0, (sum, p) => sum + examDistribution[p]!);
+    final all = _selected.length == partes.length;
     return SafeArea(
       child: Padding(
         padding: const EdgeInsets.all(20),
@@ -359,10 +402,22 @@ class _SubjectExamSheetState extends State<_SubjectExamSheet> {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text('Esame per materie',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-            const SizedBox(height: 4),
-            Text('Quesiti come all\'esame ENAC, promosso con il 75% per materia',
+            Row(
+              children: [
+                Expanded(
+                  child: Text(widget.title,
+                      style: const TextStyle(
+                          fontSize: 18, fontWeight: FontWeight.bold)),
+                ),
+                TextButton(
+                  onPressed: () => _update(() => all
+                      ? _selected.clear()
+                      : _selected.addAll(partes)),
+                  child: Text(all ? 'Nessuna' : 'Tutte'),
+                ),
+              ],
+            ),
+            Text(widget.subtitle,
                 style: TextStyle(
                     fontSize: 12.5,
                     color: Theme.of(context).colorScheme.onSurfaceVariant)),
@@ -376,15 +431,25 @@ class _SubjectExamSheetState extends State<_SubjectExamSheet> {
                       contentPadding: EdgeInsets.zero,
                       dense: true,
                       title: Text(subjectNames[p] ?? 'Parte $p'),
-                      subtitle: Text('${examDistribution[p]} quesiti'),
+                      subtitle: Text(widget.itemSubtitle(p)),
                       value: _selected.contains(p),
-                      onChanged: (v) => setState(() =>
+                      onChanged: (v) => _update(() =>
                           v == true ? _selected.add(p) : _selected.remove(p)),
                     ),
                 ],
               ),
             ),
-            const SizedBox(height: 12),
+            const Divider(height: 16),
+            SwitchListTile(
+              contentPadding: EdgeInsets.zero,
+              dense: true,
+              secondary: const Icon(Icons.bookmark_outline),
+              title: const Text('Ricorda selezione'),
+              subtitle: const Text('Riproponi queste materie la prossima volta'),
+              value: _remember,
+              onChanged: (v) => _update(() => _remember = v),
+            ),
+            const SizedBox(height: 8),
             SizedBox(
               width: double.infinity,
               child: FilledButton(
@@ -392,7 +457,7 @@ class _SubjectExamSheetState extends State<_SubjectExamSheet> {
                     _selected.isEmpty ? null : () => widget.onStart(_selected),
                 child: Text(_selected.isEmpty
                     ? 'Scegli almeno una materia'
-                    : 'Inizia ($total quesiti)'),
+                    : 'Inizia (${widget.total(_selected)} quesiti)'),
               ),
             ),
           ],
