@@ -4,6 +4,7 @@ import 'models.dart';
 import 'seen_service.dart';
 import 'stats_service.dart';
 import 'ads_service.dart';
+import 'bignami_screen.dart';
 
 class _SubjectAgg {
   final int parte;
@@ -572,7 +573,13 @@ class _StatsScreenState extends State<StatsScreen> {
     final theme = Theme.of(context);
     final name = subjectNames[s.parte] ?? 'Materia ${s.parte}';
     final col = s.passed ? _passColor : _failColor;
-    return Padding(
+    // tocca la materia per ripassarla sul bignami
+    return InkWell(
+      borderRadius: BorderRadius.circular(8),
+      onTap: () => Navigator.of(context).push(MaterialPageRoute(
+          builder: (_) =>
+              BignamiScreen(db: widget.db, initialParte: s.parte))),
+      child: Padding(
       padding: const EdgeInsets.symmetric(vertical: 6),
       child: Row(
         children: [
@@ -605,7 +612,11 @@ class _StatsScreenState extends State<StatsScreen> {
                 textAlign: TextAlign.end,
                 style: TextStyle(color: col, fontWeight: FontWeight.bold)),
           ),
+          const SizedBox(width: 6),
+          Icon(Icons.menu_book,
+              size: 18, color: theme.colorScheme.onSurfaceVariant),
         ],
+      ),
       ),
     );
   }

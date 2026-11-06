@@ -70,10 +70,17 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _start(List<Question> questions, String title, {bool isExam = false}) {
     if (questions.isEmpty) return;
+    final timed = isExam && SettingsService.examTimer.value;
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (_) =>
-            QuizScreen(questions: questions, title: title, isExam: isExam),
+        builder: (_) => QuizScreen(
+          questions: questions,
+          title: title,
+          isExam: isExam,
+          timeLimit: timed
+              ? Duration(seconds: questions.length * secondsPerQuestion)
+              : null,
+        ),
       ),
     );
   }
@@ -166,6 +173,7 @@ class _HomeScreenState extends State<HomeScreen> {
             title: 'Allenamento rapido',
             subtitle: '30 quesiti misti dalle materie scelte',
             prefsKey: 'quick',
+            partes: [...examDistribution.keys, 99], // 99 = solo calcoli
             initial: {for (var p = 1; p <= 9; p++) p}, // fonia EN esclusa
             itemSubtitle: (p) =>
                 '${db.byParte(p)?.questions.length ?? 0} domande',
@@ -337,6 +345,7 @@ class _QuickTrainingSheetState extends State<_QuickTrainingSheet> {
               value: _includeEnglish,
               onChanged: (v) => setState(() => _includeEnglish = v),
             ),
+            const _ExamTimerSwitch(),
             const SizedBox(height: 12),
             SizedBox(
               width: double.infinity,
@@ -347,6 +356,29 @@ class _QuickTrainingSheetState extends State<_QuickTrainingSheet> {
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+/// Switch "Tempo come all'esame", condiviso dagli sheet d'esame e persistito.
+class _ExamTimerSwitch extends StatelessWidget {
+  const _ExamTimerSwitch();
+
+  @override
+  Widget build(BuildContext context) {
+    return ValueListenableBuilder<bool>(
+      valueListenable: SettingsService.examTimer,
+      builder: (context, on, _) => SwitchListTile(
+        contentPadding: EdgeInsets.zero,
+        dense: true,
+        secondary: const Icon(Icons.timer_outlined),
+        title: const Text('Tempo come all\'esame'),
+        subtitle: Text('${secondsPerQuestion / 60} min a quesito, '
+                'allo scadere la prova si chiude'
+            .replaceFirst('.', ',')),
+        value: on,
+        onChanged: SettingsService.setExamTimer,
       ),
     );
   }
@@ -363,6 +395,7 @@ class _SubjectPickSheet extends StatefulWidget {
   final String Function(int parte) itemSubtitle;
   final int Function(Set<int> partes) total;
   final void Function(Set<int> partes) onStart;
+  final List<int>? partes; // materie elencate, default le 10 d'esame
   const _SubjectPickSheet({
     required this.title,
     required this.subtitle,
@@ -371,6 +404,7 @@ class _SubjectPickSheet extends StatefulWidget {
     required this.itemSubtitle,
     required this.total,
     required this.onStart,
+    this.partes,
   });
 
   @override
@@ -393,7 +427,7 @@ class _SubjectPickSheetState extends State<_SubjectPickSheet> {
 
   @override
   Widget build(BuildContext context) {
-    final partes = examDistribution.keys.toList()..sort();
+    final partes = [...(widget.partes ?? examDistribution.keys)]..sort();
     final all = _selected.length == partes.length;
     return SafeArea(
       child: Padding(
@@ -449,6 +483,7 @@ class _SubjectPickSheetState extends State<_SubjectPickSheet> {
               value: _remember,
               onChanged: (v) => _update(() => _remember = v),
             ),
+            if (widget.prefsKey == 'exam') const _ExamTimerSwitch(),
             const SizedBox(height: 8),
             SizedBox(
               width: double.infinity,

@@ -14,12 +14,14 @@ class QuizScreen extends StatefulWidget {
   final String title;
   final bool isExam;
   final bool isErrorReview;
+  final Duration? timeLimit; // timer d'esame: allo scadere la prova si chiude
   const QuizScreen({
     super.key,
     required this.questions,
     required this.title,
     this.isExam = false,
     this.isErrorReview = false,
+    this.timeLimit,
   });
 
   @override
@@ -38,7 +40,9 @@ class _QuizScreenState extends State<QuizScreen> {
   bool _advancing = false;
   int _correctCount = 0;
   final List<AnsweredQuestion> _answers = [];
-  Timer? _timer;
+  Timer? _timer; // avanzamento automatico dopo la risposta
+  Timer? _clock; // conto alla rovescia del timer d'esame
+  late int _remaining = widget.timeLimit?.inSeconds ?? 0;
   // Gid gia' sbagliati PRIMA di questo tentativo: solo questi contano per il
   // tracciamento "ritentata" a fine quiz, cosi' un errore appena commesso in
   // questo stesso tentativo non si marca da solo come "gia' ritentato".
@@ -50,9 +54,53 @@ class _QuizScreenState extends State<QuizScreen> {
   Question get _q => widget.questions[_index];
 
   @override
+  void initState() {
+    super.initState();
+    if (widget.timeLimit != null) {
+      _clock = Timer.periodic(const Duration(seconds: 1), (_) {
+        setState(() => _remaining--);
+        if (_remaining <= 0) _timeUp();
+      });
+    }
+  }
+
+  @override
   void dispose() {
     _timer?.cancel();
+    _clock?.cancel();
     super.dispose();
+  }
+
+  /// Tempo scaduto: come all'esame, le domande non risposte contano sbagliate.
+  void _timeUp() {
+    _clock?.cancel();
+    if (_advancing) return; // la prova si sta gia' chiudendo
+    _advancing = true;
+    _timer?.cancel();
+    // chiude eventuali dialog "Uscire?" o zoom figura sopra il quiz
+    Navigator.of(context).popUntil((r) => r == ModalRoute.of(context));
+    if (_locked) _answers.add(AnsweredQuestion(_q, _selected!));
+    for (var i = _answers.length; i < widget.questions.length; i++) {
+      _answers.add(AnsweredQuestion(widget.questions[i], -1));
+    }
+    _finish('${widget.title} · tempo scaduto');
+  }
+
+  void _finish(String title) {
+    _clock?.cancel();
+    StatsService.record(
+      QuizAttempt.fromAnswers(_answers, title, widget.isExam,
+          isErrorReview: widget.isErrorReview),
+    );
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(
+        builder: (_) => ResultsScreen(
+          answers: _answers,
+          title: title,
+          isExam: widget.isExam,
+        ),
+      ),
+    );
   }
 
   /// Se in base alla modalita' selezionata (sempre / solo se sbagliata /
@@ -111,19 +159,7 @@ class _QuizScreenState extends State<QuizScreen> {
     _timer?.cancel();
     _answers.add(AnsweredQuestion(_q, _selected ?? -1));
     if (_index >= widget.questions.length - 1) {
-      StatsService.record(
-        QuizAttempt.fromAnswers(_answers, widget.title, widget.isExam,
-            isErrorReview: widget.isErrorReview),
-      );
-      Navigator.of(context).pushReplacement(
-        MaterialPageRoute(
-          builder: (_) => ResultsScreen(
-            answers: _answers,
-            title: widget.title,
-            isExam: widget.isExam,
-          ),
-        ),
-      );
+      _finish(widget.title);
       return;
     }
     setState(() {
@@ -187,6 +223,33 @@ class _QuizScreenState extends State<QuizScreen> {
             ],
           ),
           actions: [
+            if (widget.timeLimit != null)
+              Center(
+                child: Padding(
+                  padding: const EdgeInsets.only(right: 12),
+                  child: Row(
+                    children: [
+                      Icon(Icons.timer_outlined,
+                          size: 18,
+                          color: _remaining < 60 ? _wrongBorder : null),
+                      const SizedBox(width: 4),
+                      Text(
+                        // "0:24:00" -> "24:00", "2:59:59" resta com'e'
+                        Duration(seconds: _remaining)
+                            .toString()
+                            .split('.')
+                            .first
+                            .replaceFirst(RegExp(r'^0:'), ''),
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                            fontFeatures: const [FontFeature.tabularFigures()],
+                            color: _remaining < 60 ? _wrongBorder : null),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             Center(
               child: Padding(
                 padding: const EdgeInsets.only(right: 16),

@@ -28,6 +28,10 @@ class SettingsService {
   static final ValueNotifier<ExplanationMode> mode =
       ValueNotifier(ExplanationMode.wrongOnly);
 
+  // Timer d'esame (Esame completo / per materie), spento di default.
+  static const _timerKey = 'exam_timer_v1';
+  static final ValueNotifier<bool> examTimer = ValueNotifier(false);
+
   // Selezioni di materie "ricordate" per sheet (es. 'exam', 'quick').
   static const _partesPrefix = 'partes_';
   static final Map<String, Set<int>> _partes = {};
@@ -38,6 +42,7 @@ class SettingsService {
     if (raw != null && raw >= 0 && raw < ExplanationMode.values.length) {
       mode.value = ExplanationMode.values[raw];
     }
+    examTimer.value = prefs.getBool(_timerKey) ?? false;
     for (final k in prefs.getKeys().where((k) => k.startsWith(_partesPrefix))) {
       _partes[k.substring(_partesPrefix.length)] = {
         for (final s in prefs.getStringList(k) ?? const <String>[])
@@ -60,6 +65,12 @@ class SettingsService {
       await prefs.setStringList(
           '$_partesPrefix$key', [for (final p in partes) '$p']);
     }
+  }
+
+  static Future<void> setExamTimer(bool on) async {
+    examTimer.value = on;
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool(_timerKey, on);
   }
 
   static Future<void> setMode(ExplanationMode m) async {

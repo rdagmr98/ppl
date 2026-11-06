@@ -52,12 +52,15 @@ List<Question> buildStudy(Subject subject, {int? limit}) {
   return pool;
 }
 
-/// Allenamento misto: N domande casuali dalle materie [partes]
-/// (mai la 99 Calcoli, che duplicherebbe domande gia' nella materia reale).
+/// Allenamento misto: N domande casuali dalle materie [partes]. La 99
+/// Calcoli contiene le stesse domande delle materie reali: dedup per gid.
 List<Question> buildMixed(QuizDb db, int count, Set<int> partes) {
+  final gids = <int>{};
   final all = [
     for (final s in db.subjects)
-      if (s.parte != 99 && partes.contains(s.parte)) ...s.questions,
+      if (partes.contains(s.parte))
+        for (final q in s.questions)
+          if (gids.add(q.gid)) q,
   ];
   final pool = _prioritizeUnseen(all, Random());
   return pool.take(min(count, pool.length)).toList();

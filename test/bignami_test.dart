@@ -22,6 +22,10 @@ void main() {
       for (var p = 1; p <= 10; p++)
         Subject(parte: p, name: subjectNames[p]!, questions: const []),
     ]);
+    // da Statistiche: si apre sulla scheda della materia (P10 -> Comunicazioni)
+    await tester.pumpWidget(MaterialApp(home: BignamiScreen(db: db, initialParte: 10)));
+    expect(DefaultTabController.of(tester.element(find.byType(TabBarView))).index, 8);
+
     await tester.pumpWidget(MaterialApp(home: BignamiScreen(db: db)));
     final tabs = DefaultTabController.of(tester.element(find.byType(TabBarView)));
 

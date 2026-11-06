@@ -120,6 +120,11 @@ const Map<int, int> examDistribution = {
   10: 20, // Comunicazioni in inglese (opzionale)
 };
 
+/// Tempo per quesito del timer d'esame opzionale.
+// ponytail: il verbale ENAC non riporta il tempo, 90 s a quesito (120 = 3 h)
+// e' una stima: cambiare qui se si trova il valore ufficiale.
+const int secondsPerQuestion = 90;
+
 /// Soglia di superamento per materia (75%).
 const double passThreshold = 0.75;
 

@@ -11,12 +11,15 @@ import 'quiz_screen.dart';
 /// sempre disponibile offline.
 class BignamiScreen extends StatelessWidget {
   final QuizDb db;
-  const BignamiScreen({super.key, required this.db});
+  final int? initialParte; // apre la scheda di questa materia (da Statistiche)
+  const BignamiScreen({super.key, required this.db, this.initialParte});
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: _sections.length,
+      initialIndex:
+          max(0, _sections.indexWhere((s) => s.partes.contains(initialParte))),
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Bignami PPL(A)'),
